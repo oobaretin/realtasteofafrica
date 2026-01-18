@@ -74,6 +74,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "9801 Bissonnet St Suite C, Houston TX 77036",
+    "phone": "(713) 995-0070",
     "websiteUrl": "https://sarabellcalabarrestaurant.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=9801%20Bissonnet%20St%20Suite%20C%2C%20Houston%20TX%2077036%2C%20Houston%2C%20TX",
     "highlights": [
@@ -238,6 +239,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "1701 Cypress Creek Pkwy Suite D, Houston TX 77090",
+    "phone": "(832) 532-5461",
     "websiteUrl": "https://www.omalichakitchen.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=1701%20Cypress%20Creek%20Pkwy%20Suite%20D%2C%20Houston%20TX%2077090%2C%20Houston%2C%20TX",
     "highlights": [
@@ -292,6 +294,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "14524 Piping Rock Ln, Houston TX 77077",
+    "phone": "(832) 321-6125",
     "websiteUrl": "https://order.spoton.com/so-delights-delight-kitchen-3629/houston-tx/6532c4ce2cb4e2003dd65e05",
     "mapsUrl": "https://www.openstreetmap.org/search?query=14524%20Piping%20Rock%20Ln%2C%20Houston%20TX%2077077%2C%20Houston%2C%20TX",
     "highlights": [
@@ -382,6 +385,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Katy",
     "state": "TX",
     "addressLine": "25757 Westheimer Pkwy Ste 200, Katy TX 77494",
+    "phone": "(832) 437-8003",
     "websiteUrl": "https://lekki-island-bar-and-grill.square.site/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=25757%20Westheimer%20Pkwy%20Ste%20200%2C%20Katy%20TX%2077494%2C%20Katy%2C%20TX",
     "highlights": [
@@ -399,6 +403,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Katy",
     "state": "TX",
     "addressLine": "2811 W Grand Pkwy N Suite D, Katy TX 77449",
+    "phone": "(832) 437-8074",
     "websiteUrl": "https://ekomieats.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2811%20W%20Grand%20Pkwy%20N%20Suite%20D%2C%20Katy%20TX%2077449%2C%20Katy%2C%20TX",
     "highlights": [
@@ -416,6 +421,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Katy",
     "state": "TX",
     "addressLine": "5403 E 5th St, Katy TX 77493",
+    "phone": "(832) 427-5787",
     "websiteUrl": "http://onyisuya.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=5403%20E%205th%20St%2C%20Katy%20TX%2077493%2C%20Katy%2C%20TX",
     "highlights": [
@@ -452,6 +458,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Sugar Land",
     "state": "TX",
     "addressLine": "2625 Town Center Blvd N, Sugar Land TX 77479",
+    "phone": "(281) 201-7777",
     "websiteUrl": "http://www.myperiperi.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2625%20Town%20Center%20Blvd%20N%2C%20Sugar%20Land%20TX%2077479%2C%20Sugar%20Land%2C%20TX",
     "highlights": [
@@ -526,6 +533,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Sugar Land",
     "state": "TX",
     "addressLine": "11420 Dairy Ashford Rd Suite 104B, Sugar Land TX 77478",
+    "phone": "(281) 240-5565",
     "websiteUrl": "http://www.jollofbeans.com",
     "mapsUrl": "https://www.openstreetmap.org/search?query=11420%20Dairy%20Ashford%20Rd%20Suite%20104B%2C%20Sugar%20Land%20TX%2077478%2C%20Sugar%20Land%2C%20TX",
     "highlights": [
@@ -825,6 +833,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "McAllen",
     "state": "TX",
     "addressLine": "4400 N 23rd St #156, McAllen TX 78504",
+    "phone": "(956) 627-2424",
     "websiteUrl": "http://afrospicergv.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=4400%20N%2023rd%20St%20%23156%2C%20McAllen%20TX%2078504%2C%20McAllen%2C%20TX",
     "highlights": [
@@ -880,6 +889,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Amarillo",
     "state": "TX",
     "addressLine": "2795 SW 45th Ave, Amarillo TX 79110",
+    "phone": "(806) 584-1094",
     "websiteUrl": "https://usmaperx.org/details/felicia-s-african-food-llc-ChIJtZk",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2795%20SW%2045th%20Ave%2C%20Amarillo%20TX%2079110%2C%20Amarillo%2C%20TX",
     "highlights": [
@@ -899,6 +909,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Amarillo",
     "state": "TX",
     "addressLine": "2380 Fritch Hwy, Amarillo TX 79108",
+    "phone": "(806) 418-6660",
     "websiteUrl": "https://somalibulsho.top/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2380%20Fritch%20Hwy%2C%20Amarillo%20TX%2079108%2C%20Amarillo%2C%20TX",
     "highlights": [
@@ -935,6 +946,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Amarillo",
     "state": "TX",
     "addressLine": "3313 S Georgia St, Amarillo TX 79109",
+    "phone": "(806) 553-1994",
     "websiteUrl": "https://www.afroodining.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3313%20S%20Georgia%20St%2C%20Amarillo%20TX%2079109%2C%20Amarillo%2C%20TX",
     "highlights": [
@@ -952,6 +964,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "2923 Walnut Bend Ln, Houston TX 77042",
+    "phone": "(832) 968-4020",
     "websiteUrl": "https://dakarstreetfood.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2923%20Walnut%20Bend%20Ln%2C%20Houston%20TX%2077042%2C%20Houston%2C%20TX",
     "highlights": [
@@ -1244,6 +1257,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Euless",
     "state": "TX",
     "addressLine": "415 N Main St #102, Euless TX 76039",
+    "phone": "(682) 259-2455",
     "websiteUrl": "https://exoticafricangrill.site/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=415%20N%20Main%20St%20%23102%2C%20Euless%20TX%2076039%2C%20Euless%2C%20TX",
     "highlights": [
@@ -1261,6 +1275,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "McKinney",
     "state": "TX",
     "addressLine": "5121 Collin McKinney Pkwy #1100, McKinney TX 75070",
+    "phone": "(469) 301-2398",
     "websiteUrl": "http://osumasuya.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=5121%20Collin%20McKinney%20Pkwy%20%231100%2C%20McKinney%20TX%2075070%2C%20McKinney%2C%20TX",
     "highlights": [
