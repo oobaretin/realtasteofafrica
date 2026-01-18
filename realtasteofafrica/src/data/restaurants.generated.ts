@@ -73,10 +73,12 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "9801 Bissonnet St Suite C, Houston TX 77036",
-    "phone": "(713) 270-1311",
+    "phone": "(713) 814-5253",
     "websiteUrl": "https://sarabellcalabarrestaurant.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=9801%20Bissonnet%20St%20Suite%20C%2C%20Houston%20TX%2077036%2C%20Houston%2C%20TX",
     "highlights": [
+      "Dine-in",
+      "Curbside pickup",
       "Delivery"
     ],
     "writeUp": "West African / Nigerian buffet spot in Houston. Delivery may be available in nearby areas (including around Missouri City) — check delivery apps or their site for current options."
