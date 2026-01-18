@@ -12,6 +12,10 @@ function toTelHref(phone: string) {
   return digits.startsWith("+") ? digits : `+${digits}`
 }
 
+function isFoodTruckListing(highlights: string[]) {
+  return highlights.some((h) => /\b(food\s*truck|pop-?up)\b/i.test(h))
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -34,6 +38,7 @@ export default async function RestaurantDetailPage({
 
   const area = getAreaBySlug(r.areaSlug)
   const writeUp = getRestaurantWriteUp(r)
+  const isFoodTruck = isFoodTruckListing(r.highlights)
 
   return (
     <WpPageShell
@@ -53,7 +58,21 @@ export default async function RestaurantDetailPage({
           </Badge>
           {area ? <Badge>{area.regionLabel}</Badge> : <Badge>{r.areaSlug}</Badge>}
           {r.priceLevel ? <Badge>{"$".repeat(r.priceLevel)}</Badge> : null}
+          {isFoodTruck ? <Badge>Food truck / pop-up</Badge> : null}
         </div>
+
+        {isFoodTruck ? (
+          <div className="rounded-2xl border border-amber-200 bg-amber-50 p-5 shadow-sm">
+            <div className="text-sm font-semibold text-amber-900">
+              Food truck / pop-up
+            </div>
+            <div className="mt-2 text-sm text-amber-900/90">
+              This listing operates as a <span className="font-medium">food truck</span>{" "}
+              and/or <span className="font-medium">pop-up</span>. Hours and locations
+              can change—check their latest updates before heading out.
+            </div>
+          </div>
+        ) : null}
 
         <div className="flex flex-wrap gap-3">
           {r.mapsUrl ? (
