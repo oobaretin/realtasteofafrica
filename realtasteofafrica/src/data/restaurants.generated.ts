@@ -1127,6 +1127,39 @@ export const RESTAURANTS: Restaurant[] = [
     ]
   },
   {
+    "slug": "nigerian-restaurant-african-market-austin-tx",
+    "name": "Nigerian Restaurant / African Market",
+    "cuisines": [
+      "Nigerian",
+      "African Market"
+    ],
+    "areaSlug": "austin",
+    "city": "Austin",
+    "state": "TX",
+    "addressLine": "10805 N Lamar Blvd Ste J, Austin TX 78753",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=10805%20N%20Lamar%20Blvd%20Ste%20J%2C%20Austin%20TX%2078753%2C%20Austin%2C%20TX",
+    "highlights": [
+      "Market"
+    ]
+  },
+  {
+    "slug": "red-sea-kitchen-ethiopian-food-truck-austin-tx",
+    "name": "Red Sea Kitchen (Ethiopian Food Truck)",
+    "cuisines": [
+      "Ethiopian",
+      "Eritrean"
+    ],
+    "areaSlug": "austin",
+    "city": "Austin",
+    "state": "TX",
+    "addressLine": "2902 E Cesar Chavez St, Austin TX 78702",
+    "websiteUrl": "http://www.redseakitchenatx.com",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2902%20E%20Cesar%20Chavez%20St%2C%20Austin%20TX%2078702%2C%20Austin%2C%20TX",
+    "highlights": [
+      "Food truck"
+    ]
+  },
+  {
     "slug": "amen-cafe-eritrean-and-ethiopian-san-antonio-tx",
     "name": "Amen Cafe Eritrean & Ethiopian",
     "cuisines": [
