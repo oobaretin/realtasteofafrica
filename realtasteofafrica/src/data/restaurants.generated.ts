@@ -21,8 +21,7 @@ export const RESTAURANTS: Restaurant[] = [
     "websiteUrl": "https://www.chopnblok.co/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=507%20Westheimer%20Rd%2C%20Houston%20TX%2077006%2C%20Houston%2C%20TX",
     "highlights": [
-      "West African",
-      "Modern Nigerian"
+      "Upscale Fast-Casual"
     ]
   },
   {
@@ -811,7 +810,8 @@ export const RESTAURANTS: Restaurant[] = [
     "websiteUrl": "http://www.vizoslubbock.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3131%2034th%20St%2C%20Lubbock%20TX%2079410%2C%20Lubbock%2C%20TX",
     "highlights": [
-      "Delivery"
+      "Delivery",
+      "Restaurant"
     ],
     "writeUp": "African / Nigerian bar & restaurant in Lubbock. Delivery may be available via DoorDash or Uber Eats — check the apps for current availability."
   },
@@ -976,7 +976,8 @@ export const RESTAURANTS: Restaurant[] = [
     "websiteUrl": "https://dakarstreetfood.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2616%20Blodgett%20St%2C%20Houston%20TX%2077004%2C%20Houston%2C%20TX",
     "highlights": [
-      "Ghost kitchen"
+      "Ghost kitchen",
+      "Ghost Kitchen"
     ]
   },
   {
@@ -1836,7 +1837,7 @@ export const RESTAURANTS: Restaurant[] = [
     "websiteUrl": "https://www.tricescafeandlounge.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=7600%20Eckhert%20Rd%20%233%2C%20San%20Antonio%20TX%2078240%2C%20San%20Antonio%2C%20TX",
     "highlights": [
-      "African"
+      "Lounge/Dining"
     ]
   },
   {
@@ -1951,19 +1952,20 @@ export const RESTAURANTS: Restaurant[] = [
   },
   {
     "slug": "blessliz-african-market-mckinney-tx",
-    "name": "Blessliz African market",
+    "name": "Blessliz African Market & Kitchen",
     "cuisines": [
-      "African Market"
+      "African Market",
+      "Grocery"
     ],
     "areaSlug": "dfw",
     "city": "McKinney",
     "state": "TX",
-    "addressLine": "1502 W University Dr STE 104, McKinney TX 75069",
-    "phone": "(469) 714-0034",
-    "websiteUrl": "http://blesslizcatering.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1502%20W%20University%20Dr%20STE%20104%2C%20McKinney%20TX%2075069%2C%20McKinney%2C%20TX",
+    "addressLine": "1502 W University Dr, McKinney TX 75069",
+    "phone": "(469) 666-4144",
+    "websiteUrl": "https://blessliz.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=1502%20W%20University%20Dr%2C%20McKinney%20TX%2075069%2C%20McKinney%2C%20TX",
     "highlights": [
-      "African Market"
+      "Market-Kitchen"
     ]
   },
   {
@@ -2598,8 +2600,7 @@ export const RESTAURANTS: Restaurant[] = [
     "websiteUrl": "https://theiconkitchen.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=430%20N%20Coit%20Rd%20%23120%2C%20Richardson%20TX%2075080%2C%20Richardson%2C%20TX",
     "highlights": [
-      "Nigerian",
-      "West African"
+      "Lounge/Dining"
     ]
   },
   {
@@ -2612,13 +2613,12 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "dfw",
     "city": "Frisco",
     "state": "TX",
-    "addressLine": "4350 Main St Suite 165, Frisco TX 75034",
+    "addressLine": "4350 Main St Ste 165, Frisco TX 75034",
     "phone": "(972) 987-5195",
     "websiteUrl": "https://www.gidibarandgrill.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=4350%20Main%20St%20Suite%20165%2C%20Frisco%20TX%2075034%2C%20Frisco%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=4350%20Main%20St%20Ste%20165%2C%20Frisco%20TX%2075034%2C%20Frisco%2C%20TX",
     "highlights": [
-      "Nigerian",
-      "West African"
+      "Lounge/Grill"
     ]
   },
   {
@@ -2635,7 +2635,7 @@ export const RESTAURANTS: Restaurant[] = [
     "websiteUrl": "http://ladytkitchen.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=13776%20US-183%20%23115%2C%20Austin%20TX%2078750%2C%20Austin%2C%20TX",
     "highlights": [
-      "African"
+      "Restaurant"
     ]
   },
   {
@@ -2669,8 +2669,8 @@ export const RESTAURANTS: Restaurant[] = [
     "websiteUrl": "https://www.southwestfarmersmarket.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=1011%20E%20Arkansas%20Ln%2C%20Arlington%20TX%2076010%2C%20Arlington%2C%20TX",
     "highlights": [
-      "African Market",
-      "Grocery"
+      "Market-Kitchen",
+      "Multiple locations"
     ]
   },
   {
@@ -2684,12 +2684,12 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Austin",
     "state": "TX",
     "addressLine": "9821 N Interstate Hwy 35, Austin TX 78753",
-    "phone": "(512) 339-6128",
+    "phone": "(817) 462-1617",
     "websiteUrl": "https://www.southwestfarmersmarket.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=9821%20N%20Interstate%20Hwy%2035%2C%20Austin%20TX%2078753%2C%20Austin%2C%20TX",
     "highlights": [
-      "African Market",
-      "Grocery"
+      "Market-Kitchen",
+      "Multiple locations"
     ]
   },
   {
@@ -2703,12 +2703,12 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "San Antonio",
     "state": "TX",
     "addressLine": "6555 Bandera Rd, San Antonio TX 78238",
-    "phone": "(210) 549-0018",
+    "phone": "(817) 462-1617",
     "websiteUrl": "https://www.southwestfarmersmarket.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=6555%20Bandera%20Rd%2C%20San%20Antonio%20TX%2078238%2C%20San%20Antonio%2C%20TX",
     "highlights": [
-      "African Market",
-      "Grocery"
+      "Market-Kitchen",
+      "Multiple locations"
     ]
   },
   {
@@ -2722,12 +2722,12 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "9801 Bissonnet St, Houston TX 77036",
-    "phone": "(713) 774-8822",
+    "phone": "(817) 462-1617",
     "websiteUrl": "https://www.southwestfarmersmarket.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=9801%20Bissonnet%20St%2C%20Houston%20TX%2077036%2C%20Houston%2C%20TX",
     "highlights": [
-      "African Market",
-      "Grocery"
+      "Market-Kitchen",
+      "Multiple locations"
     ]
   },
   {
@@ -2748,7 +2748,7 @@ export const RESTAURANTS: Restaurant[] = [
     ]
   },
   {
-    "slug": "freshnez-kitchen-food-truck-dallas",
+    "slug": "freshnez-kitchen-food-truck-dallas-tx",
     "name": "Freshnez Kitchen (Food Truck)",
     "cuisines": [
       "African"
@@ -2820,25 +2820,6 @@ export const RESTAURANTS: Restaurant[] = [
     ]
   },
   {
-    "slug": "blessliz-african-market-and-kitchen-mckinney",
-    "name": "Blessliz African Market & Kitchen",
-    "cuisines": [
-      "African Market",
-      "Grocery"
-    ],
-    "areaSlug": "dfw",
-    "city": "McKinney",
-    "state": "TX",
-    "addressLine": "1502 W University Dr, McKinney TX 75069",
-    "phone": "(469) 666-4144",
-    "websiteUrl": "https://blessliz.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1502%20W%20University%20Dr%2C%20McKinney%20TX%2075069%2C%20McKinney%2C%20TX",
-    "highlights": [
-      "African Market",
-      "Grocery"
-    ]
-  },
-  {
     "slug": "bukka-grill-frisco",
     "name": "Bukka Grill",
     "cuisines": [
@@ -2853,8 +2834,7 @@ export const RESTAURANTS: Restaurant[] = [
     "websiteUrl": "https://bukkagrill.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=307%20Main%20St%2C%20Frisco%20TX%2075036%2C%20Frisco%2C%20TX",
     "highlights": [
-      "Nigerian",
-      "West African"
+      "Restaurant"
     ]
   },
 ]
