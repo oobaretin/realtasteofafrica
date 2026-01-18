@@ -700,6 +700,26 @@ export const RESTAURANTS: Restaurant[] = [
     ]
   },
   {
+    "slug": "chez-michelle-houston-tx",
+    "name": "Chez Michelle",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "6991 S Texas 6, Houston TX 77083",
+    "phone": "(281) 372-8925",
+    "websiteUrl": "https://chezmichellerestaurant.com",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=6991%20S%20Texas%206%2C%20Houston%20TX%2077083%2C%20Houston%2C%20TX",
+    "highlights": [
+      "Delivery",
+      "Dine-in",
+      "Takeout"
+    ],
+    "writeUp": "West African restaurant in Houston with dine-in and takeout. No-contact delivery may be available — check delivery apps or call for current options."
+  },
+  {
     "slug": "anointed-cuisine-a-taste-of-africa-el-paso-tx",
     "name": "Anointed Cuisine A Taste of Africa",
     "cuisines": [
