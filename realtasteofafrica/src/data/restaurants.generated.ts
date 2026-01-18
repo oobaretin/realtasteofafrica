@@ -1445,6 +1445,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Euless",
     "state": "TX",
     "addressLine": "918 E Harwood Rd Ste B, Euless TX 76039",
+    "phone": "(469) 301-2398",
     "websiteUrl": "http://osumasuya.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=918%20E%20Harwood%20Rd%20Ste%20B%2C%20Euless%20TX%2076039%2C%20Euless%2C%20TX",
     "highlights": [
@@ -1462,6 +1463,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Irving",
     "state": "TX",
     "addressLine": "3003 N Belt Line Rd, Irving TX 75062",
+    "phone": "(972) 514-4444",
     "websiteUrl": "https://africanvillagerestauranttx.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3003%20N%20Belt%20Line%20Rd%2C%20Irving%20TX%2075062%2C%20Irving%2C%20TX",
     "highlights": [
@@ -1513,6 +1515,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Arlington",
     "state": "TX",
     "addressLine": "1900 W Arbrook Blvd Ste 116, Arlington TX 76015",
+    "phone": "(469) 909-0660",
     "websiteUrl": "http://www.cheftemii.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=1900%20W%20Arbrook%20Blvd%20Ste%20116%2C%20Arlington%20TX%2076015%2C%20Arlington%2C%20TX",
     "highlights": [
@@ -1548,6 +1551,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Arlington",
     "state": "TX",
     "addressLine": "2905 E Arkansas Ln Ste 100, Arlington TX 76010",
+    "phone": "(682) 385-9124",
     "websiteUrl": "https://angiewinnerskitchen.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2905%20E%20Arkansas%20Ln%20Ste%20100%2C%20Arlington%20TX%2076010%2C%20Arlington%2C%20TX",
     "highlights": [
@@ -1579,6 +1583,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Lewisville",
     "state": "TX",
     "addressLine": "1320 Main St, Lewisville TX 75067",
+    "phone": "(469) 701-8888",
     "websiteUrl": "https://www.lagos-kitchen.com",
     "mapsUrl": "https://www.openstreetmap.org/search?query=1320%20Main%20St%2C%20Lewisville%20TX%2075067%2C%20Lewisville%2C%20TX",
     "highlights": [
@@ -1704,6 +1709,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "San Antonio",
     "state": "TX",
     "addressLine": "5115 Fredericksburg Rd, San Antonio TX 78229",
+    "phone": "(210) 979-1111",
     "websiteUrl": "https://amen.cafe/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=5115%20Fredericksburg%20Rd%2C%20San%20Antonio%20TX%2078229%2C%20San%20Antonio%2C%20TX",
     "highlights": [
@@ -1953,6 +1959,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Missouri City",
     "state": "TX",
     "addressLine": "15703 Homebriar Ct Bldg 15703, Missouri City TX 77489",
+    "phone": "(832) 987-1899",
     "websiteUrl": "https://www.suyapowerhouse.us/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=15703%20Homebriar%20Ct%20Bldg%2015703%2C%20Missouri%20City%20TX%2077489%2C%20Missouri%20City%2C%20TX",
     "highlights": [
