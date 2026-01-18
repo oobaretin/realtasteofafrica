@@ -1963,4 +1963,523 @@ export const RESTAURANTS: Restaurant[] = [
       "African"
     ]
   },
+  {
+    "slug": "glozi-calabar-restaurant-and-african-cuisine-houston-tx",
+    "name": "Glozi Calabar Restaurant and African Cuisine",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "12825 Westheimer Rd, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=12825%20Westheimer%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "amala-zone-houston-tx",
+    "name": "Amala Zone",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "14815 Westheimer Rd, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=14815%20Westheimer%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "african-tasty-hub-houston-tx",
+    "name": "African Tasty Hub",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "13505 Westheimer Rd, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=13505%20Westheimer%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "rhays-houston-tx",
+    "name": "Rhay's",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "11920 Westheimer Rd #J, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=11920%20Westheimer%20Rd%20%23J%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "honeykaz-houston-tx",
+    "name": "HoneyKaz",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "17113 Westheimer Rd, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=17113%20Westheimer%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "kffo-afro-steakhouse-houston-tx",
+    "name": "KFFO Afro Steakhouse",
+    "cuisines": [
+      "West African",
+      "Steakhouse"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "14097 Westheimer Rd, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=14097%20Westheimer%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African",
+      "Steakhouse"
+    ]
+  },
+  {
+    "slug": "vioni-grill-houston-tx",
+    "name": "Vioni Grill",
+    "cuisines": [
+      "West African",
+      "Grill"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "2703 S Texas 6 Suite 127, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2703%20S%20Texas%206%20Suite%20127%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African",
+      "Grill"
+    ]
+  },
+  {
+    "slug": "crave-suya-houston-tx",
+    "name": "Crave Suya",
+    "cuisines": [
+      "West African",
+      "Suya"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "8633 Richmond Ave, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=8633%20Richmond%20Ave%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African",
+      "Suya"
+    ]
+  },
+  {
+    "slug": "royal-point-houston-tx",
+    "name": "Royal Point",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "3533 S Dairy Ashford Rd Suite I, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=3533%20S%20Dairy%20Ashford%20Rd%20Suite%20I%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "famous-princess-african-kitchen-houston-tx",
+    "name": "Famous Princess African Kitchen",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "17036 W Little York Rd, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=17036%20W%20Little%20York%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "bole-king-houston-tx",
+    "name": "Bole King",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "7030 Addicks Clodine Rd #101, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=7030%20Addicks%20Clodine%20Rd%20%23101%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "dee-titolat-african-restaurant-houston-tx",
+    "name": "Dee Titolat African Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "11965 Bissonnet St Ste 110, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=11965%20Bissonnet%20St%20Ste%20110%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "ewatomi-houston-tx",
+    "name": "Ewatomi",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "15000 Bellaire Blvd Ste Q, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=15000%20Bellaire%20Blvd%20Ste%20Q%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "glam-divine-treats-houston-tx",
+    "name": "Glam Divine Treats",
+    "cuisines": [
+      "West African",
+      "Desserts"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "6788 Synott Rd, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=6788%20Synott%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African",
+      "Desserts"
+    ]
+  },
+  {
+    "slug": "supreme-seafood-and-suya-houston-tx",
+    "name": "Supreme Seafood & Suya",
+    "cuisines": [
+      "West African",
+      "Suya",
+      "Seafood"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "7039 FM 1464 Suite 110, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=7039%20FM%201464%20Suite%20110%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African",
+      "Suya",
+      "Seafood"
+    ]
+  },
+  {
+    "slug": "chef-benny-houston-tx",
+    "name": "Chef Benny",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "10010 Bissonnet St, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=10010%20Bissonnet%20St%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "042-restaurant-houston-tx",
+    "name": "042 Restaurant",
+    "cuisines": [
+      "Nigerian",
+      "Fusion"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "13711 Westheimer Rd B-1, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=13711%20Westheimer%20Rd%20B-1%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "Nigerian",
+      "Fusion"
+    ]
+  },
+  {
+    "slug": "nini-kitchen-houston-tx",
+    "name": "Nini Kitchen",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "7627 Cook Rd, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=7627%20Cook%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "grill-master-african-restaurant-houston-tx",
+    "name": "Grill Master African Restaurant",
+    "cuisines": [
+      "West African",
+      "Grill"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9755 S Kirkwood Rd Ste D, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=9755%20S%20Kirkwood%20Rd%20Ste%20D%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African",
+      "Grill"
+    ]
+  },
+  {
+    "slug": "cafe-de-vivre-houston-tx",
+    "name": "Cafe De Vivre",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "14165 Bissonnet St Suite P, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=14165%20Bissonnet%20St%20Suite%20P%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "traditional-food-restaurant-houston-tx",
+    "name": "Traditional Food Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "11214 Plainfield St #B, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=11214%20Plainfield%20St%20%23B%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "african-food-embassy-houston-tx",
+    "name": "African Food Embassy",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "18311 Clay Rd Suite A4, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=18311%20Clay%20Rd%20Suite%20A4%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "the-afro-eatery-houston-tx",
+    "name": "The Afro Eatery",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "2352 S Dairy Ashford Rd, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2352%20S%20Dairy%20Ashford%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "mama-jollof-restaurant-houston-tx",
+    "name": "Mama Jollof Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "8330 W Bellfort Ave Ste C, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=8330%20W%20Bellfort%20Ave%20Ste%20C%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "united-sisters-houston-tx",
+    "name": "United Sisters",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "8731 W Bellfort Ave, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=8731%20W%20Bellfort%20Ave%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "dsnailspot-houston-tx",
+    "name": "Dsnailspot",
+    "cuisines": [
+      "West African",
+      "Seafood"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9020 S Texas 6, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=9020%20S%20Texas%206%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African",
+      "Seafood"
+    ]
+  },
+  {
+    "slug": "horn-of-africa-houston-tx",
+    "name": "Horn of Africa",
+    "cuisines": [
+      "Ethiopian"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "5930 Renwick Dr Suite B, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=5930%20Renwick%20Dr%20Suite%20B%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "Ethiopian"
+    ]
+  },
+  {
+    "slug": "amazing-street-beans-houston-tx",
+    "name": "Amazing Street Beans",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "18324 Clay Rd, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=18324%20Clay%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "nazareth-cafe-houston-tx",
+    "name": "Nazareth Cafe",
+    "cuisines": [
+      "Ethiopian"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "6617 Chimney Rock Rd, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=6617%20Chimney%20Rock%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "Ethiopian"
+    ]
+  },
+  {
+    "slug": "the-motherland-restaurant-and-grill-houston-tx",
+    "name": "The Motherland Restaurant & Grill",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "10101 Bissonnet St Ste F, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=10101%20Bissonnet%20St%20Ste%20F%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "osite-african-hot-pot-houston-tx",
+    "name": "Osite African Hot Pot",
+    "cuisines": [
+      "West African",
+      "Hot Pot"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "11919 Bissonnet St, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=11919%20Bissonnet%20St%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African",
+      "Hot Pot"
+    ]
+  },
+  {
+    "slug": "eko-bistro-fusion-houston-tx",
+    "name": "EKO Bistro Fusion",
+    "cuisines": [
+      "West African",
+      "Fusion"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "2472 S Texas 6, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2472%20S%20Texas%206%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African",
+      "Fusion"
+    ]
+  },
+  {
+    "slug": "mr-suyaa-houston-tx",
+    "name": "Mr. Suyaa",
+    "cuisines": [
+      "West African",
+      "Suya"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "10887 S Wilcrest Dr, Houston TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=10887%20S%20Wilcrest%20Dr%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African",
+      "Suya"
+    ]
+  },
 ]
