@@ -1,0 +1,26 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
+
+# Env
+.env
+.env.*
+
+# Generated data
+realtasteofafrica/src/data/restaurants.generated.ts
+realtasteofafrica/data/restaurants.osm.csv
+
