@@ -1,0 +1,9 @@
+name,cuisines,areaSlug,city,state,addressLine,phone,websiteUrl,mapsUrl,priceLevel,highlights,slug
+Adulis,eritrean,houston,Houston,TX,5800 Bellaire Boulevard,+1-346-571-0966,,https://www.openstreetmap.org/?mlat=29.7071428&mlon=-95.4842231#map=18/29.7071428/-95.4842231,,,adulis-houston-tx
+Afrikiko,african|West African,houston,Houston,TX,9625 Bissonnet Street,+1-713-773-1400,https://afrikikohouston.com/,https://www.openstreetmap.org/?mlat=29.6743899&mlon=-95.5466475#map=18/29.6743899/-95.5466475,,,afrikiko-houston-tx
+Blue Nile,ethiopian,houston,Houston,TX,3030 Audley Street,+1-713-814-5101,https://www.bluenilerestaurant.com/,https://www.openstreetmap.org/?mlat=29.7376026&mlon=-95.4265318#map=18/29.7376026/-95.4265318,,,blue-nile-houston-tx
+Peli Peli Kitchen,South African,houston,Houston,TX,9090 Katy Freeway,,,https://www.openstreetmap.org/?mlat=29.7852552&mlon=-95.5136307#map=18/29.7852552/-95.5136307,,,peli-peli-kitchen-houston-tx
+Sabo Su,african|nigerian,houston,Houston,TX,9405 Country Creek Drive,+1-832-768-5973,http://sabosuya.com/,https://www.openstreetmap.org/?mlat=29.6775895&mlon=-95.5495342#map=18/29.6775895/-95.5495342,,,sabo-su-houston-tx
+Taste of Nigeria,nigerian,houston,Houston,TX,5959 Richmond Avenue,+1-713-589-9055,https://tasteofnigeria.us/,https://www.openstreetmap.org/?mlat=29.7310474&mlon=-95.4838517#map=18/29.7310474/-95.4838517,,,taste-of-nigeria-houston-tx
+United Sisters,african,houston,Houston,TX,8731 West Bellfort Street,+1-713-995-5545,,https://www.openstreetmap.org/?mlat=29.655011&mlon=-95.5294637#map=18/29.655011/-95.5294637,,,united-sisters-houston-tx
+Zoa Moroccan Kitchen,moroccan,houston,Houston,TX,3303 Richmond Avenue,+1-346-718-2118,https://www.zoamoroccan.com/,https://www.openstreetmap.org/?mlat=29.7337487&mlon=-95.4266476#map=18/29.7337487/-95.4266476,,,zoa-moroccan-kitchen-houston-tx
