@@ -2,6 +2,7 @@ import Link from "next/link"
 
 import { Badge } from "@/components/Badge"
 import { WpPageShell } from "@/components/WpPageShell"
+import { CONTACT_EMAIL } from "@/lib/site"
 
 export const metadata = {
   title: "Contact",
@@ -56,9 +57,9 @@ export default function ContactPage() {
                 <span className="text-slate-500">Email:</span>{" "}
                 <a
                   className="font-medium text-amber-700 hover:text-amber-800"
-                  href="mailto:hello@realtasteofafrica.com"
+                  href={`mailto:${CONTACT_EMAIL}`}
                 >
-                  hello@realtasteofafrica.com
+                  {CONTACT_EMAIL}
                 </a>
               </div>
             </div>
@@ -90,7 +91,7 @@ export default function ContactPage() {
             <div className="mt-5">
               <a
                 className="inline-flex rounded-md bg-amber-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-amber-700"
-                href="mailto:hello@realtasteofafrica.com?subject=Directory%20Question"
+                href={`mailto:${CONTACT_EMAIL}?subject=Directory%20Question`}
               >
                 Email us →
               </a>

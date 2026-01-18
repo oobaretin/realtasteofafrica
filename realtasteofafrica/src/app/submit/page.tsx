@@ -2,6 +2,7 @@ import Link from "next/link"
 
 import { Badge } from "@/components/Badge"
 import { WpPageShell } from "@/components/WpPageShell"
+import { CONTACT_EMAIL } from "@/lib/site"
 
 export const metadata = {
   title: "Submit a restaurant",
@@ -50,7 +51,7 @@ export default function SubmitPage() {
             <div className="mt-5 flex flex-wrap gap-3">
               <a
                 className="rounded-md bg-amber-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-amber-700"
-                href="mailto:hello@realtasteofafrica.com?subject=Restaurant%20Submission"
+                href={`mailto:${CONTACT_EMAIL}?subject=Restaurant%20Submission`}
               >
                 Email a submission
               </a>
