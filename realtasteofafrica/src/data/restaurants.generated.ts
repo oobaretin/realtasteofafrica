@@ -2857,4 +2857,24 @@ export const RESTAURANTS: Restaurant[] = [
       "In-store pickup"
     ]
   },
+  {
+    "slug": "3tees-shawarma-houston-tx",
+    "name": "3tees Shawarma",
+    "cuisines": [
+      "West African",
+      "Shawarma"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "13974 Westheimer Rd, Houston TX 77077",
+    "phone": "(281) 272-6903",
+    "websiteUrl": "https://3teeshawarma.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=13974%20Westheimer%20Rd%2C%20Houston%20TX%2077077%2C%20Houston%2C%20TX",
+    "highlights": [
+      "Dine-in",
+      "Takeout",
+      "Delivery"
+    ]
+  },
 ]
