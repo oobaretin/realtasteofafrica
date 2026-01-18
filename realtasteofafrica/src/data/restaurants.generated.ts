@@ -1057,17 +1057,21 @@ export const RESTAURANTS: Restaurant[] = [
     ]
   },
   {
-    "slug": "lady-t-kitchen-pflugerville-tx",
-    "name": "Lady T Kitchen",
+    "slug": "lady-t-kitchen-african-restaurant-pflugerville-tx",
+    "name": "Lady T Kitchen African Restaurant",
     "cuisines": [
+      "Nigerian",
       "African"
     ],
     "areaSlug": "austin",
     "city": "Pflugerville",
     "state": "TX",
-    "addressLine": "Pflugerville, TX (check maps)",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Lady%20T%20Kitchen%20Pflugerville%20TX",
+    "addressLine": "15608 Spring Hill Ln Ste 102, Pflugerville TX 78660",
+    "phone": "(512) 712-5716",
+    "websiteUrl": "http://www.ladytkitchen.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=15608%20Spring%20Hill%20Ln%20Ste%20102%2C%20Pflugerville%20TX%2078660%2C%20Pflugerville%2C%20TX",
     "highlights": [
+      "Nigerian",
       "African"
     ]
   },
@@ -1080,10 +1084,12 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "austin",
     "city": "Austin",
     "state": "TX",
-    "addressLine": "Austin, TX (check maps)",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=South%20African%20Food%20Affair%20Austin%20TX",
+    "addressLine": "71 Rainey St, Austin TX 78701",
+    "phone": "(425) 780-2481",
+    "websiteUrl": "https://www.safoodaffair.com",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=71%20Rainey%20St%2C%20Austin%20TX%2078701%2C%20Austin%2C%20TX",
     "highlights": [
-      "South African"
+      "Food truck"
     ]
   },
   {
@@ -1105,15 +1111,19 @@ export const RESTAURANTS: Restaurant[] = [
     "slug": "palatable-nigerian-cuisine-austin-tx",
     "name": "Palatable Nigerian Cuisine",
     "cuisines": [
-      "Nigerian"
+      "Nigerian",
+      "African"
     ],
     "areaSlug": "austin",
     "city": "Austin",
     "state": "TX",
-    "addressLine": "Austin, TX (check maps)",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Palatable%20Nigerian%20Cuisine%20Austin%20TX",
+    "addressLine": "5610 N Interstate Hwy 35, Austin TX 78751",
+    "phone": "(512) 383-5738",
+    "websiteUrl": "https://www.orderpalatablecuisine.com",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=5610%20N%20Interstate%20Hwy%2035%2C%20Austin%20TX%2078751%2C%20Austin%2C%20TX",
     "highlights": [
-      "Nigerian"
+      "Nigerian",
+      "African"
     ]
   },
   {
