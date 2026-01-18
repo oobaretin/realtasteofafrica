@@ -40,6 +40,13 @@ export const AREAS: Area[] = [
     description: "African restaurants in San Antonio and nearby areas.",
   },
   {
+    slug: "west-texas",
+    name: "West Texas",
+    regionLabel: "West Texas (Amarillo and beyond)",
+    description:
+      "African restaurants in West Texas, including Amarillo and nearby cities.",
+  },
+  {
     slug: "katy",
     name: "Katy",
     regionLabel: "West Houston, TX",

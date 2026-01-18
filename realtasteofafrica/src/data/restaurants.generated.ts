@@ -699,6 +699,97 @@ export const RESTAURANTS: Restaurant[] = [
     ]
   },
   {
+    "slug": "somali-african-safari-restaurant-amarillo-tx",
+    "name": "Somali African Safari Restaurant",
+    "cuisines": [
+      "Somali",
+      "East African"
+    ],
+    "areaSlug": "west-texas",
+    "city": "Amarillo",
+    "state": "TX",
+    "addressLine": "5945 E Amarillo Blvd, Amarillo TX 79107",
+    "phone": "(806) 471-0490",
+    "websiteUrl": "https://somalisafari.top/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=5945%20E%20Amarillo%20Blvd%2C%20Amarillo%20TX%2079107%2C%20Amarillo%2C%20TX",
+    "highlights": [
+      "Also listed as African Safari Restaurant"
+    ]
+  },
+  {
+    "slug": "felicias-african-food-llc-amarillo-tx",
+    "name": "Felicia’s African Food LLC",
+    "cuisines": [
+      "African",
+      "West African",
+      "Nigerian"
+    ],
+    "areaSlug": "west-texas",
+    "city": "Amarillo",
+    "state": "TX",
+    "addressLine": "2795 SW 45th Ave, Amarillo TX 79110",
+    "websiteUrl": "https://usmaperx.org/details/felicia-s-african-food-llc-ChIJtZk",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2795%20SW%2045th%20Ave%2C%20Amarillo%20TX%2079110%2C%20Amarillo%2C%20TX",
+    "highlights": [
+      "African",
+      "West African",
+      "Nigerian"
+    ]
+  },
+  {
+    "slug": "somali-restaurant-bulsho-amarillo-tx",
+    "name": "Somali Restaurant Bulsho",
+    "cuisines": [
+      "Somali",
+      "African"
+    ],
+    "areaSlug": "west-texas",
+    "city": "Amarillo",
+    "state": "TX",
+    "addressLine": "2380 Fritch Hwy, Amarillo TX 79108",
+    "websiteUrl": "https://somalibulsho.top/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2380%20Fritch%20Hwy%2C%20Amarillo%20TX%2079108%2C%20Amarillo%2C%20TX",
+    "highlights": [
+      "Somali",
+      "African"
+    ]
+  },
+  {
+    "slug": "marhaba-eritrean-and-ethiopian-cuisine-and-market-amarillo-tx",
+    "name": "Marhaba Eritrean and Ethiopian Cuisine and Market",
+    "cuisines": [
+      "Eritrean",
+      "Ethiopian",
+      "Market"
+    ],
+    "areaSlug": "west-texas",
+    "city": "Amarillo",
+    "state": "TX",
+    "addressLine": "2522 Paramount Blvd, Amarillo TX 79109",
+    "phone": "(806) 367-6077",
+    "websiteUrl": "https://marhabarestaurant.wordpress.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2522%20Paramount%20Blvd%2C%20Amarillo%20TX%2079109%2C%20Amarillo%2C%20TX",
+    "highlights": [
+      "Restaurant + Market"
+    ]
+  },
+  {
+    "slug": "afroo-dining-amarillo-tx",
+    "name": "AFROO DINING",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "west-texas",
+    "city": "Amarillo",
+    "state": "TX",
+    "addressLine": "3313 S Georgia St, Amarillo TX 79109",
+    "websiteUrl": "https://www.afroodining.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=3313%20S%20Georgia%20St%2C%20Amarillo%20TX%2079109%2C%20Amarillo%2C%20TX",
+    "highlights": [
+      "African"
+    ]
+  },
+  {
     "slug": "dakar-street-food-houston-tx",
     "name": "Dakar Street Food",
     "cuisines": [
