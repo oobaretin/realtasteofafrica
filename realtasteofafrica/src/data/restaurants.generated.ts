@@ -1093,18 +1093,22 @@ export const RESTAURANTS: Restaurant[] = [
     ]
   },
   {
-    "slug": "oringo-africana-austin-tx",
+    "slug": "oringo-africana-san-antonio-tx",
     "name": "Oringo Africana",
     "cuisines": [
-      "West African"
+      "West African",
+      "Nigerian"
     ],
-    "areaSlug": "austin",
-    "city": "Austin",
+    "areaSlug": "san-antonio",
+    "city": "San Antonio",
     "state": "TX",
-    "addressLine": "Austin, TX (check maps)",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Oringo%20Africana%20Austin%20TX",
+    "addressLine": "111 Probandt St, San Antonio TX 78204",
+    "phone": "(726) 229-7587",
+    "websiteUrl": "http://oringo-africana.square.site/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=111%20Probandt%20St%2C%20San%20Antonio%20TX%2078204%2C%20San%20Antonio%2C%20TX",
     "highlights": [
-      "West African"
+      "West African",
+      "Nigerian"
     ]
   },
   {
