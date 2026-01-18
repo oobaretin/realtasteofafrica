@@ -134,8 +134,9 @@ export const RESTAURANTS: Restaurant[] = [
     "websiteUrl": "https://thesafarirestaurant.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=10014%20Bissonnet%20St%2C%20Houston%20TX%2077036%2C%20Houston%2C%20TX",
     "highlights": [
-      "West African",
-      "Nigerian"
+      "Dine-in",
+      "Takeout",
+      "Delivery"
     ]
   },
   {
