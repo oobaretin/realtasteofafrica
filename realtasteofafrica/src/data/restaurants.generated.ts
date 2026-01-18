@@ -2234,6 +2234,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "7039 FM 1464 Suite 110, Houston TX",
+    "phone": "(281) 914-3336",
     "mapsUrl": "https://www.openstreetmap.org/search?query=7039%20FM%201464%20Suite%20110%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
@@ -2267,6 +2268,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "13711 Westheimer Rd B-1, Houston TX",
+    "phone": "(832) 953-0420",
     "mapsUrl": "https://www.openstreetmap.org/search?query=13711%20Westheimer%20Rd%20B-1%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "Nigerian",
@@ -2299,6 +2301,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "9755 S Kirkwood Rd Ste D, Houston TX",
+    "phone": "(832) 953-3445",
     "mapsUrl": "https://www.openstreetmap.org/search?query=9755%20S%20Kirkwood%20Rd%20Ste%20D%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
@@ -2345,6 +2348,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "18311 Clay Rd Suite A4, Houston TX",
+    "phone": "(832) 953-8891",
     "mapsUrl": "https://www.openstreetmap.org/search?query=18311%20Clay%20Rd%20Suite%20A4%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
@@ -2360,6 +2364,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "2352 S Dairy Ashford Rd, Houston TX",
+    "phone": "(281) 974-2220",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2352%20S%20Dairy%20Ashford%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
@@ -2376,6 +2381,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "8330 W Bellfort Ave Ste C, Houston TX",
+    "phone": "(832) 953-1145",
     "mapsUrl": "https://www.openstreetmap.org/search?query=8330%20W%20Bellfort%20Ave%20Ste%20C%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
@@ -2425,6 +2431,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "5930 Renwick Dr Suite B, Houston TX",
+    "phone": "(713) 772-5900",
     "mapsUrl": "https://www.openstreetmap.org/search?query=5930%20Renwick%20Dr%20Suite%20B%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
@@ -2456,6 +2463,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "6617 Chimney Rock Rd, Houston TX",
+    "phone": "(713) 772-9990",
     "mapsUrl": "https://www.openstreetmap.org/search?query=6617%20Chimney%20Rock%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
