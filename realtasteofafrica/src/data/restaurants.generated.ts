@@ -1755,19 +1755,21 @@ export const RESTAURANTS: Restaurant[] = [
   },
   {
     "slug": "bodija-african-food-market-houston-tx",
-    "name": "Bodija African Food Market",
+    "name": "Texas African Grocery Store",
     "cuisines": [
       "African Market",
-      "Kitchen"
+      "Grocery"
     ],
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "Houston, TX (address varies)",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Bodija%20African%20Food%20Market%20Houston%20TX",
+    "addressLine": "10814 S Gessner Rd, Houston TX 77071",
+    "phone": "(713) 393-7322",
+    "websiteUrl": "https://texasafricangrocery.com",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=10814%20S%20Gessner%20Rd%2C%20Houston%20TX%2077071%2C%20Houston%2C%20TX",
     "highlights": [
       "African Market",
-      "Kitchen"
+      "Grocery"
     ]
   },
   {
