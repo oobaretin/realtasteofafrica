@@ -959,8 +959,9 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "dfw",
     "city": "Plano",
     "state": "TX",
-    "addressLine": "Plano, TX (check maps)",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=West%20African%20Way%20Plano%20TX",
+    "addressLine": "1405 Jupiter Rd #116, Plano TX 75074",
+    "phone": "(972) 424-2634",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=1405%20Jupiter%20Rd%20%23116%2C%20Plano%20TX%2075074%2C%20Plano%2C%20TX",
     "highlights": [
       "West African"
     ]
@@ -969,15 +970,19 @@ export const RESTAURANTS: Restaurant[] = [
     "slug": "jollof-haus-west-african-flavors-allen-tx",
     "name": "Jollof Haus - West African Flavors",
     "cuisines": [
-      "West African"
+      "West African",
+      "Nigerian"
     ],
     "areaSlug": "dfw",
     "city": "Allen",
     "state": "TX",
-    "addressLine": "Allen, TX (check maps)",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Jollof%20Haus%20-%20West%20African%20Flavors%20Allen%20TX",
+    "addressLine": "945 W Stacy Rd #130, Allen TX 75013",
+    "phone": "(972) 332-8185",
+    "websiteUrl": "https://jollofhauz.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=945%20W%20Stacy%20Rd%20%23130%2C%20Allen%20TX%2075013%2C%20Allen%2C%20TX",
     "highlights": [
-      "West African"
+      "West African",
+      "Nigerian"
     ]
   },
   {
@@ -1005,25 +1010,28 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "dfw",
     "city": "McKinney",
     "state": "TX",
-    "addressLine": "McKinney, TX (check maps)",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Osuma%20Suya%20McKinney%20TX",
+    "addressLine": "5121 Collin McKinney Pkwy #1100, McKinney TX 75070",
+    "websiteUrl": "http://osumasuya.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=5121%20Collin%20McKinney%20Pkwy%20%231100%2C%20McKinney%20TX%2075070%2C%20McKinney%2C%20TX",
     "highlights": [
       "Nigerian",
       "Suya"
     ]
   },
   {
-    "slug": "suya-stop-inc-dallas-tx",
+    "slug": "suya-stop-inc-grand-prairie-tx",
     "name": "Suya Stop Inc.",
     "cuisines": [
       "Nigerian",
       "Suya"
     ],
     "areaSlug": "dfw",
-    "city": "Dallas",
+    "city": "Grand Prairie",
     "state": "TX",
-    "addressLine": "Dallas, TX (check maps)",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Suya%20Stop%20Inc.%20Dallas%20TX",
+    "addressLine": "311 E Pioneer Pkwy #B, Grand Prairie TX 75051",
+    "phone": "(817) 966-9808",
+    "websiteUrl": "http://suyastopgp.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=311%20E%20Pioneer%20Pkwy%20%23B%2C%20Grand%20Prairie%20TX%2075051%2C%20Grand%20Prairie%2C%20TX",
     "highlights": [
       "Nigerian",
       "Suya"
@@ -1150,8 +1158,10 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "dfw",
     "city": "Dallas",
     "state": "TX",
-    "addressLine": "Dallas, TX (check maps)",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Yenat%20Guada%20Ethiopian%20Cuisine%20Dallas%20TX",
+    "addressLine": "7015 Greenville Ave Ste 300, Dallas TX 75231",
+    "phone": "(469) 547-1624",
+    "websiteUrl": "https://yenatguada.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=7015%20Greenville%20Ave%20Ste%20300%2C%20Dallas%20TX%2075231%2C%20Dallas%2C%20TX",
     "highlights": [
       "Ethiopian"
     ]
@@ -1165,8 +1175,9 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "dfw",
     "city": "Dallas",
     "state": "TX",
-    "addressLine": "Dallas, TX (check maps)",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Sheba%E2%80%99s%20Ethiopian%20Kitchen%20Dallas%20TX",
+    "addressLine": "8989 Forest Ln, Dallas TX 75243",
+    "phone": "(214) 570-8828",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=8989%20Forest%20Ln%2C%20Dallas%20TX%2075243%2C%20Dallas%2C%20TX",
     "highlights": [
       "Ethiopian"
     ]
