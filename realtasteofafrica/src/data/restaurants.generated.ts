@@ -699,6 +699,123 @@ export const RESTAURANTS: Restaurant[] = [
     ]
   },
   {
+    "slug": "anointed-cuisine-a-taste-of-africa-el-paso-tx",
+    "name": "Anointed Cuisine A Taste of Africa",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "el-paso",
+    "city": "El Paso",
+    "state": "TX",
+    "addressLine": "3140 N Lee Trevino Dr, El Paso TX 79936",
+    "phone": "(915) 307-4834",
+    "websiteUrl": "https://anointedcuisineinc.com",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=3140%20N%20Lee%20Trevino%20Dr%2C%20El%20Paso%20TX%2079936%2C%20El%20Paso%2C%20TX",
+    "highlights": [
+      "Takeout",
+      "Market"
+    ]
+  },
+  {
+    "slug": "dhut-african-restaurant-el-paso-tx",
+    "name": "Dhut African Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "el-paso",
+    "city": "El Paso",
+    "state": "TX",
+    "addressLine": "5757 Will Ruth Ave Ste 310, El Paso TX 79924",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=5757%20Will%20Ruth%20Ave%20Ste%20310%2C%20El%20Paso%20TX%2079924%2C%20El%20Paso%2C%20TX",
+    "highlights": [
+      "African"
+    ]
+  },
+  {
+    "slug": "debizz-kitchen-el-paso-tx",
+    "name": "Debizz Kitchen",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "el-paso",
+    "city": "El Paso",
+    "state": "TX",
+    "addressLine": "12321 Desert Dove Ave, El Paso TX 79938",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=12321%20Desert%20Dove%20Ave%2C%20El%20Paso%20TX%2079938%2C%20El%20Paso%2C%20TX",
+    "highlights": [
+      "African"
+    ]
+  },
+  {
+    "slug": "vizos-african-bar-and-restaurant-lubbock-tx",
+    "name": "Vizo’s African Bar & Restaurant",
+    "cuisines": [
+      "African",
+      "Bar"
+    ],
+    "areaSlug": "west-texas",
+    "city": "Lubbock",
+    "state": "TX",
+    "addressLine": "3131 34th St, Lubbock TX 79410",
+    "phone": "(806) 701-3680",
+    "websiteUrl": "https://www.vizoslubbock.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=3131%2034th%20St%2C%20Lubbock%20TX%2079410%2C%20Lubbock%2C%20TX",
+    "highlights": [
+      "African",
+      "Bar"
+    ]
+  },
+  {
+    "slug": "bettys-kitchen-abilene-tx",
+    "name": "Betty's Kitchen",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "west-texas",
+    "city": "Abilene",
+    "state": "TX",
+    "addressLine": "2510 Button Willow Ave, Abilene TX 79606",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2510%20Button%20Willow%20Ave%2C%20Abilene%20TX%2079606%2C%20Abilene%2C%20TX",
+    "highlights": [
+      "African"
+    ]
+  },
+  {
+    "slug": "afrospice-authentic-african-food-in-the-rgv-mcallen-tx",
+    "name": "Afrospice | Authentic African Food In The RGV",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "south-texas",
+    "city": "McAllen",
+    "state": "TX",
+    "addressLine": "4400 N 23rd St #156, McAllen TX 78504",
+    "websiteUrl": "http://afrospicergv.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=4400%20N%2023rd%20St%20%23156%2C%20McAllen%20TX%2078504%2C%20McAllen%2C%20TX",
+    "highlights": [
+      "African"
+    ]
+  },
+  {
+    "slug": "jc-african-and-caribbean-food-store-mcallen-tx",
+    "name": "JC African & Caribbean Food Store",
+    "cuisines": [
+      "African",
+      "Caribbean",
+      "Market"
+    ],
+    "areaSlug": "south-texas",
+    "city": "McAllen",
+    "state": "TX",
+    "addressLine": "1915 N 10th St Ste A, McAllen TX 78501",
+    "phone": "(956) 682-6700",
+    "websiteUrl": "https://www.africanfoodstores.com",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=1915%20N%2010th%20St%20Ste%20A%2C%20McAllen%20TX%2078501%2C%20McAllen%2C%20TX",
+    "highlights": [
+      "Market"
+    ]
+  },
+  {
     "slug": "somali-african-safari-restaurant-amarillo-tx",
     "name": "Somali African Safari Restaurant",
     "cuisines": [

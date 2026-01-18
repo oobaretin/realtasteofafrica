@@ -47,6 +47,19 @@ export const AREAS: Area[] = [
       "African restaurants in West Texas, including Amarillo and nearby cities.",
   },
   {
+    slug: "el-paso",
+    name: "El Paso",
+    regionLabel: "El Paso, TX",
+    description: "African restaurants and markets in El Paso and nearby areas.",
+  },
+  {
+    slug: "south-texas",
+    name: "South Texas",
+    regionLabel: "South Texas (RGV and beyond)",
+    description:
+      "African restaurants and markets in South Texas, including the Rio Grande Valley.",
+  },
+  {
     slug: "katy",
     name: "Katy",
     regionLabel: "West Houston, TX",
