@@ -2880,4 +2880,25 @@ export const RESTAURANTS: Restaurant[] = [
       "Delivery"
     ]
   },
+  {
+    "slug": "holyland-halal-meat-grocery-houston-tx",
+    "name": "Holyland Halal Meat Grocery",
+    "cuisines": [
+      "African Market",
+      "Kitchen",
+      "Grocery"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9801 Bissonnet St Suite H, Houston TX 77036",
+    "phone": "(713) 271-5000",
+    "websiteUrl": "https://holyland-meat-grocery.edan.io/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=9801%20Bissonnet%20St%20Suite%20H%2C%20Houston%20TX%2077036%2C%20Houston%2C%20TX",
+    "highlights": [
+      "Market",
+      "Kitchen",
+      "Halal"
+    ]
+  },
 ]
