@@ -1975,8 +1975,10 @@ export const RESTAURANTS: Restaurant[] = [
     "addressLine": "12825 Westheimer Rd, Houston TX",
     "mapsUrl": "https://www.openstreetmap.org/search?query=12825%20Westheimer%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
-      "West African"
-    ]
+      "Takeout",
+      "Delivery"
+    ],
+    "writeUp": "West African / Calabar-style food in Houston. Takeout and delivery may be available via third-party platforms (availability can vary)."
   },
   {
     "slug": "amala-zone-houston-tx",
@@ -2321,7 +2323,8 @@ export const RESTAURANTS: Restaurant[] = [
     "addressLine": "2352 S Dairy Ashford Rd, Houston TX",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2352%20S%20Dairy%20Ashford%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
-      "West African"
+      "Dine-in",
+      "Takeout"
     ]
   },
   {
@@ -2336,7 +2339,8 @@ export const RESTAURANTS: Restaurant[] = [
     "addressLine": "8330 W Bellfort Ave Ste C, Houston TX",
     "mapsUrl": "https://www.openstreetmap.org/search?query=8330%20W%20Bellfort%20Ave%20Ste%20C%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
-      "West African"
+      "Dine-in",
+      "Takeout"
     ]
   },
   {
@@ -2383,7 +2387,8 @@ export const RESTAURANTS: Restaurant[] = [
     "addressLine": "5930 Renwick Dr Suite B, Houston TX",
     "mapsUrl": "https://www.openstreetmap.org/search?query=5930%20Renwick%20Dr%20Suite%20B%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
-      "Ethiopian"
+      "Dine-in",
+      "Takeout"
     ]
   },
   {
@@ -2413,7 +2418,8 @@ export const RESTAURANTS: Restaurant[] = [
     "addressLine": "6617 Chimney Rock Rd, Houston TX",
     "mapsUrl": "https://www.openstreetmap.org/search?query=6617%20Chimney%20Rock%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
-      "Ethiopian"
+      "Dine-in",
+      "Takeout"
     ]
   },
   {
@@ -2459,11 +2465,15 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "2472 S Texas 6, Houston TX",
+    "phone": "(281) 888-6671",
+    "websiteUrl": "http://www.ekobistro.org",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2472%20S%20Texas%206%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
-      "West African",
-      "Fusion"
-    ]
+      "Dine-in",
+      "Takeout",
+      "Delivery"
+    ],
+    "writeUp": "Tex-Naija (Nigerian-inspired) fusion in Houston. Dine-in and takeout are available; delivery options may be available via third-party platforms."
   },
   {
     "slug": "mr-suyaa-houston-tx",

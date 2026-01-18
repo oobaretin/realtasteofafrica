@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "eslint .",
     "import:restaurants": "node scripts/import-restaurants-csv.mjs",
-    "fetch:restaurants:osm": "node scripts/fetch-restaurants-osm.mjs"
+    "fetch:restaurants:osm": "node scripts/fetch-restaurants-osm.mjs",
+    "enrich:restaurants:osm": "node scripts/enrich-restaurants-osm.mjs"
   },
   "keywords": [],
   "author": "",
