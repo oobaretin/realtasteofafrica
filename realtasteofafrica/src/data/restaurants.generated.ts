@@ -960,7 +960,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Plano",
     "state": "TX",
     "addressLine": "Plano, TX (check maps)",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Plano%2C%20TX%20(check%20maps)%2C%20Plano%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=West%20African%20Way%20Plano%20TX",
     "highlights": [
       "West African"
     ]
@@ -974,8 +974,8 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "dfw",
     "city": "Allen",
     "state": "TX",
-    "addressLine": "Allen, TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Allen%2C%20TX%2C%20Allen%2C%20TX",
+    "addressLine": "Allen, TX (check maps)",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Jollof%20Haus%20-%20West%20African%20Flavors%20Allen%20TX",
     "highlights": [
       "West African"
     ]
@@ -989,8 +989,8 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "dfw",
     "city": "Euless",
     "state": "TX",
-    "addressLine": "Euless, TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Euless%2C%20TX%2C%20Euless%2C%20TX",
+    "addressLine": "Euless, TX (check maps)",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Exotic%20Grill%20African%20Cuisine%20Euless%20TX",
     "highlights": [
       "African"
     ]
@@ -1005,8 +1005,8 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "dfw",
     "city": "McKinney",
     "state": "TX",
-    "addressLine": "McKinney, TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=McKinney%2C%20TX%2C%20McKinney%2C%20TX",
+    "addressLine": "McKinney, TX (check maps)",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Osuma%20Suya%20McKinney%20TX",
     "highlights": [
       "Nigerian",
       "Suya"
@@ -1022,8 +1022,8 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "dfw",
     "city": "Dallas",
     "state": "TX",
-    "addressLine": "Dallas, TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Dallas%2C%20TX%2C%20Dallas%2C%20TX",
+    "addressLine": "Dallas, TX (check maps)",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Suya%20Stop%20Inc.%20Dallas%20TX",
     "highlights": [
       "Nigerian",
       "Suya"
@@ -1038,8 +1038,8 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "austin",
     "city": "Pflugerville",
     "state": "TX",
-    "addressLine": "Pflugerville, TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Pflugerville%2C%20TX%2C%20Pflugerville%2C%20TX",
+    "addressLine": "Pflugerville, TX (check maps)",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Lady%20T%20Kitchen%20Pflugerville%20TX",
     "highlights": [
       "African"
     ]
@@ -1053,8 +1053,8 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "austin",
     "city": "Austin",
     "state": "TX",
-    "addressLine": "Austin, TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Austin%2C%20TX%2C%20Austin%2C%20TX",
+    "addressLine": "Austin, TX (check maps)",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=South%20African%20Food%20Affair%20Austin%20TX",
     "highlights": [
       "South African"
     ]
@@ -1068,8 +1068,8 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "austin",
     "city": "Austin",
     "state": "TX",
-    "addressLine": "Austin, TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Austin%2C%20TX%2C%20Austin%2C%20TX",
+    "addressLine": "Austin, TX (check maps)",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Oringo%20Africana%20Austin%20TX",
     "highlights": [
       "West African"
     ]
@@ -1083,8 +1083,8 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "austin",
     "city": "Austin",
     "state": "TX",
-    "addressLine": "Austin, TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Austin%2C%20TX%2C%20Austin%2C%20TX",
+    "addressLine": "Austin, TX (check maps)",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Palatable%20Nigerian%20Cuisine%20Austin%20TX",
     "highlights": [
       "Nigerian"
     ]
@@ -1135,7 +1135,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "Houston, TX (address varies)",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Houston%2C%20TX%20(address%20varies)%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Bodija%20African%20Food%20Market%20Houston%20TX",
     "highlights": [
       "African Market",
       "Kitchen"
@@ -1151,7 +1151,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Dallas",
     "state": "TX",
     "addressLine": "Dallas, TX (check maps)",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Dallas%2C%20TX%20(check%20maps)%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Yenat%20Guada%20Ethiopian%20Cuisine%20Dallas%20TX",
     "highlights": [
       "Ethiopian"
     ]
@@ -1166,7 +1166,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Dallas",
     "state": "TX",
     "addressLine": "Dallas, TX (check maps)",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Dallas%2C%20TX%20(check%20maps)%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Sheba%E2%80%99s%20Ethiopian%20Kitchen%20Dallas%20TX",
     "highlights": [
       "Ethiopian"
     ]

@@ -54,6 +54,39 @@ function toOsmSearchUrl(query) {
   return `https://www.openstreetmap.org/search?query=${encodeURIComponent(q)}`
 }
 
+function isLikelyStreetAddress(addressLine) {
+  const s = String(addressLine ?? "").trim()
+  if (!s) return false
+  // Heuristic: "real" addresses almost always have a number or common street tokens.
+  return (
+    /\d/.test(s) ||
+    /\b(street|st|road|rd|avenue|ave|boulevard|blvd|drive|dr|lane|ln|pkwy|parkway|hwy|highway|suite|ste|unit|#)\b/i.test(
+      s
+    )
+  )
+}
+
+function normalizeAddressLine(addressLine, city, state) {
+  const addr = String(addressLine ?? "").trim()
+  if (!addr) return addr
+
+  const cityNorm = String(city ?? "").trim()
+  const stateNorm = String(state ?? "").trim()
+
+  // If the address is only a city/state placeholder, make it explicit for UX.
+  const isCityOnly =
+    (cityNorm &&
+      (addr === `${cityNorm}, ${stateNorm}` ||
+        (stateNorm === "TX" && addr === `${cityNorm}, TX`))) ||
+    (stateNorm === "TX" && /,\s*TX\s*$/i.test(addr) && !isLikelyStreetAddress(addr))
+
+  if (isCityOnly && !/\(check maps\)/i.test(addr)) {
+    return `${addr} (check maps)`
+  }
+
+  return addr
+}
+
 function normalizeWriteUp(value) {
   const raw = String(value ?? "").trim()
   if (!raw) return undefined
@@ -107,6 +140,11 @@ function toRestaurantRecord(row, idx) {
   const slug = slugFromCsv ? slugify(slugFromCsv) : slugify(`${name}-${city}`)
   if (!slug) throw new Error(`Row ${idx}: slug could not be generated`)
 
+  const addressLine = normalizeAddressLine(row.addressLine, city, state)
+  const mapsQuery = isLikelyStreetAddress(addressLine)
+    ? `${addressLine}, ${city}, ${state}`
+    : `${name} ${city} ${state}`
+
   return {
     slug,
     name,
@@ -114,12 +152,10 @@ function toRestaurantRecord(row, idx) {
     areaSlug: String(row.areaSlug).trim(),
     city,
     state,
-    addressLine: String(row.addressLine).trim(),
+    addressLine,
     phone: asOptionalString(row.phone),
     websiteUrl: asOptionalString(row.websiteUrl),
-    mapsUrl:
-      asOptionalString(row.mapsUrl) ??
-      toOsmSearchUrl(`${String(row.addressLine).trim()}, ${city}, ${state}`),
+    mapsUrl: asOptionalString(row.mapsUrl) ?? toOsmSearchUrl(mapsQuery),
     priceLevel: asOptionalPriceLevel(row.priceLevel),
     highlights: finalHighlights,
     writeUp: normalizeWriteUp(row.writeUp),
