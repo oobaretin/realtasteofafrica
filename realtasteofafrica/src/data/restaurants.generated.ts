@@ -1019,6 +1019,25 @@ export const RESTAURANTS: Restaurant[] = [
     ]
   },
   {
+    "slug": "osuma-suya-houston-tx",
+    "name": "Osuma Suya",
+    "cuisines": [
+      "Nigerian",
+      "Suya"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "3306 Highway 6 S Unit 100, Houston TX 77082",
+    "phone": "(346) 357-3778",
+    "websiteUrl": "http://osumasuya.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=3306%20Highway%206%20S%20Unit%20100%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
+    "highlights": [
+      "Nigerian",
+      "Suya"
+    ]
+  },
+  {
     "slug": "suya-stop-inc-grand-prairie-tx",
     "name": "Suya Stop Inc.",
     "cuisines": [
