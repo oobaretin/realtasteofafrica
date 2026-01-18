@@ -1772,7 +1772,7 @@ export const RESTAURANTS: Restaurant[] = [
   },
   {
     "slug": "bodija-african-food-market-houston-tx",
-    "name": "Texas African Grocery Store",
+    "name": "Bodija Foods",
     "cuisines": [
       "African Market",
       "Grocery"
