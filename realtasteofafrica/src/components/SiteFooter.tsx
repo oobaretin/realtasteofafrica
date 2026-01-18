@@ -31,6 +31,9 @@ export function SiteFooter() {
           <Link className="text-slate-600 hover:text-slate-900" href="/submit">
             Submit a restaurant
           </Link>
+          <Link className="text-slate-600 hover:text-slate-900" href="/claim">
+            Claim a listing
+          </Link>
           <Link className="text-slate-600 hover:text-slate-900" href="/contact">
             Contact
           </Link>

@@ -11,6 +11,7 @@ const NAV_ITEMS: NavItem[] = [
   { href: "/restaurants", label: "Browse" },
   { href: "/areas/houston", label: "Houston Area" },
   { href: "/submit", label: "Submit" },
+  { href: "/claim", label: "Claim" },
   { href: "/contact", label: "Contact" },
 ]
 
