@@ -21,18 +21,6 @@ export function WpSidebar() {
           ))}
         </ul>
       </Widget>
-
-      <Widget title="Submit a restaurant">
-        <p className="text-sm text-slate-700">
-          Know a great African restaurant we should list?
-        </p>
-        <Link
-          className="mt-3 inline-flex rounded-md bg-amber-600 px-3 py-2 text-sm font-semibold text-white hover:bg-amber-700"
-          href="/submit"
-        >
-          Submit →
-        </Link>
-      </Widget>
     </aside>
   )
 }
