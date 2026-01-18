@@ -75,9 +75,9 @@ export const RESTAURANTS: Restaurant[] = [
     "websiteUrl": "https://sarabellcalabarrestaurant.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=9801%20Bissonnet%20St%20Suite%20C%2C%20Houston%20TX%2077036%2C%20Houston%2C%20TX",
     "highlights": [
-      "West African",
-      "Nigerian"
-    ]
+      "Delivery"
+    ],
+    "writeUp": "West African / Nigerian buffet spot in Houston. Delivery may be available in nearby areas (including around Missouri City) — check delivery apps or their site for current options."
   },
   {
     "slug": "afrikiko-houston-tx",
@@ -325,8 +325,96 @@ export const RESTAURANTS: Restaurant[] = [
     "websiteUrl": "https://lagosbuka.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=4031%20FM-1463%20Rd%2C%20Katy%20TX%2077494%2C%20Katy%2C%20TX",
     "highlights": [
-      "Nigerian",
+      "Delivery"
+    ],
+    "writeUp": "Popular option for Nigerian / African food delivery in the Katy area. For the latest hours and delivery availability, check their website or delivery apps."
+  },
+  {
+    "slug": "royal-arm-restaurant-african-and-caribbean-katy-tx",
+    "name": "Royal Arm Restaurant African and Caribbean",
+    "cuisines": [
+      "African",
+      "Caribbean"
+    ],
+    "areaSlug": "katy",
+    "city": "Katy",
+    "state": "TX",
+    "addressLine": "23010 Highland Knolls Dr Ste C, Katy TX 77494",
+    "phone": "(281) 665-8511",
+    "websiteUrl": "https://www.royalarmrestaurant.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=23010%20Highland%20Knolls%20Dr%20Ste%20C%2C%20Katy%20TX%2077494%2C%20Katy%2C%20TX",
+    "highlights": [
+      "African",
+      "Caribbean"
+    ]
+  },
+  {
+    "slug": "kes-spicy-9ja-suya-spot-katy-tx",
+    "name": "Kes Spicy 9Ja Suya Spot",
+    "cuisines": [
+      "West African",
+      "Suya"
+    ],
+    "areaSlug": "katy",
+    "city": "Katy",
+    "state": "TX",
+    "addressLine": "811 S Mason Rd, Katy TX 77450",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=811%20S%20Mason%20Rd%2C%20Katy%20TX%2077450%2C%20Katy%2C%20TX",
+    "highlights": [
+      "West African",
+      "Suya"
+    ]
+  },
+  {
+    "slug": "lekki-island-bar-and-grill-katy-tx",
+    "name": "Lekki Island Bar & Grill",
+    "cuisines": [
+      "West African",
       "African"
+    ],
+    "areaSlug": "katy",
+    "city": "Katy",
+    "state": "TX",
+    "addressLine": "25757 Westheimer Pkwy Ste 200, Katy TX 77494",
+    "websiteUrl": "https://lekki-island-bar-and-grill.square.site/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=25757%20Westheimer%20Pkwy%20Ste%20200%2C%20Katy%20TX%2077494%2C%20Katy%2C%20TX",
+    "highlights": [
+      "West African",
+      "African"
+    ]
+  },
+  {
+    "slug": "ekomi-nigerian-restaurant-katy-tx",
+    "name": "Ekomi Nigerian Restaurant",
+    "cuisines": [
+      "Nigerian"
+    ],
+    "areaSlug": "katy",
+    "city": "Katy",
+    "state": "TX",
+    "addressLine": "2811 W Grand Pkwy N Suite D, Katy TX 77449",
+    "websiteUrl": "https://ekomieats.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2811%20W%20Grand%20Pkwy%20N%20Suite%20D%2C%20Katy%20TX%2077449%2C%20Katy%2C%20TX",
+    "highlights": [
+      "Nigerian"
+    ]
+  },
+  {
+    "slug": "onyis-suya-katy-tx",
+    "name": "Onyi's Suya",
+    "cuisines": [
+      "African",
+      "Suya"
+    ],
+    "areaSlug": "katy",
+    "city": "Katy",
+    "state": "TX",
+    "addressLine": "5403 E 5th St, Katy TX 77493",
+    "websiteUrl": "http://onyisuya.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=5403%20E%205th%20St%2C%20Katy%20TX%2077493%2C%20Katy%2C%20TX",
+    "highlights": [
+      "African",
+      "Suya"
     ]
   },
   {
@@ -363,6 +451,97 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "South African",
       "Peri-Peri"
+    ]
+  },
+  {
+    "slug": "grains-and-solids-sugar-land-tx",
+    "name": "Grains and Solids",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "areaSlug": "sugar-land",
+    "city": "Sugar Land",
+    "state": "TX",
+    "addressLine": "11134 S Texas 6 Suite 216, Sugar Land TX 77498",
+    "phone": "(832) 288-2982",
+    "websiteUrl": "https://grainsandsolids.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=11134%20S%20Texas%206%20Suite%20216%2C%20Sugar%20Land%20TX%2077498%2C%20Sugar%20Land%2C%20TX",
+    "highlights": [
+      "Delivery"
+    ],
+    "writeUp": "West African / Nigerian-style dishes in Sugar Land. Delivery may be available — check their website or delivery apps for the most up-to-date options."
+  },
+  {
+    "slug": "all-seasons-cafe-sugar-land-tx",
+    "name": "All Seasons Cafe",
+    "cuisines": [
+      "Nigerian",
+      "African"
+    ],
+    "areaSlug": "sugar-land",
+    "city": "Sugar Land",
+    "state": "TX",
+    "addressLine": "11420 Dairy Ashford Rd, Sugar Land TX 77478",
+    "phone": "(281) 201-2125",
+    "websiteUrl": "https://allseasonscafetx.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=11420%20Dairy%20Ashford%20Rd%2C%20Sugar%20Land%20TX%2077478%2C%20Sugar%20Land%2C%20TX",
+    "highlights": [
+      "Delivery"
+    ],
+    "writeUp": "Nigerian / African comfort food in Sugar Land. Delivery may be available — confirm on their website or delivery apps."
+  },
+  {
+    "slug": "feydups-kitchen-sugar-land-tx",
+    "name": "FEYDUPS KITCHEN",
+    "cuisines": [
+      "Nigerian",
+      "African"
+    ],
+    "areaSlug": "sugar-land",
+    "city": "Sugar Land",
+    "state": "TX",
+    "addressLine": "1055 Eldridge Rd Suite 400, Sugar Land TX 77478",
+    "phone": "(281) 201-2502",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=1055%20Eldridge%20Rd%20Suite%20400%2C%20Sugar%20Land%20TX%2077478%2C%20Sugar%20Land%2C%20TX",
+    "highlights": [
+      "Nigerian",
+      "African"
+    ]
+  },
+  {
+    "slug": "jollofbeans-llc-sugar-land-tx",
+    "name": "JollofBeans LLC",
+    "cuisines": [
+      "Nigerian",
+      "West African"
+    ],
+    "areaSlug": "sugar-land",
+    "city": "Sugar Land",
+    "state": "TX",
+    "addressLine": "11420 Dairy Ashford Rd Suite 104B, Sugar Land TX 77478",
+    "websiteUrl": "http://www.jollofbeans.com",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=11420%20Dairy%20Ashford%20Rd%20Suite%20104B%2C%20Sugar%20Land%20TX%2077478%2C%20Sugar%20Land%2C%20TX",
+    "highlights": [
+      "Nigerian",
+      "West African"
+    ]
+  },
+  {
+    "slug": "amala-manny-foods-sugar-land-tx",
+    "name": "Amala Manny Foods",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "areaSlug": "sugar-land",
+    "city": "Sugar Land",
+    "state": "TX",
+    "addressLine": "2919 Lakefield Way, Sugar Land TX 77479",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2919%20Lakefield%20Way%2C%20Sugar%20Land%20TX%2077479%2C%20Sugar%20Land%2C%20TX",
+    "highlights": [
+      "West African",
+      "Nigerian"
     ]
   },
   {
@@ -1014,6 +1193,61 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=1502%20W%20University%20Dr%20STE%20104%2C%20McKinney%20TX%2075069%2C%20McKinney%2C%20TX",
     "highlights": [
       "African Market"
+    ]
+  },
+  {
+    "slug": "suya-power-house-missouri-city-tx",
+    "name": "Suya Power House",
+    "cuisines": [
+      "West African",
+      "Suya",
+      "Nigerian"
+    ],
+    "areaSlug": "houston",
+    "city": "Missouri City",
+    "state": "TX",
+    "addressLine": "15703 Homebriar Ct Bldg 15703, Missouri City TX 77489",
+    "websiteUrl": "https://www.suyapowerhouse.us/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=15703%20Homebriar%20Ct%20Bldg%2015703%2C%20Missouri%20City%20TX%2077489%2C%20Missouri%20City%2C%20TX",
+    "highlights": [
+      "West African",
+      "Suya",
+      "Nigerian"
+    ]
+  },
+  {
+    "slug": "aria-nigerian-suya-kitchen-pearland-tx",
+    "name": "Aria Nigerian Suya Kitchen",
+    "cuisines": [
+      "West African",
+      "Nigerian",
+      "Suya"
+    ],
+    "areaSlug": "houston",
+    "city": "Pearland",
+    "state": "TX",
+    "addressLine": "3300 Business Center Dr Ste 150, Pearland TX 77584",
+    "websiteUrl": "https://www.ariasuyakitchen.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=3300%20Business%20Center%20Dr%20Ste%20150%2C%20Pearland%20TX%2077584%2C%20Pearland%2C%20TX",
+    "highlights": [
+      "West African",
+      "Nigerian",
+      "Suya"
+    ]
+  },
+  {
+    "slug": "kaylani-african-cafe-pearland-tx",
+    "name": "Kaylani African Cafe",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "houston",
+    "city": "Pearland",
+    "state": "TX",
+    "addressLine": "7129 Broadway St, Pearland TX 77581",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=7129%20Broadway%20St%2C%20Pearland%20TX%2077581%2C%20Pearland%2C%20TX",
+    "highlights": [
+      "African"
     ]
   },
 ]

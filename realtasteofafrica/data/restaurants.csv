@@ -2,7 +2,7 @@ name,cuisines,areaSlug,city,state,addressLine,phone,websiteUrl,mapsUrl,priceLeve
 ChòpnBlọk,West African|Modern Nigerian,houston,Houston,TX,"507 Westheimer Rd, Houston TX 77006","(832) 962-4500",https://chopnblok.co/,,,,,chopnblok-houston-tx
 Aria Suya Kitchen,West African|Nigerian,houston,Houston,TX,"6357 Westheimer Rd, Houston TX 77057",,https://www.ariasuyakitchen.com/,,,,,aria-suya-kitchen-houston-tx
 Taste of Nigeria,West African|Nigerian,houston,Houston,TX,"5959 Richmond Ave #160, Houston TX 77057",,https://tasteofnigeria.us/,,,,,taste-of-nigeria-houston-tx
-Sarabell Calabar Restaurant & Buffet,West African|Nigerian,houston,Houston,TX,"9801 Bissonnet St Suite C, Houston TX 77036",,https://sarabellcalabarrestaurant.com/,,,,,sarabell-calabar-restaurant-and-buffet-houston-tx
+Sarabell Calabar Restaurant & Buffet,West African|Nigerian,houston,Houston,TX,"9801 Bissonnet St Suite C, Houston TX 77036",,https://sarabellcalabarrestaurant.com/,,,Delivery,"West African / Nigerian buffet spot in Houston. Delivery may be available in nearby areas (including around Missouri City) — check delivery apps or their site for current options.",sarabell-calabar-restaurant-and-buffet-houston-tx
 Afrikiko,Ghanaian|West African,houston,Houston,TX,"9625 Bissonnet St, Houston TX 77036","(713) 773-1400",https://afrikikohouston.com/,,,,,afrikiko-houston-tx
 Finger Licking Restaurant,West African|Nigerian,houston,Houston,TX,"9811 Bissonnet St, Houston TX 77036","(713) 270-7070",https://fingerlickinghtx.com/,,,,,finger-licking-restaurant-houston-tx
 Safari,West African|Nigerian,houston,Houston,TX,"10014 Bissonnet St, Houston TX 77036","(713) 541-4436",https://thesafarirestaurant.com/,,,,,safari-houston-tx
@@ -16,9 +16,19 @@ Blue Nile,Ethiopian|African,houston,Houston,TX,"3030 Audley St, Houston TX 77098
 Lucy Ethiopian Restaurant & Lounge,Ethiopian,houston,Houston,TX,"6800 Southwest Fwy, Houston TX 77074",,https://www.lucyhouston.com/,,,,,lucy-ethiopian-restaurant-and-lounge-houston-tx
 Delight’s Ghanaian Cuisine,Ghanaian|West African,houston,Houston,TX,"14524 Piping Rock Ln, Houston TX 77077",,https://order.spoton.com/so-delights-delight-kitchen-3629/houston-tx/6532c4ce2cb4e2003dd65e05,,,,,delights-ghanaian-cuisine-houston-tx
 Bantu House,African,katy,Cypress,TX,"22224 Northwest Fwy Ste B, Cypress TX 77429",,https://bantuhouse.com/,,,,,bantu-house-cypress-tx
-Lagos Buka,Nigerian|African,katy,Katy,TX,"4031 FM-1463 Rd, Katy TX 77494","(281) 394-5244",https://lagosbuka.com/,,,,,lagos-buka-katy-tx
+Lagos Buka,Nigerian|African,katy,Katy,TX,"4031 FM-1463 Rd, Katy TX 77494","(281) 394-5244",https://lagosbuka.com/,,,Delivery,"Popular option for Nigerian / African food delivery in the Katy area. For the latest hours and delivery availability, check their website or delivery apps.",lagos-buka-katy-tx
+Royal Arm Restaurant African and Caribbean,African|Caribbean,katy,Katy,TX,"23010 Highland Knolls Dr Ste C, Katy TX 77494","(281) 665-8511",https://www.royalarmrestaurant.com/,,,,,royal-arm-restaurant-african-and-caribbean-katy-tx
+Kes Spicy 9Ja Suya Spot,West African|Suya,katy,Katy,TX,"811 S Mason Rd, Katy TX 77450",,,,,,,kes-spicy-9ja-suya-spot-katy-tx
+Lekki Island Bar & Grill,West African|African,katy,Katy,TX,"25757 Westheimer Pkwy Ste 200, Katy TX 77494",,https://lekki-island-bar-and-grill.square.site/,,,,,lekki-island-bar-and-grill-katy-tx
+Ekomi Nigerian Restaurant,Nigerian,katy,Katy,TX,"2811 W Grand Pkwy N Suite D, Katy TX 77449",,https://ekomieats.com/,,,,,ekomi-nigerian-restaurant-katy-tx
+Onyi's Suya,African|Suya,katy,Katy,TX,"5403 E 5th St, Katy TX 77493",,http://onyisuya.com/,,,,,onyis-suya-katy-tx
 Amala Joint,Nigerian|African,sugar-land,Houston,TX,"6271 Highway 6 S, Houston TX 77083","(281) 721-2982",,,,,,amala-joint-houston-tx
 The Port of Peri Peri,South African|Peri-Peri,sugar-land,Sugar Land,TX,"2625 Town Center Blvd N, Sugar Land TX 77479",,http://www.myperiperi.com/,,,,,the-port-of-peri-peri-sugar-land-tx
+Grains and Solids,West African|Nigerian,sugar-land,Sugar Land,TX,"11134 S Texas 6 Suite 216, Sugar Land TX 77498","(832) 288-2982",https://grainsandsolids.com/,,,Delivery,"West African / Nigerian-style dishes in Sugar Land. Delivery may be available — check their website or delivery apps for the most up-to-date options.",grains-and-solids-sugar-land-tx
+All Seasons Cafe,Nigerian|African,sugar-land,Sugar Land,TX,"11420 Dairy Ashford Rd, Sugar Land TX 77478","(281) 201-2125",https://allseasonscafetx.com/,,,Delivery,"Nigerian / African comfort food in Sugar Land. Delivery may be available — confirm on their website or delivery apps.",all-seasons-cafe-sugar-land-tx
+FEYDUPS KITCHEN,Nigerian|African,sugar-land,Sugar Land,TX,"1055 Eldridge Rd Suite 400, Sugar Land TX 77478","(281) 201-2502",,,,,,feydups-kitchen-sugar-land-tx
+JollofBeans LLC,Nigerian|West African,sugar-land,Sugar Land,TX,"11420 Dairy Ashford Rd Suite 104B, Sugar Land TX 77478",,http://www.jollofbeans.com,,,,,jollofbeans-llc-sugar-land-tx
+Amala Manny Foods,West African|Nigerian,sugar-land,Sugar Land,TX,"2919 Lakefield Way, Sugar Land TX 77479",,,,,,,amala-manny-foods-sugar-land-tx
 Native Pot,African,houston,Houston,TX,"2022 Wilcrest Dr, Houston TX 77042",,http://nativepotrestaurant.com/,,,,,native-pot-houston-tx
 Cafe Abuja,Nigerian|West African,houston,Houston,TX,"15015 Westheimer Rd Suite C, Houston TX 77082","(713) 344-1569",,,,,,cafe-abuja-houston-tx
 
@@ -67,3 +77,7 @@ Ubuntu Cuisine,African,san-antonio,San Antonio,TX,"8753 Grissom Rd, San Antonio 
 Wazobia Kitchen,African,houston,Houston,TX,"16203 Westheimer Rd, Houston TX 77082","(832) 230-3894",http://wazobiaafricankitchen.com/,,,,,wazobia-kitchen-houston-tx
 Mgbeke Village Hut - Nigerian Cuisine,Nigerian|African,austin,Leander,TX,"825 Palamos Dr, Leander TX 78641","(413) 777-7990",https://mgbeke.com/product-category/village-hut%F0%9F%9B%96/,,,,,mgbeke-village-hut-nigerian-cuisine-leander-tx
 Blessliz African market,African Market,dfw,McKinney,TX,"1502 W University Dr STE 104, McKinney TX 75069","(469) 714-0034",http://blesslizcatering.com/,,,,,blessliz-african-market-mckinney-tx
+
+Suya Power House,West African|Suya|Nigerian,houston,Missouri City,TX,"15703 Homebriar Ct Bldg 15703, Missouri City TX 77489",,https://www.suyapowerhouse.us/,,,,,suya-power-house-missouri-city-tx
+Aria Nigerian Suya Kitchen,West African|Nigerian|Suya,houston,Pearland,TX,"3300 Business Center Dr Ste 150, Pearland TX 77584",,https://www.ariasuyakitchen.com/,,,,,aria-nigerian-suya-kitchen-pearland-tx
+Kaylani African Cafe,African,houston,Pearland,TX,"7129 Broadway St, Pearland TX 77581",,,,,,,kaylani-african-cafe-pearland-tx
