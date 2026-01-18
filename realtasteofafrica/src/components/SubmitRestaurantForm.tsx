@@ -80,13 +80,13 @@ export function SubmitRestaurantForm() {
           window.location.href = toMailtoHref(state)
         }}
       >
-        <div className="grid gap-4 md:grid-cols-2">
-          <label className="grid gap-1.5">
+        <div className="grid min-w-0 gap-4 lg:grid-cols-2">
+          <label className="grid min-w-0 gap-1.5">
             <span className="text-sm font-medium text-slate-900">
               Restaurant name <span className="text-amber-700">*</span>
             </span>
             <input
-              className="rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm outline-none focus:ring-2 focus:ring-amber-400"
+              className="w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm outline-none focus:ring-2 focus:ring-amber-400"
               value={state.restaurantName}
               onChange={(e) =>
                 setState((s) => ({ ...s, restaurantName: e.target.value }))
@@ -96,12 +96,12 @@ export function SubmitRestaurantForm() {
             />
           </label>
 
-          <label className="grid gap-1.5">
+          <label className="grid min-w-0 gap-1.5">
             <span className="text-sm font-medium text-slate-900">
               City <span className="text-amber-700">*</span>
             </span>
             <input
-              className="rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm outline-none focus:ring-2 focus:ring-amber-400"
+              className="w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm outline-none focus:ring-2 focus:ring-amber-400"
               value={state.city}
               onChange={(e) => setState((s) => ({ ...s, city: e.target.value }))}
               placeholder="e.g., Houston"
@@ -110,12 +110,12 @@ export function SubmitRestaurantForm() {
           </label>
         </div>
 
-        <label className="grid gap-1.5">
+        <label className="grid min-w-0 gap-1.5">
           <span className="text-sm font-medium text-slate-900">
             Full address <span className="text-amber-700">*</span>
           </span>
           <input
-            className="rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm outline-none focus:ring-2 focus:ring-amber-400"
+            className="w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm outline-none focus:ring-2 focus:ring-amber-400"
             value={state.address}
             onChange={(e) => setState((s) => ({ ...s, address: e.target.value }))}
             placeholder="Street, City, State ZIP"
@@ -123,12 +123,12 @@ export function SubmitRestaurantForm() {
           />
         </label>
 
-        <label className="grid gap-1.5">
+        <label className="grid min-w-0 gap-1.5">
           <span className="text-sm font-medium text-slate-900">
             Cuisine / style
           </span>
           <input
-            className="rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm outline-none focus:ring-2 focus:ring-amber-400"
+            className="w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm outline-none focus:ring-2 focus:ring-amber-400"
             value={state.cuisines}
             onChange={(e) =>
               setState((s) => ({ ...s, cuisines: e.target.value }))
@@ -137,11 +137,11 @@ export function SubmitRestaurantForm() {
           />
         </label>
 
-        <div className="grid gap-4 md:grid-cols-2">
-          <label className="grid gap-1.5">
+        <div className="grid min-w-0 gap-4 lg:grid-cols-2">
+          <label className="grid min-w-0 gap-1.5">
             <span className="text-sm font-medium text-slate-900">Phone</span>
             <input
-              className="rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm outline-none focus:ring-2 focus:ring-amber-400"
+              className="w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm outline-none focus:ring-2 focus:ring-amber-400"
               value={state.phone}
               onChange={(e) =>
                 setState((s) => ({ ...s, phone: e.target.value }))
@@ -150,10 +150,10 @@ export function SubmitRestaurantForm() {
             />
           </label>
 
-          <label className="grid gap-1.5">
+          <label className="grid min-w-0 gap-1.5">
             <span className="text-sm font-medium text-slate-900">Website</span>
             <input
-              className="rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm outline-none focus:ring-2 focus:ring-amber-400"
+              className="w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm outline-none focus:ring-2 focus:ring-amber-400"
               value={state.website}
               onChange={(e) =>
                 setState((s) => ({ ...s, website: e.target.value }))
@@ -163,10 +163,10 @@ export function SubmitRestaurantForm() {
           </label>
         </div>
 
-        <label className="grid gap-1.5">
+        <label className="grid min-w-0 gap-1.5">
           <span className="text-sm font-medium text-slate-900">Notes</span>
           <textarea
-            className="min-h-24 rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm outline-none focus:ring-2 focus:ring-amber-400"
+            className="min-h-24 w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm outline-none focus:ring-2 focus:ring-amber-400"
             value={state.notes}
             onChange={(e) => setState((s) => ({ ...s, notes: e.target.value }))}
             placeholder="Anything helpful (delivery, hours, etc.)"
