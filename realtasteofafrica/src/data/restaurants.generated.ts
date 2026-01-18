@@ -545,6 +545,75 @@ export const RESTAURANTS: Restaurant[] = [
     ]
   },
   {
+    "slug": "zongo-richmond-tx",
+    "name": "Zongo",
+    "cuisines": [
+      "West African",
+      "Ghanaian"
+    ],
+    "areaSlug": "sugar-land",
+    "city": "Richmond",
+    "state": "TX",
+    "addressLine": "7035 W Grand Pkwy S #90, Richmond TX 77407",
+    "phone": "(832) 451-6135",
+    "websiteUrl": "https://zongo-us.business.site/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=7035%20W%20Grand%20Pkwy%20S%20%2390%2C%20Richmond%20TX%2077407%2C%20Richmond%2C%20TX",
+    "highlights": [
+      "West African",
+      "Ghanaian"
+    ]
+  },
+  {
+    "slug": "rodo-nigerian-cuisine-richmond-tx",
+    "name": "Rodo Nigerian Cuisine",
+    "cuisines": [
+      "Nigerian",
+      "West African"
+    ],
+    "areaSlug": "sugar-land",
+    "city": "Richmond",
+    "state": "TX",
+    "addressLine": "16805 Bissonnet St, Richmond TX 77407",
+    "phone": "(281) 302-5274",
+    "websiteUrl": "https://rodonigeriancuisine.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=16805%20Bissonnet%20St%2C%20Richmond%20TX%2077407%2C%20Richmond%2C%20TX",
+    "highlights": [
+      "Nigerian",
+      "West African"
+    ]
+  },
+  {
+    "slug": "gomas-kitchen-richmond-tx",
+    "name": "Goma's Kitchen",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "sugar-land",
+    "city": "Richmond",
+    "state": "TX",
+    "addressLine": "8620 Grand Mission Blvd K, Richmond TX 77407",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=8620%20Grand%20Mission%20Blvd%20K%2C%20Richmond%20TX%2077407%2C%20Richmond%2C%20TX",
+    "highlights": [
+      "African"
+    ]
+  },
+  {
+    "slug": "star-afrik-cuisine-rosenberg-tx",
+    "name": "Star Afrik Cuisine",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "sugar-land",
+    "city": "Rosenberg",
+    "state": "TX",
+    "addressLine": "5101 Avenue H #68, Rosenberg TX 77471",
+    "phone": "(281) 762-0946",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=5101%20Avenue%20H%20%2368%2C%20Rosenberg%20TX%2077471%2C%20Rosenberg%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
     "slug": "native-pot-houston-tx",
     "name": "Native Pot",
     "cuisines": [
