@@ -614,6 +614,40 @@ export const RESTAURANTS: Restaurant[] = [
     ]
   },
   {
+    "slug": "benmond-african-food-and-catering-texas-city-tx",
+    "name": "Benmond African food and Catering",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "houston",
+    "city": "Texas City",
+    "state": "TX",
+    "addressLine": "701 Volney St, Texas City TX 77568",
+    "phone": "(832) 580-4169",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=701%20Volney%20St%2C%20Texas%20City%20TX%2077568%2C%20Texas%20City%2C%20TX",
+    "highlights": [
+      "African"
+    ]
+  },
+  {
+    "slug": "african-spices-and-soul-food-texas-city-tx",
+    "name": "African Spices & Soul Food",
+    "cuisines": [
+      "African",
+      "Soul Food"
+    ],
+    "areaSlug": "houston",
+    "city": "Texas City",
+    "state": "TX",
+    "addressLine": "Gulf Fwy, Texas City TX 77568",
+    "phone": "(737) 225-3885",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Gulf%20Fwy%2C%20Texas%20City%20TX%2077568%2C%20Texas%20City%2C%20TX",
+    "highlights": [
+      "African",
+      "Soul Food"
+    ]
+  },
+  {
     "slug": "native-pot-houston-tx",
     "name": "Native Pot",
     "cuisines": [
