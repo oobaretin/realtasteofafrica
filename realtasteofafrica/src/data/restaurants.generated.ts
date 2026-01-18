@@ -2287,11 +2287,13 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "10010 Bissonnet St, Houston TX",
+    "addressLine": "10010 Bissonnet St, Houston TX 77036",
     "phone": "(832) 834-3127",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=10010%20Bissonnet%20St%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=10010%20Bissonnet%20St%2C%20Houston%20TX%2077036%2C%20Houston%2C%20TX",
     "highlights": [
-      "West African"
+      "Dine-in",
+      "Curbside pickup",
+      "Delivery"
     ]
   },
   {
