@@ -1,8 +1,8 @@
 import Link from "next/link"
 
 import { Badge } from "@/components/Badge"
+import { SubmitRestaurantForm } from "@/components/SubmitRestaurantForm"
 import { WpPageShell } from "@/components/WpPageShell"
-import { CONTACT_EMAIL } from "@/lib/site"
 
 export const metadata = {
   title: "Submit a restaurant",
@@ -41,31 +41,25 @@ export default function SubmitPage() {
             </ul>
           </section>
 
-          <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-            <h2 className="text-base font-semibold tracking-tight text-slate-900">
-              Submit
-            </h2>
-            <p className="mt-1 text-sm text-slate-600">
-              For now, submissions are handled by email.
-            </p>
-            <div className="mt-5 flex flex-wrap gap-3">
-              <a
-                className="rounded-md bg-amber-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-amber-700"
-                href={`mailto:${CONTACT_EMAIL}?subject=Restaurant%20Submission`}
-              >
-                Email a submission
-              </a>
-              <Link
-                className="rounded-md border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-900 hover:bg-slate-50"
-                href="/restaurants"
-              >
-                Browse listings
-              </Link>
+          <div className="grid gap-4">
+            <SubmitRestaurantForm />
+            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+              <div className="text-sm font-semibold text-slate-900">
+                Prefer browsing?
+              </div>
+              <p className="mt-1 text-sm text-slate-600">
+                You can also explore the directory and share corrections.
+              </p>
+              <div className="mt-4">
+                <Link
+                  className="inline-flex rounded-md border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-900 hover:bg-slate-50"
+                  href="/restaurants"
+                >
+                  Browse listings
+                </Link>
+              </div>
             </div>
-            <p className="mt-4 text-xs text-slate-500">
-              Tip: include a website or map link so we can verify quickly.
-            </p>
-          </section>
+          </div>
         </div>
       </div>
     </WpPageShell>
