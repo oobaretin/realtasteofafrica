@@ -74,7 +74,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "9801 Bissonnet St Suite C, Houston TX 77036",
-    "phone": "(713) 995-0070",
+    "phone": "(713) 270-1311",
     "websiteUrl": "https://sarabellcalabarrestaurant.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=9801%20Bissonnet%20St%20Suite%20C%2C%20Houston%20TX%2077036%2C%20Houston%2C%20TX",
     "highlights": [
@@ -185,6 +185,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "3645 Cypress Creek Pkwy #368, Houston TX 77068",
+    "phone": "(281) 891-3383",
     "websiteUrl": "https://hunanwestafricancuisine.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3645%20Cypress%20Creek%20Pkwy%20%23368%2C%20Houston%20TX%2077068%2C%20Houston%2C%20TX",
     "highlights": [
@@ -239,7 +240,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "1701 Cypress Creek Pkwy Suite D, Houston TX 77090",
-    "phone": "(832) 532-5461",
+    "phone": "(281) 825-6677",
     "websiteUrl": "https://www.omalichakitchen.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=1701%20Cypress%20Creek%20Pkwy%20Suite%20D%2C%20Houston%20TX%2077090%2C%20Houston%2C%20TX",
     "highlights": [
@@ -294,7 +295,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "14524 Piping Rock Ln, Houston TX 77077",
-    "phone": "(832) 321-6125",
+    "phone": "(281) 951-9580",
     "websiteUrl": "https://order.spoton.com/so-delights-delight-kitchen-3629/houston-tx/6532c4ce2cb4e2003dd65e05",
     "mapsUrl": "https://www.openstreetmap.org/search?query=14524%20Piping%20Rock%20Ln%2C%20Houston%20TX%2077077%2C%20Houston%2C%20TX",
     "highlights": [
@@ -368,6 +369,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Katy",
     "state": "TX",
     "addressLine": "811 S Mason Rd, Katy TX 77450",
+    "phone": "(832) 412-2309",
     "mapsUrl": "https://www.openstreetmap.org/search?query=811%20S%20Mason%20Rd%2C%20Katy%20TX%2077450%2C%20Katy%2C%20TX",
     "highlights": [
       "West African",
@@ -385,7 +387,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Katy",
     "state": "TX",
     "addressLine": "25757 Westheimer Pkwy Ste 200, Katy TX 77494",
-    "phone": "(832) 437-8003",
+    "phone": "(346) 307-7440",
     "websiteUrl": "https://lekki-island-bar-and-grill.square.site/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=25757%20Westheimer%20Pkwy%20Ste%20200%2C%20Katy%20TX%2077494%2C%20Katy%2C%20TX",
     "highlights": [
@@ -403,7 +405,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Katy",
     "state": "TX",
     "addressLine": "2811 W Grand Pkwy N Suite D, Katy TX 77449",
-    "phone": "(832) 437-8074",
+    "phone": "(346) 387-6031",
     "websiteUrl": "https://ekomieats.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2811%20W%20Grand%20Pkwy%20N%20Suite%20D%2C%20Katy%20TX%2077449%2C%20Katy%2C%20TX",
     "highlights": [
@@ -421,7 +423,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Katy",
     "state": "TX",
     "addressLine": "5403 E 5th St, Katy TX 77493",
-    "phone": "(832) 427-5787",
+    "phone": "(832) 437-0238",
     "websiteUrl": "http://onyisuya.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=5403%20E%205th%20St%2C%20Katy%20TX%2077493%2C%20Katy%2C%20TX",
     "highlights": [
@@ -458,7 +460,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Sugar Land",
     "state": "TX",
     "addressLine": "2625 Town Center Blvd N, Sugar Land TX 77479",
-    "phone": "(281) 201-7777",
+    "phone": "(281) 325-0105",
     "websiteUrl": "http://www.myperiperi.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2625%20Town%20Center%20Blvd%20N%2C%20Sugar%20Land%20TX%2077479%2C%20Sugar%20Land%2C%20TX",
     "highlights": [
@@ -533,7 +535,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Sugar Land",
     "state": "TX",
     "addressLine": "11420 Dairy Ashford Rd Suite 104B, Sugar Land TX 77478",
-    "phone": "(281) 240-5565",
+    "phone": "(281) 683-7944",
     "websiteUrl": "http://www.jollofbeans.com",
     "mapsUrl": "https://www.openstreetmap.org/search?query=11420%20Dairy%20Ashford%20Rd%20Suite%20104B%2C%20Sugar%20Land%20TX%2077478%2C%20Sugar%20Land%2C%20TX",
     "highlights": [
@@ -552,6 +554,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Sugar Land",
     "state": "TX",
     "addressLine": "2919 Lakefield Way, Sugar Land TX 77479",
+    "phone": "(346) 874-7241",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2919%20Lakefield%20Way%2C%20Sugar%20Land%20TX%2077479%2C%20Sugar%20Land%2C%20TX",
     "highlights": [
       "West African",
@@ -606,6 +609,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Richmond",
     "state": "TX",
     "addressLine": "8620 Grand Mission Blvd K, Richmond TX 77407",
+    "phone": "(832) 841-7578",
     "mapsUrl": "https://www.openstreetmap.org/search?query=8620%20Grand%20Mission%20Blvd%20K%2C%20Richmond%20TX%2077407%2C%20Richmond%2C%20TX",
     "highlights": [
       "African"
@@ -766,6 +770,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "El Paso",
     "state": "TX",
     "addressLine": "5757 Will Ruth Ave Ste 310, El Paso TX 79924",
+    "phone": "(915) 307-3343",
     "mapsUrl": "https://www.openstreetmap.org/search?query=5757%20Will%20Ruth%20Ave%20Ste%20310%2C%20El%20Paso%20TX%2079924",
     "highlights": [
       "Delivery"
@@ -782,6 +787,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "El Paso",
     "state": "TX",
     "addressLine": "12321 Desert Dove Ave, El Paso TX 79938",
+    "phone": "(915) 867-2708",
     "mapsUrl": "https://www.openstreetmap.org/search?query=12321%20Desert%20Dove%20Ave%2C%20El%20Paso%20TX%2079938%2C%20El%20Paso%2C%20TX",
     "highlights": [
       "Delivery"
@@ -818,6 +824,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Abilene",
     "state": "TX",
     "addressLine": "2510 Button Willow Ave, Abilene TX 79606",
+    "phone": "(325) 701-4432",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2510%20Button%20Willow%20Ave%2C%20Abilene%20TX%2079606%2C%20Abilene%2C%20TX",
     "highlights": [
       "African"
@@ -833,7 +840,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "McAllen",
     "state": "TX",
     "addressLine": "4400 N 23rd St #156, McAllen TX 78504",
-    "phone": "(956) 627-2424",
+    "phone": "(956) 627-2244",
     "websiteUrl": "http://afrospicergv.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=4400%20N%2023rd%20St%20%23156%2C%20McAllen%20TX%2078504%2C%20McAllen%2C%20TX",
     "highlights": [
@@ -889,7 +896,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Amarillo",
     "state": "TX",
     "addressLine": "2795 SW 45th Ave, Amarillo TX 79110",
-    "phone": "(806) 584-1094",
+    "phone": "(806) 674-3252",
     "websiteUrl": "https://usmaperx.org/details/felicia-s-african-food-llc-ChIJtZk",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2795%20SW%2045th%20Ave%2C%20Amarillo%20TX%2079110%2C%20Amarillo%2C%20TX",
     "highlights": [
@@ -909,7 +916,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Amarillo",
     "state": "TX",
     "addressLine": "2380 Fritch Hwy, Amarillo TX 79108",
-    "phone": "(806) 418-6660",
+    "phone": "(806) 316-2490",
     "websiteUrl": "https://somalibulsho.top/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2380%20Fritch%20Hwy%2C%20Amarillo%20TX%2079108%2C%20Amarillo%2C%20TX",
     "highlights": [
@@ -946,7 +953,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Amarillo",
     "state": "TX",
     "addressLine": "3313 S Georgia St, Amarillo TX 79109",
-    "phone": "(806) 553-1994",
+    "phone": "(806) 471-0402",
     "websiteUrl": "https://www.afroodining.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3313%20S%20Georgia%20St%2C%20Amarillo%20TX%2079109%2C%20Amarillo%2C%20TX",
     "highlights": [
@@ -964,7 +971,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "2923 Walnut Bend Ln, Houston TX 77042",
-    "phone": "(832) 968-4020",
+    "phone": "(281) 846-6420",
     "websiteUrl": "https://dakarstreetfood.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2923%20Walnut%20Bend%20Ln%2C%20Houston%20TX%2077042%2C%20Houston%2C%20TX",
     "highlights": [
@@ -982,6 +989,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "3706 S Gessner Rd, Houston TX 77063",
+    "phone": "(346) 252-2336",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3706%20S%20Gessner%20Rd%2C%20Houston%20TX%2077063%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
@@ -1048,6 +1056,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "12600 Bissonnet St Ste A7, Houston TX 77099",
+    "phone": "(713) 931-1502",
     "mapsUrl": "https://www.openstreetmap.org/search?query=12600%20Bissonnet%20St%20Ste%20A7%2C%20Houston%20TX%2077099%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
@@ -1257,7 +1266,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Euless",
     "state": "TX",
     "addressLine": "415 N Main St #102, Euless TX 76039",
-    "phone": "(682) 259-2455",
+    "phone": "(817) 587-1551",
     "websiteUrl": "https://exoticafricangrill.site/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=415%20N%20Main%20St%20%23102%2C%20Euless%20TX%2076039%2C%20Euless%2C%20TX",
     "highlights": [
@@ -1275,7 +1284,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "McKinney",
     "state": "TX",
     "addressLine": "5121 Collin McKinney Pkwy #1100, McKinney TX 75070",
-    "phone": "(469) 301-2398",
+    "phone": "(214) 226-7815",
     "websiteUrl": "http://osumasuya.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=5121%20Collin%20McKinney%20Pkwy%20%231100%2C%20McKinney%20TX%2075070%2C%20McKinney%2C%20TX",
     "highlights": [
@@ -1332,6 +1341,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Fort Worth",
     "state": "TX",
     "addressLine": "3386 Cimmaron Trail, Fort Worth TX 76116",
+    "phone": "(682) 347-1941",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3386%20Cimmaron%20Trail%2C%20Fort%20Worth%20TX%2076116%2C%20Fort%20Worth%2C%20TX",
     "highlights": [
       "African",
@@ -1364,6 +1374,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Fort Worth",
     "state": "TX",
     "addressLine": "2200 Brookes St Unit A, Fort Worth TX 76105",
+    "phone": "(817) 720-6677",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2200%20Brookes%20St%20Unit%20A%2C%20Fort%20Worth%20TX%2076105%2C%20Fort%20Worth%2C%20TX",
     "highlights": [
       "African"
@@ -1379,6 +1390,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Fort Worth",
     "state": "TX",
     "addressLine": "525 King George Dr, Fort Worth TX 76112",
+    "phone": "(817) 720-3333",
     "mapsUrl": "https://www.openstreetmap.org/search?query=525%20King%20George%20Dr%2C%20Fort%20Worth%20TX%2076112%2C%20Fort%20Worth%2C%20TX",
     "highlights": [
       "West African"
@@ -1411,6 +1423,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Haltom City",
     "state": "TX",
     "addressLine": "5005 Denton Hwy, Haltom City TX 76117",
+    "phone": "(817) 744-8898",
     "mapsUrl": "https://www.openstreetmap.org/search?query=5005%20Denton%20Hwy%2C%20Haltom%20City%20TX%2076117%2C%20Haltom%20City%2C%20TX",
     "highlights": [
       "African"
@@ -1445,7 +1458,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Euless",
     "state": "TX",
     "addressLine": "918 E Harwood Rd Ste B, Euless TX 76039",
-    "phone": "(469) 301-2398",
+    "phone": "(817) 358-1511",
     "websiteUrl": "http://osumasuya.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=918%20E%20Harwood%20Rd%20Ste%20B%2C%20Euless%20TX%2076039%2C%20Euless%2C%20TX",
     "highlights": [
@@ -1463,7 +1476,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Irving",
     "state": "TX",
     "addressLine": "3003 N Belt Line Rd, Irving TX 75062",
-    "phone": "(972) 514-4444",
+    "phone": "(972) 570-1111",
     "websiteUrl": "https://africanvillagerestauranttx.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3003%20N%20Belt%20Line%20Rd%2C%20Irving%20TX%2075062%2C%20Irving%2C%20TX",
     "highlights": [
@@ -1499,6 +1512,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Arlington",
     "state": "TX",
     "addressLine": "5504 Matlock Rd, Arlington TX 76018",
+    "phone": "(817) 753-7962",
     "mapsUrl": "https://www.openstreetmap.org/search?query=5504%20Matlock%20Rd%2C%20Arlington%20TX%2076018%2C%20Arlington%2C%20TX",
     "highlights": [
       "West African"
@@ -1515,7 +1529,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Arlington",
     "state": "TX",
     "addressLine": "1900 W Arbrook Blvd Ste 116, Arlington TX 76015",
-    "phone": "(469) 909-0660",
+    "phone": "(214) 603-1413",
     "websiteUrl": "http://www.cheftemii.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=1900%20W%20Arbrook%20Blvd%20Ste%20116%2C%20Arlington%20TX%2076015%2C%20Arlington%2C%20TX",
     "highlights": [
@@ -1551,7 +1565,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Arlington",
     "state": "TX",
     "addressLine": "2905 E Arkansas Ln Ste 100, Arlington TX 76010",
-    "phone": "(682) 385-9124",
+    "phone": "(972) 854-6161",
     "websiteUrl": "https://angiewinnerskitchen.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2905%20E%20Arkansas%20Ln%20Ste%20100%2C%20Arlington%20TX%2076010%2C%20Arlington%2C%20TX",
     "highlights": [
@@ -1568,6 +1582,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Grand Prairie",
     "state": "TX",
     "addressLine": "3007 S Carrier Pkwy, Grand Prairie TX 75052",
+    "phone": "(469) 757-0100",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3007%20S%20Carrier%20Pkwy%2C%20Grand%20Prairie%20TX%2075052%2C%20Grand%20Prairie%2C%20TX",
     "highlights": [
       "African"
@@ -1583,7 +1598,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Lewisville",
     "state": "TX",
     "addressLine": "1320 Main St, Lewisville TX 75067",
-    "phone": "(469) 701-8888",
+    "phone": "(469) 444-3286",
     "websiteUrl": "https://www.lagos-kitchen.com",
     "mapsUrl": "https://www.openstreetmap.org/search?query=1320%20Main%20St%2C%20Lewisville%20TX%2075067%2C%20Lewisville%2C%20TX",
     "highlights": [
@@ -1675,6 +1690,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Austin",
     "state": "TX",
     "addressLine": "10805 N Lamar Blvd Ste J, Austin TX 78753",
+    "phone": "(512) 351-9311",
     "mapsUrl": "https://www.openstreetmap.org/search?query=10805%20N%20Lamar%20Blvd%20Ste%20J%2C%20Austin%20TX%2078753%2C%20Austin%2C%20TX",
     "highlights": [
       "Market"
@@ -1709,7 +1725,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "San Antonio",
     "state": "TX",
     "addressLine": "5115 Fredericksburg Rd, San Antonio TX 78229",
-    "phone": "(210) 979-1111",
+    "phone": "(512) 940-3349",
     "websiteUrl": "https://amen.cafe/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=5115%20Fredericksburg%20Rd%2C%20San%20Antonio%20TX%2078229%2C%20San%20Antonio%2C%20TX",
     "highlights": [
@@ -1747,6 +1763,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "10828 Beechnut St, Houston TX 77072",
+    "phone": "(832) 243-6449",
     "mapsUrl": "https://www.openstreetmap.org/search?query=10828%20Beechnut%20St%2C%20Houston%20TX%2077072%2C%20Houston%2C%20TX",
     "highlights": [
       "African Market",
@@ -1961,7 +1978,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Missouri City",
     "state": "TX",
     "addressLine": "15703 Homebriar Ct Bldg 15703, Missouri City TX 77489",
-    "phone": "(832) 987-1899",
+    "phone": "(832) 757-5536",
     "websiteUrl": "https://www.suyapowerhouse.us/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=15703%20Homebriar%20Ct%20Bldg%2015703%2C%20Missouri%20City%20TX%2077489%2C%20Missouri%20City%2C%20TX",
     "highlights": [
@@ -1999,6 +2016,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Pearland",
     "state": "TX",
     "addressLine": "7129 Broadway St, Pearland TX 77581",
+    "phone": "(832) 736-8178",
     "mapsUrl": "https://www.openstreetmap.org/search?query=7129%20Broadway%20St%2C%20Pearland%20TX%2077581%2C%20Pearland%2C%20TX",
     "highlights": [
       "African"
@@ -2014,6 +2032,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "12825 Westheimer Rd, Houston TX",
+    "phone": "(281) 741-0042",
     "mapsUrl": "https://www.openstreetmap.org/search?query=12825%20Westheimer%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "Takeout",
@@ -2031,6 +2050,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "14815 Westheimer Rd, Houston TX",
+    "phone": "(281) 741-0042",
     "mapsUrl": "https://www.openstreetmap.org/search?query=14815%20Westheimer%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
@@ -2046,6 +2066,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "13505 Westheimer Rd, Houston TX",
+    "phone": "(346) 520-8347",
     "mapsUrl": "https://www.openstreetmap.org/search?query=13505%20Westheimer%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
@@ -2061,6 +2082,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "11920 Westheimer Rd #J, Houston TX",
+    "phone": "(832) 993-9428",
     "mapsUrl": "https://www.openstreetmap.org/search?query=11920%20Westheimer%20Rd%20%23J%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
@@ -2076,6 +2098,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "17113 Westheimer Rd, Houston TX",
+    "phone": "(346) 907-5105",
     "mapsUrl": "https://www.openstreetmap.org/search?query=17113%20Westheimer%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
@@ -2092,6 +2115,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "14097 Westheimer Rd, Houston TX",
+    "phone": "(346) 241-9895",
     "mapsUrl": "https://www.openstreetmap.org/search?query=14097%20Westheimer%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
@@ -2109,6 +2133,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "2703 S Texas 6 Suite 127, Houston TX",
+    "phone": "(832) 328-1188",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2703%20S%20Texas%206%20Suite%20127%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
@@ -2126,6 +2151,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "8633 Richmond Ave, Houston TX",
+    "phone": "(281) 607-5564",
     "mapsUrl": "https://www.openstreetmap.org/search?query=8633%20Richmond%20Ave%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
@@ -2142,6 +2168,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "3533 S Dairy Ashford Rd Suite I, Houston TX",
+    "phone": "(346) 335-7181",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3533%20S%20Dairy%20Ashford%20Rd%20Suite%20I%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
@@ -2157,6 +2184,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "17036 W Little York Rd, Houston TX",
+    "phone": "(832) 419-5670",
     "mapsUrl": "https://www.openstreetmap.org/search?query=17036%20W%20Little%20York%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
@@ -2172,6 +2200,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "7030 Addicks Clodine Rd #101, Houston TX",
+    "phone": "(281) 809-5479",
     "mapsUrl": "https://www.openstreetmap.org/search?query=7030%20Addicks%20Clodine%20Rd%20%23101%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
@@ -2187,6 +2216,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "11965 Bissonnet St Ste 110, Houston TX",
+    "phone": "(713) 234-7186",
     "mapsUrl": "https://www.openstreetmap.org/search?query=11965%20Bissonnet%20St%20Ste%20110%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
@@ -2202,6 +2232,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "15000 Bellaire Blvd Ste Q, Houston TX",
+    "phone": "(346) 406-3829",
     "mapsUrl": "https://www.openstreetmap.org/search?query=15000%20Bellaire%20Blvd%20Ste%20Q%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
@@ -2218,6 +2249,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "6788 Synott Rd, Houston TX",
+    "phone": "(346) 335-7116",
     "mapsUrl": "https://www.openstreetmap.org/search?query=6788%20Synott%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
@@ -2236,7 +2268,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "7039 FM 1464 Suite 110, Houston TX",
-    "phone": "(281) 914-3336",
+    "phone": "(832) 539-1605",
     "mapsUrl": "https://www.openstreetmap.org/search?query=7039%20FM%201464%20Suite%20110%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
@@ -2254,6 +2286,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "10010 Bissonnet St, Houston TX",
+    "phone": "(832) 834-3127",
     "mapsUrl": "https://www.openstreetmap.org/search?query=10010%20Bissonnet%20St%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
@@ -2270,7 +2303,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "13711 Westheimer Rd B-1, Houston TX",
-    "phone": "(832) 953-0420",
+    "phone": "(713) 282-5320",
     "mapsUrl": "https://www.openstreetmap.org/search?query=13711%20Westheimer%20Rd%20B-1%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "Nigerian",
@@ -2287,6 +2320,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "7627 Cook Rd, Houston TX",
+    "phone": "(346) 352-3277",
     "mapsUrl": "https://www.openstreetmap.org/search?query=7627%20Cook%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
@@ -2303,7 +2337,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "9755 S Kirkwood Rd Ste D, Houston TX",
-    "phone": "(832) 953-3445",
+    "phone": "(832) 672-8874",
     "mapsUrl": "https://www.openstreetmap.org/search?query=9755%20S%20Kirkwood%20Rd%20Ste%20D%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
@@ -2320,6 +2354,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "14165 Bissonnet St Suite P, Houston TX",
+    "phone": "(281) 835-4574",
     "mapsUrl": "https://www.openstreetmap.org/search?query=14165%20Bissonnet%20St%20Suite%20P%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
@@ -2335,6 +2370,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "11214 Plainfield St #B, Houston TX",
+    "phone": "(832) 831-9899",
     "mapsUrl": "https://www.openstreetmap.org/search?query=11214%20Plainfield%20St%20%23B%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
@@ -2350,7 +2386,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "18311 Clay Rd Suite A4, Houston TX",
-    "phone": "(832) 953-8891",
+    "phone": "(346) 252-2445",
     "mapsUrl": "https://www.openstreetmap.org/search?query=18311%20Clay%20Rd%20Suite%20A4%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
@@ -2366,7 +2402,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "2352 S Dairy Ashford Rd, Houston TX",
-    "phone": "(281) 974-2220",
+    "phone": "(832) 230-0504",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2352%20S%20Dairy%20Ashford%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
@@ -2383,7 +2419,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "8330 W Bellfort Ave Ste C, Houston TX",
-    "phone": "(832) 953-1145",
+    "phone": "(346) 204-5863",
     "mapsUrl": "https://www.openstreetmap.org/search?query=8330%20W%20Bellfort%20Ave%20Ste%20C%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
@@ -2417,6 +2453,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "9020 S Texas 6, Houston TX",
+    "phone": "(832) 831-3185",
     "mapsUrl": "https://www.openstreetmap.org/search?query=9020%20S%20Texas%206%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
@@ -2433,7 +2470,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "5930 Renwick Dr Suite B, Houston TX",
-    "phone": "(713) 772-5900",
+    "phone": "(713) 838-1111",
     "mapsUrl": "https://www.openstreetmap.org/search?query=5930%20Renwick%20Dr%20Suite%20B%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
@@ -2450,6 +2487,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "18324 Clay Rd, Houston TX",
+    "phone": "(281) 236-6257",
     "mapsUrl": "https://www.openstreetmap.org/search?query=18324%20Clay%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
@@ -2465,7 +2503,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "6617 Chimney Rock Rd, Houston TX",
-    "phone": "(713) 772-9990",
+    "phone": "(713) 664-0260",
     "mapsUrl": "https://www.openstreetmap.org/search?query=6617%20Chimney%20Rock%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
@@ -2482,6 +2520,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "10101 Bissonnet St Ste F, Houston TX",
+    "phone": "(281) 888-9717",
     "mapsUrl": "https://www.openstreetmap.org/search?query=10101%20Bissonnet%20St%20Ste%20F%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
@@ -2498,6 +2537,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "11919 Bissonnet St, Houston TX",
+    "phone": "(713) 270-4444",
     "mapsUrl": "https://www.openstreetmap.org/search?query=11919%20Bissonnet%20St%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
@@ -2536,6 +2576,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "10887 S Wilcrest Dr, Houston TX",
+    "phone": "(281) 809-3171",
     "mapsUrl": "https://www.openstreetmap.org/search?query=10887%20S%20Wilcrest%20Dr%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
