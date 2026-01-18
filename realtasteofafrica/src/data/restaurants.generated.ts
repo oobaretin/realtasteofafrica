@@ -36,6 +36,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "6357 Westheimer Rd, Houston TX 77057",
+    "phone": "+(832) 831-4372",
     "websiteUrl": "https://www.ariasuyakitchen.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=6357%20Westheimer%20Rd%2C%20Houston%20TX%2077057%2C%20Houston%2C%20TX",
     "highlights": [
@@ -200,6 +201,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "12703 Alief Clodine Rd, Houston TX 77082",
+    "phone": "(832) 303-4591",
     "websiteUrl": "https://abulahotpottx.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=12703%20Alief%20Clodine%20Rd%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
@@ -254,6 +256,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "3030 Audley St, Houston TX 77098",
+    "phone": "(713) 814-5101",
     "websiteUrl": "https://bluenilerestaurant.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3030%20Audley%20St%2C%20Houston%20TX%2077098%2C%20Houston%2C%20TX",
     "highlights": [
@@ -271,6 +274,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "6800 Southwest Fwy, Houston TX 77074",
+    "phone": "(713) 334-0000",
     "websiteUrl": "https://www.lucyhouston.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=6800%20Southwest%20Fwy%2C%20Houston%20TX%2077074%2C%20Houston%2C%20TX",
     "highlights": [
@@ -305,6 +309,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Cypress",
     "state": "TX",
     "addressLine": "22224 Northwest Fwy Ste B, Cypress TX 77429",
+    "phone": "(713) 360-8333",
     "websiteUrl": "https://bantuhouse.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=22224%20Northwest%20Fwy%20Ste%20B%2C%20Cypress%20TX%2077429%2C%20Cypress%2C%20TX",
     "highlights": [
@@ -675,6 +680,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "2022 Wilcrest Dr, Houston TX 77042",
+    "phone": "(832) 359-3779",
     "websiteUrl": "http://nativepotrestaurant.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2022%20Wilcrest%20Dr%2C%20Houston%20TX%2077042%2C%20Houston%2C%20TX",
     "highlights": [
@@ -978,6 +984,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "10021 S Main St Bldg 7, Houston TX 77025",
+    "phone": "(512) 840-0855",
     "websiteUrl": "http://www.fabaceaecuisine.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=10021%20S%20Main%20St%20Bldg%207%2C%20Houston%20TX%2077025%2C%20Houston%2C%20TX",
     "highlights": [
@@ -994,6 +1001,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "10571 Synott Rd, Houston TX 77099",
+    "phone": "(281) 965-8121",
     "websiteUrl": "https://ddsejideafricanrestaurant.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=10571%20Synott%20Rd%2C%20Houston%20TX%2077099%2C%20Houston%2C%20TX",
     "highlights": [
@@ -1059,6 +1067,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "3418 S Texas 6 Hwy, Houston TX 77082",
+    "phone": "(832) 328-8809",
     "websiteUrl": "https://www.suyaonthespot.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3418%20S%20Texas%206%20Hwy%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
@@ -1094,6 +1103,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "14144 Westheimer Rd #120, Houston TX 77077",
+    "phone": "(281) 741-3571",
     "websiteUrl": "https://www.komchop.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=14144%20Westheimer%20Rd%20%23120%2C%20Houston%20TX%2077077%2C%20Houston%2C%20TX",
     "highlights": [
@@ -1111,6 +1121,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Spring",
     "state": "TX",
     "addressLine": "409 Sawdust Rd, Spring TX 77380",
+    "phone": "(832) 850-3440",
     "websiteUrl": "https://www.olateeafricancafe.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=409%20Sawdust%20Rd%2C%20Spring%20TX%2077380%2C%20Spring%2C%20TX",
     "highlights": [
@@ -1368,6 +1379,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Fort Worth",
     "state": "TX",
     "addressLine": "6248 McCart Ave, Fort Worth TX 76133",
+    "phone": "+(469) 306-7318",
     "websiteUrl": "http://oloriafricancuisine.net/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=6248%20McCart%20Ave%2C%20Fort%20Worth%20TX%2076133%2C%20Fort%20Worth%2C%20TX",
     "highlights": [
@@ -1400,6 +1412,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Richland Hills",
     "state": "TX",
     "addressLine": "7224 Glenview Dr, Richland Hills TX 76180",
+    "phone": "(817) 537-2059",
     "websiteUrl": "http://www.zingscafe.com",
     "mapsUrl": "https://www.openstreetmap.org/search?query=7224%20Glenview%20Dr%2C%20Richland%20Hills%20TX%2076180%2C%20Richland%20Hills%2C%20TX",
     "highlights": [
@@ -1451,6 +1464,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Irving",
     "state": "TX",
     "addressLine": "3435 N Belt Line Rd, Irving TX 75062",
+    "phone": "(972) 594-5000",
     "websiteUrl": "https://www.lolasafricanrestaurant.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3435%20N%20Belt%20Line%20Rd%2C%20Irving%20TX%2075062%2C%20Irving%2C%20TX",
     "highlights": [
@@ -1501,6 +1515,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Arlington",
     "state": "TX",
     "addressLine": "6401 New York Ave #149, Arlington TX 76018",
+    "phone": "(817) 896-3372",
     "websiteUrl": "https://www.fufudelightsuyakitchen.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=6401%20New%20York%20Ave%20%23149%2C%20Arlington%20TX%2076018%2C%20Arlington%2C%20TX",
     "highlights": [
@@ -1656,6 +1671,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Austin",
     "state": "TX",
     "addressLine": "2902 E Cesar Chavez St, Austin TX 78702",
+    "phone": "+(512) 584-5139",
     "websiteUrl": "http://www.redseakitchenatx.com",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2902%20E%20Cesar%20Chavez%20St%2C%20Austin%20TX%2078702%2C%20Austin%2C%20TX",
     "highlights": [
@@ -1941,6 +1957,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Pearland",
     "state": "TX",
     "addressLine": "3300 Business Center Dr Ste 150, Pearland TX 77584",
+    "phone": "+(832) 831-4372",
     "websiteUrl": "https://www.ariasuyakitchen.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3300%20Business%20Center%20Dr%20Ste%20150%2C%20Pearland%20TX%2077584%2C%20Pearland%2C%20TX",
     "highlights": [

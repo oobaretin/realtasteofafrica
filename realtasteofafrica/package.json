@@ -11,6 +11,7 @@
     "import:restaurants": "node scripts/import-restaurants-csv.mjs",
     "fetch:restaurants:osm": "node scripts/fetch-restaurants-osm.mjs",
     "enrich:restaurants:osm": "node scripts/enrich-restaurants-osm.mjs",
+    "enrich:restaurants:web": "node scripts/enrich-restaurants-from-websites.mjs",
     "validate:restaurants": "node scripts/validate-restaurants-csv.mjs"
   },
   "keywords": [],
