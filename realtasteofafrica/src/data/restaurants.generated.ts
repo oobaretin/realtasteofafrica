@@ -648,6 +648,23 @@ export const RESTAURANTS: Restaurant[] = [
     ]
   },
   {
+    "slug": "god-grace-african-market-beaumont-tx",
+    "name": "God Grace African Market",
+    "cuisines": [
+      "African Market"
+    ],
+    "areaSlug": "houston",
+    "city": "Beaumont",
+    "state": "TX",
+    "addressLine": "6120 College St Suite E, Beaumont TX 77707",
+    "phone": "(409) 347-8288",
+    "websiteUrl": "http://www.godgraceafricanmarket.com",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=6120%20College%20St%20Suite%20E%2C%20Beaumont%20TX%2077707%2C%20Beaumont%2C%20TX",
+    "highlights": [
+      "Market"
+    ]
+  },
+  {
     "slug": "native-pot-houston-tx",
     "name": "Native Pot",
     "cuisines": [
@@ -848,17 +865,17 @@ export const RESTAURANTS: Restaurant[] = [
     ]
   },
   {
-    "slug": "olatee-african-cafe-houston-tx",
+    "slug": "olatee-african-cafe-spring-tx",
     "name": "Olatee African Cafe",
     "cuisines": [
       "West African"
     ],
     "areaSlug": "houston",
-    "city": "Houston",
+    "city": "Spring",
     "state": "TX",
-    "addressLine": "2616 Blodgett St, Houston TX 77004",
+    "addressLine": "409 Sawdust Rd, Spring TX 77380",
     "websiteUrl": "https://www.olateeafricancafe.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2616%20Blodgett%20St%2C%20Houston%20TX%2077004%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=409%20Sawdust%20Rd%2C%20Spring%20TX%2077380%2C%20Spring%2C%20TX",
     "highlights": [
       "West African"
     ]
