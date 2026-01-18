@@ -2837,4 +2837,24 @@ export const RESTAURANTS: Restaurant[] = [
       "Restaurant"
     ]
   },
+  {
+    "slug": "makola-marketplace-houston-tx",
+    "name": "Makola Marketplace",
+    "cuisines": [
+      "African Market",
+      "Kitchen",
+      "Grocery"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9051 W Bellfort Ave, Houston TX 77031",
+    "phone": "(713) 995-4343",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=9051%20W%20Bellfort%20Ave%2C%20Houston%20TX%2077031%2C%20Houston%2C%20TX",
+    "highlights": [
+      "Market",
+      "Kitchen",
+      "In-store pickup"
+    ]
+  },
 ]
