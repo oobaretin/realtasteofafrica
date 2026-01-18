@@ -17,8 +17,8 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "507 Westheimer Rd, Houston TX 77006",
-    "phone": "(832) 962-4500",
-    "websiteUrl": "https://chopnblok.co/",
+    "phone": "(281) 751-7890",
+    "websiteUrl": "https://www.chopnblok.co/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=507%20Westheimer%20Rd%2C%20Houston%20TX%2077006%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
@@ -239,10 +239,10 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "1701 Cypress Creek Pkwy Suite D, Houston TX 77090",
+    "addressLine": "11511 Westheimer Rd, Houston TX 77077",
     "phone": "(281) 825-6677",
-    "websiteUrl": "https://www.omalichakitchen.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1701%20Cypress%20Creek%20Pkwy%20Suite%20D%2C%20Houston%20TX%2077090%2C%20Houston%2C%20TX",
+    "websiteUrl": "https://omalichakitchen.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=11511%20Westheimer%20Rd%2C%20Houston%20TX%2077077%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Nigerian"
@@ -313,8 +313,8 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Cypress",
     "state": "TX",
     "addressLine": "22224 Northwest Fwy Ste B, Cypress TX 77429",
-    "phone": "(713) 360-8333",
-    "websiteUrl": "https://bantuhouse.com/",
+    "phone": "(281) 256-7455",
+    "websiteUrl": "https://www.bantuhouse.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=22224%20Northwest%20Fwy%20Ste%20B%2C%20Cypress%20TX%2077429%2C%20Cypress%2C%20TX",
     "highlights": [
       "African"
@@ -771,6 +771,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "5757 Will Ruth Ave Ste 310, El Paso TX 79924",
     "phone": "(915) 307-3343",
+    "websiteUrl": "https://dhutafrican.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=5757%20Will%20Ruth%20Ave%20Ste%20310%2C%20El%20Paso%20TX%2079924",
     "highlights": [
       "Delivery"
@@ -807,7 +808,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "3131 34th St, Lubbock TX 79410",
     "phone": "(806) 701-3680",
-    "websiteUrl": "https://www.vizoslubbock.com/",
+    "websiteUrl": "http://www.vizoslubbock.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3131%2034th%20St%2C%20Lubbock%20TX%2079410%2C%20Lubbock%2C%20TX",
     "highlights": [
       "Delivery"
@@ -970,13 +971,12 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "2923 Walnut Bend Ln, Houston TX 77042",
+    "addressLine": "2616 Blodgett St, Houston TX 77004",
     "phone": "(281) 846-6420",
     "websiteUrl": "https://dakarstreetfood.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2923%20Walnut%20Bend%20Ln%2C%20Houston%20TX%2077042%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2616%20Blodgett%20St%2C%20Houston%20TX%2077004%2C%20Houston%2C%20TX",
     "highlights": [
-      "Senegalese",
-      "West African"
+      "Ghost kitchen"
     ]
   },
   {
@@ -1179,10 +1179,10 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "dfw",
     "city": "Dallas",
     "state": "TX",
-    "addressLine": "12101 Greenville Ave #105, Dallas TX 75243",
-    "phone": "(214) 575-9004",
-    "websiteUrl": "http://destaethiopiaresturant.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=12101%20Greenville%20Ave%20%23105%2C%20Dallas%20TX%2075243%2C%20Dallas%2C%20TX",
+    "addressLine": "12101 Greenville Ave, Dallas TX 75243",
+    "phone": "(214) 760-7221",
+    "websiteUrl": "http://destaethiopian.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=12101%20Greenville%20Ave%2C%20Dallas%20TX%2075243%2C%20Dallas%2C%20TX",
     "highlights": [
       "Ethiopian"
     ]
@@ -1833,7 +1833,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "7600 Eckhert Rd #3, San Antonio TX 78240",
     "phone": "(210) 806-7770",
-    "websiteUrl": "https://tricescafeandlounge.com/",
+    "websiteUrl": "https://www.tricescafeandlounge.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=7600%20Eckhert%20Rd%20%233%2C%20San%20Antonio%20TX%2078240%2C%20San%20Antonio%2C%20TX",
     "highlights": [
       "African"
@@ -2581,6 +2581,280 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Suya"
+    ]
+  },
+  {
+    "slug": "the-icon-nigerian-kitchen-richardson",
+    "name": "The Icon Nigerian Kitchen",
+    "cuisines": [
+      "Nigerian",
+      "West African"
+    ],
+    "areaSlug": "dfw",
+    "city": "Richardson",
+    "state": "TX",
+    "addressLine": "430 N Coit Rd #120, Richardson TX 75080",
+    "phone": "(469) 917-7001",
+    "websiteUrl": "https://theiconkitchen.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=430%20N%20Coit%20Rd%20%23120%2C%20Richardson%20TX%2075080%2C%20Richardson%2C%20TX",
+    "highlights": [
+      "Nigerian",
+      "West African"
+    ]
+  },
+  {
+    "slug": "gidi-bar-and-grill-frisco",
+    "name": "Gidi Bar and Grill",
+    "cuisines": [
+      "Nigerian",
+      "West African"
+    ],
+    "areaSlug": "dfw",
+    "city": "Frisco",
+    "state": "TX",
+    "addressLine": "4350 Main St Suite 165, Frisco TX 75034",
+    "phone": "(972) 987-5195",
+    "websiteUrl": "https://www.gidibarandgrill.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=4350%20Main%20St%20Suite%20165%2C%20Frisco%20TX%2075034%2C%20Frisco%2C%20TX",
+    "highlights": [
+      "Nigerian",
+      "West African"
+    ]
+  },
+  {
+    "slug": "lady-t-kitchen-austin",
+    "name": "Lady T Kitchen",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "austin",
+    "city": "Austin",
+    "state": "TX",
+    "addressLine": "13776 US-183 #115, Austin TX 78750",
+    "phone": "(512) 552-7779",
+    "websiteUrl": "http://ladytkitchen.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=13776%20US-183%20%23115%2C%20Austin%20TX%2078750%2C%20Austin%2C%20TX",
+    "highlights": [
+      "African"
+    ]
+  },
+  {
+    "slug": "mabel-s-african-cuisine-and-bar-mckinney",
+    "name": "Mabel's African Cuisine & Bar",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "dfw",
+    "city": "McKinney",
+    "state": "TX",
+    "addressLine": "Delivery/Outpost - McKinney TX",
+    "websiteUrl": "https://mabelsafricancuisine.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Mabel's%20African%20Cuisine%20%26%20Bar%20McKinney%20TX",
+    "highlights": [
+      "Delivery"
+    ]
+  },
+  {
+    "slug": "southwest-farmers-market-and-kitchen-arlington",
+    "name": "Southwest Farmers Market & Kitchen",
+    "cuisines": [
+      "African Market",
+      "Grocery"
+    ],
+    "areaSlug": "dfw",
+    "city": "Arlington",
+    "state": "TX",
+    "addressLine": "1011 E Arkansas Ln, Arlington TX 76010",
+    "phone": "(817) 462-1617",
+    "websiteUrl": "https://www.southwestfarmersmarket.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=1011%20E%20Arkansas%20Ln%2C%20Arlington%20TX%2076010%2C%20Arlington%2C%20TX",
+    "highlights": [
+      "African Market",
+      "Grocery"
+    ]
+  },
+  {
+    "slug": "southwest-farmers-market-and-kitchen-austin",
+    "name": "Southwest Farmers Market & Kitchen",
+    "cuisines": [
+      "African Market",
+      "Grocery"
+    ],
+    "areaSlug": "austin",
+    "city": "Austin",
+    "state": "TX",
+    "addressLine": "9821 N Interstate Hwy 35, Austin TX 78753",
+    "phone": "(512) 339-6128",
+    "websiteUrl": "https://www.southwestfarmersmarket.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=9821%20N%20Interstate%20Hwy%2035%2C%20Austin%20TX%2078753%2C%20Austin%2C%20TX",
+    "highlights": [
+      "African Market",
+      "Grocery"
+    ]
+  },
+  {
+    "slug": "southwest-farmers-market-and-kitchen-san-antonio",
+    "name": "Southwest Farmers Market & Kitchen",
+    "cuisines": [
+      "African Market",
+      "Grocery"
+    ],
+    "areaSlug": "san-antonio",
+    "city": "San Antonio",
+    "state": "TX",
+    "addressLine": "6555 Bandera Rd, San Antonio TX 78238",
+    "phone": "(210) 549-0018",
+    "websiteUrl": "https://www.southwestfarmersmarket.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=6555%20Bandera%20Rd%2C%20San%20Antonio%20TX%2078238%2C%20San%20Antonio%2C%20TX",
+    "highlights": [
+      "African Market",
+      "Grocery"
+    ]
+  },
+  {
+    "slug": "southwest-farmers-market-and-kitchen-houston",
+    "name": "Southwest Farmers Market & Kitchen",
+    "cuisines": [
+      "African Market",
+      "Grocery"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9801 Bissonnet St, Houston TX 77036",
+    "phone": "(713) 774-8822",
+    "websiteUrl": "https://www.southwestfarmersmarket.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=9801%20Bissonnet%20St%2C%20Houston%20TX%2077036%2C%20Houston%2C%20TX",
+    "highlights": [
+      "African Market",
+      "Grocery"
+    ]
+  },
+  {
+    "slug": "habesha-restaurant-austin",
+    "name": "Habesha Restaurant",
+    "cuisines": [
+      "Ethiopian"
+    ],
+    "areaSlug": "austin",
+    "city": "Austin",
+    "state": "TX",
+    "addressLine": "6019 N Interstate Hwy 35, Austin TX 78723",
+    "phone": "(512) 407-6830",
+    "websiteUrl": "http://habeshaaustin.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=6019%20N%20Interstate%20Hwy%2035%2C%20Austin%20TX%2078723%2C%20Austin%2C%20TX",
+    "highlights": [
+      "Ethiopian"
+    ]
+  },
+  {
+    "slug": "freshnez-kitchen-food-truck-dallas",
+    "name": "Freshnez Kitchen (Food Truck)",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "dfw",
+    "city": "Dallas",
+    "state": "TX",
+    "addressLine": "Mobile - DFW Metroplex",
+    "phone": "(214) 434-9333",
+    "websiteUrl": "https://freshnezkitchen.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Freshnez%20Kitchen%20(Food%20Truck)%20Dallas%20TX",
+    "highlights": [
+      "Food truck"
+    ]
+  },
+  {
+    "slug": "aso-rock-market-and-kitchen-dallas",
+    "name": "Aso Rock Market & Kitchen",
+    "cuisines": [
+      "African Market",
+      "Grocery"
+    ],
+    "areaSlug": "dfw",
+    "city": "Dallas",
+    "state": "TX",
+    "addressLine": "9220 Skillman St #115, Dallas TX 75243",
+    "phone": "(214) 343-1300",
+    "websiteUrl": "http://asorockmarket.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=9220%20Skillman%20St%20%23115%2C%20Dallas%20TX%2075243%2C%20Dallas%2C%20TX",
+    "highlights": [
+      "African Market",
+      "Grocery"
+    ]
+  },
+  {
+    "slug": "blue-nile-ethiopian-houston",
+    "name": "Blue Nile Ethiopian",
+    "cuisines": [
+      "Ethiopian"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9400 Richmond Ave, Houston TX 77063",
+    "phone": "(713) 814-5101",
+    "websiteUrl": "http://bluenilehouston.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=9400%20Richmond%20Ave%2C%20Houston%20TX%2077063%2C%20Houston%2C%20TX",
+    "highlights": [
+      "Ethiopian"
+    ]
+  },
+  {
+    "slug": "nando-s-peri-peri-post-oak-houston",
+    "name": "Nando's PERi-PERi (Post Oak)",
+    "cuisines": [
+      "South African",
+      "Peri-Peri"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "1717-C Post Oak Blvd, Houston TX 77056",
+    "phone": "(832) 669-9930",
+    "websiteUrl": "https://www.nandosperiperi.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=1717-C%20Post%20Oak%20Blvd%2C%20Houston%20TX%2077056%2C%20Houston%2C%20TX",
+    "highlights": [
+      "South African",
+      "Peri-Peri"
+    ]
+  },
+  {
+    "slug": "blessliz-african-market-and-kitchen-mckinney",
+    "name": "Blessliz African Market & Kitchen",
+    "cuisines": [
+      "African Market",
+      "Grocery"
+    ],
+    "areaSlug": "dfw",
+    "city": "McKinney",
+    "state": "TX",
+    "addressLine": "1502 W University Dr, McKinney TX 75069",
+    "phone": "(469) 666-4144",
+    "websiteUrl": "https://blessliz.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=1502%20W%20University%20Dr%2C%20McKinney%20TX%2075069%2C%20McKinney%2C%20TX",
+    "highlights": [
+      "African Market",
+      "Grocery"
+    ]
+  },
+  {
+    "slug": "bukka-grill-frisco",
+    "name": "Bukka Grill",
+    "cuisines": [
+      "Nigerian",
+      "West African"
+    ],
+    "areaSlug": "dfw",
+    "city": "Frisco",
+    "state": "TX",
+    "addressLine": "307 Main St, Frisco TX 75036",
+    "phone": "(214) 494-2553",
+    "websiteUrl": "https://bukkagrill.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=307%20Main%20St%2C%20Frisco%20TX%2075036%2C%20Frisco%2C%20TX",
+    "highlights": [
+      "Nigerian",
+      "West African"
     ]
   },
 ]
