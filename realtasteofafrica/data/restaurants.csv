@@ -1,9 +1,9 @@
 name,cuisines,areaSlug,city,state,addressLine,phone,websiteUrl,mapsUrl,priceLevel,highlights,writeUp,slug
 ChòpnBlọk,West African|Modern Nigerian,houston,Houston,TX,"507 Westheimer Rd, Houston TX 77006","(832) 962-4500",https://chopnblok.co/,,,,,chopnblok-houston-tx
 Aria Suya Kitchen,West African|Nigerian,houston,Houston,TX,"6357 Westheimer Rd, Houston TX 77057",,https://www.ariasuyakitchen.com/,,,,,aria-suya-kitchen-houston-tx
-Taste of Nigeria,West African|Nigerian,houston,Houston,TX,"5959 Richmond Ave #160, Houston TX 77057",,https://tasteofnigeria.us/,,,,,taste-of-nigeria-houston-tx
+Taste of Nigeria,West African|Nigerian,houston,Houston,TX,"5959 Richmond Ave #160, Houston TX 77057","(713) 589-9055",https://tasteofnigeria.us/,,,Delivery,"Nigerian / West African spot in Houston. Delivery may be available — check delivery apps for current availability and hours.",taste-of-nigeria-houston-tx
 Sarabell Calabar Restaurant & Buffet,West African|Nigerian,houston,Houston,TX,"9801 Bissonnet St Suite C, Houston TX 77036",,https://sarabellcalabarrestaurant.com/,,,Delivery,"West African / Nigerian buffet spot in Houston. Delivery may be available in nearby areas (including around Missouri City) — check delivery apps or their site for current options.",sarabell-calabar-restaurant-and-buffet-houston-tx
-Afrikiko,Ghanaian|West African,houston,Houston,TX,"9625 Bissonnet St, Houston TX 77036","(713) 773-1400",https://afrikikohouston.com/,,,,,afrikiko-houston-tx
+Afrikiko,Ghanaian|West African,houston,Houston,TX,"9625 Bissonnet St, Houston TX 77036","(713) 773-1400",https://afrikikohouston.com/,,,Delivery,"Ghanaian / West African restaurant in Houston. Delivery may be available — check delivery apps for current availability.",afrikiko-houston-tx
 Finger Licking Restaurant,West African|Nigerian,houston,Houston,TX,"9811 Bissonnet St, Houston TX 77036","(713) 270-7070",https://fingerlickinghtx.com/,,,,,finger-licking-restaurant-houston-tx
 Safari,West African|Nigerian,houston,Houston,TX,"10014 Bissonnet St, Houston TX 77036","(713) 541-4436",https://thesafarirestaurant.com/,,,,,safari-houston-tx
 Sabo Suya Spot,West African|Suya,houston,Houston,TX,"9780 Bissonnet St Ste Q, Houston TX 77036","(832) 768-5973",,,,,,sabo-suya-spot-houston-tx
@@ -41,7 +41,7 @@ Cafe Abuja,Nigerian|West African,houston,Houston,TX,"15015 Westheimer Rd Suite C
 
 Anointed Cuisine A Taste of Africa,African|West African|Suya|Jollof,el-paso,El Paso,TX,"3140 N Lee Trevino Dr, El Paso TX 79936","(915) 307-4834",https://anointedatasteofafrica.com,,,"Takeout|Market|Delivery","African / West African favorites (suya, jollof and more). Delivery is often available in El Paso via Uber Eats and DoorDash — check the apps for current hours and coverage.",anointed-cuisine-a-taste-of-africa-el-paso-tx
 Dhut African Restaurant,African,el-paso,El Paso,TX,"5757 Will Ruth Ave Ste 310, El Paso TX 79924",,,"https://www.openstreetmap.org/search?query=5757%20Will%20Ruth%20Ave%20Ste%20310%2C%20El%20Paso%20TX%2079924",,Delivery,"African food in El Paso. Delivery may be available via third-party platforms — check delivery apps for current availability.",dhut-african-restaurant-el-paso-tx
-Debizz Kitchen,African,el-paso,El Paso,TX,"12321 Desert Dove Ave, El Paso TX 79938",,,,,,,debizz-kitchen-el-paso-tx
+Debizz Kitchen,African,el-paso,El Paso,TX,"12321 Desert Dove Ave, El Paso TX 79938",,,,,Delivery,"Small African food spot in El Paso. Delivery may be available — check delivery apps for current availability.",debizz-kitchen-el-paso-tx
 
 Vizo’s African Bar & Restaurant,African|Nigerian|Bar,west-texas,Lubbock,TX,"3131 34th St, Lubbock TX 79410","(806) 701-3680",https://www.vizoslubbock.com/,,,Delivery,"African / Nigerian bar & restaurant in Lubbock. Delivery may be available via DoorDash or Uber Eats — check the apps for current availability.",vizos-african-bar-and-restaurant-lubbock-tx
 Betty's Kitchen,African,west-texas,Abilene,TX,"2510 Button Willow Ave, Abilene TX 79606",,,,,,,bettys-kitchen-abilene-tx
@@ -66,7 +66,7 @@ Suya on the Spot,West African|Suya,houston,Houston,TX,"3418 S Texas 6 Hwy, Houst
 FuFu Restaurant (West African influence),West African,houston,Houston,TX,"11810 Bellaire Blvd Ste A, Houston TX 77072","(713) 981-8818",https://fufurestaurant.com/,,,,,fufu-restaurant-west-african-influence-houston-tx
 
 KomChop,West African|Nigerian,houston,Houston,TX,"14144 Westheimer Rd #120, Houston TX 77077",,https://www.komchop.com/,,,,,komchop-houston-tx
-Olatee African Cafe,West African,houston,Spring,TX,"409 Sawdust Rd, Spring TX 77380",,https://www.olateeafricancafe.com/,,,,,olatee-african-cafe-spring-tx
+Olatee African Cafe,West African,houston,Spring,TX,"409 Sawdust Rd, Spring TX 77380",,https://www.olateeafricancafe.com/,,,Delivery,"West African cafe in Spring (Greater Houston). Delivery may be available — check delivery apps for current availability.",olatee-african-cafe-spring-tx
 Alief African Kitchen,West African|African,houston,Houston,TX,"9755 S Kirkwood Rd D, Houston TX 77099","(281) 968-1810",https://aliefafricanfoodkitchen.shopsettings.com/,,,,,alief-african-kitchen-houston-tx
 
 Desta Ethiopian Restaurant,Ethiopian,dfw,Dallas,TX,"12101 Greenville Ave #105, Dallas TX 75243","(214) 575-9004",http://destaethiopiaresturant.com/,,,,,desta-ethiopian-restaurant-dallas-tx
@@ -122,6 +122,6 @@ Wazobia Kitchen,African,houston,Houston,TX,"16203 Westheimer Rd, Houston TX 7708
 Mgbeke Village Hut - Nigerian Cuisine,Nigerian|African,austin,Leander,TX,"825 Palamos Dr, Leander TX 78641","(413) 777-7990",https://mgbeke.com/product-category/village-hut%F0%9F%9B%96/,,,,,mgbeke-village-hut-nigerian-cuisine-leander-tx
 Blessliz African market,African Market,dfw,McKinney,TX,"1502 W University Dr STE 104, McKinney TX 75069","(469) 714-0034",http://blesslizcatering.com/,,,,,blessliz-african-market-mckinney-tx
 
-Suya Power House,West African|Suya|Nigerian,houston,Missouri City,TX,"15703 Homebriar Ct Bldg 15703, Missouri City TX 77489",,https://www.suyapowerhouse.us/,,,,,suya-power-house-missouri-city-tx
-Aria Nigerian Suya Kitchen,West African|Nigerian|Suya,houston,Pearland,TX,"3300 Business Center Dr Ste 150, Pearland TX 77584",,https://www.ariasuyakitchen.com/,,,,,aria-nigerian-suya-kitchen-pearland-tx
+Suya Power House,West African|Suya|Nigerian,houston,Missouri City,TX,"15703 Homebriar Ct Bldg 15703, Missouri City TX 77489",,https://www.suyapowerhouse.us/,,,Delivery,"West African suya + Nigerian-inspired dishes in Missouri City. Delivery is often available in the Houston area — check delivery apps for current coverage.",suya-power-house-missouri-city-tx
+Aria Nigerian Suya Kitchen,West African|Nigerian|Suya,houston,Pearland,TX,"3300 Business Center Dr Ste 150, Pearland TX 77584",,https://www.ariasuyakitchen.com/,,,Delivery,"West African / Nigerian dishes in Pearland (Greater Houston). Delivery may be available — check delivery apps for current availability.",aria-nigerian-suya-kitchen-pearland-tx
 Kaylani African Cafe,African,houston,Pearland,TX,"7129 Broadway St, Pearland TX 77581",,,,,,,kaylani-african-cafe-pearland-tx

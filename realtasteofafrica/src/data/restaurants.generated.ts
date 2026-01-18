@@ -54,12 +54,13 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "5959 Richmond Ave #160, Houston TX 77057",
+    "phone": "(713) 589-9055",
     "websiteUrl": "https://tasteofnigeria.us/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=5959%20Richmond%20Ave%20%23160%2C%20Houston%20TX%2077057%2C%20Houston%2C%20TX",
     "highlights": [
-      "West African",
-      "Nigerian"
-    ]
+      "Delivery"
+    ],
+    "writeUp": "Nigerian / West African spot in Houston. Delivery may be available — check delivery apps for current availability and hours."
   },
   {
     "slug": "sarabell-calabar-restaurant-and-buffet-houston-tx",
@@ -94,9 +95,9 @@ export const RESTAURANTS: Restaurant[] = [
     "websiteUrl": "https://afrikikohouston.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=9625%20Bissonnet%20St%2C%20Houston%20TX%2077036%2C%20Houston%2C%20TX",
     "highlights": [
-      "Ghanaian",
-      "West African"
-    ]
+      "Delivery"
+    ],
+    "writeUp": "Ghanaian / West African restaurant in Houston. Delivery may be available — check delivery apps for current availability."
   },
   {
     "slug": "finger-licking-restaurant-houston-tx",
@@ -749,8 +750,9 @@ export const RESTAURANTS: Restaurant[] = [
     "addressLine": "12321 Desert Dove Ave, El Paso TX 79938",
     "mapsUrl": "https://www.openstreetmap.org/search?query=12321%20Desert%20Dove%20Ave%2C%20El%20Paso%20TX%2079938%2C%20El%20Paso%2C%20TX",
     "highlights": [
-      "African"
-    ]
+      "Delivery"
+    ],
+    "writeUp": "Small African food spot in El Paso. Delivery may be available — check delivery apps for current availability."
   },
   {
     "slug": "vizos-african-bar-and-restaurant-lubbock-tx",
@@ -1092,8 +1094,9 @@ export const RESTAURANTS: Restaurant[] = [
     "websiteUrl": "https://www.olateeafricancafe.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=409%20Sawdust%20Rd%2C%20Spring%20TX%2077380%2C%20Spring%2C%20TX",
     "highlights": [
-      "West African"
-    ]
+      "Delivery"
+    ],
+    "writeUp": "West African cafe in Spring (Greater Houston). Delivery may be available — check delivery apps for current availability."
   },
   {
     "slug": "alief-african-kitchen-houston-tx",
@@ -1902,10 +1905,9 @@ export const RESTAURANTS: Restaurant[] = [
     "websiteUrl": "https://www.suyapowerhouse.us/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=15703%20Homebriar%20Ct%20Bldg%2015703%2C%20Missouri%20City%20TX%2077489%2C%20Missouri%20City%2C%20TX",
     "highlights": [
-      "West African",
-      "Suya",
-      "Nigerian"
-    ]
+      "Delivery"
+    ],
+    "writeUp": "West African suya + Nigerian-inspired dishes in Missouri City. Delivery is often available in the Houston area — check delivery apps for current coverage."
   },
   {
     "slug": "aria-nigerian-suya-kitchen-pearland-tx",
@@ -1922,10 +1924,9 @@ export const RESTAURANTS: Restaurant[] = [
     "websiteUrl": "https://www.ariasuyakitchen.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3300%20Business%20Center%20Dr%20Ste%20150%2C%20Pearland%20TX%2077584%2C%20Pearland%2C%20TX",
     "highlights": [
-      "West African",
-      "Nigerian",
-      "Suya"
-    ]
+      "Delivery"
+    ],
+    "writeUp": "West African / Nigerian dishes in Pearland (Greater Houston). Delivery may be available — check delivery apps for current availability."
   },
   {
     "slug": "kaylani-african-cafe-pearland-tx",
