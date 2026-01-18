@@ -2353,6 +2353,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "8731 W Bellfort Ave, Houston TX",
+    "phone": "(713) 995-5545",
     "mapsUrl": "https://www.openstreetmap.org/search?query=8731%20W%20Bellfort%20Ave%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
