@@ -51,12 +51,6 @@ export const AREAS: Area[] = [
     regionLabel: "Southwest Houston, TX",
     description: "Restaurants in Sugar Land and nearby southwest Houston.",
   },
-  {
-    slug: "pasadena",
-    name: "Pasadena",
-    regionLabel: "Southeast Houston, TX",
-    description: "Restaurants in Pasadena and nearby southeast Houston.",
-  },
 ]
 
 export function getAreaBySlug(slug: string): Area | undefined {

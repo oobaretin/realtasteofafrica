@@ -129,7 +129,7 @@ function toRecord(el) {
   // Map city to an areaSlug when possible; default to houston region
   const citySlug = slugify(city)
   const areaSlug =
-    citySlug === "katy" || citySlug === "sugar-land" || citySlug === "pasadena"
+    citySlug === "katy" || citySlug === "sugar-land"
       ? citySlug
       : "houston"
 
