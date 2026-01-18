@@ -6,17 +6,6 @@ import { AREAS } from "@/lib/areas"
 export function WpSidebar() {
   return (
     <aside className="grid gap-4">
-      <Widget title="Search">
-        <input
-          className="w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 placeholder:text-slate-400"
-          placeholder="Search (coming soon)"
-          disabled
-        />
-        <p className="mt-2 text-xs text-slate-500">
-          We’ll enable search once we wire a database and indexing.
-        </p>
-      </Widget>
-
       <Widget title="Areas (Houston-first)">
         <ul className="grid gap-2">
           {AREAS.map((a) => (

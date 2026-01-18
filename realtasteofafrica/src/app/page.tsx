@@ -152,10 +152,10 @@ export default function HomePage() {
         <div className="flex items-end justify-between gap-4">
           <div>
             <h2 className="text-xl font-semibold tracking-tight">
-              Quick search
+              Browse by area
             </h2>
             <p className="mt-1 text-sm text-slate-600">
-              Coming soon: real search + filters when more data is wired in.
+              Start with Houston and nearby cities — then expand across Texas.
             </p>
           </div>
           <Link
@@ -167,41 +167,16 @@ export default function HomePage() {
         </div>
 
         <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-          <div className="grid gap-3 md:grid-cols-[1fr_auto] md:items-center">
-            <label className="grid gap-2">
-              <span className="text-sm font-semibold text-slate-900">
-                Find restaurants
-              </span>
-              <input
-                className="w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 placeholder:text-slate-400"
-                placeholder="Search by name, cuisine, or city (coming soon)"
-                disabled
-              />
-            </label>
-
-            <Link
-              className="inline-flex items-center justify-center rounded-md bg-amber-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-amber-700"
-              href="/restaurants"
-            >
-              Search
-            </Link>
-          </div>
-
-          <div className="mt-4">
-            <div className="text-xs font-semibold text-slate-500">
-              Start with an area
-            </div>
-            <div className="mt-2 flex flex-wrap gap-2">
-              {AREAS.map((a) => (
-                <Link
-                  key={a.slug}
-                  className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-50"
-                  href={`/areas/${a.slug}`}
-                >
-                  {a.name}
-                </Link>
-              ))}
-            </div>
+          <div className="flex flex-wrap gap-2">
+            {AREAS.map((a) => (
+              <Link
+                key={a.slug}
+                className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-50"
+                href={`/areas/${a.slug}`}
+              >
+                {a.name}
+              </Link>
+            ))}
           </div>
         </div>
       </section>
