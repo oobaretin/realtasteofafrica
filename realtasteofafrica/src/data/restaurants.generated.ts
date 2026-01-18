@@ -702,19 +702,24 @@ export const RESTAURANTS: Restaurant[] = [
     "slug": "anointed-cuisine-a-taste-of-africa-el-paso-tx",
     "name": "Anointed Cuisine A Taste of Africa",
     "cuisines": [
-      "African"
+      "African",
+      "West African",
+      "Suya",
+      "Jollof"
     ],
     "areaSlug": "el-paso",
     "city": "El Paso",
     "state": "TX",
     "addressLine": "3140 N Lee Trevino Dr, El Paso TX 79936",
     "phone": "(915) 307-4834",
-    "websiteUrl": "https://anointedcuisineinc.com",
+    "websiteUrl": "https://anointedatasteofafrica.com",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3140%20N%20Lee%20Trevino%20Dr%2C%20El%20Paso%20TX%2079936%2C%20El%20Paso%2C%20TX",
     "highlights": [
       "Takeout",
-      "Market"
-    ]
+      "Market",
+      "Delivery"
+    ],
+    "writeUp": "African / West African favorites (suya, jollof and more). Delivery is often available in El Paso via Uber Eats and DoorDash — check the apps for current hours and coverage."
   },
   {
     "slug": "dhut-african-restaurant-el-paso-tx",
@@ -726,10 +731,11 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "El Paso",
     "state": "TX",
     "addressLine": "5757 Will Ruth Ave Ste 310, El Paso TX 79924",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5757%20Will%20Ruth%20Ave%20Ste%20310%2C%20El%20Paso%20TX%2079924%2C%20El%20Paso%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=5757%20Will%20Ruth%20Ave%20Ste%20310%2C%20El%20Paso%20TX%2079924",
     "highlights": [
-      "African"
-    ]
+      "Delivery"
+    ],
+    "writeUp": "African food in El Paso. Delivery may be available via third-party platforms — check delivery apps for current availability."
   },
   {
     "slug": "debizz-kitchen-el-paso-tx",
@@ -751,6 +757,7 @@ export const RESTAURANTS: Restaurant[] = [
     "name": "Vizo’s African Bar & Restaurant",
     "cuisines": [
       "African",
+      "Nigerian",
       "Bar"
     ],
     "areaSlug": "west-texas",
@@ -761,9 +768,9 @@ export const RESTAURANTS: Restaurant[] = [
     "websiteUrl": "https://www.vizoslubbock.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3131%2034th%20St%2C%20Lubbock%20TX%2079410%2C%20Lubbock%2C%20TX",
     "highlights": [
-      "African",
-      "Bar"
-    ]
+      "Delivery"
+    ],
+    "writeUp": "African / Nigerian bar & restaurant in Lubbock. Delivery may be available via DoorDash or Uber Eats — check the apps for current availability."
   },
   {
     "slug": "bettys-kitchen-abilene-tx",
