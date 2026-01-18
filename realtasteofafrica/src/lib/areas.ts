@@ -14,6 +14,32 @@ export const AREAS: Area[] = [
       "Start here: Houston + neighboring cities. We’ll expand nationwide as we grow.",
   },
   {
+    slug: "dfw",
+    name: "DFW",
+    regionLabel: "Dallas–Fort Worth, TX",
+    description:
+      "African restaurants across Dallas, Fort Worth, and nearby cities in the metroplex.",
+  },
+  {
+    slug: "austin",
+    name: "Austin",
+    regionLabel: "Austin, TX",
+    description: "African restaurants in Austin and nearby suburbs.",
+  },
+  {
+    slug: "central-texas",
+    name: "Central Texas",
+    regionLabel: "Central Texas",
+    description:
+      "African restaurants in Central Texas (Killeen, Temple, Round Rock, and nearby areas).",
+  },
+  {
+    slug: "san-antonio",
+    name: "San Antonio",
+    regionLabel: "San Antonio, TX",
+    description: "African restaurants in San Antonio and nearby areas.",
+  },
+  {
     slug: "katy",
     name: "Katy",
     regionLabel: "West Houston, TX",

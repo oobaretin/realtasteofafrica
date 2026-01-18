@@ -1,5 +1,5 @@
 name,cuisines,areaSlug,city,state,addressLine,phone,websiteUrl,mapsUrl,priceLevel,highlights,writeUp,slug
-ChòpnBlọk,West African|Nigerian,houston,Houston,TX,"507 Westheimer Rd, Houston TX 77006",,https://chopnblok.co/,,,,,chopnblok-houston-tx
+ChòpnBlọk,West African|Modern Nigerian,houston,Houston,TX,"507 Westheimer Rd, Houston TX 77006","(832) 962-4500",https://chopnblok.co/,,,,,chopnblok-houston-tx
 Aria Suya Kitchen,West African|Nigerian,houston,Houston,TX,"6357 Westheimer Rd, Houston TX 77057",,https://www.ariasuyakitchen.com/,,,,,aria-suya-kitchen-houston-tx
 Taste of Nigeria,West African|Nigerian,houston,Houston,TX,"5959 Richmond Ave #160, Houston TX 77057",,https://tasteofnigeria.us/,,,,,taste-of-nigeria-houston-tx
 Sarabell Calabar Restaurant & Buffet,West African|Nigerian,houston,Houston,TX,"9801 Bissonnet St Suite C, Houston TX 77036",,https://sarabellcalabarrestaurant.com/,,,,,sarabell-calabar-restaurant-and-buffet-houston-tx
@@ -10,7 +10,7 @@ Sabo Suya Spot,West African|Suya,houston,Houston,TX,"9780 Bissonnet St Ste Q, Ho
 Suya Hut (Suya Culture),West African|Suya,sugar-land,Meadows Place,TX,"11720 W Airport Blvd #1600, Meadows Place TX 77477","(281) 265-1411",,,,,,suya-hut-suya-culture-meadows-place-tx
 Hunan Cafe,West African,houston,Houston,TX,"3645 Cypress Creek Pkwy #368, Houston TX 77068",,https://hunanwestafricancuisine.com/,,,,,hunan-cafe-houston-tx
 Abula HotPot,West African|Nigerian,houston,Houston,TX,"12703 Alief Clodine Rd, Houston TX 77082",,https://abulahotpottx.com/,,,,,abula-hotpot-houston-tx
-Unique African Cuisine,West African|Nigerian,houston,Houston,TX,"6101 Wilcrest Dr, Houston TX 77072",,,,,,,unique-african-cuisine-houston-tx
+Unique African Cuisine,West African|Nigerian,houston,Houston,TX,"6101 Wilcrest Dr, Houston TX 77072","(281) 575-1665",,,,,,unique-african-cuisine-houston-tx
 Omalicha Kitchen,West African|Nigerian,houston,Houston,TX,"1701 Cypress Creek Pkwy Suite D, Houston TX 77090",,https://www.omalichakitchen.com/,,,,,omalicha-kitchen-houston-tx
 Blue Nile,Ethiopian|African,houston,Houston,TX,"3030 Audley St, Houston TX 77098",,https://bluenilerestaurant.com/,,,,,blue-nile-houston-tx
 Lucy Ethiopian Restaurant & Lounge,Ethiopian,houston,Houston,TX,"6800 Southwest Fwy, Houston TX 77074",,https://www.lucyhouston.com/,,,,,lucy-ethiopian-restaurant-and-lounge-houston-tx
@@ -24,10 +24,46 @@ Cafe Abuja,Nigerian|West African,houston,Houston,TX,"15015 Westheimer Rd Suite C
 
 Dakar Street Food,Senegalese|West African,houston,Houston,TX,"2923 Walnut Bend Ln, Houston TX 77042",,https://dakarstreetfood.com/,,,,,dakar-street-food-houston-tx
 Kofoshi,West African,houston,Houston,TX,"3706 S Gessner Rd, Houston TX 77063",,,,,,,kofoshi-houston-tx
-Fabaceae African Cuisine,West African,houston,Houston,TX,"10021 S Main St Bldg 7, Houston TX 77025",,https://www.fabaceaecuisine.com/,,,,,fabaceae-african-cuisine-houston-tx
+Fabaceae African Cuisine Inc.,African,houston,Houston,TX,"10021 S Main St Bldg 7, Houston TX 77025",,http://www.fabaceaecuisine.com/,,,,,fabaceae-african-cuisine-houston-tx
 EJIDE AFRICAN RESTAURANT AND BAR,West African,houston,Houston,TX,"10571 Synott Rd, Houston TX 77099",,https://ddsejideafricanrestaurant.com/,,,,,ejide-african-restaurant-and-bar-houston-tx
 Authentic African Restaurant & Bar,West African,houston,Houston,TX,"9705 Synott Rd Suite 107, Houston TX 77083",832-529-9010,https://authenticafricanfoods.com/,,,,,authentic-african-restaurant-and-bar-houston-tx
 Marie African Flavors,African,houston,Houston,TX,"12600 Bissonnet St Ste A7, Houston TX 77099",,,,,,,marie-african-flavors-houston-tx
 Aburi Cuisine,African,houston,Houston,TX,"13655 Bissonnet St Suite 204, Houston TX 77083","(346) 774-2122",,,,,,aburi-cuisine-houston-tx
 Suya on the Spot,West African|Suya,houston,Houston,TX,"3418 S Texas 6 Hwy, Houston TX 77082",,https://www.suyaonthespot.com/,,,,,suya-on-the-spot-houston-tx
 FuFu Restaurant (West African influence),West African,houston,Houston,TX,"11810 Bellaire Blvd Ste A, Houston TX 77072","(713) 981-8818",https://fufurestaurant.com/,,,,,fufu-restaurant-west-african-influence-houston-tx
+
+KomChop,West African|Nigerian,houston,Houston,TX,"14144 Westheimer Rd #120, Houston TX 77077",,https://www.komchop.com/,,,,,komchop-houston-tx
+Olatee African Cafe,West African,houston,Houston,TX,"2616 Blodgett St, Houston TX 77004",,https://www.olateeafricancafe.com/,,,,,olatee-african-cafe-houston-tx
+Alief African Kitchen,West African|African,houston,Houston,TX,"9755 S Kirkwood Rd D, Houston TX 77099","(281) 968-1810",https://aliefafricanfoodkitchen.shopsettings.com/,,,,,alief-african-kitchen-houston-tx
+
+Desta Ethiopian Restaurant,Ethiopian,dfw,Dallas,TX,"12101 Greenville Ave #105, Dallas TX 75243","(214) 575-9004",http://destaethiopiaresturant.com/,,,,,desta-ethiopian-restaurant-dallas-tx
+Lalibela Ethiopian Restaurant & Bar,Ethiopian,dfw,Dallas,TX,"9191 Forest Ln #2, Dallas TX 75243","(972) 792-8442",https://lalibeladallastx.com/,,,,,lalibela-ethiopian-restaurant-dallas-tx
+Addis Abeba Ethiopian Restaurant,Ethiopian,dfw,Richardson,TX,"100 Central Expy Ste 65, Richardson TX 75080","(469) 319-9604",https://addisabebarestauranttx.com/,,,,,addis-abeba-ethiopian-restaurant-richardson-tx
+
+West African Way,West African,dfw,Plano,TX,"Plano, TX (check maps)",,,,,,,west-african-way-plano-tx
+Jollof Haus - West African Flavors,West African,dfw,Allen,TX,"Allen, TX",,,,,,,jollof-haus-west-african-flavors-allen-tx
+Exotic Grill African Cuisine,African,dfw,Euless,TX,"Euless, TX",,,,,,,exotic-grill-african-cuisine-euless-tx
+Osuma Suya,Nigerian|Suya,dfw,McKinney,TX,"McKinney, TX",,,,,,,osuma-suya-mckinney-tx
+Suya Stop Inc.,Nigerian|Suya,dfw,Dallas,TX,"Dallas, TX",,,,,,,suya-stop-inc-dallas-tx
+
+Lady T Kitchen,African,austin,Pflugerville,TX,"Pflugerville, TX",,,,,,,lady-t-kitchen-pflugerville-tx
+South African Food Affair,South African,austin,Austin,TX,"Austin, TX",,,,,,,south-african-food-affair-austin-tx
+Oringo Africana,West African,austin,Austin,TX,"Austin, TX",,,,,,,oringo-africana-austin-tx
+Palatable Nigerian Cuisine,Nigerian,austin,Austin,TX,"Austin, TX",,,,,,,palatable-nigerian-cuisine-austin-tx
+
+Amen Cafe Eritrean & Ethiopian,Ethiopian|Eritrean,san-antonio,San Antonio,TX,"5115 Fredericksburg Rd, San Antonio TX 78229",,https://amen.cafe/,,,,,amen-cafe-eritrean-and-ethiopian-san-antonio-tx
+
+Wazobia African Market & Kitchen,African Market|Kitchen,houston,Houston,TX,"10828 Beechnut St, Houston TX 77072",,,,,,,wazobia-african-market-and-kitchen-houston-tx
+Bodija African Food Market,African Market|Kitchen,houston,Houston,TX,"Houston, TX (address varies)",,,,,,,bodija-african-food-market-houston-tx
+
+Yenat Guada Ethiopian Cuisine,Ethiopian,dfw,Dallas,TX,"Dallas, TX (check maps)",,,,,,,yenat-guada-ethiopian-cuisine-dallas-tx
+Sheba’s Ethiopian Kitchen,Ethiopian,dfw,Dallas,TX,"Dallas, TX (check maps)",,,,,,,shebas-ethiopian-kitchen-dallas-tx
+
+Trices Cafe and Lounge,African,san-antonio,San Antonio,TX,"7600 Eckhert Rd #3, San Antonio TX 78240","(210) 806-7770",https://tricescafeandlounge.com/,,,,,trices-cafe-and-lounge-san-antonio-tx
+TASTE AFRIK,African|West African,dfw,Mansfield,TX,"2881 FM157 Suit 103, Mansfield TX 76063","(682) 323-7609",http://www.tasteafrik.com/,,,,,taste-afrik-mansfield-tx
+Cubana Grille | African & Jamaican Restaurant in McKinney Texas,West African|Jamaican|Caribbean,dfw,McKinney,TX,"4051 S Custer Rd Suite 1160, McKinney TX 75070","(214) 548-4821",https://cubanagrille.com/,,,,,cubana-grille-african-and-jamaican-restaurant-in-mckinney-texas-mckinney-tx
+Aunty Mimi's Kitchen,African,central-texas,Killeen,TX,"3804 W Stan Schlueter Loop #102, Killeen TX 76549","(254) 213-3152",https://auntymimiskitchen.com/,,,,,aunty-mimis-kitchen-killeen-tx
+Ubuntu Cuisine,African,san-antonio,San Antonio,TX,"8753 Grissom Rd, San Antonio TX 78251","(210) 878-4078",https://ubuntucuisine.com/,,,,,ubuntu-cuisine-san-antonio-tx
+Wazobia Kitchen,African,houston,Houston,TX,"16203 Westheimer Rd, Houston TX 77082","(832) 230-3894",http://wazobiaafricankitchen.com/,,,,,wazobia-kitchen-houston-tx
+Mgbeke Village Hut - Nigerian Cuisine,Nigerian|African,austin,Leander,TX,"825 Palamos Dr, Leander TX 78641","(413) 777-7990",https://mgbeke.com/product-category/village-hut%F0%9F%9B%96/,,,,,mgbeke-village-hut-nigerian-cuisine-leander-tx
+Blessliz African market,African Market,dfw,McKinney,TX,"1502 W University Dr STE 104, McKinney TX 75069","(469) 714-0034",http://blesslizcatering.com/,,,,,blessliz-african-market-mckinney-tx

@@ -11,17 +11,18 @@ export const RESTAURANTS: Restaurant[] = [
     "name": "ChòpnBlọk",
     "cuisines": [
       "West African",
-      "Nigerian"
+      "Modern Nigerian"
     ],
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
     "addressLine": "507 Westheimer Rd, Houston TX 77006",
+    "phone": "(832) 962-4500",
     "websiteUrl": "https://chopnblok.co/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=507%20Westheimer%20Rd%2C%20Houston%20TX%2077006%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
-      "Nigerian"
+      "Modern Nigerian"
     ]
   },
   {
@@ -216,6 +217,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "6101 Wilcrest Dr, Houston TX 77072",
+    "phone": "(281) 575-1665",
     "mapsUrl": "https://www.openstreetmap.org/search?query=6101%20Wilcrest%20Dr%2C%20Houston%20TX%2077072%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
@@ -432,18 +434,18 @@ export const RESTAURANTS: Restaurant[] = [
   },
   {
     "slug": "fabaceae-african-cuisine-houston-tx",
-    "name": "Fabaceae African Cuisine",
+    "name": "Fabaceae African Cuisine Inc.",
     "cuisines": [
-      "West African"
+      "African"
     ],
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
     "addressLine": "10021 S Main St Bldg 7, Houston TX 77025",
-    "websiteUrl": "https://www.fabaceaecuisine.com/",
+    "websiteUrl": "http://www.fabaceaecuisine.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=10021%20S%20Main%20St%20Bldg%207%2C%20Houston%20TX%2077025%2C%20Houston%2C%20TX",
     "highlights": [
-      "West African"
+      "African"
     ]
   },
   {
@@ -543,6 +545,475 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=11810%20Bellaire%20Blvd%20Ste%20A%2C%20Houston%20TX%2077072%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
+    ]
+  },
+  {
+    "slug": "komchop-houston-tx",
+    "name": "KomChop",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "14144 Westheimer Rd #120, Houston TX 77077",
+    "websiteUrl": "https://www.komchop.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=14144%20Westheimer%20Rd%20%23120%2C%20Houston%20TX%2077077%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African",
+      "Nigerian"
+    ]
+  },
+  {
+    "slug": "olatee-african-cafe-houston-tx",
+    "name": "Olatee African Cafe",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "2616 Blodgett St, Houston TX 77004",
+    "websiteUrl": "https://www.olateeafricancafe.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2616%20Blodgett%20St%2C%20Houston%20TX%2077004%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "alief-african-kitchen-houston-tx",
+    "name": "Alief African Kitchen",
+    "cuisines": [
+      "West African",
+      "African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9755 S Kirkwood Rd D, Houston TX 77099",
+    "phone": "(281) 968-1810",
+    "websiteUrl": "https://aliefafricanfoodkitchen.shopsettings.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=9755%20S%20Kirkwood%20Rd%20D%2C%20Houston%20TX%2077099%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African",
+      "African"
+    ]
+  },
+  {
+    "slug": "desta-ethiopian-restaurant-dallas-tx",
+    "name": "Desta Ethiopian Restaurant",
+    "cuisines": [
+      "Ethiopian"
+    ],
+    "areaSlug": "dfw",
+    "city": "Dallas",
+    "state": "TX",
+    "addressLine": "12101 Greenville Ave #105, Dallas TX 75243",
+    "phone": "(214) 575-9004",
+    "websiteUrl": "http://destaethiopiaresturant.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=12101%20Greenville%20Ave%20%23105%2C%20Dallas%20TX%2075243%2C%20Dallas%2C%20TX",
+    "highlights": [
+      "Ethiopian"
+    ]
+  },
+  {
+    "slug": "lalibela-ethiopian-restaurant-dallas-tx",
+    "name": "Lalibela Ethiopian Restaurant & Bar",
+    "cuisines": [
+      "Ethiopian"
+    ],
+    "areaSlug": "dfw",
+    "city": "Dallas",
+    "state": "TX",
+    "addressLine": "9191 Forest Ln #2, Dallas TX 75243",
+    "phone": "(972) 792-8442",
+    "websiteUrl": "https://lalibeladallastx.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=9191%20Forest%20Ln%20%232%2C%20Dallas%20TX%2075243%2C%20Dallas%2C%20TX",
+    "highlights": [
+      "Ethiopian"
+    ]
+  },
+  {
+    "slug": "addis-abeba-ethiopian-restaurant-richardson-tx",
+    "name": "Addis Abeba Ethiopian Restaurant",
+    "cuisines": [
+      "Ethiopian"
+    ],
+    "areaSlug": "dfw",
+    "city": "Richardson",
+    "state": "TX",
+    "addressLine": "100 Central Expy Ste 65, Richardson TX 75080",
+    "phone": "(469) 319-9604",
+    "websiteUrl": "https://addisabebarestauranttx.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=100%20Central%20Expy%20Ste%2065%2C%20Richardson%20TX%2075080%2C%20Richardson%2C%20TX",
+    "highlights": [
+      "Ethiopian"
+    ]
+  },
+  {
+    "slug": "west-african-way-plano-tx",
+    "name": "West African Way",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "dfw",
+    "city": "Plano",
+    "state": "TX",
+    "addressLine": "Plano, TX (check maps)",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Plano%2C%20TX%20(check%20maps)%2C%20Plano%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "jollof-haus-west-african-flavors-allen-tx",
+    "name": "Jollof Haus - West African Flavors",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "dfw",
+    "city": "Allen",
+    "state": "TX",
+    "addressLine": "Allen, TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Allen%2C%20TX%2C%20Allen%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "exotic-grill-african-cuisine-euless-tx",
+    "name": "Exotic Grill African Cuisine",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "dfw",
+    "city": "Euless",
+    "state": "TX",
+    "addressLine": "Euless, TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Euless%2C%20TX%2C%20Euless%2C%20TX",
+    "highlights": [
+      "African"
+    ]
+  },
+  {
+    "slug": "osuma-suya-mckinney-tx",
+    "name": "Osuma Suya",
+    "cuisines": [
+      "Nigerian",
+      "Suya"
+    ],
+    "areaSlug": "dfw",
+    "city": "McKinney",
+    "state": "TX",
+    "addressLine": "McKinney, TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=McKinney%2C%20TX%2C%20McKinney%2C%20TX",
+    "highlights": [
+      "Nigerian",
+      "Suya"
+    ]
+  },
+  {
+    "slug": "suya-stop-inc-dallas-tx",
+    "name": "Suya Stop Inc.",
+    "cuisines": [
+      "Nigerian",
+      "Suya"
+    ],
+    "areaSlug": "dfw",
+    "city": "Dallas",
+    "state": "TX",
+    "addressLine": "Dallas, TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Dallas%2C%20TX%2C%20Dallas%2C%20TX",
+    "highlights": [
+      "Nigerian",
+      "Suya"
+    ]
+  },
+  {
+    "slug": "lady-t-kitchen-pflugerville-tx",
+    "name": "Lady T Kitchen",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "austin",
+    "city": "Pflugerville",
+    "state": "TX",
+    "addressLine": "Pflugerville, TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Pflugerville%2C%20TX%2C%20Pflugerville%2C%20TX",
+    "highlights": [
+      "African"
+    ]
+  },
+  {
+    "slug": "south-african-food-affair-austin-tx",
+    "name": "South African Food Affair",
+    "cuisines": [
+      "South African"
+    ],
+    "areaSlug": "austin",
+    "city": "Austin",
+    "state": "TX",
+    "addressLine": "Austin, TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Austin%2C%20TX%2C%20Austin%2C%20TX",
+    "highlights": [
+      "South African"
+    ]
+  },
+  {
+    "slug": "oringo-africana-austin-tx",
+    "name": "Oringo Africana",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "austin",
+    "city": "Austin",
+    "state": "TX",
+    "addressLine": "Austin, TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Austin%2C%20TX%2C%20Austin%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "palatable-nigerian-cuisine-austin-tx",
+    "name": "Palatable Nigerian Cuisine",
+    "cuisines": [
+      "Nigerian"
+    ],
+    "areaSlug": "austin",
+    "city": "Austin",
+    "state": "TX",
+    "addressLine": "Austin, TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Austin%2C%20TX%2C%20Austin%2C%20TX",
+    "highlights": [
+      "Nigerian"
+    ]
+  },
+  {
+    "slug": "amen-cafe-eritrean-and-ethiopian-san-antonio-tx",
+    "name": "Amen Cafe Eritrean & Ethiopian",
+    "cuisines": [
+      "Ethiopian",
+      "Eritrean"
+    ],
+    "areaSlug": "san-antonio",
+    "city": "San Antonio",
+    "state": "TX",
+    "addressLine": "5115 Fredericksburg Rd, San Antonio TX 78229",
+    "websiteUrl": "https://amen.cafe/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=5115%20Fredericksburg%20Rd%2C%20San%20Antonio%20TX%2078229%2C%20San%20Antonio%2C%20TX",
+    "highlights": [
+      "Ethiopian",
+      "Eritrean"
+    ]
+  },
+  {
+    "slug": "wazobia-african-market-and-kitchen-houston-tx",
+    "name": "Wazobia African Market & Kitchen",
+    "cuisines": [
+      "African Market",
+      "Kitchen"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "10828 Beechnut St, Houston TX 77072",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=10828%20Beechnut%20St%2C%20Houston%20TX%2077072%2C%20Houston%2C%20TX",
+    "highlights": [
+      "African Market",
+      "Kitchen"
+    ]
+  },
+  {
+    "slug": "bodija-african-food-market-houston-tx",
+    "name": "Bodija African Food Market",
+    "cuisines": [
+      "African Market",
+      "Kitchen"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "Houston, TX (address varies)",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Houston%2C%20TX%20(address%20varies)%2C%20Houston%2C%20TX",
+    "highlights": [
+      "African Market",
+      "Kitchen"
+    ]
+  },
+  {
+    "slug": "yenat-guada-ethiopian-cuisine-dallas-tx",
+    "name": "Yenat Guada Ethiopian Cuisine",
+    "cuisines": [
+      "Ethiopian"
+    ],
+    "areaSlug": "dfw",
+    "city": "Dallas",
+    "state": "TX",
+    "addressLine": "Dallas, TX (check maps)",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Dallas%2C%20TX%20(check%20maps)%2C%20Dallas%2C%20TX",
+    "highlights": [
+      "Ethiopian"
+    ]
+  },
+  {
+    "slug": "shebas-ethiopian-kitchen-dallas-tx",
+    "name": "Sheba’s Ethiopian Kitchen",
+    "cuisines": [
+      "Ethiopian"
+    ],
+    "areaSlug": "dfw",
+    "city": "Dallas",
+    "state": "TX",
+    "addressLine": "Dallas, TX (check maps)",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=Dallas%2C%20TX%20(check%20maps)%2C%20Dallas%2C%20TX",
+    "highlights": [
+      "Ethiopian"
+    ]
+  },
+  {
+    "slug": "trices-cafe-and-lounge-san-antonio-tx",
+    "name": "Trices Cafe and Lounge",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "san-antonio",
+    "city": "San Antonio",
+    "state": "TX",
+    "addressLine": "7600 Eckhert Rd #3, San Antonio TX 78240",
+    "phone": "(210) 806-7770",
+    "websiteUrl": "https://tricescafeandlounge.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=7600%20Eckhert%20Rd%20%233%2C%20San%20Antonio%20TX%2078240%2C%20San%20Antonio%2C%20TX",
+    "highlights": [
+      "African"
+    ]
+  },
+  {
+    "slug": "taste-afrik-mansfield-tx",
+    "name": "TASTE AFRIK",
+    "cuisines": [
+      "African",
+      "West African"
+    ],
+    "areaSlug": "dfw",
+    "city": "Mansfield",
+    "state": "TX",
+    "addressLine": "2881 FM157 Suit 103, Mansfield TX 76063",
+    "phone": "(682) 323-7609",
+    "websiteUrl": "http://www.tasteafrik.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2881%20FM157%20Suit%20103%2C%20Mansfield%20TX%2076063%2C%20Mansfield%2C%20TX",
+    "highlights": [
+      "African",
+      "West African"
+    ]
+  },
+  {
+    "slug": "cubana-grille-african-and-jamaican-restaurant-in-mckinney-texas-mckinney-tx",
+    "name": "Cubana Grille | African & Jamaican Restaurant in McKinney Texas",
+    "cuisines": [
+      "West African",
+      "Jamaican",
+      "Caribbean"
+    ],
+    "areaSlug": "dfw",
+    "city": "McKinney",
+    "state": "TX",
+    "addressLine": "4051 S Custer Rd Suite 1160, McKinney TX 75070",
+    "phone": "(214) 548-4821",
+    "websiteUrl": "https://cubanagrille.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=4051%20S%20Custer%20Rd%20Suite%201160%2C%20McKinney%20TX%2075070%2C%20McKinney%2C%20TX",
+    "highlights": [
+      "West African",
+      "Jamaican",
+      "Caribbean"
+    ]
+  },
+  {
+    "slug": "aunty-mimis-kitchen-killeen-tx",
+    "name": "Aunty Mimi's Kitchen",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "central-texas",
+    "city": "Killeen",
+    "state": "TX",
+    "addressLine": "3804 W Stan Schlueter Loop #102, Killeen TX 76549",
+    "phone": "(254) 213-3152",
+    "websiteUrl": "https://auntymimiskitchen.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=3804%20W%20Stan%20Schlueter%20Loop%20%23102%2C%20Killeen%20TX%2076549%2C%20Killeen%2C%20TX",
+    "highlights": [
+      "African"
+    ]
+  },
+  {
+    "slug": "ubuntu-cuisine-san-antonio-tx",
+    "name": "Ubuntu Cuisine",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "san-antonio",
+    "city": "San Antonio",
+    "state": "TX",
+    "addressLine": "8753 Grissom Rd, San Antonio TX 78251",
+    "phone": "(210) 878-4078",
+    "websiteUrl": "https://ubuntucuisine.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=8753%20Grissom%20Rd%2C%20San%20Antonio%20TX%2078251%2C%20San%20Antonio%2C%20TX",
+    "highlights": [
+      "African"
+    ]
+  },
+  {
+    "slug": "wazobia-kitchen-houston-tx",
+    "name": "Wazobia Kitchen",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "16203 Westheimer Rd, Houston TX 77082",
+    "phone": "(832) 230-3894",
+    "websiteUrl": "http://wazobiaafricankitchen.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=16203%20Westheimer%20Rd%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
+    "highlights": [
+      "African"
+    ]
+  },
+  {
+    "slug": "mgbeke-village-hut-nigerian-cuisine-leander-tx",
+    "name": "Mgbeke Village Hut - Nigerian Cuisine",
+    "cuisines": [
+      "Nigerian",
+      "African"
+    ],
+    "areaSlug": "austin",
+    "city": "Leander",
+    "state": "TX",
+    "addressLine": "825 Palamos Dr, Leander TX 78641",
+    "phone": "(413) 777-7990",
+    "websiteUrl": "https://mgbeke.com/product-category/village-hut%F0%9F%9B%96/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=825%20Palamos%20Dr%2C%20Leander%20TX%2078641%2C%20Leander%2C%20TX",
+    "highlights": [
+      "Nigerian",
+      "African"
+    ]
+  },
+  {
+    "slug": "blessliz-african-market-mckinney-tx",
+    "name": "Blessliz African market",
+    "cuisines": [
+      "African Market"
+    ],
+    "areaSlug": "dfw",
+    "city": "McKinney",
+    "state": "TX",
+    "addressLine": "1502 W University Dr STE 104, McKinney TX 75069",
+    "phone": "(469) 714-0034",
+    "websiteUrl": "http://blesslizcatering.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=1502%20W%20University%20Dr%20STE%20104%2C%20McKinney%20TX%2075069%2C%20McKinney%2C%20TX",
+    "highlights": [
+      "African Market"
     ]
   },
 ]
