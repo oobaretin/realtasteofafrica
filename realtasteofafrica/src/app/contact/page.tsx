@@ -85,7 +85,16 @@ export default function ContactPage() {
               Message
             </h2>
             <p className="mt-2 text-sm text-slate-600">
-              We’ll add a form later. For now, email works best.
+              Email us and we’ll reply as soon as we can.
+            </p>
+            <p className="mt-3 text-sm text-slate-700">
+              <span className="text-slate-500">Email:</span>{" "}
+              <a
+                className="font-medium text-amber-700 hover:text-amber-800"
+                href={`mailto:${CONTACT_EMAIL}`}
+              >
+                {CONTACT_EMAIL}
+              </a>
             </p>
 
             <div className="mt-5">
