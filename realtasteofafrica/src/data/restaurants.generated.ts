@@ -1085,8 +1085,9 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "dfw",
     "city": "Euless",
     "state": "TX",
-    "addressLine": "Euless, TX (check maps)",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Exotic%20Grill%20African%20Cuisine%20Euless%20TX",
+    "addressLine": "415 N Main St #102, Euless TX 76039",
+    "websiteUrl": "https://exoticafricangrill.site/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=415%20N%20Main%20St%20%23102%2C%20Euless%20TX%2076039%2C%20Euless%2C%20TX",
     "highlights": [
       "African"
     ]
@@ -1140,11 +1141,271 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "311 E Pioneer Pkwy #B, Grand Prairie TX 75051",
     "phone": "(817) 966-9808",
-    "websiteUrl": "http://suyastopgp.com/",
+    "websiteUrl": "http://www.suyastop.com",
     "mapsUrl": "https://www.openstreetmap.org/search?query=311%20E%20Pioneer%20Pkwy%20%23B%2C%20Grand%20Prairie%20TX%2075051%2C%20Grand%20Prairie%2C%20TX",
     "highlights": [
       "Nigerian",
       "Suya"
+    ]
+  },
+  {
+    "slug": "the-spot-rhosabjal-african-cuisine-fort-worth-tx",
+    "name": "THE SPOT (Rhosabjal African cuisine)",
+    "cuisines": [
+      "African",
+      "West African"
+    ],
+    "areaSlug": "dfw",
+    "city": "Fort Worth",
+    "state": "TX",
+    "addressLine": "3386 Cimmaron Trail, Fort Worth TX 76116",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=3386%20Cimmaron%20Trail%2C%20Fort%20Worth%20TX%2076116%2C%20Fort%20Worth%2C%20TX",
+    "highlights": [
+      "African",
+      "West African"
+    ]
+  },
+  {
+    "slug": "rhosabjal-cuisine-fort-worth-tx",
+    "name": "Rhosabjal Cuisine",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "dfw",
+    "city": "Fort Worth",
+    "state": "TX",
+    "addressLine": "8533 Camp Bowie W Blvd, Fort Worth TX 76116",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=8533%20Camp%20Bowie%20W%20Blvd%2C%20Fort%20Worth%20TX%2076116%2C%20Fort%20Worth%2C%20TX",
+    "highlights": [
+      "Food truck",
+      "Pop-up"
+    ]
+  },
+  {
+    "slug": "leanna-chop-grill-fort-worth-tx",
+    "name": "LeAnna Chop Grill",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "dfw",
+    "city": "Fort Worth",
+    "state": "TX",
+    "addressLine": "2200 Brookes St Unit A, Fort Worth TX 76105",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2200%20Brookes%20St%20Unit%20A%2C%20Fort%20Worth%20TX%2076105%2C%20Fort%20Worth%2C%20TX",
+    "highlights": [
+      "African"
+    ]
+  },
+  {
+    "slug": "aminatas-kitchen-fort-worth-tx",
+    "name": "Aminatas Kitchen",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "dfw",
+    "city": "Fort Worth",
+    "state": "TX",
+    "addressLine": "525 King George Dr, Fort Worth TX 76112",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=525%20King%20George%20Dr%2C%20Fort%20Worth%20TX%2076112%2C%20Fort%20Worth%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "olori-african-cuisine-and-event-catering-fort-worth-tx",
+    "name": "OLORI African Cuisine and Event Catering",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "dfw",
+    "city": "Fort Worth",
+    "state": "TX",
+    "addressLine": "6248 McCart Ave, Fort Worth TX 76133",
+    "websiteUrl": "http://oloriafricancuisine.net/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=6248%20McCart%20Ave%2C%20Fort%20Worth%20TX%2076133%2C%20Fort%20Worth%2C%20TX",
+    "highlights": [
+      "Catering"
+    ]
+  },
+  {
+    "slug": "uncle-gz-flavors-haltom-city-tx",
+    "name": "Uncle G'z Flavors",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "dfw",
+    "city": "Haltom City",
+    "state": "TX",
+    "addressLine": "5005 Denton Hwy, Haltom City TX 76117",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=5005%20Denton%20Hwy%2C%20Haltom%20City%20TX%2076117%2C%20Haltom%20City%2C%20TX",
+    "highlights": [
+      "African"
+    ]
+  },
+  {
+    "slug": "tam-tam-zings-bar-and-grill-richland-hills-tx",
+    "name": "Tam Tam Zings Bar & Grill",
+    "cuisines": [
+      "African",
+      "BBQ"
+    ],
+    "areaSlug": "dfw",
+    "city": "Richland Hills",
+    "state": "TX",
+    "addressLine": "7224 Glenview Dr, Richland Hills TX 76180",
+    "websiteUrl": "http://www.zingscafe.com",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=7224%20Glenview%20Dr%2C%20Richland%20Hills%20TX%2076180%2C%20Richland%20Hills%2C%20TX",
+    "highlights": [
+      "Fusion"
+    ]
+  },
+  {
+    "slug": "osuma-suya-euless-tx",
+    "name": "Osuma Suya",
+    "cuisines": [
+      "Nigerian",
+      "Suya"
+    ],
+    "areaSlug": "dfw",
+    "city": "Euless",
+    "state": "TX",
+    "addressLine": "918 E Harwood Rd Ste B, Euless TX 76039",
+    "websiteUrl": "http://osumasuya.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=918%20E%20Harwood%20Rd%20Ste%20B%2C%20Euless%20TX%2076039%2C%20Euless%2C%20TX",
+    "highlights": [
+      "Nigerian",
+      "Suya"
+    ]
+  },
+  {
+    "slug": "african-village-irving-tx",
+    "name": "African Village",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "dfw",
+    "city": "Irving",
+    "state": "TX",
+    "addressLine": "3003 N Belt Line Rd, Irving TX 75062",
+    "websiteUrl": "https://africanvillagerestauranttx.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=3003%20N%20Belt%20Line%20Rd%2C%20Irving%20TX%2075062%2C%20Irving%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "lolas-restaurant-and-lounge-irving-tx",
+    "name": "Lola's Restaurant & Lounge",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "areaSlug": "dfw",
+    "city": "Irving",
+    "state": "TX",
+    "addressLine": "3435 N Belt Line Rd, Irving TX 75062",
+    "websiteUrl": "https://www.lolasafricanrestaurant.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=3435%20N%20Belt%20Line%20Rd%2C%20Irving%20TX%2075062%2C%20Irving%2C%20TX",
+    "highlights": [
+      "West African",
+      "Nigerian"
+    ]
+  },
+  {
+    "slug": "african-pride-food-and-kitchen-arlington-tx",
+    "name": "African pride Food and kitchen",
+    "cuisines": [
+      "West African"
+    ],
+    "areaSlug": "dfw",
+    "city": "Arlington",
+    "state": "TX",
+    "addressLine": "5504 Matlock Rd, Arlington TX 76018",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=5504%20Matlock%20Rd%2C%20Arlington%20TX%2076018%2C%20Arlington%2C%20TX",
+    "highlights": [
+      "West African"
+    ]
+  },
+  {
+    "slug": "cheftemii-nigerian-restaurant-and-catering-arlington-tx",
+    "name": "ChefTemii - Nigerian Restaurant & Catering",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "areaSlug": "dfw",
+    "city": "Arlington",
+    "state": "TX",
+    "addressLine": "1900 W Arbrook Blvd Ste 116, Arlington TX 76015",
+    "websiteUrl": "http://www.cheftemii.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=1900%20W%20Arbrook%20Blvd%20Ste%20116%2C%20Arlington%20TX%2076015%2C%20Arlington%2C%20TX",
+    "highlights": [
+      "Catering"
+    ]
+  },
+  {
+    "slug": "fufudelight-and-suya-kitchen-arlington-tx",
+    "name": "Fufudelight & Suya Kitchen",
+    "cuisines": [
+      "African",
+      "Suya"
+    ],
+    "areaSlug": "dfw",
+    "city": "Arlington",
+    "state": "TX",
+    "addressLine": "6401 New York Ave #149, Arlington TX 76018",
+    "websiteUrl": "https://www.fufudelightsuyakitchen.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=6401%20New%20York%20Ave%20%23149%2C%20Arlington%20TX%2076018%2C%20Arlington%2C%20TX",
+    "highlights": [
+      "African",
+      "Suya"
+    ]
+  },
+  {
+    "slug": "angie-winners-kitchen-arlington-tx",
+    "name": "Angie Winners Kitchen",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "dfw",
+    "city": "Arlington",
+    "state": "TX",
+    "addressLine": "2905 E Arkansas Ln Ste 100, Arlington TX 76010",
+    "websiteUrl": "https://angiewinnerskitchen.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2905%20E%20Arkansas%20Ln%20Ste%20100%2C%20Arlington%20TX%2076010%2C%20Arlington%2C%20TX",
+    "highlights": [
+      "African"
+    ]
+  },
+  {
+    "slug": "yemsade-restaurant-grand-prairie-tx",
+    "name": "Yemsade Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "dfw",
+    "city": "Grand Prairie",
+    "state": "TX",
+    "addressLine": "3007 S Carrier Pkwy, Grand Prairie TX 75052",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=3007%20S%20Carrier%20Pkwy%2C%20Grand%20Prairie%20TX%2075052%2C%20Grand%20Prairie%2C%20TX",
+    "highlights": [
+      "African"
+    ]
+  },
+  {
+    "slug": "lagos-kitchen-lewisville-tx",
+    "name": "Lagos Kitchen",
+    "cuisines": [
+      "African"
+    ],
+    "areaSlug": "dfw",
+    "city": "Lewisville",
+    "state": "TX",
+    "addressLine": "1320 Main St, Lewisville TX 75067",
+    "websiteUrl": "https://www.lagos-kitchen.com",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=1320%20Main%20St%2C%20Lewisville%20TX%2075067%2C%20Lewisville%2C%20TX",
+    "highlights": [
+      "African"
     ]
   },
   {
@@ -1270,6 +1531,25 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Ethiopian",
       "Eritrean"
+    ]
+  },
+  {
+    "slug": "african-village-ethiopian-restaurant-san-antonio-tx",
+    "name": "African Village Ethiopian Restaurant",
+    "cuisines": [
+      "Ethiopian",
+      "East African"
+    ],
+    "areaSlug": "san-antonio",
+    "city": "San Antonio",
+    "state": "TX",
+    "addressLine": "10918 Wurzbach Rd #131, San Antonio TX 78230",
+    "phone": "(210) 467-5102",
+    "websiteUrl": "https://ethiopiandining.com/restaurants/african-village-ethiopian-restaurant/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=10918%20Wurzbach%20Rd%20%23131%2C%20San%20Antonio%20TX%2078230%2C%20San%20Antonio%2C%20TX",
+    "highlights": [
+      "Ethiopian",
+      "East African"
     ]
   },
   {
