@@ -7,8 +7,8 @@ import type { Restaurant } from "@/lib/restaurants"
 
 export const RESTAURANTS: Restaurant[] = [
   {
-    "slug": "chopnblok-houston-tx",
-    "name": "ChòpnBlọk",
+    "slug": "chopnblok-montrose-houston-tx",
+    "name": "ChòpnBlọk (Montrose)",
     "cuisines": [
       "West African",
       "Modern Nigerian"
@@ -965,8 +965,8 @@ export const RESTAURANTS: Restaurant[] = [
     ]
   },
   {
-    "slug": "dakar-street-food-houston-tx",
-    "name": "Dakar Street Food",
+    "slug": "dakar-street-food-ghost-kitchen-houston-tx",
+    "name": "Dakar Street Food (Ghost Kitchen)",
     "cuisines": [
       "Senegalese",
       "West African"
