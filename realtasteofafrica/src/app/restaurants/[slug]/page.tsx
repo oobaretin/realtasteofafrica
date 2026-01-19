@@ -75,16 +75,6 @@ export default async function RestaurantDetailPage({
         ) : null}
 
         <div className="flex flex-wrap gap-3">
-          {r.mapsUrl ? (
-            <a
-              className="inline-flex rounded-md bg-amber-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-amber-700"
-              href={r.mapsUrl}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Open map
-            </a>
-          ) : null}
           {r.websiteUrl ? (
             <a
               className="inline-flex rounded-md border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-900 hover:bg-slate-50"
@@ -139,19 +129,6 @@ export default async function RestaurantDetailPage({
                   target="_blank"
                 >
                   Visit site
-                </a>
-              </div>
-            ) : null}
-            {r.mapsUrl ? (
-              <div>
-                <span className="text-slate-500">Map:</span>{" "}
-                <a
-                  className="font-medium text-amber-700 hover:text-amber-800"
-                  href={r.mapsUrl}
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Open map
                 </a>
               </div>
             ) : null}
