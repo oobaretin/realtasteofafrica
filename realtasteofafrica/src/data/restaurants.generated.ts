@@ -1041,7 +1041,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "12600 Bissonnet St Ste A7, Houston TX 77099",
-    "phone": "+18327718778",
+    "phone": "(832) 771-8778",
     "websiteUrl": "https://marieafricanflavorsrestaurant.com",
     "mapsUrl": "https://www.openstreetmap.org/search?query=12600%20Bissonnet%20St%20Ste%20A7%2C%20Houston%20TX%2077099%2C%20Houston%2C%20TX",
     "highlights": [
