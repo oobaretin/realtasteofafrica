@@ -2171,11 +2171,14 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "17036 W Little York Rd, Houston TX",
-    "phone": "2818155443",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=17036%20W%20Little%20York%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "addressLine": "17036 W Little York Rd, Houston TX 77084",
+    "phone": "(281) 815-5443",
+    "websiteUrl": "https://thefpak.start.page/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=17036%20W%20Little%20York%20Rd%2C%20Houston%20TX%2077084%2C%20Houston%2C%20TX",
     "highlights": [
-      "West African"
+      "Dine-in",
+      "Takeout",
+      "Delivery"
     ]
   },
   {
