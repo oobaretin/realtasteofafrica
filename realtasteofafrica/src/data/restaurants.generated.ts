@@ -1074,13 +1074,14 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "Mobile Service, Houston Metro",
-    "phone": "N/A",
+    "addressLine": "3418 S Texas 6 Suite C, Houston TX 77082",
+    "phone": "(346) 252-3158",
     "websiteUrl": "https://www.suyaonthespot.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Suya%20on%20the%20Spot%20Houston%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=3418%20S%20Texas%206%20Suite%20C%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
-      "Food truck",
-      "Mobile service"
+      "Dine-in",
+      "Takeout",
+      "Delivery"
     ]
   },
   {
