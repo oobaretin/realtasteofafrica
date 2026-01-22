@@ -2120,9 +2120,9 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "2703 S Texas 6 Suite 127, Houston TX",
+    "addressLine": "2703 S Texas 6 Suite 127, Houston TX 77082",
     "phone": "(832) 328-1188",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2703%20S%20Texas%206%20Suite%20127%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2703%20S%20Texas%206%20Suite%20127%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Grill"
@@ -2138,9 +2138,9 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "8633 Richmond Ave, Houston TX",
+    "addressLine": "8633 Richmond Ave, Houston TX 77063",
     "phone": "(281) 607-5564",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=8633%20Richmond%20Ave%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=8633%20Richmond%20Ave%2C%20Houston%20TX%2077063%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Suya"
@@ -2155,9 +2155,9 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "3533 S Dairy Ashford Rd Suite I, Houston TX",
+    "addressLine": "3533 S Dairy Ashford Rd Suite I, Houston TX 77082",
     "phone": "(346) 335-7181",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3533%20S%20Dairy%20Ashford%20Rd%20Suite%20I%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=3533%20S%20Dairy%20Ashford%20Rd%20Suite%20I%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ]
@@ -2239,9 +2239,9 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "6788 Synott Rd, Houston TX",
+    "addressLine": "6788 Synott Rd, Houston TX 77083",
     "phone": "(346) 335-7116",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6788%20Synott%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=6788%20Synott%20Rd%2C%20Houston%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Desserts"
@@ -2255,12 +2255,12 @@ export const RESTAURANTS: Restaurant[] = [
       "Suya",
       "Seafood"
     ],
-    "areaSlug": "houston",
-    "city": "Houston",
+    "areaSlug": "sugar-land",
+    "city": "Richmond",
     "state": "TX",
-    "addressLine": "7039 FM 1464 Suite 110, Houston TX",
+    "addressLine": "7039 FM 1464 Suite 110, Richmond TX 77407",
     "phone": "(832) 539-1605",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=7039%20FM%201464%20Suite%20110%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=7039%20FM%201464%20Suite%20110%2C%20Richmond%20TX%2077407%2C%20Richmond%2C%20TX",
     "highlights": [
       "West African",
       "Suya",
@@ -2312,9 +2312,9 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "7627 Cook Rd, Houston TX",
+    "addressLine": "7627 Cook Rd, Houston TX 77072",
     "phone": "(346) 352-3277",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=7627%20Cook%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=7627%20Cook%20Rd%2C%20Houston%20TX%2077072%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ]
@@ -2329,9 +2329,9 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "9755 S Kirkwood Rd Ste D, Houston TX",
+    "addressLine": "9755 S Kirkwood Rd Ste D, Houston TX 77099",
     "phone": "(832) 672-8874",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9755%20S%20Kirkwood%20Rd%20Ste%20D%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=9755%20S%20Kirkwood%20Rd%20Ste%20D%2C%20Houston%20TX%2077099%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Grill"
@@ -2394,9 +2394,9 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "2352 S Dairy Ashford Rd, Houston TX",
+    "addressLine": "2352 S Dairy Ashford Rd, Houston TX 77077",
     "phone": "(832) 230-0504",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2352%20S%20Dairy%20Ashford%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2352%20S%20Dairy%20Ashford%20Rd%2C%20Houston%20TX%2077077%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
       "Takeout"
@@ -2411,9 +2411,9 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "8330 W Bellfort Ave Ste C, Houston TX",
+    "addressLine": "8330 W Bellfort Ave Ste C, Houston TX 77071",
     "phone": "(346) 204-5863",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=8330%20W%20Bellfort%20Ave%20Ste%20C%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=8330%20W%20Bellfort%20Ave%20Ste%20C%2C%20Houston%20TX%2077071%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
       "Takeout"
@@ -2428,9 +2428,9 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "8731 W Bellfort Ave, Houston TX",
+    "addressLine": "8731 W Bellfort Ave, Houston TX 77071",
     "phone": "(713) 995-5545",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=8731%20W%20Bellfort%20Ave%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=8731%20W%20Bellfort%20Ave%2C%20Houston%20TX%2077071%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ]
@@ -2445,9 +2445,9 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "9020 S Texas 6, Houston TX",
+    "addressLine": "9020 S Texas 6, Houston TX 77083",
     "phone": "(832) 831-3185",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9020%20S%20Texas%206%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=9020%20S%20Texas%206%2C%20Houston%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Seafood"
@@ -2462,9 +2462,9 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "5930 Renwick Dr Suite B, Houston TX",
+    "addressLine": "5930 Renwick Dr Suite B, Houston TX 77081",
     "phone": "(713) 838-1111",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5930%20Renwick%20Dr%20Suite%20B%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=5930%20Renwick%20Dr%20Suite%20B%2C%20Houston%20TX%2077081%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
       "Takeout"
@@ -2495,9 +2495,9 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "6617 Chimney Rock Rd, Houston TX",
+    "addressLine": "6617 Chimney Rock Rd, Houston TX 77081",
     "phone": "(713) 664-0260",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6617%20Chimney%20Rock%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=6617%20Chimney%20Rock%20Rd%2C%20Houston%20TX%2077081%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
       "Takeout"
@@ -2547,10 +2547,10 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "2472 S Texas 6, Houston TX",
+    "addressLine": "2472 S Texas 6, Houston TX 77077",
     "phone": "(281) 888-6671",
     "websiteUrl": "http://www.ekobistro.org",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2472%20S%20Texas%206%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2472%20S%20Texas%206%2C%20Houston%20TX%2077077%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
       "Takeout",

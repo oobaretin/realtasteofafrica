@@ -12,7 +12,9 @@
     "fetch:restaurants:osm": "node scripts/fetch-restaurants-osm.mjs",
     "enrich:restaurants:osm": "node scripts/enrich-restaurants-osm.mjs",
     "enrich:restaurants:web": "node scripts/enrich-restaurants-from-websites.mjs",
-    "validate:restaurants": "node scripts/validate-restaurants-csv.mjs"
+    "validate:restaurants": "node scripts/validate-restaurants-csv.mjs",
+    "audit:restaurants": "node scripts/audit-restaurants-csv.mjs",
+    "backfill:highlights": "node scripts/backfill-highlights-csv.mjs --write"
   },
   "keywords": [],
   "author": "",
