@@ -32,6 +32,32 @@ function norm(value) {
     .trim()
 }
 
+/**
+ * Address-based duplicate checks are intentionally strict, but there are rare cases where
+ * two different restaurants share the same address (e.g., shared kitchen / co-located businesses).
+ *
+ * Key format: `${norm(addressLine)}|${norm(city)}|${norm(state)}`
+ * Value: set of slugs allowed to share that exact key.
+ */
+const ALLOWED_ADDRESS_DUPES = new Map([
+  [
+    "2022 wilcrest dr houston tx 77042|houston|tx",
+    new Set(["native-pot-houston-tx", "aria-suya-wilcrest-ghost-houston-tx"]),
+  ],
+  [
+    "2616 blodgett st houston tx 77004|houston|tx",
+    new Set(["dakar-street-food-ghost-kitchen-houston-tx", "dupsys-kitchen-ghost-houston-tx"]),
+  ],
+  [
+    "9400 richmond ave houston tx 77063|houston|tx",
+    new Set(["blue-nile-ethiopian-houston-tx", "abula-hot-pot-richmond-ave-houston-tx"]),
+  ],
+  [
+    "4460 w walnut st garland tx 75042|garland|tx",
+    new Set(["salt-n-pepper-garland-tx", "southwest-farmers-kitchen-garland-tx"]),
+  ],
+])
+
 function groupBy(rows, keyFn) {
   const m = new Map()
   rows.forEach((r, idx) => {
@@ -51,6 +77,12 @@ function groupBy(rows, keyFn) {
   return m
 }
 
+function isAllowedDuplicateAddressGroup(key, group) {
+  const allowedSlugs = ALLOWED_ADDRESS_DUPES.get(key)
+  if (!allowedSlugs) return false
+  return group.every((r) => allowedSlugs.has(r.slug))
+}
+
 async function main() {
   const input = path.resolve(ROOT, parseArg("--input") || path.join("data", "restaurants.csv"))
   const csv = await fs.readFile(input, "utf8")
@@ -60,9 +92,14 @@ async function main() {
     groupBy(rows, (r) => `${norm(r.name)}|${norm(r.city)}|${norm(r.state)}`).values()
   ).filter((arr) => arr.length > 1)
 
-  const dupAddr = Array.from(
-    groupBy(rows, (r) => `${norm(r.addressLine)}|${norm(r.city)}|${norm(r.state)}`).values()
-  ).filter((arr) => arr.length > 1)
+  const addrGroups = groupBy(
+    rows,
+    (r) => `${norm(r.addressLine)}|${norm(r.city)}|${norm(r.state)}`
+  )
+  const dupAddr = Array.from(addrGroups.entries())
+    .filter(([, arr]) => arr.length > 1)
+    .filter(([key, arr]) => !isAllowedDuplicateAddressGroup(key, arr))
+    .map(([, arr]) => arr)
 
   if (!dupNameCity.length && !dupAddr.length) {
     console.log(`OK: no duplicates found in ${path.relative(ROOT, input)} (${rows.length} rows)`)

@@ -434,18 +434,19 @@ export const RESTAURANTS: Restaurant[] = [
     ]
   },
   {
-    "slug": "kofoshi-nigerian-houston-tx",
-    "name": "Kofoshi Nigerian",
+    "slug": "amala-joint-houston-tx",
+    "name": "Amala Joint",
     "cuisines": [
+      "West African",
       "Nigerian"
     ],
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "6271 Highway 6 S, Houston TX 77083",
-    "phone": "(281) 721-2982",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6271%20Highway%206%20S%2C%20Houston%20TX%2077083%2C%20Houston%2C%20TX",
+    "addressLine": "6271 S Texas 6, Houston TX 77083",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=6271%20S%20Texas%206%2C%20Houston%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
+      "West African",
       "Nigerian"
     ]
   },
@@ -697,24 +698,6 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=2022%20Wilcrest%20Dr%2C%20Houston%20TX%2077042%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
-    ]
-  },
-  {
-    "slug": "cafe-abuja-houston-tx",
-    "name": "Cafe Abuja",
-    "cuisines": [
-      "Nigerian",
-      "West African"
-    ],
-    "areaSlug": "houston",
-    "city": "Houston",
-    "state": "TX",
-    "addressLine": "15015 Westheimer Rd Suite C, Houston TX 77082",
-    "phone": "(713) 344-1569",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=15015%20Westheimer%20Rd%20Suite%20C%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
-    "highlights": [
-      "Nigerian",
-      "West African"
     ]
   },
   {
@@ -990,9 +973,9 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "3706 S Gessner Rd, Houston TX 77063",
+    "addressLine": "3706 S Gessner Rd, Houston, TX 77063",
     "phone": "(346) 252-2336",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3706%20S%20Gessner%20Rd%2C%20Houston%20TX%2077063%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=3706%20S%20Gessner%20Rd%2C%20Houston%2C%20TX%2077063%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ]
@@ -1058,7 +1041,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "12600 Bissonnet St Ste A7, Houston TX 77099",
-    "phone": "(713) 931-1502",
+    "phone": "+18327718778",
     "mapsUrl": "https://www.openstreetmap.org/search?query=12600%20Bissonnet%20St%20Ste%20A7%2C%20Houston%20TX%2077099%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
@@ -2187,7 +2170,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "17036 W Little York Rd, Houston TX",
-    "phone": "(832) 419-5670",
+    "phone": "2818155443",
     "mapsUrl": "https://www.openstreetmap.org/search?query=17036%20W%20Little%20York%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
@@ -3064,22 +3047,6 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Delivery",
       "Outpost"
-    ]
-  },
-  {
-    "slug": "famous-princess-kitchen-houston-tx",
-    "name": "Famous Princess Kitchen",
-    "cuisines": [
-      "Nigerian"
-    ],
-    "areaSlug": "houston",
-    "city": "Houston",
-    "state": "TX",
-    "addressLine": "8300 W Sam Houston Pkwy, Houston TX 77072",
-    "phone": "(832) 804-8930",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=8300%20W%20Sam%20Houston%20Pkwy%2C%20Houston%20TX%2077072%2C%20Houston%2C%20TX",
-    "highlights": [
-      "Nigerian"
     ]
   },
   {
