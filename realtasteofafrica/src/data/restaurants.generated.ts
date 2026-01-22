@@ -2190,9 +2190,9 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "7030 Addicks Clodine Rd #101, Houston TX",
-    "phone": "(281) 809-5479",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=7030%20Addicks%20Clodine%20Rd%20%23101%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "addressLine": "7030 Addicks Clodine Rd #101, Houston TX 77083",
+    "phone": "(346) 391-1656",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=7030%20Addicks%20Clodine%20Rd%20%23101%2C%20Houston%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ]
