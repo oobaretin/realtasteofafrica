@@ -22,7 +22,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=507%20Westheimer%20Rd%2C%20Houston%20TX%2077006%2C%20Houston%2C%20TX",
     "highlights": [
       "Upscale Fast-Casual"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "aria-suya-kitchen-houston-tx",
@@ -41,7 +42,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Nigerian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "taste-of-nigeria-houston-tx",
@@ -60,6 +62,7 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Delivery"
     ],
+    "category": "Restaurant",
     "writeUp": "Nigerian / West African spot in Houston. Delivery may be available — check delivery apps for current availability and hours."
   },
   {
@@ -81,6 +84,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Curbside pickup",
       "Delivery"
     ],
+    "category": "Restaurant",
     "writeUp": "West African / Nigerian buffet spot in Houston. Delivery may be available in nearby areas (including around Missouri City) — check delivery apps or their site for current options."
   },
   {
@@ -100,6 +104,7 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Delivery"
     ],
+    "category": "Restaurant",
     "writeUp": "Ghanaian / West African restaurant in Houston. Delivery may be available — check delivery apps for current availability."
   },
   {
@@ -119,7 +124,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Nigerian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "safari-houston-tx",
@@ -139,7 +145,8 @@ export const RESTAURANTS: Restaurant[] = [
       "Dine-in",
       "Takeout",
       "Delivery"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "sabo-suya-spot-houston-tx",
@@ -157,7 +164,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Suya"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "suya-hut-suya-culture-meadows-place-tx",
@@ -175,7 +183,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Suya"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "hunan-cafe-houston-tx",
@@ -192,7 +201,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=3645%20Cypress%20Creek%20Pkwy%20%23368%2C%20Houston%20TX%2077068%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "abula-hotpot-houston-tx",
@@ -211,7 +221,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Nigerian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "unique-african-cuisine-houston-tx",
@@ -229,7 +240,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Nigerian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "omalicha-kitchen-houston-tx",
@@ -248,7 +260,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Nigerian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "blue-nile-houston-tx",
@@ -267,7 +280,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Ethiopian",
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "lucy-ethiopian-restaurant-and-lounge-houston-tx",
@@ -284,7 +298,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=6800%20Southwest%20Fwy%2C%20Houston%20TX%2077074%2C%20Houston%2C%20TX",
     "highlights": [
       "Ethiopian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "delights-ghanaian-cuisine-houston-tx",
@@ -303,7 +318,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Ghanaian",
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "bantu-house-cypress-tx",
@@ -320,7 +336,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=22224%20Northwest%20Fwy%20Ste%20B%2C%20Cypress%20TX%2077429%2C%20Cypress%2C%20TX",
     "highlights": [
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "lagos-buka-katy-tx",
@@ -339,6 +356,7 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Delivery"
     ],
+    "category": "Restaurant",
     "writeUp": "Popular option for Nigerian / African food delivery in the Katy area. For the latest hours and delivery availability, check their website or delivery apps."
   },
   {
@@ -358,7 +376,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "African",
       "Caribbean"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "kes-spicy-9ja-suya-spot-katy-tx",
@@ -376,7 +395,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Suya"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "lekki-island-bar-and-grill-katy-tx",
@@ -395,7 +415,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "ekomi-nigerian-restaurant-katy-tx",
@@ -412,7 +433,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=2811%20W%20Grand%20Pkwy%20N%20Suite%20D%2C%20Katy%20TX%2077449%2C%20Katy%2C%20TX",
     "highlights": [
       "Nigerian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "onyis-suya-katy-tx",
@@ -431,7 +453,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "African",
       "Suya"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "amala-joint-houston-tx",
@@ -448,7 +471,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Nigerian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "the-port-of-peri-peri-sugar-land-tx",
@@ -467,7 +491,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "South African",
       "Peri-Peri"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "grains-and-solids-sugar-land-tx",
@@ -486,6 +511,7 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Delivery"
     ],
+    "category": "Restaurant",
     "writeUp": "West African / Nigerian-style dishes in Sugar Land. Delivery may be available — check their website or delivery apps for the most up-to-date options."
   },
   {
@@ -505,6 +531,7 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Delivery"
     ],
+    "category": "Restaurant",
     "writeUp": "Nigerian / African comfort food in Sugar Land. Delivery may be available — confirm on their website or delivery apps."
   },
   {
@@ -523,7 +550,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Nigerian",
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "jollofbeans-llc-sugar-land-tx",
@@ -542,7 +570,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Nigerian",
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "amala-manny-foods-sugar-land-tx",
@@ -560,7 +589,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Nigerian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "zongo-richmond-tx",
@@ -579,7 +609,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Ghanaian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "rodo-nigerian-cuisine-richmond-tx",
@@ -598,7 +629,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Nigerian",
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "gomas-kitchen-richmond-tx",
@@ -614,7 +646,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=8620%20Grand%20Mission%20Blvd%20K%2C%20Richmond%20TX%2077407%2C%20Richmond%2C%20TX",
     "highlights": [
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "star-afrik-cuisine-rosenberg-tx",
@@ -630,7 +663,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=5101%20Avenue%20H%20%2368%2C%20Rosenberg%20TX%2077471%2C%20Rosenberg%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "benmond-african-food-and-catering-texas-city-tx",
@@ -646,7 +680,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=701%20Volney%20St%2C%20Texas%20City%20TX%2077568%2C%20Texas%20City%2C%20TX",
     "highlights": [
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "african-spices-and-soul-food-texas-city-tx",
@@ -664,7 +699,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "African",
       "Soul Food"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "god-grace-african-market-beaumont-tx",
@@ -681,7 +717,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=6120%20College%20St%20Suite%20E%2C%20Beaumont%20TX%2077707%2C%20Beaumont%2C%20TX",
     "highlights": [
       "Market"
-    ]
+    ],
+    "category": "Market"
   },
   {
     "slug": "native-pot-houston-tx",
@@ -698,7 +735,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=2022%20Wilcrest%20Dr%2C%20Houston%20TX%2077042%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "chez-michelle-houston-tx",
@@ -718,6 +756,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Dine-in",
       "Takeout"
     ],
+    "category": "Restaurant",
     "writeUp": "West African restaurant in Houston with dine-in and takeout. No-contact delivery may be available — check delivery apps or call for current options."
   },
   {
@@ -741,6 +780,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Market",
       "Delivery"
     ],
+    "category": "Market + Kitchen",
     "writeUp": "African / West African favorites (suya, jollof and more). Delivery is often available in El Paso via Uber Eats and DoorDash — check the apps for current hours and coverage."
   },
   {
@@ -759,6 +799,7 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Delivery"
     ],
+    "category": "Restaurant",
     "writeUp": "African food in El Paso. Delivery may be available via third-party platforms — check delivery apps for current availability."
   },
   {
@@ -776,6 +817,7 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Delivery"
     ],
+    "category": "Restaurant",
     "writeUp": "Small African food spot in El Paso. Delivery may be available — check delivery apps for current availability."
   },
   {
@@ -797,6 +839,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Delivery",
       "Restaurant"
     ],
+    "category": "Restaurant",
     "writeUp": "African / Nigerian bar & restaurant in Lubbock. Delivery may be available via DoorDash or Uber Eats — check the apps for current availability."
   },
   {
@@ -813,7 +856,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=2510%20Button%20Willow%20Ave%2C%20Abilene%20TX%2079606%2C%20Abilene%2C%20TX",
     "highlights": [
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "afrospice-authentic-african-food-in-the-rgv-mcallen-tx",
@@ -830,7 +874,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=4400%20N%2023rd%20St%20%23156%2C%20McAllen%20TX%2078504%2C%20McAllen%2C%20TX",
     "highlights": [
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "jc-african-and-caribbean-food-store-mcallen-tx",
@@ -849,7 +894,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=1915%20N%2010th%20St%20Ste%20A%2C%20McAllen%20TX%2078501%2C%20McAllen%2C%20TX",
     "highlights": [
       "Market"
-    ]
+    ],
+    "category": "Market"
   },
   {
     "slug": "somali-african-safari-restaurant-amarillo-tx",
@@ -867,7 +913,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=5945%20E%20Amarillo%20Blvd%2C%20Amarillo%20TX%2079107%2C%20Amarillo%2C%20TX",
     "highlights": [
       "Also listed as African Safari Restaurant"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "felicias-african-food-llc-amarillo-tx",
@@ -888,7 +935,8 @@ export const RESTAURANTS: Restaurant[] = [
       "African",
       "West African",
       "Nigerian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "somali-restaurant-bulsho-amarillo-tx",
@@ -907,7 +955,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Somali",
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "marhaba-eritrean-and-ethiopian-cuisine-and-market-amarillo-tx",
@@ -926,7 +975,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=2522%20Paramount%20Blvd%2C%20Amarillo%20TX%2079109%2C%20Amarillo%2C%20TX",
     "highlights": [
       "Restaurant + Market"
-    ]
+    ],
+    "category": "Market + Kitchen"
   },
   {
     "slug": "afroo-dining-amarillo-tx",
@@ -943,7 +993,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=3313%20S%20Georgia%20St%2C%20Amarillo%20TX%2079109%2C%20Amarillo%2C%20TX",
     "highlights": [
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "dakar-street-food-ghost-kitchen-houston-tx",
@@ -962,7 +1013,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Ghost kitchen",
       "Ghost Kitchen"
-    ]
+    ],
+    "category": "Ghost Kitchen"
   },
   {
     "slug": "kofoshi-houston-tx",
@@ -978,7 +1030,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=3706%20S%20Gessner%20Rd%2C%20Houston%2C%20TX%2077063%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "fabaceae-african-cuisine-houston-tx",
@@ -995,7 +1048,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=10021%20S%20Main%20St%20Bldg%207%2C%20Houston%20TX%2077025%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "ejide-african-restaurant-and-bar-houston-tx",
@@ -1012,7 +1066,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=10571%20Synott%20Rd%2C%20Houston%20TX%2077099%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "authentic-african-restaurant-and-bar-houston-tx",
@@ -1029,7 +1084,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=9705%20Synott%20Rd%20Suite%20107%2C%20Houston%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "marie-african-flavors-houston-tx",
@@ -1046,7 +1102,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=12600%20Bissonnet%20St%20Ste%20A7%2C%20Houston%20TX%2077099%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "aburi-cuisine-houston-tx",
@@ -1062,7 +1119,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=13655%20Bissonnet%20St%20Suite%20204%2C%20Houston%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "suya-on-the-spot-houston-tx",
@@ -1082,7 +1140,8 @@ export const RESTAURANTS: Restaurant[] = [
       "Dine-in",
       "Takeout",
       "Delivery"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "fufu-restaurant-west-african-influence-houston-tx",
@@ -1099,7 +1158,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=11810%20Bellaire%20Blvd%20Ste%20A%2C%20Houston%20TX%2077072%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "komchop-houston-tx",
@@ -1118,7 +1178,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Nigerian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "olatee-african-cafe-spring-tx",
@@ -1136,6 +1197,7 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Delivery"
     ],
+    "category": "Restaurant",
     "writeUp": "West African cafe in Spring (Greater Houston). Delivery may be available — check delivery apps for current availability."
   },
   {
@@ -1155,7 +1217,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "desta-ethiopian-restaurant-dallas-tx",
@@ -1172,7 +1235,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=12101%20Greenville%20Ave%2C%20Dallas%20TX%2075243%2C%20Dallas%2C%20TX",
     "highlights": [
       "Ethiopian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "lalibela-ethiopian-restaurant-dallas-tx",
@@ -1189,7 +1253,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=9191%20Forest%20Ln%20%232%2C%20Dallas%20TX%2075243%2C%20Dallas%2C%20TX",
     "highlights": [
       "Ethiopian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "addis-abeba-ethiopian-restaurant-richardson-tx",
@@ -1206,7 +1271,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=100%20Central%20Expy%20Ste%2065%2C%20Richardson%20TX%2075080%2C%20Richardson%2C%20TX",
     "highlights": [
       "Ethiopian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "west-african-way-plano-tx",
@@ -1222,7 +1288,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=1405%20Jupiter%20Rd%20%23116%2C%20Plano%20TX%2075074%2C%20Plano%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "jollof-haus-west-african-flavors-allen-tx",
@@ -1241,7 +1308,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Nigerian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "exotic-grill-african-cuisine-euless-tx",
@@ -1258,7 +1326,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=415%20N%20Main%20St%20%23102%2C%20Euless%20TX%2076039%2C%20Euless%2C%20TX",
     "highlights": [
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "osuma-suya-mckinney-tx",
@@ -1277,7 +1346,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Nigerian",
       "Suya"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "osuma-suya-houston-tx",
@@ -1296,7 +1366,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Nigerian",
       "Suya"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "suya-stop-inc-grand-prairie-tx",
@@ -1315,7 +1386,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Nigerian",
       "Suya"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "the-spot-rhosabjal-african-cuisine-fort-worth-tx",
@@ -1333,7 +1405,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "African",
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "rhosabjal-cuisine-fort-worth-tx",
@@ -1349,7 +1422,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Food truck",
       "Pop-up"
-    ]
+    ],
+    "category": "Food Truck"
   },
   {
     "slug": "leanna-chop-grill-fort-worth-tx",
@@ -1365,7 +1439,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=2200%20Brookes%20St%20Unit%20A%2C%20Fort%20Worth%20TX%2076105%2C%20Fort%20Worth%2C%20TX",
     "highlights": [
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "aminatas-kitchen-fort-worth-tx",
@@ -1381,7 +1456,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=525%20King%20George%20Dr%2C%20Fort%20Worth%20TX%2076112%2C%20Fort%20Worth%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "olori-african-cuisine-and-event-catering-fort-worth-tx",
@@ -1398,7 +1474,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=6248%20McCart%20Ave%2C%20Fort%20Worth%20TX%2076133%2C%20Fort%20Worth%2C%20TX",
     "highlights": [
       "Catering"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "uncle-gz-flavors-haltom-city-tx",
@@ -1414,7 +1491,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=5005%20Denton%20Hwy%2C%20Haltom%20City%20TX%2076117%2C%20Haltom%20City%2C%20TX",
     "highlights": [
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "tam-tam-zings-bar-and-grill-richland-hills-tx",
@@ -1432,7 +1510,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=7224%20Glenview%20Dr%2C%20Richland%20Hills%20TX%2076180%2C%20Richland%20Hills%2C%20TX",
     "highlights": [
       "Fusion"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "osuma-suya-euless-tx",
@@ -1451,7 +1530,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Nigerian",
       "Suya"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "african-village-irving-tx",
@@ -1468,7 +1548,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=3003%20N%20Belt%20Line%20Rd%2C%20Irving%20TX%2075062%2C%20Irving%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "lolas-restaurant-and-lounge-irving-tx",
@@ -1487,7 +1568,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Nigerian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "african-pride-food-and-kitchen-arlington-tx",
@@ -1503,7 +1585,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=5504%20Matlock%20Rd%2C%20Arlington%20TX%2076018%2C%20Arlington%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "cheftemii-nigerian-restaurant-and-catering-arlington-tx",
@@ -1521,7 +1604,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=1900%20W%20Arbrook%20Blvd%20Ste%20116%2C%20Arlington%20TX%2076015%2C%20Arlington%2C%20TX",
     "highlights": [
       "Catering"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "fufudelight-and-suya-kitchen-arlington-tx",
@@ -1540,7 +1624,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "African",
       "Suya"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "angie-winners-kitchen-arlington-tx",
@@ -1557,7 +1642,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=2905%20E%20Arkansas%20Ln%20Ste%20100%2C%20Arlington%20TX%2076010%2C%20Arlington%2C%20TX",
     "highlights": [
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "yemsade-restaurant-grand-prairie-tx",
@@ -1573,7 +1659,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=3007%20S%20Carrier%20Pkwy%2C%20Grand%20Prairie%20TX%2075052%2C%20Grand%20Prairie%2C%20TX",
     "highlights": [
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "lagos-kitchen-lewisville-tx",
@@ -1590,7 +1677,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=1320%20Main%20St%2C%20Lewisville%20TX%2075067%2C%20Lewisville%2C%20TX",
     "highlights": [
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "lady-t-kitchen-african-restaurant-pflugerville-tx",
@@ -1609,7 +1697,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Nigerian",
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "south-african-food-affair-austin-tx",
@@ -1626,7 +1715,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=71%20Rainey%20St%2C%20Austin%20TX%2078701%2C%20Austin%2C%20TX",
     "highlights": [
       "Food truck"
-    ]
+    ],
+    "category": "Food Truck"
   },
   {
     "slug": "oringo-africana-san-antonio-tx",
@@ -1645,7 +1735,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Nigerian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "palatable-nigerian-cuisine-austin-tx",
@@ -1664,7 +1755,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Nigerian",
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "nigerian-restaurant-african-market-austin-tx",
@@ -1681,7 +1773,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=10805%20N%20Lamar%20Blvd%20Ste%20J%2C%20Austin%20TX%2078753%2C%20Austin%2C%20TX",
     "highlights": [
       "Market"
-    ]
+    ],
+    "category": "Market"
   },
   {
     "slug": "red-sea-kitchen-ethiopian-food-truck-austin-tx",
@@ -1699,7 +1792,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=2902%20E%20Cesar%20Chavez%20St%2C%20Austin%20TX%2078702%2C%20Austin%2C%20TX",
     "highlights": [
       "Food truck"
-    ]
+    ],
+    "category": "Food Truck"
   },
   {
     "slug": "amen-cafe-eritrean-and-ethiopian-san-antonio-tx",
@@ -1718,7 +1812,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Ethiopian",
       "Eritrean"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "african-village-ethiopian-restaurant-san-antonio-tx",
@@ -1737,7 +1832,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Ethiopian",
       "East African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "wazobia-african-market-and-kitchen-houston-tx",
@@ -1755,7 +1851,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "African Market",
       "Kitchen"
-    ]
+    ],
+    "category": "Market + Kitchen"
   },
   {
     "slug": "bodija-african-food-market-houston-tx",
@@ -1774,7 +1871,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "African Market",
       "Grocery"
-    ]
+    ],
+    "category": "Market + Kitchen"
   },
   {
     "slug": "yenat-guada-ethiopian-cuisine-dallas-tx",
@@ -1791,7 +1889,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=7015%20Greenville%20Ave%20Ste%20300%2C%20Dallas%20TX%2075231%2C%20Dallas%2C%20TX",
     "highlights": [
       "Ethiopian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "shebas-ethiopian-kitchen-dallas-tx",
@@ -1807,7 +1906,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=8989%20Forest%20Ln%2C%20Dallas%20TX%2075243%2C%20Dallas%2C%20TX",
     "highlights": [
       "Ethiopian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "trices-cafe-and-lounge-san-antonio-tx",
@@ -1824,7 +1924,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=7600%20Eckhert%20Rd%20%233%2C%20San%20Antonio%20TX%2078240%2C%20San%20Antonio%2C%20TX",
     "highlights": [
       "Lounge/Dining"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "taste-afrik-mansfield-tx",
@@ -1843,7 +1944,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "African",
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "cubana-grille-african-and-jamaican-restaurant-in-mckinney-texas-mckinney-tx",
@@ -1864,7 +1966,8 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Jamaican",
       "Caribbean"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "aunty-mimis-kitchen-killeen-tx",
@@ -1881,7 +1984,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=3804%20W%20Stan%20Schlueter%20Loop%20%23102%2C%20Killeen%20TX%2076549%2C%20Killeen%2C%20TX",
     "highlights": [
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "ubuntu-cuisine-san-antonio-tx",
@@ -1898,7 +2002,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=11116%20Wurzbach%20Rd%2C%20San%20Antonio%20TX%2078230%2C%20San%20Antonio%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "wazobia-kitchen-houston-tx",
@@ -1915,7 +2020,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=16203%20Westheimer%20Rd%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "mgbeke-village-hut-nigerian-cuisine-leander-tx",
@@ -1934,7 +2040,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Nigerian",
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "blessliz-african-market-mckinney-tx",
@@ -1952,7 +2059,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=1502%20W%20University%20Dr%2C%20McKinney%20TX%2075069%2C%20McKinney%2C%20TX",
     "highlights": [
       "Market-Kitchen"
-    ]
+    ],
+    "category": "Market + Kitchen"
   },
   {
     "slug": "suya-power-house-missouri-city-tx",
@@ -1972,6 +2080,7 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Delivery"
     ],
+    "category": "Restaurant",
     "writeUp": "West African suya + Nigerian-inspired dishes in Missouri City. Delivery is often available in the Houston area — check delivery apps for current coverage."
   },
   {
@@ -1992,6 +2101,7 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Delivery"
     ],
+    "category": "Restaurant",
     "writeUp": "West African / Nigerian dishes in Pearland (Greater Houston). Delivery may be available — check delivery apps for current availability."
   },
   {
@@ -2008,7 +2118,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=7129%20Broadway%20St%2C%20Pearland%20TX%2077581%2C%20Pearland%2C%20TX",
     "highlights": [
       "African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "glozi-calabar-restaurant-and-african-cuisine-houston-tx",
@@ -2026,6 +2137,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Takeout",
       "Delivery"
     ],
+    "category": "Restaurant",
     "writeUp": "West African / Calabar-style food in Houston. Takeout and delivery may be available via third-party platforms (availability can vary)."
   },
   {
@@ -2042,7 +2154,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=14815%20Westheimer%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "african-tasty-hub-houston-tx",
@@ -2058,7 +2171,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=13505%20Westheimer%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "rhays-houston-tx",
@@ -2074,7 +2188,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=11920%20Westheimer%20Rd%20%23J%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "honeykaz-houston-tx",
@@ -2090,7 +2205,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=17113%20Westheimer%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "kffo-afro-steakhouse-houston-tx",
@@ -2108,7 +2224,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Steakhouse"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "vioni-grill-houston-tx",
@@ -2126,7 +2243,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Grill"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "crave-suya-houston-tx",
@@ -2144,7 +2262,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Suya"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "royal-point-houston-tx",
@@ -2160,7 +2279,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=3533%20S%20Dairy%20Ashford%20Rd%20Suite%20I%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "famous-princess-african-kitchen-houston-tx",
@@ -2179,7 +2299,8 @@ export const RESTAURANTS: Restaurant[] = [
       "Dine-in",
       "Takeout",
       "Delivery"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "bole-king-houston-tx",
@@ -2195,7 +2316,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=7030%20Addicks%20Clodine%20Rd%20%23101%2C%20Houston%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "dee-titolat-african-restaurant-houston-tx",
@@ -2211,7 +2333,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=11965%20Bissonnet%20St%20Ste%20110%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "ewatomi-houston-tx",
@@ -2227,7 +2350,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=15000%20Bellaire%20Blvd%20Ste%20Q%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "glam-divine-treats-houston-tx",
@@ -2245,7 +2369,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Desserts"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "supreme-seafood-and-suya-houston-tx",
@@ -2265,7 +2390,8 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Suya",
       "Seafood"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "chef-benny-houston-tx",
@@ -2283,7 +2409,8 @@ export const RESTAURANTS: Restaurant[] = [
       "Dine-in",
       "Curbside pickup",
       "Delivery"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "042-restaurant-houston-tx",
@@ -2301,7 +2428,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Nigerian",
       "Fusion"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "nini-kitchen-houston-tx",
@@ -2317,7 +2445,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=7627%20Cook%20Rd%2C%20Houston%20TX%2077072%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "grill-master-african-restaurant-houston-tx",
@@ -2335,7 +2464,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Grill"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "cafe-de-vivre-houston-tx",
@@ -2351,7 +2481,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=14165%20Bissonnet%20St%20Suite%20P%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "traditional-food-restaurant-houston-tx",
@@ -2367,7 +2498,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=11214%20Plainfield%20St%20%23B%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "african-food-embassy-houston-tx",
@@ -2383,7 +2515,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=18311%20Clay%20Rd%20Suite%20A4%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "the-afro-eatery-houston-tx",
@@ -2400,7 +2533,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Dine-in",
       "Takeout"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "mama-jollof-restaurant-houston-tx",
@@ -2417,7 +2551,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Dine-in",
       "Takeout"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "united-sisters-houston-tx",
@@ -2433,7 +2568,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=8731%20W%20Bellfort%20Ave%2C%20Houston%20TX%2077071%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "dsnailspot-houston-tx",
@@ -2451,7 +2587,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Seafood"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "horn-of-africa-houston-tx",
@@ -2468,7 +2605,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Dine-in",
       "Takeout"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "amazing-street-beans-houston-tx",
@@ -2484,7 +2622,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=18324%20Clay%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "nazareth-cafe-houston-tx",
@@ -2501,7 +2640,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Dine-in",
       "Takeout"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "the-motherland-restaurant-and-grill-houston-tx",
@@ -2517,7 +2657,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=10101%20Bissonnet%20St%20Ste%20F%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "osite-african-hot-pot-houston-tx",
@@ -2535,7 +2676,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Hot Pot"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "eko-bistro-fusion-houston-tx",
@@ -2556,6 +2698,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Takeout",
       "Delivery"
     ],
+    "category": "Restaurant",
     "writeUp": "Tex-Naija (Nigerian-inspired) fusion in Houston. Dine-in and takeout are available; delivery options may be available via third-party platforms."
   },
   {
@@ -2574,7 +2717,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African",
       "Suya"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "the-icon-nigerian-kitchen-richardson-tx",
@@ -2592,7 +2736,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=430%20N%20Coit%20Rd%20%23120%2C%20Richardson%20TX%2075080%2C%20Richardson%2C%20TX",
     "highlights": [
       "Lounge/Dining"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "gidi-bar-and-grill-frisco-tx",
@@ -2610,7 +2755,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=4350%20Main%20St%20Ste%20165%2C%20Frisco%20TX%2075034%2C%20Frisco%2C%20TX",
     "highlights": [
       "Lounge/Grill"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "lady-t-kitchen-austin-tx",
@@ -2627,7 +2773,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=13776%20US-183%20%23115%2C%20Austin%20TX%2078750%2C%20Austin%2C%20TX",
     "highlights": [
       "Restaurant"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "mabels-african-cuisine-and-bar-mckinney-tx",
@@ -2643,7 +2790,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=Mabel's%20African%20Cuisine%20%26%20Bar%20McKinney%20TX",
     "highlights": [
       "Delivery"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "southwest-farmers-market-and-kitchen-arlington-tx",
@@ -2662,7 +2810,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Market-Kitchen",
       "Multiple locations"
-    ]
+    ],
+    "category": "Market + Kitchen"
   },
   {
     "slug": "southwest-farmers-market-and-kitchen-austin-tx",
@@ -2681,7 +2830,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Market-Kitchen",
       "Multiple locations"
-    ]
+    ],
+    "category": "Market + Kitchen"
   },
   {
     "slug": "southwest-farmers-market-and-kitchen-san-antonio-tx",
@@ -2700,7 +2850,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Market-Kitchen",
       "Multiple locations"
-    ]
+    ],
+    "category": "Market + Kitchen"
   },
   {
     "slug": "southwest-farmers-market-and-kitchen-houston-tx",
@@ -2719,7 +2870,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Market-Kitchen",
       "Multiple locations"
-    ]
+    ],
+    "category": "Market + Kitchen"
   },
   {
     "slug": "habesha-restaurant-austin-tx",
@@ -2736,7 +2888,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=6019%20N%20Interstate%20Hwy%2035%2C%20Austin%20TX%2078723%2C%20Austin%2C%20TX",
     "highlights": [
       "Ethiopian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "freshnez-kitchen-food-truck-dallas-tx",
@@ -2753,7 +2906,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=Freshnez%20Kitchen%20(Food%20Truck)%20Dallas%20TX",
     "highlights": [
       "Food truck"
-    ]
+    ],
+    "category": "Food Truck"
   },
   {
     "slug": "aso-rock-market-and-kitchen-dallas-tx",
@@ -2772,7 +2926,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "African Market",
       "Grocery"
-    ]
+    ],
+    "category": "Market + Kitchen"
   },
   {
     "slug": "blue-nile-ethiopian-houston-tx",
@@ -2789,7 +2944,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=9400%20Richmond%20Ave%2C%20Houston%20TX%2077063%2C%20Houston%2C%20TX",
     "highlights": [
       "Ethiopian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "abula-hot-pot-richmond-ave-houston-tx",
@@ -2804,7 +2960,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=9400%20Richmond%20Ave%2C%20Houston%20TX%2077063%2C%20Houston%2C%20TX",
     "highlights": [
       "Nigerian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "nandos-peri-peri-post-oak-houston-tx",
@@ -2823,7 +2980,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "South African",
       "Peri-Peri"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "bukka-grill-frisco-tx",
@@ -2841,7 +2999,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=307%20Main%20St%2C%20Frisco%20TX%2075036%2C%20Frisco%2C%20TX",
     "highlights": [
       "Restaurant"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "makola-marketplace-houston-tx",
@@ -2861,7 +3020,8 @@ export const RESTAURANTS: Restaurant[] = [
       "Market",
       "Kitchen",
       "In-store pickup"
-    ]
+    ],
+    "category": "Market + Kitchen"
   },
   {
     "slug": "3tees-shawarma-houston-tx",
@@ -2881,7 +3041,8 @@ export const RESTAURANTS: Restaurant[] = [
       "Dine-in",
       "Takeout",
       "Delivery"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "holyland-halal-meat-grocery-houston-tx",
@@ -2902,7 +3063,8 @@ export const RESTAURANTS: Restaurant[] = [
       "Market",
       "Kitchen",
       "Halal"
-    ]
+    ],
+    "category": "Market + Kitchen"
   },
   {
     "slug": "nandos-peri-peri-montrose-houston-tx",
@@ -2921,7 +3083,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "South African",
       "Peri-Peri"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "augustines-creole-african-houston-tx",
@@ -2938,7 +3101,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Afro-Creole",
       "Creole"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "tailat-kitchen-austin-tx",
@@ -2954,7 +3118,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=10805%20N%20Lamar%20Blvd%2C%20Austin%20TX%2078753%2C%20Austin%2C%20TX",
     "highlights": [
       "Nigerian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "palatable-nigeria-cuisine-pflugerville-tx",
@@ -2970,7 +3135,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=2715%20Paragon%20Fox%20Dr%2C%20Pflugerville%20TX%2078660%2C%20Pflugerville%2C%20TX",
     "highlights": [
       "Nigerian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "merit-coffee-african-source-houston-tx",
@@ -2986,7 +3152,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=621%20Waverly%20St%2C%20Houston%20TX%2077007%2C%20Houston%2C%20TX",
     "highlights": [
       "Coffee house"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "aria-suya-wilcrest-ghost-houston-tx",
@@ -3004,7 +3171,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=2022%20Wilcrest%20Dr%2C%20Houston%20TX%2077042%2C%20Houston%2C%20TX",
     "highlights": [
       "Ghost kitchen"
-    ]
+    ],
+    "category": "Ghost Kitchen"
   },
   {
     "slug": "dupsys-kitchen-ghost-houston-tx",
@@ -3020,7 +3188,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=2616%20Blodgett%20St%2C%20Houston%20TX%2077004%2C%20Houston%2C%20TX",
     "highlights": [
       "Ghost kitchen"
-    ]
+    ],
+    "category": "Ghost Kitchen"
   },
   {
     "slug": "honey-dip-fingers-mckinney-tx",
@@ -3036,7 +3205,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Delivery",
       "Outpost"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "calabar-pot-frisco-tx",
@@ -3052,7 +3222,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Delivery",
       "Outpost"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "eko-bistro-houston-tx",
@@ -3068,7 +3239,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=13150%20FM%20529%20Ste%20104%2C%20Houston%20TX%2077041%2C%20Houston%2C%20TX",
     "highlights": [
       "Nigerian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "salt-n-pepper-garland-tx",
@@ -3084,7 +3256,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=4460%20W%20Walnut%20St%2C%20Garland%20TX%2075042%2C%20Garland%2C%20TX",
     "highlights": [
       "Nigerian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "signature-african-houston-tx",
@@ -3100,7 +3273,8 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=6333%20Richmond%20Ave%2C%20Houston%20TX%2077057%2C%20Houston%2C%20TX",
     "highlights": [
       "Nigerian"
-    ]
+    ],
+    "category": "Restaurant"
   },
   {
     "slug": "southwest-farmers-kitchen-frisco-tx",
@@ -3119,7 +3293,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Market-Kitchen",
       "Multiple locations"
-    ]
+    ],
+    "category": "Market + Kitchen"
   },
   {
     "slug": "southwest-farmers-kitchen-garland-tx",
@@ -3138,6 +3313,7 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Market-Kitchen",
       "Multiple locations"
-    ]
+    ],
+    "category": "Market + Kitchen"
   },
 ]

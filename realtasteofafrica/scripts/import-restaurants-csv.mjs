@@ -145,6 +145,13 @@ function toRestaurantRecord(row, idx) {
     ? `${addressLine}, ${city}, ${state}`
     : `${name} ${city} ${state}`
 
+  const categoryRaw = asOptionalString(row.category)
+  const category = ["Food Truck", "Ghost Kitchen", "Market", "Market + Kitchen", "Restaurant"].includes(
+    categoryRaw
+  )
+    ? categoryRaw
+    : undefined
+
   return {
     slug,
     name,
@@ -158,6 +165,7 @@ function toRestaurantRecord(row, idx) {
     mapsUrl: asOptionalString(row.mapsUrl) ?? toOsmSearchUrl(mapsQuery),
     priceLevel: asOptionalPriceLevel(row.priceLevel),
     highlights: finalHighlights,
+    category,
     writeUp: normalizeWriteUp(row.writeUp),
   }
 }

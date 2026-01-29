@@ -13,6 +13,8 @@ export type Restaurant = {
   mapsUrl?: string
   priceLevel?: PriceLevel
   highlights: string[]
+  /** Explicit category from data; when set, used instead of deriving from highlights. */
+  category?: "Food Truck" | "Ghost Kitchen" | "Market" | "Market + Kitchen" | "Restaurant"
   writeUp?: string
 }
 
@@ -26,6 +28,22 @@ export function getRestaurantBySlug(slug: string): Restaurant | undefined {
 
 export function getRestaurantsByArea(areaSlug: string): Restaurant[] {
   return RESTAURANTS.filter((r) => r.areaSlug === areaSlug)
+}
+
+/** URL-safe slug from city name (e.g. "San Antonio" → "san-antonio"). */
+export function cityToSlug(city: string): string {
+  return city.trim().toLowerCase().replace(/\s+/g, "-")
+}
+
+export function getRestaurantsByCity(citySlug: string): Restaurant[] {
+  return RESTAURANTS.filter((r) => cityToSlug(r.city) === citySlug)
+}
+
+/** All city slugs that have at least one restaurant (for static generation). */
+export function getAllCitySlugs(): string[] {
+  const set = new Set<string>()
+  for (const r of RESTAURANTS) set.add(cityToSlug(r.city))
+  return Array.from(set).sort((a, b) => a.localeCompare(b))
 }
 
 export function getAllCuisineTags(): string[] {

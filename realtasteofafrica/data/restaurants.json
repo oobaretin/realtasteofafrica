@@ -1,0 +1,2510 @@
+[
+  {
+    "name": "ChòpnBlọk (Montrose)",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "507 Westheimer Rd, Houston TX 77006",
+    "phone": "(281) 751-7890",
+    "websiteUrl": "https://www.chopnblok.co/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Modern Nigerian"
+    ],
+    "slug": "chopnblok-montrose-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Aria Suya Kitchen",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "6357 Westheimer Rd, Houston TX 77057",
+    "phone": "+(832) 831-4372",
+    "websiteUrl": "https://www.ariasuyakitchen.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "slug": "aria-suya-kitchen-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Taste of Nigeria",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "5959 Richmond Ave #160, Houston TX 77057",
+    "phone": "(713) 589-9055",
+    "websiteUrl": "https://tasteofnigeria.us/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "slug": "taste-of-nigeria-houston-tx",
+    "areaSlug": "houston",
+    "writeUp": "Nigerian / West African spot in Houston. Delivery may be available — check delivery apps for current availability and hours."
+  },
+  {
+    "name": "Sarabell Calabar Restaurant & Buffet",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9801 Bissonnet St Suite C, Houston TX 77036",
+    "phone": "(713) 814-5253",
+    "websiteUrl": "https://sarabellcalabarrestaurant.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "slug": "sarabell-calabar-restaurant-and-buffet-houston-tx",
+    "areaSlug": "houston",
+    "writeUp": "West African / Nigerian buffet spot in Houston. Delivery may be available in nearby areas (including around Missouri City) — check delivery apps or their site for current options."
+  },
+  {
+    "name": "Afrikiko",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9625 Bissonnet St, Houston TX 77036",
+    "phone": "(713) 773-1400",
+    "websiteUrl": "https://afrikikohouston.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Ghanaian",
+      "West African"
+    ],
+    "slug": "afrikiko-houston-tx",
+    "areaSlug": "houston",
+    "writeUp": "Ghanaian / West African restaurant in Houston. Delivery may be available — check delivery apps for current availability."
+  },
+  {
+    "name": "Finger Licking Restaurant",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9811 Bissonnet St, Houston TX 77036",
+    "phone": "(713) 270-7070",
+    "websiteUrl": "https://fingerlickinghtx.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "slug": "finger-licking-restaurant-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Safari",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "10014 Bissonnet St, Houston TX 77036",
+    "phone": "(713) 541-4436",
+    "websiteUrl": "https://thesafarirestaurant.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "slug": "safari-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Sabo Suya Spot",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9780 Bissonnet St Ste Q, Houston TX 77036",
+    "phone": "(832) 768-5973",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Suya"
+    ],
+    "slug": "sabo-suya-spot-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Suya Hut (Suya Culture)",
+    "city": "Meadows Place",
+    "state": "TX",
+    "addressLine": "11720 W Airport Blvd #1600, Meadows Place TX 77477",
+    "phone": "(281) 265-1411",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Suya"
+    ],
+    "slug": "suya-hut-suya-culture-meadows-place-tx",
+    "areaSlug": "sugar-land"
+  },
+  {
+    "name": "Hunan Cafe",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "3645 Cypress Creek Pkwy #368, Houston TX 77068",
+    "phone": "(281) 891-3383",
+    "websiteUrl": "https://hunanwestafricancuisine.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "hunan-cafe-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Abula HotPot",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "12703 Alief Clodine Rd, Houston TX 77082",
+    "phone": "(832) 303-4591",
+    "websiteUrl": "https://abulahotpottx.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "slug": "abula-hotpot-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Unique African Cuisine",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "6101 Wilcrest Dr, Houston TX 77072",
+    "phone": "(281) 575-1665",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "slug": "unique-african-cuisine-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Omalicha Kitchen",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "11511 Westheimer Rd, Houston TX 77077",
+    "phone": "(281) 825-6677",
+    "websiteUrl": "https://omalichakitchen.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "slug": "omalicha-kitchen-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Blue Nile",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "3030 Audley St, Houston TX 77098",
+    "phone": "(713) 814-5101",
+    "websiteUrl": "https://bluenilerestaurant.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Ethiopian",
+      "African"
+    ],
+    "slug": "blue-nile-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Lucy Ethiopian Restaurant & Lounge",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "6800 Southwest Fwy, Houston TX 77074",
+    "phone": "(713) 334-0000",
+    "websiteUrl": "https://www.lucyhouston.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Ethiopian"
+    ],
+    "slug": "lucy-ethiopian-restaurant-and-lounge-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Delight’s Ghanaian Cuisine",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "14524 Piping Rock Ln, Houston TX 77077",
+    "phone": "(281) 951-9580",
+    "websiteUrl": "https://order.spoton.com/so-delights-delight-kitchen-3629/houston-tx/6532c4ce2cb4e2003dd65e05",
+    "category": "Restaurant",
+    "cuisines": [
+      "Ghanaian",
+      "West African"
+    ],
+    "slug": "delights-ghanaian-cuisine-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Bantu House",
+    "city": "Cypress",
+    "state": "TX",
+    "addressLine": "22224 Northwest Fwy Ste B, Cypress TX 77429",
+    "phone": "(281) 256-7455",
+    "websiteUrl": "https://www.bantuhouse.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "bantu-house-cypress-tx",
+    "areaSlug": "katy"
+  },
+  {
+    "name": "Lagos Buka",
+    "city": "Katy",
+    "state": "TX",
+    "addressLine": "4031 FM-1463 Rd, Katy TX 77494",
+    "phone": "(281) 394-5244",
+    "websiteUrl": "https://lagosbuka.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian",
+      "African"
+    ],
+    "slug": "lagos-buka-katy-tx",
+    "areaSlug": "katy",
+    "writeUp": "Popular option for Nigerian / African food delivery in the Katy area. For the latest hours and delivery availability, check their website or delivery apps."
+  },
+  {
+    "name": "Royal Arm Restaurant African and Caribbean",
+    "city": "Katy",
+    "state": "TX",
+    "addressLine": "23010 Highland Knolls Dr Ste C, Katy TX 77494",
+    "phone": "(281) 665-8511",
+    "websiteUrl": "https://www.royalarmrestaurant.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "African",
+      "Caribbean"
+    ],
+    "slug": "royal-arm-restaurant-african-and-caribbean-katy-tx",
+    "areaSlug": "katy"
+  },
+  {
+    "name": "Kes Spicy 9Ja Suya Spot",
+    "city": "Katy",
+    "state": "TX",
+    "addressLine": "811 S Mason Rd, Katy TX 77450",
+    "phone": "(832) 412-2309",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Suya"
+    ],
+    "slug": "kes-spicy-9ja-suya-spot-katy-tx",
+    "areaSlug": "katy"
+  },
+  {
+    "name": "Lekki Island Bar & Grill",
+    "city": "Katy",
+    "state": "TX",
+    "addressLine": "25757 Westheimer Pkwy Ste 200, Katy TX 77494",
+    "phone": "(346) 307-7440",
+    "websiteUrl": "https://lekki-island-bar-and-grill.square.site/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "African"
+    ],
+    "slug": "lekki-island-bar-and-grill-katy-tx",
+    "areaSlug": "katy"
+  },
+  {
+    "name": "Ekomi Nigerian Restaurant",
+    "city": "Katy",
+    "state": "TX",
+    "addressLine": "2811 W Grand Pkwy N Suite D, Katy TX 77449",
+    "phone": "(346) 387-6031",
+    "websiteUrl": "https://ekomieats.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian"
+    ],
+    "slug": "ekomi-nigerian-restaurant-katy-tx",
+    "areaSlug": "katy"
+  },
+  {
+    "name": "Onyi's Suya",
+    "city": "Katy",
+    "state": "TX",
+    "addressLine": "5403 E 5th St, Katy TX 77493",
+    "phone": "(832) 437-0238",
+    "websiteUrl": "http://onyisuya.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "African",
+      "Suya"
+    ],
+    "slug": "onyis-suya-katy-tx",
+    "areaSlug": "katy"
+  },
+  {
+    "name": "Amala Joint",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "6271 S Texas 6, Houston TX 77083",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "slug": "amala-joint-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "The Port of Peri Peri",
+    "city": "Sugar Land",
+    "state": "TX",
+    "addressLine": "2625 Town Center Blvd N, Sugar Land TX 77479",
+    "phone": "(281) 325-0105",
+    "websiteUrl": "http://www.myperiperi.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "South African",
+      "Peri-Peri"
+    ],
+    "slug": "the-port-of-peri-peri-sugar-land-tx",
+    "areaSlug": "sugar-land"
+  },
+  {
+    "name": "Grains and Solids",
+    "city": "Sugar Land",
+    "state": "TX",
+    "addressLine": "11134 S Texas 6 Suite 216, Sugar Land TX 77498",
+    "phone": "(832) 288-2982",
+    "websiteUrl": "https://grainsandsolids.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "slug": "grains-and-solids-sugar-land-tx",
+    "areaSlug": "sugar-land",
+    "writeUp": "West African / Nigerian-style dishes in Sugar Land. Delivery may be available — check their website or delivery apps for the most up-to-date options."
+  },
+  {
+    "name": "All Seasons Cafe",
+    "city": "Sugar Land",
+    "state": "TX",
+    "addressLine": "11420 Dairy Ashford Rd, Sugar Land TX 77478",
+    "phone": "(281) 201-2125",
+    "websiteUrl": "https://allseasonscafetx.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian",
+      "African"
+    ],
+    "slug": "all-seasons-cafe-sugar-land-tx",
+    "areaSlug": "sugar-land",
+    "writeUp": "Nigerian / African comfort food in Sugar Land. Delivery may be available — confirm on their website or delivery apps."
+  },
+  {
+    "name": "FEYDUPS KITCHEN",
+    "city": "Sugar Land",
+    "state": "TX",
+    "addressLine": "1055 Eldridge Rd Suite 400, Sugar Land TX 77478",
+    "phone": "(281) 201-2502",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian",
+      "African"
+    ],
+    "slug": "feydups-kitchen-sugar-land-tx",
+    "areaSlug": "sugar-land"
+  },
+  {
+    "name": "JollofBeans LLC",
+    "city": "Sugar Land",
+    "state": "TX",
+    "addressLine": "11420 Dairy Ashford Rd Suite 104B, Sugar Land TX 77478",
+    "phone": "(281) 683-7944",
+    "websiteUrl": "http://www.jollofbeans.com",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian",
+      "West African"
+    ],
+    "slug": "jollofbeans-llc-sugar-land-tx",
+    "areaSlug": "sugar-land"
+  },
+  {
+    "name": "Amala Manny Foods",
+    "city": "Sugar Land",
+    "state": "TX",
+    "addressLine": "2919 Lakefield Way, Sugar Land TX 77479",
+    "phone": "(346) 874-7241",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "slug": "amala-manny-foods-sugar-land-tx",
+    "areaSlug": "sugar-land"
+  },
+  {
+    "name": "Zongo",
+    "city": "Richmond",
+    "state": "TX",
+    "addressLine": "7035 W Grand Pkwy S #90, Richmond TX 77407",
+    "phone": "(832) 451-6135",
+    "websiteUrl": "https://zongo-us.business.site/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Ghanaian"
+    ],
+    "slug": "zongo-richmond-tx",
+    "areaSlug": "sugar-land"
+  },
+  {
+    "name": "Rodo Nigerian Cuisine",
+    "city": "Richmond",
+    "state": "TX",
+    "addressLine": "7324 Grand Mission Blvd, Richmond TX 77407",
+    "phone": "(281) 762-1175",
+    "websiteUrl": "https://rodonigeriancuisine.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian",
+      "West African"
+    ],
+    "slug": "rodo-nigerian-cuisine-richmond-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Goma's Kitchen",
+    "city": "Richmond",
+    "state": "TX",
+    "addressLine": "8620 Grand Mission Blvd K, Richmond TX 77407",
+    "phone": "(832) 841-7578",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "gomas-kitchen-richmond-tx",
+    "areaSlug": "sugar-land"
+  },
+  {
+    "name": "Star Afrik Cuisine",
+    "city": "Rosenberg",
+    "state": "TX",
+    "addressLine": "5101 Avenue H #68, Rosenberg TX 77471",
+    "phone": "(281) 762-0946",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "star-afrik-cuisine-rosenberg-tx",
+    "areaSlug": "sugar-land"
+  },
+  {
+    "name": "Benmond African food and Catering",
+    "city": "Texas City",
+    "state": "TX",
+    "addressLine": "701 Volney St, Texas City TX 77568",
+    "phone": "(832) 580-4169",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "benmond-african-food-and-catering-texas-city-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "African Spices & Soul Food",
+    "city": "Texas City",
+    "state": "TX",
+    "addressLine": "Gulf Fwy, Texas City TX 77568",
+    "phone": "(737) 225-3885",
+    "category": "Restaurant",
+    "cuisines": [
+      "African",
+      "Soul Food"
+    ],
+    "slug": "african-spices-and-soul-food-texas-city-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "God Grace African Market",
+    "city": "Beaumont",
+    "state": "TX",
+    "addressLine": "6120 College St Suite E, Beaumont TX 77707",
+    "phone": "(409) 347-8288",
+    "websiteUrl": "http://www.godgraceafricanmarket.com",
+    "category": "Market",
+    "cuisines": [
+      "African Market"
+    ],
+    "slug": "god-grace-african-market-beaumont-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Native Pot",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "2022 Wilcrest Dr, Houston TX 77042",
+    "phone": "(832) 359-3779",
+    "websiteUrl": "http://nativepotrestaurant.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "native-pot-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Chez Michelle",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "6991 S Texas 6, Houston TX 77083",
+    "phone": "(281) 372-8925",
+    "websiteUrl": "https://chezmichellerestaurant.com",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "chez-michelle-houston-tx",
+    "areaSlug": "houston",
+    "writeUp": "West African restaurant in Houston with dine-in and takeout. No-contact delivery may be available — check delivery apps or call for current options."
+  },
+  {
+    "name": "Anointed Cuisine A Taste of Africa",
+    "city": "El Paso",
+    "state": "TX",
+    "addressLine": "3140 N Lee Trevino Dr, El Paso TX 79936",
+    "phone": "(915) 307-4834",
+    "websiteUrl": "https://anointedatasteofafrica.com",
+    "category": "Market",
+    "cuisines": [
+      "African",
+      "West African",
+      "Suya",
+      "Jollof"
+    ],
+    "slug": "anointed-cuisine-a-taste-of-africa-el-paso-tx",
+    "areaSlug": "el-paso",
+    "writeUp": "African / West African favorites (suya, jollof and more). Delivery is often available in El Paso via Uber Eats and DoorDash — check the apps for current hours and coverage."
+  },
+  {
+    "name": "Dhut African Restaurant",
+    "city": "El Paso",
+    "state": "TX",
+    "addressLine": "5757 Will Ruth Ave Ste 310, El Paso TX 79924",
+    "phone": "(915) 307-3343",
+    "websiteUrl": "https://dhutafrican.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "dhut-african-restaurant-el-paso-tx",
+    "areaSlug": "el-paso",
+    "writeUp": "African food in El Paso. Delivery may be available via third-party platforms — check delivery apps for current availability."
+  },
+  {
+    "name": "Debizz Kitchen",
+    "city": "El Paso",
+    "state": "TX",
+    "addressLine": "12321 Desert Dove Ave, El Paso TX 79938",
+    "phone": "(915) 867-2708",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "debizz-kitchen-el-paso-tx",
+    "areaSlug": "el-paso",
+    "writeUp": "Small African food spot in El Paso. Delivery may be available — check delivery apps for current availability."
+  },
+  {
+    "name": "Vizo’s African Bar & Restaurant",
+    "city": "Lubbock",
+    "state": "TX",
+    "addressLine": "3131 34th St, Lubbock TX 79410",
+    "phone": "(806) 701-3680",
+    "websiteUrl": "http://www.vizoslubbock.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "African",
+      "Nigerian",
+      "Bar"
+    ],
+    "slug": "vizos-african-bar-and-restaurant-lubbock-tx",
+    "areaSlug": "west-texas",
+    "writeUp": "African / Nigerian bar & restaurant in Lubbock. Delivery may be available via DoorDash or Uber Eats — check the apps for current availability."
+  },
+  {
+    "name": "Betty's Kitchen",
+    "city": "Abilene",
+    "state": "TX",
+    "addressLine": "2510 Button Willow Ave, Abilene TX 79606",
+    "phone": "(325) 701-4432",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "bettys-kitchen-abilene-tx",
+    "areaSlug": "west-texas"
+  },
+  {
+    "name": "Afrospice | Authentic African Food In The RGV",
+    "city": "McAllen",
+    "state": "TX",
+    "addressLine": "4400 N 23rd St #156, McAllen TX 78504",
+    "phone": "(956) 627-2244",
+    "websiteUrl": "http://afrospicergv.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "afrospice-authentic-african-food-in-the-rgv-mcallen-tx",
+    "areaSlug": "south-texas"
+  },
+  {
+    "name": "JC African & Caribbean Food Store",
+    "city": "McAllen",
+    "state": "TX",
+    "addressLine": "1915 N 10th St Ste A, McAllen TX 78501",
+    "phone": "(956) 682-6700",
+    "websiteUrl": "https://www.africanfoodstores.com",
+    "category": "Market",
+    "cuisines": [
+      "African",
+      "Caribbean",
+      "Market"
+    ],
+    "slug": "jc-african-and-caribbean-food-store-mcallen-tx",
+    "areaSlug": "south-texas"
+  },
+  {
+    "name": "Somali African Safari Restaurant",
+    "city": "Amarillo",
+    "state": "TX",
+    "addressLine": "5945 E Amarillo Blvd, Amarillo TX 79107",
+    "phone": "(806) 471-0490",
+    "websiteUrl": "https://somalisafari.top/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Somali",
+      "East African"
+    ],
+    "slug": "somali-african-safari-restaurant-amarillo-tx",
+    "areaSlug": "west-texas"
+  },
+  {
+    "name": "Felicia’s African Food LLC",
+    "city": "Amarillo",
+    "state": "TX",
+    "addressLine": "2795 SW 45th Ave, Amarillo TX 79110",
+    "phone": "(806) 674-3252",
+    "websiteUrl": "https://usmaperx.org/details/felicia-s-african-food-llc-ChIJtZk",
+    "category": "Restaurant",
+    "cuisines": [
+      "African",
+      "West African",
+      "Nigerian"
+    ],
+    "slug": "felicias-african-food-llc-amarillo-tx",
+    "areaSlug": "west-texas"
+  },
+  {
+    "name": "Somali Restaurant Bulsho",
+    "city": "Amarillo",
+    "state": "TX",
+    "addressLine": "2380 Fritch Hwy, Amarillo TX 79108",
+    "phone": "(806) 316-2490",
+    "websiteUrl": "https://somalibulsho.top/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Somali",
+      "African"
+    ],
+    "slug": "somali-restaurant-bulsho-amarillo-tx",
+    "areaSlug": "west-texas"
+  },
+  {
+    "name": "Marhaba Eritrean and Ethiopian Cuisine and Market",
+    "city": "Amarillo",
+    "state": "TX",
+    "addressLine": "2522 Paramount Blvd, Amarillo TX 79109",
+    "phone": "(806) 367-6077",
+    "websiteUrl": "https://marhabarestaurant.wordpress.com/",
+    "category": "Market + Kitchen",
+    "cuisines": [
+      "Eritrean",
+      "Ethiopian",
+      "Market"
+    ],
+    "slug": "marhaba-eritrean-and-ethiopian-cuisine-and-market-amarillo-tx",
+    "areaSlug": "west-texas"
+  },
+  {
+    "name": "AFROO DINING",
+    "city": "Amarillo",
+    "state": "TX",
+    "addressLine": "3313 S Georgia St, Amarillo TX 79109",
+    "phone": "(806) 471-0402",
+    "websiteUrl": "https://www.afroodining.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "afroo-dining-amarillo-tx",
+    "areaSlug": "west-texas"
+  },
+  {
+    "name": "Dakar Street Food (Ghost Kitchen)",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "2616 Blodgett St, Houston TX 77004",
+    "phone": "(281) 846-6420",
+    "websiteUrl": "https://dakarstreetfood.com/",
+    "category": "Ghost Kitchen",
+    "cuisines": [
+      "Senegalese",
+      "West African"
+    ],
+    "slug": "dakar-street-food-ghost-kitchen-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Kofoshi",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "3706 S Gessner Rd, Houston, TX 77063",
+    "phone": "(346) 252-2336",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "kofoshi-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Fabaceae African Cuisine Inc.",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "10021 S Main St Bldg 7, Houston TX 77025",
+    "phone": "(512) 840-0855",
+    "websiteUrl": "http://www.fabaceaecuisine.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "fabaceae-african-cuisine-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "EJIDE AFRICAN RESTAURANT AND BAR",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "10571 Synott Rd, Houston TX 77099",
+    "phone": "(281) 965-8121",
+    "websiteUrl": "https://ddsejideafricanrestaurant.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "ejide-african-restaurant-and-bar-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Authentic African Restaurant & Bar",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9705 Synott Rd Suite 107, Houston TX 77083",
+    "phone": "832-529-9010",
+    "websiteUrl": "https://authenticafricanfoods.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "authentic-african-restaurant-and-bar-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Marie African Flavors",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "12600 Bissonnet St Ste A7, Houston TX 77099",
+    "phone": "(832) 771-8778",
+    "websiteUrl": "https://marieafricanflavorsrestaurant.com",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "marie-african-flavors-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Aburi Cuisine",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "13655 Bissonnet St Suite 204, Houston TX 77083",
+    "phone": "(346) 774-2122",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "aburi-cuisine-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Suya on the Spot",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "3418 S Texas 6 Suite C, Houston TX 77082",
+    "phone": "(346) 252-3158",
+    "websiteUrl": "https://www.suyaonthespot.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Suya"
+    ],
+    "slug": "suya-on-the-spot-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "FuFu Restaurant (West African influence)",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "11810 Bellaire Blvd Ste A, Houston TX 77072",
+    "phone": "(713) 981-8818",
+    "websiteUrl": "https://fufurestaurant.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "fufu-restaurant-west-african-influence-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "KomChop",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "14144 Westheimer Rd #120, Houston TX 77077",
+    "phone": "(281) 741-3571",
+    "websiteUrl": "https://www.komchop.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "slug": "komchop-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Olatee African Cafe",
+    "city": "Spring",
+    "state": "TX",
+    "addressLine": "409 Sawdust Rd, Spring TX 77380",
+    "phone": "(832) 850-3440",
+    "websiteUrl": "https://www.olateeafricancafe.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "olatee-african-cafe-spring-tx",
+    "areaSlug": "houston",
+    "writeUp": "West African cafe in Spring (Greater Houston). Delivery may be available — check delivery apps for current availability."
+  },
+  {
+    "name": "Alief African Kitchen",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9755 S Kirkwood Rd D, Houston TX 77099",
+    "phone": "(281) 968-1810",
+    "websiteUrl": "https://aliefafricanfoodkitchen.shopsettings.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "African"
+    ],
+    "slug": "alief-african-kitchen-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Desta Ethiopian Restaurant",
+    "city": "Dallas",
+    "state": "TX",
+    "addressLine": "12101 Greenville Ave, Dallas TX 75243",
+    "phone": "(214) 760-7221",
+    "websiteUrl": "http://destaethiopian.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Ethiopian"
+    ],
+    "slug": "desta-ethiopian-restaurant-dallas-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Lalibela Ethiopian Restaurant & Bar",
+    "city": "Dallas",
+    "state": "TX",
+    "addressLine": "9191 Forest Ln #2, Dallas TX 75243",
+    "phone": "(972) 792-8442",
+    "websiteUrl": "https://lalibeladallastx.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Ethiopian"
+    ],
+    "slug": "lalibela-ethiopian-restaurant-dallas-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Addis Abeba Ethiopian Restaurant",
+    "city": "Richardson",
+    "state": "TX",
+    "addressLine": "100 Central Expy Ste 65, Richardson TX 75080",
+    "phone": "(469) 319-9604",
+    "websiteUrl": "https://addisabebarestauranttx.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Ethiopian"
+    ],
+    "slug": "addis-abeba-ethiopian-restaurant-richardson-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "West African Way",
+    "city": "Plano",
+    "state": "TX",
+    "addressLine": "1405 Jupiter Rd #116, Plano TX 75074",
+    "phone": "(972) 424-2634",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "west-african-way-plano-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Jollof Haus - West African Flavors",
+    "city": "Allen",
+    "state": "TX",
+    "addressLine": "945 W Stacy Rd #130, Allen TX 75013",
+    "phone": "(972) 332-8185",
+    "websiteUrl": "https://jollofhauz.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "slug": "jollof-haus-west-african-flavors-allen-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Exotic Grill African Cuisine",
+    "city": "Euless",
+    "state": "TX",
+    "addressLine": "415 N Main St #102, Euless TX 76039",
+    "phone": "(817) 587-1551",
+    "websiteUrl": "https://exoticafricangrill.site/",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "exotic-grill-african-cuisine-euless-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Osuma Suya",
+    "city": "McKinney",
+    "state": "TX",
+    "addressLine": "5121 Collin McKinney Pkwy #1100, McKinney TX 75070",
+    "phone": "(214) 226-7815",
+    "websiteUrl": "http://osumasuya.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian",
+      "Suya"
+    ],
+    "slug": "osuma-suya-mckinney-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Osuma Suya",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "3306 Highway 6 S Unit 100, Houston TX 77082",
+    "phone": "(346) 357-3778",
+    "websiteUrl": "http://osumasuya.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian",
+      "Suya"
+    ],
+    "slug": "osuma-suya-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Suya Stop Inc.",
+    "city": "Grand Prairie",
+    "state": "TX",
+    "addressLine": "311 E Pioneer Pkwy #B, Grand Prairie TX 75051",
+    "phone": "(817) 966-9808",
+    "websiteUrl": "http://www.suyastop.com",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian",
+      "Suya"
+    ],
+    "slug": "suya-stop-inc-grand-prairie-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "THE SPOT (Rhosabjal African cuisine)",
+    "city": "Fort Worth",
+    "state": "TX",
+    "addressLine": "3386 Cimmaron Trail, Fort Worth TX 76116",
+    "phone": "(682) 347-1941",
+    "category": "Restaurant",
+    "cuisines": [
+      "African",
+      "West African"
+    ],
+    "slug": "the-spot-rhosabjal-african-cuisine-fort-worth-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Rhosabjal Cuisine",
+    "city": "Fort Worth",
+    "state": "TX",
+    "addressLine": "8533 Camp Bowie W Blvd, Fort Worth TX 76116",
+    "category": "Food Truck",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "rhosabjal-cuisine-fort-worth-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "LeAnna Chop Grill",
+    "city": "Fort Worth",
+    "state": "TX",
+    "addressLine": "2200 Brookes St Unit A, Fort Worth TX 76105",
+    "phone": "(817) 720-6677",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "leanna-chop-grill-fort-worth-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Aminatas Kitchen",
+    "city": "Fort Worth",
+    "state": "TX",
+    "addressLine": "525 King George Dr, Fort Worth TX 76112",
+    "phone": "(817) 720-3333",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "aminatas-kitchen-fort-worth-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "OLORI African Cuisine and Event Catering",
+    "city": "Fort Worth",
+    "state": "TX",
+    "addressLine": "6248 McCart Ave, Fort Worth TX 76133",
+    "phone": "+(469) 306-7318",
+    "websiteUrl": "http://oloriafricancuisine.net/",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "olori-african-cuisine-and-event-catering-fort-worth-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Uncle G'z Flavors",
+    "city": "Haltom City",
+    "state": "TX",
+    "addressLine": "5005 Denton Hwy, Haltom City TX 76117",
+    "phone": "(817) 744-8898",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "uncle-gz-flavors-haltom-city-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Tam Tam Zings Bar & Grill",
+    "city": "Richland Hills",
+    "state": "TX",
+    "addressLine": "7224 Glenview Dr, Richland Hills TX 76180",
+    "phone": "(817) 537-2059",
+    "websiteUrl": "http://www.zingscafe.com",
+    "category": "Restaurant",
+    "cuisines": [
+      "African",
+      "BBQ"
+    ],
+    "slug": "tam-tam-zings-bar-and-grill-richland-hills-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Osuma Suya",
+    "city": "Euless",
+    "state": "TX",
+    "addressLine": "918 E Harwood Rd Ste B, Euless TX 76039",
+    "phone": "(817) 358-1511",
+    "websiteUrl": "http://osumasuya.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian",
+      "Suya"
+    ],
+    "slug": "osuma-suya-euless-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "African Village",
+    "city": "Irving",
+    "state": "TX",
+    "addressLine": "3003 N Belt Line Rd, Irving TX 75062",
+    "phone": "(972) 570-1111",
+    "websiteUrl": "https://africanvillagerestauranttx.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "african-village-irving-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Lola's Restaurant & Lounge",
+    "city": "Irving",
+    "state": "TX",
+    "addressLine": "3435 N Belt Line Rd, Irving TX 75062",
+    "phone": "(972) 514-1111",
+    "websiteUrl": "https://www.lolasafricanrestaurant.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "slug": "lolas-restaurant-and-lounge-irving-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "African pride Food and kitchen",
+    "city": "Arlington",
+    "state": "TX",
+    "addressLine": "5504 Matlock Rd, Arlington TX 76018",
+    "phone": "(817) 753-7962",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "african-pride-food-and-kitchen-arlington-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "ChefTemii - Nigerian Restaurant & Catering",
+    "city": "Arlington",
+    "state": "TX",
+    "addressLine": "1900 W Arbrook Blvd Ste 116, Arlington TX 76015",
+    "phone": "(214) 603-1413",
+    "websiteUrl": "http://www.cheftemii.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "slug": "cheftemii-nigerian-restaurant-and-catering-arlington-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Fufudelight & Suya Kitchen",
+    "city": "Arlington",
+    "state": "TX",
+    "addressLine": "6401 New York Ave #149, Arlington TX 76018",
+    "phone": "(817) 896-3372",
+    "websiteUrl": "https://www.fufudelightsuyakitchen.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "African",
+      "Suya"
+    ],
+    "slug": "fufudelight-and-suya-kitchen-arlington-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Angie Winners Kitchen",
+    "city": "Arlington",
+    "state": "TX",
+    "addressLine": "2905 E Arkansas Ln Ste 100, Arlington TX 76010",
+    "phone": "(972) 854-6161",
+    "websiteUrl": "https://angiewinnerskitchen.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "angie-winners-kitchen-arlington-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Yemsade Restaurant",
+    "city": "Grand Prairie",
+    "state": "TX",
+    "addressLine": "3007 S Carrier Pkwy, Grand Prairie TX 75052",
+    "phone": "(469) 757-0100",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "yemsade-restaurant-grand-prairie-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Lagos Kitchen",
+    "city": "Lewisville",
+    "state": "TX",
+    "addressLine": "1320 Main St, Lewisville TX 75067",
+    "phone": "(469) 444-3286",
+    "websiteUrl": "https://www.lagos-kitchen.com",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "lagos-kitchen-lewisville-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Lady T Kitchen African Restaurant",
+    "city": "Pflugerville",
+    "state": "TX",
+    "addressLine": "15608 Spring Hill Ln Ste 102, Pflugerville TX 78660",
+    "phone": "(512) 712-5716",
+    "websiteUrl": "http://www.ladytkitchen.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian",
+      "African"
+    ],
+    "slug": "lady-t-kitchen-african-restaurant-pflugerville-tx",
+    "areaSlug": "austin"
+  },
+  {
+    "name": "South African Food Affair",
+    "city": "Austin",
+    "state": "TX",
+    "addressLine": "71 Rainey St, Austin TX 78701",
+    "phone": "(425) 780-2481",
+    "websiteUrl": "https://www.safoodaffair.com",
+    "category": "Food Truck",
+    "cuisines": [
+      "South African"
+    ],
+    "slug": "south-african-food-affair-austin-tx",
+    "areaSlug": "austin"
+  },
+  {
+    "name": "Oringo Africana",
+    "city": "San Antonio",
+    "state": "TX",
+    "addressLine": "111 Probandt St, San Antonio TX 78204",
+    "phone": "(726) 229-7587",
+    "websiteUrl": "http://oringo-africana.square.site/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "slug": "oringo-africana-san-antonio-tx",
+    "areaSlug": "san-antonio"
+  },
+  {
+    "name": "Palatable Nigerian Cuisine",
+    "city": "Austin",
+    "state": "TX",
+    "addressLine": "5610 N Interstate Hwy 35, Austin TX 78751",
+    "phone": "(512) 383-5738",
+    "websiteUrl": "https://www.orderpalatablecuisine.com",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian",
+      "African"
+    ],
+    "slug": "palatable-nigerian-cuisine-austin-tx",
+    "areaSlug": "austin"
+  },
+  {
+    "name": "Nigerian Restaurant / African Market",
+    "city": "Austin",
+    "state": "TX",
+    "addressLine": "10805 N Lamar Blvd Ste J, Austin TX 78753",
+    "phone": "(512) 351-9311",
+    "category": "Market",
+    "cuisines": [
+      "Nigerian",
+      "African Market"
+    ],
+    "slug": "nigerian-restaurant-african-market-austin-tx",
+    "areaSlug": "austin"
+  },
+  {
+    "name": "Red Sea Kitchen (Ethiopian Food Truck)",
+    "city": "Austin",
+    "state": "TX",
+    "addressLine": "2902 E Cesar Chavez St, Austin TX 78702",
+    "phone": "+(512) 584-5139",
+    "websiteUrl": "http://www.redseakitchenatx.com",
+    "category": "Food Truck",
+    "cuisines": [
+      "Ethiopian",
+      "Eritrean"
+    ],
+    "slug": "red-sea-kitchen-ethiopian-food-truck-austin-tx",
+    "areaSlug": "austin"
+  },
+  {
+    "name": "Amen Cafe Eritrean & Ethiopian",
+    "city": "San Antonio",
+    "state": "TX",
+    "addressLine": "5115 Fredericksburg Rd, San Antonio TX 78229",
+    "phone": "(512) 940-3349",
+    "websiteUrl": "https://amen.cafe/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Ethiopian",
+      "Eritrean"
+    ],
+    "slug": "amen-cafe-eritrean-and-ethiopian-san-antonio-tx",
+    "areaSlug": "san-antonio"
+  },
+  {
+    "name": "African Village Ethiopian Restaurant",
+    "city": "San Antonio",
+    "state": "TX",
+    "addressLine": "10918 Wurzbach Rd #131, San Antonio TX 78230",
+    "phone": "(210) 467-5102",
+    "websiteUrl": "https://ethiopiandining.com/restaurants/african-village-ethiopian-restaurant/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Ethiopian",
+      "East African"
+    ],
+    "slug": "african-village-ethiopian-restaurant-san-antonio-tx",
+    "areaSlug": "san-antonio"
+  },
+  {
+    "name": "Wazobia African Market & Kitchen",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "10828 Beechnut St, Houston TX 77072",
+    "phone": "(832) 243-6449",
+    "category": "Market + Kitchen",
+    "cuisines": [
+      "African Market",
+      "Kitchen"
+    ],
+    "slug": "wazobia-african-market-and-kitchen-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Bodija Foods",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "10814 S Gessner Rd, Houston TX 77071",
+    "phone": "(713) 393-7322",
+    "websiteUrl": "https://texasafricangrocery.com",
+    "category": "Market",
+    "cuisines": [
+      "African Market",
+      "Grocery"
+    ],
+    "slug": "bodija-african-food-market-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Yenat Guada Ethiopian Cuisine",
+    "city": "Dallas",
+    "state": "TX",
+    "addressLine": "7015 Greenville Ave Ste 300, Dallas TX 75231",
+    "phone": "(469) 547-1624",
+    "websiteUrl": "https://yenatguada.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Ethiopian"
+    ],
+    "slug": "yenat-guada-ethiopian-cuisine-dallas-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Sheba’s Ethiopian Kitchen",
+    "city": "Dallas",
+    "state": "TX",
+    "addressLine": "8989 Forest Ln, Dallas TX 75243",
+    "phone": "(214) 570-8828",
+    "category": "Restaurant",
+    "cuisines": [
+      "Ethiopian"
+    ],
+    "slug": "shebas-ethiopian-kitchen-dallas-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Trices Cafe and Lounge",
+    "city": "San Antonio",
+    "state": "TX",
+    "addressLine": "7600 Eckhert Rd #3, San Antonio TX 78240",
+    "phone": "(210) 806-7770",
+    "websiteUrl": "https://www.tricescafeandlounge.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "trices-cafe-and-lounge-san-antonio-tx",
+    "areaSlug": "san-antonio"
+  },
+  {
+    "name": "TASTE AFRIK",
+    "city": "Mansfield",
+    "state": "TX",
+    "addressLine": "2881 FM157 Suit 103, Mansfield TX 76063",
+    "phone": "(682) 323-7609",
+    "websiteUrl": "http://www.tasteafrik.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "African",
+      "West African"
+    ],
+    "slug": "taste-afrik-mansfield-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Cubana Grille | African & Jamaican Restaurant in McKinney Texas",
+    "city": "McKinney",
+    "state": "TX",
+    "addressLine": "4051 S Custer Rd Suite 1160, McKinney TX 75070",
+    "phone": "(214) 548-4821",
+    "websiteUrl": "https://cubanagrille.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Jamaican",
+      "Caribbean"
+    ],
+    "slug": "cubana-grille-african-and-jamaican-restaurant-in-mckinney-texas-mckinney-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Aunty Mimi's Kitchen",
+    "city": "Killeen",
+    "state": "TX",
+    "addressLine": "3804 W Stan Schlueter Loop #102, Killeen TX 76549",
+    "phone": "(254) 213-3152",
+    "websiteUrl": "https://auntymimiskitchen.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "aunty-mimis-kitchen-killeen-tx",
+    "areaSlug": "central-texas"
+  },
+  {
+    "name": "Ubuntu Cuisine",
+    "city": "San Antonio",
+    "state": "TX",
+    "addressLine": "11116 Wurzbach Rd, San Antonio TX 78230",
+    "phone": "(210) 465-9502",
+    "websiteUrl": "https://ubuntucuisine.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "ubuntu-cuisine-san-antonio-tx",
+    "areaSlug": "san-antonio"
+  },
+  {
+    "name": "Wazobia Kitchen",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "16203 Westheimer Rd, Houston TX 77082",
+    "phone": "(832) 230-3894",
+    "websiteUrl": "http://wazobiaafricankitchen.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "wazobia-kitchen-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Mgbeke Village Hut - Nigerian Cuisine",
+    "city": "Leander",
+    "state": "TX",
+    "addressLine": "825 Palamos Dr, Leander TX 78641",
+    "phone": "(413) 777-7990",
+    "websiteUrl": "https://mgbeke.com/product-category/village-hut%F0%9F%9B%96/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian",
+      "African"
+    ],
+    "slug": "mgbeke-village-hut-nigerian-cuisine-leander-tx",
+    "areaSlug": "austin"
+  },
+  {
+    "name": "Blessliz African Market & Kitchen",
+    "city": "McKinney",
+    "state": "TX",
+    "addressLine": "1502 W University Dr, McKinney TX 75069",
+    "phone": "(469) 666-4144",
+    "websiteUrl": "https://blessliz.com/",
+    "category": "Market + Kitchen",
+    "cuisines": [
+      "African Market",
+      "Grocery"
+    ],
+    "slug": "blessliz-african-market-mckinney-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Suya Power House",
+    "city": "Missouri City",
+    "state": "TX",
+    "addressLine": "15703 Homebriar Ct Bldg 15703, Missouri City TX 77489",
+    "phone": "(832) 757-5536",
+    "websiteUrl": "https://www.suyapowerhouse.us/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Suya",
+      "Nigerian"
+    ],
+    "slug": "suya-power-house-missouri-city-tx",
+    "areaSlug": "houston",
+    "writeUp": "West African suya + Nigerian-inspired dishes in Missouri City. Delivery is often available in the Houston area — check delivery apps for current coverage."
+  },
+  {
+    "name": "Aria Nigerian Suya Kitchen",
+    "city": "Pearland",
+    "state": "TX",
+    "addressLine": "3300 Business Center Dr Ste 150, Pearland TX 77584",
+    "phone": "+(832) 831-4372",
+    "websiteUrl": "https://www.ariasuyakitchen.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Nigerian",
+      "Suya"
+    ],
+    "slug": "aria-nigerian-suya-kitchen-pearland-tx",
+    "areaSlug": "houston",
+    "writeUp": "West African / Nigerian dishes in Pearland (Greater Houston). Delivery may be available — check delivery apps for current availability."
+  },
+  {
+    "name": "Kaylani African Cafe",
+    "city": "Pearland",
+    "state": "TX",
+    "addressLine": "7129 Broadway St, Pearland TX 77581",
+    "phone": "(832) 736-8178",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "kaylani-african-cafe-pearland-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Glozi Calabar Restaurant and African Cuisine",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "12825 Westheimer Rd, Houston TX",
+    "phone": "(281) 741-0042",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "glozi-calabar-restaurant-and-african-cuisine-houston-tx",
+    "areaSlug": "houston",
+    "writeUp": "West African / Calabar-style food in Houston. Takeout and delivery may be available via third-party platforms (availability can vary)."
+  },
+  {
+    "name": "Amala Zone",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "14815 Westheimer Rd, Houston TX",
+    "phone": "(281) 741-0042",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "amala-zone-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "African Tasty Hub",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "13505 Westheimer Rd, Houston TX",
+    "phone": "(346) 520-8347",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "african-tasty-hub-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Rhay's",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "11920 Westheimer Rd #J, Houston TX",
+    "phone": "(832) 993-9428",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "rhays-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "HoneyKaz",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "17113 Westheimer Rd, Houston TX",
+    "phone": "(346) 907-5105",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "honeykaz-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "KFFO Afro Steakhouse",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "14097 Westheimer Rd, Houston TX",
+    "phone": "(346) 241-9895",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Steakhouse"
+    ],
+    "slug": "kffo-afro-steakhouse-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Vioni Grill",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "2703 S Texas 6 Suite 127, Houston TX 77082",
+    "phone": "(832) 328-1188",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Grill"
+    ],
+    "slug": "vioni-grill-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Crave Suya",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "8633 Richmond Ave, Houston TX 77063",
+    "phone": "(281) 607-5564",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Suya"
+    ],
+    "slug": "crave-suya-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Royal Point",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "3533 S Dairy Ashford Rd Suite I, Houston TX 77082",
+    "phone": "(346) 335-7181",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "royal-point-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Famous Princess African Kitchen",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "17036 W Little York Rd, Houston TX 77084",
+    "phone": "(281) 815-5443",
+    "websiteUrl": "https://thefpak.start.page/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "famous-princess-african-kitchen-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Bole King",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "7030 Addicks Clodine Rd #101, Houston TX 77083",
+    "phone": "(346) 391-1656",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "bole-king-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Dee Titolat African Restaurant",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "11965 Bissonnet St Ste 110, Houston TX",
+    "phone": "(713) 234-7186",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "dee-titolat-african-restaurant-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Ewatomi",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "15000 Bellaire Blvd Ste Q, Houston TX",
+    "phone": "(346) 406-3829",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "ewatomi-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Glam Divine Treats",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "6788 Synott Rd, Houston TX 77083",
+    "phone": "(346) 335-7116",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Desserts"
+    ],
+    "slug": "glam-divine-treats-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Supreme Seafood & Suya",
+    "city": "Richmond",
+    "state": "TX",
+    "addressLine": "7039 FM 1464 Suite 110, Richmond TX 77407",
+    "phone": "(832) 539-1605",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Suya",
+      "Seafood"
+    ],
+    "slug": "supreme-seafood-and-suya-houston-tx",
+    "areaSlug": "sugar-land"
+  },
+  {
+    "name": "Chef Benny",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "10010 Bissonnet St, Houston TX 77036",
+    "phone": "(832) 834-3127",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "chef-benny-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "042 Restaurant",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "13711 Westheimer Rd B-1, Houston TX",
+    "phone": "(713) 282-5320",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian",
+      "Fusion"
+    ],
+    "slug": "042-restaurant-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Nini Kitchen",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "7627 Cook Rd, Houston TX 77072",
+    "phone": "(346) 352-3277",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "nini-kitchen-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Grill Master African Restaurant",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9755 S Kirkwood Rd Ste D, Houston TX 77099",
+    "phone": "(832) 672-8874",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Grill"
+    ],
+    "slug": "grill-master-african-restaurant-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Cafe De Vivre",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "14165 Bissonnet St Suite P, Houston TX",
+    "phone": "(281) 835-4574",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "cafe-de-vivre-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Traditional Food Restaurant",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "11214 Plainfield St #B, Houston TX",
+    "phone": "(832) 831-9899",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "traditional-food-restaurant-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "African Food Embassy",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "18311 Clay Rd Suite A4, Houston TX",
+    "phone": "(346) 252-2445",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "african-food-embassy-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "The Afro Eatery",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "2352 S Dairy Ashford Rd, Houston TX 77077",
+    "phone": "(832) 230-0504",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "the-afro-eatery-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Mama Jollof Restaurant",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "8330 W Bellfort Ave Ste C, Houston TX 77071",
+    "phone": "(346) 204-5863",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "mama-jollof-restaurant-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "United Sisters",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "8731 W Bellfort Ave, Houston TX 77071",
+    "phone": "(713) 995-5545",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "united-sisters-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Dsnailspot",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9020 S Texas 6, Houston TX 77083",
+    "phone": "(832) 831-3185",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Seafood"
+    ],
+    "slug": "dsnailspot-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Horn of Africa",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "5930 Renwick Dr Suite B, Houston TX 77081",
+    "phone": "(713) 838-1111",
+    "category": "Restaurant",
+    "cuisines": [
+      "Ethiopian"
+    ],
+    "slug": "horn-of-africa-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Amazing Street Beans",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "18324 Clay Rd, Houston TX",
+    "phone": "(281) 236-6257",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "amazing-street-beans-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Nazareth Cafe",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "6617 Chimney Rock Rd, Houston TX 77081",
+    "phone": "(713) 664-0260",
+    "category": "Restaurant",
+    "cuisines": [
+      "Ethiopian"
+    ],
+    "slug": "nazareth-cafe-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "The Motherland Restaurant & Grill",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "10101 Bissonnet St Ste F, Houston TX",
+    "phone": "(281) 888-9717",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "the-motherland-restaurant-and-grill-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Osite African Hot Pot",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "11919 Bissonnet St, Houston TX",
+    "phone": "(713) 270-4444",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Hot Pot"
+    ],
+    "slug": "osite-african-hot-pot-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "EKO Bistro Fusion",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "2472 S Texas 6, Houston TX 77077",
+    "phone": "(281) 888-6671",
+    "websiteUrl": "http://www.ekobistro.org",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Fusion"
+    ],
+    "slug": "eko-bistro-fusion-houston-tx",
+    "areaSlug": "houston",
+    "writeUp": "Tex-Naija (Nigerian-inspired) fusion in Houston. Dine-in and takeout are available; delivery options may be available via third-party platforms."
+  },
+  {
+    "name": "Mr. Suyaa",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "10887 S Wilcrest Dr, Houston TX",
+    "phone": "(281) 809-3171",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Suya"
+    ],
+    "slug": "mr-suyaa-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "The Icon Nigerian Kitchen",
+    "city": "Richardson",
+    "state": "TX",
+    "addressLine": "430 N Coit Rd #120, Richardson TX 75080",
+    "phone": "(469) 917-7001",
+    "websiteUrl": "https://theiconkitchen.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian",
+      "West African"
+    ],
+    "slug": "the-icon-nigerian-kitchen-richardson-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Gidi Bar and Grill",
+    "city": "Frisco",
+    "state": "TX",
+    "addressLine": "4350 Main St Ste 165, Frisco TX 75034",
+    "phone": "(972) 987-5195",
+    "websiteUrl": "https://www.gidibarandgrill.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian",
+      "West African"
+    ],
+    "slug": "gidi-bar-and-grill-frisco-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Lady T Kitchen",
+    "city": "Austin",
+    "state": "TX",
+    "addressLine": "13776 US-183 #115, Austin TX 78750",
+    "phone": "(512) 552-7779",
+    "websiteUrl": "http://ladytkitchen.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "lady-t-kitchen-austin-tx",
+    "areaSlug": "austin"
+  },
+  {
+    "name": "Mabel's African Cuisine & Bar",
+    "city": "McKinney",
+    "state": "TX",
+    "addressLine": "Delivery/Outpost - McKinney TX",
+    "websiteUrl": "https://mabelsafricancuisine.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African"
+    ],
+    "slug": "mabels-african-cuisine-and-bar-mckinney-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Southwest Farmers Market & Kitchen",
+    "city": "Arlington",
+    "state": "TX",
+    "addressLine": "1011 E Arkansas Ln, Arlington TX 76010",
+    "phone": "(817) 462-1617",
+    "websiteUrl": "https://www.southwestfarmersmarket.com/",
+    "category": "Market + Kitchen",
+    "cuisines": [
+      "African Market",
+      "Grocery"
+    ],
+    "slug": "southwest-farmers-market-and-kitchen-arlington-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Southwest Farmers Market & Kitchen",
+    "city": "Austin",
+    "state": "TX",
+    "addressLine": "9821 N Interstate Hwy 35, Austin TX 78753",
+    "phone": "(817) 462-1617",
+    "websiteUrl": "https://www.southwestfarmersmarket.com/",
+    "category": "Market + Kitchen",
+    "cuisines": [
+      "African Market",
+      "Grocery"
+    ],
+    "slug": "southwest-farmers-market-and-kitchen-austin-tx",
+    "areaSlug": "austin"
+  },
+  {
+    "name": "Southwest Farmers Market & Kitchen",
+    "city": "San Antonio",
+    "state": "TX",
+    "addressLine": "6555 Bandera Rd, San Antonio TX 78238",
+    "phone": "(817) 462-1617",
+    "websiteUrl": "https://www.southwestfarmersmarket.com/",
+    "category": "Market + Kitchen",
+    "cuisines": [
+      "African Market",
+      "Grocery"
+    ],
+    "slug": "southwest-farmers-market-and-kitchen-san-antonio-tx",
+    "areaSlug": "san-antonio"
+  },
+  {
+    "name": "Southwest Farmers Market & Kitchen",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9801 Bissonnet St, Houston TX 77036",
+    "phone": "(817) 462-1617",
+    "websiteUrl": "https://www.southwestfarmersmarket.com/",
+    "category": "Market + Kitchen",
+    "cuisines": [
+      "African Market",
+      "Grocery"
+    ],
+    "slug": "southwest-farmers-market-and-kitchen-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Habesha Restaurant",
+    "city": "Austin",
+    "state": "TX",
+    "addressLine": "6019 N Interstate Hwy 35, Austin TX 78723",
+    "phone": "(512) 407-6830",
+    "websiteUrl": "http://habeshaaustin.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Ethiopian"
+    ],
+    "slug": "habesha-restaurant-austin-tx",
+    "areaSlug": "austin"
+  },
+  {
+    "name": "Freshnez Kitchen (Food Truck)",
+    "city": "Dallas",
+    "state": "TX",
+    "addressLine": "Mobile - DFW Metroplex",
+    "phone": "(214) 434-9333",
+    "websiteUrl": "https://freshnezkitchen.com/",
+    "category": "Food Truck",
+    "cuisines": [
+      "African"
+    ],
+    "slug": "freshnez-kitchen-food-truck-dallas-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Aso Rock Market & Kitchen",
+    "city": "Dallas",
+    "state": "TX",
+    "addressLine": "9220 Skillman St #115, Dallas TX 75243",
+    "phone": "(214) 343-1300",
+    "websiteUrl": "http://asorockmarket.com/",
+    "category": "Market",
+    "cuisines": [
+      "African Market",
+      "Grocery"
+    ],
+    "slug": "aso-rock-market-and-kitchen-dallas-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Blue Nile Ethiopian",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9400 Richmond Ave, Houston TX 77063",
+    "phone": "(713) 814-5101",
+    "websiteUrl": "http://bluenilehouston.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Ethiopian"
+    ],
+    "slug": "blue-nile-ethiopian-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Abula Hot Pot",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9400 Richmond Ave, Houston TX 77063",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian"
+    ],
+    "slug": "abula-hot-pot-richmond-ave-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Nando's PERi-PERi (Post Oak)",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "1717-C Post Oak Blvd, Houston TX 77056",
+    "phone": "(832) 669-9930",
+    "websiteUrl": "https://www.nandosperiperi.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "South African",
+      "Peri-Peri"
+    ],
+    "slug": "nandos-peri-peri-post-oak-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Bukka Grill",
+    "city": "Frisco",
+    "state": "TX",
+    "addressLine": "307 Main St, Frisco TX 75036",
+    "phone": "(214) 494-2553",
+    "websiteUrl": "https://bukkagrill.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian",
+      "West African"
+    ],
+    "slug": "bukka-grill-frisco-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Makola Marketplace",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9051 W Bellfort Ave, Houston TX 77031",
+    "phone": "(713) 995-4343",
+    "category": "Market + Kitchen",
+    "cuisines": [
+      "African Market",
+      "Kitchen",
+      "Grocery"
+    ],
+    "slug": "makola-marketplace-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "3tees Shawarma",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "13974 Westheimer Rd, Houston TX 77077",
+    "phone": "(281) 272-6903",
+    "websiteUrl": "https://3teeshawarma.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Shawarma"
+    ],
+    "slug": "3tees-shawarma-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Holyland Halal Meat Grocery",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9801 Bissonnet St Suite H, Houston TX 77036",
+    "phone": "(713) 271-5000",
+    "websiteUrl": "https://holyland-meat-grocery.edan.io/",
+    "category": "Market + Kitchen",
+    "cuisines": [
+      "African Market",
+      "Kitchen",
+      "Grocery"
+    ],
+    "slug": "holyland-halal-meat-grocery-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Nando's PERi-PERi (Montrose)",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "1201 Westheimer Rd, Houston TX 77006",
+    "phone": "(713) 529-1000",
+    "websiteUrl": "https://www.nandosperiperi.com/",
+    "category": "Restaurant",
+    "cuisines": [
+      "South African",
+      "Peri-Peri"
+    ],
+    "slug": "nandos-peri-peri-montrose-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Augustine's (Creole-African)",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "Hotel King David, Houston TX 77004",
+    "category": "Restaurant",
+    "cuisines": [
+      "Afro-Creole",
+      "Creole"
+    ],
+    "slug": "augustines-creole-african-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Tailat Kitchen",
+    "city": "Austin",
+    "state": "TX",
+    "addressLine": "10805 N Lamar Blvd, Austin TX 78753",
+    "phone": "(512) 832-5382",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian"
+    ],
+    "slug": "tailat-kitchen-austin-tx",
+    "areaSlug": "central-texas"
+  },
+  {
+    "name": "Palatable Nigeria Cuisine",
+    "city": "Pflugerville",
+    "state": "TX",
+    "addressLine": "2715 Paragon Fox Dr, Pflugerville TX 78660",
+    "phone": "(512) 383-5738",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian"
+    ],
+    "slug": "palatable-nigeria-cuisine-pflugerville-tx",
+    "areaSlug": "central-texas"
+  },
+  {
+    "name": "Merit Coffee (African Source)",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "621 Waverly St, Houston TX 77007",
+    "category": "Restaurant",
+    "cuisines": [
+      "African Coffee",
+      "Coffee"
+    ],
+    "slug": "merit-coffee-african-source-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Aria Suya (Wilcrest Ghost)",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "2022 Wilcrest Dr, Houston TX 77042",
+    "phone": "(832) 732-2284",
+    "category": "Ghost Kitchen",
+    "cuisines": [
+      "West African",
+      "Nigerian",
+      "Suya"
+    ],
+    "slug": "aria-suya-wilcrest-ghost-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Dupsy's Kitchen (Ghost)",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "2616 Blodgett St, Houston TX 77004",
+    "phone": "(281) 888-5177",
+    "category": "Ghost Kitchen",
+    "cuisines": [
+      "Nigerian"
+    ],
+    "slug": "dupsys-kitchen-ghost-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Honey Dip Fingers",
+    "city": "McKinney",
+    "state": "TX",
+    "addressLine": "Delivery/Outpost, McKinney TX 75071",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian"
+    ],
+    "slug": "honey-dip-fingers-mckinney-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Calabar Pot",
+    "city": "Frisco",
+    "state": "TX",
+    "addressLine": "Delivery/Outpost, Frisco TX 75034",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian"
+    ],
+    "slug": "calabar-pot-frisco-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Eko Bistro",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "13150 FM 529 Ste 104, Houston TX 77041",
+    "phone": "(346) 244-5961",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian"
+    ],
+    "slug": "eko-bistro-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Salt N Pepper",
+    "city": "Garland",
+    "state": "TX",
+    "addressLine": "4460 W Walnut St, Garland TX 75042",
+    "phone": "(214) 703-8181",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian"
+    ],
+    "slug": "salt-n-pepper-garland-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Signature African",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "6333 Richmond Ave, Houston TX 77057",
+    "phone": "(832) 732-2284",
+    "category": "Restaurant",
+    "cuisines": [
+      "Nigerian"
+    ],
+    "slug": "signature-african-houston-tx",
+    "areaSlug": "houston"
+  },
+  {
+    "name": "Southwest Farmers Kitchen",
+    "city": "Frisco",
+    "state": "TX",
+    "addressLine": "7070 Preston Rd, Frisco TX 75035",
+    "phone": "(972) 292-9608",
+    "websiteUrl": "https://www.southwestfarmersmarket.com/",
+    "category": "Market + Kitchen",
+    "cuisines": [
+      "African Market",
+      "Grocery"
+    ],
+    "slug": "southwest-farmers-kitchen-frisco-tx",
+    "areaSlug": "dfw"
+  },
+  {
+    "name": "Southwest Farmers Kitchen",
+    "city": "Garland",
+    "state": "TX",
+    "addressLine": "4460 W Walnut St, Garland TX 75042",
+    "phone": "(214) 703-8181",
+    "websiteUrl": "https://www.southwestfarmersmarket.com/",
+    "category": "Market + Kitchen",
+    "cuisines": [
+      "African Market",
+      "Grocery"
+    ],
+    "slug": "southwest-farmers-kitchen-garland-tx",
+    "areaSlug": "dfw"
+  }
+]

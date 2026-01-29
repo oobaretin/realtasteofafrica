@@ -9,6 +9,7 @@
     "start": "next start",
     "lint": "eslint .",
     "import:restaurants": "node scripts/import-restaurants-csv.mjs",
+    "export:restaurants:json": "node scripts/export-restaurants-json.mjs",
     "fetch:restaurants:osm": "node scripts/fetch-restaurants-osm.mjs",
     "enrich:restaurants:osm": "node scripts/enrich-restaurants-osm.mjs",
     "enrich:restaurants:web": "node scripts/enrich-restaurants-from-websites.mjs",

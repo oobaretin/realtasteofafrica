@@ -1,10 +1,12 @@
 "use client"
 
-import Link from "next/link"
 import { useMemo, useState } from "react"
 
 import { Badge } from "@/components/Badge"
+import { FilterBar } from "@/components/FilterBar"
+import { RestaurantCard } from "@/components/RestaurantCard"
 import type { Area } from "@/lib/areas"
+import { getEstablishmentCategory } from "@/lib/establishmentType"
 import type { Restaurant } from "@/lib/restaurants"
 
 function normalize(s: string) {
@@ -14,11 +16,6 @@ function normalize(s: string) {
 function includesAny(haystack: string, needles: string[]) {
   const h = normalize(haystack)
   return needles.some((n) => h.includes(normalize(n)))
-}
-
-function toTelHref(phone: string) {
-  const digits = phone.replace(/[^\d+]/g, "")
-  return digits.startsWith("+") ? digits : `+${digits}`
 }
 
 export function RestaurantsBrowser({
@@ -33,6 +30,17 @@ export function RestaurantsBrowser({
   const [query, setQuery] = useState("")
   const [areaSlug, setAreaSlug] = useState<string>("")
   const [cuisine, setCuisine] = useState<string>("")
+  const [category, setCategory] = useState<string>("All")
+
+  const filterBarValues = useMemo(
+    () => ({ category, region: areaSlug }),
+    [category, areaSlug]
+  )
+
+  const handleFilterChange = (key: "category" | "region", value: string) => {
+    if (key === "category") setCategory(value)
+    else setAreaSlug(value)
+  }
 
   const areaBySlug = useMemo(() => {
     const map = new Map<string, Area>()
@@ -44,6 +52,9 @@ export function RestaurantsBrowser({
     const q = normalize(query)
     return restaurants.filter((r) => {
       if (areaSlug && r.areaSlug !== areaSlug) return false
+      if (category && category !== "All") {
+        if (getEstablishmentCategory(r) !== category) return false
+      }
       if (cuisine && !r.cuisines.some((c) => normalize(c) === normalize(cuisine)))
         return false
       if (!q) return true
@@ -54,12 +65,18 @@ export function RestaurantsBrowser({
         r.cuisines.some((c) => includesAny(c, [q]))
       )
     })
-  }, [areaSlug, cuisine, query, restaurants])
+  }, [areaSlug, category, cuisine, query, restaurants])
 
   return (
     <div className="grid gap-4">
+      <FilterBar
+        areas={areas}
+        values={filterBarValues}
+        onFilterChange={handleFilterChange}
+      />
+
       <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-        <div className="grid gap-3 md:grid-cols-3">
+        <div className="grid gap-3 md:grid-cols-2">
           <label className="grid gap-2">
             <span className="text-sm font-semibold text-slate-900">Search</span>
             <input
@@ -68,22 +85,6 @@ export function RestaurantsBrowser({
               value={query}
               onChange={(e) => setQuery(e.target.value)}
             />
-          </label>
-
-          <label className="grid gap-2">
-            <span className="text-sm font-semibold text-slate-900">Area</span>
-            <select
-              className="w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900"
-              value={areaSlug}
-              onChange={(e) => setAreaSlug(e.target.value)}
-            >
-              <option value="">All areas</option>
-              {areas.map((a) => (
-                <option key={a.slug} value={a.slug}>
-                  {a.name}
-                </option>
-              ))}
-            </select>
           </label>
 
           <label className="grid gap-2">
@@ -106,6 +107,9 @@ export function RestaurantsBrowser({
         <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
           <div className="flex flex-wrap items-center gap-2">
             <Badge>{filtered.length} results</Badge>
+            {category && category !== "All" ? (
+              <Badge>{category}</Badge>
+            ) : null}
             {areaSlug ? (
               <Badge>{areaBySlug.get(areaSlug)?.name ?? areaSlug}</Badge>
             ) : null}
@@ -118,6 +122,7 @@ export function RestaurantsBrowser({
               setQuery("")
               setAreaSlug("")
               setCuisine("")
+              setCategory("All")
             }}
           >
             Clear
@@ -125,70 +130,16 @@ export function RestaurantsBrowser({
         </div>
       </div>
 
-      <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-        <ul className="divide-y divide-slate-200">
-          {filtered.map((r) => (
-            <li key={r.slug} className="p-5">
-              <div className="flex flex-wrap items-start justify-between gap-3">
-                <div className="min-w-0">
-                  <div className="text-lg font-semibold tracking-tight text-slate-900">
-                    <Link className="hover:text-amber-800" href={`/restaurants/${r.slug}`}>
-                      {r.name}
-                    </Link>
-                  </div>
-                  <div className="mt-1 text-sm text-slate-600">
-                    {r.city}, {r.state} • {r.cuisines.join(" • ")}
-                  </div>
-                  <div className="mt-1 text-sm text-slate-600">{r.addressLine}</div>
-                </div>
-
-                <div className="flex shrink-0 flex-wrap items-center gap-2">
-                  <Link
-                    className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-50"
-                    href={`/areas/${r.areaSlug}`}
-                  >
-                    {areaBySlug.get(r.areaSlug)?.name ?? r.areaSlug}
-                  </Link>
-                  {r.priceLevel ? <Badge>{"$".repeat(r.priceLevel)}</Badge> : null}
-                </div>
-              </div>
-
-              <div className="mt-4 flex flex-wrap gap-2">
-                {r.highlights.slice(0, 3).map((h) => (
-                  <Badge key={h}>{h}</Badge>
-                ))}
-              </div>
-
-              <div className="mt-5 flex flex-wrap gap-3">
-                <Link
-                  className="inline-flex rounded-md bg-amber-600 px-3 py-2 text-sm font-semibold text-white hover:bg-amber-700"
-                  href={`/restaurants/${r.slug}`}
-                >
-                  View details →
-                </Link>
-                {r.websiteUrl ? (
-                  <a
-                    className="inline-flex rounded-md border border-slate-200 bg-white px-3 py-2 text-sm font-semibold text-slate-900 hover:bg-slate-50"
-                    href={r.websiteUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Website
-                  </a>
-                ) : null}
-                {r.phone ? (
-                  <a
-                    className="inline-flex rounded-md border border-slate-200 bg-white px-3 py-2 text-sm font-semibold text-slate-900 hover:bg-slate-50"
-                    href={`tel:${toTelHref(r.phone)}`}
-                  >
-                    Call
-                  </a>
-                ) : null}
-              </div>
-            </li>
-          ))}
-        </ul>
-      </div>
+      <ul
+        className="grid grid-cols-1 gap-4 md:grid-cols-3"
+        aria-label="Restaurant listings"
+      >
+        {filtered.map((r) => (
+          <li key={r.slug}>
+            <RestaurantCard restaurant={r} />
+          </li>
+        ))}
+      </ul>
     </div>
   )
 }
