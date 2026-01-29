@@ -47,11 +47,20 @@ export function getEstablishmentCategory(restaurant: Restaurant): Exclude<Establ
   return "Restaurant"
 }
 
-/** Tailwind classes for category badge: bg, text, border */
+/** Tailwind classes for category badge (top-corner pill): bg, text */
 export const CATEGORY_BADGE_CLASSES: Record<Exclude<EstablishmentCategory, "All">, string> = {
-  "Food Truck": "bg-orange-100 text-orange-800 border-orange-200",
-  "Ghost Kitchen": "bg-slate-200 text-slate-700 border-slate-300",
-  Restaurant: "bg-amber-50 text-amber-800 border-amber-200",
-  Market: "bg-emerald-100 text-emerald-800 border-emerald-200",
-  "Market + Kitchen": "bg-teal-100 text-teal-800 border-teal-200",
+  "Food Truck": "bg-orange-500 text-white",
+  "Ghost Kitchen": "bg-slate-500 text-white",
+  Restaurant: "bg-amber-600 text-white",
+  Market: "bg-emerald-600 text-white",
+  "Market + Kitchen": "bg-green-600 text-white",
+}
+
+/** Tailwind classes for category header strip (above card content) */
+export const CATEGORY_STRIP_CLASSES: Record<Exclude<EstablishmentCategory, "All">, string> = {
+  "Food Truck": "bg-orange-400",
+  "Ghost Kitchen": "bg-slate-400",
+  Restaurant: "bg-amber-500",
+  Market: "bg-emerald-500",
+  "Market + Kitchen": "bg-green-500",
 }
