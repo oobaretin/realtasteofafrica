@@ -2,6 +2,7 @@ import Link from "next/link"
 
 import { Badge } from "@/components/Badge"
 import { AREAS } from "@/lib/areas"
+import { CUISINE_TAGS } from "@/lib/cuisines"
 import { RESTAURANTS } from "@/lib/restaurants"
 
 function toTelHref(phone: string) {
@@ -32,15 +33,19 @@ export default function HomePage() {
         <div className="relative">
           <div className="flex flex-wrap items-center gap-2">
             <Badge>Directory</Badge>
-            <Badge>Houston + neighboring cities</Badge>
-            <Badge>Nationwide roadmap</Badge>
+            <Badge>180+ listings</Badge>
+            <Badge>Texas-wide</Badge>
           </div>
           <h1 className="mt-5 text-3xl font-semibold tracking-tight text-white md:text-5xl">
             Real Taste of Africa
           </h1>
           <p className="mt-4 max-w-2xl text-base text-slate-200 md:text-lg">
-            Find African restaurants near you. We’re starting with Greater
-            Houston and nearby cities, then expanding nationwide.
+            The Definitive Guide to 180+ African Restaurants, Food Trucks, and
+            Markets Across Texas.
+          </p>
+          <p className="mt-2 max-w-2xl text-sm text-slate-300 md:text-base">
+            Statewide coverage from El Paso to Beaumont — find African food
+            across the state.
           </p>
 
           <div className="mt-7 flex flex-wrap gap-3">
@@ -52,9 +57,9 @@ export default function HomePage() {
             </Link>
             <Link
               className="rounded-md border border-white/20 bg-white px-4 py-2.5 text-sm font-semibold text-slate-900 hover:bg-slate-50"
-              href="/areas/houston"
+              href="/restaurants"
             >
-              Houston area
+              All regions
             </Link>
           </div>
         </div>
@@ -145,7 +150,7 @@ export default function HomePage() {
               Browse by area
             </h2>
             <p className="mt-1 text-sm text-slate-600">
-              Start with Houston and nearby cities — then expand across Texas.
+              Statewide coverage from El Paso to Beaumont.
             </p>
           </div>
           <Link
@@ -168,6 +173,36 @@ export default function HomePage() {
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="grid gap-4">
+        <div>
+          <h2 className="text-xl font-semibold tracking-tight">
+            Explore by cuisine
+          </h2>
+          <p className="mt-1 text-sm text-slate-600">
+            Nigerian, Ethiopian, Ghanaian, Senegalese, Somali, Eritrean, and more across Texas.
+          </p>
+        </div>
+
+        <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+          <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {CUISINE_TAGS.map(({ tag, exampleNames }) => (
+              <li key={tag}>
+                <Link
+                  className="block rounded-lg border border-slate-100 p-4 transition-colors hover:border-amber-200 hover:bg-amber-50/50"
+                  href={`/restaurants?cuisine=${encodeURIComponent(tag)}`}
+                >
+                  <span className="font-semibold text-slate-900">{tag}</span>
+                  <p className="mt-1.5 line-clamp-2 text-xs text-slate-500">
+                    e.g. {exampleNames.slice(0, 3).join(", ")}
+                    {exampleNames.length > 3 ? "…" : ""}
+                  </p>
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
     </div>

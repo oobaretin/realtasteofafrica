@@ -13,6 +13,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Modern Nigerian"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -32,6 +33,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Nigerian"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -52,6 +54,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Nigerian"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -72,6 +75,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Nigerian"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -94,6 +98,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Ghanaian",
       "West African"
     ],
+    "cuisine": "Ghanaian",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -114,6 +119,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Nigerian"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -134,6 +140,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Nigerian"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -155,6 +162,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Suya"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -174,6 +182,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Suya"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "sugar-land",
     "city": "Meadows Place",
     "state": "TX",
@@ -192,6 +201,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -211,6 +221,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Nigerian"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -231,6 +242,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Nigerian"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -250,6 +262,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Nigerian"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -270,6 +283,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Ethiopian",
       "African"
     ],
+    "cuisine": "Ethiopian",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -289,6 +303,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "Ethiopian"
     ],
+    "cuisine": "Ethiopian",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -308,6 +323,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Ghanaian",
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -327,6 +343,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "katy",
     "city": "Cypress",
     "state": "TX",
@@ -346,6 +363,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "African"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "katy",
     "city": "Katy",
     "state": "TX",
@@ -366,6 +384,7 @@ export const RESTAURANTS: Restaurant[] = [
       "African",
       "Caribbean"
     ],
+    "cuisine": "West African",
     "areaSlug": "katy",
     "city": "Katy",
     "state": "TX",
@@ -386,6 +405,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Suya"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "katy",
     "city": "Katy",
     "state": "TX",
@@ -405,6 +425,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "katy",
     "city": "Katy",
     "state": "TX",
@@ -424,6 +445,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "Nigerian"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "katy",
     "city": "Katy",
     "state": "TX",
@@ -443,6 +465,7 @@ export const RESTAURANTS: Restaurant[] = [
       "African",
       "Suya"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "katy",
     "city": "Katy",
     "state": "TX",
@@ -463,6 +486,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Nigerian"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -481,6 +505,7 @@ export const RESTAURANTS: Restaurant[] = [
       "South African",
       "Peri-Peri"
     ],
+    "cuisine": "West African",
     "areaSlug": "sugar-land",
     "city": "Sugar Land",
     "state": "TX",
@@ -501,6 +526,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Nigerian"
     ],
+    "cuisine": "West African",
     "areaSlug": "sugar-land",
     "city": "Sugar Land",
     "state": "TX",
@@ -521,6 +547,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "sugar-land",
     "city": "Sugar Land",
     "state": "TX",
@@ -541,6 +568,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "sugar-land",
     "city": "Sugar Land",
     "state": "TX",
@@ -560,6 +588,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "sugar-land",
     "city": "Sugar Land",
     "state": "TX",
@@ -580,6 +609,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Nigerian"
     ],
+    "cuisine": "West African",
     "areaSlug": "sugar-land",
     "city": "Sugar Land",
     "state": "TX",
@@ -599,6 +629,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Ghanaian"
     ],
+    "cuisine": "West African",
     "areaSlug": "sugar-land",
     "city": "Richmond",
     "state": "TX",
@@ -619,6 +650,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "West African"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "houston",
     "city": "Richmond",
     "state": "TX",
@@ -638,6 +670,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "sugar-land",
     "city": "Richmond",
     "state": "TX",
@@ -655,6 +688,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "sugar-land",
     "city": "Rosenberg",
     "state": "TX",
@@ -672,6 +706,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Texas City",
     "state": "TX",
@@ -690,6 +725,7 @@ export const RESTAURANTS: Restaurant[] = [
       "African",
       "Soul Food"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Texas City",
     "state": "TX",
@@ -708,6 +744,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African Market"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Beaumont",
     "state": "TX",
@@ -726,6 +763,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -744,6 +782,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -768,6 +807,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Suya",
       "Jollof"
     ],
+    "cuisine": "West African",
     "areaSlug": "el-paso",
     "city": "El Paso",
     "state": "TX",
@@ -789,6 +829,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "el-paso",
     "city": "El Paso",
     "state": "TX",
@@ -808,6 +849,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "el-paso",
     "city": "El Paso",
     "state": "TX",
@@ -828,6 +870,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "Bar"
     ],
+    "cuisine": "West African",
     "areaSlug": "west-texas",
     "city": "Lubbock",
     "state": "TX",
@@ -848,6 +891,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "west-texas",
     "city": "Abilene",
     "state": "TX",
@@ -865,6 +909,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "south-texas",
     "city": "McAllen",
     "state": "TX",
@@ -885,6 +930,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Caribbean",
       "Market"
     ],
+    "cuisine": "West African",
     "areaSlug": "south-texas",
     "city": "McAllen",
     "state": "TX",
@@ -904,6 +950,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Somali",
       "East African"
     ],
+    "cuisine": "West African",
     "areaSlug": "west-texas",
     "city": "Amarillo",
     "state": "TX",
@@ -924,6 +971,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Nigerian"
     ],
+    "cuisine": "West African",
     "areaSlug": "west-texas",
     "city": "Amarillo",
     "state": "TX",
@@ -945,6 +993,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Somali",
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "west-texas",
     "city": "Amarillo",
     "state": "TX",
@@ -966,6 +1015,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Ethiopian",
       "Market"
     ],
+    "cuisine": "Ethiopian",
     "areaSlug": "west-texas",
     "city": "Amarillo",
     "state": "TX",
@@ -984,6 +1034,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "west-texas",
     "city": "Amarillo",
     "state": "TX",
@@ -1003,6 +1054,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Senegalese",
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -1022,6 +1074,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -1039,6 +1092,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -1057,6 +1111,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -1075,6 +1130,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -1093,6 +1149,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -1111,6 +1168,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -1129,6 +1187,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Suya"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -1149,6 +1208,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -1168,6 +1228,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Nigerian"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -1187,6 +1248,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Spring",
     "state": "TX",
@@ -1207,6 +1269,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -1226,6 +1289,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "Ethiopian"
     ],
+    "cuisine": "Ethiopian",
     "areaSlug": "dfw",
     "city": "Dallas",
     "state": "TX",
@@ -1244,6 +1308,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "Ethiopian"
     ],
+    "cuisine": "Ethiopian",
     "areaSlug": "dfw",
     "city": "Dallas",
     "state": "TX",
@@ -1262,6 +1327,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "Ethiopian"
     ],
+    "cuisine": "Ethiopian",
     "areaSlug": "dfw",
     "city": "Richardson",
     "state": "TX",
@@ -1280,6 +1346,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Plano",
     "state": "TX",
@@ -1298,6 +1365,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Nigerian"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Allen",
     "state": "TX",
@@ -1317,6 +1385,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Euless",
     "state": "TX",
@@ -1336,6 +1405,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "Suya"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "dfw",
     "city": "McKinney",
     "state": "TX",
@@ -1356,6 +1426,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "Suya"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -1376,6 +1447,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "Suya"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "dfw",
     "city": "Grand Prairie",
     "state": "TX",
@@ -1396,6 +1468,7 @@ export const RESTAURANTS: Restaurant[] = [
       "African",
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Fort Worth",
     "state": "TX",
@@ -1414,6 +1487,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Fort Worth",
     "state": "TX",
@@ -1431,6 +1505,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Fort Worth",
     "state": "TX",
@@ -1448,6 +1523,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Fort Worth",
     "state": "TX",
@@ -1465,6 +1541,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Fort Worth",
     "state": "TX",
@@ -1483,6 +1560,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Haltom City",
     "state": "TX",
@@ -1501,6 +1579,7 @@ export const RESTAURANTS: Restaurant[] = [
       "African",
       "BBQ"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Richland Hills",
     "state": "TX",
@@ -1520,6 +1599,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "Suya"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "dfw",
     "city": "Euless",
     "state": "TX",
@@ -1539,6 +1619,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Irving",
     "state": "TX",
@@ -1558,6 +1639,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Nigerian"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Irving",
     "state": "TX",
@@ -1577,6 +1659,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Arlington",
     "state": "TX",
@@ -1595,6 +1678,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Nigerian"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "dfw",
     "city": "Arlington",
     "state": "TX",
@@ -1614,6 +1698,7 @@ export const RESTAURANTS: Restaurant[] = [
       "African",
       "Suya"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "dfw",
     "city": "Arlington",
     "state": "TX",
@@ -1633,6 +1718,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Arlington",
     "state": "TX",
@@ -1651,6 +1737,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Grand Prairie",
     "state": "TX",
@@ -1668,6 +1755,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "dfw",
     "city": "Lewisville",
     "state": "TX",
@@ -1687,6 +1775,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "austin",
     "city": "Pflugerville",
     "state": "TX",
@@ -1706,6 +1795,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "South African"
     ],
+    "cuisine": "West African",
     "areaSlug": "austin",
     "city": "Austin",
     "state": "TX",
@@ -1725,6 +1815,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Nigerian"
     ],
+    "cuisine": "West African",
     "areaSlug": "san-antonio",
     "city": "San Antonio",
     "state": "TX",
@@ -1745,6 +1836,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "African"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "austin",
     "city": "Austin",
     "state": "TX",
@@ -1765,6 +1857,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "African Market"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "austin",
     "city": "Austin",
     "state": "TX",
@@ -1783,6 +1876,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Ethiopian",
       "Eritrean"
     ],
+    "cuisine": "Ethiopian",
     "areaSlug": "austin",
     "city": "Austin",
     "state": "TX",
@@ -1802,6 +1896,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Ethiopian",
       "Eritrean"
     ],
+    "cuisine": "Ethiopian",
     "areaSlug": "san-antonio",
     "city": "San Antonio",
     "state": "TX",
@@ -1822,6 +1917,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Ethiopian",
       "East African"
     ],
+    "cuisine": "Ethiopian",
     "areaSlug": "san-antonio",
     "city": "San Antonio",
     "state": "TX",
@@ -1842,6 +1938,7 @@ export const RESTAURANTS: Restaurant[] = [
       "African Market",
       "Kitchen"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -1861,6 +1958,7 @@ export const RESTAURANTS: Restaurant[] = [
       "African Market",
       "Grocery"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -1880,6 +1978,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "Ethiopian"
     ],
+    "cuisine": "Ethiopian",
     "areaSlug": "dfw",
     "city": "Dallas",
     "state": "TX",
@@ -1898,6 +1997,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "Ethiopian"
     ],
+    "cuisine": "Ethiopian",
     "areaSlug": "dfw",
     "city": "Dallas",
     "state": "TX",
@@ -1915,6 +2015,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "san-antonio",
     "city": "San Antonio",
     "state": "TX",
@@ -1934,6 +2035,7 @@ export const RESTAURANTS: Restaurant[] = [
       "African",
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Mansfield",
     "state": "TX",
@@ -1955,6 +2057,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Jamaican",
       "Caribbean"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "McKinney",
     "state": "TX",
@@ -1975,6 +2078,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "central-texas",
     "city": "Killeen",
     "state": "TX",
@@ -1993,6 +2097,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "san-antonio",
     "city": "San Antonio",
     "state": "TX",
@@ -2011,6 +2116,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2030,6 +2136,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "African"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "austin",
     "city": "Leander",
     "state": "TX",
@@ -2050,6 +2157,7 @@ export const RESTAURANTS: Restaurant[] = [
       "African Market",
       "Grocery"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "McKinney",
     "state": "TX",
@@ -2070,6 +2178,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Suya",
       "Nigerian"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "houston",
     "city": "Missouri City",
     "state": "TX",
@@ -2091,6 +2200,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "Suya"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "houston",
     "city": "Pearland",
     "state": "TX",
@@ -2110,6 +2220,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Pearland",
     "state": "TX",
@@ -2127,6 +2238,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2146,6 +2258,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2163,6 +2276,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2180,6 +2294,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2197,6 +2312,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2215,6 +2331,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Steakhouse"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2234,6 +2351,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Grill"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2253,6 +2371,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Suya"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2271,6 +2390,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2288,6 +2408,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2308,6 +2429,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2325,6 +2447,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2342,6 +2465,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2360,6 +2484,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Desserts"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2380,6 +2505,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Suya",
       "Seafood"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "sugar-land",
     "city": "Richmond",
     "state": "TX",
@@ -2399,6 +2525,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2419,6 +2546,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "Fusion"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2437,6 +2565,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2455,6 +2584,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Grill"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2473,6 +2603,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2490,6 +2621,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2507,6 +2639,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2524,6 +2657,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2542,6 +2676,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2560,6 +2695,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2578,6 +2714,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Seafood"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2596,6 +2733,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "Ethiopian"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2614,6 +2752,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2631,6 +2770,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "Ethiopian"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2649,6 +2789,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2667,6 +2808,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Hot Pot"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2686,6 +2828,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Fusion"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2708,6 +2851,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Suya"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2727,6 +2871,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "West African"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "dfw",
     "city": "Richardson",
     "state": "TX",
@@ -2746,6 +2891,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Frisco",
     "state": "TX",
@@ -2764,6 +2910,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "austin",
     "city": "Austin",
     "state": "TX",
@@ -2782,6 +2929,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "McKinney",
     "state": "TX",
@@ -2800,6 +2948,7 @@ export const RESTAURANTS: Restaurant[] = [
       "African Market",
       "Grocery"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Arlington",
     "state": "TX",
@@ -2820,6 +2969,7 @@ export const RESTAURANTS: Restaurant[] = [
       "African Market",
       "Grocery"
     ],
+    "cuisine": "West African",
     "areaSlug": "austin",
     "city": "Austin",
     "state": "TX",
@@ -2840,6 +2990,7 @@ export const RESTAURANTS: Restaurant[] = [
       "African Market",
       "Grocery"
     ],
+    "cuisine": "West African",
     "areaSlug": "san-antonio",
     "city": "San Antonio",
     "state": "TX",
@@ -2860,6 +3011,7 @@ export const RESTAURANTS: Restaurant[] = [
       "African Market",
       "Grocery"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2879,6 +3031,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "Ethiopian"
     ],
+    "cuisine": "West African",
     "areaSlug": "austin",
     "city": "Austin",
     "state": "TX",
@@ -2897,6 +3050,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "African"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Dallas",
     "state": "TX",
@@ -2916,6 +3070,7 @@ export const RESTAURANTS: Restaurant[] = [
       "African Market",
       "Grocery"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Dallas",
     "state": "TX",
@@ -2935,6 +3090,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "Ethiopian"
     ],
+    "cuisine": "Ethiopian",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2953,6 +3109,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "Nigerian"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2970,6 +3127,7 @@ export const RESTAURANTS: Restaurant[] = [
       "South African",
       "Peri-Peri"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -2990,6 +3148,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "West African"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Frisco",
     "state": "TX",
@@ -3010,6 +3169,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Kitchen",
       "Grocery"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -3030,6 +3190,7 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Shawarma"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -3052,6 +3213,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Kitchen",
       "Grocery"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -3073,6 +3235,7 @@ export const RESTAURANTS: Restaurant[] = [
       "South African",
       "Peri-Peri"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -3093,6 +3256,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Afro-Creole",
       "Creole"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -3110,6 +3274,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "Nigerian"
     ],
+    "cuisine": "West African",
     "areaSlug": "central-texas",
     "city": "Austin",
     "state": "TX",
@@ -3127,6 +3292,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "Nigerian"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "central-texas",
     "city": "Pflugerville",
     "state": "TX",
@@ -3145,6 +3311,7 @@ export const RESTAURANTS: Restaurant[] = [
       "African Coffee",
       "Coffee"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -3163,6 +3330,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "Suya"
     ],
+    "cuisine": "Nigerian",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -3180,6 +3348,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "Nigerian"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -3197,6 +3366,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "Nigerian"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "McKinney",
     "state": "TX",
@@ -3214,6 +3384,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "Nigerian"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Frisco",
     "state": "TX",
@@ -3231,6 +3402,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "Nigerian"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -3248,6 +3420,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "Nigerian"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Garland",
     "state": "TX",
@@ -3265,6 +3438,7 @@ export const RESTAURANTS: Restaurant[] = [
     "cuisines": [
       "Nigerian"
     ],
+    "cuisine": "West African",
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -3283,6 +3457,7 @@ export const RESTAURANTS: Restaurant[] = [
       "African Market",
       "Grocery"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Frisco",
     "state": "TX",
@@ -3303,6 +3478,7 @@ export const RESTAURANTS: Restaurant[] = [
       "African Market",
       "Grocery"
     ],
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Garland",
     "state": "TX",

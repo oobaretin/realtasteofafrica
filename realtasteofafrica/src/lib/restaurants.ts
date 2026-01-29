@@ -4,6 +4,8 @@ export type Restaurant = {
   slug: string
   name: string
   cuisines: string[]
+  /** Primary cuisine tag derived from name (Nigerian, Ethiopian, Ghanaian, West African). */
+  cuisine?: string
   areaSlug: string
   city: string
   state: string

@@ -13,6 +13,7 @@ const OUTPUT = path.resolve(ROOT, "data", "restaurants.csv")
 const HEADERS = [
   "name",
   "cuisines",
+  "cuisine",
   "areaSlug",
   "city",
   "state",

@@ -22,24 +22,27 @@ export function RestaurantsBrowser({
   restaurants,
   areas,
   cuisineTags,
+  initialCuisine = "",
 }: {
   restaurants: Restaurant[]
   areas: Area[]
   cuisineTags: string[]
+  initialCuisine?: string
 }) {
   const [query, setQuery] = useState("")
   const [areaSlug, setAreaSlug] = useState<string>("")
-  const [cuisine, setCuisine] = useState<string>("")
+  const [cuisine, setCuisine] = useState<string>(initialCuisine)
   const [category, setCategory] = useState<string>("All")
 
   const filterBarValues = useMemo(
-    () => ({ category, region: areaSlug }),
-    [category, areaSlug]
+    () => ({ category, region: areaSlug, cuisine }),
+    [category, areaSlug, cuisine]
   )
 
-  const handleFilterChange = (key: "category" | "region", value: string) => {
+  const handleFilterChange = (key: "category" | "region" | "cuisine", value: string) => {
     if (key === "category") setCategory(value)
-    else setAreaSlug(value)
+    else if (key === "region") setAreaSlug(value)
+    else setCuisine(value)
   }
 
   const areaBySlug = useMemo(() => {
@@ -55,8 +58,12 @@ export function RestaurantsBrowser({
       if (category && category !== "All") {
         if (getEstablishmentCategory(r) !== category) return false
       }
-      if (cuisine && !r.cuisines.some((c) => normalize(c) === normalize(cuisine)))
-        return false
+      if (cuisine) {
+        const matchesCuisine =
+          r.cuisines.some((c) => normalize(c) === normalize(cuisine)) ||
+          (r.cuisine != null && normalize(r.cuisine) === normalize(cuisine))
+        if (!matchesCuisine) return false
+      }
       if (!q) return true
       return (
         includesAny(r.name, [q]) ||
@@ -71,12 +78,13 @@ export function RestaurantsBrowser({
     <div className="grid gap-4">
       <FilterBar
         areas={areas}
+        cuisineTags={cuisineTags}
         values={filterBarValues}
         onFilterChange={handleFilterChange}
       />
 
       <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-        <div className="grid gap-3 md:grid-cols-2">
+        <div className="grid gap-3 md:grid-cols-1">
           <label className="grid gap-2">
             <span className="text-sm font-semibold text-slate-900">Search</span>
             <input
@@ -85,22 +93,6 @@ export function RestaurantsBrowser({
               value={query}
               onChange={(e) => setQuery(e.target.value)}
             />
-          </label>
-
-          <label className="grid gap-2">
-            <span className="text-sm font-semibold text-slate-900">Cuisine</span>
-            <select
-              className="w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900"
-              value={cuisine}
-              onChange={(e) => setCuisine(e.target.value)}
-            >
-              <option value="">All cuisines</option>
-              {cuisineTags.map((t) => (
-                <option key={t} value={t}>
-                  {t}
-                </option>
-              ))}
-            </select>
           </label>
         </div>
 

@@ -7,8 +7,14 @@ export const metadata = {
   title: "Browse restaurants",
 }
 
-export default function RestaurantsPage() {
+type RestaurantsPageProps = {
+  searchParams: Promise<{ cuisine?: string }>
+}
+
+export default async function RestaurantsPage({ searchParams }: RestaurantsPageProps) {
   const cuisines = getAllCuisineTags()
+  const params = await searchParams
+  const initialCuisine = params.cuisine?.trim() ?? ""
 
   return (
     <WpPageShell
@@ -19,7 +25,12 @@ export default function RestaurantsPage() {
         { href: "/restaurants", label: "Restaurants" },
       ]}
     >
-      <RestaurantsBrowser restaurants={RESTAURANTS} areas={AREAS} cuisineTags={cuisines} />
+      <RestaurantsBrowser
+        restaurants={RESTAURANTS}
+        areas={AREAS}
+        cuisineTags={cuisines}
+        initialCuisine={initialCuisine}
+      />
     </WpPageShell>
   )
 }

@@ -11,6 +11,16 @@ export const ESTABLISHMENT_CATEGORIES = [
 
 export type EstablishmentCategory = (typeof ESTABLISHMENT_CATEGORIES)[number]
 
+/** Options for the Type filter: value (used in filtering) and label (shown in UI). */
+export const FILTER_TYPE_OPTIONS: { value: EstablishmentCategory; label: string }[] = [
+  { value: "All", label: "All" },
+  { value: "Restaurant", label: "Restaurant" },
+  { value: "Food Truck", label: "Truck" },
+  { value: "Ghost Kitchen", label: "Ghost Kitchen" },
+  { value: "Market", label: "Market" },
+  { value: "Market + Kitchen", label: "Market + Kitchen" },
+]
+
 function highlightsInclude(highlights: string[], needle: string): boolean {
   const lower = needle.toLowerCase()
   return highlights.some((h) => h.toLowerCase().includes(lower))

@@ -152,10 +152,13 @@ function toRestaurantRecord(row, idx) {
     ? categoryRaw
     : undefined
 
+  const cuisine = asOptionalString(row.cuisine)
+
   return {
     slug,
     name,
     cuisines,
+    cuisine,
     areaSlug: String(row.areaSlug).trim(),
     city,
     state,
