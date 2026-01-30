@@ -6,6 +6,10 @@ export type Restaurant = {
   cuisines: string[]
   /** Primary cuisine tag derived from name (Nigerian, Ethiopian, Ghanaian, West African). */
   cuisine?: string
+  /** When true, show in homepage Featured / Curated Picks. */
+  isFeatured?: boolean
+  /** When true, owner has claimed and verified; show Real Taste Verified badge. */
+  isVerified?: boolean
   areaSlug: string
   city: string
   state: string
@@ -52,5 +56,9 @@ export function getAllCuisineTags(): string[] {
   const set = new Set<string>()
   for (const r of RESTAURANTS) for (const c of r.cuisines) set.add(c)
   return Array.from(set).sort((a, b) => a.localeCompare(b))
+}
+
+export function getFeaturedRestaurants(): Restaurant[] {
+  return RESTAURANTS.filter((r) => r.isFeatured === true)
 }
 

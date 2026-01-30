@@ -1,9 +1,11 @@
 import Link from "next/link"
 
 import { Badge } from "@/components/Badge"
+import { CoverageMap } from "@/components/CoverageMap"
+import { RestaurantCard } from "@/components/RestaurantCard"
 import { AREAS } from "@/lib/areas"
 import { CUISINE_TAGS } from "@/lib/cuisines"
-import { RESTAURANTS } from "@/lib/restaurants"
+import { getFeaturedRestaurants, RESTAURANTS } from "@/lib/restaurants"
 
 function toTelHref(phone: string) {
   const digits = phone.replace(/[^\d+]/g, "")
@@ -21,7 +23,19 @@ function scoreRestaurant(r: (typeof RESTAURANTS)[number]) {
   return score
 }
 
+const FEATURED_ORDER = [
+  "chopnblok-montrose-houston-tx",
+  "red-sea-kitchen-ethiopian-food-truck-austin-tx",
+  "wazobia-african-market-and-kitchen-houston-tx",
+  "aria-suya-kitchen-houston-tx",
+]
+
 export default function HomePage() {
+  const featured = getFeaturedRestaurants().sort(
+    (a, b) => FEATURED_ORDER.indexOf(a.slug) - FEATURED_ORDER.indexOf(b.slug)
+  )
+  const featuredThree = featured.slice(0, 3)
+
   const top = [...RESTAURANTS]
     .sort((a, b) => scoreRestaurant(b) - scoreRestaurant(a))
     .slice(0, 3)
@@ -63,6 +77,34 @@ export default function HomePage() {
             </Link>
           </div>
         </div>
+      </section>
+
+      <section className="grid gap-4">
+        <div className="flex items-end justify-between gap-4">
+          <div>
+            <h2 className="text-xl font-semibold tracking-tight md:text-2xl">
+              The Best of the Lone Star State
+            </h2>
+            <p className="mt-1 text-sm text-slate-600 md:text-base">
+              From the 180+ spots we track, here are our current favorites for
+              authentic flavor, community vibe, and incredible spice.
+            </p>
+          </div>
+          <Link
+            className="text-sm font-medium text-amber-700 hover:text-amber-800"
+            href="/restaurants"
+          >
+            See all →
+          </Link>
+        </div>
+
+        <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {featuredThree.map((r) => (
+            <li key={r.slug}>
+              <RestaurantCard restaurant={r} variant="featured" />
+            </li>
+          ))}
+        </ul>
       </section>
 
       <section className="grid gap-4">
@@ -204,6 +246,18 @@ export default function HomePage() {
             ))}
           </ul>
         </div>
+      </section>
+
+      <section className="grid gap-4">
+        <div>
+          <h2 className="text-xl font-semibold tracking-tight">
+            Coverage Map
+          </h2>
+          <p className="mt-1 text-sm text-slate-600">
+            180+ locations verified across Texas — from Houston to El Paso.
+          </p>
+        </div>
+        <CoverageMap />
       </section>
     </div>
   )

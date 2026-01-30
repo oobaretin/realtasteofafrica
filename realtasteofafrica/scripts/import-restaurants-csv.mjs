@@ -153,12 +153,20 @@ function toRestaurantRecord(row, idx) {
     : undefined
 
   const cuisine = asOptionalString(row.cuisine)
+  const isFeatured =
+    String(row.isFeatured ?? "").toLowerCase() === "true" ||
+    String(row.isFeatured ?? "").trim() === "1"
+  const isVerified =
+    String(row.isVerified ?? "").toLowerCase() === "true" ||
+    String(row.isVerified ?? "").trim() === "1"
 
   return {
     slug,
     name,
     cuisines,
     cuisine,
+    isFeatured: isFeatured || undefined,
+    isVerified: isVerified || undefined,
     areaSlug: String(row.areaSlug).trim(),
     city,
     state,

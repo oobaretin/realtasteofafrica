@@ -14,6 +14,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Modern Nigerian"
     ],
     "cuisine": "Nigerian",
+    "isFeatured": true,
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -34,6 +35,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian"
     ],
     "cuisine": "Nigerian",
+    "isFeatured": true,
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
@@ -1877,6 +1879,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Eritrean"
     ],
     "cuisine": "Ethiopian",
+    "isFeatured": true,
     "areaSlug": "austin",
     "city": "Austin",
     "state": "TX",
@@ -1939,6 +1942,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Kitchen"
     ],
     "cuisine": "West African",
+    "isFeatured": true,
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",

@@ -45,11 +45,21 @@ function toMailtoHref(state: FormState) {
   return `mailto:${CONTACT_EMAIL}?subject=${subject}&body=${body}`
 }
 
-export function ClaimListingForm() {
+export type ClaimListingFormInitialValues = {
+  restaurantName?: string
+  city?: string
+  listingUrl?: string
+}
+
+export function ClaimListingForm({
+  initialValues,
+}: {
+  initialValues?: ClaimListingFormInitialValues
+} = {}) {
   const [state, setState] = useState<FormState>({
-    restaurantName: "",
-    city: "",
-    listingUrl: "",
+    restaurantName: initialValues?.restaurantName ?? "",
+    city: initialValues?.city ?? "",
+    listingUrl: initialValues?.listingUrl ?? "",
     contactName: "",
     contactEmail: "",
     contactPhone: "",

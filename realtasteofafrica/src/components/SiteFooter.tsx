@@ -46,10 +46,10 @@ export function SiteFooter() {
               Submit a restaurant
             </Link>
             <Link className="text-slate-600 hover:text-slate-900" href="/claim">
-              Claim &amp; verify listing (${CLAIM_VERIFY_PRICE_USD})
+              Claim your listing
             </Link>
             <p className="pt-1 text-xs text-slate-500">
-              Claiming is a one-time verification to keep your details accurate.
+              One-time verification (${CLAIM_VERIFY_PRICE_USD}) — get your Real Taste Verified badge.
             </p>
           </div>
 

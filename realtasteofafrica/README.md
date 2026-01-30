@@ -19,6 +19,14 @@ npm run dev
 
 Then open `http://localhost:3000`.
 
+## Environment variables
+
+Copy `.env.example` to `.env.local` and fill in values. For the **Claim listing** flow (PayPal):
+
+- `NEXT_PUBLIC_PAYPAL_CLIENT_ID` — from [PayPal Developer Dashboard](https://developer.paypal.com/dashboard/); used by the browser SDK.
+- `PAYPAL_CLIENT_SECRET` — same app; used only on the server to create orders. Never commit this.
+- `PAYPAL_SANDBOX=true` — use sandbox for testing; omit or set to `false` for live payments.
+
 ## Project structure
 
 - `src/app/`: routes (Home, Browse, Area pages, Restaurant detail, Submit, Contact)

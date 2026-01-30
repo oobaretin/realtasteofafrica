@@ -2,6 +2,7 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 
 import { Badge } from "@/components/Badge"
+import { VerifiedBadge } from "@/components/VerifiedBadge"
 import { WpPageShell } from "@/components/WpPageShell"
 import { getAreaBySlug } from "@/lib/areas"
 import { getRestaurantBySlug } from "@/lib/restaurants"
@@ -52,6 +53,7 @@ export default async function RestaurantDetailPage({
     >
       <div className="grid gap-6">
         <div className="flex flex-wrap items-center gap-2">
+          {r.isVerified ? <VerifiedBadge className="shrink-0" /> : null}
           <Badge>Restaurant</Badge>
           <Badge>
             {r.city}, {r.state}

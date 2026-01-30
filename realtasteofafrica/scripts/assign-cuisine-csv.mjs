@@ -27,6 +27,8 @@ const HEADERS = [
   "category",
   "writeUp",
   "slug",
+  "isFeatured",
+  "isVerified",
 ]
 
 function escapeCsvField(value) {
