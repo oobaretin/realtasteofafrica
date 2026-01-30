@@ -26,6 +26,10 @@ export type Restaurant = {
   /** Date this listing was last verified (e.g. "2026-01-15"); when in 2026, card shows "Verified 2026". */
   lastAuditDate?: string
   writeUp?: string
+  /** Hours by day, e.g. { Monday: "11:00 AM - 10:00 PM", Tuesday: "Closed", ... }. When missing, UI shows "Hours not verified - Call to confirm." */
+  hours?: { [key: string]: string }
+  /** Featured image URL for hero and og:image when shared. */
+  imageUrl?: string
 }
 
 // Data is generated from `data/restaurants.csv` via `npm run import:restaurants`
@@ -34,6 +38,13 @@ export const RESTAURANTS: Restaurant[] = GENERATED_RESTAURANTS
 
 export function getRestaurantBySlug(slug: string): Restaurant | undefined {
   return RESTAURANTS.find((r) => r.slug === slug)
+}
+
+/** Stable 1-based listing number (1–175) for "Verified Listing # X of 175". Order: by slug. */
+export function getListingNumber(slug: string): number {
+  const sorted = [...RESTAURANTS].sort((a, b) => a.slug.localeCompare(b.slug))
+  const idx = sorted.findIndex((r) => r.slug === slug)
+  return idx === -1 ? 0 : idx + 1
 }
 
 export function getRestaurantsByArea(areaSlug: string): Restaurant[] {
@@ -64,5 +75,27 @@ export function getAllCuisineTags(): string[] {
 
 export function getFeaturedRestaurants(): Restaurant[] {
   return RESTAURANTS.filter((r) => r.isFeatured === true)
+}
+
+/** Same city first, then same primary cuisine; excludes slug. */
+export function getSimilarRestaurants(
+  currentSlug: string,
+  city: string,
+  cuisineTag?: string,
+  limit = 4
+): Restaurant[] {
+  const current = getRestaurantBySlug(currentSlug)
+  if (!current) return []
+  const rest = RESTAURANTS.filter((r) => r.slug !== currentSlug)
+  const sameCity = rest.filter((r) => r.city === city)
+  const sameCuisine = cuisineTag
+    ? rest.filter(
+        (r) =>
+          r.cuisines.some((c) => c.toLowerCase() === cuisineTag.toLowerCase()) ||
+          r.cuisine?.toLowerCase() === cuisineTag.toLowerCase()
+      )
+    : []
+  const combined = [...sameCity, ...sameCuisine.filter((r) => !sameCity.includes(r))]
+  return combined.slice(0, limit)
 }
 

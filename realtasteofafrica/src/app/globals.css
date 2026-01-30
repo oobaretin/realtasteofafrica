@@ -6,6 +6,36 @@
   color-scheme: light;
 }
 
+@layer utilities {
+  /* Subtle pulse for "Open Now" badge — less jarring than default animate-pulse */
+  .animate-pulse-subtle {
+    animation: pulse-subtle 2s ease-in-out infinite;
+  }
+  /* Soft fade-in for "Link Copied!" feedback */
+  .animate-fade-in {
+    animation: fade-in 0.25s ease-out;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes pulse-subtle {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.85;
+  }
+}
+
 @layer base {
   body {
     @apply bg-slate-100 text-slate-900 antialiased;

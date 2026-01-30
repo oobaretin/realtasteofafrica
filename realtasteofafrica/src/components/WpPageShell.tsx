@@ -8,11 +8,14 @@ export function WpPageShell({
   description,
   breadcrumbs,
   children,
+  sidebar,
 }: {
   title?: string
   description?: string
   breadcrumbs?: Crumb[]
   children: ReactNode
+  /** When provided, used instead of default WpSidebar (e.g. sidebar + Open Now toggle). */
+  sidebar?: ReactNode
 }) {
   return (
     <div className="grid gap-6">
@@ -32,7 +35,7 @@ export function WpPageShell({
       <div className="grid gap-8 lg:grid-cols-[1fr_320px] lg:items-start">
         <div className="min-w-0">{children}</div>
         <div className="lg:sticky lg:top-24">
-          <WpSidebar />
+          {sidebar ?? <WpSidebar />}
         </div>
       </div>
     </div>

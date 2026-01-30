@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useRef } from "react"
+import { useState, useRef, useEffect } from "react"
 import { CONTACT_EMAIL } from "@/lib/site"
 
 const ISSUE_OPTIONS = [
@@ -41,15 +41,28 @@ function FloatingLabel({
   )
 }
 
-export function ContactFormUnified() {
+export function ContactFormUnified({
+  initialRestaurantName = "",
+}: {
+  initialRestaurantName?: string
+}) {
   const [issue, setIssue] = useState("")
+  const [restaurantName, setRestaurantName] = useState(initialRestaurantName)
+  useEffect(() => {
+    setRestaurantName(initialRestaurantName)
+  }, [initialRestaurantName])
   const [message, setMessage] = useState("")
   const [messageFocused, setMessageFocused] = useState(false)
+  const [restaurantFocused, setRestaurantFocused] = useState(false)
   const [showThankYou, setShowThankYou] = useState(false)
   const mailtoRef = useRef<HTMLAnchorElement>(null)
 
   const subject = issue ? `${issue} – Real Taste of Africa` : "Directory inquiry – Real Taste of Africa"
-  const body = message.trim() || "(No message provided)"
+  const bodyParts = [
+    restaurantName.trim() ? `Restaurant: ${restaurantName.trim()}` : null,
+    message.trim() || "(No message provided)",
+  ].filter(Boolean)
+  const body = bodyParts.join("\n\n")
   const mailtoHref = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
 
   const handleSubmit = (e: React.MouseEvent) => {
@@ -100,6 +113,26 @@ export function ContactFormUnified() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
             </span>
+          </div>
+
+          <div className="relative">
+            <FloatingLabel
+              id="contact-restaurant"
+              label="Restaurant name (if reporting a specific listing)"
+              value={restaurantName}
+              focused={restaurantFocused}
+            >
+              <input
+                type="text"
+                id="contact-restaurant"
+                value={restaurantName}
+                onChange={(e) => setRestaurantName(e.target.value)}
+                onFocus={() => setRestaurantFocused(true)}
+                onBlur={() => setRestaurantFocused(false)}
+                className="block w-full rounded-xl border border-slate-200 bg-slate-50/50 py-3.5 pt-6 pl-3 pr-3 text-sm text-slate-900 outline-none transition focus:border-amber-500 focus:bg-white focus:ring-2 focus:ring-amber-500/20"
+                placeholder=" "
+              />
+            </FloatingLabel>
           </div>
 
           <div className="relative">
