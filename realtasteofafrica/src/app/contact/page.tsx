@@ -1,20 +1,19 @@
 import Link from "next/link"
 
 import { WpPageShell } from "@/components/WpPageShell"
-import { ContactForm } from "@/components/ContactForm"
-import { ReportForm } from "@/components/ReportForm"
+import { ContactFormUnified } from "@/components/ContactFormUnified"
 
 export const metadata = {
   title: "Contact",
   description:
-    "Data Integrity Hub: add a restaurant, claim your listing, or report an issue. Keep the Texas directory accurate.",
+    "Help us maintain the standard. Report closures, corrections, or claim your business. Keep the Texas directory accurate.",
 }
 
 export default function ContactPage() {
   return (
     <WpPageShell
-      title="Data Integrity Hub"
-      description="Keep the Texas directory accurate. Add spots, claim your business, or report closures and errors below."
+      title="Help Us Maintain the Standard."
+      description="Report closures, corrections, or claim your listing. Your input keeps the Texas African food scene accurate."
       breadcrumbs={[
         { href: "/", label: "Home" },
         { href: "/contact", label: "Contact" },
@@ -59,15 +58,13 @@ export default function ContactPage() {
               Report an Issue
             </h2>
             <p className="mt-1 text-sm text-slate-600">
-              Closed business, duplicate, wrong address, or broken contact info.
+              Closure, correction, or wrong info. We audit within 24 hours.
             </p>
             <span className="mt-3 text-sm font-medium text-amber-700">Report below →</span>
           </a>
         </div>
 
-        <ReportForm />
-
-        <ContactForm />
+        <ContactFormUnified />
       </div>
     </WpPageShell>
   )

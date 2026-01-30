@@ -3,6 +3,15 @@ import Link from "next/link"
 
 import { CLAIM_VERIFY_PRICE_USD, CONTACT_EMAIL } from "@/lib/site"
 
+const TEXAS_COVERAGE = [
+  { label: "Houston", areaSlug: "houston" },
+  { label: "Dallas", areaSlug: "dfw" },
+  { label: "Austin", areaSlug: "austin" },
+  { label: "San Antonio", areaSlug: "san-antonio" },
+  { label: "West Texas", areaSlug: "west-texas" },
+  { label: "RGV", areaSlug: "south-texas" },
+] as const
+
 export function SiteFooter() {
   return (
     <footer className="border-t border-slate-200 bg-white">
@@ -22,21 +31,26 @@ export function SiteFooter() {
               </div>
             </Link>
             <p className="text-sm text-slate-600">
-              African restaurant directory — starting in Houston-area and
-              expanding nationwide.
+              The largest verified directory of African cuisine in the Lone Star State.
             </p>
           </div>
 
           <div className="grid gap-2 text-sm">
-            <div className="font-semibold text-slate-900">Explore</div>
+            <div className="font-semibold text-slate-900">Texas Coverage</div>
+            <div className="flex flex-wrap gap-x-3 gap-y-1 text-slate-600">
+              {TEXAS_COVERAGE.map(({ label, areaSlug }, i) => (
+                <span key={areaSlug}>
+                  <Link className="hover:text-slate-900" href={`/restaurants?area=${areaSlug}`}>
+                    {label}
+                  </Link>
+                  {i < TEXAS_COVERAGE.length - 1 ? (
+                    <span className="text-slate-300" aria-hidden> | </span>
+                  ) : null}
+                </span>
+              ))}
+            </div>
             <Link className="text-slate-600 hover:text-slate-900" href="/restaurants">
-              Browse restaurants
-            </Link>
-            <Link className="text-slate-600 hover:text-slate-900" href="/areas/houston">
-              Houston area
-            </Link>
-            <Link className="text-slate-600 hover:text-slate-900" href="/contact">
-              Contact
+              Browse all
             </Link>
           </div>
 
@@ -54,7 +68,10 @@ export function SiteFooter() {
           </div>
 
           <div className="grid gap-2 text-sm">
-            <div className="font-semibold text-slate-900">Email</div>
+            <div className="font-semibold text-slate-900">Contact</div>
+            <Link className="text-slate-600 hover:text-slate-900" href="/contact">
+              Contact
+            </Link>
             <a
               className="text-slate-600 hover:text-slate-900"
               href={`mailto:${CONTACT_EMAIL}`}
@@ -62,7 +79,7 @@ export function SiteFooter() {
               {CONTACT_EMAIL}
             </a>
             <p className="pt-1 text-xs text-slate-500">
-              Send corrections, new listings, or claim requests.
+              Corrections, new listings, or claim requests.
             </p>
           </div>
         </div>
@@ -72,11 +89,10 @@ export function SiteFooter() {
             © {new Date().getFullYear()} Real Taste of Africa. All rights reserved.
           </div>
           <div className="text-slate-500">
-            Directory • Houston-first • Expanding nationwide
+            The largest verified directory of African cuisine in the Lone Star State.
           </div>
         </div>
       </div>
     </footer>
   )
 }
-
