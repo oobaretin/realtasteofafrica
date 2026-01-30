@@ -23,14 +23,16 @@ export function RestaurantsBrowser({
   areas,
   cuisineTags,
   initialCuisine = "",
+  initialArea = "",
 }: {
   restaurants: Restaurant[]
   areas: Area[]
   cuisineTags: string[]
   initialCuisine?: string
+  initialArea?: string
 }) {
   const [query, setQuery] = useState("")
-  const [areaSlug, setAreaSlug] = useState<string>("")
+  const [areaSlug, setAreaSlug] = useState<string>(initialArea)
   const [cuisine, setCuisine] = useState<string>(initialCuisine)
   const [category, setCategory] = useState<string>("All")
 

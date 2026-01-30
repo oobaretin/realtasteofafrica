@@ -1,21 +1,26 @@
 /**
- * Simple Texas outline with glowing city dots and 180+ counter.
- * Cities: Houston, Dallas, Austin, San Antonio, El Paso, Amarillo.
+ * Texas outline with hotspot markers; clickable regions link to Browse with area pre-filtered.
+ * Pins use deep orange/gold for "Taste of Africa" brand.
  */
 
-// Approximate positions for cities on a 200×240 Texas viewBox (lon -106.5 to -93.5, lat 25.8 to 36.5)
-const CITY_POINTS = [
-  { cx: 171, cy: 151, label: "Houston" },
-  { cx: 149, cy: 83, label: "Dallas" },
-  { cx: 135, cy: 140, label: "Austin" },
-  { cx: 123, cy: 159, label: "San Antonio" },
-  { cx: 0, cy: 106, label: "El Paso" },
-  { cx: 72, cy: 29, label: "Amarillo" },
+
+// Hotspot: label, position, areaSlug for /restaurants?area=
+const HOTSPOTS = [
+  { cx: 171, cy: 151, label: "Houston", areaSlug: "houston" },
+  { cx: 149, cy: 83, label: "Dallas", areaSlug: "dfw" },
+  { cx: 135, cy: 140, label: "Austin", areaSlug: "austin" },
+  { cx: 123, cy: 159, label: "San Antonio", areaSlug: "san-antonio" },
+  { cx: 0, cy: 106, label: "El Paso", areaSlug: "el-paso" },
+  { cx: 72, cy: 29, label: "West Texas", areaSlug: "west-texas" },
 ] as const
 
 // Simplified Texas outline path (viewBox 0 0 200 240)
 const TEXAS_PATH =
   "M 99 0 L 200 0 L 200 240 L 0 240 L 0 105 L 45 28 L 99 0 Z"
+
+// Deep orange / gold for pins (Taste of Africa accent)
+const PIN_COLOR = "#B45309"
+const PIN_INNER = "#92400E"
 
 export function CoverageMap() {
   return (
@@ -24,7 +29,7 @@ export function CoverageMap() {
       aria-labelledby="coverage-map-heading"
     >
       <h2 id="coverage-map-heading" className="sr-only">
-        Coverage map — 180+ locations across Texas
+        Coverage map — 175+ locations across Texas
       </h2>
       <div className="flex flex-col items-center gap-8 lg:flex-row lg:justify-between lg:gap-12">
         <div className="flex-shrink-0">
@@ -34,7 +39,7 @@ export function CoverageMap() {
             aria-hidden
           >
             <defs>
-              <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+              <filter id="coverage-map-glow" x="-50%" y="-50%" width="200%" height="200%">
                 <feGaussianBlur stdDeviation="2" result="blur" />
                 <feMerge>
                   <feMergeNode in="blur" />
@@ -59,41 +64,57 @@ export function CoverageMap() {
               strokeWidth="1.5"
               className="text-slate-300"
             />
-            {CITY_POINTS.map(({ cx, cy, label }) => (
-              <g key={label}>
-                <circle
-                  cx={cx}
-                  cy={cy}
-                  r="6"
-                  fill="rgb(251, 191, 36)"
-                  filter="url(#glow)"
-                  className="drop-shadow-lg"
-                />
-                <circle
-                  cx={cx}
-                  cy={cy}
-                  r="3"
-                  fill="rgb(245, 158, 11)"
-                  aria-hidden
-                />
+            {HOTSPOTS.map(({ cx, cy, label, areaSlug }) => (
+              <g key={areaSlug}>
+                <a
+                  href={`/restaurants?area=${areaSlug}`}
+                  aria-label={`Browse ${label} area`}
+                  className="cursor-pointer"
+                >
+                  <circle
+                    cx={cx}
+                    cy={cy}
+                    r="8"
+                    fill="transparent"
+                    className="transition-opacity hover:opacity-20"
+                  />
+                  <circle
+                    cx={cx}
+                    cy={cy}
+                    r="6"
+                    fill={PIN_COLOR}
+                    filter="url(#coverage-map-glow)"
+                    className="drop-shadow-lg"
+                  />
+                  <circle
+                    cx={cx}
+                    cy={cy}
+                    r="3"
+                    fill={PIN_INNER}
+                    aria-hidden
+                  />
+                </a>
               </g>
             ))}
           </svg>
         </div>
         <div className="flex flex-col items-center text-center lg:items-end lg:text-right">
           <p
-            className="text-4xl font-bold tabular-nums tracking-tight text-amber-600 md:text-5xl lg:text-6xl"
-            aria-label="180 plus locations verified"
+            className="text-4xl font-bold tabular-nums tracking-tight text-amber-700 md:text-5xl lg:text-6xl"
+            aria-label="175 plus verified locations"
           >
-            180+
+            175+
           </p>
           <p className="mt-1 text-lg font-semibold text-slate-800 md:text-xl">
-            Locations Verified
+            Verified Locations
           </p>
           <p className="mt-2 max-w-sm text-sm text-slate-600">
-            From Houston to El Paso, Dallas to the Valley — we track African
-            restaurants, food trucks, and markets across the Lone Star State.
+            The most accurate and up-to-date directory of African restaurants,
+            trucks, and markets across the Lone Star State.
           </p>
+          <span className="mt-4 inline-block text-xs text-slate-500">
+            Data Integrity · Last Statewide Audit: January 2026
+          </span>
         </div>
       </div>
     </section>

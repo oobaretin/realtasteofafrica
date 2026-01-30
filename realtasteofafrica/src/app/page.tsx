@@ -47,14 +47,14 @@ export default function HomePage() {
         <div className="relative">
           <div className="flex flex-wrap items-center gap-2">
             <Badge>Directory</Badge>
-            <Badge>180+ listings</Badge>
+            <Badge>175+ listings</Badge>
             <Badge>Texas-wide</Badge>
           </div>
           <h1 className="mt-5 text-3xl font-semibold tracking-tight text-white md:text-5xl">
             Real Taste of Africa
           </h1>
           <p className="mt-4 max-w-2xl text-base text-slate-200 md:text-lg">
-            The Definitive Guide to 180+ African Restaurants, Food Trucks, and
+            The Definitive Guide to 175+ African Restaurants, Food Trucks, and
             Markets Across Texas.
           </p>
           <p className="mt-2 max-w-2xl text-sm text-slate-300 md:text-base">
@@ -248,13 +248,13 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="grid gap-4">
+      <section className="grid gap-4 rounded-2xl bg-slate-100 p-6 md:p-8">
         <div>
           <h2 className="text-xl font-semibold tracking-tight">
             Coverage Map
           </h2>
           <p className="mt-1 text-sm text-slate-600">
-            180+ locations verified across Texas — from Houston to El Paso.
+            175+ locations verified across Texas — from Houston to El Paso.
           </p>
         </div>
         <CoverageMap />
