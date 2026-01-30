@@ -1,0 +1,1577 @@
+[
+  {
+    "name": "ChòpnBlọk (Montrose)",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "chopnblok-montrose-houston-tx"
+  },
+  {
+    "name": "Aria Suya Kitchen",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "aria-suya-kitchen-houston-tx"
+  },
+  {
+    "name": "Taste of Nigeria",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "taste-of-nigeria-houston-tx"
+  },
+  {
+    "name": "Sarabell Calabar Restaurant & Buffet",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "sarabell-calabar-restaurant-and-buffet-houston-tx"
+  },
+  {
+    "name": "Afrikiko",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "afrikiko-houston-tx"
+  },
+  {
+    "name": "Finger Licking Restaurant",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "finger-licking-restaurant-houston-tx"
+  },
+  {
+    "name": "Safari",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "safari-houston-tx"
+  },
+  {
+    "name": "Sabo Suya Spot",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "sabo-suya-spot-houston-tx"
+  },
+  {
+    "name": "Suya Hut (Suya Culture)",
+    "city": "Meadows Place",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "suya-hut-suya-culture-meadows-place-tx"
+  },
+  {
+    "name": "Hunan Cafe",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "hunan-cafe-houston-tx"
+  },
+  {
+    "name": "Abula HotPot",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "abula-hotpot-houston-tx"
+  },
+  {
+    "name": "Unique African Cuisine",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "unique-african-cuisine-houston-tx"
+  },
+  {
+    "name": "Omalicha Kitchen",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "omalicha-kitchen-houston-tx"
+  },
+  {
+    "name": "Blue Nile",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "blue-nile-houston-tx"
+  },
+  {
+    "name": "Lucy Ethiopian Restaurant & Lounge",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "lucy-ethiopian-restaurant-and-lounge-houston-tx"
+  },
+  {
+    "name": "Delight’s Ghanaian Cuisine",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "delights-ghanaian-cuisine-houston-tx"
+  },
+  {
+    "name": "Bantu House",
+    "city": "Cypress",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "bantu-house-cypress-tx"
+  },
+  {
+    "name": "Lagos Buka",
+    "city": "Katy",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "lagos-buka-katy-tx"
+  },
+  {
+    "name": "Royal Arm Restaurant African and Caribbean",
+    "city": "Katy",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "royal-arm-restaurant-african-and-caribbean-katy-tx"
+  },
+  {
+    "name": "Kes Spicy 9Ja Suya Spot",
+    "city": "Katy",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "kes-spicy-9ja-suya-spot-katy-tx"
+  },
+  {
+    "name": "Lekki Island Bar & Grill",
+    "city": "Katy",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "lekki-island-bar-and-grill-katy-tx"
+  },
+  {
+    "name": "Ekomi Nigerian Restaurant",
+    "city": "Katy",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "ekomi-nigerian-restaurant-katy-tx"
+  },
+  {
+    "name": "Onyi's Suya",
+    "city": "Katy",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "onyis-suya-katy-tx"
+  },
+  {
+    "name": "Amala Joint",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "amala-joint-houston-tx"
+  },
+  {
+    "name": "The Port of Peri Peri",
+    "city": "Sugar Land",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "the-port-of-peri-peri-sugar-land-tx"
+  },
+  {
+    "name": "Grains and Solids",
+    "city": "Sugar Land",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "grains-and-solids-sugar-land-tx"
+  },
+  {
+    "name": "All Seasons Cafe",
+    "city": "Sugar Land",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "all-seasons-cafe-sugar-land-tx"
+  },
+  {
+    "name": "FEYDUPS KITCHEN",
+    "city": "Sugar Land",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "feydups-kitchen-sugar-land-tx"
+  },
+  {
+    "name": "JollofBeans",
+    "city": "Sugar Land",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "jollofbeans-llc-sugar-land-tx"
+  },
+  {
+    "name": "Amala Manny Foods",
+    "city": "Sugar Land",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "amala-manny-foods-sugar-land-tx"
+  },
+  {
+    "name": "Zongo",
+    "city": "Richmond",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "zongo-richmond-tx"
+  },
+  {
+    "name": "Rodo Nigerian Cuisine",
+    "city": "Richmond",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "rodo-nigerian-cuisine-richmond-tx"
+  },
+  {
+    "name": "Goma's Kitchen",
+    "city": "Richmond",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "gomas-kitchen-richmond-tx"
+  },
+  {
+    "name": "Star Afrik Cuisine",
+    "city": "Rosenberg",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "star-afrik-cuisine-rosenberg-tx"
+  },
+  {
+    "name": "Benmond African food and Catering",
+    "city": "Texas City",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "benmond-african-food-and-catering-texas-city-tx"
+  },
+  {
+    "name": "African Spices & Soul Food",
+    "city": "Texas City",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "african-spices-and-soul-food-texas-city-tx"
+  },
+  {
+    "name": "God Grace African Market",
+    "city": "Beaumont",
+    "type": "Market",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "god-grace-african-market-beaumont-tx"
+  },
+  {
+    "name": "Native Pot",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "native-pot-houston-tx"
+  },
+  {
+    "name": "Chez Michelle",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "chez-michelle-houston-tx"
+  },
+  {
+    "name": "Anointed Cuisine A Taste of Africa",
+    "city": "El Paso",
+    "type": "Market + Kitchen",
+    "status": "active",
+    "verified": false,
+    "region": "West Texas",
+    "slug": "anointed-cuisine-a-taste-of-africa-el-paso-tx"
+  },
+  {
+    "name": "Dhut African Restaurant",
+    "city": "El Paso",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "West Texas",
+    "slug": "dhut-african-restaurant-el-paso-tx"
+  },
+  {
+    "name": "Debizz Kitchen",
+    "city": "El Paso",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "West Texas",
+    "slug": "debizz-kitchen-el-paso-tx"
+  },
+  {
+    "name": "Vizo’s African Bar & Restaurant",
+    "city": "Lubbock",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "West Texas",
+    "slug": "vizos-african-bar-and-restaurant-lubbock-tx"
+  },
+  {
+    "name": "Betty's Kitchen",
+    "city": "Abilene",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "West Texas",
+    "slug": "bettys-kitchen-abilene-tx"
+  },
+  {
+    "name": "Afrospice | Authentic African Food In The RGV",
+    "city": "McAllen",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "South Texas",
+    "slug": "afrospice-authentic-african-food-in-the-rgv-mcallen-tx"
+  },
+  {
+    "name": "JC African & Caribbean Food Store",
+    "city": "McAllen",
+    "type": "Market",
+    "status": "active",
+    "verified": false,
+    "region": "South Texas",
+    "slug": "jc-african-and-caribbean-food-store-mcallen-tx"
+  },
+  {
+    "name": "Somali African Safari Restaurant",
+    "city": "Amarillo",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "West Texas",
+    "slug": "somali-african-safari-restaurant-amarillo-tx"
+  },
+  {
+    "name": "Felicia’s African Food",
+    "city": "Amarillo",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "West Texas",
+    "slug": "felicias-african-food-llc-amarillo-tx"
+  },
+  {
+    "name": "Somali Restaurant Bulsho",
+    "city": "Amarillo",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "West Texas",
+    "slug": "somali-restaurant-bulsho-amarillo-tx"
+  },
+  {
+    "name": "Marhaba Eritrean and Ethiopian Cuisine and Market",
+    "city": "Amarillo",
+    "type": "Market + Kitchen",
+    "status": "active",
+    "verified": false,
+    "region": "West Texas",
+    "slug": "marhaba-eritrean-and-ethiopian-cuisine-and-market-amarillo-tx"
+  },
+  {
+    "name": "AFROO DINING",
+    "city": "Amarillo",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "West Texas",
+    "slug": "afroo-dining-amarillo-tx"
+  },
+  {
+    "name": "Dakar Street Food (Ghost Kitchen)",
+    "city": "Houston",
+    "type": "Ghost Kitchen",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "dakar-street-food-ghost-kitchen-houston-tx"
+  },
+  {
+    "name": "Kofoshi",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "kofoshi-houston-tx"
+  },
+  {
+    "name": "Fabaceae African Cuisine",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "fabaceae-african-cuisine-houston-tx"
+  },
+  {
+    "name": "EJIDE AFRICAN RESTAURANT AND BAR",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "ejide-african-restaurant-and-bar-houston-tx"
+  },
+  {
+    "name": "Authentic African Restaurant & Bar",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "authentic-african-restaurant-and-bar-houston-tx"
+  },
+  {
+    "name": "Marie African Flavors",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "marie-african-flavors-houston-tx"
+  },
+  {
+    "name": "Aburi Cuisine",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "aburi-cuisine-houston-tx"
+  },
+  {
+    "name": "Suya on the Spot",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "suya-on-the-spot-houston-tx"
+  },
+  {
+    "name": "FuFu Restaurant (West African influence)",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "fufu-restaurant-west-african-influence-houston-tx"
+  },
+  {
+    "name": "KomChop",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "komchop-houston-tx"
+  },
+  {
+    "name": "Olatee African Cafe",
+    "city": "Spring",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "olatee-african-cafe-spring-tx"
+  },
+  {
+    "name": "Alief African Kitchen",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "alief-african-kitchen-houston-tx"
+  },
+  {
+    "name": "Desta Ethiopian Restaurant",
+    "city": "Dallas",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "desta-ethiopian-restaurant-dallas-tx"
+  },
+  {
+    "name": "Lalibela Ethiopian Restaurant & Bar",
+    "city": "Dallas",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "lalibela-ethiopian-restaurant-dallas-tx"
+  },
+  {
+    "name": "Addis Abeba Ethiopian Restaurant",
+    "city": "Richardson",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "addis-abeba-ethiopian-restaurant-richardson-tx"
+  },
+  {
+    "name": "West African Way",
+    "city": "Plano",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "west-african-way-plano-tx"
+  },
+  {
+    "name": "Jollof Haus - West African Flavors",
+    "city": "Allen",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "jollof-haus-west-african-flavors-allen-tx"
+  },
+  {
+    "name": "Exotic Grill African Cuisine",
+    "city": "Euless",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "exotic-grill-african-cuisine-euless-tx"
+  },
+  {
+    "name": "Osuma Suya",
+    "city": "McKinney",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "osuma-suya-mckinney-tx"
+  },
+  {
+    "name": "Osuma Suya",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "osuma-suya-houston-tx"
+  },
+  {
+    "name": "Suya Stop",
+    "city": "Grand Prairie",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "suya-stop-inc-grand-prairie-tx"
+  },
+  {
+    "name": "THE SPOT (Rhosabjal African cuisine)",
+    "city": "Fort Worth",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "the-spot-rhosabjal-african-cuisine-fort-worth-tx"
+  },
+  {
+    "name": "Rhosabjal Cuisine",
+    "city": "Fort Worth",
+    "type": "Food Truck",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "rhosabjal-cuisine-fort-worth-tx"
+  },
+  {
+    "name": "LeAnna Chop Grill",
+    "city": "Fort Worth",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "leanna-chop-grill-fort-worth-tx"
+  },
+  {
+    "name": "Aminatas Kitchen",
+    "city": "Fort Worth",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "aminatas-kitchen-fort-worth-tx"
+  },
+  {
+    "name": "OLORI African Cuisine and Event Catering",
+    "city": "Fort Worth",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "olori-african-cuisine-and-event-catering-fort-worth-tx"
+  },
+  {
+    "name": "Uncle G'z Flavors",
+    "city": "Haltom City",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "uncle-gz-flavors-haltom-city-tx"
+  },
+  {
+    "name": "Tam Tam Zings Bar & Grill",
+    "city": "Richland Hills",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "tam-tam-zings-bar-and-grill-richland-hills-tx"
+  },
+  {
+    "name": "Osuma Suya",
+    "city": "Euless",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "osuma-suya-euless-tx"
+  },
+  {
+    "name": "African Village",
+    "city": "Irving",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "african-village-irving-tx"
+  },
+  {
+    "name": "Lola's Restaurant & Lounge",
+    "city": "Irving",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "lolas-restaurant-and-lounge-irving-tx"
+  },
+  {
+    "name": "African pride Food and kitchen",
+    "city": "Arlington",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "african-pride-food-and-kitchen-arlington-tx"
+  },
+  {
+    "name": "ChefTemii - Nigerian Restaurant & Catering",
+    "city": "Arlington",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "cheftemii-nigerian-restaurant-and-catering-arlington-tx"
+  },
+  {
+    "name": "Fufudelight & Suya Kitchen",
+    "city": "Arlington",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "fufudelight-and-suya-kitchen-arlington-tx"
+  },
+  {
+    "name": "Angie Winners Kitchen",
+    "city": "Arlington",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "angie-winners-kitchen-arlington-tx"
+  },
+  {
+    "name": "Yemsade Restaurant",
+    "city": "Grand Prairie",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "yemsade-restaurant-grand-prairie-tx"
+  },
+  {
+    "name": "Lagos Kitchen",
+    "city": "Lewisville",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "lagos-kitchen-lewisville-tx"
+  },
+  {
+    "name": "Lady T Kitchen African Restaurant",
+    "city": "Pflugerville",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Central Texas",
+    "slug": "lady-t-kitchen-african-restaurant-pflugerville-tx"
+  },
+  {
+    "name": "South African Food Affair",
+    "city": "Austin",
+    "type": "Food Truck",
+    "status": "active",
+    "verified": false,
+    "region": "Central Texas",
+    "slug": "south-african-food-affair-austin-tx"
+  },
+  {
+    "name": "Oringo Africana",
+    "city": "San Antonio",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "South Central",
+    "slug": "oringo-africana-san-antonio-tx"
+  },
+  {
+    "name": "Palatable Nigerian Cuisine",
+    "city": "Austin",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Central Texas",
+    "slug": "palatable-nigerian-cuisine-austin-tx"
+  },
+  {
+    "name": "Nigerian Restaurant / African Market",
+    "city": "Austin",
+    "type": "Market",
+    "status": "active",
+    "verified": false,
+    "region": "Central Texas",
+    "slug": "nigerian-restaurant-african-market-austin-tx"
+  },
+  {
+    "name": "Red Sea Kitchen (Ethiopian Food Truck)",
+    "city": "Austin",
+    "type": "Food Truck",
+    "status": "active",
+    "verified": false,
+    "region": "Central Texas",
+    "slug": "red-sea-kitchen-ethiopian-food-truck-austin-tx"
+  },
+  {
+    "name": "Amen Cafe Eritrean & Ethiopian",
+    "city": "San Antonio",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "South Central",
+    "slug": "amen-cafe-eritrean-and-ethiopian-san-antonio-tx"
+  },
+  {
+    "name": "African Village Ethiopian Restaurant",
+    "city": "San Antonio",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "South Central",
+    "slug": "african-village-ethiopian-restaurant-san-antonio-tx"
+  },
+  {
+    "name": "Wazobia African Market & Kitchen",
+    "city": "Houston",
+    "type": "Market + Kitchen",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "wazobia-african-market-and-kitchen-houston-tx"
+  },
+  {
+    "name": "Bodija Foods",
+    "city": "Houston",
+    "type": "Market + Kitchen",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "bodija-african-food-market-houston-tx"
+  },
+  {
+    "name": "Yenat Guada Ethiopian Cuisine",
+    "city": "Dallas",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "yenat-guada-ethiopian-cuisine-dallas-tx"
+  },
+  {
+    "name": "Sheba’s Ethiopian Kitchen",
+    "city": "Dallas",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "shebas-ethiopian-kitchen-dallas-tx"
+  },
+  {
+    "name": "Trices Cafe and Lounge",
+    "city": "San Antonio",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "South Central",
+    "slug": "trices-cafe-and-lounge-san-antonio-tx"
+  },
+  {
+    "name": "TASTE AFRIK",
+    "city": "Mansfield",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "taste-afrik-mansfield-tx"
+  },
+  {
+    "name": "Cubana Grille | African & Jamaican Restaurant in McKinney Texas",
+    "city": "McKinney",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "cubana-grille-african-and-jamaican-restaurant-in-mckinney-texas-mckinney-tx"
+  },
+  {
+    "name": "Aunty Mimi's Kitchen",
+    "city": "Killeen",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Central Texas",
+    "slug": "aunty-mimis-kitchen-killeen-tx"
+  },
+  {
+    "name": "Ubuntu Cuisine",
+    "city": "San Antonio",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "South Central",
+    "slug": "ubuntu-cuisine-san-antonio-tx"
+  },
+  {
+    "name": "Wazobia Kitchen",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "wazobia-kitchen-houston-tx"
+  },
+  {
+    "name": "Mgbeke Village Hut - Nigerian Cuisine",
+    "city": "Leander",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Central Texas",
+    "slug": "mgbeke-village-hut-nigerian-cuisine-leander-tx"
+  },
+  {
+    "name": "Blessliz African Market & Kitchen",
+    "city": "McKinney",
+    "type": "Market + Kitchen",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "blessliz-african-market-mckinney-tx"
+  },
+  {
+    "name": "Suya Power House",
+    "city": "Missouri City",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "suya-power-house-missouri-city-tx"
+  },
+  {
+    "name": "Aria Nigerian Suya Kitchen",
+    "city": "Pearland",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "aria-nigerian-suya-kitchen-pearland-tx"
+  },
+  {
+    "name": "Kaylani African Cafe",
+    "city": "Pearland",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "kaylani-african-cafe-pearland-tx"
+  },
+  {
+    "name": "Glozi Calabar Restaurant and African Cuisine",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "glozi-calabar-restaurant-and-african-cuisine-houston-tx"
+  },
+  {
+    "name": "Amala Zone",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "amala-zone-houston-tx"
+  },
+  {
+    "name": "African Tasty Hub",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "african-tasty-hub-houston-tx"
+  },
+  {
+    "name": "Rhay's",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "rhays-houston-tx"
+  },
+  {
+    "name": "HoneyKaz",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "honeykaz-houston-tx"
+  },
+  {
+    "name": "KFFO Afro Steakhouse",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "kffo-afro-steakhouse-houston-tx"
+  },
+  {
+    "name": "Vioni Grill",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "vioni-grill-houston-tx"
+  },
+  {
+    "name": "Crave Suya",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "crave-suya-houston-tx"
+  },
+  {
+    "name": "Royal Point",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "royal-point-houston-tx"
+  },
+  {
+    "name": "Famous Princess African Kitchen",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "famous-princess-african-kitchen-houston-tx"
+  },
+  {
+    "name": "Bole King",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "bole-king-houston-tx"
+  },
+  {
+    "name": "Dee Titolat African Restaurant",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "dee-titolat-african-restaurant-houston-tx"
+  },
+  {
+    "name": "Ewatomi",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "ewatomi-houston-tx"
+  },
+  {
+    "name": "Glam Divine Treats",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "glam-divine-treats-houston-tx"
+  },
+  {
+    "name": "Supreme Seafood & Suya",
+    "city": "Richmond",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "supreme-seafood-and-suya-houston-tx"
+  },
+  {
+    "name": "Chef Benny",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "chef-benny-houston-tx"
+  },
+  {
+    "name": "042 Restaurant",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "042-restaurant-houston-tx"
+  },
+  {
+    "name": "Nini Kitchen",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "nini-kitchen-houston-tx"
+  },
+  {
+    "name": "Grill Master African Restaurant",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "grill-master-african-restaurant-houston-tx"
+  },
+  {
+    "name": "Cafe De Vivre",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "cafe-de-vivre-houston-tx"
+  },
+  {
+    "name": "Traditional Food Restaurant",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "traditional-food-restaurant-houston-tx"
+  },
+  {
+    "name": "African Food Embassy",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "african-food-embassy-houston-tx"
+  },
+  {
+    "name": "The Afro Eatery",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "the-afro-eatery-houston-tx"
+  },
+  {
+    "name": "Mama Jollof Restaurant",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "mama-jollof-restaurant-houston-tx"
+  },
+  {
+    "name": "United Sisters",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "united-sisters-houston-tx"
+  },
+  {
+    "name": "Dsnailspot",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "dsnailspot-houston-tx"
+  },
+  {
+    "name": "Horn of Africa",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "horn-of-africa-houston-tx"
+  },
+  {
+    "name": "Amazing Street Beans",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "amazing-street-beans-houston-tx"
+  },
+  {
+    "name": "Nazareth Cafe",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "nazareth-cafe-houston-tx"
+  },
+  {
+    "name": "The Motherland Restaurant & Grill",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "the-motherland-restaurant-and-grill-houston-tx"
+  },
+  {
+    "name": "Osite African Hot Pot",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "osite-african-hot-pot-houston-tx"
+  },
+  {
+    "name": "EKO Bistro Fusion",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "eko-bistro-fusion-houston-tx"
+  },
+  {
+    "name": "Mr. Suyaa",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "mr-suyaa-houston-tx"
+  },
+  {
+    "name": "The Icon Nigerian Kitchen",
+    "city": "Richardson",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "the-icon-nigerian-kitchen-richardson-tx"
+  },
+  {
+    "name": "Gidi Bar and Grill",
+    "city": "Frisco",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "gidi-bar-and-grill-frisco-tx"
+  },
+  {
+    "name": "Lady T Kitchen",
+    "city": "Austin",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Central Texas",
+    "slug": "lady-t-kitchen-austin-tx"
+  },
+  {
+    "name": "Mabel's African Cuisine & Bar",
+    "city": "McKinney",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "mabels-african-cuisine-and-bar-mckinney-tx"
+  },
+  {
+    "name": "Southwest Farmers Market & Kitchen",
+    "city": "Arlington",
+    "type": "Market + Kitchen",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "southwest-farmers-market-and-kitchen-arlington-tx"
+  },
+  {
+    "name": "Southwest Farmers Market & Kitchen",
+    "city": "Austin",
+    "type": "Market + Kitchen",
+    "status": "active",
+    "verified": false,
+    "region": "Central Texas",
+    "slug": "southwest-farmers-market-and-kitchen-austin-tx"
+  },
+  {
+    "name": "Southwest Farmers Market & Kitchen",
+    "city": "San Antonio",
+    "type": "Market + Kitchen",
+    "status": "active",
+    "verified": false,
+    "region": "South Central",
+    "slug": "southwest-farmers-market-and-kitchen-san-antonio-tx"
+  },
+  {
+    "name": "Southwest Farmers Market & Kitchen",
+    "city": "Houston",
+    "type": "Market + Kitchen",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "southwest-farmers-market-and-kitchen-houston-tx"
+  },
+  {
+    "name": "Habesha Restaurant",
+    "city": "Austin",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Central Texas",
+    "slug": "habesha-restaurant-austin-tx"
+  },
+  {
+    "name": "Freshnez Kitchen (Food Truck)",
+    "city": "Dallas",
+    "type": "Food Truck",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "freshnez-kitchen-food-truck-dallas-tx"
+  },
+  {
+    "name": "Aso Rock Market & Kitchen",
+    "city": "Dallas",
+    "type": "Market + Kitchen",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "aso-rock-market-and-kitchen-dallas-tx"
+  },
+  {
+    "name": "Blue Nile Ethiopian",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "blue-nile-ethiopian-houston-tx"
+  },
+  {
+    "name": "Nando's PERi-PERi (Post Oak)",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "nandos-peri-peri-post-oak-houston-tx"
+  },
+  {
+    "name": "Bukka Grill",
+    "city": "Frisco",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "bukka-grill-frisco-tx"
+  },
+  {
+    "name": "Makola Marketplace",
+    "city": "Houston",
+    "type": "Market + Kitchen",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "makola-marketplace-houston-tx"
+  },
+  {
+    "name": "3tees Shawarma",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "3tees-shawarma-houston-tx"
+  },
+  {
+    "name": "Holyland Halal Meat Grocery",
+    "city": "Houston",
+    "type": "Market + Kitchen",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "holyland-halal-meat-grocery-houston-tx"
+  },
+  {
+    "name": "Nando's PERi-PERi (Montrose)",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "nandos-peri-peri-montrose-houston-tx"
+  },
+  {
+    "name": "Augustine's (Creole-African)",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "augustines-creole-african-houston-tx"
+  },
+  {
+    "name": "Tailat Kitchen",
+    "city": "Austin",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Central Texas",
+    "slug": "tailat-kitchen-austin-tx"
+  },
+  {
+    "name": "Palatable Nigeria Cuisine",
+    "city": "Pflugerville",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Central Texas",
+    "slug": "palatable-nigeria-cuisine-pflugerville-tx"
+  },
+  {
+    "name": "Merit Coffee (African Source)",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "merit-coffee-african-source-houston-tx"
+  },
+  {
+    "name": "Aria Suya (Wilcrest Ghost)",
+    "city": "Houston",
+    "type": "Ghost Kitchen",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "aria-suya-wilcrest-ghost-houston-tx"
+  },
+  {
+    "name": "Dupsy's Kitchen (Ghost)",
+    "city": "Houston",
+    "type": "Ghost Kitchen",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "dupsys-kitchen-ghost-houston-tx"
+  },
+  {
+    "name": "Honey Dip Fingers",
+    "city": "McKinney",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "honey-dip-fingers-mckinney-tx"
+  },
+  {
+    "name": "Calabar Pot",
+    "city": "Frisco",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "calabar-pot-frisco-tx"
+  },
+  {
+    "name": "Eko Bistro",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "eko-bistro-houston-tx"
+  },
+  {
+    "name": "Salt N Pepper",
+    "city": "Garland",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "salt-n-pepper-garland-tx"
+  },
+  {
+    "name": "Signature African",
+    "city": "Houston",
+    "type": "Restaurant",
+    "status": "active",
+    "verified": false,
+    "region": "Gulf Coast",
+    "slug": "signature-african-houston-tx"
+  },
+  {
+    "name": "Southwest Farmers Kitchen",
+    "city": "Frisco",
+    "type": "Market + Kitchen",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "southwest-farmers-kitchen-frisco-tx"
+  },
+  {
+    "name": "Southwest Farmers Kitchen",
+    "city": "Garland",
+    "type": "Market + Kitchen",
+    "status": "active",
+    "verified": false,
+    "region": "North Texas",
+    "slug": "southwest-farmers-kitchen-garland-tx"
+  }
+]

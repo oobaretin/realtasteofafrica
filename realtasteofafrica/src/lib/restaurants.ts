@@ -21,6 +21,8 @@ export type Restaurant = {
   highlights: string[]
   /** Explicit category from data; when set, used instead of deriving from highlights. */
   category?: "Food Truck" | "Ghost Kitchen" | "Market" | "Market + Kitchen" | "Restaurant"
+  /** Internal: set to true after you've audited this listing (e.g. confirmed open). */
+  internalVerified?: boolean
   writeUp?: string
 }
 

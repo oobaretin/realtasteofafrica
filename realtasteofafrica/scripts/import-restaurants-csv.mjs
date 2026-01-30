@@ -159,6 +159,9 @@ function toRestaurantRecord(row, idx) {
   const isVerified =
     String(row.isVerified ?? "").toLowerCase() === "true" ||
     String(row.isVerified ?? "").trim() === "1"
+  const internalVerified =
+    String(row.internal_verified ?? row.internalVerified ?? "").toLowerCase() === "true" ||
+    String(row.internal_verified ?? row.internalVerified ?? "").trim() === "1"
 
   return {
     slug,
@@ -167,6 +170,7 @@ function toRestaurantRecord(row, idx) {
     cuisine,
     isFeatured: isFeatured || undefined,
     isVerified: isVerified || undefined,
+    internalVerified: internalVerified || undefined,
     areaSlug: String(row.areaSlug).trim(),
     city,
     state,

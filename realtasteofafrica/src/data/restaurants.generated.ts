@@ -585,7 +585,7 @@ export const RESTAURANTS: Restaurant[] = [
   },
   {
     "slug": "jollofbeans-llc-sugar-land-tx",
-    "name": "JollofBeans LLC",
+    "name": "JollofBeans",
     "cuisines": [
       "Nigerian",
       "West African"
@@ -967,7 +967,7 @@ export const RESTAURANTS: Restaurant[] = [
   },
   {
     "slug": "felicias-african-food-llc-amarillo-tx",
-    "name": "Felicia’s African Food LLC",
+    "name": "Felicia’s African Food",
     "cuisines": [
       "African",
       "West African",
@@ -1090,7 +1090,7 @@ export const RESTAURANTS: Restaurant[] = [
   },
   {
     "slug": "fabaceae-african-cuisine-houston-tx",
-    "name": "Fabaceae African Cuisine Inc.",
+    "name": "Fabaceae African Cuisine",
     "cuisines": [
       "African"
     ],
@@ -1444,7 +1444,7 @@ export const RESTAURANTS: Restaurant[] = [
   },
   {
     "slug": "suya-stop-inc-grand-prairie-tx",
-    "name": "Suya Stop Inc.",
+    "name": "Suya Stop",
     "cuisines": [
       "Nigerian",
       "Suya"
@@ -3104,23 +3104,6 @@ export const RESTAURANTS: Restaurant[] = [
     "mapsUrl": "https://www.openstreetmap.org/search?query=9400%20Richmond%20Ave%2C%20Houston%20TX%2077063%2C%20Houston%2C%20TX",
     "highlights": [
       "Ethiopian"
-    ],
-    "category": "Restaurant"
-  },
-  {
-    "slug": "abula-hot-pot-richmond-ave-houston-tx",
-    "name": "Abula Hot Pot",
-    "cuisines": [
-      "Nigerian"
-    ],
-    "cuisine": "Nigerian",
-    "areaSlug": "houston",
-    "city": "Houston",
-    "state": "TX",
-    "addressLine": "9400 Richmond Ave, Houston TX 77063",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9400%20Richmond%20Ave%2C%20Houston%20TX%2077063%2C%20Houston%2C%20TX",
-    "highlights": [
-      "Nigerian"
     ],
     "category": "Restaurant"
   },
