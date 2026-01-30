@@ -111,6 +111,9 @@ export function RestaurantCard({
             </a>
           ) : null}
         </div>
+        {r.lastAuditDate && r.lastAuditDate.startsWith("2026") ? (
+          <p className="mt-2 text-xs text-slate-400">Verified 2026</p>
+        ) : null}
       </div>
     </article>
   )

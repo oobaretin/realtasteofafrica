@@ -171,6 +171,7 @@ function toRestaurantRecord(row, idx) {
     isFeatured: isFeatured || undefined,
     isVerified: isVerified || undefined,
     internalVerified: internalVerified || undefined,
+    lastAuditDate: asOptionalString(row.last_audit_date ?? row.lastAuditDate),
     areaSlug: String(row.areaSlug).trim(),
     city,
     state,

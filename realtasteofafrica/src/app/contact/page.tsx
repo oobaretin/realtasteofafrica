@@ -1,114 +1,74 @@
 import Link from "next/link"
 
-import { Badge } from "@/components/Badge"
 import { WpPageShell } from "@/components/WpPageShell"
-import { CONTACT_EMAIL } from "@/lib/site"
+import { ContactForm } from "@/components/ContactForm"
+import { ReportForm } from "@/components/ReportForm"
 
 export const metadata = {
   title: "Contact",
-}
-
-function toTelHref(phone: string) {
-  const digits = phone.replace(/[^\d+]/g, "")
-  return digits.startsWith("+") ? digits : `+${digits}`
+  description:
+    "Data Integrity Hub: add a restaurant, claim your listing, or report an issue. Keep the Texas directory accurate.",
 }
 
 export default function ContactPage() {
-  const directoryPhone = "+1 (713) 555-0123"
-
   return (
     <WpPageShell
-      title="Contact"
-      description="Questions, corrections, or restaurant submissions—reach out and we’ll get it handled."
+      title="Data Integrity Hub"
+      description="Keep the Texas directory accurate. Add spots, claim your business, or report closures and errors below."
       breadcrumbs={[
         { href: "/", label: "Home" },
         { href: "/contact", label: "Contact" },
       ]}
     >
-      <div className="grid gap-6">
-        <div className="flex flex-wrap items-center gap-2">
-          <Badge>Support</Badge>
-          <Badge>Houston-first</Badge>
-        </div>
-
-        <div className="grid gap-6 md:grid-cols-2">
-          <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-            <div className="flex items-center justify-between gap-3">
-              <h2 className="text-base font-semibold tracking-tight text-slate-900">
-                Directory support
-              </h2>
-              <Badge>Greater Houston, TX</Badge>
-            </div>
-            <p className="mt-2 text-sm text-slate-600">
-              Houston-first (for now), expanding nationwide.
-            </p>
-
-            <div className="mt-4 grid gap-2 text-sm text-slate-700">
-              <div>
-                <span className="text-slate-500">Phone:</span>{" "}
-                <a
-                  className="font-medium text-amber-700 hover:text-amber-800"
-                  href={`tel:${toTelHref(directoryPhone)}`}
-                >
-                  {directoryPhone}
-                </a>
-              </div>
-              <div>
-                <span className="text-slate-500">Email:</span>{" "}
-                <a
-                  className="font-medium text-amber-700 hover:text-amber-800"
-                  href={`mailto:${CONTACT_EMAIL}`}
-                >
-                  {CONTACT_EMAIL}
-                </a>
-              </div>
-            </div>
-
-            <div className="mt-5 flex flex-wrap gap-3">
-              <Link
-                className="rounded-md bg-amber-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-amber-700"
-                href="/submit"
-              >
-                Submit a restaurant
-              </Link>
-              <Link
-                className="rounded-md border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-900 hover:bg-slate-50"
-                href="/restaurants"
-              >
-                Browse listings
-              </Link>
-            </div>
-          </section>
-
-          <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-            <h2 className="text-base font-semibold tracking-tight text-slate-900">
-              Message
+      <div className="grid gap-8">
+        <div className="grid gap-4 sm:grid-cols-3">
+          <Link
+            href="/submit"
+            className="flex flex-col rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition-shadow hover:shadow-md"
+          >
+            <span className="text-2xl" aria-hidden>➕</span>
+            <h2 className="mt-2 text-base font-semibold tracking-tight text-slate-900">
+              Add a Restaurant
             </h2>
-            <p className="mt-2 text-sm text-slate-600">
-              Email us and we’ll reply as soon as we can.
+            <p className="mt-1 text-sm text-slate-600">
+              Suggest a new African restaurant or food spot in Texas.
             </p>
-            <p className="mt-3 text-sm text-slate-700">
-              <span className="text-slate-500">Email:</span>{" "}
-              <a
-                className="font-medium text-amber-700 hover:text-amber-800"
-                href={`mailto:${CONTACT_EMAIL}`}
-              >
-                {CONTACT_EMAIL}
-              </a>
-            </p>
+            <span className="mt-3 text-sm font-medium text-amber-700">Submit a listing →</span>
+          </Link>
 
-            <div className="mt-5">
-              <a
-                className="inline-flex rounded-md bg-amber-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-amber-700"
-                href={`mailto:${CONTACT_EMAIL}?subject=Directory%20Question`}
-              >
-                Email us →
-              </a>
-            </div>
-          </section>
+          <Link
+            href="/claim"
+            className="flex flex-col rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition-shadow hover:shadow-md"
+          >
+            <span className="text-2xl" aria-hidden>✓</span>
+            <h2 className="mt-2 text-base font-semibold tracking-tight text-slate-900">
+              Claim / Verify
+            </h2>
+            <p className="mt-1 text-sm text-slate-600">
+              Verify your listing ($49 one-time) for a verified badge and control.
+            </p>
+            <span className="mt-3 text-sm font-medium text-amber-700">Go to verification →</span>
+          </Link>
+
+          <a
+            href="#report"
+            className="flex flex-col rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition-shadow hover:shadow-md"
+          >
+            <span className="text-2xl" aria-hidden>⚠</span>
+            <h2 className="mt-2 text-base font-semibold tracking-tight text-slate-900">
+              Report an Issue
+            </h2>
+            <p className="mt-1 text-sm text-slate-600">
+              Closed business, duplicate, wrong address, or broken contact info.
+            </p>
+            <span className="mt-3 text-sm font-medium text-amber-700">Report below →</span>
+          </a>
         </div>
+
+        <ReportForm />
+
+        <ContactForm />
       </div>
     </WpPageShell>
   )
 }
-

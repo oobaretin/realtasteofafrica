@@ -23,6 +23,8 @@ export type Restaurant = {
   category?: "Food Truck" | "Ghost Kitchen" | "Market" | "Market + Kitchen" | "Restaurant"
   /** Internal: set to true after you've audited this listing (e.g. confirmed open). */
   internalVerified?: boolean
+  /** Date this listing was last verified (e.g. "2026-01-15"); when in 2026, card shows "Verified 2026". */
+  lastAuditDate?: string
   writeUp?: string
 }
 

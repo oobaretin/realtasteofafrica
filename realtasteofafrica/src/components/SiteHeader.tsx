@@ -9,7 +9,6 @@ type NavItem = { href: string; label: string }
 
 const NAV_ITEMS: NavItem[] = [
   { href: "/restaurants", label: "Browse" },
-  { href: "/areas/houston", label: "Houston Area" },
   { href: "/contact", label: "Contact" },
 ]
 
