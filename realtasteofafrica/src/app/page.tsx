@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 import { Badge } from "@/components/Badge"
-import { CoverageMap } from "@/components/CoverageMap"
+import { StatewideDiscovery } from "@/components/StatewideDiscovery"
 import { RestaurantCard } from "@/components/RestaurantCard"
 import { AREAS } from "@/lib/areas"
 import { CUISINE_TAGS } from "@/lib/cuisines"
@@ -248,17 +248,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="grid gap-4 rounded-2xl bg-slate-100 p-6 md:p-8">
-        <div>
-          <h2 className="text-xl font-semibold tracking-tight">
-            Coverage Map
-          </h2>
-          <p className="mt-1 text-sm text-slate-600">
-            175+ locations verified across Texas — from Houston to El Paso.
-          </p>
-        </div>
-        <CoverageMap />
-      </section>
+      <StatewideDiscovery restaurants={RESTAURANTS} />
     </div>
   )
 }
