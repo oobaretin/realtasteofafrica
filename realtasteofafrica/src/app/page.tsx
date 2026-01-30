@@ -2,6 +2,7 @@ import Link from "next/link"
 
 import { Badge } from "@/components/Badge"
 import { CoverageMap } from "@/components/CoverageMap"
+import { TexasMapEmbed } from "@/components/TexasMapEmbed"
 import { RestaurantCard } from "@/components/RestaurantCard"
 import { AREAS } from "@/lib/areas"
 import { CUISINE_TAGS } from "@/lib/cuisines"
@@ -258,6 +259,10 @@ export default function HomePage() {
           </p>
         </div>
         <CoverageMap />
+      </section>
+
+      <section className="rounded-2xl bg-slate-100 p-4 md:p-6">
+        <TexasMapEmbed mapEmbedUrl={process.env.NEXT_PUBLIC_GOOGLE_MY_MAPS_EMBED_URL} />
       </section>
     </div>
   )
