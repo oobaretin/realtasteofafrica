@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "Find African restaurants near you. Starting with Houston, Texas and neighboring cities — expanding nationwide.",
   metadataBase: new URL("https://realtasteofafrica.com"),
   icons: {
-    icon: { url: "/icon0.svg", type: "image/svg+xml", sizes: "any" },
+    icon: { url: "/favicon.png", type: "image/png", sizes: "32x32" },
   },
 }
 
