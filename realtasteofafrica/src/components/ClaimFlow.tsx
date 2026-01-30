@@ -5,7 +5,6 @@ import { useCallback, useRef, useState } from "react"
 import { ClaimListingForm } from "@/components/ClaimListingForm"
 import { ClaimSearch } from "@/components/ClaimSearch"
 import { PayPalButton } from "@/components/PayPalButton"
-import { VerificationForm } from "@/components/VerificationForm"
 import type { Restaurant } from "@/lib/restaurants"
 import { CLAIM_VERIFY_PRICE_USD } from "@/lib/site"
 
@@ -13,31 +12,19 @@ const PAYPAL_CLIENT_ID = process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID ?? ""
 
 export function ClaimFlow() {
   const [selectedRestaurant, setSelectedRestaurant] = useState<Restaurant | null>(null)
-  const [paymentComplete, setPaymentComplete] = useState(false)
-  const [transactionId, setTransactionId] = useState<string | null>(null)
-  const [showToast, setShowToast] = useState(false)
   const formRef = useRef<HTMLDivElement>(null)
-  const toastRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   const handleSelect = useCallback((restaurant: Restaurant) => {
     setSelectedRestaurant(restaurant)
-    setPaymentComplete(false)
-    setTransactionId(null)
     requestAnimationFrame(() => {
       formRef.current?.scrollIntoView({ behavior: "smooth", block: "start" })
     })
   }, [])
 
   const handlePaymentSuccess = useCallback((restaurantSlug: string, txId: string) => {
-    setTransactionId(txId)
-    setPaymentComplete(true)
     console.log("Claim payment success", { restaurantId: restaurantSlug, transactionId: txId })
-    setShowToast(true)
-    if (toastRef.current) clearTimeout(toastRef.current)
-    toastRef.current = setTimeout(() => {
-      setShowToast(false)
-      toastRef.current = null
-    }, 6000)
+    const params = new URLSearchParams({ slug: restaurantSlug, tx: txId })
+    window.location.href = `/claim/success?${params.toString()}`
   }, [])
 
   const initialValues = selectedRestaurant
@@ -77,33 +64,13 @@ export function ClaimFlow() {
             </p>
           </div>
 
-          {paymentComplete ? (
-            <div className="grid gap-6">
-              {showToast && (
-                <div
-                  className="rounded-lg border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm font-medium text-emerald-800"
-                  role="status"
-                >
-                  Thank you! We will verify your listing within 24 hours.
-                </div>
-              )}
-              {selectedRestaurant && transactionId && (
-                <VerificationForm
-                  restaurantName={selectedRestaurant.name}
-                  restaurantSlug={selectedRestaurant.slug}
-                  transactionId={transactionId}
-                />
-              )}
-            </div>
-          ) : (
-            <PayPalButton
-              clientId={PAYPAL_CLIENT_ID}
-              restaurantSlug={selectedRestaurant.slug}
-              amount={String(CLAIM_VERIFY_PRICE_USD)}
-              onSuccess={handlePaymentSuccess}
-              disabled={false}
-            />
-          )}
+          <PayPalButton
+            clientId={PAYPAL_CLIENT_ID}
+            restaurantSlug={selectedRestaurant.slug}
+            amount={String(CLAIM_VERIFY_PRICE_USD)}
+            onSuccess={handlePaymentSuccess}
+            disabled={false}
+          />
         </section>
       )}
 
