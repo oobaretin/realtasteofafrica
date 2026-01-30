@@ -16,6 +16,10 @@ export const metadata: Metadata = {
   description:
     "Find African restaurants near you. Starting with Houston, Texas and neighboring cities — expanding nationwide.",
   metadataBase: new URL("https://realtasteofafrica.com"),
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+  },
 }
 
 export default function RootLayout({
