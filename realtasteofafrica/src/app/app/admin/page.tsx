@@ -1,41 +1,46 @@
+// app/admin/page.tsx
+export const dynamic = 'force-dynamic'; // This is the magic line for Vercel
+
 import React from 'react';
 
-// This is a simple server-side check for a secret "Admin Key"
-export default function AdminPage({ searchParams }: { searchParams: { key: string } }) {
-  const ADMIN_KEY = process.env.ADMIN_SECRET_KEY; // We will set this in Vercel later
+export default async function AdminPage({ searchParams }: { searchParams: Promise<{ key?: string }> }) {
+  // In Next.js 15, searchParams is a Promise, so we must 'await' it
+  const resolvedParams = await searchParams; 
+  const ADMIN_KEY = process.env.ADMIN_SECRET_KEY;
 
-  if (searchParams.key !== ADMIN_KEY) {
-    return <div className="p-20 text-center">Unauthorized. Texas is watching. 🤠</div>;
+  if (!resolvedParams.key || resolvedParams.key !== ADMIN_KEY) {
+    return (
+      <div className="flex items-center justify-center min-h-screen bg-gray-100">
+        <div className="p-8 bg-white shadow-xl rounded-lg text-center">
+          <h1 className="text-2xl font-bold text-red-600">Restricted Access</h1>
+          <p className="mt-2 text-gray-600">The Real Taste of Africa Admin Portal is private.</p>
+        </div>
+      </div>
+    );
   }
 
   return (
-    <div className="max-w-4xl mx-auto p-8">
-      <h1 className="text-3xl font-bold mb-6">Texas African Food Directory Admin</h1>
-      <p className="mb-8 text-gray-600">Managing 175 Verified Listings</p>
-      
-      <div className="bg-white shadow-md rounded-lg p-6 mb-10 border-t-4 border-orange-600">
-        <h2 className="text-xl font-semibold mb-4 text-orange-800">Add New Restaurant</h2>
-        <form className="grid grid-cols-1 gap-4 md:grid-cols-2">
-          <input type="text" placeholder="Restaurant Name" className="border p-2 rounded" />
-          <select className="border p-2 rounded">
-            <option>Select Region</option>
+    <div className="max-w-5xl mx-auto p-8">
+      <header className="border-b pb-4 mb-8">
+        <h1 className="text-3xl font-extrabold text-orange-700">Texas Directory Admin</h1>
+        <p className="text-gray-500">Managing 175+ Verified African Restaurants</p>
+      </header>
+
+      <section className="bg-white p-6 rounded-xl shadow-sm border border-orange-100">
+        <h2 className="text-xl font-bold mb-4">Add New Restaurant</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <input className="border p-3 rounded-lg" placeholder="Restaurant Name" />
+          <select className="border p-3 rounded-lg">
             <option>Houston Area</option>
-            <option>Dallas/Fort Worth</option>
+            <option>Dallas / Fort Worth</option>
             <option>Austin Area</option>
             <option>San Antonio Area</option>
-            <option>West Texas / Other</option>
           </select>
-          <input type="text" placeholder="Cuisine (e.g. Nigerian, Ethiopian)" className="border p-2 rounded" />
-          <button className="bg-orange-600 text-white font-bold py-2 rounded hover:bg-orange-700 transition">
-            Save to Directory
+          <button className="md:col-span-2 bg-orange-600 text-white font-bold py-3 rounded-lg hover:bg-orange-700">
+            Submit New Listing
           </button>
-        </form>
-      </div>
-
-      <div className="bg-gray-50 rounded-lg p-4 border">
-        <h2 className="text-lg font-semibold mb-2">Current Count: 175</h2>
-        <p className="text-sm text-gray-500 italic">To edit existing data, update the data.json file directly in GitHub.</p>
-      </div>
+        </div>
+      </section>
     </div>
   );
 }
