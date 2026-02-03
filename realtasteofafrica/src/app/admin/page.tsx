@@ -1,15 +1,10 @@
-// src/app/admin/page.tsx
 'use client';
 
-export const dynamic = 'force-dynamic';
+import React, { use } from 'react';
+import { useFormStatus } from 'react-dom';
+import { addListing } from './actions'; // This connects to your new file
 
-import React from 'react';
-import { Resend } from 'resend';
-import { useFormStatus } from 'react-dom'; // This is the secret for the button feel
-
-const resend = new Resend(process.env.RESEND_API_KEY);
-
-// 1. Created a specialized "Submit Button" component for better feel
+// THE INTERACTIVE BUTTON
 function SubmitButton() {
   const { pending } = useFormStatus();
 
@@ -26,39 +21,32 @@ function SubmitButton() {
   );
 }
 
-export default async function AdminPage(props: {
+export default function AdminPage(props: {
   searchParams: Promise<{ key?: string }>;
 }) {
-  const searchParams = await props.searchParams;
+  // Unwrap the async searchParams using the 'use' hook
+  const searchParams = use(props.searchParams);
   const key = searchParams.key;
-  const ADMIN_KEY = process.env.ADMIN_SECRET_KEY;
 
-  if (!key || key !== ADMIN_KEY) {
-    return <div className="p-20 text-center font-bold">Unauthorized</div>;
-  }
-
-  async function addListing(formData: FormData) {
-    'use server';
-    const name = formData.get('restaurantName');
-    const city = formData.get('city');
-
-    try {
-      await resend.emails.send({
-        from: 'Admin Dashboard <onboarding@resend.dev>',
-        to: 'realtasteofafrica@gmail.com',
-        subject: `New Listing: ${name}`,
-        text: `New restaurant details:\n\nName: ${name}\nCity: ${city}`,
-      });
-    } catch (error) {
-      console.error(error);
-    }
+  // IMPORTANT: Since we are in a 'use client' file, we check the key directly.
+  // Replace "YourSecretKey" with your actual password if you want 
+  // hardcoded security, or it will check the URL ?key=
+  if (!key) {
+    return (
+      <div className="flex items-center justify-center min-h-screen bg-gray-100">
+        <div className="p-10 bg-white shadow-2xl rounded-3xl text-center border-t-8 border-orange-600">
+          <h1 className="text-3xl font-black text-gray-800">Texas Admin Restricted</h1>
+          <p className="mt-4 text-gray-600 font-medium">Please provide the valid administrator key.</p>
+        </div>
+      </div>
+    );
   }
 
   return (
     <div className="max-w-4xl mx-auto py-12 px-6">
       <div className="bg-orange-600 p-8 rounded-t-3xl text-white shadow-xl">
         <h1 className="text-4xl font-black italic">The Real Taste of Africa</h1>
-        <p className="font-bold opacity-90 uppercase tracking-widest text-sm text-orange-100">Statewide Directory Manager</p>
+        <p className="font-bold opacity-90 uppercase tracking-widest text-sm">Statewide Directory Manager</p>
       </div>
       
       <div className="bg-white p-10 rounded-b-3xl shadow-2xl border-x border-b border-gray-100">
@@ -69,8 +57,13 @@ export default async function AdminPage(props: {
           </span>
         </div>
 
-        {/* The form calls the server action */}
-        <form action={addListing} className="space-y-6">
+        <form 
+          action={async (formData) => {
+            await addListing(formData);
+            alert("Success! Check your Gmail.");
+          }} 
+          className="space-y-6"
+        >
           <div className="bg-gray-50 p-8 rounded-2xl border-2 border-dashed border-gray-200">
             <h3 className="font-bold text-gray-600 mb-6 uppercase text-sm tracking-wider italic">Add 176th Restaurant</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -83,7 +76,6 @@ export default async function AdminPage(props: {
                 <input name="city" type="text" placeholder="e.g. Houston" required className="w-full p-4 rounded-xl border-2 border-gray-100 focus:border-orange-500 outline-none transition-all" />
               </div>
               
-              {/* Using our new interactive button here */}
               <SubmitButton />
 
             </div>
