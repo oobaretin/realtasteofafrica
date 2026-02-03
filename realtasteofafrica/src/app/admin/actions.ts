@@ -14,7 +14,7 @@ export async function addListing(formData: FormData) {
     // Send the email to your Gmail
     await resend.emails.send({
       from: 'Admin Dashboard <onboarding@resend.dev>',
-      to: 'realtasteofafrica@gmail.com',
+      to: 'therealtasteofafrica@gmail.com',
       subject: `New Listing: ${name}`,
       text: `A new restaurant has been submitted:\n\nName: ${name}\nCity: ${city}\n\nSent from the Real Taste of Africa Admin Portal.`,
     });
