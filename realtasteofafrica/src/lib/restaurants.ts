@@ -37,18 +37,33 @@ import { RESTAURANTS as GENERATED_RESTAURANTS } from "@/data/restaurants.generat
 export const RESTAURANTS: Restaurant[] = GENERATED_RESTAURANTS
 
 export function getRestaurantBySlug(slug: string): Restaurant | undefined {
-  return RESTAURANTS.find((r) => r.slug === slug)
+  try {
+    return RESTAURANTS.find((r) => r.slug === slug);
+  } catch (error) {
+    console.error(`Error finding restaurant by slug: ${slug}`, error);
+    return undefined;
+  }
 }
 
 /** Stable 1-based listing number (1–175) for "Verified Listing # X of 175". Order: by slug. */
 export function getListingNumber(slug: string): number {
-  const sorted = [...RESTAURANTS].sort((a, b) => a.slug.localeCompare(b.slug))
-  const idx = sorted.findIndex((r) => r.slug === slug)
-  return idx === -1 ? 0 : idx + 1
+  try {
+    const sorted = [...RESTAURANTS].sort((a, b) => a.slug.localeCompare(b.slug));
+    const idx = sorted.findIndex((r) => r.slug === slug);
+    return idx === -1 ? 0 : idx + 1;
+  } catch (error) {
+    console.error(`Error getting listing number for slug: ${slug}`, error);
+    return 0;
+  }
 }
 
 export function getRestaurantsByArea(areaSlug: string): Restaurant[] {
-  return RESTAURANTS.filter((r) => r.areaSlug === areaSlug)
+  try {
+    return RESTAURANTS.filter((r) => r.areaSlug === areaSlug);
+  } catch (error) {
+    console.error(`Error getting restaurants by area: ${areaSlug}`, error);
+    return [];
+  }
 }
 
 /** URL-safe slug from city name (e.g. "San Antonio" → "san-antonio"). */
@@ -57,7 +72,12 @@ export function cityToSlug(city: string): string {
 }
 
 export function getRestaurantsByCity(citySlug: string): Restaurant[] {
-  return RESTAURANTS.filter((r) => cityToSlug(r.city) === citySlug)
+  try {
+    return RESTAURANTS.filter((r) => cityToSlug(r.city) === citySlug);
+  } catch (error) {
+    console.error(`Error getting restaurants by city: ${citySlug}`, error);
+    return [];
+  }
 }
 
 /** All city slugs that have at least one restaurant (for static generation). */
@@ -68,13 +88,27 @@ export function getAllCitySlugs(): string[] {
 }
 
 export function getAllCuisineTags(): string[] {
-  const set = new Set<string>()
-  for (const r of RESTAURANTS) for (const c of r.cuisines) set.add(c)
-  return Array.from(set).sort((a, b) => a.localeCompare(b))
+  try {
+    const set = new Set<string>();
+    for (const r of RESTAURANTS) {
+      for (const c of r.cuisines) {
+        set.add(c);
+      }
+    }
+    return Array.from(set).sort((a, b) => a.localeCompare(b));
+  } catch (error) {
+    console.error('Error getting all cuisine tags', error);
+    return [];
+  }
 }
 
 export function getFeaturedRestaurants(): Restaurant[] {
-  return RESTAURANTS.filter((r) => r.isFeatured === true)
+  try {
+    return RESTAURANTS.filter((r) => r.isFeatured === true);
+  } catch (error) {
+    console.error('Error getting featured restaurants', error);
+    return [];
+  }
 }
 
 /** Same city first, then same primary cuisine; excludes slug. */
@@ -84,18 +118,23 @@ export function getSimilarRestaurants(
   cuisineTag?: string,
   limit = 4
 ): Restaurant[] {
-  const current = getRestaurantBySlug(currentSlug)
-  if (!current) return []
-  const rest = RESTAURANTS.filter((r) => r.slug !== currentSlug)
-  const sameCity = rest.filter((r) => r.city === city)
-  const sameCuisine = cuisineTag
-    ? rest.filter(
-        (r) =>
-          r.cuisines.some((c) => c.toLowerCase() === cuisineTag.toLowerCase()) ||
-          r.cuisine?.toLowerCase() === cuisineTag.toLowerCase()
-      )
-    : []
-  const combined = [...sameCity, ...sameCuisine.filter((r) => !sameCity.includes(r))]
-  return combined.slice(0, limit)
+  try {
+    const current = getRestaurantBySlug(currentSlug);
+    if (!current) return [];
+    const rest = RESTAURANTS.filter((r) => r.slug !== currentSlug);
+    const sameCity = rest.filter((r) => r.city === city);
+    const sameCuisine = cuisineTag
+      ? rest.filter(
+          (r) =>
+            r.cuisines.some((c) => c.toLowerCase() === cuisineTag.toLowerCase()) ||
+            r.cuisine?.toLowerCase() === cuisineTag.toLowerCase()
+        )
+      : [];
+    const combined = [...sameCity, ...sameCuisine.filter((r) => !sameCity.includes(r))];
+    return combined.slice(0, limit);
+  } catch (error) {
+    console.error(`Error getting similar restaurants for slug: ${currentSlug}`, error);
+    return [];
+  }
 }
 

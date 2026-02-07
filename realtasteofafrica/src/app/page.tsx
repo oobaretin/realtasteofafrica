@@ -8,8 +8,13 @@ import { CUISINE_TAGS } from "@/lib/cuisines"
 import { getFeaturedRestaurants, RESTAURANTS } from "@/lib/restaurants"
 
 function toTelHref(phone: string) {
-  const digits = phone.replace(/[^\d+]/g, "")
-  return digits.startsWith("+") ? digits : `+${digits}`
+  try {
+    const digits = phone.replace(/[^\d+]/g, "");
+    return digits.startsWith("+") ? digits : `+${digits}`;
+  } catch (error) {
+    console.error("Error formatting phone number:", error);
+    return "";
+  }
 }
 
 function scoreRestaurant(r: (typeof RESTAURANTS)[number]) {

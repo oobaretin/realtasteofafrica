@@ -74,6 +74,11 @@ export const AREAS: Area[] = [
 ]
 
 export function getAreaBySlug(slug: string): Area | undefined {
-  return AREAS.find((a) => a.slug === slug)
+  try {
+    return AREAS.find((a) => a.slug === slug);
+  } catch (error) {
+    console.error(`Error finding area by slug: ${slug}`, error);
+    return undefined;
+  }
 }
 
