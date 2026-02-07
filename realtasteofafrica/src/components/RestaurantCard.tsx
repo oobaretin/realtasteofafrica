@@ -13,8 +13,13 @@ import { getBusinessStatus } from "@/lib/businessHours"
 import { VerifiedBadge } from "@/components/VerifiedBadge"
 
 function toTelHref(phone: string) {
-  const digits = phone.replace(/[^\d+]/g, "")
-  return digits.startsWith("+") ? digits : `+${digits}`
+  try {
+    const digits = phone.replace(/[^\d+]/g, "");
+    return digits.startsWith("+") ? digits : `+${digits}`;
+  } catch (error) {
+    console.error("Error formatting phone number:", error);
+    return "";
+  }
 }
 
 export function RestaurantCard({
