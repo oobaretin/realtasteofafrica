@@ -163,6 +163,19 @@ function toRestaurantRecord(row, idx) {
     String(row.internal_verified ?? row.internalVerified ?? "").toLowerCase() === "true" ||
     String(row.internal_verified ?? row.internalVerified ?? "").trim() === "1"
 
+  let hours
+  const hoursRaw = asOptionalString(row.hours)
+  if (hoursRaw) {
+    try {
+      const parsed = JSON.parse(hoursRaw)
+      if (parsed && typeof parsed === "object" && Object.keys(parsed).length > 0) {
+        hours = parsed
+      }
+    } catch (_) {
+      // ignore invalid JSON
+    }
+  }
+
   return {
     slug,
     name,
@@ -183,6 +196,7 @@ function toRestaurantRecord(row, idx) {
     highlights: finalHighlights,
     category,
     writeUp: normalizeWriteUp(row.writeUp),
+    hours,
   }
 }
 

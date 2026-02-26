@@ -9,6 +9,7 @@
     "start": "next start",
     "lint": "eslint .",
     "import:restaurants": "node scripts/import-restaurants-csv.mjs",
+    "merge:restaurants": "node scripts/merge-restaurants-csv.mjs",
     "export:restaurants:json": "node scripts/export-restaurants-json.mjs",
     "assign:cuisine": "node scripts/assign-cuisine-csv.mjs",
     "fetch:restaurants:osm": "node scripts/fetch-restaurants-osm.mjs",
