@@ -1,6 +1,6 @@
 "use client"
 
-import { useMemo, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 
 import { Badge } from "@/components/Badge"
 import { FilterBar } from "@/components/FilterBar"
@@ -65,6 +65,11 @@ export function RestaurantsBrowser({
   const [cuisine, setCuisine] = useState<string>(initialCuisine)
   const [category, setCategory] = useState<string>("All")
   const [sortBy, setSortBy] = useState<SortBy>("status")
+
+  useEffect(() => {
+    setAreaSlug(initialArea)
+    setCuisine(initialCuisine)
+  }, [initialArea, initialCuisine])
 
   const filterBarValues = useMemo(
     () => ({ category, region: areaSlug, cuisine }),

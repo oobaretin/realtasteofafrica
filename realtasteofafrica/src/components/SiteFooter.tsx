@@ -37,14 +37,18 @@ export function SiteFooter() {
 
           <div className="grid gap-2 text-sm">
             <div className="font-semibold text-slate-900">Texas Coverage</div>
-            <div className="flex flex-wrap gap-x-3 gap-y-1 text-slate-600">
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-slate-600">
               {TEXAS_COVERAGE.map(({ label, areaSlug }, i) => (
-                <span key={areaSlug}>
-                  <Link className="hover:text-slate-900" href={`/restaurants?area=${areaSlug}`}>
+                <span key={areaSlug} className="inline-flex items-center gap-x-3">
+                  <Link
+                    className="hover:text-slate-900 hover:underline"
+                    href={`/restaurants?area=${areaSlug}`}
+                    prefetch={true}
+                  >
                     {label}
                   </Link>
                   {i < TEXAS_COVERAGE.length - 1 ? (
-                    <span className="text-slate-300" aria-hidden> | </span>
+                    <span className="text-slate-300" aria-hidden>|</span>
                   ) : null}
                 </span>
               ))}
