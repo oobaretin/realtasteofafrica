@@ -5352,12 +5352,12 @@ export const RESTAURANTS: Restaurant[] = [
     "category": "Restaurant",
     "hours": {
       "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "Closed",
-      "Thursday": "Closed",
-      "Friday": "Closed",
-      "Saturday": "Closed",
-      "Sunday": "Closed"
+      "Tuesday": "10:30 AM - 8:00 PM",
+      "Wednesday": "10:30 AM - 8:00 PM",
+      "Thursday": "10:30 AM - 8:00 PM",
+      "Friday": "10:30 AM - 8:00 PM",
+      "Saturday": "10:30 AM - 8:00 PM",
+      "Sunday": "10:30 AM - 8:00 PM"
     }
   },
   {
