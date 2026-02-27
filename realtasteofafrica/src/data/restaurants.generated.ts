@@ -299,15 +299,24 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "12703 Alief Clodine Rd, Houston TX 77082",
+    "addressLine": "12703 Alief Clodine Rd #101, Houston TX 77082",
     "phone": "(832) 303-4591",
     "websiteUrl": "https://abulahotpottx.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=12703%20Alief%20Clodine%20Rd%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=12703%20Alief%20Clodine%20Rd%20%23101%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Nigerian"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "10:00 AM - 10:00 PM",
+      "Tuesday": "10:00 AM - 10:00 PM",
+      "Wednesday": "10:00 AM - 10:00 PM",
+      "Thursday": "10:00 AM - 10:00 PM",
+      "Friday": "10:00 AM - 10:00 PM",
+      "Saturday": "10:00 AM - 10:00 PM",
+      "Sunday": "12:00 PM - 8:00 PM"
+    }
   },
   {
     "slug": "unique-african-cuisine-houston-tx",
@@ -638,7 +647,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Delivery"
     ],
     "category": "Restaurant",
-    "writeUp": "Nigerian / African comfort food in Sugar Land. Delivery may be available — confirm on their website or delivery apps."
+    "writeUp": "Nigerian / African comfort food in Sugar Land. Delivery may be available — confirm on their website or delivery apps.",
+    "hours": {
+      "Monday": "12:00 PM - 9:00 PM",
+      "Tuesday": "12:00 PM - 9:00 PM",
+      "Wednesday": "12:00 PM - 9:00 PM",
+      "Thursday": "12:00 PM - 9:00 PM",
+      "Friday": "12:00 PM - 9:00 PM",
+      "Saturday": "12:00 PM - 9:00 PM",
+      "Sunday": "12:00 PM - 9:00 PM"
+    }
   },
   {
     "slug": "feydups-kitchen-sugar-land-tx",
@@ -651,14 +669,23 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "sugar-land",
     "city": "Sugar Land",
     "state": "TX",
-    "addressLine": "1055 Eldridge Rd Suite 400, Sugar Land TX 77478",
+    "addressLine": "1055 Eldridge Rd #400, Sugar Land TX 77478",
     "phone": "(281) 201-2502",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1055%20Eldridge%20Rd%20Suite%20400%2C%20Sugar%20Land%20TX%2077478%2C%20Sugar%20Land%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=1055%20Eldridge%20Rd%20%23400%2C%20Sugar%20Land%20TX%2077478%2C%20Sugar%20Land%2C%20TX",
     "highlights": [
       "Nigerian",
       "African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "jollofbeans-llc-sugar-land-tx",
@@ -671,15 +698,24 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "sugar-land",
     "city": "Sugar Land",
     "state": "TX",
-    "addressLine": "11420 Dairy Ashford Rd Suite 104B, Sugar Land TX 77478",
+    "addressLine": "11420 Dairy Ashford Rd, Sugar Land TX 77478",
     "phone": "(281) 683-7944",
     "websiteUrl": "http://www.jollofbeans.com",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=11420%20Dairy%20Ashford%20Rd%20Suite%20104B%2C%20Sugar%20Land%20TX%2077478%2C%20Sugar%20Land%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=11420%20Dairy%20Ashford%20Rd%2C%20Sugar%20Land%20TX%2077478%2C%20Sugar%20Land%2C%20TX",
     "highlights": [
       "Nigerian",
       "West African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "12:00 PM - 8:00 PM",
+      "Tuesday": "12:00 PM - 8:00 PM",
+      "Wednesday": "12:00 PM - 8:00 PM",
+      "Thursday": "12:00 PM - 8:00 PM",
+      "Friday": "12:00 PM - 8:00 PM",
+      "Saturday": "12:00 PM - 8:00 PM",
+      "Sunday": "12:00 PM - 8:00 PM"
+    }
   },
   {
     "slug": "amala-manny-foods-sugar-land-tx",
@@ -699,7 +735,16 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Nigerian"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "9:00 AM - 7:00 PM",
+      "Tuesday": "9:00 AM - 7:00 PM",
+      "Wednesday": "9:00 AM - 7:00 PM",
+      "Thursday": "9:00 AM - 7:00 PM",
+      "Friday": "9:00 AM - 7:00 PM",
+      "Saturday": "9:00 AM - 7:00 PM",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "zongo-richmond-tx",
@@ -927,7 +972,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Delivery"
     ],
     "category": "Market + Kitchen",
-    "writeUp": "African / West African favorites (suya, jollof and more). Delivery is often available in El Paso via Uber Eats and DoorDash — check the apps for current hours and coverage."
+    "writeUp": "African / West African favorites (suya, jollof and more). Delivery is often available in El Paso via Uber Eats and DoorDash — check the apps for current hours and coverage.",
+    "hours": {
+      "Monday": "11:00 AM - 8:00 PM",
+      "Tuesday": "11:00 AM - 8:00 PM",
+      "Wednesday": "11:00 AM - 8:00 PM",
+      "Thursday": "11:00 AM - 8:00 PM",
+      "Friday": "11:00 AM - 8:00 PM",
+      "Saturday": "11:00 AM - 8:00 PM",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "dhut-african-restaurant-el-paso-tx",
@@ -939,7 +993,7 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "el-paso",
     "city": "El Paso",
     "state": "TX",
-    "addressLine": "5757 Will Ruth Ave Ste 310, El Paso TX 79924",
+    "addressLine": "5757 Will Ruth Ave #310, El Paso TX 79924",
     "phone": "(915) 307-3343",
     "websiteUrl": "https://dhutafrican.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=5757%20Will%20Ruth%20Ave%20Ste%20310%2C%20El%20Paso%20TX%2079924",
@@ -947,7 +1001,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Delivery"
     ],
     "category": "Restaurant",
-    "writeUp": "African food in El Paso. Delivery may be available via third-party platforms — check delivery apps for current availability."
+    "writeUp": "African food in El Paso. Delivery may be available via third-party platforms — check delivery apps for current availability.",
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "12:00 PM - 7:00 PM"
+    }
   },
   {
     "slug": "debizz-kitchen-el-paso-tx",
@@ -989,7 +1052,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Restaurant"
     ],
     "category": "Restaurant",
-    "writeUp": "African / Nigerian bar & restaurant in Lubbock. Delivery may be available via DoorDash or Uber Eats — check the apps for current availability."
+    "writeUp": "African / Nigerian bar & restaurant in Lubbock. Delivery may be available via DoorDash or Uber Eats — check the apps for current availability.",
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 11:00 PM",
+      "Saturday": "11:00 AM - 11:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    }
   },
   {
     "slug": "bettys-kitchen-abilene-tx",
@@ -1007,7 +1079,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 AM - 7:00 PM",
+      "Tuesday": "11:00 AM - 7:00 PM",
+      "Wednesday": "11:00 AM - 7:00 PM",
+      "Thursday": "11:00 AM - 7:00 PM",
+      "Friday": "11:00 AM - 7:00 PM",
+      "Saturday": "12:00 PM - 5:00 PM",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "afrospice-authentic-african-food-in-the-rgv-mcallen-tx",
@@ -1067,7 +1148,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Also listed as African Safari Restaurant"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "7:30 AM - 11:00 PM",
+      "Tuesday": "7:30 AM - 11:00 PM",
+      "Wednesday": "7:30 AM - 11:00 PM",
+      "Thursday": "7:30 AM - 11:00 PM",
+      "Friday": "7:30 AM - 11:00 PM",
+      "Saturday": "7:30 AM - 11:00 PM",
+      "Sunday": "7:30 AM - 11:00 PM"
+    }
   },
   {
     "slug": "felicias-african-food-llc-amarillo-tx",
@@ -1090,7 +1180,16 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Nigerian"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 AM - 8:00 PM",
+      "Tuesday": "11:00 AM - 8:00 PM",
+      "Wednesday": "11:00 AM - 8:00 PM",
+      "Thursday": "11:00 AM - 8:00 PM",
+      "Friday": "11:00 AM - 8:00 PM",
+      "Saturday": "11:00 AM - 8:00 PM",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "somali-restaurant-bulsho-amarillo-tx",
@@ -1111,7 +1210,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Somali",
       "African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "8:00 AM - 10:00 PM",
+      "Tuesday": "8:00 AM - 10:00 PM",
+      "Wednesday": "8:00 AM - 10:00 PM",
+      "Thursday": "8:00 AM - 10:00 PM",
+      "Friday": "8:00 AM - 10:00 PM",
+      "Saturday": "8:00 AM - 10:00 PM",
+      "Sunday": "8:00 AM - 10:00 PM"
+    }
   },
   {
     "slug": "marhaba-eritrean-and-ethiopian-cuisine-and-market-amarillo-tx",
@@ -1151,7 +1259,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    }
   },
   {
     "slug": "dakar-street-food-ghost-kitchen-houston-tx",
@@ -1228,7 +1345,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "12:00 PM - 9:00 PM",
+      "Wednesday": "12:00 PM - 9:00 PM",
+      "Thursday": "12:00 PM - 9:00 PM",
+      "Friday": "12:00 PM - 9:00 PM",
+      "Saturday": "12:00 PM - 9:00 PM",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "ejide-african-restaurant-and-bar-houston-tx",
@@ -1324,13 +1450,22 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "13655 Bissonnet St Suite 204, Houston TX 77083",
+    "addressLine": "13655 Bissonnet St #204, Houston TX 77083",
     "phone": "(346) 774-2122",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=13655%20Bissonnet%20St%20Suite%20204%2C%20Houston%20TX%2077083%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=13655%20Bissonnet%20St%20%23204%2C%20Houston%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "1:00 PM - 8:00 PM"
+    }
   },
   {
     "slug": "suya-on-the-spot-houston-tx",
@@ -1373,14 +1508,23 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "11810 Bellaire Blvd Ste A, Houston TX 77072",
+    "addressLine": "11810 Bellaire Blvd #A, Houston TX 77072",
     "phone": "(713) 981-8818",
     "websiteUrl": "https://fufurestaurant.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=11810%20Bellaire%20Blvd%20Ste%20A%2C%20Houston%20TX%2077072%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=11810%20Bellaire%20Blvd%20%23A%2C%20Houston%20TX%2077072%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 AM - 2:00 AM",
+      "Tuesday": "11:00 AM - 2:00 AM",
+      "Wednesday": "11:00 AM - 2:00 AM",
+      "Thursday": "11:00 AM - 2:00 AM",
+      "Friday": "11:00 AM - 2:00 AM",
+      "Saturday": "11:00 AM - 2:00 AM",
+      "Sunday": "11:00 AM - 2:00 AM"
+    }
   },
   {
     "slug": "komchop-houston-tx",
@@ -1452,15 +1596,24 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "9755 S Kirkwood Rd D, Houston TX 77099",
+    "addressLine": "9755 S Kirkwood Rd #D, Houston TX 77099",
     "phone": "(281) 968-1810",
     "websiteUrl": "https://aliefafricanfoodkitchen.shopsettings.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9755%20S%20Kirkwood%20Rd%20D%2C%20Houston%20TX%2077099%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=9755%20S%20Kirkwood%20Rd%20%23D%2C%20Houston%20TX%2077099%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "9:00 AM - 9:00 PM",
+      "Tuesday": "9:00 AM - 9:00 PM",
+      "Wednesday": "9:00 AM - 9:00 PM",
+      "Thursday": "9:00 AM - 9:00 PM",
+      "Friday": "9:00 AM - 9:00 PM",
+      "Saturday": "9:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 7:00 PM"
+    }
   },
   {
     "slug": "desta-ethiopian-restaurant-dallas-tx",
@@ -1479,7 +1632,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Ethiopian"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "10:00 AM - 10:00 PM",
+      "Tuesday": "10:00 AM - 10:00 PM",
+      "Wednesday": "10:00 AM - 10:00 PM",
+      "Thursday": "10:00 AM - 10:00 PM",
+      "Friday": "10:00 AM - 11:00 PM",
+      "Saturday": "10:00 AM - 11:00 PM",
+      "Sunday": "10:00 AM - 9:00 PM"
+    }
   },
   {
     "slug": "lalibela-ethiopian-restaurant-dallas-tx",
@@ -1498,7 +1660,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Ethiopian"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:30 AM - 12:00 AM",
+      "Tuesday": "11:30 AM - 12:00 AM",
+      "Wednesday": "11:30 AM - 12:00 AM",
+      "Thursday": "11:30 AM - 12:00 AM",
+      "Friday": "11:30 AM - 12:00 AM",
+      "Saturday": "11:30 AM - 12:00 AM",
+      "Sunday": "2:00 PM - 12:00 AM"
+    }
   },
   {
     "slug": "addis-abeba-ethiopian-restaurant-richardson-tx",
@@ -1510,14 +1681,23 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "dfw",
     "city": "Richardson",
     "state": "TX",
-    "addressLine": "100 Central Expy Ste 65, Richardson TX 75080",
+    "addressLine": "100 Central Expy #65, Richardson TX 75080",
     "phone": "(469) 319-9604",
     "websiteUrl": "https://addisabebarestauranttx.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=100%20Central%20Expy%20Ste%2065%2C%20Richardson%20TX%2075080%2C%20Richardson%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=100%20Central%20Expy%20%2365%2C%20Richardson%20TX%2075080%2C%20Richardson%2C%20TX",
     "highlights": [
       "Ethiopian"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    }
   },
   {
     "slug": "west-african-way-plano-tx",
@@ -1616,15 +1796,24 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "dfw",
     "city": "McKinney",
     "state": "TX",
-    "addressLine": "5121 Collin McKinney Pkwy #1100, McKinney TX 75070",
+    "addressLine": "5121 Collin McKinney Pkwy, McKinney TX 75070",
     "phone": "(214) 226-7815",
     "websiteUrl": "http://osumasuya.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5121%20Collin%20McKinney%20Pkwy%20%231100%2C%20McKinney%20TX%2075070%2C%20McKinney%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=5121%20Collin%20McKinney%20Pkwy%2C%20McKinney%20TX%2075070%2C%20McKinney%2C%20TX",
     "highlights": [
       "Nigerian",
       "Suya"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "2:00 PM - 8:00 PM",
+      "Thursday": "2:00 PM - 8:00 PM",
+      "Friday": "2:00 PM - 8:00 PM",
+      "Saturday": "2:00 PM - 8:00 PM",
+      "Sunday": "1:00 PM - 7:00 PM"
+    }
   },
   {
     "slug": "osuma-suya-houston-tx",
@@ -1637,15 +1826,24 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "3306 Highway 6 S Unit 100, Houston TX 77082",
+    "addressLine": "3306 Highway 6 S #100, Houston TX 77082",
     "phone": "(346) 357-3778",
     "websiteUrl": "http://osumasuya.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3306%20Highway%206%20S%20Unit%20100%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=3306%20Highway%206%20S%20%23100%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "Nigerian",
       "Suya"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "2:00 PM - 10:00 PM",
+      "Tuesday": "2:00 PM - 10:00 PM",
+      "Wednesday": "2:00 PM - 10:00 PM",
+      "Thursday": "2:00 PM - 10:00 PM",
+      "Friday": "2:00 PM - 10:00 PM",
+      "Saturday": "2:00 PM - 10:00 PM",
+      "Sunday": "2:00 PM - 10:00 PM"
+    }
   },
   {
     "slug": "suya-stop-inc-grand-prairie-tx",
@@ -1666,7 +1864,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "Suya"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "2:00 PM - 9:00 PM",
+      "Tuesday": "2:00 PM - 9:00 PM",
+      "Wednesday": "2:00 PM - 9:00 PM",
+      "Thursday": "2:00 PM - 9:00 PM",
+      "Friday": "2:00 PM - 9:00 PM",
+      "Saturday": "2:00 PM - 9:00 PM",
+      "Sunday": "4:00 PM - 8:00 PM"
+    }
   },
   {
     "slug": "the-spot-rhosabjal-african-cuisine-fort-worth-tx",
@@ -1788,7 +1995,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Catering"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 AM - 8:00 PM",
+      "Tuesday": "11:00 AM - 8:00 PM",
+      "Wednesday": "11:00 AM - 8:00 PM",
+      "Thursday": "11:00 AM - 8:00 PM",
+      "Friday": "11:00 AM - 8:00 PM",
+      "Saturday": "11:00 AM - 8:00 PM",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "uncle-gz-flavors-haltom-city-tx",
@@ -1806,7 +2022,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 AM - 8:00 PM",
+      "Wednesday": "11:00 AM - 8:00 PM",
+      "Thursday": "11:00 AM - 8:00 PM",
+      "Friday": "11:00 AM - 8:00 PM",
+      "Saturday": "11:00 AM - 8:00 PM",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "tam-tam-zings-bar-and-grill-richland-hills-tx",
@@ -1826,7 +2051,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Fusion"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "5:00 PM - 12:00 AM",
+      "Friday": "5:00 PM - 2:00 AM",
+      "Saturday": "5:00 PM - 2:00 AM",
+      "Sunday": "5:00 PM - 12:00 AM"
+    }
   },
   {
     "slug": "osuma-suya-euless-tx",
@@ -1896,7 +2130,16 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Nigerian"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 AM - 9:30 PM",
+      "Wednesday": "11:00 AM - 9:30 PM",
+      "Thursday": "11:00 AM - 9:30 PM",
+      "Friday": "11:00 AM - 9:30 PM",
+      "Saturday": "11:00 AM - 9:30 PM",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "african-pride-food-and-kitchen-arlington-tx",
@@ -1914,7 +2157,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "10:00 AM - 9:00 PM",
+      "Tuesday": "10:00 AM - 9:00 PM",
+      "Wednesday": "10:00 AM - 9:00 PM",
+      "Thursday": "10:00 AM - 9:00 PM",
+      "Friday": "10:00 AM - 9:00 PM",
+      "Saturday": "10:00 AM - 9:00 PM",
+      "Sunday": "12:00 PM - 8:00 PM"
+    }
   },
   {
     "slug": "cheftemii-nigerian-restaurant-and-catering-arlington-tx",
@@ -1964,7 +2216,16 @@ export const RESTAURANTS: Restaurant[] = [
       "African",
       "Suya"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 AM - 10:00 PM",
+      "Tuesday": "11:00 AM - 10:00 PM",
+      "Wednesday": "11:00 AM - 10:00 PM",
+      "Thursday": "11:00 AM - 10:00 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "11:00 AM - 10:00 PM"
+    }
   },
   {
     "slug": "angie-winners-kitchen-arlington-tx",
@@ -1976,14 +2237,23 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "dfw",
     "city": "Arlington",
     "state": "TX",
-    "addressLine": "2905 E Arkansas Ln Ste 100, Arlington TX 76010",
+    "addressLine": "2905 E Arkansas Ln #100, Arlington TX 76010",
     "phone": "(972) 854-6161",
     "websiteUrl": "https://angiewinnerskitchen.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2905%20E%20Arkansas%20Ln%20Ste%20100%2C%20Arlington%20TX%2076010%2C%20Arlington%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2905%20E%20Arkansas%20Ln%20%23100%2C%20Arlington%20TX%2076010%2C%20Arlington%2C%20TX",
     "highlights": [
       "African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 AM - 8:30 PM",
+      "Tuesday": "11:00 AM - 8:30 PM",
+      "Wednesday": "11:00 AM - 8:30 PM",
+      "Thursday": "11:00 AM - 8:30 PM",
+      "Friday": "11:00 AM - 8:30 PM",
+      "Saturday": "11:00 AM - 8:30 PM",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "yemsade-restaurant-grand-prairie-tx",
@@ -2087,7 +2357,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Food truck"
     ],
-    "category": "Food Truck"
+    "category": "Food Truck",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "5:00 PM - 10:00 PM",
+      "Wednesday": "5:00 PM - 10:00 PM",
+      "Thursday": "5:00 PM - 10:00 PM",
+      "Friday": "12:00 PM - 12:00 AM",
+      "Saturday": "12:00 PM - 12:00 AM",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "oringo-africana-san-antonio-tx",
@@ -2140,13 +2419,13 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     "category": "Restaurant",
     "hours": {
-      "Monday": "11:00 am - 9:00 pm",
-      "Tuesday": "11:00 am - 9:00 pm",
-      "Wednesday": "11:00 am - 9:00 pm",
-      "Thursday": "11:00 am - 9:00 pm",
-      "Friday": "11:00 am - 9:00 pm",
-      "Saturday": "11:00 am - 9:00 pm",
-      "Sunday": "12:00 - 6:00 pm"
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "12:00 PM - 6:00 PM"
     }
   },
   {
@@ -2160,13 +2439,22 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "austin",
     "city": "Austin",
     "state": "TX",
-    "addressLine": "10805 N Lamar Blvd Ste J, Austin TX 78753",
+    "addressLine": "10805 N Lamar Blvd #J, Austin TX 78753",
     "phone": "(512) 351-9311",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=10805%20N%20Lamar%20Blvd%20Ste%20J%2C%20Austin%20TX%2078753%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=10805%20N%20Lamar%20Blvd%20%23J%2C%20Austin%20TX%2078753%2C%20Austin%2C%20TX",
     "highlights": [
       "Market"
     ],
-    "category": "Market"
+    "category": "Market",
+    "hours": {
+      "Monday": "9:00 AM - 10:00 PM",
+      "Tuesday": "9:00 AM - 10:00 PM",
+      "Wednesday": "9:00 AM - 10:00 PM",
+      "Thursday": "9:00 AM - 10:00 PM",
+      "Friday": "9:00 AM - 10:00 PM",
+      "Saturday": "9:00 AM - 10:00 PM",
+      "Sunday": "10:00 AM - 9:00 PM"
+    }
   },
   {
     "slug": "red-sea-kitchen-ethiopian-food-truck-austin-tx",
@@ -2187,7 +2475,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Food truck"
     ],
-    "category": "Food Truck"
+    "category": "Food Truck",
+    "hours": {
+      "Monday": "12:00 PM - 12:00 AM",
+      "Tuesday": "12:00 PM - 12:00 AM",
+      "Wednesday": "12:00 PM - 12:00 AM",
+      "Thursday": "12:00 PM - 12:00 AM",
+      "Friday": "2:00 PM - 2:00 AM",
+      "Saturday": "2:00 PM - 2:00 AM",
+      "Sunday": "12:00 PM - 12:00 AM"
+    }
   },
   {
     "slug": "amen-cafe-eritrean-and-ethiopian-san-antonio-tx",
@@ -2208,7 +2505,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Ethiopian",
       "Eritrean"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "10:00 AM - 9:00 PM",
+      "Wednesday": "10:00 AM - 9:00 PM",
+      "Thursday": "10:00 AM - 9:00 PM",
+      "Friday": "10:00 AM - 11:00 PM",
+      "Saturday": "10:00 AM - 11:00 PM",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "african-village-ethiopian-restaurant-san-antonio-tx",
@@ -2327,7 +2633,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Ethiopian"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 AM - 10:00 PM",
+      "Tuesday": "11:00 AM - 10:00 PM",
+      "Wednesday": "11:00 AM - 10:00 PM",
+      "Thursday": "11:00 AM - 10:00 PM",
+      "Friday": "11:00 AM - 12:00 AM",
+      "Saturday": "11:00 AM - 12:00 AM",
+      "Sunday": "11:00 AM - 10:00 PM"
+    }
   },
   {
     "slug": "trices-cafe-and-lounge-san-antonio-tx",
@@ -2368,15 +2683,24 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "dfw",
     "city": "Mansfield",
     "state": "TX",
-    "addressLine": "2881 FM157 Suit 103, Mansfield TX 76063",
+    "addressLine": "2881 FM157 #103, Mansfield TX 76063",
     "phone": "(682) 323-7609",
     "websiteUrl": "http://www.tasteafrik.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2881%20FM157%20Suit%20103%2C%20Mansfield%20TX%2076063%2C%20Mansfield%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2881%20FM157%20%23103%2C%20Mansfield%20TX%2076063%2C%20Mansfield%2C%20TX",
     "highlights": [
       "African",
       "West African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "9:00 AM - 10:00 PM",
+      "Saturday": "9:00 AM - 10:00 PM",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "cubana-grille-african-and-jamaican-restaurant-in-mckinney-texas-mckinney-tx",
@@ -2390,16 +2714,25 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "dfw",
     "city": "McKinney",
     "state": "TX",
-    "addressLine": "4051 S Custer Rd Suite 1160, McKinney TX 75070",
+    "addressLine": "4051 S Custer Rd #1160, McKinney TX 75070",
     "phone": "(214) 548-4821",
     "websiteUrl": "https://cubanagrille.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=4051%20S%20Custer%20Rd%20Suite%201160%2C%20McKinney%20TX%2075070%2C%20McKinney%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=4051%20S%20Custer%20Rd%20%231160%2C%20McKinney%20TX%2075070%2C%20McKinney%2C%20TX",
     "highlights": [
       "West African",
       "Jamaican",
       "Caribbean"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 AM - 10:00 PM",
+      "Wednesday": "11:00 AM - 10:00 PM",
+      "Thursday": "11:00 AM - 10:00 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "12:00 PM - 9:00 PM"
+    }
   },
   {
     "slug": "aunty-mimis-kitchen-killeen-tx",
@@ -2411,14 +2744,23 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "central-texas",
     "city": "Killeen",
     "state": "TX",
-    "addressLine": "3804 W Stan Schlueter Loop #102, Killeen TX 76549",
+    "addressLine": "3804 W Stan Schlueter #102, Killeen TX 76549",
     "phone": "(254) 213-3152",
     "websiteUrl": "https://auntymimiskitchen.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3804%20W%20Stan%20Schlueter%20Loop%20%23102%2C%20Killeen%20TX%2076549%2C%20Killeen%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=3804%20W%20Stan%20Schlueter%20%23102%2C%20Killeen%20TX%2076549%2C%20Killeen%2C%20TX",
     "highlights": [
       "African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 AM - 8:00 PM",
+      "Tuesday": "11:00 AM - 8:00 PM",
+      "Wednesday": "11:00 AM - 8:00 PM",
+      "Thursday": "11:00 AM - 8:00 PM",
+      "Friday": "11:00 AM - 8:00 PM",
+      "Saturday": "11:00 AM - 8:00 PM",
+      "Sunday": "11:00 AM - 6:00 PM"
+    }
   },
   {
     "slug": "ubuntu-cuisine-san-antonio-tx",
@@ -2465,7 +2807,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "7:00 AM - 9:00 PM",
+      "Tuesday": "7:00 AM - 9:00 PM",
+      "Wednesday": "7:00 AM - 9:00 PM",
+      "Thursday": "7:00 AM - 9:00 PM",
+      "Friday": "7:00 AM - 9:00 PM",
+      "Saturday": "7:00 AM - 9:00 PM",
+      "Sunday": "7:00 AM - 8:00 PM"
+    }
   },
   {
     "slug": "mgbeke-village-hut-nigerian-cuisine-leander-tx",
@@ -2500,13 +2851,22 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "McKinney",
     "state": "TX",
     "addressLine": "1502 W University Dr, McKinney TX 75069",
-    "phone": "(469) 666-4144",
+    "phone": "(469) 714-0034",
     "websiteUrl": "https://blessliz.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=1502%20W%20University%20Dr%2C%20McKinney%20TX%2075069%2C%20McKinney%2C%20TX",
     "highlights": [
       "Market-Kitchen"
     ],
-    "category": "Market + Kitchen"
+    "category": "Market + Kitchen",
+    "hours": {
+      "Monday": "11:00 AM - 8:00 PM",
+      "Tuesday": "11:00 AM - 8:00 PM",
+      "Wednesday": "11:00 AM - 8:00 PM",
+      "Thursday": "11:00 AM - 8:00 PM",
+      "Friday": "11:00 AM - 8:00 PM",
+      "Saturday": "11:00 AM - 8:00 PM",
+      "Sunday": "2:00 PM - 6:00 PM"
+    }
   },
   {
     "slug": "suya-power-house-missouri-city-tx",
@@ -2586,7 +2946,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "6:00 PM - 10:00 PM",
+      "Wednesday": "6:00 PM - 10:00 PM",
+      "Thursday": "6:00 PM - 10:00 PM",
+      "Friday": "6:00 PM - 2:00 AM",
+      "Saturday": "6:00 PM - 2:00 AM",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "glozi-calabar-restaurant-and-african-cuisine-houston-tx",
@@ -2744,7 +3113,16 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Steakhouse"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "10:00 AM - 2:00 AM",
+      "Wednesday": "10:00 AM - 2:00 AM",
+      "Thursday": "10:00 AM - 2:00 AM",
+      "Friday": "10:00 AM - 2:00 AM",
+      "Saturday": "10:00 AM - 2:00 AM",
+      "Sunday": "10:00 AM - 2:00 AM"
+    }
   },
   {
     "slug": "vioni-grill-houston-tx",
@@ -2757,14 +3135,23 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "2703 S Texas 6 Suite 127, Houston TX 77082",
+    "addressLine": "2703 S Texas 6 #127, Houston TX 77082",
     "phone": "(832) 328-1188",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2703%20S%20Texas%206%20Suite%20127%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2703%20S%20Texas%206%20%23127%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Grill"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "1:00 PM - 10:00 PM",
+      "Wednesday": "1:00 PM - 10:00 PM",
+      "Thursday": "1:00 PM - 10:00 PM",
+      "Friday": "1:00 PM - 10:00 PM",
+      "Saturday": "1:00 PM - 10:00 PM",
+      "Sunday": "1:00 PM - 10:00 PM"
+    }
   },
   {
     "slug": "crave-suya-houston-tx",
@@ -2806,13 +3193,22 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "3533 S Dairy Ashford Rd Suite I, Houston TX 77082",
+    "addressLine": "3533 S Dairy Ashford Rd, Houston TX 77082",
     "phone": "(346) 335-7181",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3533%20S%20Dairy%20Ashford%20Rd%20Suite%20I%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=3533%20S%20Dairy%20Ashford%20Rd%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 AM - 2:00 AM",
+      "Tuesday": "11:00 AM - 2:00 AM",
+      "Wednesday": "11:00 AM - 2:00 AM",
+      "Thursday": "11:00 AM - 2:00 AM",
+      "Friday": "11:00 AM - 2:00 AM",
+      "Saturday": "11:00 AM - 2:00 AM",
+      "Sunday": "12:00 PM - 11:00 PM"
+    }
   },
   {
     "slug": "famous-princess-african-kitchen-houston-tx",
@@ -2853,13 +3249,22 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "7030 Addicks Clodine Rd #101, Houston TX 77083",
+    "addressLine": "7030 Addicks Clodine Rd, Houston TX 77083",
     "phone": "(346) 391-1656",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=7030%20Addicks%20Clodine%20Rd%20%23101%2C%20Houston%20TX%2077083%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=7030%20Addicks%20Clodine%20Rd%2C%20Houston%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "12:00 PM - 9:00 PM",
+      "Tuesday": "12:00 PM - 9:00 PM",
+      "Wednesday": "12:00 PM - 9:00 PM",
+      "Thursday": "12:00 PM - 9:00 PM",
+      "Friday": "12:00 PM - 9:00 PM",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "dee-titolat-african-restaurant-houston-tx",
@@ -2871,13 +3276,22 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "11965 Bissonnet St Ste 110, Houston TX",
+    "addressLine": "11965 Bissonnet St #110, Houston TX",
     "phone": "(713) 234-7186",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=11965%20Bissonnet%20St%20Ste%20110%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=11965%20Bissonnet%20St%20%23110%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "9:00 AM - 8:30 PM",
+      "Tuesday": "9:00 AM - 8:30 PM",
+      "Wednesday": "9:00 AM - 8:30 PM",
+      "Thursday": "9:00 AM - 8:30 PM",
+      "Friday": "9:00 AM - 8:30 PM",
+      "Saturday": "9:00 AM - 8:30 PM",
+      "Sunday": "12:00 PM - 7:00 PM"
+    }
   },
   {
     "slug": "ewatomi-houston-tx",
@@ -2947,15 +3361,24 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "sugar-land",
     "city": "Richmond",
     "state": "TX",
-    "addressLine": "7039 FM 1464 Suite 110, Richmond TX 77407",
+    "addressLine": "7039 FM 1464 #110, Richmond TX 77407",
     "phone": "(832) 539-1605",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=7039%20FM%201464%20Suite%20110%2C%20Richmond%20TX%2077407%2C%20Richmond%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=7039%20FM%201464%20%23110%2C%20Richmond%20TX%2077407%2C%20Richmond%2C%20TX",
     "highlights": [
       "West African",
       "Suya",
       "Seafood"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "2:00 PM - 11:00 PM",
+      "Wednesday": "2:00 PM - 11:00 PM",
+      "Thursday": "2:00 PM - 11:00 PM",
+      "Friday": "2:00 PM - 11:00 PM",
+      "Saturday": "2:00 PM - 11:00 PM",
+      "Sunday": "11:00 AM - 5:00 PM"
+    }
   },
   {
     "slug": "chef-benny-houston-tx",
@@ -2975,7 +3398,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Curbside pickup",
       "Delivery"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "12:00 PM - 12:00 AM",
+      "Tuesday": "12:00 PM - 12:00 AM",
+      "Wednesday": "12:00 PM - 12:00 AM",
+      "Thursday": "12:00 PM - 12:00 AM",
+      "Friday": "12:00 PM - 12:00 AM",
+      "Saturday": "12:00 PM - 12:00 AM",
+      "Sunday": "12:00 PM - 12:00 AM"
+    }
   },
   {
     "slug": "042-restaurant-houston-tx",
@@ -3013,7 +3445,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "10:00 AM - 9:00 PM",
+      "Tuesday": "10:00 AM - 9:00 PM",
+      "Wednesday": "10:00 AM - 9:00 PM",
+      "Thursday": "10:00 AM - 9:00 PM",
+      "Friday": "10:00 AM - 9:00 PM",
+      "Saturday": "10:00 AM - 9:00 PM",
+      "Sunday": "10:00 AM - 8:00 PM"
+    }
   },
   {
     "slug": "grill-master-african-restaurant-houston-tx",
@@ -3045,13 +3486,22 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "14165 Bissonnet St Suite P, Houston TX",
+    "addressLine": "14165 Bissonnet St #P, Houston TX",
     "phone": "(281) 835-4574",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=14165%20Bissonnet%20St%20Suite%20P%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=14165%20Bissonnet%20St%20%23P%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "12:00 PM - 7:00 PM"
+    }
   },
   {
     "slug": "traditional-food-restaurant-houston-tx",
@@ -3090,13 +3540,22 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "18311 Clay Rd Suite A4, Houston TX",
+    "addressLine": "18311 Clay Rd #A4, Houston TX",
     "phone": "(346) 252-2445",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=18311%20Clay%20Rd%20Suite%20A4%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=18311%20Clay%20Rd%20%23A4%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "9:00 AM - 9:00 PM",
+      "Tuesday": "9:00 AM - 9:00 PM",
+      "Wednesday": "9:00 AM - 9:00 PM",
+      "Thursday": "9:00 AM - 9:00 PM",
+      "Friday": "9:00 AM - 9:00 PM",
+      "Saturday": "9:00 AM - 9:00 PM",
+      "Sunday": "12:00 PM - 9:00 PM"
+    }
   },
   {
     "slug": "the-afro-eatery-houston-tx",
@@ -3115,7 +3574,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Dine-in",
       "Takeout"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 6:00 PM"
+    }
   },
   {
     "slug": "mama-jollof-restaurant-houston-tx",
@@ -3190,7 +3658,16 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Seafood"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "7:30 AM - 8:00 PM",
+      "Tuesday": "7:30 AM - 8:00 PM",
+      "Wednesday": "7:30 AM - 8:00 PM",
+      "Thursday": "7:30 AM - 8:00 PM",
+      "Friday": "7:30 AM - 8:00 PM",
+      "Saturday": "7:30 AM - 8:00 PM",
+      "Sunday": "3:00 PM - 9:00 PM"
+    }
   },
   {
     "slug": "horn-of-africa-houston-tx",
@@ -3264,7 +3741,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Dine-in",
       "Takeout"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "6:00 PM - 2:00 AM",
+      "Tuesday": "6:00 PM - 2:00 AM",
+      "Wednesday": "6:00 PM - 2:00 AM",
+      "Thursday": "6:00 PM - 2:00 AM",
+      "Friday": "6:00 PM - 2:00 AM",
+      "Saturday": "6:00 PM - 2:00 AM",
+      "Sunday": "6:00 PM - 2:00 AM"
+    }
   },
   {
     "slug": "the-motherland-restaurant-and-grill-houston-tx",
@@ -3276,13 +3762,22 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "10101 Bissonnet St Ste F, Houston TX",
+    "addressLine": "10101 Bissonnet St #F, Houston TX",
     "phone": "(281) 888-9717",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=10101%20Bissonnet%20St%20Ste%20F%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=10101%20Bissonnet%20St%20%23F%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "9:00 AM - 11:00 PM",
+      "Tuesday": "9:00 AM - 11:00 PM",
+      "Wednesday": "9:00 AM - 11:00 PM",
+      "Thursday": "9:00 AM - 11:00 PM",
+      "Friday": "9:00 AM - 11:00 PM",
+      "Saturday": "9:00 AM - 11:00 PM",
+      "Sunday": "9:00 AM - 11:00 PM"
+    }
   },
   {
     "slug": "osite-african-hot-pot-houston-tx",
@@ -3302,7 +3797,16 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Hot Pot"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "10:00 AM - 11:00 PM",
+      "Tuesday": "10:00 AM - 11:00 PM",
+      "Wednesday": "10:00 AM - 11:00 PM",
+      "Thursday": "10:00 AM - 11:00 PM",
+      "Friday": "10:00 AM - 11:00 PM",
+      "Saturday": "10:00 AM - 11:00 PM",
+      "Sunday": "10:00 AM - 11:00 PM"
+    }
   },
   {
     "slug": "eko-bistro-fusion-houston-tx",
@@ -3325,7 +3829,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Delivery"
     ],
     "category": "Restaurant",
-    "writeUp": "Tex-Naija (Nigerian-inspired) fusion in Houston. Dine-in and takeout are available; delivery options may be available via third-party platforms."
+    "writeUp": "Tex-Naija (Nigerian-inspired) fusion in Houston. Dine-in and takeout are available; delivery options may be available via third-party platforms.",
+    "hours": {
+      "Monday": "11:00 AM - 10:00 PM",
+      "Tuesday": "11:00 AM - 10:00 PM",
+      "Wednesday": "11:00 AM - 10:00 PM",
+      "Thursday": "11:00 AM - 10:00 PM",
+      "Friday": "11:00 AM - 11:00 PM",
+      "Saturday": "11:00 AM - 11:00 PM",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "mr-suyaa-houston-tx",
@@ -3345,7 +3858,16 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Suya"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "11:00 AM - 8:00 PM",
+      "Saturday": "2:00 PM - 9:00 PM",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "the-icon-nigerian-kitchen-richardson-tx",
@@ -3404,7 +3926,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Restaurant"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "mabels-african-cuisine-and-bar-mckinney-tx",
@@ -3416,13 +3947,23 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "dfw",
     "city": "McKinney",
     "state": "TX",
-    "addressLine": "Delivery/Outpost - McKinney TX",
+    "addressLine": "5200 W Stacy Rd #100, McKinney TX 75070",
+    "phone": "(214) 548-5631",
     "websiteUrl": "https://mabelsafricancuisine.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Mabel's%20African%20Cuisine%20%26%20Bar%20McKinney%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=5200%20W%20Stacy%20Rd%20%23100%2C%20McKinney%20TX%2075070%2C%20McKinney%2C%20TX",
     "highlights": [
       "Delivery"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 11:00 PM",
+      "Saturday": "11:00 AM - 11:00 PM",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "southwest-farmers-market-and-kitchen-arlington-tx",
@@ -3443,7 +3984,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Market-Kitchen",
       "Multiple locations"
     ],
-    "category": "Market + Kitchen"
+    "category": "Market + Kitchen",
+    "hours": {
+      "Monday": "7:00 AM - 10:00 PM",
+      "Tuesday": "7:00 AM - 10:00 PM",
+      "Wednesday": "7:00 AM - 10:00 PM",
+      "Thursday": "7:00 AM - 10:00 PM",
+      "Friday": "7:00 AM - 10:00 PM",
+      "Saturday": "7:00 AM - 10:00 PM",
+      "Sunday": "7:00 AM - 10:00 PM"
+    }
   },
   {
     "slug": "southwest-farmers-market-and-kitchen-austin-tx",
@@ -3494,7 +4044,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Market-Kitchen",
       "Multiple locations"
     ],
-    "category": "Market + Kitchen"
+    "category": "Market + Kitchen",
+    "hours": {
+      "Monday": "7:00 AM - 10:00 PM",
+      "Tuesday": "7:00 AM - 10:00 PM",
+      "Wednesday": "7:00 AM - 10:00 PM",
+      "Thursday": "7:00 AM - 10:00 PM",
+      "Friday": "7:00 AM - 10:00 PM",
+      "Saturday": "7:00 AM - 10:00 PM",
+      "Sunday": "7:00 AM - 10:00 PM"
+    }
   },
   {
     "slug": "southwest-farmers-market-and-kitchen-houston-tx",
@@ -3537,13 +4096,22 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Austin",
     "state": "TX",
     "addressLine": "6019 N Interstate Hwy 35, Austin TX 78723",
-    "phone": "(512) 407-6830",
+    "phone": "(512) 358-6839",
     "websiteUrl": "http://habeshaaustin.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=6019%20N%20Interstate%20Hwy%2035%2C%20Austin%20TX%2078723%2C%20Austin%2C%20TX",
     "highlights": [
       "Ethiopian"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    }
   },
   {
     "slug": "freshnez-kitchen-food-truck-dallas-tx",
@@ -3591,7 +4159,16 @@ export const RESTAURANTS: Restaurant[] = [
       "African Market",
       "Grocery"
     ],
-    "category": "Market + Kitchen"
+    "category": "Market + Kitchen",
+    "hours": {
+      "Monday": "11:00 AM - 12:00 AM",
+      "Tuesday": "11:00 AM - 12:00 AM",
+      "Wednesday": "11:00 AM - 12:00 AM",
+      "Thursday": "11:00 AM - 12:00 AM",
+      "Friday": "11:00 AM - 2:00 AM",
+      "Saturday": "11:00 AM - 2:00 AM",
+      "Sunday": "12:00 PM - 12:00 AM"
+    }
   },
   {
     "slug": "blue-nile-ethiopian-houston-tx",
@@ -3632,15 +4209,24 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "1717-C Post Oak Blvd, Houston TX 77056",
+    "addressLine": "1717 Post Oak Blvd, Houston TX 77056",
     "phone": "(832) 669-9930",
     "websiteUrl": "https://www.nandosperiperi.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1717-C%20Post%20Oak%20Blvd%2C%20Houston%20TX%2077056%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=1717%20Post%20Oak%20Blvd%2C%20Houston%20TX%2077056%2C%20Houston%2C%20TX",
     "highlights": [
       "South African",
       "Peri-Peri"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "10:30 AM - 10:00 PM",
+      "Tuesday": "10:30 AM - 10:00 PM",
+      "Wednesday": "10:30 AM - 10:00 PM",
+      "Thursday": "10:30 AM - 10:00 PM",
+      "Friday": "10:30 AM - 10:00 PM",
+      "Saturday": "10:30 AM - 10:00 PM",
+      "Sunday": "10:30 AM - 10:00 PM"
+    }
   },
   {
     "slug": "bukka-grill-frisco-tx",
@@ -3653,14 +4239,23 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "dfw",
     "city": "Frisco",
     "state": "TX",
-    "addressLine": "307 Main St, Frisco TX 75036",
-    "phone": "(214) 494-2553",
+    "addressLine": "307 Main St #210, Frisco TX 75036",
+    "phone": "(214) 308-9994",
     "websiteUrl": "https://bukkagrill.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=307%20Main%20St%2C%20Frisco%20TX%2075036%2C%20Frisco%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=307%20Main%20St%20%23210%2C%20Frisco%20TX%2075036%2C%20Frisco%2C%20TX",
     "highlights": [
       "Restaurant"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 AM - 8:30 PM",
+      "Wednesday": "11:00 AM - 8:30 PM",
+      "Thursday": "11:00 AM - 8:30 PM",
+      "Friday": "11:00 AM - 8:30 PM",
+      "Saturday": "11:00 AM - 8:30 PM",
+      "Sunday": "1:00 PM - 6:00 PM"
+    }
   },
   {
     "slug": "makola-marketplace-houston-tx",
@@ -3713,7 +4308,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Takeout",
       "Delivery"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "10:00 AM - 9:00 PM",
+      "Tuesday": "10:00 AM - 9:00 PM",
+      "Wednesday": "10:00 AM - 9:00 PM",
+      "Thursday": "10:00 AM - 9:00 PM",
+      "Friday": "10:00 AM - 9:00 PM",
+      "Saturday": "10:00 AM - 9:00 PM",
+      "Sunday": "12:00 PM - 6:00 PM"
+    }
   },
   {
     "slug": "holyland-halal-meat-grocery-houston-tx",
@@ -3770,13 +4374,23 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "Hotel King David, Houston TX 77004",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Hotel%20King%20David%2C%20Houston%20TX%2077004%2C%20Houston%2C%20TX",
+    "addressLine": "4110 Loretto Dr, Houston TX 77004",
+    "phone": "(832) 844-0057",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=4110%20Loretto%20Dr%2C%20Houston%20TX%2077004%2C%20Houston%2C%20TX",
     "highlights": [
       "Afro-Creole",
       "Creole"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 AM - 12:00 AM",
+      "Tuesday": "11:00 AM - 12:00 AM",
+      "Wednesday": "11:00 AM - 12:00 AM",
+      "Thursday": "11:00 AM - 12:00 AM",
+      "Friday": "11:00 AM - 12:00 AM",
+      "Saturday": "11:00 AM - 12:00 AM",
+      "Sunday": "11:00 AM - 12:00 AM"
+    }
   },
   {
     "slug": "tailat-kitchen-austin-tx",
@@ -3882,12 +4496,21 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "2616 Blodgett St, Houston TX 77004",
-    "phone": "(281) 888-5177",
+    "phone": "(281) 699-8902",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2616%20Blodgett%20St%2C%20Houston%20TX%2077004%2C%20Houston%2C%20TX",
     "highlights": [
       "Ghost kitchen"
     ],
-    "category": "Ghost Kitchen"
+    "category": "Ghost Kitchen",
+    "hours": {
+      "Monday": "11:00 AM - 10:00 PM",
+      "Tuesday": "11:00 AM - 10:00 PM",
+      "Wednesday": "11:00 AM - 10:00 PM",
+      "Thursday": "11:00 AM - 10:00 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "11:00 AM - 8:30 PM"
+    }
   },
   {
     "slug": "honey-dip-fingers-mckinney-tx",
@@ -3899,13 +4522,23 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "dfw",
     "city": "McKinney",
     "state": "TX",
-    "addressLine": "Delivery/Outpost, McKinney TX 75071",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Delivery%2FOutpost%2C%20McKinney%20TX%2075071%2C%20McKinney%2C%20TX",
+    "addressLine": "6710 Virginia Pkwy #210, McKinney TX 75071",
+    "phone": "(469) 734-0568",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=6710%20Virginia%20Pkwy%20%23210%2C%20McKinney%20TX%2075071%2C%20McKinney%2C%20TX",
     "highlights": [
       "Delivery",
       "Outpost"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "12:00 PM - 8:00 PM",
+      "Wednesday": "12:00 PM - 8:00 PM",
+      "Thursday": "12:00 PM - 8:00 PM",
+      "Friday": "12:00 PM - 8:00 PM",
+      "Saturday": "12:00 PM - 8:00 PM",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "calabar-pot-frisco-tx",
@@ -3955,14 +4588,23 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Frisco",
     "state": "TX",
     "addressLine": "7070 Preston Rd, Frisco TX 75035",
-    "phone": "(972) 292-9608",
+    "phone": "(972) 996-6392",
     "websiteUrl": "https://www.southwestfarmersmarket.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=7070%20Preston%20Rd%2C%20Frisco%20TX%2075035%2C%20Frisco%2C%20TX",
     "highlights": [
       "Market-Kitchen",
       "Multiple locations"
     ],
-    "category": "Market + Kitchen"
+    "category": "Market + Kitchen",
+    "hours": {
+      "Monday": "7:00 AM - 10:00 PM",
+      "Tuesday": "7:00 AM - 10:00 PM",
+      "Wednesday": "7:00 AM - 10:00 PM",
+      "Thursday": "7:00 AM - 10:00 PM",
+      "Friday": "7:00 AM - 10:00 PM",
+      "Saturday": "7:00 AM - 10:00 PM",
+      "Sunday": "7:00 AM - 10:00 PM"
+    }
   },
   {
     "slug": "southwest-farmers-kitchen-garland-tx",
@@ -4091,13 +4733,13 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     "category": "Restaurant",
     "hours": {
-      "Monday": "11:00 am - 12:00 am",
-      "Tuesday": "11:00 am - 12:00 am",
-      "Wednesday": "11:00 am - 12:00 am",
-      "Thursday": "11:00 am - 12:00 am",
-      "Friday": "11:00 am - 2:00 am",
-      "Saturday": "12:00 pm - 2:00 am",
-      "Sunday": "12:00 pm - 12:00 am"
+      "Monday": "11:00 AM - 12:00 AM",
+      "Tuesday": "11:00 AM - 12:00 AM",
+      "Wednesday": "11:00 AM - 12:00 AM",
+      "Thursday": "11:00 AM - 12:00 AM",
+      "Friday": "11:00 AM - 2:00 AM",
+      "Saturday": "11:00 AM - 2:00 AM",
+      "Sunday": "12:00 PM - 12:00 AM"
     }
   },
   {
@@ -6534,7 +7176,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "American (Cakes, Cookies, Desserts)"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "9:00 AM - 5:00 PM",
+      "Tuesday": "9:00 AM - 5:00 PM",
+      "Wednesday": "9:00 AM - 5:00 PM",
+      "Thursday": "9:00 AM - 5:00 PM",
+      "Friday": "9:00 AM - 5:00 PM",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "tili-s-bakery-austin",
