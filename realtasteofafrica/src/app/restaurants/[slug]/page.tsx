@@ -258,11 +258,9 @@ export default async function RestaurantDetailPage({
               <ul className="mt-3 space-y-1.5 text-sm text-slate-600" aria-label="Hours by day">
                 {["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"].map(
                   (day) => (
-                    <li key={day} className="flex justify-between gap-4">
-                      <span>{day}</span>
-                      <span>
-                        {r.hours![day] ?? "—"}
-                      </span>
+                    <li key={day} className="flex flex-col gap-0.5 sm:flex-row sm:justify-between sm:gap-4">
+                      <span className="font-medium sm:font-normal">{day}</span>
+                      <span className="sm:text-right">{r.hours![day] ?? "—"}</span>
                     </li>
                   )
                 )}
@@ -273,7 +271,7 @@ export default async function RestaurantDetailPage({
             <h3 className="text-sm font-semibold uppercase tracking-wide text-slate-500">
               Location
             </h3>
-            <p className="mt-2 text-slate-800">
+            <p className="mt-2 break-words text-slate-800">
               {r.addressLine}
               <br />
               {r.city}, {r.state}

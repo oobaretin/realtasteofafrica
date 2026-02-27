@@ -104,7 +104,7 @@ export function RestaurantCard({
           </Link>
         </h2>
         <p
-          className={`mt-1 line-clamp-2 text-slate-600 ${isFeatured ? "text-base" : "text-sm"}`}
+          className={`mt-1 text-slate-600 ${isFeatured ? "text-base" : "text-sm"}`}
         >
           {r.cuisines.join(" · ")}
         </p>
