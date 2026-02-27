@@ -21,7 +21,16 @@ Then open `http://localhost:3000`.
 
 ## Environment variables
 
-Copy `.env.example` to `.env.local` and fill in values. For the **Claim listing** flow (PayPal):
+Copy `.env.example` to `.env.local` and fill in values.
+
+**Admin email (Resend):**
+
+- `RESEND_API_KEY` — from [resend.com](https://resend.com). Required for admin "Notify via Gmail".
+- `ADMIN_KEY` — secret for `/admin?key=xxx`. Set in Vercel env vars for production.
+
+To receive admin emails, verify a domain in Resend (resend.com/domains). Add your domain, copy the DNS records (SPF, DKIM) to your registrar, then set `RESEND_FROM=noreply@yourdomain.com` in Vercel env vars.
+
+**Claim listing (PayPal):**
 
 - `NEXT_PUBLIC_PAYPAL_CLIENT_ID` — from [PayPal Developer Dashboard](https://developer.paypal.com/dashboard/); used by the browser SDK.
 - `PAYPAL_CLIENT_SECRET` — same app; used only on the server to create orders. Never commit this.

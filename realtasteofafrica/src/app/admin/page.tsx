@@ -62,7 +62,7 @@ export default function AdminPage(props: {
             if (result?.success) {
               alert("Success! Notification sent to Gmail.");
             } else {
-              alert("Failed to send. Check RESEND_API_KEY and try again.");
+              alert("Failed: " + (result?.error || "Unknown error"));
             }
           }} 
           className="space-y-6"
