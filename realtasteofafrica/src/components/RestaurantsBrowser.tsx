@@ -151,7 +151,7 @@ export function RestaurantsBrowser({
         role="toolbar"
         aria-label="Browse options"
       >
-        <div className="flex flex-wrap items-center gap-4">
+        <div className="flex min-w-0 flex-1 flex-wrap items-center gap-4">
           <OpenNowToggle
             checked={isOpenNowOnly}
             onChange={(v) => onOpenNowOnlyChange?.(v)}

@@ -48,18 +48,18 @@ export function RestaurantCard({
         className={`relative shrink-0 ${stripClasses} ${isFeatured ? "h-14" : "h-12"}`}
         aria-hidden
       >
-        <span
-          className={`absolute left-2 top-2 h-2.5 w-2.5 rounded-full ring-2 ring-white/80 ${
-            businessStatus.status === "Open Now"
-              ? "bg-green-500 animate-pulse-subtle"
-              : businessStatus.status === "Closing Soon"
-                ? "bg-orange-500"
-                : businessStatus.status === "Closed"
-                  ? "bg-red-500"
-                  : "bg-slate-400"
-          }`}
-          title={businessStatus.status}
-        />
+        {businessStatus.status !== "Unverified" ? (
+          <span
+            className={`absolute left-2 top-2 h-2.5 w-2.5 rounded-full ring-2 ring-white/80 ${
+              businessStatus.status === "Open Now"
+                ? "bg-green-500 animate-pulse-subtle"
+                : businessStatus.status === "Closing Soon"
+                  ? "bg-orange-500"
+                  : "bg-red-500"
+            }`}
+            title={businessStatus.status}
+          />
+        ) : null}
         <span
           className={`absolute right-2 top-2 inline-flex rounded-md px-2.5 py-1 text-xs font-bold uppercase tracking-wide shadow-sm ${badgeClasses}`}
         >
@@ -69,19 +69,19 @@ export function RestaurantCard({
 
       <div className={`flex flex-1 flex-col ${isFeatured ? "p-6" : "p-5"}`}>
         <div className="mb-2 flex flex-wrap items-center justify-end gap-2">
-          <span
-            className={`inline-flex items-center rounded-full px-2 py-0.5 text-xs font-semibold ${
-              businessStatus.status === "Open Now"
-                ? "bg-green-100 text-green-800"
-                : businessStatus.status === "Closing Soon"
-                  ? "bg-orange-100 text-orange-800"
-                  : businessStatus.status === "Closed"
-                    ? "bg-red-100 text-red-800"
-                    : "bg-slate-100 text-slate-500"
-            } ${businessStatus.status === "Open Now" ? "animate-pulse-subtle" : ""}`}
-          >
-            {businessStatus.status}
-          </span>
+          {businessStatus.status !== "Unverified" ? (
+            <span
+              className={`inline-flex items-center rounded-full px-2 py-0.5 text-xs font-semibold ${
+                businessStatus.status === "Open Now"
+                  ? "bg-green-100 text-green-800"
+                  : businessStatus.status === "Closing Soon"
+                    ? "bg-orange-100 text-orange-800"
+                    : "bg-red-100 text-red-800"
+              } ${businessStatus.status === "Open Now" ? "animate-pulse-subtle" : ""}`}
+            >
+              {businessStatus.status}
+            </span>
+          ) : null}
           {r.isVerified ? <VerifiedBadge /> : null}
           {r.priceLevel ? (
             <Badge>{"$".repeat(r.priceLevel)}</Badge>

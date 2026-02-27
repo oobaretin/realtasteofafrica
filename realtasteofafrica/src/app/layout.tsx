@@ -27,17 +27,17 @@ export default function RootLayout({
   children: ReactNode
 }>) {
   return (
-    <html lang="en" className={inter.variable}>
-      <body className="font-sans">
+    <html lang="en" className={`${inter.variable} overflow-x-hidden`}>
+      <body className="font-sans overflow-x-hidden">
         <a
           className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 rounded-md bg-slate-900 px-3 py-2 text-sm"
           href="#main"
         >
           Skip to content
         </a>
-        <div className="min-h-dvh">
+        <div className="min-h-dvh overflow-x-hidden">
           <SiteHeader />
-          <main id="main" className="mx-auto w-full max-w-6xl px-4 py-10">
+          <main id="main" className="mx-auto w-full max-w-6xl overflow-x-hidden px-4 py-10">
             {children}
           </main>
           <SiteFooter />

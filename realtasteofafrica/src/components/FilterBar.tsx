@@ -19,7 +19,7 @@ type FilterBarProps = {
 export function FilterBar({ areas, cuisineTags, values, onFilterChange }: FilterBarProps) {
   return (
     <div className="flex flex-wrap gap-4 p-6 bg-white shadow-sm rounded-xl border border-slate-200">
-      <div className="flex flex-col min-w-[180px]">
+      <div className="flex min-w-0 flex-1 flex-col sm:min-w-[140px]">
         <label className="text-sm font-bold mb-1 text-slate-900" htmlFor="filter-type">
           Type
         </label>
@@ -38,7 +38,7 @@ export function FilterBar({ areas, cuisineTags, values, onFilterChange }: Filter
         </select>
       </div>
 
-      <div className="flex flex-col min-w-[180px]">
+      <div className="flex min-w-0 flex-1 flex-col sm:min-w-[140px]">
         <label className="text-sm font-bold mb-1 text-slate-900" htmlFor="filter-region">
           Region
         </label>
@@ -58,7 +58,7 @@ export function FilterBar({ areas, cuisineTags, values, onFilterChange }: Filter
         </select>
       </div>
 
-      <div className="flex flex-col min-w-[180px]">
+      <div className="flex min-w-0 flex-1 flex-col sm:min-w-[140px]">
         <label className="text-sm font-bold mb-1 text-slate-900" htmlFor="filter-cuisine">
           Cuisine
         </label>

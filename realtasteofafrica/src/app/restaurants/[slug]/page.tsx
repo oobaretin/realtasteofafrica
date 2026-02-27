@@ -151,13 +151,15 @@ export default async function RestaurantDetailPage({
           {r.name}
         </h1>
         <div className="mt-2 flex flex-wrap items-center gap-2">
-          <span
-            className={`inline-flex items-center rounded-full px-3 py-1.5 text-sm font-semibold ${businessStatus.status === "Open Now" ? "animate-pulse-subtle bg-green-100 text-green-800" : businessStatus.status === "Closing Soon" ? "bg-orange-100 text-orange-800" : businessStatus.status === "Closed" ? "bg-red-100 text-red-800" : "bg-slate-100 text-slate-600"}`}
-            aria-live="polite"
-          >
-            {businessStatus.status === "Open Now" ? "● " : null}
-            {businessStatus.status}
-          </span>
+          {businessStatus.status !== "Unverified" ? (
+            <span
+              className={`inline-flex items-center rounded-full px-3 py-1.5 text-sm font-semibold ${businessStatus.status === "Open Now" ? "animate-pulse-subtle bg-green-100 text-green-800" : businessStatus.status === "Closing Soon" ? "bg-orange-100 text-orange-800" : "bg-red-100 text-red-800"}`}
+              aria-live="polite"
+            >
+              {businessStatus.status === "Open Now" ? "● " : null}
+              {businessStatus.status}
+            </span>
+          ) : null}
           {r.isVerified ? <VerifiedBadge /> : null}
         </div>
       </header>

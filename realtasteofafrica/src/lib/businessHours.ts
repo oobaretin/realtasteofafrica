@@ -62,15 +62,14 @@ function parseTime(timeStr: string): number | null {
 
 /**
  * Compare current Texas time to the restaurant's stored hours.
- * If hours are missing or invalid, returns Unverified so we can show
- * "Hours not verified - Call to confirm."
+ * If hours are missing or invalid, returns Unverified (no status badge shown).
  */
 export function getBusinessStatus(hours: HoursMap | undefined | null): BusinessStatus {
   if (!hours || typeof hours !== "object" || Object.keys(hours).length === 0) {
     return {
       status: "Unverified",
       color: "text-slate-500",
-      label: "Hours not verified - Call to confirm.",
+      label: "Call for hours",
     }
   }
 
@@ -90,7 +89,7 @@ export function getBusinessStatus(hours: HoursMap | undefined | null): BusinessS
     return {
       status: "Unverified",
       color: "text-slate-500",
-      label: "Hours not verified - Call to confirm.",
+      label: "Call for hours",
     }
   }
 
