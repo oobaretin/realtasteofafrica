@@ -105,7 +105,7 @@ export default async function RestaurantDetailPage({
   const listingNumber = getListingNumber(slug)
 
   return (
-    <article className="grid gap-0">
+    <article className="min-w-0 grid gap-0">
       {/* — Hero — */}
       <section className="relative -mx-4 h-56 overflow-hidden rounded-t-2xl bg-gradient-to-br from-amber-800 to-slate-800 sm:mx-0 sm:rounded-2xl md:h-72">
         {/* Placeholder: high-quality image could be r.imageUrl when added to data */}
@@ -165,16 +165,16 @@ export default async function RestaurantDetailPage({
       </header>
 
       {/* — 2-column Action Grid — */}
-      <section className="mt-8 grid gap-8 lg:grid-cols-2 lg:gap-12">
+      <section className="mt-8 grid min-w-0 gap-8 lg:grid-cols-2 lg:gap-12">
         {/* Left: Basics — Call, Directions, Website + Cuisine pills */}
-        <div className="grid gap-6">
-          <div>
+        <div className="grid min-w-0 gap-6">
+          <div className="min-w-0">
             <h2 className="sr-only">Quick actions</h2>
-            <div className="flex flex-wrap gap-3">
+            <div className="flex min-w-0 flex-wrap gap-3">
               {r.phone ? (
                 <a
                   href={`tel:${toTelHref(r.phone)}`}
-                  className="inline-flex items-center gap-2 rounded-xl bg-emerald-600 px-5 py-3.5 text-base font-semibold text-white shadow-sm transition hover:bg-emerald-700"
+                  className="inline-flex shrink-0 items-center gap-2 rounded-xl bg-emerald-600 px-5 py-3.5 text-base font-semibold text-white shadow-sm transition hover:bg-emerald-700"
                 >
                   <span aria-hidden>📞</span>
                   Call Now
@@ -184,7 +184,7 @@ export default async function RestaurantDetailPage({
                 href={googleMapsUrl(r.addressLine, r.city, r.state)}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-5 py-3.5 text-base font-semibold text-white shadow-sm transition hover:bg-blue-700"
+                className="inline-flex shrink-0 items-center gap-2 rounded-xl bg-blue-600 px-5 py-3.5 text-base font-semibold text-white shadow-sm transition hover:bg-blue-700"
               >
                 <span aria-hidden>📍</span>
                 Get Directions
@@ -199,7 +199,7 @@ export default async function RestaurantDetailPage({
                   href={r.websiteUrl}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center gap-2 rounded-xl bg-amber-600 px-5 py-3.5 text-base font-semibold text-white shadow-sm transition hover:bg-amber-700"
+                  className="inline-flex shrink-0 items-center gap-2 rounded-xl bg-amber-600 px-5 py-3.5 text-base font-semibold text-white shadow-sm transition hover:bg-amber-700"
                 >
                   <span aria-hidden>🔗</span>
                   Visit Website
@@ -246,7 +246,7 @@ export default async function RestaurantDetailPage({
         </div>
 
         {/* Right: Hours + Location */}
-        <div className="grid gap-6">
+        <div className="grid min-w-0 gap-6">
           <div className="rounded-2xl border border-slate-200 bg-slate-50/50 p-5">
             <h3 className="text-sm font-semibold uppercase tracking-wide text-slate-500">
               Hours
@@ -310,13 +310,13 @@ export default async function RestaurantDetailPage({
 
       {/* — About — */}
       {writeUp.length > 0 ? (
-        <section className="mt-10 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <section className="mt-10 min-w-0 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
           <h2 className="text-lg font-semibold text-slate-900">
             About this restaurant
           </h2>
-          <div className="mt-3 grid gap-3 text-slate-700">
+          <div className="mt-3 grid min-w-0 gap-3 text-slate-700">
             {writeUp.map((p) => (
-              <p key={p}>{p}</p>
+              <p key={p} className="break-words">{p}</p>
             ))}
           </div>
         </section>
@@ -324,9 +324,9 @@ export default async function RestaurantDetailPage({
 
       {/* — Highlights — */}
       {r.highlights.length > 0 ? (
-        <section className="mt-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <section className="mt-6 min-w-0 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
           <h2 className="text-lg font-semibold text-slate-900">Highlights</h2>
-          <ul className="mt-3 list-disc space-y-2 pl-5 text-slate-700">
+          <ul className="mt-3 list-disc space-y-2 break-words pl-5 text-slate-700">
             {r.highlights.map((h) => (
               <li key={h}>{h}</li>
             ))}
@@ -335,7 +335,7 @@ export default async function RestaurantDetailPage({
       ) : null}
 
       {/* — Similar spots (Statewide Discovery) — */}
-      <div className="mt-10">
+      <div className="mt-10 min-w-0">
         <SimilarSpots
           restaurants={similarRestaurants}
           title={similarSpotsTitle(r)}

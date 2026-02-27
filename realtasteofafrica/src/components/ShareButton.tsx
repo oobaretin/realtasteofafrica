@@ -61,7 +61,7 @@ export function ShareButton({
       <button
         type="button"
         onClick={handleShareClick}
-        className="inline-flex items-center gap-2 rounded-xl border border-slate-300 bg-white px-5 py-3.5 text-base font-semibold text-slate-700 shadow-sm transition hover:bg-slate-50"
+        className="inline-flex shrink-0 items-center gap-2 rounded-xl border border-slate-300 bg-white px-5 py-3.5 text-base font-semibold text-slate-700 shadow-sm transition hover:bg-slate-50"
         aria-label="Share this listing"
       >
         <ShareIcon className="h-5 w-5 text-slate-500" />
