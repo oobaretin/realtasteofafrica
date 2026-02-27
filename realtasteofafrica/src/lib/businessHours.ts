@@ -98,10 +98,13 @@ export function getBusinessStatus(hours: HoursMap | undefined | null): BusinessS
   const openStr = todayHours.split("-").map((s) => s.trim())[0] ?? ""
   const closeStr = todayHours.split("-").map((s) => s.trim())[1] ?? ""
 
-  if (currentTime >= openTime && currentTime < closeTime) {
+  // 12:00 AM (midnight) parses as 0; treat as 2400 for "open until midnight" comparison
+  const closeForCheck = closeTime === 0 ? 2400 : closeTime
+
+  if (currentTime >= openTime && currentTime < closeForCheck) {
     const toMinutes = (hhmm: number) =>
       Math.floor(hhmm / 100) * 60 + (hhmm % 100)
-    const minutesUntilClose = toMinutes(closeTime) - toMinutes(currentTime)
+    const minutesUntilClose = toMinutes(closeForCheck) - toMinutes(currentTime)
     if (minutesUntilClose > 0 && minutesUntilClose < 60) {
       return {
         status: "Closing Soon",
