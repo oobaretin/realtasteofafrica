@@ -253,12 +253,24 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "11720 W Airport Blvd #1600, Meadows Place TX 77477",
     "phone": "(281) 265-1411",
+    "websiteUrl": "https://therealsuyahut.com",
     "mapsUrl": "https://www.openstreetmap.org/search?query=11720%20W%20Airport%20Blvd%20%231600%2C%20Meadows%20Place%20TX%2077477%2C%20Meadows%20Place%2C%20TX",
+    "priceLevel": 2,
     "highlights": [
       "West African",
       "Suya"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "writeUp": "Northern Nigerian classics featured in this pint-sized restaurant known for their meat kebabs.",
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "hunan-cafe-houston-tx",
