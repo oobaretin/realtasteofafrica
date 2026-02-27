@@ -170,15 +170,24 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "9811 Bissonnet St, Houston TX 77036",
+    "addressLine": "9815 Bissonnet St, Houston, TX 77036",
     "phone": "(713) 270-7070",
     "websiteUrl": "https://fingerlickinghtx.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9811%20Bissonnet%20St%2C%20Houston%20TX%2077036%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=9815%20Bissonnet%20St%2C%20Houston%2C%20TX%2077036%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Nigerian"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    }
   },
   {
     "slug": "safari-houston-tx",
@@ -351,36 +360,6 @@ export const RESTAURANTS: Restaurant[] = [
     }
   },
   {
-    "slug": "blue-nile-houston-tx",
-    "name": "Blue Nile",
-    "cuisines": [
-      "Ethiopian",
-      "African"
-    ],
-    "cuisine": "Ethiopian",
-    "areaSlug": "houston",
-    "city": "Houston",
-    "state": "TX",
-    "addressLine": "3030 Audley St, Houston, TX 77098",
-    "phone": "(713) 814-5101",
-    "websiteUrl": "https://bluenilerestaurant.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3030%20Audley%20St%2C%20Houston%2C%20TX%2077098%2C%20Houston%2C%20TX",
-    "highlights": [
-      "Ethiopian",
-      "African"
-    ],
-    "category": "Restaurant",
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 11:00 PM",
-      "Saturday": "11:00 AM - 11:00 PM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
-  },
-  {
     "slug": "lucy-ethiopian-restaurant-and-lounge-houston-tx",
     "name": "Lucy Ethiopian Restaurant & Lounge",
     "cuisines": [
@@ -390,14 +369,23 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "6800 Southwest Fwy, Houston TX 77074",
+    "addressLine": "6800 Southwest Fwy, Houston, TX 77074",
     "phone": "(713) 334-0000",
     "websiteUrl": "https://www.lucyhouston.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6800%20Southwest%20Fwy%2C%20Houston%20TX%2077074%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=6800%20Southwest%20Fwy%2C%20Houston%2C%20TX%2077074%2C%20Houston%2C%20TX",
     "highlights": [
       "Ethiopian"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "delights-ghanaian-cuisine-houston-tx",
@@ -498,36 +486,6 @@ export const RESTAURANTS: Restaurant[] = [
       "Caribbean"
     ],
     "category": "Restaurant"
-  },
-  {
-    "slug": "kes-spicy-9ja-suya-spot-katy-tx",
-    "name": "Kes Spicy 9Ja Suya Spot",
-    "cuisines": [
-      "West African",
-      "Suya"
-    ],
-    "cuisine": "Nigerian",
-    "areaSlug": "katy",
-    "city": "Katy",
-    "state": "TX",
-    "addressLine": "811 S Mason Rd, Katy, TX 77450",
-    "phone": "(832) 412-2309",
-    "websiteUrl": "https://www.kesspicysuyaspot.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=811%20S%20Mason%20Rd%2C%20Katy%2C%20TX%2077450%2C%20Katy%2C%20TX",
-    "highlights": [
-      "West African",
-      "Suya"
-    ],
-    "category": "Restaurant",
-    "hours": {
-      "Monday": "12:00 PM - 10:00 PM",
-      "Tuesday": "12:00 PM - 10:00 PM",
-      "Wednesday": "12:00 PM - 10:00 PM",
-      "Thursday": "12:00 PM - 10:00 PM",
-      "Friday": "12:00 PM - 10:00 PM",
-      "Saturday": "12:00 PM - 10:00 PM",
-      "Sunday": "12:00 PM - 10:00 PM"
-    }
   },
   {
     "slug": "lekki-island-bar-and-grill-katy-tx",
@@ -2037,13 +1995,22 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "dfw",
     "city": "Grand Prairie",
     "state": "TX",
-    "addressLine": "3007 S Carrier Pkwy, Grand Prairie TX 75052",
+    "addressLine": "3007 S Carrier Pkwy, Grand Prairie, TX 75052",
     "phone": "(469) 757-0100",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3007%20S%20Carrier%20Pkwy%2C%20Grand%20Prairie%20TX%2075052%2C%20Grand%20Prairie%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=3007%20S%20Carrier%20Pkwy%2C%20Grand%20Prairie%2C%20TX%2075052%2C%20Grand%20Prairie%2C%20TX",
     "highlights": [
       "African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "10:00 am - 8:00 pm",
+      "Wednesday": "10:00 am - 8:00 pm",
+      "Thursday": "10:00 am - 8:00 pm",
+      "Friday": "10:00 am - 8:00 pm",
+      "Saturday": "10:00 am - 8:00 pm",
+      "Sunday": "10:00 am - 5:00 pm"
+    }
   },
   {
     "slug": "lagos-kitchen-lewisville-tx",
@@ -2285,14 +2252,24 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "10828 Beechnut St, Houston TX 77072",
+    "addressLine": "10828C Beechnut St, Houston, TX 77072",
     "phone": "(832) 243-6449",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=10828%20Beechnut%20St%2C%20Houston%20TX%2077072%2C%20Houston%2C%20TX",
+    "websiteUrl": "https://wazobiaafricanmarket.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=10828C%20Beechnut%20St%2C%20Houston%2C%20TX%2077072%2C%20Houston%2C%20TX",
     "highlights": [
       "African Market",
       "Kitchen"
     ],
-    "category": "Market + Kitchen"
+    "category": "Market + Kitchen",
+    "hours": {
+      "Monday": "7:00 am - 10:00 pm",
+      "Tuesday": "7:00 am - 10:00 pm",
+      "Wednesday": "7:00 am - 10:00 pm",
+      "Thursday": "7:00 am - 10:00 pm",
+      "Friday": "7:00 am - 10:00 pm",
+      "Saturday": "7:00 am - 10:00 pm",
+      "Sunday": "7:00 am - 10:00 pm"
+    }
   },
   {
     "slug": "bodija-african-food-market-houston-tx",
@@ -3479,15 +3456,24 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "austin",
     "city": "Austin",
     "state": "TX",
-    "addressLine": "9821 N Interstate Hwy 35, Austin TX 78753",
+    "addressLine": "9821 N Interstate Hwy 35, Austin, TX 78753",
     "phone": "(817) 462-1617",
     "websiteUrl": "https://www.southwestfarmersmarket.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9821%20N%20Interstate%20Hwy%2035%2C%20Austin%20TX%2078753%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=9821%20N%20Interstate%20Hwy%2035%2C%20Austin%2C%20TX%2078753%2C%20Austin%2C%20TX",
     "highlights": [
       "Market-Kitchen",
       "Multiple locations"
     ],
-    "category": "Market + Kitchen"
+    "category": "Market + Kitchen",
+    "hours": {
+      "Monday": "7:00 am - 10:00 pm",
+      "Tuesday": "7:00 am - 10:00 pm",
+      "Wednesday": "7:00 am - 10:00 pm",
+      "Thursday": "7:00 am - 10:00 pm",
+      "Friday": "7:00 am - 10:00 pm",
+      "Saturday": "7:00 am - 10:00 pm",
+      "Sunday": "7:00 am - 10:00 pm"
+    }
   },
   {
     "slug": "southwest-farmers-market-and-kitchen-san-antonio-tx",
@@ -3529,7 +3515,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Market-Kitchen",
       "Multiple locations"
     ],
-    "category": "Market + Kitchen"
+    "category": "Market + Kitchen",
+    "hours": {
+      "Monday": "7:00 am - 10:00 pm",
+      "Tuesday": "7:00 am - 10:00 pm",
+      "Wednesday": "7:00 am - 10:00 pm",
+      "Thursday": "7:00 am - 10:00 pm",
+      "Friday": "7:00 am - 10:00 pm",
+      "Saturday": "7:00 am - 10:00 pm",
+      "Sunday": "7:00 am - 10:00 pm"
+    }
   },
   {
     "slug": "habesha-restaurant-austin-tx",
@@ -3560,14 +3555,22 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "dfw",
     "city": "Dallas",
     "state": "TX",
-    "addressLine": "Mobile - DFW Metroplex",
+    "addressLine": "7508 Ambassador Row, Dallas, TX 75247",
     "phone": "(214) 434-9333",
     "websiteUrl": "https://freshnezkitchen.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Freshnez%20Kitchen%20(Food%20Truck)%20Dallas%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=7508%20Ambassador%20Row%2C%20Dallas%2C%20TX%2075247%2C%20Dallas%2C%20TX",
     "highlights": [
       "Food truck"
     ],
-    "category": "Food Truck"
+    "category": "Food Truck",
+    "hours": {
+      "Tuesday": "Closed",
+      "Wednesday": "11:00 AM - 2:30 PM",
+      "Thursday": "11:00 AM - 2:30 PM",
+      "Friday": "11:00 AM - 6:00 PM",
+      "Saturday": "11:00 AM - 7:30 PM",
+      "Sunday": "11:00 AM - 5:00 PM"
+    }
   },
   {
     "slug": "aso-rock-market-and-kitchen-dallas-tx",
@@ -3607,7 +3610,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Ethiopian"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 AM - 10:00 PM",
+      "Tuesday": "11:00 AM - 10:00 PM",
+      "Wednesday": "11:00 AM - 10:00 PM",
+      "Thursday": "11:00 AM - 10:00 PM",
+      "Friday": "11:00 AM - 11:00 PM",
+      "Saturday": "11:00 AM - 11:00 PM",
+      "Sunday": "11:00 AM - 10:00 PM"
+    }
   },
   {
     "slug": "nandos-peri-peri-post-oak-houston-tx",
@@ -3841,13 +3853,23 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "2022 Wilcrest Dr, Houston TX 77042",
+    "addressLine": "6357 Westheimer Rd, Houston, TX 77057",
     "phone": "(832) 732-2284",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2022%20Wilcrest%20Dr%2C%20Houston%20TX%2077042%2C%20Houston%2C%20TX",
+    "websiteUrl": "https://ariasuyakitchen.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=6357%20Westheimer%20Rd%2C%20Houston%2C%20TX%2077057%2C%20Houston%2C%20TX",
     "highlights": [
       "Ghost kitchen"
     ],
-    "category": "Ghost Kitchen"
+    "category": "Ghost Kitchen",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "11:30 am - 9:00 pm",
+      "Wednesday": "11:30 am - 9:00 pm",
+      "Thursday": "11:30 am - 9:00 pm",
+      "Friday": "11:30 am - 9:30 pm",
+      "Saturday": "12:00 pm - 9:30 pm",
+      "Sunday": "12:00 pm - 5:00 pm"
+    }
   },
   {
     "slug": "dupsys-kitchen-ghost-houston-tx",
@@ -3900,42 +3922,6 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Delivery",
       "Outpost"
-    ],
-    "category": "Restaurant"
-  },
-  {
-    "slug": "eko-bistro-houston-tx",
-    "name": "Eko Bistro",
-    "cuisines": [
-      "Nigerian"
-    ],
-    "cuisine": "West African",
-    "areaSlug": "houston",
-    "city": "Houston",
-    "state": "TX",
-    "addressLine": "13150 FM 529 Ste 104, Houston TX 77041",
-    "phone": "(346) 244-5961",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=13150%20FM%20529%20Ste%20104%2C%20Houston%20TX%2077041%2C%20Houston%2C%20TX",
-    "highlights": [
-      "Nigerian"
-    ],
-    "category": "Restaurant"
-  },
-  {
-    "slug": "salt-n-pepper-garland-tx",
-    "name": "Salt N Pepper",
-    "cuisines": [
-      "Nigerian"
-    ],
-    "cuisine": "West African",
-    "areaSlug": "dfw",
-    "city": "Garland",
-    "state": "TX",
-    "addressLine": "4460 W Walnut St, Garland TX 75042",
-    "phone": "(214) 703-8181",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=4460%20W%20Walnut%20St%2C%20Garland%20TX%2075042%2C%20Garland%2C%20TX",
-    "highlights": [
-      "Nigerian"
     ],
     "category": "Restaurant"
   },
@@ -4326,6 +4312,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "8500 Ohio Dr STE 200, Plano, TX 75024",
     "phone": "(469) 294-0003",
+    "websiteUrl": "https://boxochops.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=8500%20Ohio%20Dr%20STE%20200%2C%20Plano%2C%20TX%2075024%2C%20Plano%2C%20TX",
     "highlights": [
       "West African"
@@ -4739,36 +4726,6 @@ export const RESTAURANTS: Restaurant[] = [
     }
   },
   {
-    "slug": "southwest-farmers-market-houston",
-    "name": "Southwest Farmers Market",
-    "cuisines": [
-      "Nigerian",
-      "Nigerian"
-    ],
-    "cuisine": "Nigerian",
-    "areaSlug": "houston",
-    "city": "Houston",
-    "state": "TX",
-    "addressLine": "2223 S Texas 6, Houston, TX 77077",
-    "phone": "(281) 531-4832",
-    "websiteUrl": "https://southwestfarmersmarket.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2223%20S%20Texas%206%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
-    "highlights": [
-      "Nigerian",
-      "Nigerian"
-    ],
-    "category": "Market + Kitchen",
-    "hours": {
-      "Monday": "7:00 am - 10:00 pm",
-      "Tuesday": "7:00 am - 10:00 pm",
-      "Wednesday": "7:00 am - 10:00 pm",
-      "Thursday": "7:00 am - 10:00 pm",
-      "Friday": "7:00 am - 10:00 pm",
-      "Saturday": "7:00 am - 10:00 pm",
-      "Sunday": "7:00 am - 10:00 pm"
-    }
-  },
-  {
     "slug": "aa-and-t-african-food-market-houston",
     "name": "AA&T African Food Market",
     "cuisines": [
@@ -4794,34 +4751,6 @@ export const RESTAURANTS: Restaurant[] = [
       "Friday": "9:30 am - 9:00 pm",
       "Saturday": "9:30 am - 9:00 pm",
       "Sunday": "1:00 pm - 7:00 pm"
-    }
-  },
-  {
-    "slug": "wazobia-african-market-houston",
-    "name": "Wazobia African Market",
-    "cuisines": [
-      "African"
-    ],
-    "cuisine": "African",
-    "areaSlug": "houston",
-    "city": "Houston",
-    "state": "TX",
-    "addressLine": "10828C Beechnut St, Houston, TX 77072",
-    "phone": "(832) 781-8914",
-    "websiteUrl": "https://wazobiaafricanmarket.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=10828C%20Beechnut%20St%2C%20Houston%2C%20TX%2077072%2C%20Houston%2C%20TX",
-    "highlights": [
-      "African"
-    ],
-    "category": "Market + Kitchen",
-    "hours": {
-      "Monday": "7:00 am - 10:00 pm",
-      "Tuesday": "7:00 am - 10:00 pm",
-      "Wednesday": "7:00 am - 10:00 pm",
-      "Thursday": "7:00 am - 10:00 pm",
-      "Friday": "7:00 am - 10:00 pm",
-      "Saturday": "7:00 am - 10:00 pm",
-      "Sunday": "7:00 am - 10:00 pm"
     }
   },
   {
@@ -5055,34 +4984,6 @@ export const RESTAURANTS: Restaurant[] = [
       "Friday": "4:00 PM - 12:00 AM",
       "Saturday": "12:00 PM - 2:00 AM",
       "Sunday": "12:00 PM - 10:00 PM"
-    }
-  },
-  {
-    "slug": "boxochops-modern-african-kitchen-plano",
-    "name": "BOXOCHOPS Modern African Kitchen",
-    "cuisines": [
-      "West African"
-    ],
-    "cuisine": "West African",
-    "areaSlug": "dfw",
-    "city": "Plano",
-    "state": "TX",
-    "addressLine": "8500 Ohio Dr STE 200, Plano, TX 75024",
-    "phone": "(469) 294-0003",
-    "websiteUrl": "https://boxochops.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=8500%20Ohio%20Dr%20STE%20200%2C%20Plano%2C%20TX%2075024%2C%20Plano%2C%20TX",
-    "highlights": [
-      "West African"
-    ],
-    "category": "Restaurant",
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "12:00 PM - 8:00 PM",
-      "Wednesday": "12:00 PM - 8:00 PM",
-      "Thursday": "12:00 PM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "12:00 PM - 6:00 PM"
     }
   },
   {
@@ -5399,36 +5300,6 @@ export const RESTAURANTS: Restaurant[] = [
       "Friday": "10:00 AM - 9:00 PM",
       "Saturday": "10:00 AM - 9:00 PM",
       "Sunday": "10:00 AM - 9:00 PM"
-    }
-  },
-  {
-    "slug": "olori-african-cuisine-restaurant-and-event-catering-services-dallas",
-    "name": "OLORI AFRICAN CUISINE RESTAURANT AND EVENT CATERING SERVICES",
-    "cuisines": [
-      "Nigerian",
-      "Nigerian"
-    ],
-    "cuisine": "Nigerian",
-    "areaSlug": "dfw",
-    "city": "Dallas",
-    "state": "TX",
-    "addressLine": "9203 Skillman St suite 114, Dallas, TX 75243",
-    "phone": "(214) 964-0065",
-    "websiteUrl": "https://oloriafricancuisine.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9203%20Skillman%20St%20suite%20114%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
-    "highlights": [
-      "Nigerian",
-      "Nigerian"
-    ],
-    "category": "Restaurant",
-    "hours": {
-      "Monday": "11:00 AM - 8:00 PM",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "10:30 AM - 9:00 PM",
-      "Sunday": "10:30 AM - 9:00 PM"
     }
   },
   {
@@ -5928,35 +5799,6 @@ export const RESTAURANTS: Restaurant[] = [
     }
   },
   {
-    "slug": "finger-licking-houston",
-    "name": "Finger Licking",
-    "cuisines": [
-      "West African, Nigerian",
-      "Nigerian"
-    ],
-    "cuisine": "West African, Nigerian",
-    "areaSlug": "houston",
-    "city": "Houston",
-    "state": "TX",
-    "addressLine": "9815 Bissonnet St, Houston, TX 77036",
-    "phone": "(713) 270-7070",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9815%20Bissonnet%20St%2C%20Houston%2C%20TX%2077036%2C%20Houston%2C%20TX",
-    "highlights": [
-      "West African, Nigerian",
-      "Nigerian"
-    ],
-    "category": "Restaurant",
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
-  },
-  {
     "slug": "amazing-occasion-custom-cakes-llc-dallas",
     "name": "Amazing Occasion Custom Cakes LLC",
     "cuisines": [
@@ -6036,32 +5878,6 @@ export const RESTAURANTS: Restaurant[] = [
       "Friday": "4:30 PM - 9:00 PM",
       "Saturday": "5:00 PM - 10:00 PM",
       "Sunday": "4:00 PM - 8:00 PM"
-    }
-  },
-  {
-    "slug": "freshnez-dallas",
-    "name": "Freshnez",
-    "cuisines": [
-      "African"
-    ],
-    "cuisine": "African",
-    "areaSlug": "dfw",
-    "city": "Dallas",
-    "state": "TX",
-    "addressLine": "7508 Ambassador Row, Dallas, TX 75247",
-    "phone": "(833) 888-3639",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=7508%20Ambassador%20Row%2C%20Dallas%2C%20TX%2075247%2C%20Dallas%2C%20TX",
-    "highlights": [
-      "African"
-    ],
-    "category": "Restaurant",
-    "hours": {
-      "Tuesday": "Closed",
-      "Wednesday": "11:00 AM - 2:30 PM",
-      "Thursday": "11:00 AM - 2:30 PM",
-      "Friday": "11:00 AM - 6:00 PM",
-      "Saturday": "11:00 AM - 7:30 PM",
-      "Sunday": "11:00 AM - 5:00 PM"
     }
   },
   {
@@ -6853,33 +6669,6 @@ export const RESTAURANTS: Restaurant[] = [
       "Friday": "11:00 am≀- 6:00 pm",
       "Saturday": "10:00 am≀- 3:00 pm",
       "Sunday": "Closed"
-    }
-  },
-  {
-    "slug": "southwest-farmers-market-austin",
-    "name": "Southwest Farmers Market",
-    "cuisines": [
-      "African"
-    ],
-    "cuisine": "African",
-    "areaSlug": "austin",
-    "city": "Austin",
-    "state": "TX",
-    "addressLine": "9821 N Interstate Hwy 35, Austin, TX 78753",
-    "phone": "(512) 339-6128",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9821%20N%20Interstate%20Hwy%2035%2C%20Austin%2C%20TX%2078753%2C%20Austin%2C%20TX",
-    "highlights": [
-      "African"
-    ],
-    "category": "Market + Kitchen",
-    "hours": {
-      "Monday": "7:00 am - 10:00 pm",
-      "Tuesday": "7:00 am - 10:00 pm",
-      "Wednesday": "7:00 am - 10:00 pm",
-      "Thursday": "7:00 am - 10:00 pm",
-      "Friday": "7:00 am - 10:00 pm",
-      "Saturday": "7:00 am - 10:00 pm",
-      "Sunday": "7:00 am - 10:00 pm"
     }
   },
   {

@@ -2,7 +2,8 @@
 
 import React, { use } from 'react';
 import { useFormStatus } from 'react-dom';
-import { addListing } from './actions'; // This connects to your new file
+import { addListing } from './actions';
+import { RESTAURANTS } from '@/lib/restaurants';
 
 // THE INTERACTIVE BUTTON
 function SubmitButton() {
@@ -16,7 +17,7 @@ function SubmitButton() {
         pending ? 'bg-gray-400 cursor-not-allowed' : 'bg-gray-900 hover:bg-orange-600'
       }`}
     >
-      {pending ? '🚀 SENDING TO GMAIL...' : 'SAVE TO DIRECTORY & NOTIFY GMAIL'}
+      {pending ? 'Sending...' : 'Notify via Gmail'}
     </button>
   );
 }
@@ -28,15 +29,12 @@ export default function AdminPage(props: {
   const searchParams = use(props.searchParams);
   const key = searchParams.key;
 
-  // IMPORTANT: Since we are in a 'use client' file, we check the key directly.
-  // Replace "YourSecretKey" with your actual password if you want 
-  // hardcoded security, or it will check the URL ?key=
   if (!key) {
     return (
       <div className="flex items-center justify-center min-h-screen bg-gray-100">
         <div className="p-10 bg-white shadow-2xl rounded-3xl text-center border-t-8 border-orange-600">
           <h1 className="text-3xl font-black text-gray-800">Texas Admin Restricted</h1>
-          <p className="mt-4 text-gray-600 font-medium">Please provide the valid administrator key.</p>
+          <p className="mt-4 text-gray-600 font-medium">Visit /admin?key=your-secret to access.</p>
         </div>
       </div>
     );
@@ -51,7 +49,7 @@ export default function AdminPage(props: {
       
       <div className="bg-white p-10 rounded-b-3xl shadow-2xl border-x border-b border-gray-100">
         <div className="flex justify-between items-center mb-10 pb-6 border-b">
-          <h2 className="text-2xl font-bold text-gray-800">175 Listings Active</h2>
+          <h2 className="text-2xl font-bold text-gray-800">{RESTAURANTS.length} Listings Active</h2>
           <span className="text-green-600 font-bold bg-green-50 px-4 py-1 rounded-full text-xs border border-green-200 uppercase tracking-widest">
             Authenticated
           </span>
@@ -59,13 +57,18 @@ export default function AdminPage(props: {
 
         <form 
           action={async (formData) => {
-            await addListing(formData);
-            alert("Success! Check your Gmail.");
+            formData.set('adminKey', key || '');
+            const result = await addListing(formData);
+            if (result?.success) {
+              alert("Success! Notification sent to Gmail.");
+            } else {
+              alert("Failed to send. Check RESEND_API_KEY and try again.");
+            }
           }} 
           className="space-y-6"
         >
           <div className="bg-gray-50 p-8 rounded-2xl border-2 border-dashed border-gray-200">
-            <h3 className="font-bold text-gray-600 mb-6 uppercase text-sm tracking-wider italic">Add 176th Restaurant</h3>
+            <h3 className="font-bold text-gray-600 mb-6 uppercase text-sm tracking-wider italic">Add Restaurant #{RESTAURANTS.length + 1}</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-2">
                 <label className="text-xs font-black text-gray-400 uppercase ml-1">Restaurant Name</label>

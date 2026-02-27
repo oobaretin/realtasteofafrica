@@ -145,9 +145,23 @@ function parseHours(hoursStr) {
     const colonIdx = seg.indexOf(":")
     if (colonIdx === -1) continue
     const dayPart = seg.slice(0, colonIdx).trim()
-    const timePart = seg.slice(colonIdx + 1).trim()
+    let timePart = seg.slice(colonIdx + 1).trim()
+    // Strip "(Closed Monday)" etc from time part - handle separately below
+    const closedInParen = timePart.match(/\(([^)]*closed[^)]*)\)/i)
+    if (closedInParen) {
+      timePart = timePart.replace(closedInParen[0], "").trim()
+      const closedDay = closedInParen[1].match(/(\w+)/)
+      if (closedDay) {
+        for (const d of DAYS) {
+          if (d.toLowerCase().startsWith(closedDay[1].toLowerCase().slice(0, 3))) {
+            result[d] = "Closed"
+            break
+          }
+        }
+      }
+    }
     const timeNorm = normalizeTime(timePart)
-    const closed = /closed/i.test(timeNorm) || !timeNorm
+    const closed = /^closed$/i.test(timeNorm) || !timeNorm
     const value = closed ? "Closed" : timeNorm
 
     const days = expandDays(dayPart)
@@ -268,18 +282,48 @@ async function main() {
     }
   }
 
-  function findMatch(mergedRow) {
+  function findMatch(mergedRow, preferNoHours = false) {
     const name = String(mergedRow.Name ?? "").trim()
     const city = String(mergedRow.City ?? "").trim().toLowerCase()
+    const mergedNorm = normName(name)
+    const mergedNormNoParen = normName(name.replace(/\s*\([^)]*\)\s*$/, "").trim())
+    const mergedNormNoSuffix = normName(name.replace(/\s*[-–—]\s*[^\-]+$/, "").trim())
+
+    const candidates = []
+
     const keys = [
-      `${normName(name)}|${city}`,
-      `${normName(name.replace(/\s*\([^)]*\)\s*$/, "").trim())}|${city}`,
-      `${normName(name.replace(/\s*[-–—]\s*[^\-]+$/, "").trim())}|${city}`,
+      `${mergedNorm}|${city}`,
+      `${mergedNormNoParen}|${city}`,
+      `${mergedNormNoSuffix}|${city}`,
     ]
     for (const key of keys) {
-      if (lookup.has(key)) return lookup.get(key)
+      if (lookup.has(key)) candidates.push(lookup.get(key))
     }
-    return -1
+
+    // Substring match: "Finger Licking" should match "Finger Licking Restaurant"
+    for (let i = 0; i < currentRows.length; i++) {
+      const r = currentRows[i]
+      if (String(r.city ?? "").toLowerCase() !== city) continue
+      const currNorm = normName(r.name)
+      const currNormNoParen = normName(r.name.replace(/\s*\([^)]*\)\s*$/, "").trim())
+      if (
+        (mergedNorm.length >= 8 && currNorm.includes(mergedNorm)) ||
+        (mergedNorm.length >= 8 && mergedNorm.includes(currNorm)) ||
+        (currNormNoParen.length >= 8 && mergedNorm.includes(currNormNoParen)) ||
+        (currNormNoParen.length >= 8 && currNormNoParen.includes(mergedNorm))
+      ) {
+        if (!candidates.includes(i)) candidates.push(i)
+      }
+    }
+
+    if (candidates.length === 0) return -1
+    if (candidates.length === 1) return candidates[0]
+    // Prefer row that needs hours (so we enrich rather than skip)
+    if (preferNoHours) {
+      const withoutHours = candidates.filter((i) => !currentRows[i].hours || currentRows[i].hours.length < 20)
+      return withoutHours[0] ?? candidates[0]
+    }
+    return candidates[0]
   }
 
   const usedMerged = new Set()
@@ -287,7 +331,8 @@ async function main() {
   let added = 0
 
   for (const m of mergedRows) {
-    const idx = findMatch(m)
+    const hasHours = parseHours(m.Hours)
+    const idx = findMatch(m, !!hasHours)
     const name = String(m.Name ?? "").trim()
     const city = String(m.City ?? "").trim()
     if (!name || !city) continue
@@ -374,13 +419,48 @@ async function main() {
     "verificationSource",
   ]
 
-  const outputRows = currentRows.map((r) => {
+  // Deduplicate: merge rows where one name contains the other (same city)
+  const toRemove = new Set()
+  for (let i = 0; i < currentRows.length; i++) {
+    if (toRemove.has(i)) continue
+    const a = currentRows[i]
+    const aNorm = normName(a.name)
+    const aCity = String(a.city ?? "").toLowerCase()
+    for (let j = i + 1; j < currentRows.length; j++) {
+      if (toRemove.has(j)) continue
+      const b = currentRows[j]
+      if (String(b.city ?? "").toLowerCase() !== aCity) continue
+      const bNorm = normName(b.name)
+      const isDuplicate =
+        (aNorm.length >= 8 && bNorm.length >= 8) &&
+        (aNorm.includes(bNorm) || bNorm.includes(aNorm))
+      if (!isDuplicate) continue
+      // Merge: keep the one with hours or longer name; merge in missing data
+      const aHasHours = a.hours && a.hours.length > 20
+      const bHasHours = b.hours && b.hours.length > 20
+      // Prefer longer name (more specific) and merge in hours from the other
+      const keep = aNorm.length >= bNorm.length ? i : j
+      const drop = keep === i ? j : i
+      const keepRow = currentRows[keep]
+      const dropRow = currentRows[drop]
+      if (!keepRow.hours && dropRow.hours) keepRow.hours = dropRow.hours
+      if (!keepRow.phone && dropRow.phone) keepRow.phone = dropRow.phone
+      if (!keepRow.websiteUrl && dropRow.websiteUrl) keepRow.websiteUrl = dropRow.websiteUrl
+      if (!keepRow.addressLine && dropRow.addressLine) keepRow.addressLine = dropRow.addressLine
+      toRemove.add(drop)
+    }
+  }
+  const dedupedRows = currentRows.filter((_, i) => !toRemove.has(i))
+
+  const outputRows = dedupedRows.map((r) => {
     const out = {}
     for (const h of headers) {
       out[h] = r[h] ?? ""
     }
     return out
   })
+
+  const removedCount = currentRows.length - dedupedRows.length
 
   const csvOut = stringify(outputRows, {
     header: true,
@@ -391,9 +471,10 @@ async function main() {
 
   await fs.writeFile(CURRENT_CSV, csvOut, "utf8")
 
-  console.log(`\nDone: ${currentRows.length} total rows`)
+  console.log(`\nDone: ${outputRows.length} total rows`)
   console.log(`  Enriched ${enriched} existing with hours`)
   console.log(`  Added ${added} new restaurants`)
+  if (removedCount > 0) console.log(`  Removed ${removedCount} duplicates`)
   console.log(`  Wrote ${CURRENT_CSV}`)
   console.log("\nNext: npm run import:restaurants")
 }

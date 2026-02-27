@@ -7,6 +7,12 @@ import { Resend } from 'resend';
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function addListing(formData: FormData) {
+  const adminKey = formData.get('adminKey');
+  const expectedKey = process.env.ADMIN_KEY;
+  if (expectedKey && adminKey !== expectedKey) {
+    return { success: false, error: 'Invalid admin key' };
+  }
+
   const name = formData.get('restaurantName');
   const city = formData.get('city');
 
