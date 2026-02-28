@@ -621,7 +621,7 @@ export const RESTAURANTS: Restaurant[] = [
   },
   {
     "slug": "grains-and-solids-sugar-land-tx",
-    "name": "Grains and Solids",
+    "name": "Amala on Point - Grains and Solid Cafe",
     "cuisines": [
       "West African",
       "Nigerian"
@@ -630,15 +630,27 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "sugar-land",
     "city": "Sugar Land",
     "state": "TX",
-    "addressLine": "11134 S Texas 6 Suite 216, Sugar Land TX 77498",
+    "addressLine": "11134 S Texas 6 Suite 216, Sugar Land, TX 77498",
     "phone": "(832) 288-2982",
     "websiteUrl": "https://grainsandsolids.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=11134%20S%20Texas%206%20Suite%20216%2C%20Sugar%20Land%20TX%2077498%2C%20Sugar%20Land%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=11134%20S%20Texas%206%20Suite%20216%2C%20Sugar%20Land%2C%20TX%2077498%2C%20Sugar%20Land%2C%20TX",
+    "priceLevel": 3,
     "highlights": [
-      "Delivery"
+      "Dine-in",
+      "Takeout",
+      "No-contact delivery"
     ],
     "category": "Restaurant",
-    "writeUp": "West African / Nigerian-style dishes in Sugar Land. Delivery may be available — check their website or delivery apps for the most up-to-date options."
+    "writeUp": "West African / Nigerian cafe in Royal Woodbridge Plaza, Sugar Land. Amala, grains, and solid Nigerian dishes. Dine-in, takeout, and no-contact delivery. Menu at places.singleplatform.com.",
+    "hours": {
+      "Monday": "10:00 am - 9:00 pm",
+      "Tuesday": "10:00 am - 9:00 pm",
+      "Wednesday": "10:00 am - 9:00 pm",
+      "Thursday": "10:00 am - 9:00 pm",
+      "Friday": "10:00 am - 9:00 pm",
+      "Saturday": "10:00 am - 9:00 pm",
+      "Sunday": "12:00 pm - 7:00 pm"
+    }
   },
   {
     "slug": "all-seasons-cafe-sugar-land-tx",
