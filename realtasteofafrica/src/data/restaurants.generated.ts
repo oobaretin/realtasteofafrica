@@ -4195,6 +4195,38 @@ export const RESTAURANTS: Restaurant[] = [
     }
   },
   {
+    "slug": "aso-rock-market-houston-tx",
+    "name": "Aso Rock Market - Houston",
+    "cuisines": [
+      "African Market",
+      "Grocery"
+    ],
+    "cuisine": "West African",
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "13711 Westheimer Rd A-1, Houston, TX 77077",
+    "phone": "(832) 990-7590",
+    "websiteUrl": "https://asorockmarket.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=13711%20Westheimer%20Rd%20A-1%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
+    "highlights": [
+      "In-store shopping",
+      "In-store pickup",
+      "Delivery"
+    ],
+    "category": "Market",
+    "writeUp": "West African grocery and market on Westheimer. In-store shopping, pickup, and delivery. Same brand as Aso Rock Market & Kitchen in Dallas.",
+    "hours": {
+      "Monday": "9:00 am - 10:00 pm",
+      "Tuesday": "9:00 am - 10:00 pm",
+      "Wednesday": "9:00 am - 10:00 pm",
+      "Thursday": "9:00 am - 10:00 pm",
+      "Friday": "9:00 am - 10:00 pm",
+      "Saturday": "9:00 am - 10:00 pm",
+      "Sunday": "11:00 am - 7:00 pm"
+    }
+  },
+  {
     "slug": "blue-nile-ethiopian-houston-tx",
     "name": "Blue Nile Ethiopian",
     "cuisines": [
