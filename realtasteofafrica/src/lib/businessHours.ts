@@ -84,6 +84,15 @@ export function getBusinessStatus(hours: HoursMap | undefined | null): BusinessS
     }
   }
 
+  // "Open 24 hours" or "24 hours"
+  if (/open\s*24|24\s*hours?/i.test(todayHours)) {
+    return {
+      status: "Open Now",
+      color: "text-green-500",
+      label: "Open 24 hours",
+    }
+  }
+
   const parsed = parseTimeRange(todayHours)
   if (!parsed) {
     return {
@@ -100,10 +109,26 @@ export function getBusinessStatus(hours: HoursMap | undefined | null): BusinessS
   // 12:00 AM (midnight) parses as 0; treat as 2400 for "open until midnight" comparison
   const closeForCheck = closeTime === 0 ? 2400 : closeTime
 
-  if (currentTime >= openTime && currentTime < closeForCheck) {
+  // Late-night close (e.g. 11 AM - 2 AM): close < open means close is next day
+  // Open if: (current >= open && current < midnight) OR (current < close, i.e. in the after-midnight window)
+  const closesAfterMidnight = closeTime > 0 && closeTime < openTime
+  const isOpen =
+    (currentTime >= openTime && currentTime < (closesAfterMidnight ? 2400 : closeForCheck)) ||
+    (closesAfterMidnight && currentTime < closeTime)
+
+  if (isOpen) {
     const toMinutes = (hhmm: number) =>
       Math.floor(hhmm / 100) * 60 + (hhmm % 100)
-    const minutesUntilClose = toMinutes(closeForCheck) - toMinutes(currentTime)
+    let minutesUntilClose: number
+    if (closesAfterMidnight) {
+      if (currentTime < closeTime) {
+        minutesUntilClose = toMinutes(closeTime) - toMinutes(currentTime)
+      } else {
+        minutesUntilClose = toMinutes(2400) - toMinutes(currentTime) + toMinutes(closeTime)
+      }
+    } else {
+      minutesUntilClose = toMinutes(closeForCheck) - toMinutes(currentTime)
+    }
     if (minutesUntilClose > 0 && minutesUntilClose < 60) {
       return {
         status: "Closing Soon",
