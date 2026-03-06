@@ -3049,20 +3049,25 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "13505 Westheimer Rd, Houston, TX 77077",
-    "phone": "(346) 520-8347",
+    "phone": "(832) 328-8049",
+    "websiteUrl": "https://africantastyhub.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=13505%20Westheimer%20Rd%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
+    "priceLevel": 3,
     "highlights": [
-      "West African"
+      "Dine-in",
+      "Takeout",
+      "No-contact delivery"
     ],
     "category": "Restaurant",
+    "writeUp": "West African restaurant on Westheimer. Dine-in, takeout, and no-contact delivery. Order online at africantastyhub.com.",
     "hours": {
       "Monday": "Closed",
-      "Tuesday": "11:00 AM - 9:00 PM (Thursday-Saturday 10:00 AM start",
-      "Wednesday": "11:00 AM - 9:00 PM (Thursday-Saturday 10:00 AM start",
-      "Thursday": "11:00 AM - 9:00 PM (Thursday-Saturday 10:00 AM start",
-      "Friday": "11:00 AM - 9:00 PM (Thursday-Saturday 10:00 AM start",
-      "Saturday": "11:00 AM - 9:00 PM (Thursday-Saturday 10:00 AM start",
-      "Sunday": "Closed"
+      "Tuesday": "11:00 am - 9:00 pm",
+      "Wednesday": "11:00 am - 9:00 pm",
+      "Thursday": "10:00 am - 9:00 pm",
+      "Friday": "10:00 am - 9:00 pm",
+      "Saturday": "10:00 am - 9:00 pm",
+      "Sunday": "1:00 pm - 9:00 pm"
     }
   },
   {
