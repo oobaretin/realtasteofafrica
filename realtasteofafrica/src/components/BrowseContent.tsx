@@ -14,12 +14,14 @@ export function BrowseContent({
   cuisineTags,
   initialCuisine,
   initialArea,
+  initialCategory = "All",
 }: {
   restaurants: Restaurant[]
   areas: Area[]
   cuisineTags: string[]
   initialCuisine: string
   initialArea: string
+  initialCategory?: string
 }) {
   const [isOpenNowOnly, setIsOpenNowOnly] = useState(false)
 
@@ -41,6 +43,7 @@ export function BrowseContent({
         cuisineTags={cuisineTags}
         initialCuisine={initialCuisine}
         initialArea={initialArea}
+        initialCategory={initialCategory}
         isOpenNowOnly={isOpenNowOnly}
         onOpenNowOnlyChange={setIsOpenNowOnly}
       />

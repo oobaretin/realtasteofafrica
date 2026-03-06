@@ -1,6 +1,7 @@
 "use client"
 
-import { useEffect, useMemo, useState } from "react"
+import { useCallback, useEffect, useMemo, useState } from "react"
+import { useRouter, usePathname } from "next/navigation"
 
 import { Badge } from "@/components/Badge"
 import { FilterBar } from "@/components/FilterBar"
@@ -38,9 +39,18 @@ function normalize(s: string) {
   return s.toLowerCase().trim()
 }
 
-function includesAny(haystack: string, needles: string[]) {
-  const h = normalize(haystack)
-  return needles.some((n) => h.includes(normalize(n)))
+function searchMatches(restaurant: Restaurant, words: string[]): boolean {
+  if (words.length === 0) return true
+  const searchable = [
+    restaurant.name,
+    restaurant.city,
+    restaurant.state,
+    restaurant.addressLine,
+    ...restaurant.cuisines,
+    ...restaurant.highlights,
+  ].join(" ")
+  const searchableNorm = normalize(searchable)
+  return words.every((w) => searchableNorm.includes(normalize(w)))
 }
 
 export function RestaurantsBrowser({
@@ -49,6 +59,7 @@ export function RestaurantsBrowser({
   cuisineTags,
   initialCuisine = "",
   initialArea = "",
+  initialCategory = "All",
   isOpenNowOnly = false,
   onOpenNowOnlyChange,
 }: {
@@ -57,29 +68,52 @@ export function RestaurantsBrowser({
   cuisineTags: string[]
   initialCuisine?: string
   initialArea?: string
+  initialCategory?: string
   isOpenNowOnly?: boolean
   onOpenNowOnlyChange?: (value: boolean) => void
 }) {
+  const router = useRouter()
+  const pathname = usePathname()
   const [query, setQuery] = useState("")
   const [areaSlug, setAreaSlug] = useState<string>(initialArea)
   const [cuisine, setCuisine] = useState<string>(initialCuisine)
-  const [category, setCategory] = useState<string>("All")
+  const [category, setCategory] = useState<string>(initialCategory)
   const [sortBy, setSortBy] = useState<SortBy>("status")
 
   useEffect(() => {
     setAreaSlug(initialArea)
     setCuisine(initialCuisine)
-  }, [initialArea, initialCuisine])
+    setCategory(initialCategory)
+  }, [initialArea, initialCuisine, initialCategory])
 
   const filterBarValues = useMemo(
     () => ({ category, region: areaSlug, cuisine }),
     [category, areaSlug, cuisine]
   )
 
+  const updateUrl = useCallback(
+    (updates: { area?: string; cuisine?: string; type?: string }) => {
+      const params = new URLSearchParams()
+      if (updates.area) params.set("area", updates.area)
+      if (updates.cuisine) params.set("cuisine", updates.cuisine)
+      if (updates.type && updates.type !== "All") params.set("type", updates.type)
+      const qs = params.toString()
+      router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false })
+    },
+    [pathname, router]
+  )
+
   const handleFilterChange = (key: "category" | "region" | "cuisine", value: string) => {
-    if (key === "category") setCategory(value)
-    else if (key === "region") setAreaSlug(value)
-    else setCuisine(value)
+    if (key === "category") {
+      setCategory(value)
+      updateUrl({ area: areaSlug, cuisine, type: value })
+    } else if (key === "region") {
+      setAreaSlug(value)
+      updateUrl({ area: value, cuisine, type: category })
+    } else {
+      setCuisine(value)
+      updateUrl({ area: areaSlug, cuisine: value, type: category })
+    }
   }
 
   const areaBySlug = useMemo(() => {
@@ -106,12 +140,8 @@ export function RestaurantsBrowser({
         if (!matchesCuisine) return false
       }
       if (!q) return true
-      return (
-        includesAny(r.name, [q]) ||
-        includesAny(r.city, [q]) ||
-        includesAny(r.addressLine, [q]) ||
-        r.cuisines.some((c) => includesAny(c, [q]))
-      )
+      const words = q.split(/\s+/).filter(Boolean)
+      return searchMatches(r, words)
     })
   }, [areaSlug, category, cuisine, isOpenNowOnly, query, restaurants])
 
@@ -141,6 +171,7 @@ export function RestaurantsBrowser({
     setCuisine("")
     setCategory("All")
     onOpenNowOnlyChange?.(false)
+    router.replace(pathname, { scroll: false })
   }
 
   return (
