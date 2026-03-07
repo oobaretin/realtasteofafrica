@@ -9,7 +9,7 @@ import {
   getEstablishmentCategory,
 } from "@/lib/establishmentType"
 import type { Restaurant } from "@/lib/restaurants"
-import { getBusinessStatus } from "@/lib/businessHours"
+import { useBusinessStatus } from "@/components/BusinessStatusClient"
 import { VerifiedBadge } from "@/components/VerifiedBadge"
 
 function toTelHref(phone: string) {
@@ -34,7 +34,7 @@ export function RestaurantCard({
   const badgeClasses = CATEGORY_BADGE_CLASSES[establishmentCategory]
   const stripClasses = CATEGORY_STRIP_CLASSES[establishmentCategory]
   const isFeatured = variant === "featured"
-  const businessStatus = getBusinessStatus(r.hours)
+  const businessStatus = useBusinessStatus(r.hours)
   const isClosed = businessStatus.status === "Closed"
 
   return (

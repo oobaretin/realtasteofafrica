@@ -12,8 +12,8 @@ import {
   type Restaurant,
 } from "@/lib/restaurants"
 import { getRestaurantWriteUp } from "@/lib/restaurantWriteUp"
-import { getBusinessStatus } from "@/lib/businessHours"
 import { CopyAddressButtonClient } from "@/components/CopyAddressButton"
+import { BusinessStatusClient } from "@/components/BusinessStatusClient"
 import { ShareButton } from "@/components/ShareButton"
 import { SimilarSpots } from "@/components/SimilarSpots"
 
@@ -101,7 +101,6 @@ export default async function RestaurantDetailPage({
     4
   )
   const reportHref = `/contact?restaurant=${encodeURIComponent(r.name)}#report`
-  const businessStatus = getBusinessStatus(r.hours)
   const listingNumber = getListingNumber(slug)
 
   return (
@@ -151,15 +150,7 @@ export default async function RestaurantDetailPage({
           {r.name}
         </h1>
         <div className="mt-2 flex flex-wrap items-center gap-2">
-          {businessStatus.status !== "Unverified" ? (
-            <span
-              className={`inline-flex items-center rounded-full px-3 py-1.5 text-sm font-semibold ${businessStatus.status === "Open Now" ? "animate-pulse-subtle bg-green-100 text-green-800" : businessStatus.status === "Closing Soon" ? "bg-orange-100 text-orange-800" : "bg-red-100 text-red-800"}`}
-              aria-live="polite"
-            >
-              {businessStatus.status === "Open Now" ? "● " : null}
-              {businessStatus.status}
-            </span>
-          ) : null}
+          <BusinessStatusClient hours={r.hours} variant="badge" />
           {r.isVerified ? <VerifiedBadge /> : null}
         </div>
       </header>
@@ -251,9 +242,7 @@ export default async function RestaurantDetailPage({
             <h3 className="text-sm font-semibold uppercase tracking-wide text-slate-500">
               Hours
             </h3>
-            <p className={`mt-2 text-sm font-medium ${businessStatus.color}`}>
-              {businessStatus.label}
-            </p>
+            <BusinessStatusClient hours={r.hours} variant="label" />
             {r.hours && Object.keys(r.hours).length > 0 ? (
               <ul className="mt-3 space-y-1.5 text-sm text-slate-600" aria-label="Hours by day">
                 {["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"].map(

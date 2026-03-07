@@ -38,9 +38,12 @@ function getTexasNow(): { day: string; timeHHMM: number } {
   return { day, timeHHMM: hour * 100 + minute }
 }
 
-/** Parse "11:00 AM - 10:00 PM" into open/close HHMM. */
+/** Parse "11:00 AM - 10:00 PM" into open/close HHMM. Handles en-dash, em-dash, and strips parenthetical notes. */
 function parseTimeRange(range: string): { open: number; close: number } | null {
-  const parts = range.split("-").map((s) => s.trim())
+  // Strip parenthetical notes like "(Saturday 12:00 PM start)" that break parsing
+  const cleaned = range.replace(/\s*\([^)]*\)\s*/g, "").trim()
+  // Split on hyphen, en-dash (–), or em-dash (—)
+  const parts = cleaned.split(/\s*[-–—]\s*/).map((s) => s.trim())
   if (parts.length < 2) return null
   const open = parseTime(parts[0])
   const close = parseTime(parts[1])
@@ -103,8 +106,11 @@ export function getBusinessStatus(hours: HoursMap | undefined | null): BusinessS
   }
 
   const { open: openTime, close: closeTime } = parsed
-  const openStr = todayHours.split("-").map((s) => s.trim())[0] ?? ""
-  const closeStr = todayHours.split("-").map((s) => s.trim())[1] ?? ""
+  // Use same cleaning as parseTimeRange for display strings
+  const cleanedHours = todayHours.replace(/\s*\([^)]*\)\s*/g, "").trim()
+  const displayParts = cleanedHours.split(/\s*[-–—]\s*/).map((s) => s.trim())
+  const openStr = displayParts[0] ?? ""
+  const closeStr = displayParts[1] ?? ""
 
   // 12:00 AM (midnight) parses as 0; treat as 2400 for "open until midnight" comparison
   const closeForCheck = closeTime === 0 ? 2400 : closeTime
