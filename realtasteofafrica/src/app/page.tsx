@@ -1,21 +1,12 @@
 import Link from "next/link"
 
 import { Badge } from "@/components/Badge"
+import { FeaturedCarousel } from "@/components/FeaturedCarousel"
 import { StatewideDiscovery } from "@/components/StatewideDiscovery"
 import { RestaurantCard } from "@/components/RestaurantCard"
 import { AREAS } from "@/lib/areas"
 import { CUISINE_TAGS } from "@/lib/cuisines"
 import { getFeaturedRestaurants, RESTAURANTS } from "@/lib/restaurants"
-
-function toTelHref(phone: string) {
-  try {
-    const digits = phone.replace(/[^\d+]/g, "");
-    return digits.startsWith("+") ? digits : `+${digits}`;
-  } catch (error) {
-    console.error("Error formatting phone number:", error);
-    return "";
-  }
-}
 
 function scoreRestaurant(r: (typeof RESTAURANTS)[number]) {
   // Prefer listings with more actionable info (for homepage "popular picks")
@@ -39,7 +30,6 @@ export default function HomePage() {
   const featured = getFeaturedRestaurants().sort(
     (a, b) => FEATURED_ORDER.indexOf(a.slug) - FEATURED_ORDER.indexOf(b.slug)
   )
-  const featuredThree = featured.slice(0, 3)
 
   const top = [...RESTAURANTS]
     .sort((a, b) => scoreRestaurant(b) - scoreRestaurant(a))
@@ -103,13 +93,7 @@ export default function HomePage() {
           </Link>
         </div>
 
-        <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {featuredThree.map((r) => (
-            <li key={r.slug}>
-              <RestaurantCard restaurant={r} variant="featured" />
-            </li>
-          ))}
-        </ul>
+        <FeaturedCarousel restaurants={featured} />
       </section>
 
       <section className="grid gap-4">
@@ -130,64 +114,13 @@ export default function HomePage() {
           </Link>
         </div>
 
-        <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-          <ul className="divide-y divide-slate-200">
-            {top.map((r) => (
-              <li key={r.slug} className="p-5">
-                <div className="flex flex-wrap items-start justify-between gap-3">
-                  <div>
-                    <div className="text-base font-semibold tracking-tight">
-                      {r.name}
-                    </div>
-                    <div className="mt-1 text-sm text-slate-600">
-                      {r.city}, {r.state} • {r.cuisines.slice(0, 3).join(" • ")}
-                    </div>
-                    <div className="mt-1 text-sm text-slate-600">
-                      {r.addressLine}
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Badge>{r.areaSlug}</Badge>
-                    {r.priceLevel ? <Badge>{"$".repeat(r.priceLevel)}</Badge> : null}
-                  </div>
-                </div>
-
-                <div className="mt-4 flex flex-wrap gap-2">
-                  {r.highlights.slice(0, 3).map((h) => (
-                    <Badge key={h}>{h}</Badge>
-                  ))}
-                </div>
-
-                <div className="mt-5 flex flex-wrap gap-3">
-                  <Link
-                    className="inline-flex rounded-md bg-amber-600 px-3 py-2 text-sm font-semibold text-white hover:bg-amber-700"
-                    href={`/restaurants/${r.slug}`}
-                  >
-                    View details →
-                  </Link>
-                  {r.websiteUrl ? (
-                    <a
-                      className="inline-flex rounded-md border border-slate-200 bg-white px-3 py-2 text-sm font-semibold text-slate-900 hover:bg-slate-50"
-                      href={r.websiteUrl}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Website
-                    </a>
-                  ) : null}
-                  {r.phone ? (
-                    <a
-                      className="inline-flex rounded-md border border-slate-200 bg-white px-3 py-2 text-sm font-semibold text-slate-900 hover:bg-slate-50"
-                      href={`tel:${toTelHref(r.phone)}`}
-                    >
-                      Call
-                    </a>
-                  ) : null}
-                </div>
-              </li>
-            ))}
-          </ul>
-        </div>
+        <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {top.map((r) => (
+            <li key={r.slug}>
+              <RestaurantCard restaurant={r} variant="default" />
+            </li>
+          ))}
+        </ul>
       </section>
 
       <section className="grid gap-4">
