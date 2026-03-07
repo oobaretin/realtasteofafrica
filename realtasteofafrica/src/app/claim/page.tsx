@@ -1,6 +1,7 @@
 import Link from "next/link"
 
 import { Breadcrumbs } from "@/components/Breadcrumbs"
+import { RESTAURANTS } from "@/lib/restaurants"
 import { ClaimFlow } from "@/components/ClaimFlow"
 import { CLAIM_VERIFY_PRICE_USD } from "@/lib/site"
 
@@ -59,7 +60,7 @@ export default function ClaimPage() {
           Put Your Restaurant on the Map of Texas
         </h1>
         <p className="max-w-2xl text-base text-slate-600 md:text-lg">
-          Claim your listing, get verified, and stand out in our directory of 180+
+          Claim your listing, get verified, and stand out in our directory of {RESTAURANTS.length}+
           African restaurants, food trucks, and markets across the Lone Star State.
         </p>
       </header>
@@ -141,7 +142,7 @@ export default function ClaimPage() {
               Priority Search
             </h3>
             <p className="text-sm text-slate-600">
-              Verified listings appear above unverified ones in our 180+ directory.
+              Verified listings appear above unverified ones in our {RESTAURANTS.length}+ directory.
             </p>
           </div>
         </div>

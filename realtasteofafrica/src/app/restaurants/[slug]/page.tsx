@@ -63,7 +63,7 @@ export async function generateMetadata({
   if (!r) return { title: "Restaurant" }
 
   const title = `${r.name} | ${r.city}, TX | The Real Taste of Africa`
-  const description = `Discover and visit ${r.name} in ${r.city}. One of 175+ manually verified African culinary spots in Texas.`
+  const description = `Discover and visit ${r.name} in ${r.city}. One of ${RESTAURANTS.length}+ manually verified African culinary spots in Texas.`
   const ogImage = r.imageUrl ?? DEFAULT_OG_IMAGE
 
   return {

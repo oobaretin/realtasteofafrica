@@ -52,14 +52,14 @@ export default function HomePage() {
         <div className="relative">
           <div className="flex flex-wrap items-center gap-2">
             <Badge>Directory</Badge>
-            <Badge>175+ listings</Badge>
+            <Badge>{RESTAURANTS.length}+ listings</Badge>
             <Badge>Texas-wide</Badge>
           </div>
           <h1 className="mt-5 text-3xl font-semibold tracking-tight text-white md:text-5xl">
             Real Taste of Africa
           </h1>
           <p className="mt-4 max-w-2xl text-base text-slate-200 md:text-lg">
-            The Definitive Guide to 175+ African Restaurants, Food Trucks, and
+            The Definitive Guide to {RESTAURANTS.length}+ African Restaurants, Food Trucks, and
             Markets Across Texas.
           </p>
           <p className="mt-2 max-w-2xl text-sm text-slate-300 md:text-base">
@@ -91,7 +91,7 @@ export default function HomePage() {
               The Best of the Lone Star State
             </h2>
             <p className="mt-1 text-sm text-slate-600 md:text-base">
-              From the 180+ spots we track, here are our current favorites for
+              From the {RESTAURANTS.length}+ spots we track, here are our current favorites for
               authentic flavor, community vibe, and incredible spice.
             </p>
           </div>

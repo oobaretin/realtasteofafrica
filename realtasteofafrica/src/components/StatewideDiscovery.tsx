@@ -64,7 +64,7 @@ export function StatewideDiscovery({ restaurants }: StatewideDiscoveryProps) {
           Strictly Statewide. Strictly Authentic.
         </h2>
         <p className="mt-2 text-slate-600 md:text-lg">
-          Mapping 175+ verified African culinary destinations across the Lone Star State.
+          Mapping {total}+ verified African culinary destinations across the Lone Star State.
         </p>
       </header>
 

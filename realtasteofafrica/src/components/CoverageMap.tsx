@@ -3,6 +3,7 @@
  * Pins use deep orange/gold for "Taste of Africa" brand.
  */
 
+import { RESTAURANTS } from "@/lib/restaurants"
 
 // Hotspot: label, position, areaSlug for /restaurants?area=
 const HOTSPOTS = [
@@ -101,9 +102,9 @@ export function CoverageMap() {
         <div className="flex flex-col items-center text-center lg:items-end lg:text-right">
           <p
             className="text-4xl font-bold tabular-nums tracking-tight text-amber-700 md:text-5xl lg:text-6xl"
-            aria-label="175 plus verified locations"
+            aria-label={`${RESTAURANTS.length} plus verified locations`}
           >
-            175+
+            {RESTAURANTS.length}+
           </p>
           <p className="mt-1 text-lg font-semibold text-slate-800 md:text-xl">
             Verified Locations
