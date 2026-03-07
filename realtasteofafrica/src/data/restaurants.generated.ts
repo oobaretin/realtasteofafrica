@@ -533,7 +533,16 @@ export const RESTAURANTS: Restaurant[] = [
       "African",
       "Caribbean"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "12:00 pm - 8:00 pm",
+      "Tuesday": "12:00 pm - 8:00 pm",
+      "Wednesday": "12:00 pm - 8:00 pm",
+      "Thursday": "12:00 pm - 8:00 pm",
+      "Friday": "12:00 pm - 8:00 pm",
+      "Saturday": "12:00 pm - 8:00 pm",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "lekki-island-bar-and-grill-katy-tx",
@@ -554,7 +563,16 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "4:00 pm - 12:00 am",
+      "Wednesday": "2:00 pm - 12:00 am",
+      "Thursday": "2:00 pm - 12:00 am",
+      "Friday": "2:00 pm - 12:00 am",
+      "Saturday": "2:00 pm - 12:00 am",
+      "Sunday": "2:00 pm - 12:00 am"
+    }
   },
   {
     "slug": "ekomi-nigerian-restaurant-katy-tx",
@@ -927,7 +945,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "West African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 am - 9:00 pm",
+      "Tuesday": "11:00 am - 9:00 pm",
+      "Wednesday": "11:00 am - 9:00 pm",
+      "Thursday": "11:00 am - 9:00 pm",
+      "Friday": "11:00 am - 9:00 pm",
+      "Saturday": "11:00 am - 9:00 pm",
+      "Sunday": "11:00 am - 9:00 pm"
+    }
   },
   {
     "slug": "benmond-african-food-and-catering-texas-city-tx",
@@ -946,7 +973,15 @@ export const RESTAURANTS: Restaurant[] = [
       "African"
     ],
     "category": "Restaurant",
-    "writeUp": "Pick-up only — call or message for availability."
+    "hours": {
+      "Monday": "11:00 am - 8:00 pm",
+      "Tuesday": "11:00 am - 8:00 pm",
+      "Wednesday": "11:00 am - 8:00 pm",
+      "Thursday": "11:00 am - 8:00 pm",
+      "Friday": "11:00 am - 8:00 pm",
+      "Saturday": "11:00 am - 8:00 pm",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "african-spices-and-soul-food-texas-city-tx",
@@ -966,7 +1001,16 @@ export const RESTAURANTS: Restaurant[] = [
       "African",
       "Soul Food"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 am - 8:00 pm",
+      "Tuesday": "11:00 am - 8:00 pm",
+      "Wednesday": "11:00 am - 8:00 pm",
+      "Thursday": "11:00 am - 8:00 pm",
+      "Friday": "11:00 am - 8:00 pm",
+      "Saturday": "11:00 am - 8:00 pm",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "god-grace-african-market-beaumont-tx",
@@ -985,7 +1029,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Market"
     ],
-    "category": "Market"
+    "category": "Market",
+    "hours": {
+      "Monday": "Open 24 hours",
+      "Tuesday": "Open 24 hours",
+      "Wednesday": "Open 24 hours",
+      "Thursday": "Open 24 hours",
+      "Friday": "Open 24 hours",
+      "Saturday": "Open 24 hours",
+      "Sunday": "Open 24 hours"
+    }
   },
   {
     "slug": "native-pot-houston-tx",
@@ -1126,7 +1179,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Delivery"
     ],
     "category": "Restaurant",
-    "writeUp": "Small African food spot in El Paso. Delivery may be available — check delivery apps for current availability."
+    "writeUp": "Small African food spot in El Paso. Delivery may be available — check delivery apps for current availability.",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "11:00 am - 8:00 pm",
+      "Thursday": "11:00 am - 8:00 pm",
+      "Friday": "10:30 am - 7:00 pm",
+      "Saturday": "9:00 am - 7:00 pm",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "vizos-african-bar-and-restaurant-lubbock-tx",
@@ -1204,7 +1266,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "12:00 pm - 8:00 pm",
+      "Wednesday": "12:00 pm - 8:00 pm",
+      "Thursday": "12:00 pm - 8:00 pm",
+      "Friday": "12:00 pm - 8:00 pm",
+      "Saturday": "12:00 pm - 8:00 pm",
+      "Sunday": "12:00 pm - 6:00 pm"
+    }
   },
   {
     "slug": "jc-african-and-caribbean-food-store-mcallen-tx",
@@ -1225,7 +1296,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Market"
     ],
-    "category": "Market"
+    "category": "Market",
+    "hours": {
+      "Monday": "12:30 pm - 5:30 pm",
+      "Tuesday": "12:30 pm - 5:30 pm",
+      "Wednesday": "12:30 pm - 5:30 pm",
+      "Thursday": "12:30 pm - 5:30 pm",
+      "Friday": "12:30 pm - 5:30 pm",
+      "Saturday": "12:30 pm - 5:30 pm",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "somali-african-safari-restaurant-amarillo-tx",
@@ -2027,7 +2107,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Food truck",
       "Pop-up"
     ],
-    "category": "Food Truck"
+    "category": "Food Truck",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "12:00 pm - 6:30 pm",
+      "Wednesday": "12:00 pm - 6:30 pm",
+      "Thursday": "12:00 pm - 6:30 pm",
+      "Friday": "12:00 pm - 6:30 pm",
+      "Saturday": "12:00 pm - 6:30 pm",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "leanna-chop-grill-fort-worth-tx",
@@ -2970,7 +3059,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Open 24 hours",
+      "Tuesday": "Open 24 hours",
+      "Wednesday": "Open 24 hours",
+      "Thursday": "Open 24 hours",
+      "Friday": "Open 24 hours",
+      "Saturday": "Open 24 hours",
+      "Sunday": "Open 24 hours"
+    }
   },
   {
     "slug": "blessliz-african-market-mckinney-tx",
@@ -3621,7 +3719,16 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Grill"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "1:00 pm - 11:45 pm",
+      "Tuesday": "1:00 pm - 11:45 pm",
+      "Wednesday": "1:00 pm - 11:45 pm",
+      "Thursday": "12:00 pm - 11:45 pm",
+      "Friday": "12:00 pm - 11:45 pm",
+      "Saturday": "12:00 pm - 11:45 pm",
+      "Sunday": "12:00 pm - 11:45 pm"
+    }
   },
   {
     "slug": "cafe-de-vivre-houston-tx",
@@ -4789,7 +4896,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Delivery",
       "Outpost"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "11:30 am - 8:30 pm",
+      "Wednesday": "11:30 am - 8:30 pm",
+      "Thursday": "11:30 am - 8:30 pm",
+      "Friday": "11:30 am - 10:00 pm",
+      "Saturday": "11:30 am - 9:30 pm",
+      "Sunday": "1:00 pm - 5:00 pm"
+    }
   },
   {
     "slug": "signature-african-houston-tx",
@@ -4807,7 +4923,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Nigerian"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 am - 8:00 pm",
+      "Tuesday": "11:00 am - 8:00 pm",
+      "Wednesday": "11:00 am - 8:00 pm",
+      "Thursday": "11:00 am - 8:00 pm",
+      "Friday": "11:00 am - 8:00 pm",
+      "Saturday": "9:00 am - 2:00 pm",
+      "Sunday": "9:00 am - 2:00 pm"
+    }
   },
   {
     "slug": "southwest-farmers-kitchen-frisco-tx",
