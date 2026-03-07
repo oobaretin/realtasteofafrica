@@ -3449,14 +3449,23 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "13711 Westheimer Rd B-1, Houston TX",
+    "addressLine": "13711 Westheimer Rd B-1, Houston, TX 77077",
     "phone": "(713) 282-5320",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=13711%20Westheimer%20Rd%20B-1%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=13711%20Westheimer%20Rd%20B-1%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
     "highlights": [
       "Nigerian",
       "Fusion"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "6:00 pm - 2:00 am",
+      "Tuesday": "6:00 pm - 2:00 am",
+      "Wednesday": "6:00 pm - 2:00 am",
+      "Thursday": "6:00 pm - 2:00 am",
+      "Friday": "6:00 pm - 2:00 am",
+      "Saturday": "6:00 pm - 2:00 am",
+      "Sunday": "6:00 pm - 2:00 am"
+    }
   },
   {
     "slug": "nini-kitchen-houston-tx",
