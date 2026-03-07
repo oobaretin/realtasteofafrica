@@ -9,6 +9,7 @@ import {
   getListingNumber,
   getRestaurantBySlug,
   getSimilarRestaurants,
+  RESTAURANTS,
   type Restaurant,
 } from "@/lib/restaurants"
 import { getRestaurantWriteUp } from "@/lib/restaurantWriteUp"
@@ -199,7 +200,7 @@ export default async function RestaurantDetailPage({
             </div>
             {listingNumber > 0 ? (
               <p className="mt-3 text-xs text-slate-500">
-                Verified Listing #{listingNumber} of 175. Help us grow the map by sharing this spot!
+                Verified Listing #{listingNumber} of {RESTAURANTS.length}. Help us grow the map by sharing this spot!
               </p>
             ) : null}
           </div>

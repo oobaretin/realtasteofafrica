@@ -45,7 +45,7 @@ export function getRestaurantBySlug(slug: string): Restaurant | undefined {
   }
 }
 
-/** Stable 1-based listing number (1–175) for "Verified Listing # X of 175". Order: by slug. */
+/** Stable 1-based listing number for "Verified Listing # X of N". Order: by slug. */
 export function getListingNumber(slug: string): number {
   try {
     const sorted = [...RESTAURANTS].sort((a, b) => a.slug.localeCompare(b.slug));
