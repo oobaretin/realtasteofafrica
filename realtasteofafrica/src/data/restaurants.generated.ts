@@ -573,7 +573,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Nigerian"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "10:00 am - 8:00 pm",
+      "Tuesday": "10:00 am - 8:00 pm",
+      "Wednesday": "10:00 am - 8:00 pm",
+      "Thursday": "10:00 am - 8:00 pm",
+      "Friday": "10:00 am - 8:00 pm",
+      "Saturday": "12:00 pm - 8:00 pm",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "onyis-suya-katy-tx",
@@ -594,7 +603,16 @@ export const RESTAURANTS: Restaurant[] = [
       "African",
       "Suya"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "9:00 am - 5:00 pm",
+      "Tuesday": "9:00 am - 5:00 pm",
+      "Wednesday": "9:00 am - 5:00 pm",
+      "Thursday": "9:00 am - 5:00 pm",
+      "Friday": "9:00 am - 5:00 pm",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "amala-joint-houston-tx",
@@ -882,7 +900,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "7:30 am - 12:00 am",
+      "Tuesday": "7:30 am - 12:00 am",
+      "Wednesday": "7:30 am - 12:00 am",
+      "Thursday": "7:30 am - 12:00 am",
+      "Friday": "7:30 am - 12:00 am",
+      "Saturday": "7:30 am - 12:00 am",
+      "Sunday": "7:30 am - 12:00 am"
+    }
   },
   {
     "slug": "star-afrik-cuisine-rosenberg-tx",
@@ -918,7 +945,8 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "writeUp": "Pick-up only — call or message for availability."
   },
   {
     "slug": "african-spices-and-soul-food-texas-city-tx",
@@ -2683,7 +2711,16 @@ export const RESTAURANTS: Restaurant[] = [
       "African Market",
       "Grocery"
     ],
-    "category": "Market + Kitchen"
+    "category": "Market + Kitchen",
+    "hours": {
+      "Monday": "9:00 am - 8:00 pm",
+      "Tuesday": "9:00 am - 8:00 pm",
+      "Wednesday": "9:00 am - 8:00 pm",
+      "Thursday": "9:00 am - 8:00 pm",
+      "Friday": "9:00 am - 8:00 pm",
+      "Saturday": "9:00 am - 8:00 pm",
+      "Sunday": "10:00 am - 7:00 pm"
+    }
   },
   {
     "slug": "yenat-guada-ethiopian-cuisine-dallas-tx",
@@ -4500,7 +4537,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Kitchen",
       "Halal"
     ],
-    "category": "Market + Kitchen"
+    "category": "Market + Kitchen",
+    "hours": {
+      "Monday": "9:00 am - 8:00 pm",
+      "Tuesday": "9:00 am - 8:00 pm",
+      "Wednesday": "9:00 am - 8:00 pm",
+      "Thursday": "9:00 am - 8:00 pm",
+      "Friday": "9:00 am - 8:00 pm",
+      "Saturday": "9:00 am - 8:00 pm",
+      "Sunday": "9:00 am - 8:00 pm"
+    }
   },
   {
     "slug": "nandos-peri-peri-montrose-houston-tx",
@@ -4521,7 +4567,16 @@ export const RESTAURANTS: Restaurant[] = [
       "South African",
       "Peri-Peri"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "10:30 am - 10:00 pm",
+      "Tuesday": "10:30 am - 10:00 pm",
+      "Wednesday": "10:30 am - 10:00 pm",
+      "Thursday": "10:30 am - 10:00 pm",
+      "Friday": "10:30 am - 10:00 pm",
+      "Saturday": "10:30 am - 10:00 pm",
+      "Sunday": "10:30 am - 10:00 pm"
+    }
   },
   {
     "slug": "augustines-creole-african-houston-tx",
@@ -4595,7 +4650,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Nigerian"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "4:00 pm - 9:00 pm",
+      "Tuesday": "11:00 am - 9:00 pm",
+      "Wednesday": "11:00 am - 9:00 pm",
+      "Thursday": "11:00 am - 9:00 pm",
+      "Friday": "11:00 am - 9:00 pm",
+      "Saturday": "11:00 am - 9:00 pm",
+      "Sunday": "12:00 pm - 6:00 pm"
+    }
   },
   {
     "slug": "merit-coffee-african-source-houston-tx",
@@ -4613,7 +4677,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Coffee house"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "6:00 am - 9:00 pm",
+      "Tuesday": "6:00 am - 9:00 pm",
+      "Wednesday": "6:00 am - 9:00 pm",
+      "Thursday": "6:00 am - 9:00 pm",
+      "Friday": "6:00 am - 10:00 pm",
+      "Saturday": "7:00 am - 10:00 pm",
+      "Sunday": "7:00 am - 9:00 pm"
+    }
   },
   {
     "slug": "aria-suya-wilcrest-ghost-houston-tx",
