@@ -238,7 +238,16 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Suya"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "12:00 pm - 10:00 pm",
+      "Tuesday": "12:00 pm - 10:00 pm",
+      "Wednesday": "12:00 pm - 10:00 pm",
+      "Thursday": "12:00 pm - 10:00 pm",
+      "Friday": "12:00 pm - 12:00 am",
+      "Saturday": "12:00 pm - 12:00 am",
+      "Sunday": "4:00 pm - 10:00 pm"
+    }
   },
   {
     "slug": "suya-hut-suya-culture-meadows-place-tx",
@@ -348,7 +357,16 @@ export const RESTAURANTS: Restaurant[] = [
       "West African",
       "Nigerian"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 am - 10:00 pm",
+      "Tuesday": "11:00 am - 10:00 pm",
+      "Wednesday": "11:00 am - 10:00 pm",
+      "Thursday": "11:00 am - 10:00 pm",
+      "Friday": "11:00 am - 11:00 pm",
+      "Saturday": "11:00 am - 11:00 pm",
+      "Sunday": "Closed"
+    }
   },
   {
     "slug": "omalicha-kitchen-houston-tx",
@@ -485,7 +503,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Delivery"
     ],
     "category": "Restaurant",
-    "writeUp": "Popular option for Nigerian / African food delivery in the Katy area. For the latest hours and delivery availability, check their website or delivery apps."
+    "writeUp": "Popular option for Nigerian / African food delivery in the Katy area. For the latest hours and delivery availability, check their website or delivery apps.",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 am - 9:00 pm",
+      "Wednesday": "11:00 am - 9:00 pm",
+      "Thursday": "11:00 am - 9:00 pm",
+      "Friday": "11:00 am - 10:00 pm",
+      "Saturday": "11:00 am - 10:00 pm",
+      "Sunday": "1:00 pm - 9:00 pm"
+    }
   },
   {
     "slug": "royal-arm-restaurant-african-and-caribbean-katy-tx",
@@ -617,7 +644,16 @@ export const RESTAURANTS: Restaurant[] = [
       "South African",
       "Peri-Peri"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 am - 11:00 pm",
+      "Tuesday": "11:00 am - 11:00 pm",
+      "Wednesday": "11:00 am - 11:00 pm",
+      "Thursday": "11:00 am - 11:00 pm",
+      "Friday": "11:00 am - 12:00 am",
+      "Saturday": "11:00 am - 12:00 am",
+      "Sunday": "12:00 pm - 10:00 pm"
+    }
   },
   {
     "slug": "grains-and-solids-sugar-land-tx",
@@ -819,7 +855,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "West African"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 am - 8:45 pm",
+      "Wednesday": "11:00 am - 8:45 pm",
+      "Thursday": "11:00 am - 8:45 pm",
+      "Friday": "11:00 am - 8:45 pm",
+      "Saturday": "11:00 am - 8:45 pm",
+      "Sunday": "11:00 am - 7:00 pm"
+    }
   },
   {
     "slug": "gomas-kitchen-richmond-tx",
@@ -1264,7 +1309,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Restaurant + Market"
     ],
-    "category": "Market + Kitchen"
+    "category": "Market + Kitchen",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "11:00 am - 6:00 pm",
+      "Thursday": "11:00 am - 6:00 pm",
+      "Friday": "11:00 am - 8:00 pm",
+      "Saturday": "11:00 am - 8:00 pm",
+      "Sunday": "12:00 pm - 5:30 pm"
+    }
   },
   {
     "slug": "afroo-dining-amarillo-tx",
@@ -2105,7 +2159,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian",
       "Suya"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "2:00 pm - 8:00 pm",
+      "Thursday": "2:00 pm - 8:00 pm",
+      "Friday": "2:00 pm - 8:00 pm",
+      "Saturday": "2:00 pm - 8:00 pm",
+      "Sunday": "1:00 pm - 7:00 pm"
+    }
   },
   {
     "slug": "african-village-irving-tx",
@@ -2639,7 +2702,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Ethiopian"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 am - 11:00 pm",
+      "Tuesday": "11:00 am - 11:00 pm",
+      "Wednesday": "11:00 am - 11:00 pm",
+      "Thursday": "11:00 am - 11:00 pm",
+      "Friday": "11:00 am - 2:00 am",
+      "Saturday": "11:00 am - 2:00 am",
+      "Sunday": "12:00 pm - 11:00 pm"
+    }
   },
   {
     "slug": "shebas-ethiopian-kitchen-dallas-tx",
@@ -3925,7 +3997,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Lounge/Dining"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 am - 11:00 pm",
+      "Wednesday": "11:00 am - 11:00 pm",
+      "Thursday": "11:00 am - 11:00 pm",
+      "Friday": "11:00 am - 2:00 am",
+      "Saturday": "11:00 am - 2:00 am",
+      "Sunday": "11:00 am - 10:00 pm"
+    }
   },
   {
     "slug": "gidi-bar-and-grill-frisco-tx",
@@ -3945,7 +4026,16 @@ export const RESTAURANTS: Restaurant[] = [
     "highlights": [
       "Lounge/Grill"
     ],
-    "category": "Restaurant"
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 am - 9:00 pm",
+      "Wednesday": "11:00 am - 9:00 pm",
+      "Thursday": "11:00 am - 9:00 pm",
+      "Friday": "4:00 pm - 2:00 am",
+      "Saturday": "4:00 pm - 2:00 am",
+      "Sunday": "4:00 pm - 12:00 am"
+    }
   },
   {
     "slug": "lady-t-kitchen-austin-tx",
@@ -4695,7 +4785,16 @@ export const RESTAURANTS: Restaurant[] = [
       "Market-Kitchen",
       "Multiple locations"
     ],
-    "category": "Market + Kitchen"
+    "category": "Market + Kitchen",
+    "hours": {
+      "Monday": "7:00 am - 10:00 pm",
+      "Tuesday": "7:00 am - 10:00 pm",
+      "Wednesday": "7:00 am - 10:00 pm",
+      "Thursday": "7:00 am - 10:00 pm",
+      "Friday": "7:00 am - 10:00 pm",
+      "Saturday": "7:00 am - 10:00 pm",
+      "Sunday": "7:00 am - 10:00 pm"
+    }
   },
   {
     "slug": "kes-spicy-9ja-suya-spot-katy-katy",
