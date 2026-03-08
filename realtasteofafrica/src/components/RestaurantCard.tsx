@@ -45,7 +45,7 @@ export function RestaurantCard({
     >
       {/* Category strip with status dot (top-left) and badge (top-right) */}
       <div
-        className={`relative shrink-0 ${stripClasses} ${isFeatured ? "h-14" : "h-12"}`}
+        className={`relative shrink-0 ${stripClasses} ${isFeatured ? "h-12 sm:h-14" : "h-12"}`}
         aria-hidden
       >
         {businessStatus.status !== "Unverified" ? (
@@ -67,7 +67,7 @@ export function RestaurantCard({
         </span>
       </div>
 
-      <div className={`flex flex-1 flex-col ${isFeatured ? "p-6" : "p-5"}`}>
+      <div className={`flex flex-1 flex-col ${isFeatured ? "p-4 sm:p-6" : "p-4 sm:p-5"}`}>
         <div className="mb-2 flex flex-wrap items-center justify-end gap-2">
           {businessStatus.status !== "Unverified" ? (
             <span
@@ -89,12 +89,12 @@ export function RestaurantCard({
         </div>
 
         <p
-          className={`font-bold uppercase tracking-wide text-slate-700 ${isFeatured ? "text-lg" : "text-base"}`}
+          className={`font-bold uppercase tracking-wide text-slate-700 ${isFeatured ? "text-base sm:text-lg" : "text-base"}`}
         >
           {r.city}, {r.state}
         </p>
         <h2
-          className={`mt-1 font-semibold tracking-tight text-slate-900 ${isFeatured ? "text-xl" : "text-lg"}`}
+          className={`mt-1 font-semibold tracking-tight text-slate-900 ${isFeatured ? "text-lg sm:text-xl" : "text-base sm:text-lg"}`}
         >
           <Link
             className="hover:text-amber-700 focus:text-amber-700"
@@ -112,7 +112,7 @@ export function RestaurantCard({
           {r.addressLine}
         </p>
 
-        <div className={`mt-auto flex flex-wrap gap-2 ${isFeatured ? "pt-5" : "pt-4"}`}>
+        <div className={`mt-auto flex flex-wrap gap-2 ${isFeatured ? "pt-4 sm:pt-5" : "pt-3 sm:pt-4"}`}>
           <Link
             className={`inline-flex rounded-md bg-amber-600 font-semibold text-white hover:bg-amber-700 ${
               isFeatured ? "px-4 py-2.5 text-base" : "px-3 py-2 text-sm"

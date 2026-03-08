@@ -22,9 +22,9 @@ export function FeaturedCarousel({ restaurants }: FeaturedCarouselProps) {
   const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi])
 
   return (
-    <div className="relative">
+    <div className="relative -mx-4 sm:mx-0">
       <div className="overflow-hidden" ref={emblaRef}>
-        <div className="flex touch-pan-y gap-6">
+        <div className="flex touch-pan-y gap-4 pl-4 pr-4 sm:gap-6 sm:pl-0 sm:pr-0">
           {restaurants.map((r) => (
             <div
               key={r.slug}
@@ -37,11 +37,11 @@ export function FeaturedCarousel({ restaurants }: FeaturedCarouselProps) {
       </div>
 
       {restaurants.length > 1 ? (
-        <div className="mt-4 flex items-center justify-center gap-2">
+        <div className="mt-4 flex items-center justify-center gap-3 px-4 sm:px-0">
           <button
             type="button"
             onClick={scrollPrev}
-            className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition-colors hover:border-amber-300 hover:bg-amber-50 hover:text-amber-700 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2"
+            className="flex h-11 w-11 min-w-[44px] min-h-[44px] items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition-colors hover:border-amber-300 hover:bg-amber-50 hover:text-amber-700 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2 active:scale-95"
             aria-label="Previous slide"
           >
             <svg
@@ -62,7 +62,7 @@ export function FeaturedCarousel({ restaurants }: FeaturedCarouselProps) {
           <button
             type="button"
             onClick={scrollNext}
-            className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition-colors hover:border-amber-300 hover:bg-amber-50 hover:text-amber-700 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2"
+            className="flex h-11 w-11 min-w-[44px] min-h-[44px] items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition-colors hover:border-amber-300 hover:bg-amber-50 hover:text-amber-700 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2 active:scale-95"
             aria-label="Next slide"
           >
             <svg

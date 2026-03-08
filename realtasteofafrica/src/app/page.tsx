@@ -36,8 +36,8 @@ export default function HomePage() {
     .slice(0, 3)
 
   return (
-    <div className="grid gap-10">
-      <section className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-950 p-8 text-white shadow-sm">
+    <div className="grid gap-6 sm:gap-8 lg:gap-10">
+      <section className="relative overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-950 px-4 py-6 text-white shadow-sm sm:rounded-3xl sm:p-6 md:p-8">
         <div className="absolute inset-0 opacity-40 [background:radial-gradient(circle_at_30%_20%,rgba(251,191,36,0.25),transparent_40%),radial-gradient(circle_at_70%_30%,rgba(249,115,22,0.18),transparent_45%)]" />
         <div className="relative">
           <div className="flex flex-wrap items-center gap-2">
@@ -45,10 +45,10 @@ export default function HomePage() {
             <Badge>{RESTAURANTS.length}+ listings</Badge>
             <Badge>Texas-wide</Badge>
           </div>
-          <h1 className="mt-5 text-3xl font-semibold tracking-tight text-white md:text-5xl">
+          <h1 className="mt-4 text-2xl font-semibold tracking-tight text-white sm:mt-5 sm:text-3xl md:text-5xl">
             Real Taste of Africa
           </h1>
-          <p className="mt-4 max-w-2xl text-base text-slate-200 md:text-lg">
+          <p className="mt-3 max-w-2xl text-sm text-slate-200 sm:mt-4 sm:text-base md:text-lg">
             The Definitive Guide to {RESTAURANTS.length}+ African Restaurants, Food Trucks, and
             Markets Across Texas.
           </p>
@@ -57,7 +57,7 @@ export default function HomePage() {
             across the state.
           </p>
 
-          <div className="mt-7 flex flex-wrap gap-3">
+          <div className="mt-5 flex flex-wrap gap-3 sm:mt-7">
             <Link
               className="rounded-md bg-amber-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-amber-700"
               href="/restaurants"
@@ -75,9 +75,9 @@ export default function HomePage() {
       </section>
 
       <section className="grid gap-4">
-        <div className="flex items-end justify-between gap-4">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between sm:gap-4">
           <div>
-            <h2 className="text-xl font-semibold tracking-tight md:text-2xl">
+            <h2 className="text-lg font-semibold tracking-tight sm:text-xl md:text-2xl">
               The Best of the Lone Star State
             </h2>
             <p className="mt-1 text-sm text-slate-600 md:text-base">
@@ -97,9 +97,9 @@ export default function HomePage() {
       </section>
 
       <section className="grid gap-4">
-        <div className="flex items-end justify-between gap-4">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between sm:gap-4">
           <div>
-            <h2 className="text-xl font-semibold tracking-tight">
+            <h2 className="text-lg font-semibold tracking-tight sm:text-xl">
               Popular picks
             </h2>
             <p className="mt-1 text-sm text-slate-600">
@@ -114,7 +114,7 @@ export default function HomePage() {
           </Link>
         </div>
 
-        <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <ul className="grid gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {top.map((r) => (
             <li key={r.slug}>
               <RestaurantCard restaurant={r} variant="default" />
@@ -124,9 +124,9 @@ export default function HomePage() {
       </section>
 
       <section className="grid gap-4">
-        <div className="flex items-end justify-between gap-4">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between sm:gap-4">
           <div>
-            <h2 className="text-xl font-semibold tracking-tight">
+            <h2 className="text-lg font-semibold tracking-tight sm:text-xl">
               Browse by area
             </h2>
             <p className="mt-1 text-sm text-slate-600">
@@ -141,7 +141,7 @@ export default function HomePage() {
           </Link>
         </div>
 
-        <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+        <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
           <div className="flex flex-wrap gap-2">
             {AREAS.map((a) => (
               <Link
@@ -158,7 +158,7 @@ export default function HomePage() {
 
       <section className="grid gap-4">
         <div>
-          <h2 className="text-xl font-semibold tracking-tight">
+          <h2 className="text-lg font-semibold tracking-tight sm:text-xl">
             Explore by cuisine
           </h2>
           <p className="mt-1 text-sm text-slate-600">
@@ -166,8 +166,8 @@ export default function HomePage() {
           </p>
         </div>
 
-        <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-          <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
+          <ul className="grid gap-3 sm:gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {CUISINE_TAGS.map(({ tag, exampleNames }) => (
               <li key={tag}>
                 <Link

@@ -53,13 +53,13 @@ export function StatewideDiscovery({ restaurants }: StatewideDiscoveryProps) {
 
   return (
     <section
-      className="rounded-2xl bg-slate-100 p-6 md:p-8"
+      className="rounded-2xl bg-slate-100 p-4 sm:p-6 md:p-8"
       aria-labelledby="statewide-discovery-heading"
     >
       <header className="text-center">
         <h2
           id="statewide-discovery-heading"
-          className="text-2xl font-bold tracking-tight text-slate-900 md:text-3xl"
+          className="text-xl font-bold tracking-tight text-slate-900 sm:text-2xl md:text-3xl"
         >
           Strictly Statewide. Strictly Authentic.
         </h2>
@@ -68,7 +68,7 @@ export function StatewideDiscovery({ restaurants }: StatewideDiscoveryProps) {
         </p>
       </header>
 
-      <div className="mx-auto mt-8 grid max-w-4xl grid-cols-1 gap-6 sm:grid-cols-3">
+      <div className="mx-auto mt-6 grid max-w-4xl grid-cols-1 gap-4 sm:mt-8 sm:gap-6 sm:grid-cols-3">
         <div className="rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm">
           <p className="text-3xl font-bold tabular-nums text-amber-600 md:text-4xl">{total}+</p>
           <p className="mt-1 text-sm font-medium text-slate-700">Listings</p>
@@ -83,7 +83,7 @@ export function StatewideDiscovery({ restaurants }: StatewideDiscoveryProps) {
         </div>
       </div>
 
-      <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="mt-6 grid grid-cols-1 gap-4 sm:mt-10 sm:gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {REGIONS.map((region) => {
           const count = countByRegion(restaurants, region.areaSlugs)
           return (
@@ -96,7 +96,7 @@ export function StatewideDiscovery({ restaurants }: StatewideDiscoveryProps) {
                 className={`absolute inset-0 bg-gradient-to-br ${region.gradient}`}
                 aria-hidden
               />
-              <div className="relative flex min-h-[160px] flex-col justify-between p-6 text-white">
+              <div className="relative flex min-h-[140px] flex-col justify-between p-4 text-white sm:min-h-[160px] sm:p-6">
                 <div>
                   <h3 className="text-lg font-bold tracking-tight">{region.title}</h3>
                   <p className="mt-1 text-2xl font-bold tabular-nums">
