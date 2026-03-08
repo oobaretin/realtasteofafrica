@@ -22,9 +22,9 @@ export function FeaturedCarousel({ restaurants }: FeaturedCarouselProps) {
   const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi])
 
   return (
-    <div className="relative -mx-4 sm:mx-0">
+    <div className="relative min-w-0">
       <div className="overflow-hidden" ref={emblaRef}>
-        <div className="flex touch-pan-y gap-4 pl-4 pr-4 sm:gap-6 sm:pl-0 sm:pr-0">
+        <div className="flex touch-pan-y gap-4 sm:gap-6">
           {restaurants.map((r) => (
             <div
               key={r.slug}
@@ -37,7 +37,7 @@ export function FeaturedCarousel({ restaurants }: FeaturedCarouselProps) {
       </div>
 
       {restaurants.length > 1 ? (
-        <div className="mt-4 flex items-center justify-center gap-3 px-4 sm:px-0">
+        <div className="mt-4 flex items-center justify-center gap-3">
           <button
             type="button"
             onClick={scrollPrev}

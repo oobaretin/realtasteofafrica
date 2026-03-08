@@ -37,7 +37,7 @@ export default function RootLayout({
         </a>
         <div className="min-h-dvh overflow-x-hidden">
           <SiteHeader />
-          <main id="main" className="mx-auto w-full max-w-6xl overflow-x-hidden px-4 py-10">
+          <main id="main" className="mx-auto min-w-0 w-full max-w-6xl overflow-x-hidden px-4 py-10">
             {children}
           </main>
           <SiteFooter />

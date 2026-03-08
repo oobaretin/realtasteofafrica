@@ -53,7 +53,7 @@ export function StatewideDiscovery({ restaurants }: StatewideDiscoveryProps) {
 
   return (
     <section
-      className="rounded-2xl bg-slate-100 p-4 sm:p-6 md:p-8"
+      className="min-w-0 rounded-2xl bg-slate-100 p-4 sm:p-6 md:p-8"
       aria-labelledby="statewide-discovery-heading"
     >
       <header className="text-center">

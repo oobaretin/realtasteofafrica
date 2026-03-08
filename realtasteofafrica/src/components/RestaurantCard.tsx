@@ -39,7 +39,7 @@ export function RestaurantCard({
 
   return (
     <article
-      className={`flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-shadow hover:shadow-md ${
+      className={`flex h-full min-w-0 flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-shadow hover:shadow-md ${
         isFeatured ? "border-amber-200 shadow-md hover:shadow-lg" : ""
       } ${isClosed ? "opacity-75" : ""}`}
     >
@@ -94,7 +94,7 @@ export function RestaurantCard({
           {r.city}, {r.state}
         </p>
         <h2
-          className={`mt-1 font-semibold tracking-tight text-slate-900 ${isFeatured ? "text-lg sm:text-xl" : "text-base sm:text-lg"}`}
+          className={`mt-1 min-w-0 font-semibold tracking-tight text-slate-900 break-words ${isFeatured ? "text-lg sm:text-xl" : "text-base sm:text-lg"}`}
         >
           <Link
             className="hover:text-amber-700 focus:text-amber-700"
@@ -104,11 +104,11 @@ export function RestaurantCard({
           </Link>
         </h2>
         <p
-          className={`mt-1 text-slate-600 ${isFeatured ? "text-base" : "text-sm"}`}
+          className={`mt-1 min-w-0 break-words text-slate-600 ${isFeatured ? "text-base" : "text-sm"}`}
         >
           {r.cuisines.join(" · ")}
         </p>
-        <p className={`mt-2 text-slate-500 ${isFeatured ? "text-sm" : "text-xs"}`}>
+        <p className={`mt-2 min-w-0 break-words text-slate-500 ${isFeatured ? "text-sm" : "text-xs"}`}>
           {r.addressLine}
         </p>
 
