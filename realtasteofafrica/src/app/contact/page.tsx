@@ -9,16 +9,12 @@ export const metadata = {
     "Help us maintain the standard. Report closures, corrections, or claim your business. Keep the Texas directory accurate.",
 }
 
-type SearchParams = { restaurant?: string } | Promise<{ restaurant?: string }>
-
 export default async function ContactPage({
   searchParams,
 }: {
-  searchParams: SearchParams
+  searchParams: Promise<{ restaurant?: string }>
 }) {
-  const params = typeof (searchParams as Promise<unknown>)?.then === "function"
-    ? await (searchParams as Promise<{ restaurant?: string }>)
-    : (searchParams as { restaurant?: string })
+  const params = await searchParams
   const initialRestaurantName = params?.restaurant ?? ""
 
   return (
