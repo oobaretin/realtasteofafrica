@@ -1338,7 +1338,7 @@ export const RESTAURANTS: Restaurant[] = [
   },
   {
     "slug": "felicias-african-food-llc-amarillo-tx",
-    "name": "Felicia’s African Food",
+    "name": "Felicia’s African Food LLC",
     "cuisines": [
       "African",
       "West African",
@@ -1348,23 +1348,24 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "west-texas",
     "city": "Amarillo",
     "state": "TX",
-    "addressLine": "2795 SW 45th Ave, Amarillo TX 79110",
-    "phone": "(806) 674-3252",
+    "addressLine": "2795 SW 45th Ave, Amarillo, TX 79110",
+    "phone": "(806) 681-4388",
     "websiteUrl": "https://usmaperx.org/details/felicia-s-african-food-llc-ChIJtZk",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2795%20SW%2045th%20Ave%2C%20Amarillo%20TX%2079110%2C%20Amarillo%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2795%20SW%2045th%20Ave%2C%20Amarillo%2C%20TX%2079110%2C%20Amarillo%2C%20TX",
+    "priceLevel": 2,
     "highlights": [
-      "African",
-      "West African",
-      "Nigerian"
+      "Takeout",
+      "Delivery",
+      "Order online"
     ],
     "category": "Restaurant",
     "hours": {
-      "Monday": "11:00 AM - 8:00 PM",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
+      "Monday": "12:00 PM - 9:00 PM",
+      "Tuesday": "12:00 PM - 9:00 PM",
+      "Wednesday": "12:00 PM - 9:00 PM",
+      "Thursday": "12:00 PM - 9:00 PM",
+      "Friday": "12:00 PM - 9:30 PM",
+      "Saturday": "12:00 PM - 9:30 PM",
       "Sunday": "Closed"
     }
   },
