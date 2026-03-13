@@ -48,6 +48,23 @@ function asOptionalString(value) {
   return s ? s : undefined
 }
 
+/** Format phone with dashes: (XXX) XXX-XXXX for US 10-digit, +1-XXX-XXX-XXXX for 11-digit. */
+function formatPhoneWithDashes(value) {
+  const raw = String(value ?? "").trim()
+  if (!raw) return undefined
+  const digits = raw.replace(/\D/g, "")
+  if (digits.length === 10) {
+    return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`
+  }
+  if (digits.length === 11 && digits.startsWith("1")) {
+    return `+1-${digits.slice(1, 4)}-${digits.slice(4, 7)}-${digits.slice(7)}`
+  }
+  if (digits.length >= 10) {
+    return digits.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3")
+  }
+  return raw
+}
+
 function toOsmSearchUrl(query) {
   const q = String(query ?? "").trim()
   if (!q) return undefined
@@ -189,7 +206,7 @@ function toRestaurantRecord(row, idx) {
     city,
     state,
     addressLine,
-    phone: asOptionalString(row.phone),
+    phone: formatPhoneWithDashes(row.phone) ?? asOptionalString(row.phone),
     websiteUrl: asOptionalString(row.websiteUrl),
     mapsUrl: asOptionalString(row.mapsUrl) ?? toOsmSearchUrl(mapsQuery),
     priceLevel: asOptionalPriceLevel(row.priceLevel),

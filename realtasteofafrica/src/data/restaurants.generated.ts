@@ -49,7 +49,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "6357 Westheimer Rd, Houston, TX 77057",
-    "phone": "+(832) 831-4372",
+    "phone": "(832) 831-4372",
     "websiteUrl": "https://www.ariasuyakitchen.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=6357%20Westheimer%20Rd%2C%20Houston%2C%20TX%2077057%2C%20Houston%2C%20TX",
     "highlights": [
@@ -1582,7 +1582,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "9705 Synott Rd suite 107, Houston, TX 77083",
-    "phone": "832-529-9010",
+    "phone": "(832) 529-9010",
     "websiteUrl": "https://authenticafricanfoods.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=9705%20Synott%20Rd%20suite%20107%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
@@ -2185,7 +2185,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Fort Worth",
     "state": "TX",
     "addressLine": "6248 McCart Ave, Fort Worth TX 76133",
-    "phone": "+(469) 306-7318",
+    "phone": "(469) 306-7318",
     "websiteUrl": "http://oloriafricancuisine.net/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=6248%20McCart%20Ave%2C%20Fort%20Worth%20TX%2076133%2C%20Fort%20Worth%2C%20TX",
     "highlights": [
@@ -2674,7 +2674,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Austin",
     "state": "TX",
     "addressLine": "2902 E Cesar Chavez St, Austin TX 78702",
-    "phone": "+(512) 584-5139",
+    "phone": "(512) 584-5139",
     "websiteUrl": "http://www.redseakitchenatx.com",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2902%20E%20Cesar%20Chavez%20St%2C%20Austin%20TX%2078702%2C%20Austin%2C%20TX",
     "highlights": [
@@ -3144,7 +3144,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Pearland",
     "state": "TX",
     "addressLine": "3300 Business Center Dr Suite 150, Pearland, TX 77584",
-    "phone": "+(832) 831-4372",
+    "phone": "(832) 831-4372",
     "websiteUrl": "https://www.ariasuyakitchen.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3300%20Business%20Center%20Dr%20Suite%20150%2C%20Pearland%2C%20TX%2077584%2C%20Pearland%2C%20TX",
     "highlights": [
