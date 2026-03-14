@@ -1,0 +1,8 @@
+{
+  "name": "realtasteofafrica-workspace",
+  "private": true,
+  "scripts": {
+    "build": "cd realtasteofafrica && npm install && npm run build",
+    "start": "cd realtasteofafrica && npm run start"
+  }
+}

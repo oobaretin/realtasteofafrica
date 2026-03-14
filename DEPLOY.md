@@ -1,31 +1,21 @@
 # Deploy to Vercel
 
-## Root Directory (Required)
-
-The Next.js app lives in the `realtasteofafrica/` subfolder. **You must set the Root Directory in Vercel** or builds will fail.
-
-### Steps
+## Option A: Root Directory (Recommended)
 
 1. Go to [vercel.com](https://vercel.com) → your project
-2. **Settings** → **General**
-3. Find **Root Directory**
-4. Click **Edit** and set to: `realtasteofafrica`
-5. Click **Save**
-6. Go to **Deployments** → trigger a new deployment (or push a commit)
+2. **Settings** → **Build & Development**
+3. Find **Root Directory** → set to `realtasteofafrica`
+4. **Save** and redeploy
 
-### Why
+## Option B: Root-Level Config (Fallback)
 
-The repo structure is:
+If Root Directory isn't working, the repo root now has `package.json` and `vercel.json` that build from the subfolder. Ensure **Root Directory is empty** in Vercel settings so it uses the root config.
 
-```
-realtasteofafrica/          ← repo root (no package.json here)
-└── realtasteofafrica/      ← Next.js app (package.json, src/, etc.)
-    ├── package.json
-    ├── next.config.js
-    └── src/
-```
+## Troubleshooting
 
-Without the Root Directory set, Vercel looks at the repo root and finds no `package.json`, so the build fails.
+- **Builds not triggering?** Check **Settings** → **Git** — confirm the repo is connected and Production Branch is `main`.
+- **Build fails?** Open the failed deployment → **Building** tab → scroll to the error. Share the exact error message.
+- **Deploy from CLI:** `cd realtasteofafrica && npx vercel` (deploys from app folder directly).
 
 ## Environment Variables
 

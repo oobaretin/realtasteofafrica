@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "cd realtasteofafrica && npm install && npm run build",
+  "outputDirectory": "realtasteofafrica",
+  "installCommand": "cd realtasteofafrica && npm install",
+  "framework": "nextjs"
+}
