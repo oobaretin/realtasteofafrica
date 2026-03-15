@@ -262,6 +262,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "9780 Bissonnet St Ste Q, Houston TX 77036",
     "phone": "(832) 768-5973",
+    "websiteUrl": "https://sabosuya.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=9780%20Bissonnet%20St%20Ste%20Q%2C%20Houston%20TX%2077036%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
@@ -381,6 +382,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "6101 Wilcrest Dr, Houston TX 77072",
     "phone": "(281) 575-1665",
+    "websiteUrl": "https://unique-african-cuisine.hey-restaurants.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=6101%20Wilcrest%20Dr%2C%20Houston%20TX%2077072%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
@@ -467,7 +469,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "14524 Piping Rock Ln, Houston, TX 77077",
-    "phone": "(281) 951-9580",
+    "phone": "(281) 995-1958",
     "websiteUrl": "https://order.spoton.com/so-delights-delight-kitchen-3629/houston-tx/6532c4ce2cb4e2003dd65e05",
     "mapsUrl": "https://www.openstreetmap.org/search?query=14524%20Piping%20Rock%20Ln%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
     "highlights": [
@@ -1286,12 +1288,12 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     "cuisine": "West African",
     "areaSlug": "south-texas",
-    "city": "McAllen",
+    "city": "Mcallen",
     "state": "TX",
     "addressLine": "4400 N 23rd St #156, McAllen TX 78504",
     "phone": "(956) 627-2244",
     "websiteUrl": "http://afrospicergv.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=4400%20N%2023rd%20St%20%23156%2C%20McAllen%20TX%2078504%2C%20McAllen%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=4400%20N%2023rd%20St%20%23156%2C%20McAllen%20TX%2078504%2C%20Mcallen%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -1316,12 +1318,12 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     "cuisine": "West African",
     "areaSlug": "south-texas",
-    "city": "McAllen",
+    "city": "Mcallen",
     "state": "TX",
     "addressLine": "1915 N 10th St Ste A, McAllen TX 78501",
     "phone": "(956) 682-6700",
     "websiteUrl": "https://www.africanfoodstores.com",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1915%20N%2010th%20St%20Ste%20A%2C%20McAllen%20TX%2078501%2C%20McAllen%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=1915%20N%2010th%20St%20Ste%20A%2C%20McAllen%20TX%2078501%2C%20Mcallen%2C%20TX",
     "highlights": [
       "Market"
     ],
@@ -1379,7 +1381,6 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "2795 SW 45th Ave, Amarillo, TX 79110",
     "phone": "(806) 681-4388",
-    "websiteUrl": "https://usmaperx.org/details/felicia-s-african-food-llc-ChIJtZk",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2795%20SW%2045th%20Ave%2C%20Amarillo%2C%20TX%2079110%2C%20Amarillo%2C%20TX",
     "priceLevel": 2,
     "highlights": [
@@ -1554,10 +1555,10 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "houston",
     "city": "Houston",
     "state": "TX",
-    "addressLine": "10021 S Main St Bldg 7, Houston TX 77025",
+    "addressLine": "10023 S Main St Bldg 7, Houston TX 77025",
     "phone": "(512) 840-0855",
-    "websiteUrl": "http://www.fabaceaecuisine.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=10021%20S%20Main%20St%20Bldg%207%2C%20Houston%20TX%2077025%2C%20Houston%2C%20TX",
+    "websiteUrl": "https://www.fabaceaecuisine.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=10023%20S%20Main%20St%20Bldg%207%2C%20Houston%20TX%2077025%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -2010,12 +2011,12 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     "cuisine": "Nigerian",
     "areaSlug": "dfw",
-    "city": "McKinney",
+    "city": "Mckinney",
     "state": "TX",
     "addressLine": "5121 Collin McKinney Pkwy, McKinney TX 75070",
     "phone": "(214) 226-7815",
     "websiteUrl": "http://osumasuya.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5121%20Collin%20McKinney%20Pkwy%2C%20McKinney%20TX%2075070%2C%20McKinney%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=5121%20Collin%20McKinney%20Pkwy%2C%20McKinney%20TX%2075070%2C%20Mckinney%2C%20TX",
     "highlights": [
       "Nigerian",
       "Suya"
@@ -2964,12 +2965,12 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     "cuisine": "West African",
     "areaSlug": "dfw",
-    "city": "McKinney",
+    "city": "Mckinney",
     "state": "TX",
     "addressLine": "4051 S Custer Rd #1160, McKinney TX 75070",
     "phone": "(214) 548-4821",
     "websiteUrl": "https://cubanagrille.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=4051%20S%20Custer%20Rd%20%231160%2C%20McKinney%20TX%2075070%2C%20McKinney%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=4051%20S%20Custer%20Rd%20%231160%2C%20McKinney%20TX%2075070%2C%20Mckinney%2C%20TX",
     "highlights": [
       "West African",
       "Jamaican",
@@ -3109,12 +3110,12 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     "cuisine": "West African",
     "areaSlug": "dfw",
-    "city": "McKinney",
+    "city": "Mckinney",
     "state": "TX",
     "addressLine": "1502 W University Dr, McKinney TX 75069",
     "phone": "(469) 714-0034",
     "websiteUrl": "https://blessliz.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1502%20W%20University%20Dr%2C%20McKinney%20TX%2075069%2C%20McKinney%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=1502%20W%20University%20Dr%2C%20McKinney%20TX%2075069%2C%20Mckinney%2C%20TX",
     "highlights": [
       "Market-Kitchen"
     ],
@@ -4247,12 +4248,12 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     "cuisine": "West African",
     "areaSlug": "dfw",
-    "city": "McKinney",
+    "city": "Mckinney",
     "state": "TX",
     "addressLine": "5200 W Stacy Rd #100, McKinney TX 75070",
     "phone": "(214) 548-5631",
     "websiteUrl": "https://mabelsafricancuisine.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5200%20W%20Stacy%20Rd%20%23100%2C%20McKinney%20TX%2075070%2C%20McKinney%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=5200%20W%20Stacy%20Rd%20%23100%2C%20McKinney%20TX%2075070%2C%20Mckinney%2C%20TX",
     "highlights": [
       "Delivery"
     ],
@@ -4890,11 +4891,11 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     "cuisine": "West African",
     "areaSlug": "dfw",
-    "city": "McKinney",
+    "city": "Mckinney",
     "state": "TX",
     "addressLine": "6710 Virginia Pkwy #210, McKinney TX 75071",
     "phone": "(469) 734-0568",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6710%20Virginia%20Pkwy%20%23210%2C%20McKinney%20TX%2075071%2C%20McKinney%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=6710%20Virginia%20Pkwy%20%23210%2C%20McKinney%20TX%2075071%2C%20Mckinney%2C%20TX",
     "highlights": [
       "Delivery",
       "Outpost"
