@@ -19,9 +19,38 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "507 Westheimer Rd, Houston, TX 77006",
-    "phone": "(281) 751-7890",
+    "phone": "(832) 962-4500",
     "websiteUrl": "https://www.chopnblok.co/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=507%20Westheimer%20Rd%2C%20Houston%2C%20TX%2077006%2C%20Houston%2C%20TX",
+    "highlights": [
+      "Upscale Fast-Casual"
+    ],
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "11:00 am - 9:00 pm",
+      "Tuesday": "11:00 am - 9:00 pm",
+      "Wednesday": "11:00 am - 9:00 pm",
+      "Thursday": "11:00 am - 10:00 pm",
+      "Friday": "11:00 am - 10:00 pm",
+      "Saturday": "11:00 am - 10:00 pm",
+      "Sunday": "11:00 am - 9:00 pm"
+    }
+  },
+  {
+    "slug": "chopnblok-post-houston-tx",
+    "name": "ChòpnBlọk (POST Houston)",
+    "cuisines": [
+      "West African",
+      "Modern Nigerian"
+    ],
+    "cuisine": "Nigerian",
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "401 Franklin St Suite A, Houston, TX 77201",
+    "phone": "(281) 631-5009",
+    "websiteUrl": "https://www.chopnblok.co/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=401%20Franklin%20St%20Suite%20A%2C%20Houston%2C%20TX%2077201%2C%20Houston%2C%20TX",
     "highlights": [
       "Upscale Fast-Casual"
     ],
