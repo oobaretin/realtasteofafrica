@@ -14,6 +14,7 @@ import {
 } from "@/lib/restaurants"
 import { getRestaurantWriteUp } from "@/lib/restaurantWriteUp"
 import { CopyAddressButtonClient } from "@/components/CopyAddressButton"
+import { formatPhoneDisplay } from "@/lib/formatPhone"
 import { BusinessStatusClient } from "@/components/BusinessStatusClient"
 import { ShareButton } from "@/components/ShareButton"
 import { SimilarSpots } from "@/components/SimilarSpots"
@@ -169,7 +170,7 @@ export default async function RestaurantDetailPage({
                   className="inline-flex shrink-0 items-center gap-2 rounded-xl bg-emerald-600 px-5 py-3.5 text-base font-semibold text-white shadow-sm transition hover:bg-emerald-700"
                 >
                   <span aria-hidden>📞</span>
-                  Call Now
+                  {formatPhoneDisplay(r.phone)}
                 </a>
               ) : null}
               <a

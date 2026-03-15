@@ -48,7 +48,7 @@ function asOptionalString(value) {
   return s ? s : undefined
 }
 
-/** Format phone with dashes: (XXX) XXX-XXXX for US 10-digit, +1-XXX-XXX-XXXX for 11-digit. */
+/** Format phone as (XXX) XXX-XXXX for US 10-digit and 11-digit (leading 1). */
 function formatPhoneWithDashes(value) {
   const raw = String(value ?? "").trim()
   if (!raw) return undefined
@@ -57,10 +57,11 @@ function formatPhoneWithDashes(value) {
     return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`
   }
   if (digits.length === 11 && digits.startsWith("1")) {
-    return `+1-${digits.slice(1, 4)}-${digits.slice(4, 7)}-${digits.slice(7)}`
+    return `(${digits.slice(1, 4)}) ${digits.slice(4, 7)}-${digits.slice(7)}`
   }
   if (digits.length >= 10) {
-    return digits.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3")
+    const last10 = digits.slice(-10)
+    return `(${last10.slice(0, 3)}) ${last10.slice(3, 6)}-${last10.slice(6)}`
   }
   return raw
 }

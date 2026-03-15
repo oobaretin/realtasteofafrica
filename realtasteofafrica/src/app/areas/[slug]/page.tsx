@@ -3,6 +3,7 @@ import { notFound } from "next/navigation"
 
 import { Badge } from "@/components/Badge"
 import { WpPageShell } from "@/components/WpPageShell"
+import { formatPhoneDisplay } from "@/lib/formatPhone"
 import { getAreaBySlug } from "@/lib/areas"
 import { getRestaurantsByArea } from "@/lib/restaurants"
 
@@ -124,7 +125,7 @@ export default async function AreaPage({
                         className="inline-flex rounded-md border border-slate-200 bg-white px-3 py-2 text-sm font-semibold text-slate-900 hover:bg-slate-50"
                         href={`tel:${toTelHref(r.phone)}`}
                       >
-                        Call
+                        {formatPhoneDisplay(r.phone)}
                       </a>
                     ) : null}
                   </div>

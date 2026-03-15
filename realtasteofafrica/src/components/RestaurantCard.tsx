@@ -8,6 +8,7 @@ import {
   CATEGORY_STRIP_CLASSES,
   getEstablishmentCategory,
 } from "@/lib/establishmentType"
+import { formatPhoneDisplay } from "@/lib/formatPhone"
 import type { Restaurant } from "@/lib/restaurants"
 import { useBusinessStatus } from "@/components/BusinessStatusClient"
 import { VerifiedBadge } from "@/components/VerifiedBadge"
@@ -140,7 +141,7 @@ export function RestaurantCard({
               }`}
               href={`tel:${toTelHref(r.phone)}`}
             >
-              Call
+              {formatPhoneDisplay(r.phone)}
             </a>
           ) : null}
         </div>

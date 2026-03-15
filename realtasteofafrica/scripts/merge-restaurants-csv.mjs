@@ -97,6 +97,20 @@ function normName(s) {
     .replace(/\s+/g, "")
 }
 
+/** Format phone as (XXX) XXX-XXXX for US numbers. */
+function formatPhone(phone) {
+  const raw = String(phone ?? "").trim()
+  if (!raw) return ""
+  const digits = raw.replace(/\D/g, "")
+  if (digits.length === 10) return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`
+  if (digits.length === 11 && digits.startsWith("1")) return `(${digits.slice(1, 4)}) ${digits.slice(4, 7)}-${digits.slice(7)}`
+  if (digits.length >= 10) {
+    const last10 = digits.slice(-10)
+    return `(${last10.slice(0, 3)}) ${last10.slice(3, 6)}-${last10.slice(6)}`
+  }
+  return raw
+}
+
 function cityToAreaSlug(city) {
   const c = String(city ?? "").trim().toLowerCase()
   return CITY_TO_AREA[c] ?? "houston"
@@ -343,7 +357,8 @@ async function main() {
     const cuisines = mapMergedCuisineToCurrent(m.Cuisine)
     const category = mapMergedTypeToCategory(m.Type)
     const address = cleanAddress(m.Address) || `${city}, TX`
-    const phone = String(m.Phone ?? "").trim() || undefined
+    const phoneRaw = String(m.Phone ?? "").trim() || undefined
+    const phone = phoneRaw ? formatPhone(phoneRaw) : undefined
     const website = String(m.Website ?? "").trim() || undefined
     const hours = parseHours(m.Hours)
     const verificationSource = String(m["Verification Source"] ?? "").trim() || undefined
