@@ -8,20 +8,10 @@ import {
   CATEGORY_STRIP_CLASSES,
   getEstablishmentCategory,
 } from "@/lib/establishmentType"
-import { formatPhoneDisplay } from "@/lib/formatPhone"
+import { formatPhoneDisplay, toTelHref } from "@/lib/formatPhone"
 import type { Restaurant } from "@/lib/restaurants"
 import { useBusinessStatus } from "@/components/BusinessStatusClient"
 import { VerifiedBadge } from "@/components/VerifiedBadge"
-
-function toTelHref(phone: string) {
-  try {
-    const digits = phone.replace(/[^\d+]/g, "");
-    return digits.startsWith("+") ? digits : `+${digits}`;
-  } catch (error) {
-    console.error("Error formatting phone number:", error);
-    return "";
-  }
-}
 
 export function RestaurantCard({
   restaurant,

@@ -3,14 +3,9 @@ import { notFound } from "next/navigation"
 
 import { Badge } from "@/components/Badge"
 import { WpPageShell } from "@/components/WpPageShell"
-import { formatPhoneDisplay } from "@/lib/formatPhone"
+import { formatPhoneDisplay, toTelHref } from "@/lib/formatPhone"
 import { getAreaBySlug } from "@/lib/areas"
 import { getRestaurantsByArea } from "@/lib/restaurants"
-
-function toTelHref(phone: string) {
-  const digits = phone.replace(/[^\d+]/g, "")
-  return digits.startsWith("+") ? digits : `+${digits}`
-}
 
 export async function generateMetadata({
   params,

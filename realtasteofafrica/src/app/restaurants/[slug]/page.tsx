@@ -14,15 +14,10 @@ import {
 } from "@/lib/restaurants"
 import { getRestaurantWriteUp } from "@/lib/restaurantWriteUp"
 import { CopyAddressButtonClient } from "@/components/CopyAddressButton"
-import { formatPhoneDisplay } from "@/lib/formatPhone"
+import { formatPhoneDisplay, toTelHref } from "@/lib/formatPhone"
 import { BusinessStatusClient } from "@/components/BusinessStatusClient"
 import { ShareButton } from "@/components/ShareButton"
 import { SimilarSpots } from "@/components/SimilarSpots"
-
-function toTelHref(phone: string) {
-  const digits = phone.replace(/[^\d+]/g, "")
-  return digits.startsWith("+") ? digits : `+${digits}`
-}
 
 function googleMapsUrl(addressLine: string, city: string, state: string) {
   const query = encodeURIComponent(`${addressLine}, ${city}, ${state}`)
