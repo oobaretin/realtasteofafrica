@@ -104,13 +104,12 @@ export default async function RestaurantDetailPage({
     <article className="min-w-0 grid gap-0">
       {/* — Hero — */}
       <section className="relative -mx-4 h-56 overflow-hidden rounded-t-2xl bg-gradient-to-br from-amber-800 to-slate-800 sm:mx-0 sm:rounded-2xl md:h-72">
-        {/* Placeholder: high-quality image could be r.imageUrl when added to data */}
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
-          style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1200&q=80')",
-          }}
-        />
+        {r.imageUrl ? (
+          <div
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
+            style={{ backgroundImage: `url('${r.imageUrl}')` }}
+          />
+        ) : null}
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
 
         {/* Verification badge: top right */}
