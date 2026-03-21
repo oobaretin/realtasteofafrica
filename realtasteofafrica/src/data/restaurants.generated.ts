@@ -7740,4 +7740,749 @@ export const RESTAURANTS: Restaurant[] = [
       "Sunday": "9:00 AM - 9:00 PM"
     }
   },
+  {
+    "slug": "gifted-african-market-and-restaurant-houston-tx",
+    "name": "Gifted African Market and Restaurant",
+    "cuisines": [
+      "Nigerian",
+      "West African"
+    ],
+    "cuisine": "Nigerian",
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9435 S Texas 6, Houston, TX 77083",
+    "phone": "(281) 741-0033",
+    "websiteUrl": "https://giftedafricankitchen.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=9435%20S%20Texas%206%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
+    "highlights": [
+      "Nigerian",
+      "West African"
+    ],
+    "category": "Market + Kitchen",
+    "writeUp": "Nigerian market and restaurant. Ogbono; egusi and goat meat soup. Jollof rice and baked tilapia.",
+    "hours": {
+      "Monday": "8:00 am - 8:00 pm",
+      "Tuesday": "8:00 am - 8:00 pm",
+      "Wednesday": "8:00 am - 8:00 pm",
+      "Thursday": "8:00 am - 8:00 pm",
+      "Friday": "8:00 am - 8:00 pm",
+      "Saturday": "8:00 am - 8:00 pm",
+      "Sunday": "Closed"
+    }
+  },
+  {
+    "slug": "african-arena-market-houston-tx",
+    "name": "African Arena Market",
+    "cuisines": [
+      "African"
+    ],
+    "cuisine": "African",
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9220 S Texas 6 Suite B, Houston, TX 77083",
+    "phone": "(832) 788-4525",
+    "websiteUrl": "https://africanarenamarket.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=9220%20S%20Texas%206%20Suite%20B%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
+    "highlights": [
+      "African"
+    ],
+    "category": "Market + Kitchen",
+    "writeUp": "African groceries and ingredients. Online delivery 7-11pm. Free shipping over $100.",
+    "hours": {
+      "Monday": "9:00 am - 6:00 pm",
+      "Tuesday": "9:00 am - 6:00 pm",
+      "Wednesday": "9:00 am - 6:00 pm",
+      "Thursday": "9:00 am - 6:00 pm",
+      "Friday": "9:00 am - 6:00 pm",
+      "Saturday": "9:00 am - 6:00 pm",
+      "Sunday": "9:00 am - 6:00 pm"
+    }
+  },
+  {
+    "slug": "food-galaxy-african-kitchen-houston-tx",
+    "name": "Food Galaxy African Kitchen & Store",
+    "cuisines": [
+      "African",
+      "Nigerian"
+    ],
+    "cuisine": "West African",
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "3884 S Dairy Ashford Rd, Houston, TX 77082",
+    "websiteUrl": "https://www.ubereats.com/store/food-galaxy-african-kitchen-%26-store/5lYX-8uoVFiZbaJlWi53JA",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=3884%20S%20Dairy%20Ashford%20Rd%2C%20Houston%2C%20TX%2077082%2C%20Houston%2C%20TX",
+    "highlights": [
+      "African",
+      "Nigerian"
+    ],
+    "category": "Market + Kitchen",
+    "writeUp": "African kitchen and store. Pounded yam; moin-moin and amala. Delivery via Uber Eats.",
+    "hours": {
+      "Monday": "10:00 am - 8:00 pm",
+      "Tuesday": "10:00 am - 8:00 pm",
+      "Wednesday": "10:00 am - 8:00 pm",
+      "Thursday": "10:00 am - 8:00 pm",
+      "Friday": "10:00 am - 8:00 pm",
+      "Saturday": "10:00 am - 8:00 pm",
+      "Sunday": "10:00 am - 8:00 pm"
+    }
+  },
+  {
+    "slug": "joslat-african-foods-sugar-land-tx",
+    "name": "Joslat African Foods",
+    "cuisines": [
+      "African"
+    ],
+    "cuisine": "African",
+    "areaSlug": "sugar-land",
+    "city": "Sugar Land",
+    "state": "TX",
+    "addressLine": "16521 W Bellfort Ave Suite L, Sugar Land, TX 77498",
+    "phone": "(832) 500-4951",
+    "websiteUrl": "https://joslat-african-foods.business.site/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=16521%20W%20Bellfort%20Ave%20Suite%20L%2C%20Sugar%20Land%2C%20TX%2077498%2C%20Sugar%20Land%2C%20TX",
+    "highlights": [
+      "African"
+    ],
+    "category": "Market + Kitchen",
+    "writeUp": "African grocery and restaurant. Authentic grains and prepared meals. Wholesale available.",
+    "hours": {
+      "Monday": "9:00 am - 8:00 pm",
+      "Tuesday": "9:00 am - 8:00 pm",
+      "Wednesday": "9:00 am - 8:00 pm",
+      "Thursday": "9:00 am - 8:00 pm",
+      "Friday": "9:00 am - 8:00 pm",
+      "Saturday": "9:00 am - 8:00 pm",
+      "Sunday": "11:00 am - 8:00 pm"
+    }
+  },
+  {
+    "slug": "asanis-african-market-katy-tx",
+    "name": "Asani's African Market",
+    "cuisines": [
+      "African"
+    ],
+    "cuisine": "African",
+    "areaSlug": "katy",
+    "city": "Katy",
+    "state": "TX",
+    "addressLine": "3756 N Fry Rd, Katy, TX 77449",
+    "phone": "(346) 946-6993",
+    "websiteUrl": "https://www.instagram.com/asanismarket/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=3756%20N%20Fry%20Rd%2C%20Katy%2C%20TX%2077449%2C%20Katy%2C%20TX",
+    "highlights": [
+      "African"
+    ],
+    "category": "Market + Kitchen",
+    "writeUp": "African International Market. Groceries and specialty ingredients.",
+    "hours": {
+      "Monday": "9:00 am - 8:00 pm",
+      "Tuesday": "9:00 am - 8:00 pm",
+      "Wednesday": "9:00 am - 8:00 pm",
+      "Thursday": "9:00 am - 8:00 pm",
+      "Friday": "9:00 am - 8:00 pm",
+      "Saturday": "9:00 am - 8:00 pm",
+      "Sunday": "9:00 am - 8:00 pm"
+    }
+  },
+  {
+    "slug": "douala-katy-tx",
+    "name": "Douala",
+    "cuisines": [
+      "Cameroonian",
+      "West African"
+    ],
+    "cuisine": "West African",
+    "areaSlug": "katy",
+    "city": "Katy",
+    "state": "TX",
+    "addressLine": "25250 Laird Knoll St, Katy, TX 77493",
+    "phone": "(346) 758-9577",
+    "websiteUrl": "https://doualaeats.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=25250%20Laird%20Knoll%20St%2C%20Katy%2C%20TX%2077493%2C%20Katy%2C%20TX",
+    "highlights": [
+      "Cameroonian",
+      "West African"
+    ],
+    "category": "Restaurant",
+    "writeUp": "Organic Cameroonian and African cuisine. Ndole; miondo and ogbono. Catering and events.",
+    "hours": {
+      "Monday": "9:00 am - 8:00 pm",
+      "Tuesday": "9:00 am - 8:00 pm",
+      "Wednesday": "9:00 am - 8:00 pm",
+      "Thursday": "9:00 am - 8:00 pm",
+      "Friday": "9:00 am - 8:00 pm",
+      "Saturday": "9:00 am - 8:00 pm",
+      "Sunday": "12:00 pm - 9:00 pm"
+    }
+  },
+  {
+    "slug": "hi-lo-african-caribbean-food-market-houston-tx",
+    "name": "HI-LO AFRICAN CARIBBEAN FOOD MARKET",
+    "cuisines": [
+      "African",
+      "Caribbean"
+    ],
+    "cuisine": "West African",
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9111 Cypress Creek Pkwy Suite B, Houston, TX 77070",
+    "phone": "(281) 640-4444",
+    "websiteUrl": "https://www.facebook.com/HiLoafricancaribbeanfoodmarket",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=9111%20Cypress%20Creek%20Pkwy%20Suite%20B%2C%20Houston%2C%20TX%2077070%2C%20Houston%2C%20TX",
+    "highlights": [
+      "African",
+      "Caribbean"
+    ],
+    "category": "Market + Kitchen",
+    "writeUp": "Afro-Caribbean groceries. Caribbean HotPot Grill inside serves Jamaican jerk chicken.",
+    "hours": {
+      "Monday": "9:00 am - 8:30 pm",
+      "Tuesday": "9:00 am - 8:30 pm",
+      "Wednesday": "9:00 am - 8:30 pm",
+      "Thursday": "9:00 am - 8:30 pm",
+      "Friday": "9:00 am - 8:30 pm",
+      "Saturday": "9:00 am - 8:30 pm",
+      "Sunday": "11:00 am - 6:30 pm"
+    }
+  },
+  {
+    "slug": "noahs-african-market-cypress-tx",
+    "name": "Noah's African Market",
+    "cuisines": [
+      "African"
+    ],
+    "cuisine": "African",
+    "areaSlug": "houston",
+    "city": "Cypress",
+    "state": "TX",
+    "addressLine": "21211 FM 529 Suite 107, Cypress, TX 77433",
+    "phone": "(281) 656-8563",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=21211%20FM%20529%20Suite%20107%2C%20Cypress%2C%20TX%2077433%2C%20Cypress%2C%20TX",
+    "highlights": [
+      "African"
+    ],
+    "category": "Market + Kitchen",
+    "writeUp": "African and Caribbean foods. Fresh and frozen groceries. Opened late 2023.",
+    "hours": {
+      "Monday": "9:00 am - 8:00 pm",
+      "Tuesday": "9:00 am - 8:00 pm",
+      "Wednesday": "9:00 am - 8:00 pm",
+      "Thursday": "9:00 am - 8:00 pm",
+      "Friday": "9:00 am - 8:00 pm",
+      "Saturday": "9:00 am - 8:00 pm",
+      "Sunday": "9:00 am - 8:00 pm"
+    }
+  },
+  {
+    "slug": "chi-grocery-houston-tx",
+    "name": "Chi Grocery",
+    "cuisines": [
+      "African",
+      "Caribbean",
+      "Hispanic"
+    ],
+    "cuisine": "West African",
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "14800 Westheimer Rd Suite L, Houston, TX 77082",
+    "phone": "(346) 541-8843",
+    "websiteUrl": "https://chigrocery.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=14800%20Westheimer%20Rd%20Suite%20L%2C%20Houston%2C%20TX%2077082%2C%20Houston%2C%20TX",
+    "highlights": [
+      "African",
+      "Caribbean",
+      "Hispanic"
+    ],
+    "category": "Market + Kitchen",
+    "writeUp": "African and Caribbean and Hispanic groceries. On-site restaurant and online ordering.",
+    "hours": {
+      "Monday": "8:00 am - 9:00 pm",
+      "Tuesday": "8:00 am - 9:00 pm",
+      "Wednesday": "8:00 am - 9:00 pm",
+      "Thursday": "8:00 am - 9:00 pm",
+      "Friday": "8:00 am - 9:00 pm",
+      "Saturday": "8:00 am - 9:00 pm",
+      "Sunday": "8:00 am - 9:00 pm"
+    }
+  },
+  {
+    "slug": "flourybites-katy-tx",
+    "name": "FlouryBites",
+    "cuisines": [
+      "Nigerian",
+      "West African"
+    ],
+    "cuisine": "Nigerian",
+    "areaSlug": "katy",
+    "city": "Katy",
+    "state": "TX",
+    "addressLine": "5751 Greenhouse Rd Suite 102, Katy, TX 77449",
+    "phone": "(281) 815-5352",
+    "websiteUrl": "https://www.flourybites.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=5751%20Greenhouse%20Rd%20Suite%20102%2C%20Katy%2C%20TX%2077449%2C%20Katy%2C%20TX",
+    "highlights": [
+      "Nigerian",
+      "West African"
+    ],
+    "category": "Restaurant",
+    "writeUp": "Bakery and eatery. Agege bread; meat pies; jollof rice and ewa agoyin. Custom cakes and catering.",
+    "hours": {
+      "Monday": "8:00 am - 8:00 pm",
+      "Tuesday": "8:00 am - 8:00 pm",
+      "Wednesday": "8:00 am - 8:00 pm",
+      "Thursday": "8:00 am - 8:00 pm",
+      "Friday": "8:00 am - 8:00 pm",
+      "Saturday": "8:00 am - 8:00 pm",
+      "Sunday": "8:00 am - 3:00 am"
+    }
+  },
+  {
+    "slug": "olachis-place-houston-tx",
+    "name": "Olachi's Place",
+    "cuisines": [
+      "Nigerian",
+      "West African"
+    ],
+    "cuisine": "Nigerian",
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "12647 Bissonnet St, Houston, TX 77099",
+    "phone": "(832) 328-5054",
+    "websiteUrl": "https://www.clover.com/online-ordering/olachis-place-houston",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=12647%20Bissonnet%20St%2C%20Houston%2C%20TX%2077099%2C%20Houston%2C%20TX",
+    "highlights": [
+      "Nigerian",
+      "West African"
+    ],
+    "category": "Restaurant",
+    "writeUp": "Authentic Nigerian cuisine. Jollof rice; vegetable soup and Oha soup. Home-style West African cooking.",
+    "hours": {
+      "Monday": "10:00 am - 9:00 pm",
+      "Tuesday": "10:00 am - 9:00 pm",
+      "Wednesday": "10:00 am - 9:00 pm",
+      "Thursday": "10:00 am - 9:00 pm",
+      "Friday": "10:00 am - 9:00 pm",
+      "Saturday": "10:00 am - 9:00 pm",
+      "Sunday": "12:00 pm - 9:00 pm"
+    }
+  },
+  {
+    "slug": "sabo-suya-country-creek-houston-tx",
+    "name": "Sabo Suya (Country Creek)",
+    "cuisines": [
+      "West African",
+      "Suya"
+    ],
+    "cuisine": "Nigerian",
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "9405 Country Creek St, Houston, TX 77036",
+    "phone": "(832) 768-5973",
+    "websiteUrl": "https://sabosuya.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=9405%20Country%20Creek%20St%2C%20Houston%2C%20TX%2077036%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African",
+      "Suya"
+    ],
+    "category": "Restaurant",
+    "writeUp": "Second location of Sabo Suya. Beef suya; chicken suya and grilled fish. Same owners as Sabo Suya Spot.",
+    "hours": {
+      "Monday": "12:00 pm - 10:00 pm",
+      "Tuesday": "12:00 pm - 10:00 pm",
+      "Wednesday": "12:00 pm - 10:00 pm",
+      "Thursday": "12:00 pm - 10:00 pm",
+      "Friday": "12:00 pm - 10:00 pm",
+      "Saturday": "12:00 pm - 10:00 pm",
+      "Sunday": "4:00 pm - 10:00 pm"
+    }
+  },
+  {
+    "slug": "olatee-african-mart-spring-tx",
+    "name": "Olatee African Mart",
+    "cuisines": [
+      "African"
+    ],
+    "cuisine": "West African",
+    "areaSlug": "houston",
+    "city": "Spring",
+    "state": "TX",
+    "addressLine": "501 Sawdust Rd Suite K, Spring, TX 77380",
+    "phone": "(832) 246-8226",
+    "websiteUrl": "https://olateeafricanmart.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=501%20Sawdust%20Rd%20Suite%20K%2C%20Spring%2C%20TX%2077380%2C%20Spring%2C%20TX",
+    "highlights": [
+      "African"
+    ],
+    "category": "Market + Kitchen",
+    "writeUp": "African grocery and cafe. Jollof rice; fufu; amala and tuwo. Same-day delivery. Different from Olatee African Cafe.",
+    "hours": {
+      "Monday": "10:00 am - 7:00 pm",
+      "Tuesday": "10:00 am - 7:00 pm",
+      "Wednesday": "10:00 am - 7:00 pm",
+      "Thursday": "10:00 am - 7:00 pm",
+      "Friday": "10:00 am - 7:00 pm",
+      "Saturday": "10:00 am - 7:00 pm",
+      "Sunday": "12:00 pm - 6:00 pm"
+    }
+  },
+  {
+    "slug": "hisway-african-grocery-store-houston-tx",
+    "name": "Hisway African Grocery Store",
+    "cuisines": [
+      "African"
+    ],
+    "cuisine": "African",
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "3507 Paintbrush Dawn Ct, Houston, TX 77084",
+    "phone": "(832) 542-2551",
+    "websiteUrl": "https://www.instagram.com/hiswayafricangrocerystore/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=3507%20Paintbrush%20Dawn%20Ct%2C%20Houston%2C%20TX%2077084%2C%20Houston%2C%20TX",
+    "highlights": [
+      "African"
+    ],
+    "category": "Market + Kitchen",
+    "writeUp": "African delicacies with delivery. Contact via WhatsApp or Instagram.",
+    "hours": {
+      "Monday": "9:00 am - 8:00 pm",
+      "Tuesday": "9:00 am - 8:00 pm",
+      "Wednesday": "9:00 am - 8:00 pm",
+      "Thursday": "9:00 am - 8:00 pm",
+      "Friday": "9:00 am - 8:00 pm",
+      "Saturday": "9:00 am - 8:00 pm",
+      "Sunday": "10:00 am - 6:00 pm"
+    }
+  },
+  {
+    "slug": "triumphant-food-store-katy-tx",
+    "name": "Triumphant Food Store",
+    "cuisines": [
+      "African"
+    ],
+    "cuisine": "African",
+    "areaSlug": "katy",
+    "city": "Katy",
+    "state": "TX",
+    "addressLine": "1959 N Mason Rd, Katy, TX 77449",
+    "phone": "(469) 396-2788",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=1959%20N%20Mason%20Rd%2C%20Katy%2C%20TX%2077449%2C%20Katy%2C%20TX",
+    "highlights": [
+      "African"
+    ],
+    "category": "Market + Kitchen",
+    "writeUp": "African grocery with cassava flour; palm oil; crayfish and traditional staples. Import records show authentic African products.",
+    "hours": {
+      "Monday": "9:00 am - 8:00 pm",
+      "Tuesday": "9:00 am - 8:00 pm",
+      "Wednesday": "9:00 am - 8:00 pm",
+      "Thursday": "9:00 am - 8:00 pm",
+      "Friday": "9:00 am - 8:00 pm",
+      "Saturday": "9:00 am - 8:00 pm",
+      "Sunday": "10:00 am - 6:00 pm"
+    }
+  },
+  {
+    "slug": "my-sasun-african-grocery-katy-tx",
+    "name": "My Sasun African Grocery",
+    "cuisines": [
+      "African"
+    ],
+    "cuisine": "African",
+    "areaSlug": "katy",
+    "city": "Katy",
+    "state": "TX",
+    "addressLine": "19980 Franz Rd, Katy, TX 77449",
+    "phone": "(832) 674-6644",
+    "websiteUrl": "https://mysasun.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=19980%20Franz%20Rd%2C%20Katy%2C%20TX%2077449%2C%20Katy%2C%20TX",
+    "highlights": [
+      "African"
+    ],
+    "category": "Market + Kitchen",
+    "writeUp": "Wide selection of authentic African groceries. Online ordering with free next-day delivery for orders over $75 in Houston and Dallas.",
+    "hours": {
+      "Monday": "10:00 am - 8:00 pm",
+      "Tuesday": "10:00 am - 8:00 pm",
+      "Wednesday": "10:00 am - 8:00 pm",
+      "Thursday": "10:00 am - 8:00 pm",
+      "Friday": "10:00 am - 8:00 pm",
+      "Saturday": "10:00 am - 8:00 pm",
+      "Sunday": "12:00 pm - 6:00 pm"
+    }
+  },
+  {
+    "slug": "havilah-african-market-katy-tx",
+    "name": "Havilah African Market",
+    "cuisines": [
+      "African"
+    ],
+    "cuisine": "African",
+    "areaSlug": "katy",
+    "city": "Katy",
+    "state": "TX",
+    "addressLine": "19540 Clay Rd, Katy, TX 77449",
+    "phone": "(832) 503-5392",
+    "websiteUrl": "https://havilahafricanfoodmarket.carrd.co/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=19540%20Clay%20Rd%2C%20Katy%2C%20TX%2077449%2C%20Katy%2C%20TX",
+    "highlights": [
+      "African"
+    ],
+    "category": "Market + Kitchen",
+    "writeUp": "Authentic African cuisine. Delivery via DoorDash; Grubhub and Uber Eats. Catering available.",
+    "hours": {
+      "Monday": "9:00 am - 9:00 pm",
+      "Tuesday": "9:00 am - 9:00 pm",
+      "Wednesday": "9:00 am - 9:00 pm",
+      "Thursday": "9:00 am - 9:00 pm",
+      "Friday": "9:00 am - 9:00 pm",
+      "Saturday": "8:30 am - 9:00 pm",
+      "Sunday": "Closed"
+    }
+  },
+  {
+    "slug": "dominion-african-food-katy-tx",
+    "name": "Dominion African Food",
+    "cuisines": [
+      "African"
+    ],
+    "cuisine": "African",
+    "areaSlug": "katy",
+    "city": "Katy",
+    "state": "TX",
+    "addressLine": "5444 N Fry Rd, Katy, TX 77449",
+    "phone": "(281) 861-0414",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=5444%20N%20Fry%20Rd%2C%20Katy%2C%20TX%2077449%2C%20Katy%2C%20TX",
+    "highlights": [
+      "African"
+    ],
+    "category": "Market + Kitchen",
+    "writeUp": "African food market with traditional spices; fresh produce and frozen African meats. Different from Dominion African Food Mart on S Texas 6.",
+    "hours": {
+      "Monday": "9:00 am - 8:00 pm",
+      "Tuesday": "9:00 am - 8:00 pm",
+      "Wednesday": "9:00 am - 8:00 pm",
+      "Thursday": "9:00 am - 8:00 pm",
+      "Friday": "9:00 am - 8:00 pm",
+      "Saturday": "9:00 am - 8:00 pm",
+      "Sunday": "10:00 am - 6:00 pm"
+    }
+  },
+  {
+    "slug": "unified-african-food-houston-tx",
+    "name": "Unified African Food",
+    "cuisines": [
+      "African"
+    ],
+    "cuisine": "African",
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "18174 River Sage Dr, Houston, TX 77084",
+    "phone": "(281) 861-9414",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=18174%20River%20Sage%20Dr%2C%20Houston%2C%20TX%2077084%2C%20Houston%2C%20TX",
+    "highlights": [
+      "African"
+    ],
+    "category": "Market + Kitchen",
+    "writeUp": "African and Caribbean grocery. Traditional ingredients and specialty products.",
+    "hours": {
+      "Monday": "10:00 am - 8:00 pm",
+      "Tuesday": "10:00 am - 8:00 pm",
+      "Wednesday": "10:00 am - 8:00 pm",
+      "Thursday": "10:00 am - 8:00 pm",
+      "Friday": "10:00 am - 8:00 pm",
+      "Saturday": "10:00 am - 8:00 pm",
+      "Sunday": "12:00 pm - 6:00 pm"
+    }
+  },
+  {
+    "slug": "united-african-and-caribbean-food-store-houston-tx",
+    "name": "United African & Caribbean Food Store",
+    "cuisines": [
+      "African",
+      "Caribbean"
+    ],
+    "cuisine": "West African",
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "5500 Barker Cypress Rd, Houston, TX 77084",
+    "phone": "(281) 861-9414",
+    "websiteUrl": "https://united-african.edan.io/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=5500%20Barker%20Cypress%20Rd%2C%20Houston%2C%20TX%2077084%2C%20Houston%2C%20TX",
+    "highlights": [
+      "African",
+      "Caribbean"
+    ],
+    "category": "Market + Kitchen",
+    "writeUp": "Authentic African and Caribbean products. Exotic spices; fresh produce and hard-to-find traditional ingredients.",
+    "hours": {
+      "Monday": "10:00 am - 8:00 pm",
+      "Tuesday": "10:00 am - 8:00 pm",
+      "Wednesday": "10:00 am - 8:00 pm",
+      "Thursday": "10:00 am - 8:00 pm",
+      "Friday": "10:00 am - 8:00 pm",
+      "Saturday": "10:00 am - 8:00 pm",
+      "Sunday": "12:00 pm - 6:00 pm"
+    }
+  },
+  {
+    "slug": "foodmattas-african-grocery-store-richmond-tx",
+    "name": "FoodMattas African Grocery Store",
+    "cuisines": [
+      "African"
+    ],
+    "cuisine": "African",
+    "areaSlug": "sugar-land",
+    "city": "Richmond",
+    "state": "TX",
+    "addressLine": "8433 FM 1464 Suite C&D, Richmond, TX 77407",
+    "phone": "(281) 965-4851",
+    "websiteUrl": "https://foodmattasstore.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=8433%20FM%201464%20Suite%20C%26D%2C%20Richmond%2C%20TX%2077407%2C%20Richmond%2C%20TX",
+    "highlights": [
+      "African"
+    ],
+    "category": "Market + Kitchen",
+    "writeUp": "Black-owned African grocery. Physical store and online nationwide shipping. Seasonings; grains; produce and health products.",
+    "hours": {
+      "Monday": "8:00 am - 8:00 pm",
+      "Tuesday": "8:00 am - 8:00 pm",
+      "Wednesday": "8:00 am - 8:00 pm",
+      "Thursday": "8:00 am - 8:00 pm",
+      "Friday": "8:00 am - 8:00 pm",
+      "Saturday": "8:00 am - 8:00 pm",
+      "Sunday": "12:00 pm - 8:00 pm"
+    }
+  },
+  {
+    "slug": "heritage-nigerian-kitchen-houston-tx",
+    "name": "HERITAGE NIGERIAN KITCHEN",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "cuisine": "Nigerian",
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "5700 Hwy 6 N Suite 180, Houston, TX 77084",
+    "phone": "(346) 381-4449",
+    "websiteUrl": "https://heritagenaijakitchen.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=5700%20Hwy%206%20N%20Suite%20180%2C%20Houston%2C%20TX%2077084%2C%20Houston%2C%20TX",
+    "highlights": [
+      "West African",
+      "Nigerian"
+    ],
+    "category": "Restaurant",
+    "writeUp": "Authentic Nigerian cuisine. Dine-in; takeout and catering. Delivery via Uber Eats; DoorDash and Grubhub.",
+    "hours": {
+      "Monday": "11:00 am - 9:00 pm",
+      "Tuesday": "11:00 am - 9:00 pm",
+      "Wednesday": "11:00 am - 9:00 pm",
+      "Thursday": "11:00 am - 9:00 pm",
+      "Friday": "11:00 am - 9:00 pm",
+      "Saturday": "11:00 am - 9:00 pm",
+      "Sunday": "12:00 pm - 8:00 pm"
+    }
+  },
+  {
+    "slug": "glory-of-god-african-food-store-houston-tx",
+    "name": "Glory of God African Food Store",
+    "cuisines": [
+      "African"
+    ],
+    "cuisine": "African",
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "12719 Bissonnet St #A, Houston, TX 77099",
+    "phone": "(281) 498-7747",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=12719%20Bissonnet%20St%20%23A%2C%20Houston%2C%20TX%2077099%2C%20Houston%2C%20TX",
+    "highlights": [
+      "African"
+    ],
+    "category": "Market + Kitchen",
+    "writeUp": "African grocery with grains; spices; yam and cassava products; fufu and plantain flours; frozen and dried fish.",
+    "hours": {
+      "Monday": "9:00 am - 8:00 pm",
+      "Tuesday": "9:00 am - 8:00 pm",
+      "Wednesday": "9:00 am - 8:00 pm",
+      "Thursday": "9:00 am - 8:00 pm",
+      "Friday": "9:00 am - 8:00 pm",
+      "Saturday": "9:00 am - 8:00 pm",
+      "Sunday": "10:00 am - 6:00 pm"
+    }
+  },
+  {
+    "slug": "kc-african-store-houston-tx",
+    "name": "KC African Store",
+    "cuisines": [
+      "African",
+      "Nigerian"
+    ],
+    "cuisine": "West African",
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "10928 Westheimer Rd, Houston, TX 77042",
+    "phone": "(832) 203-7653",
+    "websiteUrl": "https://www.ubereats.com/store/kc-african-store-10924-westheimer-road",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=10928%20Westheimer%20Rd%2C%20Houston%2C%20TX%2077042%2C%20Houston%2C%20TX",
+    "highlights": [
+      "African",
+      "Nigerian"
+    ],
+    "category": "Market + Kitchen",
+    "writeUp": "African restaurant and grocery. Okro soup; egusi; beef suya; jollof rice and pounded yam. Delivery via Uber Eats and Postmates.",
+    "hours": {
+      "Monday": "10:30 am - 9:00 pm",
+      "Tuesday": "10:30 am - 9:00 pm",
+      "Wednesday": "10:30 am - 9:00 pm",
+      "Thursday": "10:30 am - 9:00 pm",
+      "Friday": "10:30 am - 9:00 pm",
+      "Saturday": "10:30 am - 9:00 pm",
+      "Sunday": "2:00 pm - 7:30 pm"
+    }
+  },
+  {
+    "slug": "wazobia-kitchen-beechnut-houston-tx",
+    "name": "Wazobia Kitchen (Beechnut)",
+    "cuisines": [
+      "African",
+      "Nigerian"
+    ],
+    "cuisine": "Nigerian",
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "10834 Beechnut St, Houston, TX 77072",
+    "phone": "(346) 434-1010",
+    "websiteUrl": "https://wazobiaafricankitchen.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=10834%20Beechnut%20St%2C%20Houston%2C%20TX%2077072%2C%20Houston%2C%20TX",
+    "highlights": [
+      "African",
+      "Nigerian"
+    ],
+    "category": "Restaurant",
+    "writeUp": "Second location of Wazobia Kitchen. Nigerian jollof; pepper soups; yam dishes and beans. Breakfast; dine-in and catering.",
+    "hours": {
+      "Monday": "7:00 am - 10:00 pm",
+      "Tuesday": "7:00 am - 10:00 pm",
+      "Wednesday": "7:00 am - 10:00 pm",
+      "Thursday": "7:00 am - 10:00 pm",
+      "Friday": "7:00 am - 10:00 pm",
+      "Saturday": "7:00 am - 10:00 pm",
+      "Sunday": "7:00 am - 10:00 pm"
+    }
+  },
 ]
