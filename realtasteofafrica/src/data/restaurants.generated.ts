@@ -904,6 +904,38 @@ export const RESTAURANTS: Restaurant[] = [
     }
   },
   {
+    "slug": "empress-cafe-usa-richmond-tx",
+    "name": "Empress Cafe USA",
+    "cuisines": [
+      "African",
+      "West African"
+    ],
+    "cuisine": "West African",
+    "areaSlug": "sugar-land",
+    "city": "Richmond",
+    "state": "TX",
+    "addressLine": "6611 FM 1464 Ste G, Richmond, TX 77407",
+    "phone": "(832) 500-4581",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=6611%20FM%201464%20Ste%20G%2C%20Richmond%2C%20TX%2077407%2C%20Richmond%2C%20TX",
+    "priceLevel": 2,
+    "highlights": [
+      "Dine-in",
+      "Curbside pickup",
+      "No-contact delivery",
+      "Order online"
+    ],
+    "category": "Restaurant",
+    "hours": {
+      "Monday": "4:00 pm - 10:00 pm",
+      "Tuesday": "10:00 am - 10:00 pm",
+      "Wednesday": "10:00 am - 10:00 pm",
+      "Thursday": "10:00 am - 10:00 pm",
+      "Friday": "10:00 am - 10:00 pm",
+      "Saturday": "10:00 am - 10:00 pm",
+      "Sunday": "12:00 pm - 9:00 pm"
+    }
+  },
+  {
     "slug": "rodo-nigerian-cuisine-richmond-tx",
     "name": "Rodo Nigerian Cuisine",
     "cuisines": [
