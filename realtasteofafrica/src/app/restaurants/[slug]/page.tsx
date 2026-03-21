@@ -102,26 +102,8 @@ export default async function RestaurantDetailPage({
 
   return (
     <article className="min-w-0 grid gap-0">
-      {/* — Hero — */}
-      <section className="relative -mx-4 h-56 overflow-hidden rounded-t-2xl bg-gradient-to-br from-amber-800 to-slate-800 sm:mx-0 sm:rounded-2xl md:h-72">
-        {r.imageUrl ? (
-          <div
-            className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
-            style={{ backgroundImage: `url('${r.imageUrl}')` }}
-          />
-        ) : null}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-
-        {/* Verification badge: top right */}
-        {showVerifiedBadge(r) ? (
-          <div className="absolute right-4 top-4 rounded-xl border border-white/30 bg-white/95 px-3 py-2 text-sm font-semibold text-slate-800 shadow-lg backdrop-blur-sm">
-            ✅ Verified Active – Jan 2026
-          </div>
-        ) : null}
-      </section>
-
       {/* — Title + Breadcrumb — */}
-      <header className="mt-6 grid gap-2">
+      <header className="grid gap-2">
         <nav aria-label="Breadcrumb" className="text-sm text-slate-500">
           <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
             <li>
@@ -146,6 +128,11 @@ export default async function RestaurantDetailPage({
           {r.name}
         </h1>
         <div className="mt-2 flex flex-wrap items-center gap-2">
+          {showVerifiedBadge(r) ? (
+            <span className="inline-flex items-center gap-1.5 rounded-xl border border-amber-200 bg-amber-50 px-3 py-2 text-sm font-semibold text-amber-900">
+              ✅ Verified Active – Jan 2026
+            </span>
+          ) : null}
           <BusinessStatusClient hours={r.hours} variant="badge" />
           {r.isVerified ? <VerifiedBadge /> : null}
         </div>
