@@ -565,6 +565,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Caribbean"
     ],
     "category": "Restaurant",
+    "writeUp": "Temporarily closed per Google Maps — check royalarmrestaurant.com or call before visiting.",
     "hours": {
       "Monday": "12:00 pm - 8:00 pm",
       "Tuesday": "12:00 pm - 8:00 pm",
