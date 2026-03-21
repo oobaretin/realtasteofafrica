@@ -449,12 +449,12 @@ export const RESTAURANTS: Restaurant[] = [
     "category": "Restaurant",
     "hours": {
       "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "Closed",
-      "Thursday": "Closed",
-      "Friday": "Closed",
-      "Saturday": "Closed",
-      "Sunday": "Closed"
+      "Tuesday": "11:00 am - 11:00 pm",
+      "Wednesday": "11:00 am - 11:00 pm",
+      "Thursday": "11:00 am - 11:00 pm",
+      "Friday": "11:00 am - 2:00 am",
+      "Saturday": "11:00 am - 2:00 am",
+      "Sunday": "11:00 am - 11:00 pm"
     }
   },
   {
@@ -766,15 +766,15 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "sugar-land",
     "city": "Sugar Land",
     "state": "TX",
-    "addressLine": "11420 Dairy Ashford Rd, Sugar Land TX 77478",
+    "addressLine": "11420 Dairy Ashford Rd Ste 104B, Sugar Land TX 77478",
     "phone": "(281) 201-2125",
     "websiteUrl": "https://allseasonscafetx.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=11420%20Dairy%20Ashford%20Rd%2C%20Sugar%20Land%20TX%2077478%2C%20Sugar%20Land%2C%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=11420%20Dairy%20Ashford%20Rd%20Ste%20104B%2C%20Sugar%20Land%20TX%2077478%2C%20Sugar%20Land%2C%20TX",
     "highlights": [
       "Delivery"
     ],
     "category": "Restaurant",
-    "writeUp": "Nigerian / African comfort food in Sugar Land. Delivery may be available — confirm on their website or delivery apps.",
+    "writeUp": "Nigerian / African comfort food in Sugar Land. Shares space with JollofBeans (281-683-7944; jollofbeans.com) — two distinct Nigerian concepts at same location. Delivery may be available.",
     "hours": {
       "Monday": "12:00 PM - 9:00 PM",
       "Tuesday": "12:00 PM - 9:00 PM",
@@ -812,36 +812,6 @@ export const RESTAURANTS: Restaurant[] = [
       "Friday": "11:00 AM - 9:00 PM",
       "Saturday": "11:00 AM - 9:00 PM",
       "Sunday": "Closed"
-    }
-  },
-  {
-    "slug": "jollofbeans-llc-sugar-land-tx",
-    "name": "JollofBeans",
-    "cuisines": [
-      "Nigerian",
-      "West African"
-    ],
-    "cuisine": "West African",
-    "areaSlug": "sugar-land",
-    "city": "Sugar Land",
-    "state": "TX",
-    "addressLine": "11420 Dairy Ashford Rd, Sugar Land TX 77478",
-    "phone": "(281) 683-7944",
-    "websiteUrl": "http://www.jollofbeans.com",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=11420%20Dairy%20Ashford%20Rd%2C%20Sugar%20Land%20TX%2077478%2C%20Sugar%20Land%2C%20TX",
-    "highlights": [
-      "Nigerian",
-      "West African"
-    ],
-    "category": "Restaurant",
-    "hours": {
-      "Monday": "12:00 PM - 8:00 PM",
-      "Tuesday": "12:00 PM - 8:00 PM",
-      "Wednesday": "12:00 PM - 8:00 PM",
-      "Thursday": "12:00 PM - 8:00 PM",
-      "Friday": "12:00 PM - 8:00 PM",
-      "Saturday": "12:00 PM - 8:00 PM",
-      "Sunday": "12:00 PM - 8:00 PM"
     }
   },
   {
@@ -1274,7 +1244,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Restaurant"
     ],
     "category": "Restaurant",
-    "writeUp": "African / Nigerian bar & restaurant in Lubbock. Delivery may be available via DoorDash or Uber Eats — check the apps for current availability.",
+    "writeUp": "African / Nigerian bar & restaurant in Lubbock. Temporarily closed (as of early 2025) — check Google Maps or vizoslubbock.com for reopening. Delivery may be available via DoorDash or Uber Eats when open.",
     "hours": {
       "Monday": "11:00 AM - 9:00 PM",
       "Tuesday": "11:00 AM - 9:00 PM",
@@ -4476,36 +4446,6 @@ export const RESTAURANTS: Restaurant[] = [
     }
   },
   {
-    "slug": "aso-rock-market-and-kitchen-dallas-tx",
-    "name": "Aso Rock Market & Kitchen",
-    "cuisines": [
-      "African Market",
-      "Grocery"
-    ],
-    "cuisine": "West African",
-    "areaSlug": "dfw",
-    "city": "Dallas",
-    "state": "TX",
-    "addressLine": "9220 Skillman St #115, Dallas TX 75243",
-    "phone": "(214) 343-1300",
-    "websiteUrl": "http://asorockmarket.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9220%20Skillman%20St%20%23115%2C%20Dallas%20TX%2075243%2C%20Dallas%2C%20TX",
-    "highlights": [
-      "African Market",
-      "Grocery"
-    ],
-    "category": "Market + Kitchen",
-    "hours": {
-      "Monday": "11:00 AM - 12:00 AM",
-      "Tuesday": "11:00 AM - 12:00 AM",
-      "Wednesday": "11:00 AM - 12:00 AM",
-      "Thursday": "11:00 AM - 12:00 AM",
-      "Friday": "11:00 AM - 2:00 AM",
-      "Saturday": "11:00 AM - 2:00 AM",
-      "Sunday": "12:00 PM - 12:00 AM"
-    }
-  },
-  {
     "slug": "aso-rock-market-houston-tx",
     "name": "Aso Rock Market - Houston",
     "cuisines": [
@@ -4859,36 +4799,6 @@ export const RESTAURANTS: Restaurant[] = [
     }
   },
   {
-    "slug": "aria-suya-wilcrest-ghost-houston-tx",
-    "name": "Aria Suya (Wilcrest Ghost)",
-    "cuisines": [
-      "West African",
-      "Nigerian",
-      "Suya"
-    ],
-    "cuisine": "Nigerian",
-    "areaSlug": "houston",
-    "city": "Houston",
-    "state": "TX",
-    "addressLine": "6357 Westheimer Rd, Houston, TX 77057",
-    "phone": "(832) 732-2284",
-    "websiteUrl": "https://ariasuyakitchen.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6357%20Westheimer%20Rd%2C%20Houston%2C%20TX%2077057%2C%20Houston%2C%20TX",
-    "highlights": [
-      "Ghost kitchen"
-    ],
-    "category": "Ghost Kitchen",
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:30 am - 9:00 pm",
-      "Wednesday": "11:30 am - 9:00 pm",
-      "Thursday": "11:30 am - 9:00 pm",
-      "Friday": "11:30 am - 9:30 pm",
-      "Saturday": "12:00 pm - 9:30 pm",
-      "Sunday": "12:00 pm - 5:00 pm"
-    }
-  },
-  {
     "slug": "dupsys-kitchen-ghost-houston-tx",
     "name": "Dupsy's Kitchen (Ghost)",
     "cuisines": [
@@ -5088,33 +4998,6 @@ export const RESTAURANTS: Restaurant[] = [
     }
   },
   {
-    "slug": "olatee-african-cafe-houston",
-    "name": "OLATEE AFRICAN CAFE",
-    "cuisines": [
-      "African"
-    ],
-    "cuisine": "African",
-    "areaSlug": "houston",
-    "city": "Houston",
-    "state": "TX",
-    "addressLine": "2616 Blodgett St, Houston, TX 77004",
-    "phone": "(346) 224-1877",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2616%20Blodgett%20St%2C%20Houston%2C%20TX%2077004%2C%20Houston%2C%20TX",
-    "highlights": [
-      "African"
-    ],
-    "category": "Restaurant",
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "11:00 am - 8:00 pm",
-      "Thursday": "11:00 am - 8:00 pm",
-      "Friday": "11:00 am - 9:00 pm",
-      "Saturday": "11:00 am - 10:00 pm",
-      "Sunday": "1:00 pm - 8:00 pm"
-    }
-  },
-  {
     "slug": "shuri-african-restaurant-dallas",
     "name": "Shuri African Restaurant",
     "cuisines": [
@@ -5162,6 +5045,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Nigerian"
     ],
     "category": "Restaurant",
+    "writeUp": "Nigerian restaurant & lounge inside Aso Rock African food market. Live music and outdoor seating.",
     "hours": {
       "Monday": "11:00 AM - 12:00 AM",
       "Tuesday": "11:00 AM - 12:00 AM",
@@ -5398,33 +5282,6 @@ export const RESTAURANTS: Restaurant[] = [
       "Friday": "11:00 am - 8:00 pm",
       "Saturday": "11:00 am - 8:00 pm",
       "Sunday": "12:00 pm - 6:00 pm"
-    }
-  },
-  {
-    "slug": "yemsade-grand-prairie",
-    "name": "Yemsade",
-    "cuisines": [
-      "West African"
-    ],
-    "cuisine": "West African",
-    "areaSlug": "dfw",
-    "city": "Grand Prairie",
-    "state": "TX",
-    "addressLine": "3007 S Carrier Pkwy, Grand Prairie, TX 75052",
-    "phone": "(972) 264-2111",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3007%20S%20Carrier%20Pkwy%2C%20Grand%20Prairie%2C%20TX%2075052%2C%20Grand%20Prairie%2C%20TX",
-    "highlights": [
-      "West African"
-    ],
-    "category": "Restaurant",
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "10:00 am - 8:00 pm",
-      "Wednesday": "10:00 am - 8:00 pm",
-      "Thursday": "10:00 am - 8:00 pm",
-      "Friday": "10:00 am - 8:00 pm",
-      "Saturday": "10:00 am - 8:00 pm",
-      "Sunday": "10:00 am - 5:00 pm"
     }
   },
   {
@@ -6001,64 +5858,6 @@ export const RESTAURANTS: Restaurant[] = [
     }
   },
   {
-    "slug": "safari-restaurant-houston",
-    "name": "Safari Restaurant",
-    "cuisines": [
-      "Nigerian",
-      "Nigerian"
-    ],
-    "cuisine": "Nigerian",
-    "areaSlug": "houston",
-    "city": "Houston",
-    "state": "TX",
-    "addressLine": "10014 Bissonnet St, Houston, TX 77036",
-    "phone": "(713) 541-4436",
-    "websiteUrl": "https://safarirestaurant.biz/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=10014%20Bissonnet%20St%2C%20Houston%2C%20TX%2077036%2C%20Houston%2C%20TX",
-    "highlights": [
-      "Nigerian",
-      "Nigerian"
-    ],
-    "category": "Restaurant",
-    "hours": {
-      "Monday": "11:00 AM - 2:00 AM",
-      "Tuesday": "11:00 AM - 2:00 AM",
-      "Wednesday": "11:00 AM - 2:00 AM",
-      "Thursday": "11:00 AM - 2:00 AM",
-      "Friday": "11:00 AM - 2:00 AM",
-      "Saturday": "11:00 AM - 2:00 AM",
-      "Sunday": "11:00 AM - 2:00 AM"
-    }
-  },
-  {
-    "slug": "rhay-s-restaurant-houston",
-    "name": "Rhay's Restaurant",
-    "cuisines": [
-      "African"
-    ],
-    "cuisine": "African",
-    "areaSlug": "houston",
-    "city": "Houston",
-    "state": "TX",
-    "addressLine": "11920 Westheimer Rd #J, Houston, TX 77077",
-    "phone": "(346) 409-1356",
-    "websiteUrl": "https://www.doordash.com/store/rhays-restaurant-houston-24953460/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=11920%20Westheimer%20Rd%20%23J%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
-    "highlights": [
-      "African"
-    ],
-    "category": "Restaurant",
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "4:00 PM - 10:00 PM",
-      "Wednesday": "4:00 PM - 10:00 PM",
-      "Thursday": "4:00 PM - 11:00 PM",
-      "Friday": "4:00 PM - 12:00 AM",
-      "Saturday": "12:00 PM - 2:00 AM",
-      "Sunday": "12:00 PM - 10:00 PM"
-    }
-  },
-  {
     "slug": "lagos-kitchen-ft-worth-fort-worth",
     "name": "Lagos Kitchen - Ft. Worth",
     "cuisines": [
@@ -6372,35 +6171,6 @@ export const RESTAURANTS: Restaurant[] = [
       "Friday": "10:00 AM - 9:00 PM",
       "Saturday": "10:00 AM - 9:00 PM",
       "Sunday": "10:00 AM - 9:00 PM"
-    }
-  },
-  {
-    "slug": "lucy-houston",
-    "name": "Lucy",
-    "cuisines": [
-      "Ethiopian",
-      "African"
-    ],
-    "cuisine": "Ethiopian",
-    "areaSlug": "houston",
-    "city": "Houston",
-    "state": "TX",
-    "addressLine": "6800 Southwest Fwy, Houston, TX 77074",
-    "phone": "(713) 334-0000",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6800%20Southwest%20Fwy%2C%20Houston%2C%20TX%2077074%2C%20Houston%2C%20TX",
-    "highlights": [
-      "Ethiopian",
-      "African"
-    ],
-    "category": "Restaurant",
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "Closed",
-      "Thursday": "Closed",
-      "Friday": "Closed",
-      "Saturday": "Closed",
-      "Sunday": "Closed"
     }
   },
   {
@@ -7010,35 +6780,6 @@ export const RESTAURANTS: Restaurant[] = [
     }
   },
   {
-    "slug": "african-market-nigerian-restaurant-austin",
-    "name": "African Market/Nigerian Restaurant",
-    "cuisines": [
-      "Nigerian, West African",
-      "Nigerian"
-    ],
-    "cuisine": "Nigerian, West African",
-    "areaSlug": "austin",
-    "city": "Austin",
-    "state": "TX",
-    "addressLine": "10805 N Lamar Blvd J, Austin, TX 78753",
-    "phone": "(512) 832-5382",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=10805%20N%20Lamar%20Blvd%20J%2C%20Austin%2C%20TX%2078753%2C%20Austin%2C%20TX",
-    "highlights": [
-      "Nigerian, West African",
-      "Nigerian"
-    ],
-    "category": "Restaurant",
-    "hours": {
-      "Monday": "9:00 am - 10:00 pm",
-      "Tuesday": "9:00 am - 10:00 pm",
-      "Wednesday": "9:00 am - 10:00 pm",
-      "Thursday": "9:00 am - 10:00 pm",
-      "Friday": "9:00 am - 11:00 pm",
-      "Saturday": "9:00 am - 11:00 pm",
-      "Sunday": "9:00 am - 10:00 pm"
-    }
-  },
-  {
     "slug": "kitchen234-nigerian-restaurant-austin",
     "name": "Kitchen234 - Nigerian Restaurant",
     "cuisines": [
@@ -7092,35 +6833,6 @@ export const RESTAURANTS: Restaurant[] = [
       "Friday": "8:00 am - 9:00 pm",
       "Saturday": "8:00 am - 9:00 pm",
       "Sunday": "1:00 pm - 9:00 pm"
-    }
-  },
-  {
-    "slug": "habesha-ethiopian-restaurant-and-bar-austin",
-    "name": "Habesha Ethiopian restaurant and bar",
-    "cuisines": [
-      "Ethiopian",
-      "African"
-    ],
-    "cuisine": "Ethiopian",
-    "areaSlug": "austin",
-    "city": "Austin",
-    "state": "TX",
-    "addressLine": "6019 N Interstate Hwy 35, Austin, TX 78723",
-    "phone": "(512) 358-6839",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6019%20N%20Interstate%20Hwy%2035%2C%20Austin%2C%20TX%2078723%2C%20Austin%2C%20TX",
-    "highlights": [
-      "Ethiopian",
-      "African"
-    ],
-    "category": "Restaurant",
-    "hours": {
-      "Monday": "11:00 am - 9:00 pm",
-      "Tuesday": "11:00 am - 9:00 pm",
-      "Wednesday": "11:00 am - 9:00 pm",
-      "Thursday": "11:00 am - 9:00 pm",
-      "Friday": "11:00 am - 10:00 pm",
-      "Saturday": "11:00 am - 10:00 pm",
-      "Sunday": "11:00 am - 9:00 pm"
     }
   },
   {
@@ -7272,17 +6984,20 @@ export const RESTAURANTS: Restaurant[] = [
     "slug": "le-meals-austin",
     "name": "LE Meals",
     "cuisines": [
-      "Gullah-Geechee, Fusion"
+      "Gullah-Geechee",
+      "Fusion"
     ],
-    "cuisine": "Gullah-Geechee, Fusion",
+    "cuisine": "Gullah-Geechee",
     "areaSlug": "austin",
     "city": "Austin",
     "state": "TX",
-    "addressLine": "5610 N Interstate Hwy 35, Austin, TX 78751",
+    "addressLine": "4305 Red River St, Austin, TX 78751",
     "phone": "(512) 736-9174",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5610%20N%20Interstate%20Hwy%2035%2C%20Austin%2C%20TX%2078751%2C%20Austin%2C%20TX",
+    "websiteUrl": "https://www.lemeals.net/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=4305%20Red%20River%20St%2C%20Austin%2C%20TX%2078751%2C%20Austin%2C%20TX",
     "highlights": [
-      "Gullah-Geechee, Fusion"
+      "Gullah-Geechee",
+      "Fusion"
     ],
     "category": "Restaurant",
     "hours": {
@@ -7887,35 +7602,6 @@ export const RESTAURANTS: Restaurant[] = [
       "Friday": "11:00 AM - 10:00 PM",
       "Saturday": "11:00 AM - 10:00 PM",
       "Sunday": "12:00 PM - 8:00 PM"
-    }
-  },
-  {
-    "slug": "amen-cafe-eritrean-and-ethiopian-restaurant-san-antonio",
-    "name": "Amen Cafe Eritrean And Ethiopian Restaurant",
-    "cuisines": [
-      "Ethiopian",
-      "African"
-    ],
-    "cuisine": "Ethiopian",
-    "areaSlug": "san-antonio",
-    "city": "San Antonio",
-    "state": "TX",
-    "addressLine": "5115 Fredericksburg Rd, San Antonio, TX 78229",
-    "phone": "(512) 940-3349",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5115%20Fredericksburg%20Rd%2C%20San%20Antonio%2C%20TX%2078229%2C%20San%20Antonio%2C%20TX",
-    "highlights": [
-      "Ethiopian",
-      "African"
-    ],
-    "category": "Restaurant",
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "10:00 AM - 9:00 PM",
-      "Wednesday": "10:00 AM - 9:00 PM",
-      "Thursday": "10:00 AM - 9:00 PM",
-      "Friday": "10:00 AM - 11:00 PM",
-      "Saturday": "10:00 AM - 11:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
     }
   },
   {
