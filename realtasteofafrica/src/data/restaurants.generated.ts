@@ -5150,19 +5150,24 @@ export const RESTAURANTS: Restaurant[] = [
     "slug": "cafe-nubia-dallas",
     "name": "Cafe Nubia",
     "cuisines": [
-      "African"
+      "African",
+      "Mediterranean",
+      "Afro-Fusion"
     ],
-    "cuisine": "African",
+    "cuisine": "West African",
     "areaSlug": "dfw",
     "city": "Dallas",
     "state": "TX",
     "addressLine": "3920 Rosemeade Pkwy #100, Dallas, TX 75287",
-    "phone": "(469) 225-8405",
+    "phone": "(469) 892-6796",
+    "websiteUrl": "https://www.cafenubiadfw.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3920%20Rosemeade%20Pkwy%20%23100%2C%20Dallas%2C%20TX%2075287%2C%20Dallas%2C%20TX",
     "highlights": [
-      "African"
+      "African",
+      "Mediterranean"
     ],
     "category": "Restaurant",
+    "writeUp": "Upscale Afro-fusion lounge. Grilled lamb chops; jollof rice and zaatar cauliflower. Live music; weekend brunch and happy hour Wed-Fri 4-7pm.",
     "hours": {
       "Monday": "Closed",
       "Tuesday": "Closed",
@@ -7580,21 +7585,23 @@ export const RESTAURANTS: Restaurant[] = [
     "slug": "ultra-kitchen-restaurants-and-catering-san-antonio",
     "name": "ULTRA KITCHEN (RESTAURANTS & CATERING )",
     "cuisines": [
-      "Nigerian, African",
-      "Nigerian"
+      "Nigerian",
+      "West African"
     ],
-    "cuisine": "Nigerian, African",
+    "cuisine": "Nigerian",
     "areaSlug": "san-antonio",
     "city": "San Antonio",
     "state": "TX",
     "addressLine": "7870 Culebra Rd, San Antonio, TX 78251",
     "phone": "(210) 600-4166",
+    "websiteUrl": "https://ultrakitchenandcatering.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=7870%20Culebra%20Rd%2C%20San%20Antonio%2C%20TX%2078251%2C%20San%20Antonio%2C%20TX",
     "highlights": [
-      "Nigerian, African",
-      "Nigerian"
+      "Nigerian",
+      "West African"
     ],
     "category": "Restaurant",
+    "writeUp": "Nigerian cuisine. Jollof rice; pepper soup; egusi and fufu. Family-owned with catering. Peppered snail; asun and gizdodo.",
     "hours": {
       "Monday": "Closed",
       "Tuesday": "11:00 AM - 8:00 PM",
@@ -8483,6 +8490,130 @@ export const RESTAURANTS: Restaurant[] = [
       "Friday": "7:00 am - 10:00 pm",
       "Saturday": "7:00 am - 10:00 pm",
       "Sunday": "7:00 am - 10:00 pm"
+    }
+  },
+  {
+    "slug": "la-belle-etoile-african-kitchen-houston-tx",
+    "name": "La Belle Etoile African Kitchen",
+    "cuisines": [
+      "Cameroonian",
+      "West African"
+    ],
+    "cuisine": "West African",
+    "areaSlug": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "addressLine": "2352 Cypress Creek Pkwy, Houston, TX 77068",
+    "phone": "(346) 848-2986",
+    "websiteUrl": "https://labelleetoileafricankitchen.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2352%20Cypress%20Creek%20Pkwy%2C%20Houston%2C%20TX%2077068%2C%20Houston%2C%20TX",
+    "highlights": [
+      "Cameroonian",
+      "West African"
+    ],
+    "category": "Restaurant",
+    "writeUp": "Authentic Cameroonian and West African. Ndole; Poulet Yassa and late-night grilled suya. Breakfast 6-11; lunch and dinner 11-10; grills 10pm-2am.",
+    "hours": {
+      "Monday": "6:00 am - 2:00 am",
+      "Tuesday": "6:00 am - 2:00 am",
+      "Wednesday": "6:00 am - 2:00 am",
+      "Thursday": "6:00 am - 2:00 am",
+      "Friday": "6:00 am - 2:00 am",
+      "Saturday": "6:00 am - 2:00 am",
+      "Sunday": "6:00 am - 2:00 am"
+    }
+  },
+  {
+    "slug": "queen-of-sheba-restaurant-addison-tx",
+    "name": "Queen of Sheba Restaurant",
+    "cuisines": [
+      "Ethiopian",
+      "Vegan"
+    ],
+    "cuisine": "Ethiopian",
+    "areaSlug": "dfw",
+    "city": "Addison",
+    "state": "TX",
+    "addressLine": "14875 Inwood Rd, Addison, TX 75001",
+    "phone": "(972) 239-3290",
+    "websiteUrl": "https://www.thequeensheba.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=14875%20Inwood%20Rd%2C%20Addison%2C%20TX%2075001%2C%20Addison%2C%20TX",
+    "highlights": [
+      "Ethiopian",
+      "Vegan"
+    ],
+    "category": "Restaurant",
+    "writeUp": "Ethiopian restaurant since 1991. Authentic cuisine with diverse vegan menu. Berbere and house-made kibbe. Reservations via OpenTable.",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 am - 9:00 pm",
+      "Wednesday": "11:00 am - 9:00 pm",
+      "Thursday": "11:00 am - 9:00 pm",
+      "Friday": "11:00 am - 10:00 pm",
+      "Saturday": "11:00 am - 10:00 pm",
+      "Sunday": "11:00 am - 9:00 pm"
+    }
+  },
+  {
+    "slug": "olobes-kitchen-lavon-tx",
+    "name": "Olobe's Kitchen",
+    "cuisines": [
+      "Nigerian",
+      "West African"
+    ],
+    "cuisine": "Nigerian",
+    "areaSlug": "dfw",
+    "city": "Lavon",
+    "state": "TX",
+    "addressLine": "440 S State Hwy 78 Suite 220A, Lavon, TX 75166",
+    "phone": "(469) 619-7677",
+    "websiteUrl": "https://olobekitchen.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=440%20S%20State%20Hwy%2078%20Suite%20220A%2C%20Lavon%2C%20TX%2075166%2C%20Lavon%2C%20TX",
+    "highlights": [
+      "Nigerian",
+      "West African"
+    ],
+    "category": "Restaurant",
+    "writeUp": "Authentic Nigerian cuisine. Jollof; egusi; fufu and amala. Sunday buffet; catering and event venue. Online ordering.",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 am - 9:00 pm",
+      "Wednesday": "11:00 am - 9:00 pm",
+      "Thursday": "11:00 am - 9:00 pm",
+      "Friday": "11:00 am - 9:00 pm",
+      "Saturday": "11:00 am - 9:00 pm",
+      "Sunday": "1:30 pm - 9:00 pm"
+    }
+  },
+  {
+    "slug": "asters-ethiopian-kitchen-austin-tx",
+    "name": "Aster's Ethiopian Kitchen",
+    "cuisines": [
+      "Ethiopian",
+      "Vegan"
+    ],
+    "cuisine": "Ethiopian",
+    "areaSlug": "austin",
+    "city": "Austin",
+    "state": "TX",
+    "addressLine": "2804 N Interstate Hwy 35, Austin, TX 78705",
+    "phone": "(512) 469-5966",
+    "websiteUrl": "https://astersethiopiankitchen.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=2804%20N%20Interstate%20Hwy%2035%2C%20Austin%2C%20TX%2078705%2C%20Austin%2C%20TX",
+    "highlights": [
+      "Ethiopian",
+      "Vegan"
+    ],
+    "category": "Restaurant",
+    "writeUp": "Family-owned since 1991. Authentic Ethiopian with vegan; gluten-free and vegetarian options. Dine-in; takeout; catering and reservations.",
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 am - 10:00 pm",
+      "Wednesday": "11:00 am - 10:00 pm",
+      "Thursday": "11:00 am - 10:00 pm",
+      "Friday": "11:00 am - 10:00 pm",
+      "Saturday": "11:00 am - 10:00 pm",
+      "Sunday": "3:00 pm - 10:00 pm"
     }
   },
 ]
