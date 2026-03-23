@@ -38,6 +38,24 @@ function getTexasNow(): { day: string; timeHHMM: number } {
   return { day, timeHHMM: hour * 100 + minute }
 }
 
+const DAY_ORDER = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+
+/** Find next open day and its opening time. Returns null if none. */
+function getNextOpenDay(hours: HoursMap, currentDay: string): { day: string; time: string } | null {
+  const idx = DAY_ORDER.indexOf(currentDay)
+  if (idx < 0) return null
+  for (let i = 1; i <= 7; i++) {
+    const nextIdx = (idx + i) % 7
+    const day = DAY_ORDER[nextIdx]
+    const h = hours[day]
+    if (h && String(h).toLowerCase().trim() !== "closed" && parseTimeRange(h)) {
+      const parts = h.replace(/\s*\([^)]*\)\s*/g, "").trim().split(/\s*[-–—]\s*/).map((s) => s.trim())
+      return { day, time: parts[0] ?? "" }
+    }
+  }
+  return null
+}
+
 /** Parse "11:00 AM - 10:00 PM" into open/close HHMM. Handles en-dash, em-dash, and strips parenthetical notes. */
 function parseTimeRange(range: string): { open: number; close: number } | null {
   // Strip parenthetical notes like "(Saturday 12:00 PM start)" that break parsing
@@ -80,10 +98,14 @@ export function getBusinessStatus(hours: HoursMap | undefined | null): BusinessS
   const todayHours = hours[currentDay]
 
   if (!todayHours || String(todayHours).toLowerCase().trim() === "closed") {
+    const nextOpen = getNextOpenDay(hours, currentDay)
+    const label = nextOpen
+      ? `Closed (Opens ${nextOpen.day} ${nextOpen.time})`
+      : "Closed Today"
     return {
       status: "Closed",
       color: "text-red-500",
-      label: "Closed Today",
+      label,
     }
   }
 
