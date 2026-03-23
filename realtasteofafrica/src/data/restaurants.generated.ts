@@ -1059,7 +1059,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "6120 College St Suite E, Beaumont TX 77707",
     "phone": "(409) 347-8288",
-    "websiteUrl": "http://www.godgraceafricanmarket.com",
+    "websiteUrl": "https://www.google.com/maps/search/God+Grace+African+Market+Beaumont+TX",
     "mapsUrl": "https://www.openstreetmap.org/search?query=6120%20College%20St%20Suite%20E%2C%20Beaumont%20TX%2077707%2C%20Beaumont%2C%20TX",
     "highlights": [
       "Market"
@@ -1087,7 +1087,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "2022 Wilcrest Dr, Houston, TX 77042",
     "phone": "(832) 359-3779",
-    "websiteUrl": "http://nativepotrestaurant.com/",
+    "websiteUrl": "https://nativepotrestaurant.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2022%20Wilcrest%20Dr%2C%20Houston%2C%20TX%2077042%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
@@ -1239,7 +1239,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "3131 34th St, Lubbock TX 79410",
     "phone": "(806) 701-3680",
-    "websiteUrl": "http://www.vizoslubbock.com/",
+    "websiteUrl": "https://www.vizoslubbock.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3131%2034th%20St%2C%20Lubbock%20TX%2079410%2C%20Lubbock%2C%20TX",
     "highlights": [
       "Delivery",
@@ -1296,7 +1296,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "4400 N 23rd St #156, McAllen TX 78504",
     "phone": "(956) 627-2244",
-    "websiteUrl": "http://afrospicergv.com/",
+    "websiteUrl": "https://afrospicergv.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=4400%20N%2023rd%20St%20%23156%2C%20McAllen%20TX%2078504%2C%20Mcallen%2C%20TX",
     "highlights": [
       "African"
@@ -2019,7 +2019,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "5121 Collin McKinney Pkwy, McKinney TX 75070",
     "phone": "(214) 226-7815",
-    "websiteUrl": "http://osumasuya.com/",
+    "websiteUrl": "https://osumasuya.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=5121%20Collin%20McKinney%20Pkwy%2C%20McKinney%20TX%2075070%2C%20Mckinney%2C%20TX",
     "highlights": [
       "Nigerian",
@@ -2049,7 +2049,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "3306 Highway 6 S #100, Houston TX 77082",
     "phone": "(346) 357-3778",
-    "websiteUrl": "http://osumasuya.com/",
+    "websiteUrl": "https://osumasuya.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3306%20Highway%206%20S%20%23100%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "Nigerian",
@@ -2079,7 +2079,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "311 E Pioneer Pkwy #B, Grand Prairie TX 75051",
     "phone": "(817) 966-9808",
-    "websiteUrl": "http://www.suyastop.com",
+    "websiteUrl": "https://www.suyastop.com",
     "mapsUrl": "https://www.openstreetmap.org/search?query=311%20E%20Pioneer%20Pkwy%20%23B%2C%20Grand%20Prairie%20TX%2075051%2C%20Grand%20Prairie%2C%20TX",
     "highlights": [
       "Nigerian",
@@ -2220,7 +2220,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "6248 McCart Ave, Fort Worth TX 76133",
     "phone": "(469) 306-7318",
-    "websiteUrl": "http://oloriafricancuisine.net/",
+    "websiteUrl": "https://oloriafricancuisine.net/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=6248%20McCart%20Ave%2C%20Fort%20Worth%20TX%2076133%2C%20Fort%20Worth%2C%20TX",
     "highlights": [
       "Catering"
@@ -2276,7 +2276,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "7224 Glenview Dr, Richland Hills TX 76180",
     "phone": "(817) 537-2059",
-    "websiteUrl": "http://www.zingscafe.com",
+    "websiteUrl": "https://www.zingscafe.com",
     "mapsUrl": "https://www.openstreetmap.org/search?query=7224%20Glenview%20Dr%2C%20Richland%20Hills%20TX%2076180%2C%20Richland%20Hills%2C%20TX",
     "highlights": [
       "Fusion"
@@ -2305,7 +2305,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "918 E Harwood Rd Ste B, Euless TX 76039",
     "phone": "(817) 358-1511",
-    "websiteUrl": "http://osumasuya.com/",
+    "websiteUrl": "https://osumasuya.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=918%20E%20Harwood%20Rd%20Ste%20B%2C%20Euless%20TX%2076039%2C%20Euless%2C%20TX",
     "highlights": [
       "Nigerian",
@@ -2420,7 +2420,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "1900 W Arbrook Blvd Ste 116, Arlington TX 76015",
     "phone": "(214) 603-1413",
-    "websiteUrl": "http://www.cheftemii.com/",
+    "websiteUrl": "https://cheftemii.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=1900%20W%20Arbrook%20Blvd%20Ste%20116%2C%20Arlington%20TX%2076015%2C%20Arlington%2C%20TX",
     "highlights": [
       "Catering"
@@ -2562,7 +2562,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "15608 Spring Hill Ln Ste 102, Pflugerville TX 78660",
     "phone": "(512) 712-5716",
-    "websiteUrl": "http://www.ladytkitchen.com/",
+    "websiteUrl": "https://www.ladytkitchen.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=15608%20Spring%20Hill%20Ln%20Ste%20102%2C%20Pflugerville%20TX%2078660%2C%20Pflugerville%2C%20TX",
     "highlights": [
       "Nigerian",
@@ -2620,7 +2620,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "111 Probandt St, San Antonio, TX 78204",
     "phone": "(726) 229-7587",
-    "websiteUrl": "http://oringo-africana.square.site/",
+    "websiteUrl": "https://oringo-africana.square.site/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=111%20Probandt%20St%2C%20San%20Antonio%2C%20TX%2078204%2C%20San%20Antonio%2C%20TX",
     "highlights": [
       "West African",
@@ -2709,7 +2709,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "2902 E Cesar Chavez St, Austin TX 78702",
     "phone": "(512) 584-5139",
-    "websiteUrl": "http://www.redseakitchenatx.com",
+    "websiteUrl": "https://www.redseakitchenatx.com",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2902%20E%20Cesar%20Chavez%20St%2C%20Austin%20TX%2078702%2C%20Austin%2C%20TX",
     "highlights": [
       "Food truck"
@@ -2829,7 +2829,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "10814 S Gessner Rd, Houston TX 77071",
     "phone": "(713) 393-7322",
-    "websiteUrl": "https://texasafricangrocery.com",
+    "websiteUrl": "https://www.google.com/maps/search/Bodija+Foods+Houston+TX",
     "mapsUrl": "https://www.openstreetmap.org/search?query=10814%20S%20Gessner%20Rd%2C%20Houston%20TX%2077071%2C%20Houston%2C%20TX",
     "highlights": [
       "African Market",
@@ -2942,7 +2942,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "2881 FM157 #103, Mansfield TX 76063",
     "phone": "(682) 323-7609",
-    "websiteUrl": "http://www.tasteafrik.com/",
+    "websiteUrl": "https://www.tasteafrik.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2881%20FM157%20%23103%2C%20Mansfield%20TX%2076063%2C%20Mansfield%2C%20TX",
     "highlights": [
       "African",
@@ -3059,7 +3059,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "16203 Westheimer Rd, Houston TX 77082",
     "phone": "(832) 230-3894",
-    "websiteUrl": "http://wazobiaafricankitchen.com/",
+    "websiteUrl": "https://wazobiaafricankitchen.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=16203%20Westheimer%20Rd%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
@@ -4110,7 +4110,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "2472 S Texas 6, Houston TX 77077",
     "phone": "(281) 888-6671",
-    "websiteUrl": "http://www.ekobistro.org",
+    "websiteUrl": "https://www.ekobistro.org",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2472%20S%20Texas%206%2C%20Houston%20TX%2077077%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
@@ -4228,7 +4228,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "13776 US-183 #115, Austin TX 78750",
     "phone": "(512) 552-7779",
-    "websiteUrl": "http://ladytkitchen.com/",
+    "websiteUrl": "https://ladytkitchen.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=13776%20US-183%20%23115%2C%20Austin%20TX%2078750%2C%20Austin%2C%20TX",
     "highlights": [
       "Restaurant"
@@ -4404,7 +4404,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "6019 N Interstate Hwy 35, Austin TX 78723",
     "phone": "(512) 358-6839",
-    "websiteUrl": "http://habeshaaustin.com/",
+    "websiteUrl": "https://habeshaaustin.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=6019%20N%20Interstate%20Hwy%2035%2C%20Austin%20TX%2078723%2C%20Austin%2C%20TX",
     "highlights": [
       "Ethiopian"
@@ -4491,7 +4491,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "9400 Richmond Ave, Houston TX 77063",
     "phone": "(713) 814-5101",
-    "websiteUrl": "http://bluenilehouston.com/",
+    "websiteUrl": "https://bluenilehouston.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=9400%20Richmond%20Ave%2C%20Houston%20TX%2077063%2C%20Houston%2C%20TX",
     "highlights": [
       "Ethiopian"
