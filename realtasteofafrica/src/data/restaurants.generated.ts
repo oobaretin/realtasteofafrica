@@ -872,7 +872,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Thursday": "12:00 pm - 5:30 pm",
       "Friday": "12:00 pm - 5:30 pm",
       "Saturday": "12:00 pm - 6:00 pm",
-      "Sunday": "1:00 pm - 6:00 pm"
+      "Sunday": "12:00 pm - 6:00 pm"
     }
   },
   {

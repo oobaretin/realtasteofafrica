@@ -171,9 +171,16 @@ export function getBusinessStatus(hours: HoursMap | undefined | null): BusinessS
     }
   }
 
+  // Closed: either before opening today, or after closing (use next open day)
+  const isAfterClosing = !closesAfterMidnight && currentTime >= closeForCheck
+  const nextOpen = isAfterClosing ? getNextOpenDay(hours, currentDay) : null
+  const label = nextOpen
+    ? `Closed (Opens ${nextOpen.day} ${nextOpen.time})`
+    : `Closed (Opens ${openStr})`
+
   return {
     status: "Closed",
     color: "text-red-500",
-    label: `Closed (Opens ${openStr})`,
+    label,
   }
 }
