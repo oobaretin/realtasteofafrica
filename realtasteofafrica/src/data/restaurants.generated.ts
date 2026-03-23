@@ -470,7 +470,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "14524 Piping Rock Ln, Houston, TX 77077",
     "phone": "(281) 995-1958",
-    "websiteUrl": "https://order.spoton.com/so-delights-delight-kitchen-3629/houston-tx/6532c4ce2cb4e2003dd65e05",
+    "websiteUrl": "https://delightsghanaiancuisine.restaurants-info.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=14524%20Piping%20Rock%20Ln%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
     "highlights": [
       "Ghanaian",
@@ -647,7 +647,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "5403 E 5th St, Katy TX 77493",
     "phone": "(832) 437-0238",
-    "websiteUrl": "http://onyisuya.com/",
+    "websiteUrl": "https://onyisuya.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=5403%20E%205th%20St%2C%20Katy%20TX%2077493%2C%20Katy%2C%20TX",
     "highlights": [
       "African",
@@ -706,7 +706,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "2625 Town Center Blvd N, Sugar Land TX 77479",
     "phone": "(281) 325-0105",
-    "websiteUrl": "http://www.myperiperi.com/",
+    "websiteUrl": "https://myperiperi.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2625%20Town%20Center%20Blvd%20N%2C%20Sugar%20Land%20TX%2077479%2C%20Sugar%20Land%2C%20TX",
     "highlights": [
       "South African",
@@ -857,7 +857,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "7035 W Grand Pkwy S #90, Richmond, TX 77407",
     "phone": "(832) 451-6135",
-    "websiteUrl": "http://zongo.us/",
+    "websiteUrl": "https://zongo.us/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=7035%20W%20Grand%20Pkwy%20S%20%2390%2C%20Richmond%2C%20TX%2077407%2C%20Richmond%2C%20TX",
     "highlights": [
       "West African",
@@ -1819,7 +1819,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "9755 S Kirkwood Rd #D, Houston TX 77099",
     "phone": "(281) 968-1810",
-    "websiteUrl": "https://aliefafricanfoodkitchen.shopsettings.com/",
+    "websiteUrl": "https://www.restaurantji.com/tx/houston/alief-african-kitchen-/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=9755%20S%20Kirkwood%20Rd%20%23D%2C%20Houston%20TX%2077099%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
@@ -2165,7 +2165,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "2200 Brookes St Unit A, Fort Worth, TX 76105",
     "phone": "(817) 720-6677",
-    "websiteUrl": "https://leannachopgrill.mymenus.web/",
+    "websiteUrl": "https://www.google.com/maps/search/LeAnna+Chop+Grill+Fort+Worth+TX",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2200%20Brookes%20St%20Unit%20A%2C%20Fort%20Worth%2C%20TX%2076105%2C%20Fort%20Worth%2C%20TX",
     "highlights": [
       "African"
@@ -2768,7 +2768,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "10918 Wurzbach Rd #131, San Antonio, TX 78230",
     "phone": "(210) 467-5102",
-    "websiteUrl": "https://ethiopiandining.com/restaurants/african-village-ethiopian-restaurant/",
+    "websiteUrl": "https://www.visitsanantonio.com/listing/african-village-ethiopian-restaurant/5037/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=10918%20Wurzbach%20Rd%20%23131%2C%20San%20Antonio%2C%20TX%2078230%2C%20San%20Antonio%2C%20TX",
     "highlights": [
       "Ethiopian",
