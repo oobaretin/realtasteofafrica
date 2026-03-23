@@ -1846,22 +1846,22 @@ export const RESTAURANTS: Restaurant[] = [
     "areaSlug": "dfw",
     "city": "Dallas",
     "state": "TX",
-    "addressLine": "12101 Greenville Ave, Dallas TX 75243",
-    "phone": "(214) 760-7221",
-    "websiteUrl": "http://destaethiopian.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=12101%20Greenville%20Ave%2C%20Dallas%20TX%2075243%2C%20Dallas%2C%20TX",
+    "addressLine": "12101 Greenville Ave #105, Dallas, TX 75243",
+    "phone": "(214) 575-9004",
+    "websiteUrl": "https://destaethiopiaresturant.com/",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=12101%20Greenville%20Ave%20%23105%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
     "highlights": [
       "Ethiopian"
     ],
     "category": "Restaurant",
     "hours": {
-      "Monday": "10:00 AM - 10:00 PM",
-      "Tuesday": "10:00 AM - 10:00 PM",
-      "Wednesday": "10:00 AM - 10:00 PM",
-      "Thursday": "10:00 AM - 10:00 PM",
-      "Friday": "10:00 AM - 11:00 PM",
-      "Saturday": "10:00 AM - 11:00 PM",
-      "Sunday": "10:00 AM - 9:00 PM"
+      "Monday": "10:00 am - 11:00 pm",
+      "Tuesday": "10:00 am - 11:00 pm",
+      "Wednesday": "10:00 am - 11:00 pm",
+      "Thursday": "10:00 am - 11:00 pm",
+      "Friday": "10:00 am - 12:00 am",
+      "Saturday": "10:00 am - 12:00 am",
+      "Sunday": "10:00 am - 11:00 pm"
     }
   },
   {
