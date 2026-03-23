@@ -5247,7 +5247,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "9203 Skillman St suite 114, Dallas, TX 75243",
     "phone": "(214) 964-0065",
-    "websiteUrl": "https://oloriafricancuisine.com/",
+    "websiteUrl": "https://oloriafricancuisine.net/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=9203%20Skillman%20St%20suite%20114%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
     "highlights": [
       "African"
