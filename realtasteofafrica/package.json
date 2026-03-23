@@ -17,6 +17,8 @@
     "enrich:restaurants:osm": "node scripts/enrich-restaurants-osm.mjs",
     "enrich:restaurants:web": "node scripts/enrich-restaurants-from-websites.mjs",
     "validate:restaurants": "node scripts/validate-restaurants-csv.mjs",
+    "check:website-urls": "node scripts/check-website-urls.mjs",
+    "fix:website-urls": "node scripts/fix-broken-website-urls.mjs",
     "audit:restaurants": "node scripts/audit-restaurants-csv.mjs",
     "backfill:highlights": "node scripts/backfill-highlights-csv.mjs --write"
   },
