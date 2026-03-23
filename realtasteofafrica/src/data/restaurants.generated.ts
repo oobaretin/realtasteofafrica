@@ -868,7 +868,7 @@ export const RESTAURANTS: Restaurant[] = [
     "hours": {
       "Monday": "Closed",
       "Tuesday": "Closed",
-      "Wednesday": "12:00 pm - 5:30 pm",
+      "Wednesday": "Closed",
       "Thursday": "12:00 pm - 5:30 pm",
       "Friday": "12:00 pm - 5:30 pm",
       "Saturday": "12:00 pm - 6:00 pm",
