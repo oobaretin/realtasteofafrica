@@ -857,13 +857,14 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "7035 W Grand Pkwy S #90, Richmond, TX 77407",
     "phone": "(832) 451-6135",
-    "websiteUrl": "https://zongo-us.business.site/",
+    "websiteUrl": "http://zongo.us/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=7035%20W%20Grand%20Pkwy%20S%20%2390%2C%20Richmond%2C%20TX%2077407%2C%20Richmond%2C%20TX",
     "highlights": [
       "West African",
       "Ghanaian"
     ],
     "category": "Restaurant",
+    "writeUp": "Ghanaian street food elevated. Waakye; handcrafted soups; jollof rice and grilled fish. Catering; delivery and BYOB weekends. Serves Richmond; Houston; Sugar Land; Katy; Rosenberg and Missouri City.",
     "hours": {
       "Monday": "Closed",
       "Tuesday": "Closed",
