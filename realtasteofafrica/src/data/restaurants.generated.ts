@@ -5129,8 +5129,8 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Dallas",
     "state": "TX",
     "addressLine": "13021 Coit Rd # 98, Dallas, TX 75240",
-    "phone": "(469) 209-1235",
-    "websiteUrl": "https://dallulrestaurantdallas.com/",
+    "phone": "(469) 941-4545",
+    "websiteUrl": "https://dallulrestaurantandbar.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=13021%20Coit%20Rd%20%23%2098%2C%20Dallas%2C%20TX%2075240%2C%20Dallas%2C%20TX",
     "highlights": [
       "Ethiopian",
