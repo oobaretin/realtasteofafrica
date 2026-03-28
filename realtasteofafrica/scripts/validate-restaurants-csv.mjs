@@ -46,7 +46,7 @@ const ALLOWED_ADDRESS_DUPES = new Map([
   ],
   [
     "2616 blodgett st houston tx 77004|houston|tx",
-    new Set(["dakar-street-food-ghost-kitchen-houston-tx", "dupsys-kitchen-ghost-houston-tx"]),
+    new Set(["dakar-street-food-houston-tx", "dupsys-kitchen-ghost-houston-tx"]),
   ],
   [
     "9400 richmond ave houston tx 77063|houston|tx",

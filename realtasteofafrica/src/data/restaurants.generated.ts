@@ -1492,8 +1492,8 @@ export const RESTAURANTS: Restaurant[] = [
     }
   },
   {
-    "slug": "dakar-street-food-ghost-kitchen-houston-tx",
-    "name": "Dakar Street Food (Ghost Kitchen)",
+    "slug": "dakar-street-food-houston-tx",
+    "name": "Dakar Street Food",
     "cuisines": [
       "Senegalese",
       "West African"
@@ -1507,10 +1507,10 @@ export const RESTAURANTS: Restaurant[] = [
     "websiteUrl": "https://dakarstreetfood.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2923%20Walnut%20Bend%20Ln%2C%20Houston%2C%20TX%2077042%2C%20Houston%2C%20TX",
     "highlights": [
-      "Ghost kitchen",
-      "Ghost Kitchen"
+      "Senegalese",
+      "West African"
     ],
-    "category": "Ghost Kitchen",
+    "category": "Restaurant",
     "hours": {
       "Monday": "11:00 am - 9:00 pm",
       "Tuesday": "11:00 am - 10:00 pm",
