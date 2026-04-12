@@ -1551,7 +1551,7 @@ export const RESTAURANTS: Restaurant[] = [
   },
   {
     "slug": "fabaceae-african-cuisine-houston-tx",
-    "name": "Fabaceae African Cuisine",
+    "name": "Fabaceae African Cuisine Inc.",
     "cuisines": [
       "African"
     ],
@@ -1569,11 +1569,11 @@ export const RESTAURANTS: Restaurant[] = [
     "category": "Restaurant",
     "hours": {
       "Monday": "Closed",
-      "Tuesday": "12:00 PM - 9:00 PM",
-      "Wednesday": "12:00 PM - 9:00 PM",
-      "Thursday": "12:00 PM - 9:00 PM",
-      "Friday": "12:00 PM - 9:00 PM",
-      "Saturday": "12:00 PM - 9:00 PM",
+      "Tuesday": "12:00 pm - 9:00 pm",
+      "Wednesday": "12:00 pm - 9:00 pm",
+      "Thursday": "12:00 pm - 9:00 pm",
+      "Friday": "12:00 pm - 9:00 pm",
+      "Saturday": "12:00 pm - 9:00 pm",
       "Sunday": "Closed"
     }
   },
