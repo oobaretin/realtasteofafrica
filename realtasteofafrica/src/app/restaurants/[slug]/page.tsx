@@ -16,7 +16,9 @@ import { getRestaurantWriteUp } from "@/lib/restaurantWriteUp"
 import { CopyAddressButtonClient } from "@/components/CopyAddressButton"
 import { formatPhoneDisplay, toTelHref } from "@/lib/formatPhone"
 import { BusinessStatusClient } from "@/components/BusinessStatusClient"
+import { ListingExternalLink } from "@/components/ListingExternalLink"
 import { ShareButton } from "@/components/ShareButton"
+import { getWebsiteLinkPresentation } from "@/lib/websiteLinkLabel"
 import { SimilarSpots } from "@/components/SimilarSpots"
 
 function googleMapsUrl(addressLine: string, city: string, state: string) {
@@ -168,18 +170,20 @@ export default async function RestaurantDetailPage({
                 url={`/restaurants/${r.slug}`}
                 shareName={r.name}
               />
-              {r.websiteUrl ? (
-                <a
-                  href={r.websiteUrl}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex shrink-0 items-center gap-2 rounded-xl bg-amber-600 px-5 py-3.5 text-base font-semibold text-white shadow-sm transition hover:bg-amber-700"
-                >
-                  <span aria-hidden>🔗</span>
-                  Visit Website
-                </a>
-              ) : null}
             </div>
+            {r.websiteUrl ? (
+              <div className="mt-3 flex min-w-0 flex-wrap items-center gap-2">
+                <ListingExternalLink
+                  href={r.websiteUrl}
+                  className="inline-flex shrink-0 items-center gap-2 rounded-xl border-2 border-slate-200 bg-white px-5 py-3 text-base font-semibold text-slate-800 shadow-sm transition hover:border-amber-300 hover:bg-amber-50"
+                />
+                {getWebsiteLinkPresentation(r.websiteUrl).kind !== "official" ? (
+                  <span className="max-w-md text-xs text-slate-500">
+                    Link may go to ordering, maps, or a directory—not always the business’s own site.
+                  </span>
+                ) : null}
+              </div>
+            ) : null}
             {listingNumber > 0 ? (
               <p className="mt-3 text-xs text-slate-500">
                 Verified Listing #{listingNumber} of {RESTAURANTS.length}. Help us grow the map by sharing this spot!

@@ -9,7 +9,10 @@ import { OpenNowToggle } from "@/components/OpenNowToggle"
 import { RestaurantCard } from "@/components/RestaurantCard"
 import type { Area } from "@/lib/areas"
 import { getBusinessStatus } from "@/lib/businessHours"
-import { getEstablishmentCategory } from "@/lib/establishmentType"
+import {
+  listingMatchesTypeFilter,
+  typeFilterBadgeLabel,
+} from "@/lib/establishmentType"
 import type { Restaurant } from "@/lib/restaurants"
 
 const SORT_OPTIONS = [
@@ -81,6 +84,8 @@ export function RestaurantsBrowser({
   const [sortBy, setSortBy] = useState<SortBy>("status")
 
   useEffect(() => {
+    // Sync filters when `searchParams` change from the server (e.g. back/forward, shared URL).
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- intentional prop→state sync for URL-driven browse state
     setAreaSlug(initialArea)
     setCuisine(initialCuisine)
     setCategory(initialCategory)
@@ -131,7 +136,7 @@ export function RestaurantsBrowser({
       }
       if (areaSlug && r.areaSlug !== areaSlug) return false
       if (category && category !== "All") {
-        if (getEstablishmentCategory(r) !== category) return false
+        if (!listingMatchesTypeFilter(r, category)) return false
       }
       if (cuisine) {
         const matchesCuisine =
@@ -253,7 +258,7 @@ export function RestaurantsBrowser({
           <div className="flex flex-wrap items-center gap-2">
             <Badge>{sorted.length} results</Badge>
             {category && category !== "All" ? (
-              <Badge>{category}</Badge>
+              <Badge>{typeFilterBadgeLabel(category)}</Badge>
             ) : null}
             {areaSlug ? (
               <Badge>{areaBySlug.get(areaSlug)?.name ?? areaSlug}</Badge>

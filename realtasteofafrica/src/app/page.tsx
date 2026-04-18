@@ -62,13 +62,13 @@ export default function HomePage() {
               className="rounded-md bg-amber-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-amber-700"
               href="/restaurants"
             >
-              Browse restaurants
+              Browse directory
             </Link>
             <Link
               className="rounded-md border border-white/20 bg-white px-4 py-2.5 text-sm font-semibold text-slate-900 hover:bg-slate-50"
               href="/restaurants"
             >
-              All regions
+              All listings
             </Link>
           </div>
         </div>
@@ -103,7 +103,7 @@ export default function HomePage() {
               Popular picks
             </h2>
             <p className="mt-1 text-sm text-slate-600">
-              Curated listings with the most complete details (phone, website, map).
+              Hand-picked highlights with solid contact info—call, directions, or follow their link.
             </p>
           </div>
           <Link

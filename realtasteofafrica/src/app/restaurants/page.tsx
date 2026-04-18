@@ -1,10 +1,10 @@
 import { BrowseContent } from "@/components/BrowseContent"
 import { AREAS } from "@/lib/areas"
-import { FILTER_TYPE_OPTIONS } from "@/lib/establishmentType"
+import { ALL_FILTER_TYPE_VALUES } from "@/lib/establishmentType"
 import { getAllCuisineTags, RESTAURANTS } from "@/lib/restaurants"
 
 export const metadata = {
-  title: "Browse restaurants",
+  title: "Browse restaurants & markets",
 }
 
 type RestaurantsPageProps = {
@@ -17,8 +17,8 @@ export default async function RestaurantsPage({ searchParams }: RestaurantsPageP
   const initialCuisine = params.cuisine?.trim() ?? ""
   const initialArea = params.area?.trim() ?? ""
   const typeParam = params.type?.trim() ?? "All"
-  const validTypes = new Set(FILTER_TYPE_OPTIONS.map((o) => o.value))
-  const initialCategory = validTypes.has(typeParam as "All") ? typeParam : "All"
+  const validTypes = new Set(ALL_FILTER_TYPE_VALUES)
+  const initialCategory = validTypes.has(typeParam) ? typeParam : "All"
 
   return (
     <BrowseContent

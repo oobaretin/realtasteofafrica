@@ -1,7 +1,7 @@
 "use client"
 
 import type { Area } from "@/lib/areas"
-import { FILTER_TYPE_OPTIONS } from "@/lib/establishmentType"
+import { FILTER_TYPE_OPTION_GROUPS } from "@/lib/establishmentType"
 
 export type FilterBarValues = {
   category: string
@@ -30,10 +30,14 @@ export function FilterBar({ areas, cuisineTags, values, onFilterChange }: Filter
           className="w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900"
           aria-label="Filter by establishment type"
         >
-          {FILTER_TYPE_OPTIONS.map((opt) => (
-            <option key={opt.value} value={opt.value}>
-              {opt.label}
-            </option>
+          {FILTER_TYPE_OPTION_GROUPS.map((group) => (
+            <optgroup key={group.label} label={group.label}>
+              {group.options.map((opt) => (
+                <option key={opt.value} value={opt.value}>
+                  {opt.label}
+                </option>
+              ))}
+            </optgroup>
           ))}
         </select>
       </div>

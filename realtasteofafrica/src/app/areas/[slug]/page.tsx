@@ -3,6 +3,7 @@ import { notFound } from "next/navigation"
 
 import { Badge } from "@/components/Badge"
 import { WpPageShell } from "@/components/WpPageShell"
+import { ListingExternalLink } from "@/components/ListingExternalLink"
 import { formatPhoneDisplay, toTelHref } from "@/lib/formatPhone"
 import { getAreaBySlug } from "@/lib/areas"
 import { getRestaurantsByArea } from "@/lib/restaurants"
@@ -106,14 +107,10 @@ export default async function AreaPage({
                       View details →
                     </Link>
                     {r.websiteUrl ? (
-                      <a
-                        className="inline-flex rounded-md border border-slate-200 bg-white px-3 py-2 text-sm font-semibold text-slate-900 hover:bg-slate-50"
+                      <ListingExternalLink
                         href={r.websiteUrl}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Website
-                      </a>
+                        className="inline-flex rounded-md border border-slate-200 bg-white px-3 py-2 text-sm font-semibold text-slate-900 hover:bg-slate-50"
+                      />
                     ) : null}
                     {r.phone ? (
                       <a

@@ -29,8 +29,8 @@ export function BrowseContent({
 
   return (
     <WpPageShell
-      title="Browse African restaurants"
-      description="Start with Greater Houston and neighboring cities. As we grow, we'll add more regions nationwide."
+      title="Browse restaurants & markets"
+      description="Filter by region, cuisine, and type—where to eat (restaurants, trucks, ghost kitchens) or markets and groceries. Texas-wide coverage."
       breadcrumbs={[
         { href: "/", label: "Home" },
         { href: "/restaurants", label: "Restaurants" },

@@ -8,6 +8,7 @@ import {
   CATEGORY_STRIP_CLASSES,
   getEstablishmentCategory,
 } from "@/lib/establishmentType"
+import { ListingExternalLink } from "@/components/ListingExternalLink"
 import { formatPhoneDisplay, toTelHref } from "@/lib/formatPhone"
 import type { Restaurant } from "@/lib/restaurants"
 import { useBusinessStatus } from "@/components/BusinessStatusClient"
@@ -113,16 +114,12 @@ export function RestaurantCard({
             Details →
           </Link>
           {r.websiteUrl ? (
-            <a
+            <ListingExternalLink
+              href={r.websiteUrl}
               className={`inline-flex rounded-md border border-slate-200 font-semibold text-slate-700 hover:bg-slate-50 ${
                 isFeatured ? "px-4 py-2.5 text-base" : "px-3 py-2 text-sm"
               }`}
-              href={r.websiteUrl}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Website
-            </a>
+            />
           ) : null}
           {r.phone ? (
             <a
