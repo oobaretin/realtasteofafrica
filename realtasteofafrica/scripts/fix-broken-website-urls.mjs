@@ -18,7 +18,6 @@ const BROKEN_DOMAINS = [
   "kofoshi.com",
   "westafricanway.com",
   "rhosabjal.com",
-  "ladytkitchen.com",
   "amen.cafe",
   "blessliz.com",
   "suyapowerhouse.us",
@@ -46,7 +45,6 @@ const BROKEN_DOMAINS = [
   "safoodaffair.com",
   "mgbeke.com",
   "grainsandsolids.com",
-  "foodmattasstore.com",
   "visitsanantonio.com", // listing page 404
   "joslat-african-foods.business.site", // 404
 ]

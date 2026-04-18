@@ -528,7 +528,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "4031 FM-1463 Rd, Katy TX 77494",
     "phone": "(281) 394-5244",
-    "websiteUrl": "https://www.google.com/maps/search/Lagos%20Buka%20Katy%20TX",
+    "websiteUrl": "https://order.lagosbuka.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=4031%20FM-1463%20Rd%2C%20Katy%20TX%2077494%2C%20Katy%2C%20TX",
     "highlights": [
       "Delivery"
@@ -736,7 +736,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "11134 S Texas 6 Suite 216, Sugar Land, TX 77498",
     "phone": "(832) 288-2982",
-    "websiteUrl": "https://www.google.com/maps/search/Amala%20on%20Point%20-%20Grains%20and%20Solid%20Cafe%20Sugar%20Land%20TX",
+    "websiteUrl": "https://www.roostcafeandbistro.com/amala-on-point-grains-and-solid-cafe-77498/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=11134%20S%20Texas%206%20Suite%20216%2C%20Sugar%20Land%2C%20TX%2077498%2C%20Sugar%20Land%2C%20TX",
     "priceLevel": 3,
     "highlights": [
@@ -1059,7 +1059,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "6120 College St Suite E, Beaumont TX 77707",
     "phone": "(409) 347-8288",
-    "websiteUrl": "https://www.google.com/maps/search/God+Grace+African+Market+Beaumont+TX",
+    "websiteUrl": "https://gracefarmersmarket.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=6120%20College%20St%20Suite%20E%2C%20Beaumont%20TX%2077707%2C%20Beaumont%2C%20TX",
     "highlights": [
       "Market"
@@ -1149,7 +1149,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "3140 N Lee Trevino Dr, El Paso TX 79936",
     "phone": "(915) 307-4834",
-    "websiteUrl": "https://www.google.com/maps/search/Anointed%20Cuisine%20A%20Taste%20of%20Africa%20El%20Paso%20TX",
+    "websiteUrl": "https://anointedcuisineinc.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3140%20N%20Lee%20Trevino%20Dr%2C%20El%20Paso%20TX%2079936%2C%20El%20Paso%2C%20TX",
     "highlights": [
       "Takeout",
@@ -1533,7 +1533,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "3706 S Gessner Rd, Houston, TX 77063",
     "phone": "(346) 252-2336",
-    "websiteUrl": "https://www.google.com/maps/search/Kofoshi%20Houston%20TX",
+    "websiteUrl": "https://www.kofoshinigerianresturant.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3706%20S%20Gessner%20Rd%2C%20Houston%2C%20TX%2077063%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
@@ -1932,7 +1932,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "1405 Jupiter Rd #116, Plano, TX 75074",
     "phone": "(972) 424-2634",
-    "websiteUrl": "https://www.google.com/maps/search/West%20African%20Way%20Plano%20TX",
+    "websiteUrl": "https://www.visitplano.com/dining/west-african-way/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=1405%20Jupiter%20Rd%20%23116%2C%20Plano%2C%20TX%2075074%2C%20Plano%2C%20TX",
     "highlights": [
       "West African"
@@ -2165,7 +2165,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "2200 Brookes St Unit A, Fort Worth, TX 76105",
     "phone": "(817) 720-6677",
-    "websiteUrl": "https://www.google.com/maps/search/LeAnna+Chop+Grill+Fort+Worth+TX",
+    "websiteUrl": "https://leannachopgrill.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2200%20Brookes%20St%20Unit%20A%2C%20Fort%20Worth%2C%20TX%2076105%2C%20Fort%20Worth%2C%20TX",
     "highlights": [
       "African"
@@ -2334,7 +2334,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "3003 N Belt Line Rd, Irving, TX 75062",
     "phone": "(972) 570-1111",
-    "websiteUrl": "https://www.google.com/maps/search/African%20Village%20Irving%20TX",
+    "websiteUrl": "https://www.africanvillagerestaurant.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3003%20N%20Belt%20Line%20Rd%2C%20Irving%2C%20TX%2075062%2C%20Irving%2C%20TX",
     "highlights": [
       "West African"
@@ -2562,7 +2562,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "15608 Spring Hill Ln Ste 102, Pflugerville TX 78660",
     "phone": "(512) 712-5716",
-    "websiteUrl": "https://www.google.com/maps/search/Lady%20T%20Kitchen%20African%20Restaurant%20Pflugerville%20TX",
+    "websiteUrl": "https://ladytkitchen.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=15608%20Spring%20Hill%20Ln%20Ste%20102%2C%20Pflugerville%20TX%2078660%2C%20Pflugerville%2C%20TX",
     "highlights": [
       "Nigerian",
@@ -2591,7 +2591,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "71 Rainey St, Austin TX 78701",
     "phone": "(425) 780-2481",
-    "websiteUrl": "https://www.google.com/maps/search/South%20African%20Food%20Affair%20Austin%20TX",
+    "websiteUrl": "https://www.southafricanfoodaffair.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=71%20Rainey%20St%2C%20Austin%20TX%2078701%2C%20Austin%2C%20TX",
     "highlights": [
       "Food truck"
@@ -2738,7 +2738,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "5115 Fredericksburg Rd, San Antonio TX 78229",
     "phone": "(512) 940-3349",
-    "websiteUrl": "https://www.google.com/maps/search/Amen%20Cafe%20Eritrean%20%26%20Ethiopian%20San%20Antonio%20TX",
+    "websiteUrl": "https://amencafe.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=5115%20Fredericksburg%20Rd%2C%20San%20Antonio%20TX%2078229%2C%20San%20Antonio%2C%20TX",
     "highlights": [
       "Ethiopian",
@@ -2768,7 +2768,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "10918 Wurzbach Rd #131, San Antonio, TX 78230",
     "phone": "(210) 467-5102",
-    "websiteUrl": "https://www.google.com/maps/search/African%20Village%20Ethiopian%20Restaurant%20San%20Antonio%20TX",
+    "websiteUrl": "https://africanvillageethiopianrestaurant.gotoeat.net/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=10918%20Wurzbach%20Rd%20%23131%2C%20San%20Antonio%2C%20TX%2078230%2C%20San%20Antonio%2C%20TX",
     "highlights": [
       "Ethiopian",
@@ -2814,36 +2814,6 @@ export const RESTAURANTS: Restaurant[] = [
       "Friday": "7:00 am - 10:00 pm",
       "Saturday": "7:00 am - 10:00 pm",
       "Sunday": "7:00 am - 10:00 pm"
-    }
-  },
-  {
-    "slug": "bodija-african-food-market-houston-tx",
-    "name": "Bodija Foods",
-    "cuisines": [
-      "African Market",
-      "Grocery"
-    ],
-    "cuisine": "West African",
-    "areaSlug": "houston",
-    "city": "Houston",
-    "state": "TX",
-    "addressLine": "10814 S Gessner Rd, Houston TX 77071",
-    "phone": "(713) 393-7322",
-    "websiteUrl": "https://www.google.com/maps/search/Bodija+Foods+Houston+TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=10814%20S%20Gessner%20Rd%2C%20Houston%20TX%2077071%2C%20Houston%2C%20TX",
-    "highlights": [
-      "African Market",
-      "Grocery"
-    ],
-    "category": "Market + Kitchen",
-    "hours": {
-      "Monday": "9:00 am - 8:00 pm",
-      "Tuesday": "9:00 am - 8:00 pm",
-      "Wednesday": "9:00 am - 8:00 pm",
-      "Thursday": "9:00 am - 8:00 pm",
-      "Friday": "9:00 am - 8:00 pm",
-      "Saturday": "9:00 am - 8:00 pm",
-      "Sunday": "10:00 am - 7:00 pm"
     }
   },
   {
@@ -3088,7 +3058,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "825 Palamos Dr, Leander TX 78641",
     "phone": "(413) 777-7990",
-    "websiteUrl": "https://www.google.com/maps/search/Mgbeke%20Village%20Hut%20-%20Nigerian%20Cuisine%20Leander%20TX",
+    "websiteUrl": "https://mgbekevillagehut.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=825%20Palamos%20Dr%2C%20Leander%20TX%2078641%2C%20Leander%2C%20TX",
     "highlights": [
       "Nigerian",
@@ -3118,7 +3088,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "1502 W University Dr, McKinney TX 75069",
     "phone": "(469) 714-0034",
-    "websiteUrl": "https://www.google.com/maps/search/Blessliz%20African%20Market%20%26%20Kitchen%20Mckinney%20TX",
+    "websiteUrl": "https://blesslizcatering.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=1502%20W%20University%20Dr%2C%20McKinney%20TX%2075069%2C%20Mckinney%2C%20TX",
     "highlights": [
       "Market-Kitchen"
@@ -3148,7 +3118,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "15703 Homebriar Ct Building 15703, Missouri City, TX 77489",
     "phone": "(832) 757-5536",
-    "websiteUrl": "https://www.google.com/maps/search/Suya%20Power%20House%20Missouri%20City%20TX",
+    "websiteUrl": "https://fufuxpress.shop/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=15703%20Homebriar%20Ct%20Building%2015703%2C%20Missouri%20City%2C%20TX%2077489%2C%20Missouri%20City%2C%20TX",
     "highlights": [
       "Delivery"
@@ -3437,7 +3407,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "8633 Richmond Ave., Houston, TX 77063",
     "phone": "(281) 607-5564",
-    "websiteUrl": "https://www.google.com/maps/search/Crave%20Suya%20Houston%20TX",
+    "websiteUrl": "https://cravesuya.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=8633%20Richmond%20Ave.%2C%20Houston%2C%20TX%2077063%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
@@ -4110,7 +4080,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "2472 S Texas 6, Houston TX 77077",
     "phone": "(281) 888-6671",
-    "websiteUrl": "https://www.google.com/maps/search/EKO%20Bistro%20Fusion%20Houston%20TX",
+    "websiteUrl": "https://ekobistro.net/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2472%20S%20Texas%206%2C%20Houston%20TX%2077077%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
@@ -4171,7 +4141,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "430 N Coit Rd #120, Richardson TX 75080",
     "phone": "(469) 917-7001",
-    "websiteUrl": "https://www.google.com/maps/search/The%20Icon%20Nigerian%20Kitchen%20Richardson%20TX",
+    "websiteUrl": "https://theiconrestaurant.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=430%20N%20Coit%20Rd%20%23120%2C%20Richardson%20TX%2075080%2C%20Richardson%2C%20TX",
     "highlights": [
       "Lounge/Dining"
@@ -4200,7 +4170,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "4350 Main St Ste 165, Frisco TX 75034",
     "phone": "(972) 987-5195",
-    "websiteUrl": "https://www.google.com/maps/search/Gidi%20Bar%20and%20Grill%20Frisco%20TX",
+    "websiteUrl": "https://www.gidibargrill.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=4350%20Main%20St%20Ste%20165%2C%20Frisco%20TX%2075034%2C%20Frisco%2C%20TX",
     "highlights": [
       "Lounge/Grill"
@@ -4228,7 +4198,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "13776 US-183 #115, Austin TX 78750",
     "phone": "(512) 552-7779",
-    "websiteUrl": "https://www.google.com/maps/search/Lady%20T%20Kitchen%20Austin%20TX",
+    "websiteUrl": "https://ladytkitchen.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=13776%20US-183%20%23115%2C%20Austin%20TX%2078750%2C%20Austin%2C%20TX",
     "highlights": [
       "Restaurant"
@@ -4491,7 +4461,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "9400 Richmond Ave, Houston TX 77063",
     "phone": "(713) 814-5101",
-    "websiteUrl": "https://www.google.com/maps/search/Blue%20Nile%20Ethiopian%20Houston%20TX",
+    "websiteUrl": "https://www.bluenilerestaurant.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=9400%20Richmond%20Ave%2C%20Houston%20TX%2077063%2C%20Houston%2C%20TX",
     "highlights": [
       "Ethiopian"
@@ -4982,7 +4952,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "811 S Mason Rd, Katy, TX 77450",
     "phone": "(832) 391-6140",
-    "websiteUrl": "https://www.google.com/maps/search/Kes%20spicy%209Ja%20Suya%20Spot%20katy%20Katy%20TX",
+    "websiteUrl": "https://kes-spicy-9ja-suya-spot.goto-where.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=811%20S%20Mason%20Rd%2C%20Katy%2C%20TX%2077450%2C%20Katy%2C%20TX",
     "highlights": [
       "Nigerian",
@@ -5011,7 +4981,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "9410 Walnut St, Dallas, TX 75243",
     "phone": "(972) 863-8820",
-    "websiteUrl": "https://www.google.com/maps/search/Shuri%20African%20Restaurant%20Dallas%20TX",
+    "websiteUrl": "https://shuriafricanrestaurant.shop/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=9410%20Walnut%20St%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
     "highlights": [
       "African"
@@ -5191,7 +5161,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "9205 Skillman St, Dallas, TX 75243",
     "phone": "(214) 221-7276",
-    "websiteUrl": "https://www.google.com/maps/search/Aggies%20Restaurant%20Dallas%20TX",
+    "websiteUrl": "https://order.online/store/aggie's-african-restaurant-dallas-30920975",
     "mapsUrl": "https://www.openstreetmap.org/search?query=9205%20Skillman%20St%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
     "highlights": [
       "African"
@@ -5508,7 +5478,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "13905 Westheimer Rd, Houston, TX 77077",
     "phone": "(832) 363-3264",
-    "websiteUrl": "https://www.google.com/maps/search/Afro%20Chow%20Houston%20TX",
+    "websiteUrl": "https://www.doordash.com/en/store/afro-chow-suya-and-grills-houston-30968852/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=13905%20Westheimer%20Rd%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
@@ -5673,7 +5643,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "3533 S Dairy Ashford Rd suite e, Houston, TX 77082",
     "phone": "(832) 328-0898",
-    "websiteUrl": "https://www.google.com/maps/search/AA%26T%20African%20Food%20Market%20Houston%20TX",
+    "websiteUrl": "https://www.aatafricanfoodmarket.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=3533%20S%20Dairy%20Ashford%20Rd%20suite%20e%2C%20Houston%2C%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
@@ -5933,7 +5903,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "831 NE Green Oaks Blvd, Arlington, TX 76006",
     "phone": "(817) 286-4054",
-    "websiteUrl": "https://www.google.com/maps/search/African%20Union%20Market%20%26%20Jollof%20Xpress%20Arlington%20TX",
+    "websiteUrl": "https://jollofxpress.site/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=831%20NE%20Green%20Oaks%20Blvd%2C%20Arlington%2C%20TX%2076006%2C%20Arlington%2C%20TX",
     "highlights": [
       "West African"
@@ -5961,7 +5931,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "13977 Westheimer Rd Suite A, Houston, TX 77082",
     "phone": "(713) 264-9957",
-    "websiteUrl": "https://www.google.com/maps/search/Soul%20Sweet%20Bakery%20%26%20Cafe%20Houston%20TX",
+    "websiteUrl": "https://soulsweetbakes.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=13977%20Westheimer%20Rd%20Suite%20A%2C%20Houston%2C%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
@@ -6019,7 +5989,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "15044 Beechnut St, Houston, TX 77083",
     "phone": "(832) 669-3300",
-    "websiteUrl": "https://www.google.com/maps/search/Sweet%20Admirer%20Bakery%20Houston%20TX",
+    "websiteUrl": "https://sweet-admirer.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=15044%20Beechnut%20St%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
@@ -6106,7 +6076,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "9755 S Kirkwood Rd Suite A, Houston, TX 77099",
     "phone": "(281) 933-3663",
-    "websiteUrl": "https://www.google.com/maps/search/Alief%20African%20Foods%20Houston%20TX",
+    "websiteUrl": "https://www.aliefafricanfoods.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=9755%20S%20Kirkwood%20Rd%20Suite%20A%2C%20Houston%2C%20TX%2077099%2C%20Houston%2C%20TX",
     "highlights": [
       "African, Nigerian, West African",
@@ -6136,7 +6106,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "6509 Chimney Rock Rd, Houston, TX 77081",
     "phone": "(713) 234-6527",
-    "websiteUrl": "https://www.google.com/maps/search/Bahel%20Ethiopian%20Mart%20and%20Dining%20Houston%20TX",
+    "websiteUrl": "http://www.bahelmart.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=6509%20Chimney%20Rock%20Rd%2C%20Houston%2C%20TX%2077081%2C%20Houston%2C%20TX",
     "highlights": [
       "Ethiopian",
@@ -7595,7 +7565,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "7870 Culebra Rd, San Antonio, TX 78251",
     "phone": "(210) 600-4166",
-    "websiteUrl": "https://www.google.com/maps/search/ULTRA%20KITCHEN%20(RESTAURANTS%20%26%20CATERING%20)%20San%20Antonio%20TX",
+    "websiteUrl": "https://ultrakitchenrestaurantscatering.restaurants-info.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=7870%20Culebra%20Rd%2C%20San%20Antonio%2C%20TX%2078251%2C%20San%20Antonio%2C%20TX",
     "highlights": [
       "Nigerian",
@@ -7850,7 +7820,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "16521 W Bellfort Ave Suite L, Sugar Land, TX 77498",
     "phone": "(832) 500-4951",
-    "websiteUrl": "https://www.google.com/maps/search/Joslat%20African%20Foods%20Sugar%20Land%20TX",
+    "websiteUrl": "https://jolaskitchen.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=16521%20W%20Bellfort%20Ave%20Suite%20L%2C%20Sugar%20Land%2C%20TX%2077498%2C%20Sugar%20Land%2C%20TX",
     "highlights": [
       "African"
@@ -8355,7 +8325,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "8433 FM 1464 Suite C&D, Richmond, TX 77407",
     "phone": "(281) 965-4851",
-    "websiteUrl": "https://www.google.com/maps/search/FoodMattas%20African%20Grocery%20Store%20Richmond%20TX",
+    "websiteUrl": "https://foodmattasstore.com/",
     "mapsUrl": "https://www.openstreetmap.org/search?query=8433%20FM%201464%20Suite%20C%26D%2C%20Richmond%2C%20TX%2077407%2C%20Richmond%2C%20TX",
     "highlights": [
       "African"
@@ -8599,7 +8569,7 @@ export const RESTAURANTS: Restaurant[] = [
     "state": "TX",
     "addressLine": "2804 N Interstate Hwy 35, Austin, TX 78705",
     "phone": "(512) 469-5966",
-    "websiteUrl": "https://www.google.com/maps/search/Aster's%20Ethiopian%20Kitchen%20Austin%20TX",
+    "websiteUrl": "https://thevendry.com/venue/174374/asters-ethiopian-restaurant-austin-tx",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2804%20N%20Interstate%20Hwy%2035%2C%20Austin%2C%20TX%2078705%2C%20Austin%2C%20TX",
     "highlights": [
       "Ethiopian",

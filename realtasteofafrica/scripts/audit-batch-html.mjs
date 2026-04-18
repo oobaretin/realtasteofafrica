@@ -29,9 +29,12 @@ async function main() {
   const restaurants = rows.map((r) => {
     const name = String(r.name ?? "").trim()
     const city = String(r.city ?? "").trim()
+    const address = String(r.addressLine ?? "").trim()
     const mapsUrl = String(r.mapsUrl ?? "").trim()
-    const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(name + " " + city + " Texas")}`
-    const url = mapsUrl && isGoogleMapsUrl(mapsUrl) ? mapsUrl : searchUrl
+    // Use Google Maps search — shows "Temporarily closed" / "Permanently closed" when applicable
+    const query = address ? `${name} ${address}` : `${name} ${city} Texas`
+    const mapsSearchUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`
+    const url = mapsUrl && isGoogleMapsUrl(mapsUrl) ? mapsUrl : mapsSearchUrl
     return { name, city, googleMapsUrl: url }
   })
 
@@ -47,7 +50,8 @@ async function main() {
   <pre>auditBatch(0, 10)   // first 10
 auditBatch(10, 10)  // next 10
 auditBatch(20, 10)  // etc.</pre>
-  <p>Total: ${restaurants.length} restaurants. Scan the opened tabs; if a place is closed, remove it from <code>data/restaurants.csv</code> and re-run <code>node scripts/audit-batch-html.mjs</code>.</p>
+  <p>Total: ${restaurants.length} restaurants. Each tab opens <strong>Google Maps</strong> — look for "Temporarily closed" or "Permanently closed". If closed, remove from <code>data/restaurants.csv</code> and re-run <code>node scripts/audit-batch-html.mjs</code>.</p>
+  <p>See <code>docs/google-maps-audit.md</code> for search queries to find new restaurants.</p>
   <script>
     const restaurants = ${JSON.stringify(restaurants)};
     function auditBatch(startIndex, count) {
