@@ -1877,13 +1877,29 @@
     "city": "Houston",
     "state": "TX",
     "addressLine": "11214 Plainfield St # B, Houston, TX 77031",
-    "phone": "(832) 831-9899",
+    "phone": "(713) 270-7610",
     "category": "Restaurant",
     "cuisines": [
       "West African"
     ],
     "slug": "traditional-food-restaurant-houston-tx",
     "areaSlug": "houston"
+  },
+  {
+    "name": "Mamaput African Cuisine",
+    "city": "Stafford",
+    "state": "TX",
+    "addressLine": "435 Murphy Rd, Stafford, TX 77477",
+    "phone": "(832) 539-1436",
+    "websiteUrl": "https://www.google.com/maps/search/Mamaput%20African%20Cuisine%20Stafford%20TX",
+    "category": "Restaurant",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "slug": "mamaput-african-cuisine-stafford-tx",
+    "areaSlug": "sugar-land",
+    "writeUp": "West African and Nigerian dishes in Stafford (Fort Bend). Jollof; soups; pepper soup and tilapia."
   },
   {
     "name": "African Food Embassy",

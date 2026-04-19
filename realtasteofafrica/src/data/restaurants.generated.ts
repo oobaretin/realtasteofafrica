@@ -3773,7 +3773,7 @@ export const RESTAURANTS: Restaurant[] = [
     "city": "Houston",
     "state": "TX",
     "addressLine": "11214 Plainfield St # B, Houston, TX 77031",
-    "phone": "(832) 831-9899",
+    "phone": "(713) 270-7610",
     "mapsUrl": "https://www.openstreetmap.org/search?query=11214%20Plainfield%20St%20%23%20B%2C%20Houston%2C%20TX%2077031%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
@@ -3786,7 +3786,38 @@ export const RESTAURANTS: Restaurant[] = [
       "Thursday": "10:00 AM - 10:00 PM",
       "Friday": "10:00 AM - 10:00 PM",
       "Saturday": "10:00 AM - 10:00 PM",
-      "Sunday": "1:00 PM - 10:00 PM"
+      "Sunday": "Closed"
+    }
+  },
+  {
+    "slug": "mamaput-african-cuisine-stafford-tx",
+    "name": "Mamaput African Cuisine",
+    "cuisines": [
+      "West African",
+      "Nigerian"
+    ],
+    "cuisine": "West African",
+    "areaSlug": "sugar-land",
+    "city": "Stafford",
+    "state": "TX",
+    "addressLine": "435 Murphy Rd, Stafford, TX 77477",
+    "phone": "(832) 539-1436",
+    "websiteUrl": "https://www.google.com/maps/search/Mamaput%20African%20Cuisine%20Stafford%20TX",
+    "mapsUrl": "https://www.openstreetmap.org/search?query=435%20Murphy%20Rd%2C%20Stafford%2C%20TX%2077477%2C%20Stafford%2C%20TX",
+    "highlights": [
+      "Dine-in",
+      "Takeout"
+    ],
+    "category": "Restaurant",
+    "writeUp": "West African and Nigerian dishes in Stafford (Fort Bend). Jollof; soups; pepper soup and tilapia.",
+    "hours": {
+      "Monday": "11:00 AM - 10:00 PM",
+      "Tuesday": "11:00 AM - 10:00 PM",
+      "Wednesday": "11:00 AM - 10:00 PM",
+      "Thursday": "11:00 AM - 10:00 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "11:00 AM - 10:00 PM"
     }
   },
   {
