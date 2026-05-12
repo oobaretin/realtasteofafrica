@@ -5,6 +5,7 @@ import type { ReactNode } from "react"
 import "./globals.css"
 import { SiteFooter } from "@/components/SiteFooter"
 import { SiteHeader } from "@/components/SiteHeader"
+import { SITE_URL } from "@/lib/site"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 
@@ -14,8 +15,8 @@ export const metadata: Metadata = {
     template: "%s | Real Taste of Africa",
   },
   description:
-    "Find African restaurants near you. Starting with Houston, Texas and neighboring cities — expanding nationwide.",
-  metadataBase: new URL("https://realtasteofafrica.com"),
+    "Directory of African restaurants, food trucks, and markets across Texas—browse by city and cuisine, verified listings with hours and contacts.",
+  metadataBase: new URL(SITE_URL),
   icons: {
     icon: { url: "/favicon-32.png", type: "image/png", sizes: "32x32" },
   },

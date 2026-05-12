@@ -17,8 +17,9 @@ import type { Restaurant } from "@/lib/restaurants"
 
 const SORT_OPTIONS = [
   { value: "status", label: "Status" },
-  { value: "alphabetical", label: "Alphabetical" },
-  { value: "newest", label: "Newest First" },
+  { value: "alphabetical", label: "Name (A–Z)" },
+  { value: "city", label: "City (A–Z)" },
+  { value: "newest", label: "Recently verified" },
 ] as const
 
 type SortBy = (typeof SORT_OPTIONS)[number]["value"]
@@ -160,6 +161,12 @@ export function RestaurantsBrowser({
       })
     } else if (sortBy === "alphabetical") {
       list.sort((a, b) => a.name.localeCompare(b.name, "en", { sensitivity: "base" }))
+    } else if (sortBy === "city") {
+      list.sort((a, b) => {
+        const byCity = a.city.localeCompare(b.city, "en", { sensitivity: "base" })
+        if (byCity !== 0) return byCity
+        return a.name.localeCompare(b.name, "en", { sensitivity: "base" })
+      })
     } else if (sortBy === "newest") {
       list.sort((a, b) => {
         const da = a.lastAuditDate ?? ""
@@ -272,11 +279,15 @@ export function RestaurantsBrowser({
         <div className="rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-sm">
           {isOpenNowOnly ? (
             <p className="text-slate-600">
-              Most spots are closed right now, but you can still browse the full directory.
+              No matches are open right now with your current filters. Turn off{" "}
+              <strong>Open now</strong>, clear search, or use{" "}
+              <strong className="text-slate-800">See all listings</strong> below to browse the full
+              directory—hours are Texas time.
             </p>
           ) : (
             <p className="text-slate-600">
-              No results match your filters. Try adjusting or reset to see all listings.
+              Nothing matches region, cuisine, type, or search. Widen filters or reset to browse all{" "}
+              {restaurants.length} listings.
             </p>
           )}
           <button
