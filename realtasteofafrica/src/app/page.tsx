@@ -26,9 +26,15 @@ const FEATURED_ORDER = [
   "aria-suya-kitchen-houston-tx",
 ]
 
+/** Slugs missing from FEATURED_ORDER sort last (avoid indexOf=-1 bubbling to front). */
+function featuredCarouselRank(slug: string): number {
+  const i = FEATURED_ORDER.indexOf(slug)
+  return i === -1 ? FEATURED_ORDER.length : i
+}
+
 export default function HomePage() {
   const featured = getFeaturedRestaurants().sort(
-    (a, b) => FEATURED_ORDER.indexOf(a.slug) - FEATURED_ORDER.indexOf(b.slug)
+    (a, b) => featuredCarouselRank(a.slug) - featuredCarouselRank(b.slug)
   )
 
   const top = [...RESTAURANTS]
