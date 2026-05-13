@@ -57,9 +57,18 @@ export default async function CollectionPage({
   const guideImagesResolved =
     collection.guideImages?.filter((img) => publicFileExists(img.src)) ?? []
 
+  /** Jollof guide: show the full photo (minimal crop) in a tall hero. */
+  const jollofFullHero = collection.slug === "best-jollof-houston"
+
   return (
     <div className="grid gap-8">
-      <div className="relative -mx-4 aspect-[21/9] min-h-[180px] overflow-hidden rounded-none bg-slate-900 sm:mx-0 sm:rounded-2xl sm:aspect-[2.4/1]">
+      <div
+        className={
+          jollofFullHero
+            ? "relative -mx-4 h-[min(85vh,900px)] min-h-[320px] w-full overflow-hidden rounded-none bg-slate-950 sm:mx-0 sm:rounded-2xl"
+            : "relative -mx-4 aspect-[21/9] min-h-[180px] overflow-hidden rounded-none bg-slate-900 sm:mx-0 sm:rounded-2xl sm:aspect-[2.4/1]"
+        }
+      >
         <Link
           href="/collections"
           className="absolute left-3 top-3 z-20 inline-flex min-h-11 min-w-11 items-center gap-2 rounded-full bg-black/40 px-3 py-2 text-sm font-semibold text-white shadow-md ring-1 ring-white/25 backdrop-blur-sm transition hover:bg-black/55 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 focus:ring-offset-transparent sm:left-4 sm:top-4"
@@ -71,12 +80,16 @@ export default async function CollectionPage({
           src={heroSrc}
           alt={collection.headerImage.alt}
           fill
-          className="object-cover"
+          className={jollofFullHero ? "object-contain object-center" : "object-cover"}
           sizes="(max-width: 768px) 100vw, 896px"
           priority
         />
         <div
-          className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/35 to-transparent"
+          className={
+            jollofFullHero
+              ? "pointer-events-none absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/25 to-slate-950/10"
+              : "absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/35 to-transparent"
+          }
           aria-hidden
         />
         <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-8">
