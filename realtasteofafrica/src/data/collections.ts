@@ -2,9 +2,8 @@ import type { Restaurant } from "@/lib/restaurants"
 
 /**
  * Guide images are **yours**: add files under `realtasteofafrica/public/collections/` and keep
- * `headerImage.src` / `guideImages[].src` in sync (e.g. `/collections/best-jollof-houston.jpg`).
- * Supported: `.jpg`, `.jpeg`, `.png`, `.webp`. If a hero file is missing, the page uses the site logo
- * until you upload. Inline `guideImages` rows are skipped until the file exists.
+ * paths in sync. Supported: `.jpg`, `.jpeg`, `.png`, `.webp`.
+ * Use `headerExtraSlides` for a second hero image; two or more on-disk files enable a carousel.
  */
 export type EditorialCollection = {
   slug: string
@@ -18,6 +17,11 @@ export type EditorialCollection = {
    * Landscape ~21:9 or 1600×900 works well.
    */
   headerImage: { src: string; alt: string }
+  /**
+   * Extra hero slides after `headerImage` (same folder). When two or more image files exist,
+   * the hero becomes a swipeable carousel.
+   */
+  headerExtraSlides?: { src: string; alt: string }[]
   /**
    * Optional extra photos. Only paths that exist on disk are shown.
    */
@@ -39,6 +43,12 @@ export const EDITORIAL_COLLECTIONS: EditorialCollection[] = [
       src: "/collections/best-jollof-houston.jpeg",
       alt: "Jollof rice and West African dishes — Houston African spots we love",
     },
+    headerExtraSlides: [
+      {
+        src: "/collections/best-jollof-houston-2.jpeg",
+        alt: "More from Houston’s African dining scene",
+      },
+    ],
     introduction: [
       "Jollof opinions run deep. This guide is not a championship bracket — it is a living shortlist of Houston spots where West African and Nigerian menus lean into well-seasoned rice, grilled proteins, and repeat visits from the community.",
       "Hours and menus change. Call ahead or check the listing for the latest — especially for catering-sized orders and weekend service.",
