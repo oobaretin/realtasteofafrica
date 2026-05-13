@@ -123,6 +123,17 @@ function asOptionalPriceLevel(value) {
   return n
 }
 
+function asOptionalLatLng(latRaw, lonRaw) {
+  const latStr = String(latRaw ?? "").trim()
+  const lonStr = String(lonRaw ?? "").trim()
+  if (!latStr || !lonStr) return {}
+  const latitude = Number(latStr)
+  const longitude = Number(lonStr)
+  if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) return {}
+  if (latitude < -90 || latitude > 90 || longitude < -180 || longitude > 180) return {}
+  return { latitude, longitude }
+}
+
 function assertHeaders(headers) {
   const missing = REQUIRED_HEADERS.filter((h) => !headers.includes(h))
   if (missing.length) {
@@ -162,6 +173,8 @@ function toRestaurantRecord(row, idx) {
   const mapsQuery = isLikelyStreetAddress(addressLine)
     ? `${addressLine}, ${city}, ${state}`
     : `${name} ${city} ${state}`
+
+  const { latitude, longitude } = asOptionalLatLng(row.latitude, row.longitude)
 
   const categoryRaw = asOptionalString(row.category)
   const category = ["Food Truck", "Ghost Kitchen", "Market", "Market + Kitchen", "Restaurant"].includes(
@@ -207,6 +220,9 @@ function toRestaurantRecord(row, idx) {
     city,
     state,
     addressLine,
+    ...(latitude !== undefined && longitude !== undefined
+      ? { latitude, longitude }
+      : {}),
     phone: formatPhoneWithDashes(row.phone) ?? asOptionalString(row.phone),
     websiteUrl: asOptionalString(row.websiteUrl),
     mapsUrl: asOptionalString(row.mapsUrl) ?? toOsmSearchUrl(mapsQuery),

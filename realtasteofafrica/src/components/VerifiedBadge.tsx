@@ -1,22 +1,26 @@
 /**
- * Prestigious "Real Taste Verified" badge for claimed listings.
- * Soft gold (#D4AF37) with shield icon for an official look.
+ * "Real Taste Verified" badge for claimed listings — gold shield.
  */
 
-export function VerifiedBadge({ className = "" }: { className?: string }) {
+export function VerifiedBadge({
+  className = "",
+  variant = "default",
+}: {
+  className?: string
+  variant?: "default" | "prominent"
+}) {
+  const isProminent = variant === "prominent"
   return (
     <span
-      className={`inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-semibold tracking-wide shadow-sm ${className}`}
-      style={{
-        borderColor: "rgba(212, 175, 55, 0.5)",
-        backgroundColor: "rgba(212, 175, 55, 0.12)",
-        color: "#8B6914",
-      }}
+      className={`inline-flex items-center gap-2 rounded-full border-2 font-semibold tracking-wide shadow-md ${
+        isProminent
+          ? "border-[#6B5414] bg-[#D4AF37] px-3 py-1.5 text-sm text-[#1a1408] ring-2 ring-[#D4AF37]/40"
+          : "border-[rgba(212,175,55,0.55)] bg-[rgba(212,175,55,0.12)] px-2.5 py-1 text-xs text-[#8B6914]"
+      } ${className}`}
       title="This listing has been claimed and verified by the business"
     >
       <svg
-        className="h-3.5 w-3.5 shrink-0"
-        style={{ color: "#D4AF37" }}
+        className={`${isProminent ? "h-5 w-5" : "h-3.5 w-3.5"} shrink-0 text-[#5C4A0E]`}
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
@@ -27,7 +31,7 @@ export function VerifiedBadge({ className = "" }: { className?: string }) {
       >
         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
       </svg>
-      <span>Real Taste Verified</span>
+      <span className="font-bold">Real Taste Verified</span>
     </span>
   )
 }

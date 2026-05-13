@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react"
 import { useRouter, usePathname } from "next/navigation"
+import { Locate, Loader2 } from "lucide-react"
 
 import { Badge } from "@/components/Badge"
 import { FilterBar } from "@/components/FilterBar"
@@ -13,16 +14,18 @@ import {
   listingMatchesTypeFilter,
   typeFilterBadgeLabel,
 } from "@/lib/establishmentType"
+import { formatDistanceMiles, haversineKm } from "@/lib/geo"
 import type { Restaurant } from "@/lib/restaurants"
 
-const SORT_OPTIONS = [
+const BASE_SORT_OPTIONS = [
   { value: "status", label: "Status" },
   { value: "alphabetical", label: "Name (A–Z)" },
   { value: "city", label: "City (A–Z)" },
   { value: "newest", label: "Recently verified" },
 ] as const
 
-type SortBy = (typeof SORT_OPTIONS)[number]["value"]
+type BaseSortBy = (typeof BASE_SORT_OPTIONS)[number]["value"]
+type SortBy = BaseSortBy | "distance"
 
 function statusOrder(status: string): number {
   switch (status) {
@@ -37,6 +40,26 @@ function statusOrder(status: string): number {
     default:
       return 4
   }
+}
+
+function sortListByBusinessStatus(list: Restaurant[]) {
+  list.sort((a, b) => {
+    const sa = getBusinessStatus(a.hours).status
+    const sb = getBusinessStatus(b.hours).status
+    return statusOrder(sa) - statusOrder(sb)
+  })
+}
+
+/** Stable nearest-first sort; rows without coordinates sort last (by name). */
+function compareByDistanceThenName(
+  a: Restaurant,
+  b: Restaurant,
+  distanceKm: (r: Restaurant) => number
+) {
+  const da = distanceKm(a)
+  const db = distanceKm(b)
+  if (da !== db) return da - db
+  return a.name.localeCompare(b.name, "en", { sensitivity: "base" })
 }
 
 function normalize(s: string) {
@@ -83,6 +106,10 @@ export function RestaurantsBrowser({
   const [cuisine, setCuisine] = useState<string>(initialCuisine)
   const [category, setCategory] = useState<string>(initialCategory)
   const [sortBy, setSortBy] = useState<SortBy>("status")
+  const [nearMeActive, setNearMeActive] = useState(false)
+  const [userPosition, setUserPosition] = useState<{ lat: number; lng: number } | null>(null)
+  const [locating, setLocating] = useState(false)
+  const [geoError, setGeoError] = useState<string | null>(null)
 
   useEffect(() => {
     // Sync filters when `searchParams` change from the server (e.g. back/forward, shared URL).
@@ -149,25 +176,47 @@ export function RestaurantsBrowser({
       const words = q.split(/\s+/).filter(Boolean)
       return searchMatches(r, words)
     })
-  }, [areaSlug, category, cuisine, isOpenNowOnly, query, restaurants])
+  }, [
+    areaSlug,
+    category,
+    cuisine,
+    isOpenNowOnly,
+    query,
+    restaurants,
+  ])
+
+  const distanceKm = useCallback(
+    (r: Restaurant) => {
+      if (
+        !userPosition ||
+        r.latitude == null ||
+        r.longitude == null
+      ) {
+        return Number.POSITIVE_INFINITY
+      }
+      return haversineKm(userPosition.lat, userPosition.lng, r.latitude, r.longitude)
+    },
+    [userPosition]
+  )
 
   const sorted = useMemo(() => {
     const list = [...filtered]
-    if (sortBy === "status") {
-      list.sort((a, b) => {
-        const sa = getBusinessStatus(a.hours).status
-        const sb = getBusinessStatus(b.hours).status
-        return statusOrder(sa) - statusOrder(sb)
-      })
-    } else if (sortBy === "alphabetical") {
+    const effectiveSort: SortBy =
+      sortBy === "distance" && !userPosition ? "status" : sortBy
+
+    if (effectiveSort === "distance") {
+      list.sort((a, b) => compareByDistanceThenName(a, b, distanceKm))
+    } else if (effectiveSort === "status") {
+      sortListByBusinessStatus(list)
+    } else if (effectiveSort === "alphabetical") {
       list.sort((a, b) => a.name.localeCompare(b.name, "en", { sensitivity: "base" }))
-    } else if (sortBy === "city") {
+    } else if (effectiveSort === "city") {
       list.sort((a, b) => {
         const byCity = a.city.localeCompare(b.city, "en", { sensitivity: "base" })
         if (byCity !== 0) return byCity
         return a.name.localeCompare(b.name, "en", { sensitivity: "base" })
       })
-    } else if (sortBy === "newest") {
+    } else if (effectiveSort === "newest") {
       list.sort((a, b) => {
         const da = a.lastAuditDate ?? ""
         const db = b.lastAuditDate ?? ""
@@ -175,7 +224,49 @@ export function RestaurantsBrowser({
       })
     }
     return list
-  }, [filtered, sortBy])
+  }, [distanceKm, filtered, sortBy, userPosition])
+
+  const sortOptions = useMemo(() => {
+    if (userPosition) {
+      return [
+        ...BASE_SORT_OPTIONS,
+        { value: "distance" as const, label: "Nearest" },
+      ]
+    }
+    return [...BASE_SORT_OPTIONS]
+  }, [userPosition])
+
+  const requestNearMe = () => {
+    if (typeof navigator === "undefined" || !navigator.geolocation) {
+      setGeoError("Location is not available in this browser.")
+      return
+    }
+    setLocating(true)
+    setGeoError(null)
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        setUserPosition({
+          lat: pos.coords.latitude,
+          lng: pos.coords.longitude,
+        })
+        setNearMeActive(true)
+        setSortBy("distance")
+        setLocating(false)
+      },
+      (err) => {
+        setLocating(false)
+        setGeoError(err.message || "Could not read your location.")
+      },
+      { enableHighAccuracy: false, timeout: 15_000, maximumAge: 60_000 }
+    )
+  }
+
+  const clearNearMe = () => {
+    setNearMeActive(false)
+    setUserPosition(null)
+    setGeoError(null)
+    setSortBy((prev) => (prev === "distance" ? "status" : prev))
+  }
 
   const handleRefine = () => {
     setQuery("")
@@ -183,6 +274,7 @@ export function RestaurantsBrowser({
     setCuisine("")
     setCategory("All")
     onOpenNowOnlyChange?.(false)
+    clearNearMe()
     router.replace(pathname, { scroll: false })
   }
 
@@ -194,12 +286,42 @@ export function RestaurantsBrowser({
         role="toolbar"
         aria-label="Browse options"
       >
-        <div className="flex min-w-0 flex-1 flex-wrap items-center gap-4">
+        <div className="flex min-w-0 flex-1 flex-wrap items-center gap-3 sm:gap-4">
           <OpenNowToggle
             checked={isOpenNowOnly}
             onChange={(v) => onOpenNowOnlyChange?.(v)}
             variant="inline"
           />
+          <div className="flex flex-wrap items-center gap-2">
+            {nearMeActive && userPosition ? (
+              <button
+                type="button"
+                onClick={clearNearMe}
+                className="min-h-12 rounded-xl border border-slate-200 bg-white px-3 text-sm font-semibold text-slate-700 shadow-sm transition-transform active:scale-95 touch-manipulation hover:bg-slate-50"
+              >
+                Clear location
+              </button>
+            ) : (
+              <button
+                type="button"
+                onClick={requestNearMe}
+                disabled={locating}
+                className="inline-flex min-h-12 min-w-[48px] items-center justify-center gap-2 rounded-xl bg-amber-600 px-4 text-sm font-semibold text-white shadow-sm transition-transform hover:bg-amber-700 active:scale-95 touch-manipulation disabled:cursor-not-allowed disabled:opacity-70"
+              >
+                {locating ? (
+                  <Loader2 className="h-5 w-5 shrink-0 animate-spin" aria-hidden />
+                ) : (
+                  <Locate className="h-5 w-5 shrink-0" aria-hidden />
+                )}
+                {locating ? "Locating…" : "Near me"}
+              </button>
+            )}
+          </div>
+          {geoError ? (
+            <span className="max-w-[14rem] text-xs text-red-600" role="status">
+              {geoError}
+            </span>
+          ) : null}
           <div className="flex items-center gap-2">
             <label htmlFor="sort-by" className="text-sm font-medium text-slate-600">
               Sort by
@@ -207,12 +329,12 @@ export function RestaurantsBrowser({
             <span className="relative inline-block">
               <select
                 id="sort-by"
-                value={sortBy}
+                value={sortOptions.some((o) => o.value === sortBy) ? sortBy : "status"}
                 onChange={(e) => setSortBy(e.target.value as SortBy)}
                 className="min-w-[8rem] appearance-none rounded-md border-0 bg-transparent py-1.5 pr-6 pl-2 text-sm font-medium text-slate-900 focus:ring-2 focus:ring-amber-400 focus:ring-offset-1"
                 aria-label="Sort listings"
               >
-                {SORT_OPTIONS.map((opt) => (
+                {sortOptions.map((opt) => (
                   <option key={opt.value} value={opt.value}>
                     {opt.label}
                   </option>
@@ -228,8 +350,14 @@ export function RestaurantsBrowser({
               </span>
             </span>
           </div>
-          <span className="text-sm text-slate-500">
+           <span className="text-sm text-slate-500">
             Showing {sorted.length} verified spot{sorted.length !== 1 ? "s" : ""}
+            {nearMeActive && userPosition ? (
+              <span className="text-slate-400">
+                {" "}
+                · nearest first; listings without coordinates appear last
+              </span>
+            ) : null}
           </span>
         </div>
         <button
@@ -305,7 +433,24 @@ export function RestaurantsBrowser({
         >
           {sorted.map((r) => (
             <li key={r.slug}>
-              <RestaurantCard restaurant={r} />
+              <RestaurantCard
+                restaurant={r}
+                distanceLabel={
+                  nearMeActive &&
+                  userPosition &&
+                  r.latitude != null &&
+                  r.longitude != null
+                    ? `${formatDistanceMiles(
+                        haversineKm(
+                          userPosition.lat,
+                          userPosition.lng,
+                          r.latitude,
+                          r.longitude
+                        )
+                      )} away`
+                    : undefined
+                }
+              />
             </li>
           ))}
         </ul>

@@ -14,6 +14,9 @@ export type Restaurant = {
   city: string
   state: string
   addressLine: string
+  /** WGS84 — set when geocoded for distance / “near me”. */
+  latitude?: number
+  longitude?: number
   phone?: string
   websiteUrl?: string
   mapsUrl?: string

@@ -3,6 +3,7 @@ import type { MetadataRoute } from "next"
 import { AREAS } from "@/lib/areas"
 import { RESTAURANTS, getAllCitySlugs } from "@/lib/restaurants"
 import { SITE_URL } from "@/lib/site"
+import { getCollectionSlugs } from "@/data/collections"
 
 const STATIC_PATHS = [
   "/",
@@ -12,6 +13,7 @@ const STATIC_PATHS = [
   "/claim",
   "/claim/success",
   "/catering",
+  "/collections",
   "/menu",
 ] as const
 
@@ -49,5 +51,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.75,
   }))
 
-  return [...staticEntries, ...areaEntries, ...cityEntries, ...restaurantEntries]
+  const collectionEntries = getCollectionSlugs().map((slug) => ({
+    url: `${SITE_URL}/collections/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.78,
+  }))
+
+  return [
+    ...staticEntries,
+    ...areaEntries,
+    ...cityEntries,
+    ...collectionEntries,
+    ...restaurantEntries,
+  ]
 }
