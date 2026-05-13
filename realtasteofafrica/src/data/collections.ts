@@ -1,5 +1,11 @@
 import type { Restaurant } from "@/lib/restaurants"
 
+/**
+ * Guide images are **yours**: add files under `realtasteofafrica/public/collections/` and keep
+ * `headerImage.src` / `guideImages[].src` in sync (e.g. `/collections/best-jollof-houston.jpg`).
+ * Supported: `.jpg`, `.jpeg`, `.png`, `.webp`. If a hero file is missing, the page uses the site logo
+ * until you upload. Inline `guideImages` rows are skipped until the file exists.
+ */
 export type EditorialCollection = {
   slug: string
   /** Unique SEO & browser title */
@@ -7,8 +13,15 @@ export type EditorialCollection = {
   metaDescription: string
   /** Short line under the hero */
   dek: string
-  /** Hero image (remote URL or /public path) */
+  /**
+   * Hero image: add your file at `public/collections/` — default names below, or change `src`.
+   * Landscape ~21:9 or 1600×900 works well.
+   */
   headerImage: { src: string; alt: string }
+  /**
+   * Optional extra photos. Only paths that exist on disk are shown.
+   */
+  guideImages?: { src: string; alt: string; caption?: string }[]
   /** Intro paragraphs for humans + long-tail keywords */
   introduction: string[]
   /** Restaurant slugs in display order */
@@ -23,12 +36,19 @@ export const EDITORIAL_COLLECTIONS: EditorialCollection[] = [
       "A curated shortlist of Houston African kitchens for smoky jollof, party rice, and West African comfort food — from Bellaire to Alief.",
     dek: "Smoky plates, weekend lines, and Houston heat — edited for flavor seekers.",
     headerImage: {
-      src: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=1600&q=80",
-      alt: "Jollof-style rice with herbs and vegetables",
+      src: "/collections/best-jollof-houston.jpeg",
+      alt: "Jollof rice and West African dishes — Houston African spots we love",
     },
     introduction: [
       "Jollof opinions run deep. This guide is not a championship bracket — it is a living shortlist of Houston spots where West African and Nigerian menus lean into well-seasoned rice, grilled proteins, and repeat visits from the community.",
       "Hours and menus change. Call ahead or check the listing for the latest — especially for catering-sized orders and weekend service.",
+    ],
+    guideImages: [
+      {
+        src: "/collections/best-jollof-houston-guide-1.jpg",
+        alt: "West African rice dish spread with sides",
+        caption: "The kind of spread that keeps regulars coming back.",
+      },
     ],
     restaurantSlugs: [
       "chopnblok-montrose-houston-tx",
@@ -47,12 +67,19 @@ export const EDITORIAL_COLLECTIONS: EditorialCollection[] = [
       "Where to stock up on pantry staples, halal cuts, frozen provisions, and weekend market runs — from Houston’s Bissonnet corridor to DFW and Austin.",
     dek: "Markets, co-ops, and neighborhood grocers — not just dining rooms.",
     headerImage: {
-      src: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1600&q=80",
-      alt: "Aisle of spices and packaged goods at a grocery market",
+      src: "/collections/african-markets-texas.jpeg",
+      alt: "African market shelves — pantry staples and groceries across Texas",
     },
     introduction: [
       "Some of the best flavors in Texas sit on market shelves — dried fish, pepper blends, frozen greens, and weekend produce. We round up listings tagged as markets and hybrid market-kitchens so you can plan a pantry run and maybe grab a plate on the way out.",
       "Inventory turns over quickly; call for specialty items or holiday hours.",
+    ],
+    guideImages: [
+      {
+        src: "/collections/african-markets-texas-guide-1.jpg",
+        alt: "Spices and goods on market shelves",
+        caption: "Pantry staples, spices, and weekend produce — worth the trip.",
+      },
     ],
     restaurantSlugs: [
       "makola-marketplace-houston-tx",
