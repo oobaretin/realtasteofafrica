@@ -3,8 +3,21 @@ import type { Restaurant } from "@/lib/restaurants"
 /**
  * Guide images are **yours**: add files under `realtasteofafrica/public/collections/` and keep
  * paths in sync. Supported: `.jpg`, `.jpeg`, `.png`, `.webp`.
- * Use `headerExtraSlides` for a second hero image; two or more on-disk files enable a carousel.
+ * Use `headerExtraSlides` for more hero slides (2nd, 3rd, …). Each distinct file on disk becomes
+ * a slide; the hero is a carousel when there is more than one slide.
  */
+/** Hero / carousel slide; optional `objectFit` overrides the guide default (Jollof is contain unless set). */
+export type CollectionHeroImage = {
+  src: string
+  alt: string
+  objectFit?: "contain" | "cover"
+  /**
+   * Jollof guide only: use the taller hero shell on this slide (with `objectFit: "contain"`,
+   * shows the full photo without cropping—e.g. hands/plate edges).
+   */
+  tallHero?: boolean
+}
+
 export type EditorialCollection = {
   slug: string
   /** Unique SEO & browser title */
@@ -16,12 +29,12 @@ export type EditorialCollection = {
    * Hero image: add your file at `public/collections/` — default names below, or change `src`.
    * Landscape ~21:9 or 1600×900 works well.
    */
-  headerImage: { src: string; alt: string }
+  headerImage: CollectionHeroImage
   /**
    * Extra hero slides after `headerImage` (same folder). When two or more image files exist,
    * the hero becomes a swipeable carousel.
    */
-  headerExtraSlides?: { src: string; alt: string }[]
+  headerExtraSlides?: CollectionHeroImage[]
   /**
    * Optional extra photos. Only paths that exist on disk are shown.
    */
@@ -46,7 +59,13 @@ export const EDITORIAL_COLLECTIONS: EditorialCollection[] = [
     headerExtraSlides: [
       {
         src: "/collections/best-jollof-houston-2.jpeg",
-        alt: "More from Houston’s African dining scene",
+        alt: "West African plates and rice — Houston African dining",
+      },
+      {
+        src: "/collections/best-jollof-houston-3.jpeg",
+        alt: "More Houston spots for smoky jollof and West African comfort food",
+        objectFit: "contain",
+        tallHero: true,
       },
     ],
     introduction: [
