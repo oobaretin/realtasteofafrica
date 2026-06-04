@@ -2660,36 +2660,6 @@ export const RESTAURANTS: Restaurant[] = [
     }
   },
   {
-    "slug": "south-african-food-affair-austin-tx",
-    "name": "South African Food Affair",
-    "cuisines": [
-      "South African"
-    ],
-    "cuisine": "West African",
-    "areaSlug": "austin",
-    "city": "Austin",
-    "state": "TX",
-    "addressLine": "71 Rainey St, Austin TX 78701",
-    "latitude": 30.2581488,
-    "longitude": -97.7387387,
-    "phone": "(425) 780-2481",
-    "websiteUrl": "https://www.southafricanfoodaffair.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=71%20Rainey%20St%2C%20Austin%20TX%2078701%2C%20Austin%2C%20TX",
-    "highlights": [
-      "Food truck"
-    ],
-    "category": "Food Truck",
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "5:00 PM - 10:00 PM",
-      "Wednesday": "5:00 PM - 10:00 PM",
-      "Thursday": "5:00 PM - 10:00 PM",
-      "Friday": "12:00 PM - 12:00 AM",
-      "Saturday": "12:00 PM - 12:00 AM",
-      "Sunday": "Closed"
-    }
-  },
-  {
     "slug": "oringo-africana-san-antonio-tx",
     "name": "Oringo Africana",
     "cuisines": [

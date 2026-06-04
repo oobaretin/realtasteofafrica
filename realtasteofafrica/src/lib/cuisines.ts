@@ -70,7 +70,7 @@ export const CUISINE_TAGS: CuisineTag[] = [
   },
   {
     tag: "Southern African",
-    exampleNames: ["Rhosabjal Cuisine", "South African Food Affair"],
+    exampleNames: ["Rhosabjal Cuisine"],
   },
   {
     tag: "Pan-African / Fusion",
