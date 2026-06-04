@@ -1,6 +1,6 @@
 /** Canonical site origin for metadata, sitemap, and OG (no trailing slash). */
 export const SITE_URL =
-  (process.env.NEXT_PUBLIC_SITE_URL || "https://realtasteofafrica.com").replace(
+  (process.env.NEXT_PUBLIC_SITE_URL || "https://www.realtasteofafrica.com").replace(
     /\/$/,
     "",
   )

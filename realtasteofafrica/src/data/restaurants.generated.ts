@@ -7152,6 +7152,7 @@ export const RESTAURANTS: Restaurant[] = [
     "latitude": 30.4342636,
     "longitude": -97.6833178,
     "phone": "(512) 291-7281",
+    "websiteUrl": "https://megenagna-cafe.com/Home",
     "mapsUrl": "https://www.openstreetmap.org/search?query=2013%20Wells%20Branch%20Pkwy%2C%20Austin%2C%20TX%2078728%2C%20Austin%2C%20TX",
     "highlights": [
       "Ethiopian",

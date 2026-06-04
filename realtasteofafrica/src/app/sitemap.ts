@@ -8,14 +8,20 @@ import { getCollectionSlugs } from "@/data/collections"
 const STATIC_PATHS = [
   "/",
   "/restaurants",
+  "/collections",
   "/contact",
   "/submit",
   "/claim",
   "/claim/success",
   "/catering",
-  "/collections",
   "/menu",
 ] as const
+
+const STATIC_PRIORITIES: Partial<Record<(typeof STATIC_PATHS)[number], number>> = {
+  "/": 1,
+  "/restaurants": 0.95,
+  "/collections": 0.85,
+}
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date()
@@ -24,10 +30,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: path === "/" ? SITE_URL : `${SITE_URL}${path}`,
     lastModified: now,
     changeFrequency:
-      path === "/" || path === "/restaurants"
+      path === "/" || path === "/restaurants" || path === "/collections"
         ? "weekly"
         : ("monthly" as const),
-    priority: path === "/" ? 1 : path === "/restaurants" ? 0.95 : 0.7,
+    priority: STATIC_PRIORITIES[path] ?? 0.7,
   }))
 
   const areaEntries = AREAS.map((a) => ({
