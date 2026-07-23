@@ -1,962 +1,14 @@
 {
   "summary": {
-    "generatedAt": "2026-07-23T05:16:47.898392+00:00",
+    "generatedAt": "2026-07-23T05:18:26.670164+00:00",
     "totalListings": 298,
-    "needsWork": 221,
-    "missingPhone": 2,
-    "missingWebsite": 125,
+    "needsWork": 141,
+    "missingPhone": 1,
+    "missingWebsite": 74,
     "missingCoords": 0,
-    "missingWriteUp": 129
+    "missingWriteUp": 79
   },
   "priority": [
-    {
-      "slug": "glozi-calabar-restaurant-and-african-cuisine-houston-tx",
-      "name": "Glozi Calabar Restaurant and African Cuisine",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": true,
-      "missing": [
-        "website"
-      ],
-      "score": 118
-    },
-    {
-      "slug": "makola-marketplace-houston-tx",
-      "name": "Makola Marketplace",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": true,
-      "missing": [
-        "website"
-      ],
-      "score": 118
-    },
-    {
-      "slug": "g-and-j-african-market-houston",
-      "name": "G & J African Market",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": true,
-      "missing": [
-        "website"
-      ],
-      "score": 118
-    },
-    {
-      "slug": "royalminds-african-market-katy",
-      "name": "Royalminds African Market",
-      "city": "Katy",
-      "areaSlug": "katy",
-      "isFeatured": false,
-      "inCollection": true,
-      "missing": [
-        "website"
-      ],
-      "score": 118
-    },
-    {
-      "slug": "sunrise-african-supermarket-houston",
-      "name": "Sunrise African Supermarket",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": true,
-      "missing": [
-        "website"
-      ],
-      "score": 118
-    },
-    {
-      "slug": "african-farms-houston",
-      "name": "African Farms",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": true,
-      "missing": [
-        "website"
-      ],
-      "score": 118
-    },
-    {
-      "slug": "blessing-african-food-store-san-antonio",
-      "name": "Blessing African Food Store",
-      "city": "San Antonio",
-      "areaSlug": "san-antonio",
-      "isFeatured": false,
-      "inCollection": true,
-      "missing": [
-        "website"
-      ],
-      "score": 88
-    },
-    {
-      "slug": "amala-joint-houston-tx",
-      "name": "Amala Joint",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "feydups-kitchen-sugar-land-tx",
-      "name": "FEYDUPS KITCHEN",
-      "city": "Sugar Land",
-      "areaSlug": "sugar-land",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "amala-manny-foods-sugar-land-tx",
-      "name": "Amala Manny Foods",
-      "city": "Sugar Land",
-      "areaSlug": "sugar-land",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "empress-cafe-usa-richmond-tx",
-      "name": "Empress Cafe USA",
-      "city": "Richmond",
-      "areaSlug": "sugar-land",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "gomas-kitchen-richmond-tx",
-      "name": "Goma's Kitchen",
-      "city": "Richmond",
-      "areaSlug": "sugar-land",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "star-afrik-cuisine-rosenberg-tx",
-      "name": "Star Afrik Cuisine",
-      "city": "Rosenberg",
-      "areaSlug": "sugar-land",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "benmond-african-food-and-catering-texas-city-tx",
-      "name": "Benmond African food and Catering",
-      "city": "Texas City",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "african-spices-and-soul-food-texas-city-tx",
-      "name": "African Spices & Soul Food",
-      "city": "Texas City",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "kofoshi-houston-tx",
-      "name": "Kofoshi",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "ejide-african-restaurant-and-bar-houston-tx",
-      "name": "EJIDE AFRICAN RESTAURANT AND BAR",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "authentic-african-restaurant-and-bar-houston-tx",
-      "name": "Authentic African Restaurant & Bar",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "marie-african-flavors-houston-tx",
-      "name": "Marie African Flavors",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "aburi-cuisine-houston-tx",
-      "name": "Aburi Cuisine",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "suya-on-the-spot-houston-tx",
-      "name": "Suya on the Spot",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "fufu-restaurant-west-african-influence-houston-tx",
-      "name": "FuFu Restaurant (West African influence)",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "komchop-houston-tx",
-      "name": "KomChop",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "alief-african-kitchen-houston-tx",
-      "name": "Alief African Kitchen",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "osuma-suya-houston-tx",
-      "name": "Osuma Suya",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "wazobia-kitchen-houston-tx",
-      "name": "Wazobia Kitchen",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "kaylani-african-cafe-pearland-tx",
-      "name": "Kaylani African Cafe",
-      "city": "Pearland",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "rhays-houston-tx",
-      "name": "Rhay's",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "honeykaz-houston-tx",
-      "name": "HoneyKaz",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "kffo-afro-steakhouse-houston-tx",
-      "name": "KFFO Afro Steakhouse",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "vioni-grill-houston-tx",
-      "name": "Vioni Grill",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "crave-suya-houston-tx",
-      "name": "Crave Suya",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "royal-point-houston-tx",
-      "name": "Royal Point",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "famous-princess-african-kitchen-houston-tx",
-      "name": "Famous Princess African Kitchen",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "bole-king-houston-tx",
-      "name": "Bole King",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "dee-titolat-african-restaurant-houston-tx",
-      "name": "Dee Titolat African Restaurant",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "ewatomi-houston-tx",
-      "name": "Ewatomi",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "glam-divine-treats-houston-tx",
-      "name": "Glam Divine Treats",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "supreme-seafood-and-suya-houston-tx",
-      "name": "Supreme Seafood & Suya",
-      "city": "Richmond",
-      "areaSlug": "sugar-land",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "chef-benny-houston-tx",
-      "name": "Chef Benny",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "nini-kitchen-houston-tx",
-      "name": "Nini Kitchen",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "grill-master-african-restaurant-houston-tx",
-      "name": "Grill Master African Restaurant",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "cafe-de-vivre-houston-tx",
-      "name": "Cafe De Vivre",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "traditional-food-restaurant-houston-tx",
-      "name": "Traditional Food Restaurant",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "african-food-embassy-houston-tx",
-      "name": "African Food Embassy",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "the-afro-eatery-houston-tx",
-      "name": "The Afro Eatery",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "mama-jollof-restaurant-houston-tx",
-      "name": "Mama Jollof Restaurant",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "united-sisters-houston-tx",
-      "name": "United Sisters",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "dsnailspot-houston-tx",
-      "name": "Dsnailspot",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "horn-of-africa-houston-tx",
-      "name": "Horn of Africa",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "amazing-street-beans-houston-tx",
-      "name": "Amazing Street Beans",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "nazareth-cafe-houston-tx",
-      "name": "Nazareth Cafe",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "the-motherland-restaurant-and-grill-houston-tx",
-      "name": "The Motherland Restaurant & Grill",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "osite-african-hot-pot-houston-tx",
-      "name": "Osite African Hot Pot",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "mr-suyaa-houston-tx",
-      "name": "Mr. Suyaa",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "southwest-farmers-market-and-kitchen-houston-tx",
-      "name": "Southwest Farmers Market & Kitchen",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "blue-nile-ethiopian-houston-tx",
-      "name": "Blue Nile Ethiopian",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "nandos-peri-peri-post-oak-houston-tx",
-      "name": "Nando's PERi-PERi (Post Oak)",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "3tees-shawarma-houston-tx",
-      "name": "3tees Shawarma",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "holyland-halal-meat-grocery-houston-tx",
-      "name": "Holyland Halal Meat Grocery",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "nandos-peri-peri-montrose-houston-tx",
-      "name": "Nando's PERi-PERi (Montrose)",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "augustines-creole-african-houston-tx",
-      "name": "Augustine's (Creole-African)",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "dupsys-kitchen-ghost-houston-tx",
-      "name": "Dupsy's Kitchen (Ghost)",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "signature-african-houston-tx",
-      "name": "Signature African",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "kes-spicy-9ja-suya-spot-katy-katy",
-      "name": "Kes spicy 9Ja Suya Spot katy",
-      "city": "Katy",
-      "areaSlug": "katy",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "dibi-rapide-houston",
-      "name": "Dibi Rapide",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "kes-spicy-9ja-suya-spot-houston",
-      "name": "Kes Spicy 9ja Suya Spot",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "afro-chow-houston",
-      "name": "Afro Chow",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "agege-market-royal-bakery-and-african-kitchen-katy",
-      "name": "Agege Market: Royal Bakery and African Kitchen",
-      "city": "Katy",
-      "areaSlug": "katy",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "dominion-african-food-mart-houston",
-      "name": "Dominion African Food Mart",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "sweetfingers-cuisine-african-market-houston",
-      "name": "SweetFingers Cuisine African Market",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "aa-and-t-african-food-market-houston",
-      "name": "AA&T African Food Market",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "soul-sweet-bakery-and-cafe-houston",
-      "name": "Soul Sweet Bakery & Cafe",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "jolly-jolly-bakery-houston",
-      "name": "Jolly Jolly Bakery",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "sweet-admirer-bakery-houston",
-      "name": "Sweet Admirer Bakery",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "wazobia-market-houston",
-      "name": "Wazobia Market",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "alief-african-foods-houston",
-      "name": "Alief African Foods",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "bahel-ethiopian-mart-and-dining-houston",
-      "name": "Bahel Ethiopian Mart and Dining",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "writeUp"
-      ],
-      "score": 38
-    },
-    {
-      "slug": "central-african-market-cypress",
-      "name": "Central African Market",
-      "city": "Cypress",
-      "areaSlug": "katy",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "website"
-      ],
-      "score": 38
-    },
     {
       "slug": "harar-ethiopian-restaurant-houston",
       "name": "Harar Ethiopian Restaurant",
@@ -1138,18 +190,6 @@
       "score": 38
     },
     {
-      "slug": "food-galaxy-african-kitchen-houston-tx",
-      "name": "Food Galaxy African Kitchen & Store",
-      "city": "Houston",
-      "areaSlug": "houston",
-      "isFeatured": false,
-      "inCollection": false,
-      "missing": [
-        "phone"
-      ],
-      "score": 38
-    },
-    {
       "slug": "noahs-african-market-cypress-tx",
       "name": "Noah's African Market",
       "city": "Cypress",
@@ -1208,6 +248,973 @@
         "website"
       ],
       "score": 38
+    },
+    {
+      "slug": "cranky-granny-s-sweet-rolls-pflugerville",
+      "name": "Cranky Granny's Sweet Rolls",
+      "city": "Pflugerville",
+      "areaSlug": "austin",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website",
+        "writeUp"
+      ],
+      "score": 36
+    },
+    {
+      "slug": "abundantly-filled-bakery-pflugerville",
+      "name": "Abundantly Filled Bakery",
+      "city": "Pflugerville",
+      "areaSlug": "austin",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website",
+        "writeUp"
+      ],
+      "score": 36
+    },
+    {
+      "slug": "sugar-mommy-s-georgetown",
+      "name": "Sugar Mommy\u2019s",
+      "city": "Georgetown",
+      "areaSlug": "central-texas",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website",
+        "writeUp"
+      ],
+      "score": 36
+    },
+    {
+      "slug": "africa-s-best-food-market-pflugerville",
+      "name": "Africa\u2019s Best Food Market",
+      "city": "Pflugerville",
+      "areaSlug": "austin",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website",
+        "writeUp"
+      ],
+      "score": 36
+    },
+    {
+      "slug": "alfason-african-market-cedar-park",
+      "name": "ALFASON AFRICAN MARKET",
+      "city": "Cedar Park",
+      "areaSlug": "austin",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website",
+        "writeUp"
+      ],
+      "score": 36
+    },
+    {
+      "slug": "afriqmart-african-and-caribbean-foods-pflugerville",
+      "name": "Afriqmart african and caribbean foods.",
+      "city": "Pflugerville",
+      "areaSlug": "austin",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website",
+        "writeUp"
+      ],
+      "score": 36
+    },
+    {
+      "slug": "fashion-bethel-african-market-round-rock",
+      "name": "Fashion Bethel African Market",
+      "city": "Round Rock",
+      "areaSlug": "central-texas",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website",
+        "writeUp"
+      ],
+      "score": 36
+    },
+    {
+      "slug": "desta-ethiopian-restaurant-dallas-tx",
+      "name": "Desta Ethiopian Restaurant",
+      "city": "Dallas",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "lalibela-ethiopian-restaurant-dallas-tx",
+      "name": "Lalibela Ethiopian Restaurant & Bar",
+      "city": "Dallas",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "addis-abeba-ethiopian-restaurant-richardson-tx",
+      "name": "Addis Abeba Ethiopian Restaurant",
+      "city": "Richardson",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "west-african-way-plano-tx",
+      "name": "West African Way",
+      "city": "Plano",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "jollof-haus-west-african-flavors-allen-tx",
+      "name": "Jollof Haus - West African Flavors",
+      "city": "Allen",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "exotic-grill-african-cuisine-euless-tx",
+      "name": "Exotic Grill African Cuisine",
+      "city": "Euless",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "osuma-suya-mckinney-tx",
+      "name": "Osuma Suya",
+      "city": "Mckinney",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "suya-stop-inc-grand-prairie-tx",
+      "name": "Suya Stop",
+      "city": "Grand Prairie",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "the-spot-rhosabjal-african-cuisine-fort-worth-tx",
+      "name": "THE SPOT (Rhosabjal African cuisine)",
+      "city": "Fort Worth",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "rhosabjal-cuisine-fort-worth-tx",
+      "name": "Rhosabjal Cuisine",
+      "city": "Fort Worth",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "leanna-chop-grill-fort-worth-tx",
+      "name": "LeAnna Chop Grill",
+      "city": "Fort Worth",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "aminatas-kitchen-fort-worth-tx",
+      "name": "Aminatas Kitchen",
+      "city": "Fort Worth",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "olori-african-cuisine-and-event-catering-fort-worth-tx",
+      "name": "OLORI African Cuisine and Event Catering",
+      "city": "Fort Worth",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "uncle-gz-flavors-haltom-city-tx",
+      "name": "Uncle G'z Flavors",
+      "city": "Haltom City",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "tam-tam-zings-bar-and-grill-richland-hills-tx",
+      "name": "Tam Tam Zings Bar & Grill",
+      "city": "Richland Hills",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "osuma-suya-euless-tx",
+      "name": "Osuma Suya",
+      "city": "Euless",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "african-village-irving-tx",
+      "name": "African Village",
+      "city": "Irving",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "lolas-restaurant-and-lounge-irving-tx",
+      "name": "Lola's Restaurant & Lounge",
+      "city": "Irving",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "african-pride-food-and-kitchen-arlington-tx",
+      "name": "African pride Food and kitchen",
+      "city": "Arlington",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "cheftemii-nigerian-restaurant-and-catering-arlington-tx",
+      "name": "ChefTemii - Nigerian Restaurant & Catering",
+      "city": "Arlington",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "fufudelight-and-suya-kitchen-arlington-tx",
+      "name": "Fufudelight & Suya Kitchen",
+      "city": "Arlington",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "angie-winners-kitchen-arlington-tx",
+      "name": "Angie Winners Kitchen",
+      "city": "Arlington",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "yemsade-restaurant-grand-prairie-tx",
+      "name": "Yemsade Restaurant",
+      "city": "Grand Prairie",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "lagos-kitchen-lewisville-tx",
+      "name": "Lagos Kitchen",
+      "city": "Lewisville",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "yenat-guada-ethiopian-cuisine-dallas-tx",
+      "name": "Yenat Guada Ethiopian Cuisine",
+      "city": "Dallas",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "shebas-ethiopian-kitchen-dallas-tx",
+      "name": "Sheba\u2019s Ethiopian Kitchen",
+      "city": "Dallas",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "taste-afrik-mansfield-tx",
+      "name": "TASTE AFRIK",
+      "city": "Mansfield",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "cubana-grille-african-and-jamaican-restaurant-in-mckinney-texas-mckinney-tx",
+      "name": "Cubana Grille | African & Jamaican Restaurant in McKinney Texas",
+      "city": "Mckinney",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "the-icon-nigerian-kitchen-richardson-tx",
+      "name": "The Icon Nigerian Kitchen",
+      "city": "Richardson",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "gidi-bar-and-grill-frisco-tx",
+      "name": "Gidi Bar and Grill",
+      "city": "Frisco",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "mabels-african-cuisine-and-bar-mckinney-tx",
+      "name": "Mabel's African Cuisine & Bar",
+      "city": "Mckinney",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "southwest-farmers-market-and-kitchen-arlington-tx",
+      "name": "Southwest Farmers Market & Kitchen",
+      "city": "Arlington",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "freshnez-kitchen-food-truck-dallas-tx",
+      "name": "Freshnez Kitchen (Food Truck)",
+      "city": "Dallas",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "bukka-grill-frisco-tx",
+      "name": "Bukka Grill",
+      "city": "Frisco",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "honey-dip-fingers-mckinney-tx",
+      "name": "Honey Dip Fingers",
+      "city": "Mckinney",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "calabar-pot-frisco-tx",
+      "name": "Calabar Pot",
+      "city": "Frisco",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "southwest-farmers-kitchen-frisco-tx",
+      "name": "Southwest Farmers Kitchen",
+      "city": "Frisco",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "southwest-farmers-kitchen-garland-tx",
+      "name": "Southwest Farmers Kitchen",
+      "city": "Garland",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "shuri-african-restaurant-dallas",
+      "name": "Shuri African Restaurant",
+      "city": "Dallas",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "amie-s-african-kitchen-and-grill-dallas",
+      "name": "Amie's African Kitchen & Grill",
+      "city": "Dallas",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "fusion-vibes-kitchen-lounge-richardson",
+      "name": "Fusion Vibes Kitchen + Lounge",
+      "city": "Richardson",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "dallul-east-african-cuisine-dallas",
+      "name": "Dallul East African Cuisine",
+      "city": "Dallas",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "aggies-restaurant-dallas",
+      "name": "Aggies Restaurant",
+      "city": "Dallas",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "aldeez-afribbean-restaurant-and-lounge-dallas",
+      "name": "Aldeez Afribbean, Restaurant & Lounge",
+      "city": "Dallas",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "olori-african-cuisine-restaurant-and-event-catering-services-dallas-dallas",
+      "name": "OLORI AFRICAN CUISINE RESTAURANT AND EVENT CATERING SERVICES(DALLAS)",
+      "city": "Dallas",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "boxochops-modern-african-kitchen-plano-plano",
+      "name": "BOXOCHOPS Modern African Kitchen - Plano",
+      "city": "Plano",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "kanny-s-restaurant-and-lounge-dallas",
+      "name": "Kanny's Restaurant and Lounge",
+      "city": "Dallas",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "murphy-s-mansion-dallas",
+      "name": "Murphy's Mansion",
+      "city": "Dallas",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "salt-n-pepper-kitchen-and-catering-services-garland",
+      "name": "Salt N Pepper Kitchen & Catering Services",
+      "city": "Garland",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "kemi-s-african-kitchen-grand-prairie",
+      "name": "Kemi's African Kitchen",
+      "city": "Grand Prairie",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "t-s-buka-arlington",
+      "name": "T's Buka",
+      "city": "Arlington",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "city-cafe-and-bakery-dallas",
+      "name": "City Cafe & Bakery",
+      "city": "Dallas",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "gs-african-bakery-mesquite",
+      "name": "GS African Bakery",
+      "city": "Mesquite",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "moderena-bakery-and-cafe-dallas",
+      "name": "Moderena bakery and cafe",
+      "city": "Dallas",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "our-lady-bakery-grand-prairie",
+      "name": "Our Lady Bakery",
+      "city": "Grand Prairie",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "jolly-jolly-bakery-dallas",
+      "name": "Jolly Jolly Bakery",
+      "city": "Dallas",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "lagos-kitchen-dallas",
+      "name": "Lagos Kitchen",
+      "city": "Dallas",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "lagos-kitchen-ft-worth-fort-worth",
+      "name": "Lagos Kitchen - Ft. Worth",
+      "city": "Fort Worth",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "olivia-s-scratch-kitchen-roanoke",
+      "name": "Olivia\u2019s Scratch Kitchen",
+      "city": "Roanoke",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "african-union-market-and-jollof-xpress-arlington",
+      "name": "African Union Market & Jollof Xpress",
+      "city": "Arlington",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "amazing-occasion-custom-cakes-llc-dallas",
+      "name": "Amazing Occasion Custom Cakes LLC",
+      "city": "Dallas",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "suya-feast-dallas",
+      "name": "Suya Feast",
+      "city": "Dallas",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "street-suya-dallas",
+      "name": "Street Suya",
+      "city": "Dallas",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "bea-s-catering-nigeria-and-soul-food-dallas",
+      "name": "Bea's catering Nigeria & Soul Food",
+      "city": "Dallas",
+      "areaSlug": "dfw",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website"
+      ],
+      "score": 33
+    },
+    {
+      "slug": "lady-t-kitchen-african-restaurant-pflugerville-tx",
+      "name": "Lady T Kitchen African Restaurant",
+      "city": "Pflugerville",
+      "areaSlug": "austin",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 28
+    },
+    {
+      "slug": "palatable-nigerian-cuisine-austin-tx",
+      "name": "Palatable Nigerian Cuisine",
+      "city": "Austin",
+      "areaSlug": "austin",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 28
+    },
+    {
+      "slug": "nigerian-restaurant-african-market-austin-tx",
+      "name": "Nigerian Restaurant / African Market",
+      "city": "Austin",
+      "areaSlug": "austin",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website"
+      ],
+      "score": 28
+    },
+    {
+      "slug": "aunty-mimis-kitchen-killeen-tx",
+      "name": "Aunty Mimi's Kitchen",
+      "city": "Killeen",
+      "areaSlug": "central-texas",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 28
+    },
+    {
+      "slug": "mgbeke-village-hut-nigerian-cuisine-leander-tx",
+      "name": "Mgbeke Village Hut - Nigerian Cuisine",
+      "city": "Leander",
+      "areaSlug": "austin",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 28
+    },
+    {
+      "slug": "lady-t-kitchen-austin-tx",
+      "name": "Lady T Kitchen",
+      "city": "Austin",
+      "areaSlug": "austin",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 28
+    },
+    {
+      "slug": "southwest-farmers-market-and-kitchen-austin-tx",
+      "name": "Southwest Farmers Market & Kitchen",
+      "city": "Austin",
+      "areaSlug": "austin",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 28
+    },
+    {
+      "slug": "habesha-restaurant-austin-tx",
+      "name": "Habesha Restaurant",
+      "city": "Austin",
+      "areaSlug": "austin",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "writeUp"
+      ],
+      "score": 28
+    },
+    {
+      "slug": "tailat-kitchen-austin-tx",
+      "name": "Tailat Kitchen",
+      "city": "Austin",
+      "areaSlug": "central-texas",
+      "isFeatured": false,
+      "inCollection": false,
+      "missing": [
+        "website"
+      ],
+      "score": 28
     }
   ]
 }

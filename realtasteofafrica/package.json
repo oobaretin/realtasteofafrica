@@ -12,6 +12,7 @@
     "geocode:restaurants": "node scripts/geocode-restaurants-csv.mjs",
     "geocode:restaurants:census": "node scripts/geocode-restaurants-census.mjs",
     "backfill:writeups": "node scripts/backfill-writeups-csv.mjs",
+    "backfill:websites": "node scripts/backfill-website-urls-csv.mjs --limit=50",
     "backfill:priority": "node scripts/generate-backfill-priority.mjs",
     "merge:restaurants": "node scripts/merge-restaurants-csv.mjs",
     "report:missing-hours": "node scripts/report-missing-hours.mjs",
