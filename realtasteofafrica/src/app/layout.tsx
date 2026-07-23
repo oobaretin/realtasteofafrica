@@ -18,7 +18,10 @@ export const metadata: Metadata = {
     "Directory of African restaurants, food trucks, and markets across Texas—browse by city and cuisine, verified listings with hours and contacts.",
   metadataBase: new URL(SITE_URL),
   icons: {
-    icon: { url: "/favicon-32.png", type: "image/png", sizes: "32x32" },
+    icon: [
+      { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-192.png", sizes: "192x192", type: "image/png" },
+    ],
   },
 }
 
