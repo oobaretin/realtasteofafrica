@@ -1,13 +1,13 @@
-import { cookies } from "next/headers"
+"use server"
+
 import { Resend } from "resend"
 
 import {
-  ADMIN_COOKIE_MAX_AGE,
-  ADMIN_COOKIE_NAME,
-  createAdminSessionToken,
-  isValidAdminKey,
-  isValidAdminSessionToken,
-} from "@/lib/adminAuth"
+  clearAdminSessionCookie,
+  requireAdminSession,
+  setAdminSessionCookie,
+} from "@/app/admin/adminSession"
+import { isValidAdminKey } from "@/lib/adminAuth"
 
 const RESEND_API_KEY = process.env.RESEND_API_KEY
 const resend = RESEND_API_KEY ? new Resend(RESEND_API_KEY) : null
@@ -15,41 +15,22 @@ const resend = RESEND_API_KEY ? new Resend(RESEND_API_KEY) : null
 const TO_EMAIL = "therealtasteofafrica@gmail.com"
 const FROM_EMAIL = process.env.RESEND_FROM || "Real Taste of Africa <onboarding@resend.dev>"
 
-async function requireAdminSession(): Promise<{ ok: true } | { ok: false; error: string }> {
-  const cookieStore = await cookies()
-  const token = cookieStore.get(ADMIN_COOKIE_NAME)?.value
-  if (!isValidAdminSessionToken(token)) {
-    return { ok: false, error: "Not authenticated" }
-  }
-  return { ok: true }
-}
-
 export async function signInAdmin(formData: FormData) {
   const key = formData.get("adminKey")
   if (!isValidAdminKey(typeof key === "string" ? key : null)) {
     return { success: false, error: "Invalid admin key" }
   }
 
-  const token = createAdminSessionToken()
-  if (!token) {
+  const ok = await setAdminSessionCookie()
+  if (!ok) {
     return { success: false, error: "ADMIN_KEY is not configured" }
   }
-
-  const cookieStore = await cookies()
-  cookieStore.set(ADMIN_COOKIE_NAME, token, {
-    httpOnly: true,
-    secure: process.env.NODE_ENV === "production",
-    sameSite: "lax",
-    path: "/admin",
-    maxAge: ADMIN_COOKIE_MAX_AGE,
-  })
 
   return { success: true }
 }
 
 export async function signOutAdmin() {
-  const cookieStore = await cookies()
-  cookieStore.delete(ADMIN_COOKIE_NAME)
+  await clearAdminSessionCookie()
   return { success: true }
 }
 
@@ -117,9 +98,4 @@ export async function addListing(formData: FormData) {
     console.error("Resend Error:", err)
     return { success: false, error: message }
   }
-}
-
-export async function isAdminAuthenticated(): Promise<boolean> {
-  const cookieStore = await cookies()
-  return isValidAdminSessionToken(cookieStore.get(ADMIN_COOKIE_NAME)?.value)
 }

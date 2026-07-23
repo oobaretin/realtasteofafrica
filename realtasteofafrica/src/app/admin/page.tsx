@@ -1,15 +1,9 @@
-import { cookies } from "next/headers"
 import { redirect } from "next/navigation"
 
 import { AdminLogin } from "@/app/admin/AdminLogin"
 import { AdminPanel } from "@/app/admin/AdminPanel"
-import { isAdminAuthenticated } from "@/app/admin/actions"
-import {
-  ADMIN_COOKIE_MAX_AGE,
-  ADMIN_COOKIE_NAME,
-  createAdminSessionToken,
-  isValidAdminKey,
-} from "@/lib/adminAuth"
+import { isAdminAuthenticated, setAdminSessionCookie } from "@/app/admin/adminSession"
+import { isValidAdminKey } from "@/lib/adminAuth"
 import { computeAdminStats, toAdminRestaurantRows } from "@/lib/adminStats"
 import { RESTAURANTS } from "@/lib/restaurants"
 
@@ -42,17 +36,7 @@ export default async function AdminPage({
 
   // Legacy bookmark support: /admin?key=... sets session and strips key from URL
   if (isValidAdminKey(key)) {
-    const token = createAdminSessionToken()
-    if (token) {
-      const cookieStore = await cookies()
-      cookieStore.set(ADMIN_COOKIE_NAME, token, {
-        httpOnly: true,
-        secure: process.env.NODE_ENV === "production",
-        sameSite: "lax",
-        path: "/admin",
-        maxAge: ADMIN_COOKIE_MAX_AGE,
-      })
-    }
+    await setAdminSessionCookie()
     redirect("/admin")
   }
 
