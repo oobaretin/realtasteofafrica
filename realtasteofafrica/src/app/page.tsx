@@ -76,12 +76,6 @@ export default function HomePage() {
             >
               All listings
             </Link>
-            <Link
-              className="rounded-md border border-amber-400/40 bg-amber-500/10 px-4 py-2.5 text-sm font-semibold text-amber-100 hover:bg-amber-500/20"
-              href="/claim"
-            >
-              Claim your listing
-            </Link>
           </div>
         </div>
       </section>
