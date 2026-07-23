@@ -1,18 +1,19 @@
 "use client"
 
-import { useCallback, useRef, useState } from "react"
+import { useCallback, useEffect, useRef, useState } from "react"
 
 import { ClaimListingForm } from "@/components/ClaimListingForm"
 import { ClaimSearch } from "@/components/ClaimSearch"
 import { PayPalButton } from "@/components/PayPalButton"
-import type { Restaurant } from "@/lib/restaurants"
+import { getRestaurantBySlug, type Restaurant } from "@/lib/restaurants"
 import { CLAIM_VERIFY_PRICE_USD } from "@/lib/site"
 
 const PAYPAL_CLIENT_ID = process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID ?? ""
 
-export function ClaimFlow() {
+export function ClaimFlow({ initialSlug }: { initialSlug?: string }) {
   const [selectedRestaurant, setSelectedRestaurant] = useState<Restaurant | null>(null)
   const formRef = useRef<HTMLDivElement>(null)
+  const prefillRestaurant = initialSlug ? getRestaurantBySlug(initialSlug) : undefined
 
   const handleSelect = useCallback((restaurant: Restaurant) => {
     setSelectedRestaurant(restaurant)
@@ -20,6 +21,12 @@ export function ClaimFlow() {
       formRef.current?.scrollIntoView({ behavior: "smooth", block: "start" })
     })
   }, [])
+
+  useEffect(() => {
+    if (!initialSlug) return
+    const restaurant = getRestaurantBySlug(initialSlug)
+    if (restaurant) handleSelect(restaurant)
+  }, [initialSlug, handleSelect])
 
   const handlePaymentSuccess = useCallback((restaurantSlug: string, txId: string) => {
     console.log("Claim payment success", { restaurantId: restaurantSlug, transactionId: txId })
@@ -41,7 +48,11 @@ export function ClaimFlow() {
   return (
     <div className="grid gap-10">
       <section id="claim-search" className="scroll-mt-6">
-        <ClaimSearch onSelect={handleSelect} inputId="claim-search-input" />
+        <ClaimSearch
+          onSelect={handleSelect}
+          inputId="claim-search-input"
+          initialQuery={prefillRestaurant?.name}
+        />
       </section>
 
       {selectedRestaurant && (

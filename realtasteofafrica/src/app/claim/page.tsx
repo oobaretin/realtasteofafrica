@@ -45,7 +45,14 @@ export const metadata = {
     "Put your restaurant on the map of Texas. Get a Real Taste Verified badge, manage your menu, and appear above unverified listings.",
 }
 
-export default function ClaimPage() {
+export default async function ClaimPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ slug?: string }>
+}) {
+  const { slug } = await searchParams
+  const initialSlug = slug?.trim() || undefined
+
   return (
     <div className="grid gap-10">
       <Breadcrumbs
@@ -259,7 +266,7 @@ export default function ClaimPage() {
             One-time fee of ${CLAIM_VERIFY_PRICE_USD} — no subscription. After payment and
             verification, we add your badge and update your listing.
           </p>
-          <ClaimFlow />
+          <ClaimFlow initialSlug={initialSlug} />
         </div>
       </div>
 

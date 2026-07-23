@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { useMemo, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 
 import { RESTAURANTS } from "@/lib/restaurants"
 import type { Restaurant } from "@/lib/restaurants"
@@ -26,11 +26,17 @@ function matchesRestaurant(r: Restaurant, query: string) {
 export function ClaimSearch({
   onSelect,
   inputId,
+  initialQuery,
 }: {
   onSelect: (restaurant: Restaurant) => void
   inputId?: string
+  initialQuery?: string
 }) {
-  const [query, setQuery] = useState("")
+  const [query, setQuery] = useState(initialQuery ?? "")
+
+  useEffect(() => {
+    if (initialQuery) setQuery(initialQuery)
+  }, [initialQuery])
 
   const results = useMemo(() => {
     const q = normalizeQuery(query)
