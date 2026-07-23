@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import { CLAIM_VERIFY_PRICE_USD, CONTACT_EMAIL } from "@/lib/site"
+import { CONTACT_EMAIL } from "@/lib/site"
 
 const TEXAS_COVERAGE = [
   { label: "Houston", areaSlug: "houston" },
@@ -66,9 +66,6 @@ export function SiteFooter() {
             <Link className="text-slate-600 hover:text-slate-900" href="/claim">
               Claim your listing
             </Link>
-            <p className="pt-1 text-xs text-slate-500">
-              One-time verification (${CLAIM_VERIFY_PRICE_USD}) — get your Real Taste Verified badge.
-            </p>
           </div>
 
           <div className="grid gap-2 text-sm">
