@@ -27,7 +27,7 @@ export function FilterBar({ areas, cuisineTags, values, onFilterChange }: Filter
           id="filter-type"
           value={values.category}
           onChange={(e) => onFilterChange("category", e.target.value)}
-          className="w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900"
+          className="min-h-12 w-full rounded-md border border-slate-200 bg-white px-3 py-3 text-base text-slate-900"
           aria-label="Filter by establishment type"
         >
           {FILTER_TYPE_OPTION_GROUPS.map((group) => (
@@ -50,7 +50,7 @@ export function FilterBar({ areas, cuisineTags, values, onFilterChange }: Filter
           id="filter-region"
           value={values.region}
           onChange={(e) => onFilterChange("region", e.target.value)}
-          className="w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900"
+          className="min-h-12 w-full rounded-md border border-slate-200 bg-white px-3 py-3 text-base text-slate-900"
           aria-label="Filter by Texas region"
         >
           <option value="">All</option>
@@ -70,7 +70,7 @@ export function FilterBar({ areas, cuisineTags, values, onFilterChange }: Filter
           id="filter-cuisine"
           value={values.cuisine}
           onChange={(e) => onFilterChange("cuisine", e.target.value)}
-          className="w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900"
+          className="min-h-12 w-full rounded-md border border-slate-200 bg-white px-3 py-3 text-base text-slate-900"
           aria-label="Filter by cuisine"
         >
           <option value="">All cuisines</option>

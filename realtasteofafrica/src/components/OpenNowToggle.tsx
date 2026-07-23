@@ -32,13 +32,29 @@ export function OpenNowToggle({
   if (variant === "inline") {
     return (
       <div className="flex items-center gap-2">
-        <label
-          htmlFor="open-now-only-bar"
+        <span
+          id="open-now-label-bar"
           className="text-sm font-medium text-slate-700 whitespace-nowrap"
         >
           Open Now
-        </label>
-        {switchEl}
+        </span>
+        <button
+          id="open-now-only-bar"
+          type="button"
+          role="switch"
+          aria-checked={checked}
+          aria-labelledby="open-now-label-bar"
+          onClick={() => onChange(!checked)}
+          className={`relative inline-flex h-7 w-12 shrink-0 rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 ${
+            checked ? "bg-green-600" : "bg-slate-200"
+          }`}
+        >
+          <span
+            className={`pointer-events-none inline-block h-6 w-6 translate-y-0.5 rounded-full bg-white shadow-sm transition-transform ${
+              checked ? "translate-x-6" : "translate-x-1"
+            }`}
+          />
+        </button>
       </div>
     )
   }

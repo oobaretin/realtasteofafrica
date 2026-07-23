@@ -24,7 +24,7 @@ export function FeaturedCarousel({ restaurants }: FeaturedCarouselProps) {
   return (
     <div className="relative min-w-0">
       <div className="overflow-hidden" ref={emblaRef}>
-        <div className="flex touch-pan-y gap-4 sm:gap-6">
+        <div className="flex touch-pan-x gap-4 sm:gap-6">
           {restaurants.map((r) => (
             <div
               key={r.slug}

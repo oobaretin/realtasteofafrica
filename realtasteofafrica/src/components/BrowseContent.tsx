@@ -25,7 +25,11 @@ export function BrowseContent({
 }) {
   const [isOpenNowOnly, setIsOpenNowOnly] = useState(false)
 
-  const sidebar = <WpSidebar />
+  const sidebar = (
+    <div className="hidden lg:block">
+      <WpSidebar />
+    </div>
+  )
 
   return (
     <WpPageShell

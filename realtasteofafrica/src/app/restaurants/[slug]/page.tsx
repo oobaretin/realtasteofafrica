@@ -140,6 +140,21 @@ export default async function RestaurantDetailPage({
         </div>
       </header>
 
+      {!r.isVerified ? (
+        <aside className="mt-6 rounded-2xl border border-amber-200 bg-amber-50 p-5">
+          <p className="font-semibold text-amber-900">Own {r.name}?</p>
+          <p className="mt-1 text-sm text-amber-900/80">
+            Claim your listing for a verified badge, priority placement, and editable details.
+          </p>
+          <Link
+            href="/claim#claim-search"
+            className="mt-4 inline-flex min-h-12 items-center rounded-xl bg-amber-600 px-5 text-sm font-semibold text-white hover:bg-amber-700"
+          >
+            Claim this listing →
+          </Link>
+        </aside>
+      ) : null}
+
       {/* — 2-column Action Grid — */}
       <section className="mt-8 grid min-w-0 gap-8 lg:grid-cols-2 lg:gap-12">
         {/* Left: Basics — Call, Directions, Website + Cuisine pills */}

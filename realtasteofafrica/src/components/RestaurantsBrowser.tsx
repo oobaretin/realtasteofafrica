@@ -282,7 +282,7 @@ export function RestaurantsBrowser({
     <div className="grid gap-4">
       {/* Quick-Action Bar: sticky, backdrop-blur */}
       <div
-        className="sticky top-0 z-10 -mx-4 flex flex-wrap items-center justify-between gap-3 rounded-xl border border-slate-200/80 bg-white/80 px-4 py-3 backdrop-blur-md sm:mx-0"
+        className="sticky top-[4.5rem] z-20 -mx-4 flex flex-wrap items-center justify-between gap-3 rounded-xl border border-slate-200/80 bg-white/80 px-4 py-3 backdrop-blur-md sm:top-20 sm:mx-0 md:top-24"
         role="toolbar"
         aria-label="Browse options"
       >
@@ -331,7 +331,7 @@ export function RestaurantsBrowser({
                 id="sort-by"
                 value={sortOptions.some((o) => o.value === sortBy) ? sortBy : "status"}
                 onChange={(e) => setSortBy(e.target.value as SortBy)}
-                className="min-w-[8rem] appearance-none rounded-md border-0 bg-transparent py-1.5 pr-6 pl-2 text-sm font-medium text-slate-900 focus:ring-2 focus:ring-amber-400 focus:ring-offset-1"
+                className="min-h-12 min-w-[8rem] appearance-none rounded-md border border-slate-200 bg-white py-2.5 pr-8 pl-3 text-sm font-medium text-slate-900 focus:ring-2 focus:ring-amber-400 focus:ring-offset-1"
                 aria-label="Sort listings"
               >
                 {sortOptions.map((opt) => (
@@ -353,7 +353,7 @@ export function RestaurantsBrowser({
            <span className="text-sm text-slate-500">
             Showing {sorted.length} verified spot{sorted.length !== 1 ? "s" : ""}
             {nearMeActive && userPosition ? (
-              <span className="text-slate-400">
+              <span className="hidden text-slate-400 sm:inline">
                 {" "}
                 · nearest first; listings without coordinates appear last
               </span>
@@ -363,7 +363,7 @@ export function RestaurantsBrowser({
         <button
           type="button"
           onClick={handleRefine}
-          className="rounded-lg border-0 bg-transparent py-1.5 px-2 text-sm font-medium text-amber-700 hover:bg-amber-50 focus:ring-2 focus:ring-amber-400 focus:ring-offset-1"
+          className="min-h-12 rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-amber-700 hover:bg-amber-50 focus:ring-2 focus:ring-amber-400 focus:ring-offset-1"
         >
           Refine
         </button>
