@@ -37,6 +37,9 @@ function buildQuery(row) {
   const addr = String(row.addressLine ?? "").trim()
   const name = String(row.name ?? "").trim()
   if (addr && !/check maps/i.test(addr)) {
+    if (city && state && addr.toLowerCase().includes(city.toLowerCase())) {
+      return addr
+    }
     return `${addr}, ${city}, ${state}`
   }
   return `${name}, ${city}, ${state}`
