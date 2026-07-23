@@ -5,8 +5,8 @@ export const SITE_URL =
     "",
   )
 
-export const CONTACT_EMAIL =
-  process.env.NEXT_PUBLIC_CONTACT_EMAIL || "contact@realtasteofafrica.com"
+/** Public inbox — forward via Cloudflare Email Routing (e.g. to Gmail). */
+export const CONTACT_EMAIL = "contact@realtasteofafrica.com"
 
 export const CLAIM_VERIFY_PRICE_USD = 49
 
