@@ -2,6 +2,7 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 
 import { Badge } from "@/components/Badge"
+import { EmptyListingsState } from "@/components/EmptyListingsState"
 import { WpPageShell } from "@/components/WpPageShell"
 import { ListingExternalLink } from "@/components/ListingExternalLink"
 import { formatPhoneDisplay, toTelHref } from "@/lib/formatPhone"
@@ -50,20 +51,7 @@ export default async function AreaPage({
         </div>
 
         {restaurants.length === 0 ? (
-          <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-            <div className="text-base font-semibold tracking-tight">
-              No listings yet
-            </div>
-            <p className="mt-2 text-sm text-slate-600">
-              Submit a restaurant and we’ll add it after review.
-            </p>
-            <Link
-              className="mt-4 inline-flex rounded-md bg-amber-600 px-3 py-2 text-sm font-semibold text-white hover:bg-amber-700"
-              href="/submit"
-            >
-              Submit a restaurant →
-            </Link>
-          </div>
+          <EmptyListingsState />
         ) : (
           <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
             <ul className="divide-y divide-slate-200">

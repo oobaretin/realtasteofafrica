@@ -2,8 +2,17 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 
 import { Badge } from "@/components/Badge"
+import { BusinessStatusClient } from "@/components/BusinessStatusClient"
+import { ClaimListingBanner } from "@/components/ClaimListingBanner"
+import { CopyAddressButtonClient } from "@/components/CopyAddressButton"
+import { ListingActionStack } from "@/components/ListingActionStack"
+import { ListingHero } from "@/components/ListingHero"
+import { SimilarSpots } from "@/components/SimilarSpots"
 import { VerifiedBadge } from "@/components/VerifiedBadge"
-import { getAreaBySlug } from "@/lib/areas"
+import {
+  formatDirectoryVerifiedLabel,
+  showDirectoryVerifiedBadge,
+} from "@/lib/formatAudit"
 import {
   cityToSlug,
   getListingNumber,
@@ -13,13 +22,6 @@ import {
   type Restaurant,
 } from "@/lib/restaurants"
 import { getRestaurantWriteUp } from "@/lib/restaurantWriteUp"
-import { CopyAddressButtonClient } from "@/components/CopyAddressButton"
-import { formatPhoneDisplay, toTelHref } from "@/lib/formatPhone"
-import { BusinessStatusClient } from "@/components/BusinessStatusClient"
-import { ListingExternalLink } from "@/components/ListingExternalLink"
-import { ShareButton } from "@/components/ShareButton"
-import { getWebsiteLinkPresentation } from "@/lib/websiteLinkLabel"
-import { SimilarSpots } from "@/components/SimilarSpots"
 
 function googleMapsUrl(addressLine: string, city: string, state: string) {
   const query = encodeURIComponent(`${addressLine}, ${city}, ${state}`)
@@ -28,14 +30,6 @@ function googleMapsUrl(addressLine: string, city: string, state: string) {
 
 function isFoodTruckListing(highlights: string[]) {
   return highlights.some((h) => /\b(food\s*truck|pop-?up)\b/i.test(h))
-}
-
-/** Show "Verified Active - Jan 2026" when listing was audited in 2026. */
-function showVerifiedBadge(r: Restaurant) {
-  return (
-    (r.lastAuditDate && r.lastAuditDate.startsWith("2026")) ||
-    r.internalVerified === true
-  )
 }
 
 function similarSpotsTitle(r: Restaurant): string {
@@ -48,7 +42,6 @@ function similarSpotsTitle(r: Restaurant): string {
   return "More spots in Texas"
 }
 
-/** Logo used for og:image when restaurant has no featured image. Resolved via metadataBase. */
 const DEFAULT_OG_IMAGE = "/realtasteofafrica.png"
 
 export async function generateMetadata({
@@ -89,7 +82,6 @@ export default async function RestaurantDetailPage({
   const r = getRestaurantBySlug(slug)
   if (!r) notFound()
 
-  const area = getAreaBySlug(r.areaSlug)
   const writeUp = getRestaurantWriteUp(r)
   const isFoodTruck = isFoodTruckListing(r.highlights)
   const cuisineLabel = r.cuisine || r.cuisines[0] || "African"
@@ -102,9 +94,61 @@ export default async function RestaurantDetailPage({
   const reportHref = `/contact?restaurant=${encodeURIComponent(r.name)}#report`
   const listingNumber = getListingNumber(slug)
 
+  const sidebar = (
+    <aside className="grid gap-6">
+      <div className="hidden lg:block">
+        <h2 className="sr-only">Quick actions</h2>
+        <ListingActionStack
+          restaurant={r}
+          listingNumber={listingNumber}
+          totalListings={RESTAURANTS.length}
+          layout="stack"
+        />
+      </div>
+      <div className="rounded-2xl border border-slate-200 bg-slate-50/50 p-5">
+        <h3 className="text-sm font-semibold uppercase tracking-wide text-slate-500">
+          Hours
+        </h3>
+        <BusinessStatusClient hours={r.hours} variant="label" />
+        {r.hours && Object.keys(r.hours).length > 0 ? (
+          <ul className="mt-3 space-y-1.5 text-sm text-slate-600" aria-label="Hours by day">
+            {["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"].map(
+              (day) => (
+                <li key={day} className="flex flex-col gap-0.5 sm:flex-row sm:justify-between sm:gap-4">
+                  <span className="font-medium sm:font-normal">{day}</span>
+                  <span className="sm:text-right">{r.hours![day] ?? "—"}</span>
+                </li>
+              )
+            )}
+          </ul>
+        ) : null}
+      </div>
+      <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+        <h3 className="text-sm font-semibold uppercase tracking-wide text-slate-500">
+          Location
+        </h3>
+        <p className="mt-2 break-words text-slate-800">
+          {r.addressLine}
+          <br />
+          {r.city}, {r.state}
+        </p>
+        <div className="mt-4 flex flex-wrap gap-3">
+          <CopyAddressButtonClient text={`${r.addressLine}, ${r.city}, ${r.state}`} />
+          <a
+            href={googleMapsUrl(r.addressLine, r.city, r.state)}
+            target="_blank"
+            rel="noreferrer"
+            className="text-sm font-medium text-amber-700 hover:text-amber-800"
+          >
+            Open in Google Maps →
+          </a>
+        </div>
+      </div>
+    </aside>
+  )
+
   return (
     <article className="min-w-0 grid gap-0">
-      {/* — Title + Breadcrumb — */}
       <header className="grid gap-2">
         <nav aria-label="Breadcrumb" className="text-sm text-slate-500">
           <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
@@ -130,9 +174,9 @@ export default async function RestaurantDetailPage({
           {r.name}
         </h1>
         <div className="mt-2 flex flex-wrap items-center gap-2">
-          {showVerifiedBadge(r) ? (
+          {showDirectoryVerifiedBadge(r) ? (
             <span className="inline-flex items-center gap-1.5 rounded-xl border border-amber-200 bg-amber-50 px-3 py-2 text-sm font-semibold text-amber-900">
-              ✅ Verified Active – Jan 2026
+              {formatDirectoryVerifiedLabel(r.lastAuditDate)}
             </span>
           ) : null}
           <BusinessStatusClient hours={r.hours} variant="badge" />
@@ -140,71 +184,24 @@ export default async function RestaurantDetailPage({
         </div>
       </header>
 
-      {!r.isVerified ? (
-        <aside className="mt-6 rounded-2xl border border-amber-200 bg-amber-50 p-5">
-          <p className="font-semibold text-amber-900">Own {r.name}?</p>
-          <p className="mt-1 text-sm text-amber-900/80">
-            Claim your listing for a verified badge, priority placement, and editable details.
-          </p>
-          <Link
-            href={`/claim?slug=${encodeURIComponent(r.slug)}#claim-search`}
-            className="mt-4 inline-flex min-h-12 items-center rounded-xl bg-amber-600 px-5 text-sm font-semibold text-white hover:bg-amber-700"
-          >
-            Claim this listing →
-          </Link>
-        </aside>
-      ) : null}
+      <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_320px] lg:items-start">
+        <div className="min-w-0 grid gap-6">
+          <ListingHero restaurant={r} />
 
-      {/* — 2-column Action Grid — */}
-      <section className="mt-8 grid min-w-0 gap-8 lg:grid-cols-2 lg:gap-12">
-        {/* Left: Basics — Call, Directions, Website + Cuisine pills */}
-        <div className="grid min-w-0 gap-6">
-          <div className="min-w-0">
+          {!r.isVerified ? (
+            <ClaimListingBanner restaurantName={r.name} slug={r.slug} />
+          ) : null}
+
+          <div className="lg:hidden">
             <h2 className="sr-only">Quick actions</h2>
-            <div className="flex min-w-0 flex-wrap gap-3">
-              {r.phone ? (
-                <a
-                  href={`tel:${toTelHref(r.phone)}`}
-                  className="inline-flex shrink-0 items-center gap-2 rounded-xl bg-emerald-600 px-5 py-3.5 text-base font-semibold text-white shadow-sm transition hover:bg-emerald-700"
-                >
-                  <span aria-hidden>📞</span>
-                  {formatPhoneDisplay(r.phone)}
-                </a>
-              ) : null}
-              <a
-                href={googleMapsUrl(r.addressLine, r.city, r.state)}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex shrink-0 items-center gap-2 rounded-xl bg-blue-600 px-5 py-3.5 text-base font-semibold text-white shadow-sm transition hover:bg-blue-700"
-              >
-                <span aria-hidden>📍</span>
-                Get Directions
-              </a>
-              <ShareButton
-                title={r.name}
-                url={`/restaurants/${r.slug}`}
-                shareName={r.name}
-              />
-            </div>
-            {r.websiteUrl ? (
-              <div className="mt-3 flex min-w-0 flex-wrap items-center gap-2">
-                <ListingExternalLink
-                  href={r.websiteUrl}
-                  className="inline-flex shrink-0 items-center gap-2 rounded-xl border-2 border-slate-200 bg-white px-5 py-3 text-base font-semibold text-slate-800 shadow-sm transition hover:border-amber-300 hover:bg-amber-50"
-                />
-                {getWebsiteLinkPresentation(r.websiteUrl).kind !== "official" ? (
-                  <span className="max-w-md text-xs text-slate-500">
-                    Link may go to ordering, maps, or a directory—not always the business’s own site.
-                  </span>
-                ) : null}
-              </div>
-            ) : null}
-            {listingNumber > 0 ? (
-              <p className="mt-3 text-xs text-slate-500">
-                Verified Listing #{listingNumber} of {RESTAURANTS.length}. Help us grow the map by sharing this spot!
-              </p>
-            ) : null}
+            <ListingActionStack
+              restaurant={r}
+              listingNumber={listingNumber}
+              totalListings={RESTAURANTS.length}
+              layout="inline"
+            />
           </div>
+
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wide text-slate-500">
               Cuisine & options
@@ -226,9 +223,7 @@ export default async function RestaurantDetailPage({
                   {h}
                 </span>
               ))}
-              {r.priceLevel ? (
-                <Badge>{"$".repeat(r.priceLevel)}</Badge>
-              ) : null}
+              {r.priceLevel ? <Badge>{"$".repeat(r.priceLevel)}</Badge> : null}
               {isFoodTruck ? (
                 <span className="inline-flex items-center rounded-full border border-amber-200 bg-amber-100 px-2.5 py-1 text-xs font-medium text-amber-900">
                   Food truck / pop-up
@@ -236,104 +231,39 @@ export default async function RestaurantDetailPage({
               ) : null}
             </div>
           </div>
-        </div>
 
-        {/* Right: Hours + Location */}
-        <div className="grid min-w-0 gap-6">
-          <div className="rounded-2xl border border-slate-200 bg-slate-50/50 p-5">
-            <h3 className="text-sm font-semibold uppercase tracking-wide text-slate-500">
-              Hours
-            </h3>
-            <BusinessStatusClient hours={r.hours} variant="label" />
-            {r.hours && Object.keys(r.hours).length > 0 ? (
-              <ul className="mt-3 space-y-1.5 text-sm text-slate-600" aria-label="Hours by day">
-                {["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"].map(
-                  (day) => (
-                    <li key={day} className="flex flex-col gap-0.5 sm:flex-row sm:justify-between sm:gap-4">
-                      <span className="font-medium sm:font-normal">{day}</span>
-                      <span className="sm:text-right">{r.hours![day] ?? "—"}</span>
-                    </li>
-                  )
-                )}
-              </ul>
-            ) : null}
-          </div>
-          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-            <h3 className="text-sm font-semibold uppercase tracking-wide text-slate-500">
-              Location
-            </h3>
-            <p className="mt-2 break-words text-slate-800">
-              {r.addressLine}
-              <br />
-              {r.city}, {r.state}
-            </p>
-            <div className="mt-4 flex flex-wrap gap-3">
-              <CopyAddressButtonClient
-                text={`${r.addressLine}, ${r.city}, ${r.state}`}
-              />
-              <a
-                href={googleMapsUrl(r.addressLine, r.city, r.state)}
-                target="_blank"
-                rel="noreferrer"
-                className="text-sm font-medium text-amber-700 hover:text-amber-800"
-              >
-                Open in Google Maps →
-              </a>
+          {isFoodTruck ? (
+            <div className="rounded-2xl border border-amber-200 bg-amber-50 p-5 shadow-sm">
+              <div className="text-sm font-semibold text-amber-900">Food truck / pop-up</div>
+              <div className="mt-2 text-sm text-amber-900/90">
+                This listing operates as a <span className="font-medium">food truck</span> and/or{" "}
+                <span className="font-medium">pop-up</span>. Hours and locations can change—check
+                their latest updates before heading out.
+              </div>
             </div>
-          </div>
+          ) : null}
+
+          {writeUp.length > 0 ? (
+            <section className="min-w-0 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+              <h2 className="text-lg font-semibold text-slate-900">About this restaurant</h2>
+              <div className="mt-3 grid min-w-0 gap-3 text-slate-700">
+                {writeUp.map((p) => (
+                  <p key={p} className="break-words">
+                    {p}
+                  </p>
+                ))}
+              </div>
+            </section>
+          ) : null}
         </div>
-      </section>
 
-      {/* — Food truck notice — */}
-      {isFoodTruck ? (
-        <div className="mt-8 rounded-2xl border border-amber-200 bg-amber-50 p-5 shadow-sm">
-          <div className="text-sm font-semibold text-amber-900">
-            Food truck / pop-up
-          </div>
-          <div className="mt-2 text-sm text-amber-900/90">
-            This listing operates as a{" "}
-            <span className="font-medium">food truck</span> and/or{" "}
-            <span className="font-medium">pop-up</span>. Hours and locations can
-            change—check their latest updates before heading out.
-          </div>
-        </div>
-      ) : null}
-
-      {/* — About — */}
-      {writeUp.length > 0 ? (
-        <section className="mt-10 min-w-0 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-          <h2 className="text-lg font-semibold text-slate-900">
-            About this restaurant
-          </h2>
-          <div className="mt-3 grid min-w-0 gap-3 text-slate-700">
-            {writeUp.map((p) => (
-              <p key={p} className="break-words">{p}</p>
-            ))}
-          </div>
-        </section>
-      ) : null}
-
-      {/* — Highlights — */}
-      {r.highlights.length > 0 ? (
-        <section className="mt-6 min-w-0 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-          <h2 className="text-lg font-semibold text-slate-900">Highlights</h2>
-          <ul className="mt-3 list-disc space-y-2 break-words pl-5 text-slate-700">
-            {r.highlights.map((h) => (
-              <li key={h}>{h}</li>
-            ))}
-          </ul>
-        </section>
-      ) : null}
-
-      {/* — Similar spots (Statewide Discovery) — */}
-      <div className="mt-10 min-w-0">
-        <SimilarSpots
-          restaurants={similarRestaurants}
-          title={similarSpotsTitle(r)}
-        />
+        <div className="lg:sticky lg:top-24">{sidebar}</div>
       </div>
 
-      {/* — Report an issue — */}
+      <div className="mt-10 min-w-0">
+        <SimilarSpots restaurants={similarRestaurants} title={similarSpotsTitle(r)} />
+      </div>
+
       <p className="mt-10 text-center text-sm text-slate-500">
         <Link
           href={reportHref}
@@ -345,4 +275,3 @@ export default async function RestaurantDetailPage({
     </article>
   )
 }
-

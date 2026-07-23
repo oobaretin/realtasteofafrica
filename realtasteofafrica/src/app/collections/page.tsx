@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 
 import { WpPageShell } from "@/components/WpPageShell"
@@ -19,15 +20,26 @@ export default function CollectionsIndexPage() {
         { href: "/collections", label: "Collections" },
       ]}
     >
-      <ul className="grid gap-4">
+      <ul className="grid gap-4 sm:grid-cols-2">
         {EDITORIAL_COLLECTIONS.map((c) => (
           <li key={c.slug}>
             <Link
               href={`/collections/${c.slug}`}
-              className="block rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:border-amber-200 hover:shadow-md"
+              className="flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:border-amber-200 hover:shadow-md"
             >
-              <h2 className="text-lg font-semibold text-slate-900">{c.title}</h2>
-              <p className="mt-1 text-sm text-slate-600">{c.dek}</p>
+              <div className="relative aspect-[21/9] bg-slate-100">
+                <Image
+                  src={c.headerImage.src}
+                  alt=""
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 640px) 100vw, 50vw"
+                />
+              </div>
+              <div className="flex flex-1 flex-col p-5">
+                <h2 className="text-lg font-semibold text-slate-900">{c.title}</h2>
+                <p className="mt-1 flex-1 text-sm text-slate-600">{c.dek}</p>
+              </div>
             </Link>
           </li>
         ))}

@@ -51,7 +51,7 @@ export default async function ContactPage({
               Claim / Verify
             </h2>
             <p className="mt-1 text-sm text-slate-600">
-              Verify your listing ($49 one-time) for a verified badge and control.
+              Verify your listing for a verified badge and control of your page.
             </p>
             <span className="mt-3 text-sm font-medium text-amber-700">Go to verification →</span>
           </Link>

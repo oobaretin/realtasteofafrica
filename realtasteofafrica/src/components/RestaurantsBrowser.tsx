@@ -87,6 +87,7 @@ export function RestaurantsBrowser({
   initialCuisine = "",
   initialArea = "",
   initialCategory = "All",
+  initialQuery = "",
   isOpenNowOnly = false,
   onOpenNowOnlyChange,
 }: {
@@ -96,12 +97,13 @@ export function RestaurantsBrowser({
   initialCuisine?: string
   initialArea?: string
   initialCategory?: string
+  initialQuery?: string
   isOpenNowOnly?: boolean
   onOpenNowOnlyChange?: (value: boolean) => void
 }) {
   const router = useRouter()
   const pathname = usePathname()
-  const [query, setQuery] = useState("")
+  const [query, setQuery] = useState(initialQuery)
   const [areaSlug, setAreaSlug] = useState<string>(initialArea)
   const [cuisine, setCuisine] = useState<string>(initialCuisine)
   const [category, setCategory] = useState<string>(initialCategory)
@@ -117,7 +119,8 @@ export function RestaurantsBrowser({
     setAreaSlug(initialArea)
     setCuisine(initialCuisine)
     setCategory(initialCategory)
-  }, [initialArea, initialCuisine, initialCategory])
+    setQuery(initialQuery)
+  }, [initialArea, initialCuisine, initialCategory, initialQuery])
 
   const filterBarValues = useMemo(
     () => ({ category, region: areaSlug, cuisine }),
@@ -125,15 +128,20 @@ export function RestaurantsBrowser({
   )
 
   const updateUrl = useCallback(
-    (updates: { area?: string; cuisine?: string; type?: string }) => {
+    (updates: { area?: string; cuisine?: string; type?: string; q?: string }) => {
       const params = new URLSearchParams()
-      if (updates.area) params.set("area", updates.area)
-      if (updates.cuisine) params.set("cuisine", updates.cuisine)
-      if (updates.type && updates.type !== "All") params.set("type", updates.type)
+      const nextArea = updates.area ?? areaSlug
+      const nextCuisine = updates.cuisine ?? cuisine
+      const nextType = updates.type ?? category
+      const nextQ = updates.q !== undefined ? updates.q : query
+      if (nextArea) params.set("area", nextArea)
+      if (nextCuisine) params.set("cuisine", nextCuisine)
+      if (nextType && nextType !== "All") params.set("type", nextType)
+      if (nextQ.trim()) params.set("q", nextQ.trim())
       const qs = params.toString()
       router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false })
     },
-    [pathname, router]
+    [areaSlug, category, cuisine, pathname, query, router]
   )
 
   const handleFilterChange = (key: "category" | "region" | "cuisine", value: string) => {
@@ -278,6 +286,11 @@ export function RestaurantsBrowser({
     router.replace(pathname, { scroll: false })
   }
 
+  const handleQueryChange = (value: string) => {
+    setQuery(value)
+    updateUrl({ q: value })
+  }
+
   return (
     <div className="grid gap-4">
       {/* Quick-Action Bar: sticky, backdrop-blur */}
@@ -384,7 +397,7 @@ export function RestaurantsBrowser({
               className="w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 placeholder:text-slate-400"
               placeholder="Name, cuisine, city, address..."
               value={query}
-              onChange={(e) => setQuery(e.target.value)}
+              onChange={(e) => handleQueryChange(e.target.value)}
             />
           </label>
         </div>

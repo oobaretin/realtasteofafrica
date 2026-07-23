@@ -1,6 +1,7 @@
 "use client"
 
 import type { ReactElement } from "react"
+import Image from "next/image"
 import Link from "next/link"
 import { ArrowRight, Globe, MapPin, Phone } from "lucide-react"
 
@@ -15,6 +16,7 @@ import { formatPhoneDisplay, toTelHref } from "@/lib/formatPhone"
 import type { Restaurant } from "@/lib/restaurants"
 import { useBusinessStatus } from "@/components/BusinessStatusClient"
 import { VerifiedBadge } from "@/components/VerifiedBadge"
+import { formatDirectoryVerifiedLabel, showDirectoryVerifiedBadge } from "@/lib/formatAudit"
 
 const touchBase =
   "inline-flex min-h-12 w-full select-none items-center justify-center gap-2 rounded-xl border text-sm font-semibold transition-transform active:scale-95 touch-manipulation"
@@ -98,6 +100,18 @@ export function RestaurantCard({
         isFeatured ? "border-amber-200 shadow-md hover:shadow-lg" : ""
       } ${isClosed ? "opacity-75" : ""}`}
     >
+      {r.imageUrl ? (
+        <div className="relative h-36 shrink-0 bg-slate-100">
+          <Image
+            src={r.imageUrl}
+            alt=""
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, 33vw"
+            unoptimized
+          />
+        </div>
+      ) : null}
       <div
         className={`relative shrink-0 ${stripClasses} ${isFeatured ? "h-12 sm:h-14" : "h-12"}`}
         aria-hidden
@@ -184,8 +198,10 @@ export function RestaurantCard({
             )
           })}
         </div>
-        {r.lastAuditDate && r.lastAuditDate.startsWith("2026") ? (
-          <p className="mt-2 text-xs text-slate-400">Verified 2026</p>
+        {showDirectoryVerifiedBadge(r) ? (
+          <p className="mt-2 text-xs text-slate-400">
+            {formatDirectoryVerifiedLabel(r.lastAuditDate)}
+          </p>
         ) : null}
       </div>
     </article>

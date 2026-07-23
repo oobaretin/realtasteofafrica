@@ -1,7 +1,9 @@
 import { type ReactNode } from "react"
 
-import { Breadcrumbs, type Crumb } from "@/components/Breadcrumbs"
+import { ContentGrid } from "@/components/ContentGrid"
+import { PageHeader } from "@/components/PageHeader"
 import { WpSidebar } from "@/components/WpSidebar"
+import type { Crumb } from "@/components/Breadcrumbs"
 
 export function WpPageShell({
   title,
@@ -9,6 +11,7 @@ export function WpPageShell({
   breadcrumbs,
   children,
   sidebar,
+  beforeContent,
 }: {
   title?: string
   description?: string
@@ -16,29 +19,14 @@ export function WpPageShell({
   children: ReactNode
   /** When provided, used instead of default WpSidebar (e.g. sidebar + Open Now toggle). */
   sidebar?: ReactNode
+  /** Optional block above the main/sidebar grid (e.g. mobile region chips). */
+  beforeContent?: ReactNode
 }) {
   return (
     <div className="grid gap-6">
-      {breadcrumbs ? <Breadcrumbs items={breadcrumbs} /> : null}
-
-      {title ? (
-        <header className="grid gap-2">
-          <h1 className="text-2xl font-semibold tracking-tight md:text-3xl">
-            {title}
-          </h1>
-          {description ? (
-            <p className="max-w-3xl text-sm text-slate-400">{description}</p>
-          ) : null}
-        </header>
-      ) : null}
-
-      <div className="grid gap-8 lg:grid-cols-[1fr_320px] lg:items-start">
-        <div className="min-w-0">{children}</div>
-        <div className="lg:sticky lg:top-24">
-          {sidebar ?? <WpSidebar />}
-        </div>
-      </div>
+      <PageHeader title={title} description={description} breadcrumbs={breadcrumbs} />
+      {beforeContent}
+      <ContentGrid sidebar={sidebar ?? <WpSidebar />}>{children}</ContentGrid>
     </div>
   )
 }
-

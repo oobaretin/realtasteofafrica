@@ -2,22 +2,11 @@ import Link from "next/link"
 
 import { Badge } from "@/components/Badge"
 import { FeaturedCarousel } from "@/components/FeaturedCarousel"
+import { HomeQuickFind } from "@/components/HomeQuickFind"
 import { StatewideDiscovery } from "@/components/StatewideDiscovery"
-import { RestaurantCard } from "@/components/RestaurantCard"
 import { AREAS } from "@/lib/areas"
 import { CUISINE_TAGS } from "@/lib/cuisines"
 import { getFeaturedRestaurants, RESTAURANTS } from "@/lib/restaurants"
-
-function scoreRestaurant(r: (typeof RESTAURANTS)[number]) {
-  // Prefer listings with more actionable info (for homepage "popular picks")
-  let score = 0
-  if (r.mapsUrl) score += 2
-  if (r.websiteUrl) score += 2
-  if (r.phone) score += 1
-  if (r.addressLine) score += 1
-  if (r.highlights?.length) score += 1
-  return score
-}
 
 const FEATURED_ORDER = [
   "chopnblok-montrose-houston-tx",
@@ -36,10 +25,6 @@ export default function HomePage() {
   const featured = getFeaturedRestaurants().sort(
     (a, b) => featuredCarouselRank(a.slug) - featuredCarouselRank(b.slug)
   )
-
-  const top = [...RESTAURANTS]
-    .sort((a, b) => scoreRestaurant(b) - scoreRestaurant(a))
-    .slice(0, 3)
 
   return (
     <div className="min-w-0 grid gap-6 sm:gap-8 lg:gap-10">
@@ -72,19 +57,21 @@ export default function HomePage() {
             </Link>
             <Link
               className="rounded-md border border-white/20 bg-white px-4 py-2.5 text-sm font-semibold text-slate-900 hover:bg-slate-50"
-              href="/restaurants"
+              href="/collections"
             >
-              All listings
+              Guides & picks
             </Link>
           </div>
         </div>
       </section>
 
+      <HomeQuickFind listingCount={RESTAURANTS.length} />
+
       <section className="min-w-0 grid gap-4">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between sm:gap-4">
           <div className="min-w-0">
             <h2 className="text-lg font-semibold tracking-tight sm:text-xl md:text-2xl">
-              The Best of the Lone Star State
+              Editor&apos;s favorites
             </h2>
             <p className="mt-1 text-sm text-slate-600 md:text-base">
               From the {RESTAURANTS.length}+ spots we track, here are our current favorites for
@@ -102,35 +89,8 @@ export default function HomePage() {
         <FeaturedCarousel restaurants={featured} />
       </section>
 
-      <section className="min-w-0 grid gap-4">
-        <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between sm:gap-4">
-          <div className="min-w-0">
-            <h2 className="text-lg font-semibold tracking-tight sm:text-xl">
-              Popular picks
-            </h2>
-            <p className="mt-1 text-sm text-slate-600">
-              Hand-picked highlights with solid contact info—call, directions, or follow their link.
-            </p>
-          </div>
-          <Link
-            className="text-sm font-medium text-amber-700 hover:text-amber-800"
-            href="/restaurants"
-          >
-            See all →
-          </Link>
-        </div>
-
-        <ul className="grid min-w-0 gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {top.map((r) => (
-            <li key={r.slug} className="min-w-0">
-              <RestaurantCard restaurant={r} variant="default" />
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <section className="min-w-0 grid gap-4">
-        <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between sm:gap-4">
+      <section className="min-w-0 grid gap-4 md:grid-cols-2 md:gap-6">
+        <div className="grid gap-3">
           <div className="min-w-0">
             <h2 className="text-lg font-semibold tracking-tight sm:text-xl">
               Browse by area
@@ -139,56 +99,48 @@ export default function HomePage() {
               Statewide coverage from El Paso to Beaumont.
             </p>
           </div>
-          <Link
-            className="text-sm font-medium text-amber-700 hover:text-amber-800"
-            href="/restaurants"
-          >
-            Browse all →
-          </Link>
-        </div>
-
-        <div className="min-w-0 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
-          <div className="flex min-w-0 flex-wrap gap-2">
-            {AREAS.map((a) => (
-              <Link
-                key={a.slug}
-                className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-50"
-                href={`/areas/${a.slug}`}
-              >
-                {a.name}
-              </Link>
-            ))}
+          <div className="min-w-0 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
+            <div className="flex min-w-0 flex-wrap gap-2">
+              {AREAS.map((a) => (
+                <Link
+                  key={a.slug}
+                  className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-50"
+                  href={`/areas/${a.slug}`}
+                >
+                  {a.name}
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
-      </section>
 
-      <section className="min-w-0 grid gap-4">
-        <div className="min-w-0">
-          <h2 className="text-lg font-semibold tracking-tight sm:text-xl">
-            Explore by cuisine
-          </h2>
-          <p className="mt-1 text-sm text-slate-600">
-            Nigerian, Ethiopian, Ghanaian, Senegalese, Somali, Eritrean, and more across Texas.
-          </p>
-        </div>
-
-        <div className="min-w-0 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
-          <ul className="grid min-w-0 gap-3 sm:gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {CUISINE_TAGS.map(({ tag, exampleNames }) => (
-              <li key={tag}>
-                <Link
-                  className="block rounded-lg border border-slate-100 p-4 transition-colors hover:border-amber-200 hover:bg-amber-50/50"
-                  href={`/restaurants?cuisine=${encodeURIComponent(tag)}`}
-                >
-                  <span className="font-semibold text-slate-900">{tag}</span>
-                  <p className="mt-1.5 line-clamp-2 text-xs text-slate-500">
-                    e.g. {exampleNames.slice(0, 3).join(", ")}
-                    {exampleNames.length > 3 ? "…" : ""}
-                  </p>
-                </Link>
-              </li>
-            ))}
-          </ul>
+        <div className="grid gap-3">
+          <div className="min-w-0">
+            <h2 className="text-lg font-semibold tracking-tight sm:text-xl">
+              Explore by cuisine
+            </h2>
+            <p className="mt-1 text-sm text-slate-600">
+              Nigerian, Ethiopian, Ghanaian, and more across Texas.
+            </p>
+          </div>
+          <div className="min-w-0 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
+            <ul className="grid min-w-0 gap-2">
+              {CUISINE_TAGS.map(({ tag, exampleNames }) => (
+                <li key={tag}>
+                  <Link
+                    className="block rounded-lg border border-slate-100 p-3 transition-colors hover:border-amber-200 hover:bg-amber-50/50"
+                    href={`/restaurants?cuisine=${encodeURIComponent(tag)}`}
+                  >
+                    <span className="font-semibold text-slate-900">{tag}</span>
+                    <p className="mt-0.5 line-clamp-1 text-xs text-slate-500">
+                      e.g. {exampleNames.slice(0, 2).join(", ")}
+                      {exampleNames.length > 2 ? "…" : ""}
+                    </p>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -196,4 +148,3 @@ export default function HomePage() {
     </div>
   )
 }
-

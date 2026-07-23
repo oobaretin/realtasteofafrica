@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 
+import { RegionChipBar } from "@/components/RegionChipBar"
 import { WpPageShell } from "@/components/WpPageShell"
 import { WpSidebar } from "@/components/WpSidebar"
 import { RestaurantsBrowser } from "@/components/RestaurantsBrowser"
@@ -15,6 +16,7 @@ export function BrowseContent({
   initialCuisine,
   initialArea,
   initialCategory = "All",
+  initialQuery = "",
 }: {
   restaurants: Restaurant[]
   areas: Area[]
@@ -22,6 +24,7 @@ export function BrowseContent({
   initialCuisine: string
   initialArea: string
   initialCategory?: string
+  initialQuery?: string
 }) {
   const [isOpenNowOnly, setIsOpenNowOnly] = useState(false)
 
@@ -39,6 +42,7 @@ export function BrowseContent({
         { href: "/", label: "Home" },
         { href: "/restaurants", label: "Restaurants" },
       ]}
+      beforeContent={<RegionChipBar areas={areas} activeSlug={initialArea} />}
       sidebar={sidebar}
     >
       <RestaurantsBrowser
@@ -48,6 +52,7 @@ export function BrowseContent({
         initialCuisine={initialCuisine}
         initialArea={initialArea}
         initialCategory={initialCategory}
+        initialQuery={initialQuery}
         isOpenNowOnly={isOpenNowOnly}
         onOpenNowOnlyChange={setIsOpenNowOnly}
       />

@@ -8,7 +8,7 @@ export const metadata = {
 }
 
 type RestaurantsPageProps = {
-  searchParams: Promise<{ cuisine?: string; area?: string; type?: string }>
+  searchParams: Promise<{ cuisine?: string; area?: string; type?: string; q?: string }>
 }
 
 export default async function RestaurantsPage({ searchParams }: RestaurantsPageProps) {
@@ -16,6 +16,7 @@ export default async function RestaurantsPage({ searchParams }: RestaurantsPageP
   const params = await searchParams
   const initialCuisine = params.cuisine?.trim() ?? ""
   const initialArea = params.area?.trim() ?? ""
+  const initialQuery = params.q?.trim() ?? ""
   const typeParam = params.type?.trim() ?? "All"
   const validTypes = new Set(ALL_FILTER_TYPE_VALUES)
   const initialCategory = validTypes.has(typeParam) ? typeParam : "All"
@@ -28,6 +29,7 @@ export default async function RestaurantsPage({ searchParams }: RestaurantsPageP
       initialCuisine={initialCuisine}
       initialArea={initialArea}
       initialCategory={initialCategory}
+      initialQuery={initialQuery}
     />
   )
 }

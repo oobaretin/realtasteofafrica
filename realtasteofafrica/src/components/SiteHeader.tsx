@@ -43,7 +43,7 @@ export function SiteHeader() {
             width={224}
             height={224}
             priority
-            className="h-16 w-16 origin-left scale-125 rounded-md object-contain sm:h-20 sm:w-20 sm:scale-125 md:h-24 md:w-24 md:scale-125"
+            className="h-14 w-14 origin-left scale-110 rounded-md object-contain sm:h-16 sm:w-16 sm:scale-110 md:h-20 md:w-20 md:scale-110"
           />
         </Link>
 
@@ -69,7 +69,7 @@ export function SiteHeader() {
             className="ml-2 rounded-md bg-amber-600 px-3 py-2 text-sm font-semibold text-white hover:bg-amber-700"
             href="/restaurants"
           >
-            Search
+            Browse
           </Link>
         </nav>
 
@@ -123,7 +123,7 @@ export function SiteHeader() {
               href="/restaurants"
               onClick={() => setIsOpen(false)}
             >
-              Search
+              Browse
             </Link>
           </nav>
         </div>

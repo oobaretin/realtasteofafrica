@@ -6,17 +6,17 @@ export function Breadcrumbs({ items }: { items: Crumb[] }) {
   if (items.length <= 1) return null
 
   return (
-    <nav aria-label="Breadcrumb" className="text-xs text-slate-400">
+    <nav aria-label="Breadcrumb" className="text-xs text-slate-500">
       <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
         {items.map((c, idx) => {
           const isLast = idx === items.length - 1
           return (
             <li key={`${c.href}-${idx}`} className="flex items-center gap-x-2">
-              {idx > 0 ? <span className="text-slate-600">/</span> : null}
+              {idx > 0 ? <span className="text-slate-300">/</span> : null}
               {isLast ? (
-                <span className="text-slate-200">{c.label}</span>
+                <span className="font-medium text-slate-700">{c.label}</span>
               ) : (
-                <Link className="hover:text-slate-200" href={c.href}>
+                <Link className="hover:text-amber-700" href={c.href}>
                   {c.label}
                 </Link>
               )}
@@ -27,4 +27,3 @@ export function Breadcrumbs({ items }: { items: Crumb[] }) {
     </nav>
   )
 }
-
