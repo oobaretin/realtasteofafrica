@@ -3,7 +3,7 @@
  * Fill latitude/longitude on data/restaurants.csv using the US Census geocoder
  * (reliable for US street addresses; no API key required).
  *
- * Falls back to Nominatim (OSM) when Census returns no match.
+ * Falls back to Photon, Nominatim (OSM), then Esri World Geocoder when Census returns no match.
  *
  * Usage:
  *   node scripts/geocode-restaurants-census.mjs
@@ -70,6 +70,53 @@ async function censusGeocode(query) {
   return { lat, lon, source: "census" }
 }
 
+async function photonGeocode(query) {
+  const url = new URL("https://photon.komoot.io/api/")
+  url.searchParams.set("q", query)
+  url.searchParams.set("limit", "5")
+  const res = await fetch(url.toString(), {
+    headers: { Accept: "application/json", "User-Agent": USER_AGENT },
+  })
+  if (!res.ok) throw new Error(`Photon HTTP ${res.status}`)
+  const data = await res.json()
+  const features = data?.features
+  if (!Array.isArray(features) || features.length === 0) return null
+  for (const feature of features) {
+    const props = feature?.properties ?? {}
+    if (props.countrycode !== "US" || props.state !== "TX") continue
+    const coords = feature?.geometry?.coordinates
+    if (!Array.isArray(coords) || coords.length < 2) continue
+    const lon = Number(coords[0])
+    const lat = Number(coords[1])
+    if (!Number.isFinite(lat) || !Number.isFinite(lon)) continue
+    return { lat, lon, source: "photon" }
+  }
+  return null
+}
+
+async function esriGeocode(query) {
+  const url = new URL(
+    "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates"
+  )
+  url.searchParams.set("SingleLine", query)
+  url.searchParams.set("maxLocations", "1")
+  url.searchParams.set("countryCode", "USA")
+  url.searchParams.set("f", "json")
+  const res = await fetch(url.toString(), {
+    headers: { Accept: "application/json", "User-Agent": USER_AGENT },
+  })
+  if (!res.ok) throw new Error(`Esri HTTP ${res.status}`)
+  const data = await res.json()
+  const candidate = data?.candidates?.[0]
+  const score = Number(candidate?.score ?? 0)
+  const loc = candidate?.location
+  if (!loc || score < 90) return null
+  const lat = Number(loc.y)
+  const lon = Number(loc.x)
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null
+  return { lat, lon, source: "esri" }
+}
+
 async function nominatimGeocode(query) {
   const url = new URL("https://nominatim.openstreetmap.org/search")
   url.searchParams.set("format", "json")
@@ -99,6 +146,13 @@ async function geocodeRow(row) {
     console.warn(`Census failed (${query}):`, e instanceof Error ? e.message : e)
   }
 
+  try {
+    const photon = await photonGeocode(query)
+    if (photon) return photon
+  } catch (e) {
+    console.warn(`Photon failed (${query}):`, e instanceof Error ? e.message : e)
+  }
+
   await sleep(NOMINATIM_DELAY_MS)
   try {
     const osm = await nominatimGeocode(query)
@@ -113,11 +167,20 @@ async function geocodeRow(row) {
   if (name && city) {
     await sleep(NOMINATIM_DELAY_MS)
     try {
-      return await nominatimGeocode(`${name}, ${city}, ${state}`)
-    } catch {
-      return null
+      const byName = await nominatimGeocode(`${name}, ${city}, ${state}`)
+      if (byName) return byName
+    } catch (e) {
+      console.warn(`Nominatim name lookup failed (${name}, ${city}):`, e instanceof Error ? e.message : e)
     }
   }
+
+  try {
+    const esri = await esriGeocode(query)
+    if (esri) return esri
+  } catch (e) {
+    console.warn(`Esri failed (${query}):`, e instanceof Error ? e.message : e)
+  }
+
   return null
 }
 
