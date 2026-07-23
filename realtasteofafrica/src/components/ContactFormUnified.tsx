@@ -1,8 +1,7 @@
 "use client"
 
-import { useCallback, useEffect, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 
-import { TurnstileWidget } from "@/components/TurnstileWidget"
 import { CONTACT_EMAIL } from "@/lib/site"
 
 const ISSUE_OPTIONS = [
@@ -11,8 +10,6 @@ const ISSUE_OPTIONS = [
   { value: "Correction", label: "Correction" },
   { value: "Business Claim", label: "Business Claim" },
 ] as const
-
-const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ?? ""
 
 function FloatingLabel({
   id,
@@ -45,6 +42,28 @@ function FloatingLabel({
   )
 }
 
+function buildMailtoHref({
+  issue,
+  restaurantName,
+  senderEmail,
+  message,
+}: {
+  issue: string
+  restaurantName: string
+  senderEmail: string
+  message: string
+}) {
+  const subject = `${issue} – Real Taste of Africa`
+  const bodyParts = [
+    restaurantName.trim() ? `Restaurant: ${restaurantName.trim()}` : null,
+    senderEmail.trim() ? `Your email: ${senderEmail.trim()}` : null,
+    "",
+    message.trim(),
+  ].filter((line): line is string => typeof line === "string")
+  const body = bodyParts.join("\n")
+  return `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+}
+
 export function ContactFormUnified({
   initialRestaurantName = "",
 }: {
@@ -57,96 +76,17 @@ export function ContactFormUnified({
   const [messageFocused, setMessageFocused] = useState(false)
   const [restaurantFocused, setRestaurantFocused] = useState(false)
   const [emailFocused, setEmailFocused] = useState(false)
-  const [turnstileToken, setTurnstileToken] = useState("")
-  const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle")
-  const [errorMessage, setErrorMessage] = useState("")
-  const [turnstileMountKey, setTurnstileMountKey] = useState(0)
 
   useEffect(() => {
     setRestaurantName(initialRestaurantName)
   }, [initialRestaurantName])
 
-  const resetTurnstile = useCallback(() => {
-    setTurnstileToken("")
-    setTurnstileMountKey((k) => k + 1)
-  }, [])
+  const mailtoHref = useMemo(
+    () => buildMailtoHref({ issue, restaurantName, senderEmail, message }),
+    [issue, restaurantName, senderEmail, message]
+  )
 
-  const onTurnstileVerify = useCallback((token: string) => {
-    setTurnstileToken(token)
-  }, [])
-
-  const onTurnstileExpire = useCallback(() => {
-    setTurnstileToken("")
-  }, [])
-
-  const missingRequired =
-    !issue.trim() || !message.trim() || (!!TURNSTILE_SITE_KEY && !turnstileToken)
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    if (missingRequired || status === "loading") return
-
-    setStatus("loading")
-    setErrorMessage("")
-
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          issue,
-          restaurantName,
-          message,
-          senderEmail,
-          turnstileToken,
-        }),
-      })
-
-      const data = (await res.json()) as { success?: boolean; error?: string }
-
-      if (!res.ok || !data.success) {
-        setStatus("error")
-        setErrorMessage(data.error || "Could not send your message. Please try again.")
-        resetTurnstile()
-        return
-      }
-
-      setStatus("success")
-      setIssue("")
-      setMessage("")
-      setSenderEmail("")
-      setRestaurantName("")
-      resetTurnstile()
-    } catch {
-      setStatus("error")
-      setErrorMessage("Network error. Check your connection and try again.")
-      resetTurnstile()
-    }
-  }
-
-  if (status === "success") {
-    return (
-      <section
-        id="report"
-        className="rounded-2xl border border-emerald-200 bg-emerald-50 p-6 shadow-lg md:p-8"
-      >
-        <h2 className="text-xl font-bold tracking-tight text-emerald-900 md:text-2xl">
-          Message sent
-        </h2>
-        <p className="mt-2 text-sm text-emerald-900/80">
-          Thanks for helping keep the directory accurate. We&apos;ll review your report and follow
-          up if needed.
-        </p>
-        <button
-          type="button"
-          onClick={() => setStatus("idle")}
-          className="mt-5 rounded-xl border border-emerald-300 bg-white px-4 py-2.5 text-sm font-semibold text-emerald-900 hover:bg-emerald-100"
-        >
-          Send another message
-        </button>
-      </section>
-    )
-  }
+  const missingRequired = !issue.trim() || !message.trim()
 
   return (
     <section
@@ -157,22 +97,21 @@ export function ContactFormUnified({
         Report or correct a listing
       </h2>
       <p className="mt-2 text-sm text-slate-600">
-        Submit the form and we&apos;ll email our team at{" "}
+        Submit opens your email app with a pre-filled message to{" "}
         <a className="font-medium text-amber-700 hover:underline" href={`mailto:${CONTACT_EMAIL}`}>
           {CONTACT_EMAIL}
         </a>
-        . Protected by Cloudflare Turnstile.
+        .
       </p>
 
-      {!TURNSTILE_SITE_KEY ? (
-        <p className="mt-4 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
-          Contact form is not fully configured yet. Set{" "}
-          <code className="text-xs">NEXT_PUBLIC_TURNSTILE_SITE_KEY</code> and Cloudflare email
-          env vars in production.
-        </p>
-      ) : null}
-
-      <form className="mt-6 grid gap-6" onSubmit={handleSubmit}>
+      <form
+        className="mt-6 grid gap-6"
+        onSubmit={(e) => {
+          e.preventDefault()
+          if (missingRequired) return
+          window.location.href = mailtoHref
+        }}
+      >
         <div className="relative">
           <span className="mb-2 block text-xs font-medium uppercase tracking-wide text-slate-500">
             Issue type <span className="text-amber-700">*</span>
@@ -254,41 +193,28 @@ export function ContactFormUnified({
           </FloatingLabel>
         </div>
 
-        {TURNSTILE_SITE_KEY ? (
-          <TurnstileWidget
-            key={turnstileMountKey}
-            siteKey={TURNSTILE_SITE_KEY}
-            onVerify={onTurnstileVerify}
-            onExpire={onTurnstileExpire}
-            onError={onTurnstileExpire}
-          />
-        ) : null}
-
         <p className="text-xs text-slate-500">
           Include business name, address, or details so we can act quickly.
         </p>
 
-        {status === "error" && errorMessage ? (
-          <p className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800">
-            {errorMessage}
-          </p>
-        ) : null}
-
         <div className="flex flex-wrap items-center gap-3">
           <button
             type="submit"
-            disabled={missingRequired || status === "loading" || !TURNSTILE_SITE_KEY}
+            disabled={missingRequired}
             className="rounded-xl bg-amber-600 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-amber-700 disabled:cursor-not-allowed disabled:opacity-50"
           >
-            {status === "loading" ? "Sending…" : "Send message"}
+            Open email to send
           </button>
+          <a
+            className="text-sm font-semibold text-amber-700 hover:text-amber-800"
+            href={mailtoHref}
+          >
+            Open email instead →
+          </a>
         </div>
 
         {missingRequired ? (
-          <p className="text-xs text-slate-500">
-            Required: issue type, message
-            {TURNSTILE_SITE_KEY ? ", and security check" : ""}.
-          </p>
+          <p className="text-xs text-slate-500">Required: issue type and message.</p>
         ) : null}
       </form>
     </section>
