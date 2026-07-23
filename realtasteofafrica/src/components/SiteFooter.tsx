@@ -70,15 +70,15 @@ export function SiteFooter() {
 
           <div className="grid gap-2 text-sm">
             <div className="font-semibold text-slate-900">Contact</div>
-            <Link className="text-slate-600 hover:text-slate-900" href="/contact">
-              Contact
-            </Link>
             <a
-              className="text-slate-600 hover:text-slate-900"
+              className="text-slate-600 hover:text-slate-900 hover:underline"
               href={`mailto:${CONTACT_EMAIL}`}
             >
               {CONTACT_EMAIL}
             </a>
+            <Link className="text-slate-600 hover:text-slate-900" href="/contact">
+              Contact form →
+            </Link>
             <p className="pt-1 text-xs text-slate-500">
               Corrections, new listings, or claim requests.
             </p>
