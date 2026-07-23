@@ -70,8 +70,8 @@ export function ClaimFlow({ initialSlug }: { initialSlug?: string }) {
               <span className="font-medium">{selectedRestaurant.name}</span>
               <span className="text-slate-500"> — {selectedRestaurant.city}</span>
             </p>
-            <p className="font-medium text-amber-800">
-              One-time verification fee: ${CLAIM_VERIFY_PRICE_USD} USD
+            <p className="text-sm text-amber-800">
+              Verification fee: ${CLAIM_VERIFY_PRICE_USD} USD (one-time, at checkout)
             </p>
           </div>
 

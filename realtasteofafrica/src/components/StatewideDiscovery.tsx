@@ -1,5 +1,6 @@
 import Link from "next/link"
 
+import { countAuditedListings } from "@/lib/formatAudit"
 import type { Restaurant } from "@/lib/restaurants"
 
 const REGIONS: {
@@ -50,6 +51,7 @@ type StatewideDiscoveryProps = {
 export function StatewideDiscovery({ restaurants }: StatewideDiscoveryProps) {
   const total = restaurants.length
   const cities = uniqueCityCount(restaurants)
+  const audited = countAuditedListings(restaurants)
 
   return (
     <section
@@ -78,8 +80,8 @@ export function StatewideDiscovery({ restaurants }: StatewideDiscoveryProps) {
           <p className="mt-1 text-sm font-medium text-slate-700">Cities</p>
         </div>
         <div className="rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm">
-          <p className="text-3xl font-bold tabular-nums text-amber-600 md:text-4xl">2026</p>
-          <p className="mt-1 text-sm font-medium text-slate-700">Verified</p>
+          <p className="text-3xl font-bold tabular-nums text-amber-600 md:text-4xl">{audited}</p>
+          <p className="mt-1 text-sm font-medium text-slate-700">Audited listings</p>
         </div>
       </div>
 

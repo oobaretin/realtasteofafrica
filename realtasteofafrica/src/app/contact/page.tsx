@@ -48,12 +48,12 @@ export default async function ContactPage({
           >
             <span className="text-2xl" aria-hidden>✓</span>
             <h2 className="mt-2 text-base font-semibold tracking-tight text-slate-900">
-              Claim / Verify
+              Claim your listing
             </h2>
             <p className="mt-1 text-sm text-slate-600">
-              Verify your listing for a verified badge and control of your page.
+              Verify ownership for a badge and control of your page.
             </p>
-            <span className="mt-3 text-sm font-medium text-amber-700">Go to verification →</span>
+            <span className="mt-3 text-sm font-medium text-amber-700">Go to claim flow →</span>
           </Link>
 
           <a

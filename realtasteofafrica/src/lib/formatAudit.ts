@@ -15,3 +15,24 @@ export function formatDirectoryVerifiedLabel(lastAuditDate?: string): string {
   const year = d.getFullYear()
   return `Directory verified · ${month} ${year}`
 }
+
+/** Latest audit month across listings, e.g. "July 2026". */
+export function formatLatestAuditMonth(
+  restaurants: { lastAuditDate?: string }[]
+): string {
+  const dates = restaurants
+    .map((r) => r.lastAuditDate?.trim())
+    .filter((d): d is string => Boolean(d))
+    .sort()
+  const latest = dates.at(-1)
+  if (!latest) return "Recently"
+  const d = new Date(`${latest}T12:00:00`)
+  if (Number.isNaN(d.getTime())) return "Recently"
+  return d.toLocaleString("en-US", { month: "long", year: "numeric" })
+}
+
+export function countAuditedListings(
+  restaurants: { lastAuditDate?: string; internalVerified?: boolean }[]
+): number {
+  return restaurants.filter((r) => showDirectoryVerifiedBadge(r)).length
+}

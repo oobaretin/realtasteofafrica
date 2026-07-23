@@ -85,13 +85,8 @@ export function SiteFooter() {
           </div>
         </div>
 
-        <div className="mt-10 flex flex-col gap-2 border-t border-slate-200 pt-6 text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between">
-          <div>
-            © {new Date().getFullYear()} Real Taste of Africa. All rights reserved.
-          </div>
-          <div className="text-slate-500">
-            The largest verified directory of African cuisine in the Lone Star State.
-          </div>
+        <div className="mt-10 border-t border-slate-200 pt-6 text-xs text-slate-500">
+          © {new Date().getFullYear()} Real Taste of Africa. All rights reserved.
         </div>
       </div>
     </footer>

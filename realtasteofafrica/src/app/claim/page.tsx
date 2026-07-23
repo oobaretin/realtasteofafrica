@@ -3,7 +3,6 @@ import Link from "next/link"
 import { PageHeader } from "@/components/PageHeader"
 import { RESTAURANTS } from "@/lib/restaurants"
 import { ClaimFlow } from "@/components/ClaimFlow"
-import { CLAIM_VERIFY_PRICE_USD } from "@/lib/site"
 
 function CheckIcon({ className }: { className?: string }) {
   return (
@@ -165,7 +164,7 @@ export default async function ClaimPage({
                   Community Listing <span className="font-normal text-slate-500">(Free)</span>
                 </th>
                 <th scope="col" className="bg-amber-50/80 px-4 py-3 font-semibold text-amber-900">
-                  Verified Listing <span className="font-normal text-amber-800">(${CLAIM_VERIFY_PRICE_USD} One-Time)</span>
+                  Verified Listing
                 </th>
               </tr>
             </thead>
@@ -241,7 +240,8 @@ export default async function ClaimPage({
           </table>
         </div>
         <div className="border-t border-slate-200 bg-slate-50/50 px-4 py-3 text-center text-xs text-slate-500">
-          Community listings are free and include name &amp; city. Verified listings get the full address, links, custom photos, gold badge, and priority in search.
+          Community listings are free. Verified listings add the full address, links, photos, badge, and
+          priority in search. Verification fee applies at checkout.
         </div>
       </section>
 
@@ -250,13 +250,12 @@ export default async function ClaimPage({
           href="#claim-search"
           className="inline-flex w-fit items-center justify-center rounded-lg bg-amber-600 px-6 py-3.5 text-base font-semibold text-white hover:bg-amber-700 focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
         >
-          Find Your Listing & Claim Now
+          Find your listing
         </a>
 
         <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
           <p className="mb-6 text-sm text-slate-600">
-            One-time fee of ${CLAIM_VERIFY_PRICE_USD} — no subscription. After payment and
-            verification, we add your badge and update your listing.
+            Search for your restaurant, then verify with PayPal or request an invoice by email.
           </p>
           <ClaimFlow initialSlug={initialSlug} />
         </div>

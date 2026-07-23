@@ -4,6 +4,7 @@
  */
 
 import { RESTAURANTS } from "@/lib/restaurants"
+import { formatLatestAuditMonth } from "@/lib/formatAudit"
 
 // Hotspot: label, position, areaSlug for /restaurants?area=
 const HOTSPOTS = [
@@ -24,6 +25,8 @@ const PIN_COLOR = "#B45309"
 const PIN_INNER = "#92400E"
 
 export function CoverageMap() {
+  const lastAuditLabel = formatLatestAuditMonth(RESTAURANTS)
+
   return (
     <section
       className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm md:p-8"
@@ -114,7 +117,7 @@ export function CoverageMap() {
             trucks, and markets across the Lone Star State.
           </p>
           <span className="mt-4 inline-block text-xs text-slate-500">
-            Data Integrity · Last Statewide Audit: January 2026
+            Data integrity · Last statewide audit: {lastAuditLabel}
           </span>
         </div>
       </div>

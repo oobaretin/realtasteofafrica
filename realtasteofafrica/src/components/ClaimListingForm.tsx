@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react"
 
-import { CLAIM_VERIFY_PRICE_USD, CONTACT_EMAIL } from "@/lib/site"
+import { CONTACT_EMAIL } from "@/lib/site"
 
 type FormState = {
   restaurantName: string
@@ -16,7 +16,7 @@ type FormState = {
 
 function formatInvoiceRequestBody(state: FormState) {
   const lines = [
-    `Claim & Verify Listing — PayPal invoice request ($${CLAIM_VERIFY_PRICE_USD} one-time)`,
+    `Claim & Verify Listing — PayPal invoice request`,
     "",
     `Restaurant: ${state.restaurantName || "-"}`,
     `City: ${state.city || "-"}`,

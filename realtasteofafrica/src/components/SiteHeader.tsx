@@ -3,14 +3,13 @@
 import Image from "next/image"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { useMemo, useState } from "react"
+import { useState } from "react"
 
 type NavItem = { href: string; label: string }
 
 const NAV_ITEMS: NavItem[] = [
   { href: "/restaurants", label: "Browse" },
   { href: "/collections", label: "Guides" },
-  { href: "/claim", label: "Claim" },
   { href: "/contact", label: "Contact" },
 ]
 
@@ -22,11 +21,6 @@ function isActivePath(currentPath: string, href: string) {
 export function SiteHeader() {
   const pathname = usePathname() ?? "/"
   const [isOpen, setIsOpen] = useState(false)
-
-  const activeLabel = useMemo(() => {
-    const active = NAV_ITEMS.find((i) => isActivePath(pathname, i.href))
-    return active?.label ?? "Home"
-  }, [pathname])
 
   return (
     <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/90 backdrop-blur">
@@ -65,12 +59,6 @@ export function SiteHeader() {
               </Link>
             )
           })}
-          <Link
-            className="ml-2 rounded-md bg-amber-600 px-3 py-2 text-sm font-semibold text-white hover:bg-amber-700"
-            href="/restaurants"
-          >
-            Browse
-          </Link>
         </nav>
 
         <button
@@ -116,15 +104,8 @@ export function SiteHeader() {
                 >
                   {item.label}
                 </Link>
-              )
-            })}
-            <Link
-              className="mt-1 rounded-md bg-amber-600 px-3 py-2.5 text-sm font-semibold text-white hover:bg-amber-700"
-              href="/restaurants"
-              onClick={() => setIsOpen(false)}
-            >
-              Browse
-            </Link>
+            )
+          })}
           </nav>
         </div>
       ) : null}
