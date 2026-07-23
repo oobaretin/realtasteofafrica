@@ -70,21 +70,12 @@ export function SiteFooter() {
 
           <div className="grid gap-3 text-sm">
             <div className="font-semibold text-slate-900">Get in touch</div>
-            <p className="text-xs leading-relaxed text-slate-500">
-              Listing corrections, closures, and general questions.
-            </p>
             <a
               className="break-all font-medium text-amber-700 hover:text-amber-800 hover:underline"
               href={`mailto:${CONTACT_EMAIL}`}
             >
               {CONTACT_EMAIL}
             </a>
-            <Link
-              className="text-slate-600 hover:text-slate-900 hover:underline"
-              href="/contact#report"
-            >
-              Report or correct a listing
-            </Link>
           </div>
         </div>
 
