@@ -1,0 +1,1634 @@
+{
+  "generatedAt": "2026-07-23T05:01:40.285227+00:00",
+  "checked": 157,
+  "brokenCount": 47,
+  "broken": [
+    {
+      "slug": "sarabell-calabar-restaurant-and-buffet-houston-tx",
+      "name": "Sarabell Calabar Restaurant & Buffet",
+      "city": "Houston",
+      "url": "https://sarabellcalabarrestaurant.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "sabo-suya-spot-houston-tx",
+      "name": "Sabo Suya Spot",
+      "city": "Houston",
+      "url": "https://sabosuya.com/",
+      "ok": false,
+      "error": "TIMEOUT",
+      "method": "HEAD"
+    },
+    {
+      "slug": "abula-hotpot-houston-tx",
+      "name": "Abula HotPot",
+      "city": "Houston",
+      "url": "https://abulahotpottx.com/",
+      "ok": false,
+      "error": "<urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)>",
+      "method": "GET"
+    },
+    {
+      "slug": "ekomi-nigerian-restaurant-katy-tx",
+      "name": "Ekomi Nigerian Restaurant",
+      "city": "Katy",
+      "url": "https://ekomieats.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "onyis-suya-katy-tx",
+      "name": "Onyi's Suya",
+      "city": "Katy",
+      "url": "https://onyisuya.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "the-port-of-peri-peri-sugar-land-tx",
+      "name": "The Port of Peri Peri",
+      "city": "Sugar Land",
+      "url": "https://myperiperi.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "rodo-nigerian-cuisine-richmond-tx",
+      "name": "Rodo Nigerian Cuisine",
+      "city": "Richmond",
+      "url": "https://rodonigeriancuisine.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "jc-african-and-caribbean-food-store-mcallen-tx",
+      "name": "JC African & Caribbean Food Store",
+      "city": "Mcallen",
+      "url": "https://www.africanfoodstores.com",
+      "ok": false,
+      "error": "TIMEOUT",
+      "method": "HEAD"
+    },
+    {
+      "slug": "afroo-dining-amarillo-tx",
+      "name": "AFROO DINING",
+      "city": "Amarillo",
+      "url": "https://www.afroodining.com/",
+      "ok": false,
+      "status": 404,
+      "error": "HTTP 404",
+      "method": "HEAD"
+    },
+    {
+      "slug": "kofoshi-houston-tx",
+      "name": "Kofoshi",
+      "city": "Houston",
+      "url": "https://www.kofoshinigerianresturant.com/",
+      "ok": false,
+      "status": 404,
+      "error": "HTTP 404",
+      "method": "HEAD"
+    },
+    {
+      "slug": "authentic-african-restaurant-and-bar-houston-tx",
+      "name": "Authentic African Restaurant & Bar",
+      "city": "Houston",
+      "url": "https://authenticafricanfoods.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "fufu-restaurant-west-african-influence-houston-tx",
+      "name": "FuFu Restaurant (West African influence)",
+      "city": "Houston",
+      "url": "https://fufurestaurant.com/",
+      "ok": false,
+      "error": "DNS_FAILED",
+      "method": "HEAD"
+    },
+    {
+      "slug": "west-african-way-plano-tx",
+      "name": "West African Way",
+      "city": "Plano",
+      "url": "https://www.visitplano.com/dining/west-african-way/",
+      "ok": false,
+      "status": 404,
+      "error": "HTTP 404",
+      "method": "HEAD"
+    },
+    {
+      "slug": "leanna-chop-grill-fort-worth-tx",
+      "name": "LeAnna Chop Grill",
+      "city": "Fort Worth",
+      "url": "https://leannachopgrill.com/",
+      "ok": false,
+      "error": "DNS_FAILED",
+      "method": "HEAD"
+    },
+    {
+      "slug": "african-village-irving-tx",
+      "name": "African Village",
+      "city": "Irving",
+      "url": "https://www.africanvillagerestaurant.com/",
+      "ok": false,
+      "status": 404,
+      "error": "HTTP 404",
+      "method": "HEAD"
+    },
+    {
+      "slug": "fufudelight-and-suya-kitchen-arlington-tx",
+      "name": "Fufudelight & Suya Kitchen",
+      "city": "Arlington",
+      "url": "https://www.fufudelightsuyakitchen.com/",
+      "ok": false,
+      "status": 404,
+      "error": "HTTP 404",
+      "method": "HEAD"
+    },
+    {
+      "slug": "lagos-kitchen-lewisville-tx",
+      "name": "Lagos Kitchen",
+      "city": "Lewisville",
+      "url": "https://www.lagos-kitchen.com",
+      "ok": false,
+      "error": "<urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version ",
+      "method": "GET"
+    },
+    {
+      "slug": "lady-t-kitchen-african-restaurant-pflugerville-tx",
+      "name": "Lady T Kitchen African Restaurant",
+      "city": "Pflugerville",
+      "url": "https://ladytkitchen.com/",
+      "ok": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self ",
+      "method": "GET"
+    },
+    {
+      "slug": "wazobia-african-market-and-kitchen-houston-tx",
+      "name": "Wazobia African Market & Kitchen",
+      "city": "Houston",
+      "url": "https://wazobiaafricanmarket.com/",
+      "ok": false,
+      "error": "TIMEOUT",
+      "method": "HEAD"
+    },
+    {
+      "slug": "yenat-guada-ethiopian-cuisine-dallas-tx",
+      "name": "Yenat Guada Ethiopian Cuisine",
+      "city": "Dallas",
+      "url": "https://yenatguada.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "trices-cafe-and-lounge-san-antonio-tx",
+      "name": "Trices Cafe and Lounge",
+      "city": "San Antonio",
+      "url": "https://www.tricescafeandlounge.com/",
+      "ok": false,
+      "status": 404,
+      "error": "HTTP 404",
+      "method": "HEAD"
+    },
+    {
+      "slug": "cubana-grille-african-and-jamaican-restaurant-in-mckinney-texas-mckinney-tx",
+      "name": "Cubana Grille | African & Jamaican Restaurant in McKinney Texas",
+      "city": "Mckinney",
+      "url": "https://cubanagrille.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "amala-zone-houston-tx",
+      "name": "Amala Zone",
+      "city": "Houston",
+      "url": "https://amalazone.com/",
+      "ok": false,
+      "status": 521,
+      "error": "HTTP 521",
+      "method": "HEAD"
+    },
+    {
+      "slug": "african-tasty-hub-houston-tx",
+      "name": "African Tasty Hub",
+      "city": "Houston",
+      "url": "https://africantastyhub.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "crave-suya-houston-tx",
+      "name": "Crave Suya",
+      "city": "Houston",
+      "url": "https://cravesuya.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "lady-t-kitchen-austin-tx",
+      "name": "Lady T Kitchen",
+      "city": "Austin",
+      "url": "https://ladytkitchen.com/",
+      "ok": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self ",
+      "method": "GET"
+    },
+    {
+      "slug": "southwest-farmers-market-and-kitchen-arlington-tx",
+      "name": "Southwest Farmers Market & Kitchen",
+      "city": "Arlington",
+      "url": "https://www.southwestfarmersmarket.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "southwest-farmers-market-and-kitchen-austin-tx",
+      "name": "Southwest Farmers Market & Kitchen",
+      "city": "Austin",
+      "url": "https://www.southwestfarmersmarket.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "southwest-farmers-market-and-kitchen-san-antonio-tx",
+      "name": "Southwest Farmers Market & Kitchen",
+      "city": "San Antonio",
+      "url": "https://www.southwestfarmersmarket.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "southwest-farmers-market-and-kitchen-houston-tx",
+      "name": "Southwest Farmers Market & Kitchen",
+      "city": "Houston",
+      "url": "https://www.southwestfarmersmarket.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "nandos-peri-peri-post-oak-houston-tx",
+      "name": "Nando's PERi-PERi (Post Oak)",
+      "city": "Houston",
+      "url": "https://www.nandosperiperi.com/",
+      "ok": false,
+      "status": 429,
+      "error": "HTTP 429",
+      "method": "HEAD"
+    },
+    {
+      "slug": "3tees-shawarma-houston-tx",
+      "name": "3tees Shawarma",
+      "city": "Houston",
+      "url": "https://3teeshawarma.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "holyland-halal-meat-grocery-houston-tx",
+      "name": "Holyland Halal Meat Grocery",
+      "city": "Houston",
+      "url": "https://holyland-meat-grocery.edan.io/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "nandos-peri-peri-montrose-houston-tx",
+      "name": "Nando's PERi-PERi (Montrose)",
+      "city": "Houston",
+      "url": "https://www.nandosperiperi.com/",
+      "ok": false,
+      "status": 429,
+      "error": "HTTP 429",
+      "method": "HEAD"
+    },
+    {
+      "slug": "southwest-farmers-kitchen-frisco-tx",
+      "name": "Southwest Farmers Kitchen",
+      "city": "Frisco",
+      "url": "https://www.southwestfarmersmarket.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "southwest-farmers-kitchen-garland-tx",
+      "name": "Southwest Farmers Kitchen",
+      "city": "Garland",
+      "url": "https://www.southwestfarmersmarket.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "kes-spicy-9ja-suya-spot-katy-katy",
+      "name": "Kes spicy 9Ja Suya Spot katy",
+      "city": "Katy",
+      "url": "https://kes-spicy-9ja-suya-spot.goto-where.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "shuri-african-restaurant-dallas",
+      "name": "Shuri African Restaurant",
+      "city": "Dallas",
+      "url": "https://shuriafricanrestaurant.shop/",
+      "ok": false,
+      "error": "DNS_FAILED",
+      "method": "HEAD"
+    },
+    {
+      "slug": "aso-rock-restaurant-and-lounge-dallas",
+      "name": "Aso Rock | Restaurant & Lounge",
+      "city": "Dallas",
+      "url": "https://asorocklounge.com/",
+      "ok": false,
+      "error": "TIMEOUT",
+      "method": "HEAD"
+    },
+    {
+      "slug": "aggies-restaurant-dallas",
+      "name": "Aggies Restaurant",
+      "city": "Dallas",
+      "url": "https://order.online/store/aggie's-african-restaurant-dallas-30920975",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "t-s-buka-arlington",
+      "name": "T's Buka",
+      "city": "Arlington",
+      "url": "https://tsbuka.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "dibi-rapide-houston",
+      "name": "Dibi Rapide",
+      "city": "Houston",
+      "url": "https://novacircle.com/restaurants/dibi-rapide",
+      "ok": false,
+      "status": 308,
+      "error": "HTTP 308",
+      "method": "HEAD"
+    },
+    {
+      "slug": "kes-spicy-9ja-suya-spot-houston",
+      "name": "Kes Spicy 9ja Suya Spot",
+      "city": "Houston",
+      "url": "https://www.ubereats.com/store/kes-spicy-9ja-suya-spot-hwy-6/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "afro-chow-houston",
+      "name": "Afro Chow",
+      "city": "Houston",
+      "url": "https://www.doordash.com/en/store/afro-chow-suya-and-grills-houston-30968852/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "aa-and-t-african-food-market-houston",
+      "name": "AA&T African Food Market",
+      "city": "Houston",
+      "url": "https://www.aatafricanfoodmarket.com/",
+      "ok": false,
+      "status": 402,
+      "error": "HTTP 402",
+      "method": "HEAD"
+    },
+    {
+      "slug": "le-meals-austin",
+      "name": "LE Meals",
+      "city": "Austin",
+      "url": "https://www.lemeals.net/",
+      "ok": false,
+      "status": 404,
+      "error": "HTTP 404",
+      "method": "HEAD"
+    },
+    {
+      "slug": "gifted-african-market-and-restaurant-houston-tx",
+      "name": "Gifted African Market and Restaurant",
+      "city": "Houston",
+      "url": "https://giftedafricankitchen.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "african-arena-market-houston-tx",
+      "name": "African Arena Market",
+      "city": "Houston",
+      "url": "https://africanarenamarket.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "food-galaxy-african-kitchen-houston-tx",
+      "name": "Food Galaxy African Kitchen & Store",
+      "city": "Houston",
+      "url": "https://www.ubereats.com/store/food-galaxy-african-kitchen-%26-store/5lYX-8uoVFiZbaJlWi53JA",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "joslat-african-foods-sugar-land-tx",
+      "name": "Joslat African Foods",
+      "city": "Sugar Land",
+      "url": "https://jolaskitchen.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "sabo-suya-country-creek-houston-tx",
+      "name": "Sabo Suya (Country Creek)",
+      "city": "Houston",
+      "url": "https://sabosuya.com/",
+      "ok": false,
+      "error": "TIMEOUT",
+      "method": "HEAD"
+    },
+    {
+      "slug": "united-african-and-caribbean-food-store-houston-tx",
+      "name": "United African & Caribbean Food Store",
+      "city": "Houston",
+      "url": "https://united-african.edan.io/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "foodmattas-african-grocery-store-richmond-tx",
+      "name": "FoodMattas African Grocery Store",
+      "city": "Richmond",
+      "url": "https://foodmattasstore.com/",
+      "ok": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostn",
+      "method": "GET"
+    },
+    {
+      "slug": "kc-african-store-houston-tx",
+      "name": "KC African Store",
+      "city": "Houston",
+      "url": "https://www.ubereats.com/store/kc-african-store-10924-westheimer-road",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "slug": "olobes-kitchen-lavon-tx",
+      "name": "Olobe's Kitchen",
+      "city": "Lavon",
+      "url": "https://olobekitchen.com/",
+      "ok": false,
+      "status": 308,
+      "error": "HTTP 308",
+      "method": "HEAD"
+    }
+  ],
+  "allUniqueUrls": [
+    {
+      "url": "http://www.bahelmart.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://bahelmart.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://3teeshawarma.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://abulahotpottx.com/",
+      "ok": false,
+      "error": "<urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)>",
+      "method": "GET"
+    },
+    {
+      "url": "https://addisabebarestauranttx.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://addisabebarestauranttx.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://africanarenamarket.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://africantastyhub.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://africanvillageethiopianrestaurant.gotoeat.net/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://africanvillageethiopianrestaurant.gotoeat.net/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://afrikikohouston.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://afrikikohouston.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://afrospicergv.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://afrospicergv.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://aldeez.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://aldeez.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://allseasonscafetx.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://allseasonscafetx.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://amalazone.com/",
+      "ok": false,
+      "status": 521,
+      "error": "HTTP 521",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://amencafe.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://1fcg-kunstrasen.de/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://angiewinnerskitchen.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.angiewinnerskitchen.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://anointedcuisineinc.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://anointedcuisineinc.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://asorocklounge.com/",
+      "ok": false,
+      "error": "TIMEOUT",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://asorockmarket.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://asorockmarket.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://auntymimiskitchen.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://auntymimiskitchen.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://authenticafricanfoods.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://blesslizcatering.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://blesslizcatering.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://boxochops.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://boxochops.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://bukkagrill.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://bukkagrill.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://cheftemii.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://cheftemii.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://chezmichellerestaurant.com",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://chezmichellerestaurant.com",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://chigrocery.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://chigrocery.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://citycafebakery.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.citycafebakery.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://cravesuya.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://cubanagrille.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://dakarstreetfood.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://dakarstreetfood.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://dallulrestaurantandbar.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://dallulrestaurantandbar.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://ddsejideafricanrestaurant.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://ddsejideafricanrestaurant.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://delightsghanaiancuisine.restaurants-info.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://delightsghanaiancuisine.restaurants-info.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://destaethiopiaresturant.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://destaethiopiaresturant.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://doualaeats.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://doualaeats.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://ekobistro.net/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://ekobistro.net/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://ekomieats.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://exoticafricangrill.site/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://exoticafricangrill.site/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://fingerlickinghtx.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://fingerlickinghtx.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://foodmattasstore.com/",
+      "ok": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostn",
+      "method": "GET"
+    },
+    {
+      "url": "https://freshnezkitchen.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://freshnezkitchen.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://fufurestaurant.com/",
+      "ok": false,
+      "error": "DNS_FAILED",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://fufuxpress.shop/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://fufuxpress.wordpress.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://fusionvibes.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://fusionvibes.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://giftedafricankitchen.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://gracefarmersmarket.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://gracefarmersmarket.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://habeshaaustin.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://habeshaaustin.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://havilahafricanfoodmarket.carrd.co/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://havilahafricanfoodmarket.carrd.co/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://heritagenaijakitchen.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://heritagenaijakitchen.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://holyland-meat-grocery.edan.io/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://hunanwestafricancuisine.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://hunanwestafricancuisine.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://jolaskitchen.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://jollofhauz.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://jollofhauz.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://jollofxpress.site/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://jollofxpress.site/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://jollyjollybakery.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://jollyjollybakery.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://kannysrestaurant.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://kannysrestaurant.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://kes-spicy-9ja-suya-spot.goto-where.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://labelleetoileafricankitchen.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://labelleetoileafricankitchen.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://ladytkitchen.com/",
+      "ok": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self ",
+      "method": "GET"
+    },
+    {
+      "url": "https://lagoskitchen-dallas.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://lagoskitchentexas.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://lagoskitchen-fortworth.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://lagoskitchentexas.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://lalibeladallastx.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://lalibeladallastx.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://leannachopgrill.com/",
+      "ok": false,
+      "error": "DNS_FAILED",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://lekki-island-bar-and-grill.square.site/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.lekkiisland.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://mabelsafricancuisine.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://mabelsafricancuisine.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://marhabarestaurant.wordpress.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://marhabarestaurant.wordpress.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://marieafricanflavorsrestaurant.com",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.marieafricanflavorsrestaurant.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://megenagna-cafe.com/Home",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://megenagna-cafe.com/Home",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://mgbekevillagehut.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://mgbekevillagehut.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://murphysmansion.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.facebook.com/MURPHYSMANSIONLIVE",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://myperiperi.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://mysasun.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://mysasun.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://nativepotrestaurant.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://nativepotrestaurant.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://novacircle.com/restaurants/dibi-rapide",
+      "ok": false,
+      "status": 308,
+      "error": "HTTP 308",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://olateeafricanmart.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://olateeafricanmart.com/?v=28886f13f578",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://olobekitchen.com/",
+      "ok": false,
+      "status": 308,
+      "error": "HTTP 308",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://oloriafricancuisine.net/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.oloriafricancuisine.net/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://omalichakitchen.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.omalichakitchen.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://onyisuya.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://order.lagosbuka.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://order.lagosbuka.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://order.online/store/aggie's-african-restaurant-dallas-30920975",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://oringo-africana.square.site/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://oringo-africana.square.site/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://osumasuya.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://osumasuya.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://rodonigeriancuisine.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://sabosuya.com/",
+      "ok": false,
+      "error": "TIMEOUT",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://saltandpepperkitchen.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://saltandpepperkitchen.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://sarabellcalabarrestaurant.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://shuriafricanrestaurant.shop/",
+      "ok": false,
+      "error": "DNS_FAILED",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://somalibulsho.top/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://somalibulsho.top/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://somalisafari.top/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://somalisafari.top/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://soulsweetbakes.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://soulsweetbakes.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://sweet-admirer.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://sweet-admirer.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://tasteofnigeria.us/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://tasteofnigeria.us/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://thefpak.start.page/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://thefpak.start.page/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://theiconrestaurant.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://theiconrestaurant.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://therealsuyahut.com",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://therealsuyahut.com",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://thesafarirestaurant.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://thesafarirestaurant.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://thevendry.com/venue/174374/asters-ethiopian-restaurant-austin-tx",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://thevendry.com/venue/174374/asters-ethiopian-restaurant-austin-tx",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://tsbuka.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://ubuntucuisine.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://ubuntucuisine.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://ultrakitchenrestaurantscatering.restaurants-info.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://ultrakitchenrestaurantscatering.restaurants-info.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://unique-african-cuisine.hey-restaurants.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://unique-african-cuisine.hey-restaurants.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://united-african.edan.io/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://wazobia.market/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://wazobia.market/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://wazobiaafricankitchen.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://wazobiaafricankitchen.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://wazobiaafricanmarket.com/",
+      "ok": false,
+      "error": "TIMEOUT",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.042restauranthtx.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.042restauranthtx.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.aatafricanfoodmarket.com/",
+      "ok": false,
+      "status": 402,
+      "error": "HTTP 402",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.africanfoodstores.com",
+      "ok": false,
+      "error": "TIMEOUT",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.africanvillagerestaurant.com/",
+      "ok": false,
+      "status": 404,
+      "error": "HTTP 404",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.afroodining.com/",
+      "ok": false,
+      "status": 404,
+      "error": "HTTP 404",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.aliefafricanfoods.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://aliefafricanfoods.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.ariasuyakitchen.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.ariasuyakitchen.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.bantuhouse.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://bantuhouse.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.bluenilerestaurant.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.bluenilerestaurant.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.cafenubiadfw.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.cafenubiadfw.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.chopnblok.co/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://chopnblok.co/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.clover.com/online-ordering/olachis-place-houston",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.clover.com/online-ordering/olachis-place-houston",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.doordash.com/en/store/afro-chow-suya-and-grills-houston-30968852/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://www.fabaceaecuisine.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.fabaceaecuisine.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.facebook.com/HiLoafricancaribbeanfoodmarket",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.facebook.com/HiLoafricancaribbeanfoodmarket",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.flourybites.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.flourybites.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.fufudelightsuyakitchen.com/",
+      "ok": false,
+      "status": 404,
+      "error": "HTTP 404",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.gidibargrill.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://pizzamamasofia.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.google.com/maps/search/Dhut%20African%20Restaurant%20El%20Paso%20TX",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.google.com/maps/search/Dhut%20African%20Restaurant%20El%20Paso%20TX",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.google.com/maps/search/Mamaput%20African%20Cuisine%20Stafford%20TX",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.google.com/maps/search/Mamaput%20African%20Cuisine%20Stafford%20TX",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.google.com/maps/search/THE%20SPOT%20(Rhosabjal%20African%20cuisine)%20Fort%20Worth%20TX",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.google.com/maps/search/THE%20SPOT%20(Rhosabjal%20African%20cuisine)%20Fort%20Worth%20TX",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.instagram.com/asanismarket/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/asanismarket/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.instagram.com/hiswayafricangrocerystore/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/hiswayafricangrocerystore/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.jollyjollybakery.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.jollyjollybakery.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.kofoshinigerianresturant.com/",
+      "ok": false,
+      "status": 404,
+      "error": "HTTP 404",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.komchop.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.komchop.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.lagos-kitchen.com",
+      "ok": false,
+      "error": "<urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version ",
+      "method": "GET"
+    },
+    {
+      "url": "https://www.lemeals.net/",
+      "ok": false,
+      "status": 404,
+      "error": "HTTP 404",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.lolasafricanrestaurant.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.lolasafricanrestaurant.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.lucyhouston.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://lucyhouston.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.motherlandafricanfoodmarkets.com",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://motherlandafricanfoodmarkets.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.nandosperiperi.com/",
+      "ok": false,
+      "status": 429,
+      "error": "HTTP 429",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.olateeafricancafe.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://olateeafricancafe.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.orderpalatablecuisine.com",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.orderpalatablecuisine.com",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.redseakitchenatx.com",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://redseakitchenatx.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.restaurantji.com/tx/houston/alief-african-kitchen-/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.restaurantji.com/tx/houston/alief-african-kitchen-/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.roostcafeandbistro.com/amala-on-point-grains-and-solid-cafe-77498/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.roostcafeandbistro.com/amala-on-point-grains-and-solid-cafe-77498/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.royalarmrestaurant.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://royalarmrestaurant.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.southwestfarmersmarket.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://www.suyaonthespot.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.suyaonthespot.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.suyastop.com",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://suyastop.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.tasteafrik.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://tasteafrik.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.thequeensheba.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.thequeensheba.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.tricescafeandlounge.com/",
+      "ok": false,
+      "status": 404,
+      "error": "HTTP 404",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.ubereats.com/store/food-galaxy-african-kitchen-%26-store/5lYX-8uoVFiZbaJlWi53JA",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://www.ubereats.com/store/kc-african-store-10924-westheimer-road",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://www.ubereats.com/store/kes-spicy-9ja-suya-spot-hwy-6/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://www.visitplano.com/dining/west-african-way/",
+      "ok": false,
+      "status": 404,
+      "error": "HTTP 404",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.vizoslubbock.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.vizoslubbock.com/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.zingscafe.com",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.zingscafe.com",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://yenatguada.com/",
+      "ok": false,
+      "status": 403,
+      "error": "HTTP 403",
+      "method": "GET"
+    },
+    {
+      "url": "https://zongo.us/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://zongo.us/",
+      "method": "HEAD"
+    }
+  ]
+}

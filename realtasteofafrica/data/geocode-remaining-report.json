@@ -1,0 +1,228 @@
+{
+  "generatedAt": "2026-07-23T05:01:40.284452+00:00",
+  "newlyGeocoded": 2,
+  "stillMissing": [
+    {
+      "slug": "hunan-cafe-houston-tx",
+      "name": "Hunan Cafe",
+      "city": "Houston",
+      "address": "3645 Cypress Creek Pkwy #368, Houston, TX 77068"
+    },
+    {
+      "slug": "omalicha-kitchen-houston-tx",
+      "name": "Omalicha Kitchen",
+      "city": "Houston",
+      "address": "1701 Cypress Creek Pkwy Suite D, Houston, TX 77090"
+    },
+    {
+      "slug": "ekomi-nigerian-restaurant-katy-tx",
+      "name": "Ekomi Nigerian Restaurant",
+      "city": "Katy",
+      "address": "2811 W Grand Pkwy N Suite D, Katy TX 77449"
+    },
+    {
+      "slug": "zongo-richmond-tx",
+      "name": "Zongo",
+      "city": "Richmond",
+      "address": "7035 W Grand Pkwy S #90, Richmond, TX 77407"
+    },
+    {
+      "slug": "empress-cafe-usa-richmond-tx",
+      "name": "Empress Cafe USA",
+      "city": "Richmond",
+      "address": "6611 FM 1464 Ste G, Richmond, TX 77407"
+    },
+    {
+      "slug": "rodo-nigerian-cuisine-richmond-tx",
+      "name": "Rodo Nigerian Cuisine",
+      "city": "Richmond",
+      "address": "7324 Grand Mission Blvd, Richmond TX 77407"
+    },
+    {
+      "slug": "fabaceae-african-cuisine-houston-tx",
+      "name": "Fabaceae African Cuisine Inc.",
+      "city": "Houston",
+      "address": "10023 S Main St Bldg 7, Houston TX 77025"
+    },
+    {
+      "slug": "jollof-haus-west-african-flavors-allen-tx",
+      "name": "Jollof Haus - West African Flavors",
+      "city": "Allen",
+      "address": "945 W Stacy Rd #130, Allen, TX 75013"
+    },
+    {
+      "slug": "suya-stop-inc-grand-prairie-tx",
+      "name": "Suya Stop",
+      "city": "Grand Prairie",
+      "address": "311 E Pioneer Pkwy #B, Grand Prairie TX 75051"
+    },
+    {
+      "slug": "angie-winners-kitchen-arlington-tx",
+      "name": "Angie Winners Kitchen",
+      "city": "Arlington",
+      "address": "2905 E Arkansas Ln #100, Arlington TX 76010"
+    },
+    {
+      "slug": "trices-cafe-and-lounge-san-antonio-tx",
+      "name": "Trices Cafe and Lounge",
+      "city": "San Antonio",
+      "address": "7600 Eckhert Rd #3, San Antonio, TX 78240"
+    },
+    {
+      "slug": "rhays-houston-tx",
+      "name": "Rhay's",
+      "city": "Houston",
+      "address": "11920 Westheimer Rd #J, Houston, TX 77077"
+    },
+    {
+      "slug": "vioni-grill-houston-tx",
+      "name": "Vioni Grill",
+      "city": "Houston",
+      "address": "2703 S Texas 6 #127, Houston TX 77082"
+    },
+    {
+      "slug": "042-restaurant-houston-tx",
+      "name": "042 Restaurant",
+      "city": "Houston",
+      "address": "13711 Westheimer Rd B-1, Houston, TX 77077"
+    },
+    {
+      "slug": "eko-bistro-fusion-houston-tx",
+      "name": "EKO Bistro Fusion",
+      "city": "Houston",
+      "address": "2472 S Texas 6, Houston TX 77077"
+    },
+    {
+      "slug": "the-icon-nigerian-kitchen-richardson-tx",
+      "name": "The Icon Nigerian Kitchen",
+      "city": "Richardson",
+      "address": "430 N Coit Rd #120, Richardson TX 75080"
+    },
+    {
+      "slug": "lady-t-kitchen-austin-tx",
+      "name": "Lady T Kitchen",
+      "city": "Austin",
+      "address": "13776 US-183 #115, Austin TX 78750"
+    },
+    {
+      "slug": "mabels-african-cuisine-and-bar-mckinney-tx",
+      "name": "Mabel's African Cuisine & Bar",
+      "city": "Mckinney",
+      "address": "5200 W Stacy Rd #100, McKinney TX 75070"
+    },
+    {
+      "slug": "aso-rock-market-houston-tx",
+      "name": "Aso Rock Market - Houston",
+      "city": "Houston",
+      "address": "13711 Westheimer Rd A-1, Houston, TX 77077"
+    },
+    {
+      "slug": "palatable-nigeria-cuisine-pflugerville-tx",
+      "name": "Palatable Nigeria Cuisine",
+      "city": "Pflugerville",
+      "address": "2715 Paragon Fox Dr, Pflugerville TX 78660"
+    },
+    {
+      "slug": "calabar-pot-frisco-tx",
+      "name": "Calabar Pot",
+      "city": "Frisco",
+      "address": "Delivery/Outpost, Frisco TX 75034"
+    },
+    {
+      "slug": "olori-african-cuisine-restaurant-and-event-catering-services-dallas-dallas",
+      "name": "OLORI AFRICAN CUISINE RESTAURANT AND EVENT CATERING SERVICES(DALLAS)",
+      "city": "Dallas",
+      "address": "9203 Skillman St suite 114, Dallas, TX 75243"
+    },
+    {
+      "slug": "salt-n-pepper-kitchen-and-catering-services-garland",
+      "name": "Salt N Pepper Kitchen & Catering Services",
+      "city": "Garland",
+      "address": "2376 Lavon Dr 106 A, Garland, TX 75040"
+    },
+    {
+      "slug": "kes-spicy-9ja-suya-spot-houston",
+      "name": "Kes Spicy 9ja Suya Spot",
+      "city": "Houston",
+      "address": "8559 S Texas 6, Houston, TX 77083"
+    },
+    {
+      "slug": "central-african-market-cypress",
+      "name": "Central African Market",
+      "city": "Cypress",
+      "address": "7334 Fry Rd SUITE D, Cypress, TX 77433"
+    },
+    {
+      "slug": "man-must-wack-african-food-market-houston",
+      "name": "Man Must Wack African Food Market",
+      "city": "Houston",
+      "address": "8535 FM 1464 Suite 100, Houston, TX 77083"
+    },
+    {
+      "slug": "gp-african-foods-richmond",
+      "name": "GP African Foods",
+      "city": "Richmond",
+      "address": "20400 Southwest Fwy Suite 130, Richmond, TX 77469"
+    },
+    {
+      "slug": "divine-essentials-african-market-katy",
+      "name": "Divine Essentials African Market",
+      "city": "Katy",
+      "address": "6355 S Peek Rd #300, Katy, TX 77450"
+    },
+    {
+      "slug": "taste-of-ethiopia-i-pflugerville",
+      "name": "Taste of Ethiopia I",
+      "city": "Pflugerville",
+      "address": "1100 Grand Ave Pkwy Suite 100, Pflugerville, TX 78660"
+    },
+    {
+      "slug": "sweet-charli-girl-austin",
+      "name": "Sweet Charli Girl",
+      "city": "Austin",
+      "address": "1300 E Anderson Ln Bldg D, Austin, TX 78752"
+    },
+    {
+      "slug": "suga-s-cakery-pflugerville",
+      "name": "Suga's Cakery",
+      "city": "Pflugerville",
+      "address": "1100 Grand Ave Pkwy #112, Pflugerville, TX 78660"
+    },
+    {
+      "slug": "afriqmart-african-and-caribbean-foods-pflugerville",
+      "name": "Afriqmart african and caribbean foods.",
+      "city": "Pflugerville",
+      "address": "2700 W Pecan St #203, Pflugerville, TX 78660"
+    },
+    {
+      "slug": "joslat-african-foods-sugar-land-tx",
+      "name": "Joslat African Foods",
+      "city": "Sugar Land",
+      "address": "16521 W Bellfort Ave Suite L, Sugar Land, TX 77498"
+    },
+    {
+      "slug": "hi-lo-african-caribbean-food-market-houston-tx",
+      "name": "HI-LO AFRICAN CARIBBEAN FOOD MARKET",
+      "city": "Houston",
+      "address": "9111 Cypress Creek Pkwy Suite B, Houston, TX 77070"
+    },
+    {
+      "slug": "noahs-african-market-cypress-tx",
+      "name": "Noah's African Market",
+      "city": "Cypress",
+      "address": "21211 FM 529 Suite 107, Cypress, TX 77433"
+    },
+    {
+      "slug": "hisway-african-grocery-store-houston-tx",
+      "name": "Hisway African Grocery Store",
+      "city": "Houston",
+      "address": "3507 Paintbrush Dawn Ct, Houston, TX 77084"
+    },
+    {
+      "slug": "foodmattas-african-grocery-store-richmond-tx",
+      "name": "FoodMattas African Grocery Store",
+      "city": "Richmond",
+      "address": "8433 FM 1464 Suite C&D, Richmond, TX 77407"
+    }
+  ]
+}
