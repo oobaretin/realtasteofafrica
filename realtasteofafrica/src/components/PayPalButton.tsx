@@ -72,7 +72,21 @@ export function PayPalButton({
           return data.orderID
         },
         onApprove: async (data) => {
-          onSuccess(restaurantSlug, data.orderID)
+          const captureRes = await fetch("/api/paypal/capture-order", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ orderID: data.orderID }),
+          })
+          if (!captureRes.ok) {
+            const err = await captureRes.json().catch(() => ({}))
+            throw new Error((err as { error?: string }).error ?? "Failed to capture payment")
+          }
+          const captureData = (await captureRes.json()) as {
+            captureId: string
+            orderID: string
+          }
+
+          onSuccess(restaurantSlug, captureData.captureId)
         },
         onError: (err) => {
           setScriptError(err instanceof Error ? err.message : "Payment failed")

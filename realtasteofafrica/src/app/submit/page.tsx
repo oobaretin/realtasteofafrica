@@ -12,7 +12,7 @@ export default function SubmitPage() {
   return (
     <WpPageShell
       title="Submit a restaurant"
-      description="Know a great African restaurant in Houston or nearby cities? Send it in and we’ll add it to the directory."
+      description="Know a great African restaurant in Texas? Send it in and we’ll add it to the directory."
       breadcrumbs={[
         { href: "/", label: "Home" },
         { href: "/submit", label: "Submit" },

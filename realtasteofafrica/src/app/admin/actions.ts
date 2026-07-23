@@ -1,20 +1,19 @@
-// src/app/admin/actions.ts
-'use server';
+'use server'
 
-import { Resend } from 'resend';
+import { Resend } from 'resend'
 
-const RESEND_API_KEY = process.env.RESEND_API_KEY;
-const resend = RESEND_API_KEY ? new Resend(RESEND_API_KEY) : null;
+import { isValidAdminKey } from '@/lib/adminAuth'
 
-const TO_EMAIL = 'therealtasteofafrica@gmail.com';
-// Use RESEND_FROM or verify your domain at resend.com/domains and set e.g. noreply@yourdomain.com
-const FROM_EMAIL = process.env.RESEND_FROM || 'Real Taste of Africa <onboarding@resend.dev>';
+const RESEND_API_KEY = process.env.RESEND_API_KEY
+const resend = RESEND_API_KEY ? new Resend(RESEND_API_KEY) : null
+
+const TO_EMAIL = 'therealtasteofafrica@gmail.com'
+const FROM_EMAIL = process.env.RESEND_FROM || 'Real Taste of Africa <onboarding@resend.dev>'
 
 export async function addListing(formData: FormData) {
-  const adminKey = formData.get('adminKey');
-  const expectedKey = process.env.ADMIN_KEY;
-  if (expectedKey && adminKey !== expectedKey) {
-    return { success: false, error: 'Invalid admin key' };
+  const adminKey = formData.get('adminKey')
+  if (!isValidAdminKey(typeof adminKey === 'string' ? adminKey : null)) {
+    return { success: false, error: 'Invalid admin key' }
   }
 
   const name = formData.get('restaurantName');

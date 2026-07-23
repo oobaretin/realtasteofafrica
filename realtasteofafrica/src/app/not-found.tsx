@@ -7,7 +7,7 @@ export default function NotFound() {
     <div className="grid gap-6">
       <Card
         title="Page not found"
-        description="That route doesn’t exist yet. We’re starting with Houston-area listings and expanding nationwide."
+        description="That route doesn’t exist. Browse our Texas-wide directory of African restaurants, food trucks, and markets."
       >
         <div className="flex flex-wrap gap-3">
           <Link
@@ -17,7 +17,7 @@ export default function NotFound() {
             Go home
           </Link>
           <Link
-            className="rounded-md border border-white/10 bg-white/5 px-4 py-2.5 text-sm font-semibold text-slate-50 hover:bg-white/10"
+            className="rounded-md border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-900 hover:bg-slate-50"
             href="/restaurants"
           >
             Browse restaurants
