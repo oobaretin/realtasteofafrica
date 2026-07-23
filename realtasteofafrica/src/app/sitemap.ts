@@ -11,8 +11,6 @@ const STATIC_PATHS = [
   "/collections",
   "/contact",
   "/submit",
-  "/claim",
-  "/claim/success",
   "/catering",
   "/menu",
 ] as const
@@ -25,6 +23,12 @@ const STATIC_PRIORITIES: Partial<Record<(typeof STATIC_PATHS)[number], number>> 
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date()
+
+  function listingLastModified(lastAuditDate?: string): Date {
+    if (!lastAuditDate?.trim()) return now
+    const d = new Date(`${lastAuditDate.trim()}T12:00:00`)
+    return Number.isNaN(d.getTime()) ? now : d
+  }
 
   const staticEntries: MetadataRoute.Sitemap = STATIC_PATHS.map((path) => ({
     url: path === "/" ? SITE_URL : `${SITE_URL}${path}`,
@@ -52,7 +56,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const restaurantEntries = RESTAURANTS.map((r) => ({
     url: `${SITE_URL}/restaurants/${r.slug}`,
-    lastModified: now,
+    lastModified: listingLastModified(r.lastAuditDate),
     changeFrequency: "weekly" as const,
     priority: 0.75,
   }))

@@ -5,6 +5,13 @@ import { getAllCuisineTags, RESTAURANTS } from "@/lib/restaurants"
 
 export const metadata = {
   title: "Browse restaurants & markets",
+  description:
+    "Browse 298+ African restaurants, food trucks, and markets across Texas. Filter by city, cuisine, and type.",
+  openGraph: {
+    title: "Browse African restaurants & markets in Texas",
+    description:
+      "Browse 298+ African restaurants, food trucks, and markets across Texas. Filter by city, cuisine, and type.",
+  },
 }
 
 type RestaurantsPageProps = {

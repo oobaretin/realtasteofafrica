@@ -8,6 +8,7 @@ import { ListingExternalLink } from "@/components/ListingExternalLink"
 import { formatPhoneDisplay, toTelHref } from "@/lib/formatPhone"
 import { getAreaBySlug } from "@/lib/areas"
 import { getRestaurantsByArea } from "@/lib/restaurants"
+import { SITE_URL } from "@/lib/site"
 
 export async function generateMetadata({
   params,
@@ -17,7 +18,18 @@ export async function generateMetadata({
   const { slug } = await params
   const area = getAreaBySlug(slug)
   if (!area) return { title: "Area" }
-  return { title: `${area.name} area` }
+  const restaurants = getRestaurantsByArea(area.slug)
+  const title = `African Restaurants in ${area.name}, Texas`
+  const description = `${area.description} Browse ${restaurants.length} verified listings in the ${area.name} area.`
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url: `${SITE_URL}/areas/${area.slug}`,
+    },
+  }
 }
 
 export default async function AreaPage({

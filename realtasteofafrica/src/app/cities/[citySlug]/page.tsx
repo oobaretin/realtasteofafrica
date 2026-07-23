@@ -16,8 +16,8 @@ function getCityTitle(cityName: string): string {
   return `African Restaurants in ${cityName}, Texas`
 }
 
-function getCityDescription(cityName: string): string {
-  return `Find African restaurants and markets in ${cityName}, Texas. Browse listings, cuisines, and contact info.`
+function getCityDescription(cityName: string, count: number): string {
+  return `Browse ${count} African restaurant${count !== 1 ? "s" : ""} and markets in ${cityName}, Texas — cuisines, hours, phone, and directions.`
 }
 
 export async function generateStaticParams() {
@@ -33,9 +33,12 @@ export async function generateMetadata({
   const restaurants = getRestaurantsByCity(citySlug)
   if (restaurants.length === 0) return { title: "City" }
   const cityName = restaurants[0].city
+  const title = getCityTitle(cityName)
+  const description = getCityDescription(cityName, restaurants.length)
   return {
-    title: getCityTitle(cityName),
-    description: getCityDescription(cityName),
+    title,
+    description,
+    openGraph: { title, description },
   }
 }
 
@@ -50,7 +53,7 @@ export default async function CityPage({
 
   const cityName = restaurants[0].city
   const title = getCityTitle(cityName)
-  const description = getCityDescription(cityName)
+  const description = getCityDescription(cityName, restaurants.length)
 
   return (
     <WpPageShell
