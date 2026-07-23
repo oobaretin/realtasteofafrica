@@ -68,20 +68,23 @@ export function SiteFooter() {
             </Link>
           </div>
 
-          <div className="grid gap-2 text-sm">
-            <div className="font-semibold text-slate-900">Contact</div>
+          <div className="grid gap-3 text-sm">
+            <div className="font-semibold text-slate-900">Get in touch</div>
+            <p className="text-xs leading-relaxed text-slate-500">
+              Listing corrections, closures, and general questions.
+            </p>
             <a
-              className="text-slate-600 hover:text-slate-900 hover:underline"
+              className="break-all font-medium text-amber-700 hover:text-amber-800 hover:underline"
               href={`mailto:${CONTACT_EMAIL}`}
             >
               {CONTACT_EMAIL}
             </a>
-            <Link className="text-slate-600 hover:text-slate-900" href="/contact">
-              Contact form →
+            <Link
+              className="text-slate-600 hover:text-slate-900 hover:underline"
+              href="/contact#report"
+            >
+              Report or correct a listing
             </Link>
-            <p className="pt-1 text-xs text-slate-500">
-              Corrections, new listings, or claim requests.
-            </p>
           </div>
         </div>
 
