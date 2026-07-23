@@ -2,10 +2,8 @@ import Link from "next/link"
 
 import { Badge } from "@/components/Badge"
 import { FeaturedCarousel } from "@/components/FeaturedCarousel"
-import { HomeQuickFind } from "@/components/HomeQuickFind"
+import { HomeDiscovery } from "@/components/HomeDiscovery"
 import { StatewideDiscovery } from "@/components/StatewideDiscovery"
-import { AREAS } from "@/lib/areas"
-import { CUISINE_TAGS } from "@/lib/cuisines"
 import { getFeaturedRestaurants, RESTAURANTS } from "@/lib/restaurants"
 
 const FEATURED_ORDER = [
@@ -65,7 +63,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <HomeQuickFind listingCount={RESTAURANTS.length} />
+      <HomeDiscovery listingCount={RESTAURANTS.length} />
 
       <section className="min-w-0 grid gap-4">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between sm:gap-4">
@@ -87,61 +85,6 @@ export default function HomePage() {
         </div>
 
         <FeaturedCarousel restaurants={featured} />
-      </section>
-
-      <section className="min-w-0 grid gap-4 md:grid-cols-2 md:gap-6">
-        <div className="grid gap-3">
-          <div className="min-w-0">
-            <h2 className="text-lg font-semibold tracking-tight sm:text-xl">
-              Browse by area
-            </h2>
-            <p className="mt-1 text-sm text-slate-600">
-              Statewide coverage from El Paso to Beaumont.
-            </p>
-          </div>
-          <div className="min-w-0 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
-            <div className="flex min-w-0 flex-wrap gap-2">
-              {AREAS.map((a) => (
-                <Link
-                  key={a.slug}
-                  className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-50"
-                  href={`/areas/${a.slug}`}
-                >
-                  {a.name}
-                </Link>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        <div className="grid gap-3">
-          <div className="min-w-0">
-            <h2 className="text-lg font-semibold tracking-tight sm:text-xl">
-              Explore by cuisine
-            </h2>
-            <p className="mt-1 text-sm text-slate-600">
-              Nigerian, Ethiopian, Ghanaian, and more across Texas.
-            </p>
-          </div>
-          <div className="min-w-0 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
-            <ul className="grid min-w-0 gap-2">
-              {CUISINE_TAGS.map(({ tag, exampleNames }) => (
-                <li key={tag}>
-                  <Link
-                    className="block rounded-lg border border-slate-100 p-3 transition-colors hover:border-amber-200 hover:bg-amber-50/50"
-                    href={`/restaurants?cuisine=${encodeURIComponent(tag)}`}
-                  >
-                    <span className="font-semibold text-slate-900">{tag}</span>
-                    <p className="mt-0.5 line-clamp-1 text-xs text-slate-500">
-                      e.g. {exampleNames.slice(0, 2).join(", ")}
-                      {exampleNames.length > 2 ? "…" : ""}
-                    </p>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
       </section>
 
       <StatewideDiscovery restaurants={RESTAURANTS} />
