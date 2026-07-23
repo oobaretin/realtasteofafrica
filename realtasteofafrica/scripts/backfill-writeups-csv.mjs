@@ -46,14 +46,26 @@ function parseLimitArg() {
   return Number.isFinite(n) && n > 0 ? Math.floor(n) : null
 }
 
+function parseOffsetArg() {
+  const raw = process.argv.find((a) => a.startsWith("--offset="))?.split("=")[1]
+  if (!raw) return 0
+  const n = Number(raw)
+  return Number.isFinite(n) && n >= 0 ? Math.floor(n) : 0
+}
+
 async function loadTargetSlugs() {
   if (hasFlag("--fromPriority")) {
     const limit = parseLimitArg() ?? 50
+    let offset = parseOffsetArg()
     const json = JSON.parse(await fs.readFile(PRIORITY_PATH, "utf8"))
     const slugs = []
     for (const item of json.priority ?? []) {
       if (!item?.slug) continue
       if (Array.isArray(item.missing) && !item.missing.includes("writeUp")) continue
+      if (offset > 0) {
+        offset--
+        continue
+      }
       slugs.push(String(item.slug).trim())
       if (slugs.length >= limit) break
     }
