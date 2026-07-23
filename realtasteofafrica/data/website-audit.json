@@ -1,1634 +1,1489 @@
 {
-  "generatedAt": "2026-07-23T05:01:40.285227+00:00",
-  "checked": 157,
-  "brokenCount": 47,
+  "generatedAt": "2026-07-23T05:13:30.083486+00:00",
+  "checked": 159,
+  "brokenCount": 7,
   "broken": [
     {
-      "slug": "sarabell-calabar-restaurant-and-buffet-houston-tx",
-      "name": "Sarabell Calabar Restaurant & Buffet",
-      "city": "Houston",
-      "url": "https://sarabellcalabarrestaurant.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "sabo-suya-spot-houston-tx",
-      "name": "Sabo Suya Spot",
-      "city": "Houston",
-      "url": "https://sabosuya.com/",
-      "ok": false,
-      "error": "TIMEOUT",
-      "method": "HEAD"
-    },
-    {
-      "slug": "abula-hotpot-houston-tx",
-      "name": "Abula HotPot",
-      "city": "Houston",
-      "url": "https://abulahotpottx.com/",
-      "ok": false,
-      "error": "<urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)>",
-      "method": "GET"
-    },
-    {
-      "slug": "ekomi-nigerian-restaurant-katy-tx",
-      "name": "Ekomi Nigerian Restaurant",
-      "city": "Katy",
-      "url": "https://ekomieats.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "onyis-suya-katy-tx",
-      "name": "Onyi's Suya",
-      "city": "Katy",
-      "url": "https://onyisuya.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "the-port-of-peri-peri-sugar-land-tx",
-      "name": "The Port of Peri Peri",
-      "city": "Sugar Land",
-      "url": "https://myperiperi.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "rodo-nigerian-cuisine-richmond-tx",
-      "name": "Rodo Nigerian Cuisine",
-      "city": "Richmond",
-      "url": "https://rodonigeriancuisine.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "jc-african-and-caribbean-food-store-mcallen-tx",
-      "name": "JC African & Caribbean Food Store",
-      "city": "Mcallen",
-      "url": "https://www.africanfoodstores.com",
-      "ok": false,
-      "error": "TIMEOUT",
-      "method": "HEAD"
-    },
-    {
-      "slug": "afroo-dining-amarillo-tx",
-      "name": "AFROO DINING",
-      "city": "Amarillo",
-      "url": "https://www.afroodining.com/",
-      "ok": false,
-      "status": 404,
-      "error": "HTTP 404",
-      "method": "HEAD"
-    },
-    {
-      "slug": "kofoshi-houston-tx",
-      "name": "Kofoshi",
-      "city": "Houston",
-      "url": "https://www.kofoshinigerianresturant.com/",
-      "ok": false,
-      "status": 404,
-      "error": "HTTP 404",
-      "method": "HEAD"
-    },
-    {
-      "slug": "authentic-african-restaurant-and-bar-houston-tx",
-      "name": "Authentic African Restaurant & Bar",
-      "city": "Houston",
-      "url": "https://authenticafricanfoods.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "fufu-restaurant-west-african-influence-houston-tx",
-      "name": "FuFu Restaurant (West African influence)",
-      "city": "Houston",
-      "url": "https://fufurestaurant.com/",
-      "ok": false,
-      "error": "DNS_FAILED",
-      "method": "HEAD"
-    },
-    {
-      "slug": "west-african-way-plano-tx",
-      "name": "West African Way",
-      "city": "Plano",
-      "url": "https://www.visitplano.com/dining/west-african-way/",
-      "ok": false,
-      "status": 404,
-      "error": "HTTP 404",
-      "method": "HEAD"
-    },
-    {
-      "slug": "leanna-chop-grill-fort-worth-tx",
-      "name": "LeAnna Chop Grill",
-      "city": "Fort Worth",
-      "url": "https://leannachopgrill.com/",
-      "ok": false,
-      "error": "DNS_FAILED",
-      "method": "HEAD"
-    },
-    {
-      "slug": "african-village-irving-tx",
-      "name": "African Village",
-      "city": "Irving",
-      "url": "https://www.africanvillagerestaurant.com/",
-      "ok": false,
-      "status": 404,
-      "error": "HTTP 404",
-      "method": "HEAD"
-    },
-    {
-      "slug": "fufudelight-and-suya-kitchen-arlington-tx",
-      "name": "Fufudelight & Suya Kitchen",
-      "city": "Arlington",
-      "url": "https://www.fufudelightsuyakitchen.com/",
-      "ok": false,
-      "status": 404,
-      "error": "HTTP 404",
-      "method": "HEAD"
-    },
-    {
-      "slug": "lagos-kitchen-lewisville-tx",
-      "name": "Lagos Kitchen",
-      "city": "Lewisville",
-      "url": "https://www.lagos-kitchen.com",
-      "ok": false,
-      "error": "<urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version ",
-      "method": "GET"
-    },
-    {
-      "slug": "lady-t-kitchen-african-restaurant-pflugerville-tx",
-      "name": "Lady T Kitchen African Restaurant",
-      "city": "Pflugerville",
-      "url": "https://ladytkitchen.com/",
-      "ok": false,
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self ",
-      "method": "GET"
-    },
-    {
-      "slug": "wazobia-african-market-and-kitchen-houston-tx",
-      "name": "Wazobia African Market & Kitchen",
-      "city": "Houston",
-      "url": "https://wazobiaafricanmarket.com/",
-      "ok": false,
-      "error": "TIMEOUT",
-      "method": "HEAD"
-    },
-    {
-      "slug": "yenat-guada-ethiopian-cuisine-dallas-tx",
-      "name": "Yenat Guada Ethiopian Cuisine",
-      "city": "Dallas",
-      "url": "https://yenatguada.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "trices-cafe-and-lounge-san-antonio-tx",
-      "name": "Trices Cafe and Lounge",
-      "city": "San Antonio",
-      "url": "https://www.tricescafeandlounge.com/",
-      "ok": false,
-      "status": 404,
-      "error": "HTTP 404",
-      "method": "HEAD"
-    },
-    {
-      "slug": "cubana-grille-african-and-jamaican-restaurant-in-mckinney-texas-mckinney-tx",
-      "name": "Cubana Grille | African & Jamaican Restaurant in McKinney Texas",
-      "city": "Mckinney",
-      "url": "https://cubanagrille.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "amala-zone-houston-tx",
-      "name": "Amala Zone",
-      "city": "Houston",
-      "url": "https://amalazone.com/",
-      "ok": false,
-      "status": 521,
-      "error": "HTTP 521",
-      "method": "HEAD"
-    },
-    {
-      "slug": "african-tasty-hub-houston-tx",
-      "name": "African Tasty Hub",
-      "city": "Houston",
-      "url": "https://africantastyhub.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "crave-suya-houston-tx",
-      "name": "Crave Suya",
-      "city": "Houston",
-      "url": "https://cravesuya.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "lady-t-kitchen-austin-tx",
-      "name": "Lady T Kitchen",
-      "city": "Austin",
-      "url": "https://ladytkitchen.com/",
-      "ok": false,
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self ",
-      "method": "GET"
-    },
-    {
-      "slug": "southwest-farmers-market-and-kitchen-arlington-tx",
-      "name": "Southwest Farmers Market & Kitchen",
-      "city": "Arlington",
-      "url": "https://www.southwestfarmersmarket.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "southwest-farmers-market-and-kitchen-austin-tx",
-      "name": "Southwest Farmers Market & Kitchen",
-      "city": "Austin",
-      "url": "https://www.southwestfarmersmarket.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "southwest-farmers-market-and-kitchen-san-antonio-tx",
-      "name": "Southwest Farmers Market & Kitchen",
-      "city": "San Antonio",
-      "url": "https://www.southwestfarmersmarket.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "southwest-farmers-market-and-kitchen-houston-tx",
-      "name": "Southwest Farmers Market & Kitchen",
-      "city": "Houston",
-      "url": "https://www.southwestfarmersmarket.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "nandos-peri-peri-post-oak-houston-tx",
-      "name": "Nando's PERi-PERi (Post Oak)",
-      "city": "Houston",
-      "url": "https://www.nandosperiperi.com/",
-      "ok": false,
-      "status": 429,
-      "error": "HTTP 429",
-      "method": "HEAD"
-    },
-    {
-      "slug": "3tees-shawarma-houston-tx",
-      "name": "3tees Shawarma",
-      "city": "Houston",
-      "url": "https://3teeshawarma.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "holyland-halal-meat-grocery-houston-tx",
-      "name": "Holyland Halal Meat Grocery",
-      "city": "Houston",
-      "url": "https://holyland-meat-grocery.edan.io/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "nandos-peri-peri-montrose-houston-tx",
-      "name": "Nando's PERi-PERi (Montrose)",
-      "city": "Houston",
-      "url": "https://www.nandosperiperi.com/",
-      "ok": false,
-      "status": 429,
-      "error": "HTTP 429",
-      "method": "HEAD"
-    },
-    {
-      "slug": "southwest-farmers-kitchen-frisco-tx",
-      "name": "Southwest Farmers Kitchen",
-      "city": "Frisco",
-      "url": "https://www.southwestfarmersmarket.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "southwest-farmers-kitchen-garland-tx",
-      "name": "Southwest Farmers Kitchen",
-      "city": "Garland",
-      "url": "https://www.southwestfarmersmarket.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "kes-spicy-9ja-suya-spot-katy-katy",
-      "name": "Kes spicy 9Ja Suya Spot katy",
-      "city": "Katy",
-      "url": "https://kes-spicy-9ja-suya-spot.goto-where.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "shuri-african-restaurant-dallas",
-      "name": "Shuri African Restaurant",
-      "city": "Dallas",
-      "url": "https://shuriafricanrestaurant.shop/",
-      "ok": false,
-      "error": "DNS_FAILED",
-      "method": "HEAD"
-    },
-    {
-      "slug": "aso-rock-restaurant-and-lounge-dallas",
       "name": "Aso Rock | Restaurant & Lounge",
       "city": "Dallas",
       "url": "https://asorocklounge.com/",
       "ok": false,
       "error": "TIMEOUT",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
-      "slug": "aggies-restaurant-dallas",
-      "name": "Aggies Restaurant",
+      "name": "HI-LO AFRICAN CARIBBEAN FOOD MARKET",
+      "city": "Houston",
+      "url": "https://www.facebook.com/HiLoafricancaribbeanfoodmarket",
+      "ok": false,
+      "status": 400,
+      "method": "GET"
+    },
+    {
+      "name": "JC African & Caribbean Food Store",
+      "city": "Mcallen",
+      "url": "https://www.africanfoodstores.com",
+      "ok": false,
+      "error": "TIMEOUT",
+      "method": "GET"
+    },
+    {
+      "name": "Murphy's Mansion",
       "city": "Dallas",
-      "url": "https://order.online/store/aggie's-african-restaurant-dallas-30920975",
+      "url": "https://murphysmansion.com/",
       "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
+      "status": 400,
       "method": "GET"
     },
     {
-      "slug": "t-s-buka-arlington",
-      "name": "T's Buka",
-      "city": "Arlington",
-      "url": "https://tsbuka.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "dibi-rapide-houston",
-      "name": "Dibi Rapide",
-      "city": "Houston",
-      "url": "https://novacircle.com/restaurants/dibi-rapide",
-      "ok": false,
-      "status": 308,
-      "error": "HTTP 308",
-      "method": "HEAD"
-    },
-    {
-      "slug": "kes-spicy-9ja-suya-spot-houston",
-      "name": "Kes Spicy 9ja Suya Spot",
-      "city": "Houston",
-      "url": "https://www.ubereats.com/store/kes-spicy-9ja-suya-spot-hwy-6/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "afro-chow-houston",
-      "name": "Afro Chow",
-      "city": "Houston",
-      "url": "https://www.doordash.com/en/store/afro-chow-suya-and-grills-houston-30968852/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "aa-and-t-african-food-market-houston",
-      "name": "AA&T African Food Market",
-      "city": "Houston",
-      "url": "https://www.aatafricanfoodmarket.com/",
-      "ok": false,
-      "status": 402,
-      "error": "HTTP 402",
-      "method": "HEAD"
-    },
-    {
-      "slug": "le-meals-austin",
-      "name": "LE Meals",
-      "city": "Austin",
-      "url": "https://www.lemeals.net/",
-      "ok": false,
-      "status": 404,
-      "error": "HTTP 404",
-      "method": "HEAD"
-    },
-    {
-      "slug": "gifted-african-market-and-restaurant-houston-tx",
-      "name": "Gifted African Market and Restaurant",
-      "city": "Houston",
-      "url": "https://giftedafricankitchen.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "african-arena-market-houston-tx",
-      "name": "African Arena Market",
-      "city": "Houston",
-      "url": "https://africanarenamarket.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "food-galaxy-african-kitchen-houston-tx",
-      "name": "Food Galaxy African Kitchen & Store",
-      "city": "Houston",
-      "url": "https://www.ubereats.com/store/food-galaxy-african-kitchen-%26-store/5lYX-8uoVFiZbaJlWi53JA",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "joslat-african-foods-sugar-land-tx",
-      "name": "Joslat African Foods",
-      "city": "Sugar Land",
-      "url": "https://jolaskitchen.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    {
-      "slug": "sabo-suya-country-creek-houston-tx",
-      "name": "Sabo Suya (Country Creek)",
+      "name": "Sabo Suya Spot",
       "city": "Houston",
       "url": "https://sabosuya.com/",
       "ok": false,
       "error": "TIMEOUT",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
-      "slug": "united-african-and-caribbean-food-store-houston-tx",
-      "name": "United African & Caribbean Food Store",
+      "name": "Sweet Admirer Bakery",
       "city": "Houston",
-      "url": "https://united-african.edan.io/",
+      "url": "https://sweet-admirer.com/",
       "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
+      "status": 503,
       "method": "GET"
     },
     {
-      "slug": "foodmattas-african-grocery-store-richmond-tx",
-      "name": "FoodMattas African Grocery Store",
-      "city": "Richmond",
-      "url": "https://foodmattasstore.com/",
-      "ok": false,
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostn",
-      "method": "GET"
-    },
-    {
-      "slug": "kc-african-store-houston-tx",
-      "name": "KC African Store",
+      "name": "Wazobia African Market & Kitchen",
       "city": "Houston",
-      "url": "https://www.ubereats.com/store/kc-african-store-10924-westheimer-road",
+      "url": "https://wazobiaafricanmarket.com/",
       "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
+      "error": "TIMEOUT",
       "method": "GET"
-    },
-    {
-      "slug": "olobes-kitchen-lavon-tx",
-      "name": "Olobe's Kitchen",
-      "city": "Lavon",
-      "url": "https://olobekitchen.com/",
-      "ok": false,
-      "status": 308,
-      "error": "HTTP 308",
-      "method": "HEAD"
     }
   ],
   "allUniqueUrls": [
     {
+      "name": "Abula HotPot",
+      "city": "Houston",
+      "url": "http://abulahotpottx.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "http://abulahotpottx.com/",
+      "method": "GET"
+    },
+    {
+      "name": "Bahel Ethiopian Mart and Dining",
+      "city": "Houston",
       "url": "http://www.bahelmart.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://bahelmart.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "3tees Shawarma",
+      "city": "Houston",
       "url": "https://3teeshawarma.com/",
-      "ok": false,
+      "ok": true,
       "status": 403,
-      "error": "HTTP 403",
+      "note": "bot_blocked",
       "method": "GET"
     },
     {
-      "url": "https://abulahotpottx.com/",
-      "ok": false,
-      "error": "<urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)>",
-      "method": "GET"
-    },
-    {
+      "name": "Addis Abeba Ethiopian Restaurant",
+      "city": "Richardson",
       "url": "https://addisabebarestauranttx.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://addisabebarestauranttx.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "African Arena Market",
+      "city": "Houston",
       "url": "https://africanarenamarket.com/",
-      "ok": false,
+      "ok": true,
       "status": 403,
-      "error": "HTTP 403",
+      "note": "bot_blocked",
       "method": "GET"
     },
     {
+      "name": "African Tasty Hub",
+      "city": "Houston",
       "url": "https://africantastyhub.com/",
-      "ok": false,
+      "ok": true,
       "status": 403,
-      "error": "HTTP 403",
+      "note": "bot_blocked",
       "method": "GET"
     },
     {
+      "name": "African Village Ethiopian Restaurant",
+      "city": "San Antonio",
       "url": "https://africanvillageethiopianrestaurant.gotoeat.net/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://africanvillageethiopianrestaurant.gotoeat.net/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Afrikiko",
+      "city": "Houston",
       "url": "https://afrikikohouston.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://afrikikohouston.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Afrospice | Authentic African Food In The RGV",
+      "city": "Mcallen",
       "url": "https://afrospicergv.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://afrospicergv.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Aldeez Afribbean, Restaurant & Lounge",
+      "city": "Dallas",
       "url": "https://aldeez.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://aldeez.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "All Seasons Cafe",
+      "city": "Sugar Land",
       "url": "https://allseasonscafetx.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://allseasonscafetx.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
-      "url": "https://amalazone.com/",
-      "ok": false,
-      "status": 521,
-      "error": "HTTP 521",
-      "method": "HEAD"
-    },
-    {
+      "name": "Amen Cafe Eritrean & Ethiopian",
+      "city": "San Antonio",
       "url": "https://amencafe.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://1fcg-kunstrasen.de/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Angie Winners Kitchen",
+      "city": "Arlington",
       "url": "https://angiewinnerskitchen.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.angiewinnerskitchen.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Anointed Cuisine A Taste of Africa",
+      "city": "El Paso",
       "url": "https://anointedcuisineinc.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://anointedcuisineinc.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Aso Rock | Restaurant & Lounge",
+      "city": "Dallas",
       "url": "https://asorocklounge.com/",
       "ok": false,
       "error": "TIMEOUT",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Aso Rock Market - Houston",
+      "city": "Houston",
       "url": "https://asorockmarket.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://asorockmarket.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Aunty Mimi's Kitchen",
+      "city": "Killeen",
       "url": "https://auntymimiskitchen.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://auntymimiskitchen.com/",
-      "method": "HEAD"
-    },
-    {
-      "url": "https://authenticafricanfoods.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
       "method": "GET"
     },
     {
+      "name": "Authentic African Restaurant & Bar",
+      "city": "Houston",
+      "url": "https://authenticafricanfoods.com/",
+      "ok": true,
+      "status": 403,
+      "note": "bot_blocked",
+      "method": "GET"
+    },
+    {
+      "name": "Blessliz African Market & Kitchen",
+      "city": "Mckinney",
       "url": "https://blesslizcatering.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://blesslizcatering.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "BOXOCHOPS Modern African Kitchen - Plano",
+      "city": "Plano",
       "url": "https://boxochops.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://boxochops.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Bukka Grill",
+      "city": "Frisco",
       "url": "https://bukkagrill.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://bukkagrill.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "ChefTemii - Nigerian Restaurant & Catering",
+      "city": "Arlington",
       "url": "https://cheftemii.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://cheftemii.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Chez Michelle",
+      "city": "Houston",
       "url": "https://chezmichellerestaurant.com",
       "ok": true,
       "status": 200,
       "finalUrl": "https://chezmichellerestaurant.com",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Chi Grocery",
+      "city": "Houston",
       "url": "https://chigrocery.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://chigrocery.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "City Cafe & Bakery",
+      "city": "Dallas",
       "url": "https://citycafebakery.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.citycafebakery.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Crave Suya",
+      "city": "Houston",
       "url": "https://cravesuya.com/",
-      "ok": false,
+      "ok": true,
       "status": 403,
-      "error": "HTTP 403",
+      "note": "bot_blocked",
       "method": "GET"
     },
     {
+      "name": "Cubana Grille | African & Jamaican Restaurant in McKinney Texas",
+      "city": "Mckinney",
       "url": "https://cubanagrille.com/",
-      "ok": false,
+      "ok": true,
       "status": 403,
-      "error": "HTTP 403",
+      "note": "bot_blocked",
       "method": "GET"
     },
     {
+      "name": "Dakar Street Food",
+      "city": "Houston",
       "url": "https://dakarstreetfood.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://dakarstreetfood.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Dallul East African Cuisine",
+      "city": "Dallas",
       "url": "https://dallulrestaurantandbar.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://dallulrestaurantandbar.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "EJIDE AFRICAN RESTAURANT AND BAR",
+      "city": "Houston",
       "url": "https://ddsejideafricanrestaurant.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://ddsejideafricanrestaurant.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Delight\u2019s Ghanaian Cuisine",
+      "city": "Houston",
       "url": "https://delightsghanaiancuisine.restaurants-info.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://delightsghanaiancuisine.restaurants-info.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Desta Ethiopian Restaurant",
+      "city": "Dallas",
       "url": "https://destaethiopiaresturant.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://destaethiopiaresturant.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Douala",
+      "city": "Katy",
       "url": "https://doualaeats.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://doualaeats.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "EKO Bistro Fusion",
+      "city": "Houston",
       "url": "https://ekobistro.net/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://ekobistro.net/",
-      "method": "HEAD"
-    },
-    {
-      "url": "https://ekomieats.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
       "method": "GET"
     },
     {
+      "name": "Ekomi Nigerian Restaurant",
+      "city": "Katy",
+      "url": "https://ekomieats.com/",
+      "ok": true,
+      "status": 403,
+      "note": "bot_blocked",
+      "method": "GET"
+    },
+    {
+      "name": "Exotic Grill African Cuisine",
+      "city": "Euless",
       "url": "https://exoticafricangrill.site/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://exoticafricangrill.site/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Finger Licking Restaurant",
+      "city": "Houston",
       "url": "https://fingerlickinghtx.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://fingerlickinghtx.com/",
-      "method": "HEAD"
-    },
-    {
-      "url": "https://foodmattasstore.com/",
-      "ok": false,
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostn",
       "method": "GET"
     },
     {
+      "name": "Freshnez Kitchen (Food Truck)",
+      "city": "Dallas",
       "url": "https://freshnezkitchen.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://freshnezkitchen.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
-      "url": "https://fufurestaurant.com/",
-      "ok": false,
-      "error": "DNS_FAILED",
-      "method": "HEAD"
-    },
-    {
+      "name": "Suya Power House",
+      "city": "Missouri City",
       "url": "https://fufuxpress.shop/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://fufuxpress.wordpress.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Fusion Vibes Kitchen + Lounge",
+      "city": "Richardson",
       "url": "https://fusionvibes.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://fusionvibes.com/",
-      "method": "HEAD"
-    },
-    {
-      "url": "https://giftedafricankitchen.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
       "method": "GET"
     },
     {
+      "name": "Gifted African Market and Restaurant",
+      "city": "Houston",
+      "url": "https://giftedafricankitchen.com/",
+      "ok": true,
+      "status": 403,
+      "note": "bot_blocked",
+      "method": "GET"
+    },
+    {
+      "name": "God Grace African Market",
+      "city": "Beaumont",
       "url": "https://gracefarmersmarket.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://gracefarmersmarket.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Habesha Restaurant",
+      "city": "Austin",
       "url": "https://habeshaaustin.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://habeshaaustin.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Havilah African Market",
+      "city": "Katy",
       "url": "https://havilahafricanfoodmarket.carrd.co/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://havilahafricanfoodmarket.carrd.co/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "HERITAGE NIGERIAN KITCHEN",
+      "city": "Houston",
       "url": "https://heritagenaijakitchen.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://heritagenaijakitchen.com/",
-      "method": "HEAD"
-    },
-    {
-      "url": "https://holyland-meat-grocery.edan.io/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
       "method": "GET"
     },
     {
+      "name": "Holyland Halal Meat Grocery",
+      "city": "Houston",
+      "url": "https://holyland-meat-grocery.edan.io/",
+      "ok": true,
+      "status": 403,
+      "note": "bot_blocked",
+      "method": "GET"
+    },
+    {
+      "name": "Hunan Cafe",
+      "city": "Houston",
       "url": "https://hunanwestafricancuisine.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://hunanwestafricancuisine.com/",
-      "method": "HEAD"
-    },
-    {
-      "url": "https://jolaskitchen.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
       "method": "GET"
     },
     {
+      "name": "Joslat African Foods",
+      "city": "Sugar Land",
+      "url": "https://jolaskitchen.com/",
+      "ok": true,
+      "status": 403,
+      "note": "bot_blocked",
+      "method": "GET"
+    },
+    {
+      "name": "Jollof Haus - West African Flavors",
+      "city": "Allen",
       "url": "https://jollofhauz.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://jollofhauz.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "African Union Market & Jollof Xpress",
+      "city": "Arlington",
       "url": "https://jollofxpress.site/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://jollofxpress.site/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Jolly Jolly Bakery",
+      "city": "Houston",
       "url": "https://jollyjollybakery.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://jollyjollybakery.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Kanny's Restaurant and Lounge",
+      "city": "Dallas",
       "url": "https://kannysrestaurant.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://kannysrestaurant.com/",
-      "method": "HEAD"
-    },
-    {
-      "url": "https://kes-spicy-9ja-suya-spot.goto-where.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
       "method": "GET"
     },
     {
+      "name": "Kes spicy 9Ja Suya Spot katy",
+      "city": "Katy",
+      "url": "https://kes-spicy-9ja-suya-spot.goto-where.com/",
+      "ok": true,
+      "status": 403,
+      "note": "bot_blocked",
+      "method": "GET"
+    },
+    {
+      "name": "La Belle Etoile African Kitchen",
+      "city": "Houston",
       "url": "https://labelleetoileafricankitchen.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://labelleetoileafricankitchen.com/",
-      "method": "HEAD"
-    },
-    {
-      "url": "https://ladytkitchen.com/",
-      "ok": false,
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self ",
       "method": "GET"
     },
     {
+      "name": "Lagos Kitchen",
+      "city": "Dallas",
       "url": "https://lagoskitchen-dallas.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://lagoskitchentexas.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Lagos Kitchen - Ft. Worth",
+      "city": "Fort Worth",
       "url": "https://lagoskitchen-fortworth.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://lagoskitchentexas.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Lalibela Ethiopian Restaurant & Bar",
+      "city": "Dallas",
       "url": "https://lalibeladallastx.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://lalibeladallastx.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
-      "url": "https://leannachopgrill.com/",
-      "ok": false,
-      "error": "DNS_FAILED",
-      "method": "HEAD"
-    },
-    {
+      "name": "Lekki Island Bar & Grill",
+      "city": "Katy",
       "url": "https://lekki-island-bar-and-grill.square.site/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.lekkiisland.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Mabel's African Cuisine & Bar",
+      "city": "Mckinney",
       "url": "https://mabelsafricancuisine.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://mabelsafricancuisine.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Marhaba Eritrean and Ethiopian Cuisine and Market",
+      "city": "Amarillo",
       "url": "https://marhabarestaurant.wordpress.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://marhabarestaurant.wordpress.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Marie African Flavors",
+      "city": "Houston",
       "url": "https://marieafricanflavorsrestaurant.com",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.marieafricanflavorsrestaurant.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Megenagna Mart and Cafe",
+      "city": "Austin",
       "url": "https://megenagna-cafe.com/Home",
       "ok": true,
       "status": 200,
       "finalUrl": "https://megenagna-cafe.com/Home",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Mgbeke Village Hut - Nigerian Cuisine",
+      "city": "Leander",
       "url": "https://mgbekevillagehut.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://mgbekevillagehut.com/",
-      "method": "HEAD"
-    },
-    {
-      "url": "https://murphysmansion.com/",
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://www.facebook.com/MURPHYSMANSIONLIVE",
-      "method": "HEAD"
-    },
-    {
-      "url": "https://myperiperi.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
       "method": "GET"
     },
     {
+      "name": "Murphy's Mansion",
+      "city": "Dallas",
+      "url": "https://murphysmansion.com/",
+      "ok": false,
+      "status": 400,
+      "method": "GET"
+    },
+    {
+      "name": "The Port of Peri Peri",
+      "city": "Sugar Land",
+      "url": "https://myperiperi.com/",
+      "ok": true,
+      "status": 403,
+      "note": "bot_blocked",
+      "method": "GET"
+    },
+    {
+      "name": "My Sasun African Grocery",
+      "city": "Katy",
       "url": "https://mysasun.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://mysasun.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Native Pot",
+      "city": "Houston",
       "url": "https://nativepotrestaurant.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://nativepotrestaurant.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
-      "url": "https://novacircle.com/restaurants/dibi-rapide",
-      "ok": false,
-      "status": 308,
-      "error": "HTTP 308",
-      "method": "HEAD"
-    },
-    {
+      "name": "Olatee African Mart",
+      "city": "Spring",
       "url": "https://olateeafricanmart.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://olateeafricanmart.com/?v=28886f13f578",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
-      "url": "https://olobekitchen.com/",
-      "ok": false,
-      "status": 308,
-      "error": "HTTP 308",
-      "method": "HEAD"
-    },
-    {
+      "name": "OLORI African Cuisine and Event Catering",
+      "city": "Fort Worth",
       "url": "https://oloriafricancuisine.net/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.oloriafricancuisine.net/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Omalicha Kitchen",
+      "city": "Houston",
       "url": "https://omalichakitchen.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.omalichakitchen.com/",
-      "method": "HEAD"
-    },
-    {
-      "url": "https://onyisuya.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
       "method": "GET"
     },
     {
+      "name": "Onyi's Suya",
+      "city": "Katy",
+      "url": "https://onyisuya.com/",
+      "ok": true,
+      "status": 403,
+      "note": "bot_blocked",
+      "method": "GET"
+    },
+    {
+      "name": "Lagos Buka",
+      "city": "Katy",
       "url": "https://order.lagosbuka.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://order.lagosbuka.com/",
-      "method": "HEAD"
-    },
-    {
-      "url": "https://order.online/store/aggie's-african-restaurant-dallas-30920975",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
       "method": "GET"
     },
     {
+      "name": "Aggies Restaurant",
+      "city": "Dallas",
+      "url": "https://order.online/store/aggie's-african-restaurant-dallas-30920975",
+      "ok": true,
+      "status": 403,
+      "note": "bot_blocked",
+      "method": "GET"
+    },
+    {
+      "name": "Oringo Africana",
+      "city": "San Antonio",
       "url": "https://oringo-africana.square.site/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://oringo-africana.square.site/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Osuma Suya",
+      "city": "Mckinney",
       "url": "https://osumasuya.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://osumasuya.com/",
-      "method": "HEAD"
-    },
-    {
-      "url": "https://rodonigeriancuisine.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
       "method": "GET"
     },
     {
+      "name": "Rodo Nigerian Cuisine",
+      "city": "Richmond",
+      "url": "https://rodonigeriancuisine.com/",
+      "ok": true,
+      "status": 403,
+      "note": "bot_blocked",
+      "method": "GET"
+    },
+    {
+      "name": "Sabo Suya Spot",
+      "city": "Houston",
       "url": "https://sabosuya.com/",
       "ok": false,
       "error": "TIMEOUT",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Salt N Pepper Kitchen & Catering Services",
+      "city": "Garland",
       "url": "https://saltandpepperkitchen.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://saltandpepperkitchen.com/",
-      "method": "HEAD"
-    },
-    {
-      "url": "https://sarabellcalabarrestaurant.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
       "method": "GET"
     },
     {
-      "url": "https://shuriafricanrestaurant.shop/",
-      "ok": false,
-      "error": "DNS_FAILED",
-      "method": "HEAD"
+      "name": "Sarabell Calabar Restaurant & Buffet",
+      "city": "Houston",
+      "url": "https://sarabellcalabarrestaurant.com/",
+      "ok": true,
+      "status": 403,
+      "note": "bot_blocked",
+      "method": "GET"
     },
     {
+      "name": "Somali Restaurant Bulsho",
+      "city": "Amarillo",
       "url": "https://somalibulsho.top/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://somalibulsho.top/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Somali African Safari Restaurant",
+      "city": "Amarillo",
       "url": "https://somalisafari.top/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://somalisafari.top/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Soul Sweet Bakery & Cafe",
+      "city": "Houston",
       "url": "https://soulsweetbakes.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://soulsweetbakes.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Sweet Admirer Bakery",
+      "city": "Houston",
       "url": "https://sweet-admirer.com/",
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://sweet-admirer.com/",
-      "method": "HEAD"
+      "ok": false,
+      "status": 503,
+      "method": "GET"
     },
     {
+      "name": "Taste of Nigeria",
+      "city": "Houston",
       "url": "https://tasteofnigeria.us/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://tasteofnigeria.us/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Famous Princess African Kitchen",
+      "city": "Houston",
       "url": "https://thefpak.start.page/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://thefpak.start.page/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "The Icon Nigerian Kitchen",
+      "city": "Richardson",
       "url": "https://theiconrestaurant.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://theiconrestaurant.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Suya Hut (Suya Culture)",
+      "city": "Meadows Place",
       "url": "https://therealsuyahut.com",
       "ok": true,
       "status": 200,
       "finalUrl": "https://therealsuyahut.com",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Safari",
+      "city": "Houston",
       "url": "https://thesafarirestaurant.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://thesafarirestaurant.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Aster's Ethiopian Kitchen",
+      "city": "Austin",
       "url": "https://thevendry.com/venue/174374/asters-ethiopian-restaurant-austin-tx",
       "ok": true,
       "status": 200,
       "finalUrl": "https://thevendry.com/venue/174374/asters-ethiopian-restaurant-austin-tx",
-      "method": "HEAD"
-    },
-    {
-      "url": "https://tsbuka.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
       "method": "GET"
     },
     {
+      "name": "T's Buka",
+      "city": "Arlington",
+      "url": "https://tsbuka.com/",
+      "ok": true,
+      "status": 403,
+      "note": "bot_blocked",
+      "method": "GET"
+    },
+    {
+      "name": "Ubuntu Cuisine",
+      "city": "San Antonio",
       "url": "https://ubuntucuisine.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://ubuntucuisine.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "ULTRA KITCHEN (RESTAURANTS & CATERING )",
+      "city": "San Antonio",
       "url": "https://ultrakitchenrestaurantscatering.restaurants-info.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://ultrakitchenrestaurantscatering.restaurants-info.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Unique African Cuisine",
+      "city": "Houston",
       "url": "https://unique-african-cuisine.hey-restaurants.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://unique-african-cuisine.hey-restaurants.com/",
-      "method": "HEAD"
-    },
-    {
-      "url": "https://united-african.edan.io/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
       "method": "GET"
     },
     {
+      "name": "United African & Caribbean Food Store",
+      "city": "Houston",
+      "url": "https://united-african.edan.io/",
+      "ok": true,
+      "status": 403,
+      "note": "bot_blocked",
+      "method": "GET"
+    },
+    {
+      "name": "Wazobia Market",
+      "city": "Houston",
       "url": "https://wazobia.market/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://wazobia.market/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Wazobia Kitchen",
+      "city": "Houston",
       "url": "https://wazobiaafricankitchen.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://wazobiaafricankitchen.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Wazobia African Market & Kitchen",
+      "city": "Houston",
       "url": "https://wazobiaafricanmarket.com/",
       "ok": false,
       "error": "TIMEOUT",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "042 Restaurant",
+      "city": "Houston",
       "url": "https://www.042restauranthtx.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.042restauranthtx.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
-      "url": "https://www.aatafricanfoodmarket.com/",
-      "ok": false,
-      "status": 402,
-      "error": "HTTP 402",
-      "method": "HEAD"
-    },
-    {
+      "name": "JC African & Caribbean Food Store",
+      "city": "Mcallen",
       "url": "https://www.africanfoodstores.com",
       "ok": false,
       "error": "TIMEOUT",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
-      "url": "https://www.africanvillagerestaurant.com/",
-      "ok": false,
-      "status": 404,
-      "error": "HTTP 404",
-      "method": "HEAD"
-    },
-    {
-      "url": "https://www.afroodining.com/",
-      "ok": false,
-      "status": 404,
-      "error": "HTTP 404",
-      "method": "HEAD"
-    },
-    {
+      "name": "Alief African Foods",
+      "city": "Houston",
       "url": "https://www.aliefafricanfoods.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://aliefafricanfoods.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Aria Suya Kitchen",
+      "city": "Houston",
       "url": "https://www.ariasuyakitchen.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.ariasuyakitchen.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Bantu House",
+      "city": "Cypress",
       "url": "https://www.bantuhouse.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://bantuhouse.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Blue Nile Ethiopian",
+      "city": "Houston",
       "url": "https://www.bluenilerestaurant.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.bluenilerestaurant.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Cafe Nubia",
+      "city": "Dallas",
       "url": "https://www.cafenubiadfw.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.cafenubiadfw.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Ch\u00f2pnBl\u1ecdk (Montrose)",
+      "city": "Houston",
       "url": "https://www.chopnblok.co/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://chopnblok.co/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Olachi's Place",
+      "city": "Houston",
       "url": "https://www.clover.com/online-ordering/olachis-place-houston",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.clover.com/online-ordering/olachis-place-houston",
-      "method": "HEAD"
-    },
-    {
-      "url": "https://www.doordash.com/en/store/afro-chow-suya-and-grills-houston-30968852/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
       "method": "GET"
     },
     {
+      "name": "Afro Chow",
+      "city": "Houston",
+      "url": "https://www.doordash.com/en/store/afro-chow-suya-and-grills-houston-30968852/",
+      "ok": true,
+      "status": 403,
+      "note": "bot_blocked",
+      "method": "GET"
+    },
+    {
+      "name": "Fabaceae African Cuisine Inc.",
+      "city": "Houston",
       "url": "https://www.fabaceaecuisine.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.fabaceaecuisine.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "HI-LO AFRICAN CARIBBEAN FOOD MARKET",
+      "city": "Houston",
       "url": "https://www.facebook.com/HiLoafricancaribbeanfoodmarket",
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://www.facebook.com/HiLoafricancaribbeanfoodmarket",
-      "method": "HEAD"
+      "ok": false,
+      "status": 400,
+      "method": "GET"
     },
     {
+      "name": "FlouryBites",
+      "city": "Katy",
       "url": "https://www.flourybites.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.flourybites.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
-      "url": "https://www.fufudelightsuyakitchen.com/",
-      "ok": false,
-      "status": 404,
-      "error": "HTTP 404",
-      "method": "HEAD"
-    },
-    {
+      "name": "Gidi Bar and Grill",
+      "city": "Frisco",
       "url": "https://www.gidibargrill.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://pizzamamasofia.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "AA&T African Food Market",
+      "city": "Houston",
+      "url": "https://www.google.com/maps/search/?api=1&query=AA%26T%20African%20Food%20Market%20Houston%20TX",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.google.com/maps/search/?api=1&query=AA%26T%20African%20Food%20Market%20Houston%20TX",
+      "method": "GET"
+    },
+    {
+      "name": "AFROO DINING",
+      "city": "Amarillo",
+      "url": "https://www.google.com/maps/search/?api=1&query=AFROO%20DINING%20Amarillo%20TX",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.google.com/maps/search/?api=1&query=AFROO%20DINING%20Amarillo%20TX",
+      "method": "GET"
+    },
+    {
+      "name": "African Village",
+      "city": "Irving",
+      "url": "https://www.google.com/maps/search/?api=1&query=African%20Village%20Irving%20TX",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.google.com/maps/search/?api=1&query=African%20Village%20Irving%20TX",
+      "method": "GET"
+    },
+    {
+      "name": "Amala Zone",
+      "city": "Houston",
+      "url": "https://www.google.com/maps/search/?api=1&query=Amala%20Zone%20Houston%20TX",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.google.com/maps/search/?api=1&query=Amala%20Zone%20Houston%20TX",
+      "method": "GET"
+    },
+    {
+      "name": "Dibi Rapide",
+      "city": "Houston",
+      "url": "https://www.google.com/maps/search/?api=1&query=Dibi%20Rapide%20Houston%20TX",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.google.com/maps/search/?api=1&query=Dibi%20Rapide%20Houston%20TX",
+      "method": "GET"
+    },
+    {
+      "name": "FoodMattas African Grocery Store",
+      "city": "Richmond",
+      "url": "https://www.google.com/maps/search/?api=1&query=FoodMattas%20African%20Grocery%20Store%20Richmond%20TX",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.google.com/maps/search/?api=1&query=FoodMattas%20African%20Grocery%20Store%20Richmond%20TX",
+      "method": "GET"
+    },
+    {
+      "name": "FuFu Restaurant (West African influence)",
+      "city": "Houston",
+      "url": "https://www.google.com/maps/search/?api=1&query=FuFu%20Restaurant%20%28West%20African%20influence%29%20Houston%20TX",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.google.com/maps/search/?api=1&query=FuFu%20Restaurant%20%28West%20African%20influence%29%20Houston%20TX",
+      "method": "GET"
+    },
+    {
+      "name": "Fufudelight & Suya Kitchen",
+      "city": "Arlington",
+      "url": "https://www.google.com/maps/search/?api=1&query=Fufudelight%20%26%20Suya%20Kitchen%20Arlington%20TX",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.google.com/maps/search/?api=1&query=Fufudelight%20%26%20Suya%20Kitchen%20Arlington%20TX",
+      "method": "GET"
+    },
+    {
+      "name": "Kofoshi",
+      "city": "Houston",
+      "url": "https://www.google.com/maps/search/?api=1&query=Kofoshi%20Houston%20TX",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.google.com/maps/search/?api=1&query=Kofoshi%20Houston%20TX",
+      "method": "GET"
+    },
+    {
+      "name": "LE Meals",
+      "city": "Austin",
+      "url": "https://www.google.com/maps/search/?api=1&query=LE%20Meals%20Austin%20TX",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.google.com/maps/search/?api=1&query=LE%20Meals%20Austin%20TX",
+      "method": "GET"
+    },
+    {
+      "name": "Lady T Kitchen African Restaurant",
+      "city": "Pflugerville",
+      "url": "https://www.google.com/maps/search/?api=1&query=Lady%20T%20Kitchen%20African%20Restaurant%20Pflugerville%20TX",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.google.com/maps/search/?api=1&query=Lady%20T%20Kitchen%20African%20Restaurant%20Pflugerville%20TX",
+      "method": "GET"
+    },
+    {
+      "name": "Lady T Kitchen",
+      "city": "Austin",
+      "url": "https://www.google.com/maps/search/?api=1&query=Lady%20T%20Kitchen%20Austin%20TX",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.google.com/maps/search/?api=1&query=Lady%20T%20Kitchen%20Austin%20TX",
+      "method": "GET"
+    },
+    {
+      "name": "Lagos Kitchen",
+      "city": "Lewisville",
+      "url": "https://www.google.com/maps/search/?api=1&query=Lagos%20Kitchen%20Lewisville%20TX",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.google.com/maps/search/?api=1&query=Lagos%20Kitchen%20Lewisville%20TX",
+      "method": "GET"
+    },
+    {
+      "name": "LeAnna Chop Grill",
+      "city": "Fort Worth",
+      "url": "https://www.google.com/maps/search/?api=1&query=LeAnna%20Chop%20Grill%20Fort%20Worth%20TX",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.google.com/maps/search/?api=1&query=LeAnna%20Chop%20Grill%20Fort%20Worth%20TX",
+      "method": "GET"
+    },
+    {
+      "name": "Nando's PERi-PERi (Montrose)",
+      "city": "Houston",
+      "url": "https://www.google.com/maps/search/?api=1&query=Nando%27s%20PERi-PERi%20%28Montrose%29%20Houston%20TX",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.google.com/maps/search/?api=1&query=Nando%27s%20PERi-PERi%20%28Montrose%29%20Houston%20TX",
+      "method": "GET"
+    },
+    {
+      "name": "Nando's PERi-PERi (Post Oak)",
+      "city": "Houston",
+      "url": "https://www.google.com/maps/search/?api=1&query=Nando%27s%20PERi-PERi%20%28Post%20Oak%29%20Houston%20TX",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.google.com/maps/search/?api=1&query=Nando%27s%20PERi-PERi%20%28Post%20Oak%29%20Houston%20TX",
+      "method": "GET"
+    },
+    {
+      "name": "Olobe's Kitchen",
+      "city": "Lavon",
+      "url": "https://www.google.com/maps/search/?api=1&query=Olobe%27s%20Kitchen%20Lavon%20TX",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.google.com/maps/search/?api=1&query=Olobe%27s%20Kitchen%20Lavon%20TX",
+      "method": "GET"
+    },
+    {
+      "name": "Shuri African Restaurant",
+      "city": "Dallas",
+      "url": "https://www.google.com/maps/search/?api=1&query=Shuri%20African%20Restaurant%20Dallas%20TX",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.google.com/maps/search/?api=1&query=Shuri%20African%20Restaurant%20Dallas%20TX",
+      "method": "GET"
+    },
+    {
+      "name": "Trices Cafe and Lounge",
+      "city": "San Antonio",
+      "url": "https://www.google.com/maps/search/?api=1&query=Trices%20Cafe%20and%20Lounge%20San%20Antonio%20TX",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.google.com/maps/search/?api=1&query=Trices%20Cafe%20and%20Lounge%20San%20Antonio%20TX",
+      "method": "GET"
+    },
+    {
+      "name": "West African Way",
+      "city": "Plano",
+      "url": "https://www.google.com/maps/search/?api=1&query=West%20African%20Way%20Plano%20TX",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.google.com/maps/search/?api=1&query=West%20African%20Way%20Plano%20TX",
+      "method": "GET"
+    },
+    {
+      "name": "Dhut African Restaurant",
+      "city": "El Paso",
       "url": "https://www.google.com/maps/search/Dhut%20African%20Restaurant%20El%20Paso%20TX",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.google.com/maps/search/Dhut%20African%20Restaurant%20El%20Paso%20TX",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Mamaput African Cuisine",
+      "city": "Stafford",
       "url": "https://www.google.com/maps/search/Mamaput%20African%20Cuisine%20Stafford%20TX",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.google.com/maps/search/Mamaput%20African%20Cuisine%20Stafford%20TX",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "THE SPOT (Rhosabjal African cuisine)",
+      "city": "Fort Worth",
       "url": "https://www.google.com/maps/search/THE%20SPOT%20(Rhosabjal%20African%20cuisine)%20Fort%20Worth%20TX",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.google.com/maps/search/THE%20SPOT%20(Rhosabjal%20African%20cuisine)%20Fort%20Worth%20TX",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Asani's African Market",
+      "city": "Katy",
       "url": "https://www.instagram.com/asanismarket/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.instagram.com/asanismarket/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Hisway African Grocery Store",
+      "city": "Katy",
       "url": "https://www.instagram.com/hiswayafricangrocerystore/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.instagram.com/hiswayafricangrocerystore/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Jolly Jolly Bakery",
+      "city": "Dallas",
       "url": "https://www.jollyjollybakery.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.jollyjollybakery.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
-      "url": "https://www.kofoshinigerianresturant.com/",
-      "ok": false,
-      "status": 404,
-      "error": "HTTP 404",
-      "method": "HEAD"
-    },
-    {
+      "name": "KomChop",
+      "city": "Houston",
       "url": "https://www.komchop.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.komchop.com/",
-      "method": "HEAD"
-    },
-    {
-      "url": "https://www.lagos-kitchen.com",
-      "ok": false,
-      "error": "<urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version ",
       "method": "GET"
     },
     {
-      "url": "https://www.lemeals.net/",
-      "ok": false,
-      "status": 404,
-      "error": "HTTP 404",
-      "method": "HEAD"
-    },
-    {
+      "name": "Lola's Restaurant & Lounge",
+      "city": "Irving",
       "url": "https://www.lolasafricanrestaurant.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.lolasafricanrestaurant.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Lucy Ethiopian Restaurant & Lounge",
+      "city": "Houston",
       "url": "https://www.lucyhouston.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://lucyhouston.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Motherland African Food Market",
+      "city": "Houston",
       "url": "https://www.motherlandafricanfoodmarkets.com",
       "ok": true,
       "status": 200,
       "finalUrl": "https://motherlandafricanfoodmarkets.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
-      "url": "https://www.nandosperiperi.com/",
-      "ok": false,
-      "status": 429,
-      "error": "HTTP 429",
-      "method": "HEAD"
-    },
-    {
+      "name": "Olatee African Cafe",
+      "city": "Spring",
       "url": "https://www.olateeafricancafe.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://olateeafricancafe.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Palatable Nigerian Cuisine",
+      "city": "Austin",
       "url": "https://www.orderpalatablecuisine.com",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.orderpalatablecuisine.com",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Red Sea Kitchen (Ethiopian Food Truck)",
+      "city": "Austin",
       "url": "https://www.redseakitchenatx.com",
       "ok": true,
       "status": 200,
       "finalUrl": "https://redseakitchenatx.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Alief African Kitchen",
+      "city": "Houston",
       "url": "https://www.restaurantji.com/tx/houston/alief-african-kitchen-/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.restaurantji.com/tx/houston/alief-african-kitchen-/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Amala on Point - Grains and Solid Cafe",
+      "city": "Sugar Land",
       "url": "https://www.roostcafeandbistro.com/amala-on-point-grains-and-solid-cafe-77498/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.roostcafeandbistro.com/amala-on-point-grains-and-solid-cafe-77498/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Royal Arm Restaurant African and Caribbean",
+      "city": "Katy",
       "url": "https://www.royalarmrestaurant.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://royalarmrestaurant.com/",
-      "method": "HEAD"
-    },
-    {
-      "url": "https://www.southwestfarmersmarket.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
       "method": "GET"
     },
     {
+      "name": "Southwest Farmers Market & Kitchen",
+      "city": "Arlington",
+      "url": "https://www.southwestfarmersmarket.com/",
+      "ok": true,
+      "status": 403,
+      "note": "bot_blocked",
+      "method": "GET"
+    },
+    {
+      "name": "Suya on the Spot",
+      "city": "Houston",
       "url": "https://www.suyaonthespot.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.suyaonthespot.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Suya Stop",
+      "city": "Grand Prairie",
       "url": "https://www.suyastop.com",
       "ok": true,
       "status": 200,
       "finalUrl": "https://suyastop.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "TASTE AFRIK",
+      "city": "Mansfield",
       "url": "https://www.tasteafrik.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://tasteafrik.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Queen of Sheba Restaurant",
+      "city": "Addison",
       "url": "https://www.thequeensheba.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.thequeensheba.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
-      "url": "https://www.tricescafeandlounge.com/",
-      "ok": false,
-      "status": 404,
-      "error": "HTTP 404",
-      "method": "HEAD"
-    },
-    {
+      "name": "Food Galaxy African Kitchen & Store",
+      "city": "Houston",
       "url": "https://www.ubereats.com/store/food-galaxy-african-kitchen-%26-store/5lYX-8uoVFiZbaJlWi53JA",
-      "ok": false,
+      "ok": true,
       "status": 403,
-      "error": "HTTP 403",
+      "note": "bot_blocked",
       "method": "GET"
     },
     {
+      "name": "KC African Store",
+      "city": "Houston",
       "url": "https://www.ubereats.com/store/kc-african-store-10924-westheimer-road",
-      "ok": false,
+      "ok": true,
       "status": 403,
-      "error": "HTTP 403",
+      "note": "bot_blocked",
       "method": "GET"
     },
     {
+      "name": "Kes Spicy 9ja Suya Spot",
+      "city": "Houston",
       "url": "https://www.ubereats.com/store/kes-spicy-9ja-suya-spot-hwy-6/",
-      "ok": false,
+      "ok": true,
       "status": 403,
-      "error": "HTTP 403",
+      "note": "bot_blocked",
       "method": "GET"
     },
     {
-      "url": "https://www.visitplano.com/dining/west-african-way/",
-      "ok": false,
-      "status": 404,
-      "error": "HTTP 404",
-      "method": "HEAD"
-    },
-    {
+      "name": "Vizo\u2019s African Bar & Restaurant",
+      "city": "Lubbock",
       "url": "https://www.vizoslubbock.com/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.vizoslubbock.com/",
-      "method": "HEAD"
+      "method": "GET"
     },
     {
+      "name": "Tam Tam Zings Bar & Grill",
+      "city": "Richland Hills",
       "url": "https://www.zingscafe.com",
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.zingscafe.com",
-      "method": "HEAD"
-    },
-    {
-      "url": "https://yenatguada.com/",
-      "ok": false,
-      "status": 403,
-      "error": "HTTP 403",
       "method": "GET"
     },
     {
+      "name": "Yenat Guada Ethiopian Cuisine",
+      "city": "Dallas",
+      "url": "https://yenatguada.com/",
+      "ok": true,
+      "status": 403,
+      "note": "bot_blocked",
+      "method": "GET"
+    },
+    {
+      "name": "Zongo",
+      "city": "Richmond",
       "url": "https://zongo.us/",
       "ok": true,
       "status": 200,
       "finalUrl": "https://zongo.us/",
-      "method": "HEAD"
+      "method": "GET"
     }
   ]
 }

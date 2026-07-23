@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 /**
- * Add short writeUp text for featured + editorial collection listings when missing.
+ * Add short writeUp text for listings when missing.
  * Run: node scripts/backfill-writeups-csv.mjs
  *      node scripts/backfill-writeups-csv.mjs --dryRun
+ *      node scripts/backfill-writeups-csv.mjs --fromPriority --limit=50
  */
 import fs from "node:fs/promises"
 import path from "node:path"
@@ -11,8 +12,9 @@ import { stringify } from "csv-stringify/sync"
 
 const ROOT = process.cwd()
 const CSV_PATH = path.resolve(ROOT, "data", "restaurants.csv")
+const PRIORITY_PATH = path.resolve(ROOT, "data", "backfill-priority.json")
 
-const TARGET_SLUGS = new Set([
+const COLLECTION_SLUGS = new Set([
   "chopnblok-montrose-houston-tx",
   "chopnblok-post-houston-tx",
   "aria-suya-kitchen-houston-tx",
@@ -35,6 +37,29 @@ const TARGET_SLUGS = new Set([
 
 function hasFlag(flag) {
   return process.argv.includes(flag)
+}
+
+function parseLimitArg() {
+  const raw = process.argv.find((a) => a.startsWith("--limit="))?.split("=")[1]
+  if (!raw) return null
+  const n = Number(raw)
+  return Number.isFinite(n) && n > 0 ? Math.floor(n) : null
+}
+
+async function loadTargetSlugs() {
+  if (hasFlag("--fromPriority")) {
+    const limit = parseLimitArg() ?? 50
+    const json = JSON.parse(await fs.readFile(PRIORITY_PATH, "utf8"))
+    const slugs = []
+    for (const item of json.priority ?? []) {
+      if (!item?.slug) continue
+      if (Array.isArray(item.missing) && !item.missing.includes("writeUp")) continue
+      slugs.push(String(item.slug).trim())
+      if (slugs.length >= limit) break
+    }
+    return new Set(slugs)
+  }
+  return COLLECTION_SLUGS
 }
 
 function splitPipes(value) {
@@ -73,13 +98,14 @@ function buildWriteUp(row) {
 
 async function main() {
   const dryRun = hasFlag("--dryRun")
+  const targetSlugs = await loadTargetSlugs()
   const csv = await fs.readFile(CSV_PATH, "utf8")
   const rows = parse(csv, { columns: true, skip_empty_lines: true, trim: true })
   let updated = 0
 
   for (const row of rows) {
     const slug = String(row.slug ?? "").trim()
-    if (!TARGET_SLUGS.has(slug)) continue
+    if (!targetSlugs.has(slug)) continue
     if (String(row.writeUp ?? "").trim()) continue
 
     const writeUp = buildWriteUp(row)
