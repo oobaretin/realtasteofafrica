@@ -47,6 +47,7 @@ const BROKEN_DOMAINS = [
   "grainsandsolids.com",
   "visitsanantonio.com", // listing page 404
   "joslat-african-foods.business.site", // 404
+  "murphysmansion.com", // redirects to Facebook; bot checks fail
 ]
 
 function isBroken(url) {
