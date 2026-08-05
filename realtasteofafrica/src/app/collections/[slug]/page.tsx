@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { notFound } from "next/navigation"
 
+import { CollectionBrowseMore } from "@/components/CollectionBrowseMore"
 import { CollectionHero } from "@/components/CollectionHero"
 import { RestaurantCard } from "@/components/RestaurantCard"
 import { WpPageShell } from "@/components/WpPageShell"
@@ -9,6 +10,7 @@ import {
   getCollectionBySlug,
   resolveCollectionRestaurants,
 } from "@/data/collections"
+import { getCollectionBrowseLinks } from "@/lib/collectionBrowseLinks"
 import { publicFileExists, resolveHeroSlides } from "@/lib/collectionAssets"
 import { RESTAURANTS } from "@/lib/restaurants"
 
@@ -47,6 +49,7 @@ export default async function CollectionPage({
   if (!collection) notFound()
 
   const restaurants = resolveCollectionRestaurants(collection, RESTAURANTS)
+  const browseLinks = getCollectionBrowseLinks(restaurants)
 
   const heroSlides = resolveHeroSlides(collection)
   const guideImagesResolved =
@@ -106,7 +109,7 @@ export default async function CollectionPage({
         ) : null}
 
         <section aria-label="Featured listings" className="mt-10 grid gap-4">
-          <h2 className="font-serif text-xl font-semibold text-slate-900">On the list</h2>
+          <h2 className="font-display text-xl font-semibold text-slate-900">On the list</h2>
           <p className="text-sm text-slate-600">
             {restaurants.length} spot{restaurants.length !== 1 ? "s" : ""} — order reflects our pick
             sequence, not a ranking score.
@@ -119,6 +122,8 @@ export default async function CollectionPage({
             ))}
           </ul>
         </section>
+
+        <CollectionBrowseMore links={browseLinks} />
       </WpPageShell>
     </div>
   )

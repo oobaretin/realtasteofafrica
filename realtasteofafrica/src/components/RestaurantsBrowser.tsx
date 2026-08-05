@@ -8,6 +8,7 @@ import { Badge } from "@/components/Badge"
 import { FilterBar } from "@/components/FilterBar"
 import { OpenNowToggle } from "@/components/OpenNowToggle"
 import { RestaurantCard } from "@/components/RestaurantCard"
+import { TrustLegendStrip } from "@/components/TrustLegendStrip"
 import type { Area } from "@/lib/areas"
 import { getBusinessStatus } from "@/lib/businessHours"
 import {
@@ -373,6 +374,8 @@ export function RestaurantsBrowser({
         sortOptions={sortOptions}
         onSortChange={(value) => setSortBy(value as SortBy)}
       />
+
+      <TrustLegendStrip />
 
       {(category !== "All" || areaSlug || cuisine || query.trim()) && (
         <div className="flex flex-wrap items-center gap-2">

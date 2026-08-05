@@ -1,6 +1,7 @@
 import Link from "next/link"
 
 import { FeaturedGrid } from "@/components/FeaturedGrid"
+import { HomeGuides } from "@/components/HomeGuides"
 import { HomeHero } from "@/components/HomeHero"
 import { StatewideDiscovery } from "@/components/StatewideDiscovery"
 import { getFeaturedRestaurants, RESTAURANTS } from "@/lib/restaurants"
@@ -29,7 +30,7 @@ export default function HomePage() {
       <section className="min-w-0 grid gap-4">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between sm:gap-4">
           <div className="min-w-0">
-            <h2 className="text-lg font-semibold tracking-tight sm:text-xl md:text-2xl">
+            <h2 className="font-display text-lg font-semibold tracking-tight sm:text-xl md:text-2xl">
               Editor&apos;s picks
             </h2>
             <p className="mt-1 text-sm text-slate-600 md:text-base">
@@ -46,6 +47,8 @@ export default function HomePage() {
 
         <FeaturedGrid restaurants={featured} limit={3} />
       </section>
+
+      <HomeGuides />
 
       <StatewideDiscovery restaurants={RESTAURANTS} />
     </div>
