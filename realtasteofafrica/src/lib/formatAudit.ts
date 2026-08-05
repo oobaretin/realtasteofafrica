@@ -16,6 +16,20 @@ export function formatDirectoryVerifiedLabel(lastAuditDate?: string): string {
   return `Directory verified · ${month} ${year}`
 }
 
+/** Human-readable audit line for listing detail. */
+export function formatDirectoryVerifiedDetail(lastAuditDate?: string): string {
+  if (!lastAuditDate?.trim()) {
+    return "We checked hours and contact details for this listing."
+  }
+  const d = new Date(`${lastAuditDate.trim()}T12:00:00`)
+  if (Number.isNaN(d.getTime())) {
+    return "We checked hours and contact details for this listing."
+  }
+  const month = d.toLocaleString("en-US", { month: "long" })
+  const year = d.getFullYear()
+  return `We checked hours and phone in ${month} ${year}.`
+}
+
 /** Latest audit month across listings, e.g. "July 2026". */
 export function formatLatestAuditMonth(
   restaurants: { lastAuditDate?: string }[]

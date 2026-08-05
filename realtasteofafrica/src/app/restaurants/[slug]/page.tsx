@@ -7,9 +7,11 @@ import { ClaimListingBanner } from "@/components/ClaimListingBanner"
 import { CopyAddressButtonClient } from "@/components/CopyAddressButton"
 import { ListingActionStack } from "@/components/ListingActionStack"
 import { ListingHero } from "@/components/ListingHero"
+import { ListingMobileBar } from "@/components/ListingMobileBar"
 import { SimilarSpots } from "@/components/SimilarSpots"
 import { VerifiedBadge } from "@/components/VerifiedBadge"
 import {
+  formatDirectoryVerifiedDetail,
   formatDirectoryVerifiedLabel,
   showDirectoryVerifiedBadge,
 } from "@/lib/formatAudit"
@@ -148,7 +150,7 @@ export default async function RestaurantDetailPage({
   )
 
   return (
-    <article className="min-w-0 grid gap-0">
+    <article className="min-w-0 grid gap-0 pb-20 lg:pb-0">
       <header className="grid gap-2">
         <nav aria-label="Breadcrumb" className="text-sm text-slate-500">
           <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
@@ -175,8 +177,17 @@ export default async function RestaurantDetailPage({
         </h1>
         <div className="mt-2 flex flex-wrap items-center gap-2">
           {showDirectoryVerifiedBadge(r) ? (
-            <span className="inline-flex items-center gap-1.5 rounded-xl border border-amber-200 bg-amber-50 px-3 py-2 text-sm font-semibold text-amber-900">
-              {formatDirectoryVerifiedLabel(r.lastAuditDate)}
+            <span
+              className="inline-flex flex-col gap-0.5 rounded-xl border border-amber-200 bg-amber-50 px-3 py-2 text-sm text-amber-900 sm:flex-row sm:items-center sm:gap-2"
+              title={formatDirectoryVerifiedDetail(r.lastAuditDate)}
+            >
+              <span className="font-semibold">
+                {formatDirectoryVerifiedLabel(r.lastAuditDate)}
+              </span>
+              <span className="hidden text-amber-800/90 sm:inline">·</span>
+              <span className="text-xs text-amber-800/90 sm:text-sm">
+                {formatDirectoryVerifiedDetail(r.lastAuditDate)}
+              </span>
             </span>
           ) : null}
           <BusinessStatusClient hours={r.hours} variant="badge" />
@@ -187,20 +198,6 @@ export default async function RestaurantDetailPage({
       <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_320px] lg:items-start">
         <div className="min-w-0 grid gap-6">
           <ListingHero restaurant={r} />
-
-          {!r.isVerified ? (
-            <ClaimListingBanner restaurantName={r.name} slug={r.slug} />
-          ) : null}
-
-          <div className="lg:hidden">
-            <h2 className="sr-only">Quick actions</h2>
-            <ListingActionStack
-              restaurant={r}
-              listingNumber={listingNumber}
-              totalListings={RESTAURANTS.length}
-              layout="inline"
-            />
-          </div>
 
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wide text-slate-500">
@@ -264,7 +261,13 @@ export default async function RestaurantDetailPage({
         <SimilarSpots restaurants={similarRestaurants} title={similarSpotsTitle(r)} />
       </div>
 
-      <p className="mt-10 text-center text-sm text-slate-500">
+      {!r.isVerified ? (
+        <div className="mt-10">
+          <ClaimListingBanner restaurantName={r.name} slug={r.slug} />
+        </div>
+      ) : null}
+
+      <p className="mt-6 text-center text-sm text-slate-500">
         <Link
           href={reportHref}
           className="underline hover:text-amber-700 focus:text-amber-700"
@@ -272,6 +275,8 @@ export default async function RestaurantDetailPage({
           Is this information incorrect? Report a closure or update here.
         </Link>
       </p>
+
+      <ListingMobileBar restaurant={r} />
     </article>
   )
 }

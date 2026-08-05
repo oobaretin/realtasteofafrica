@@ -31,15 +31,15 @@ export function SiteFooter() {
               </div>
             </Link>
             <p className="text-sm text-slate-600">
-              The largest verified directory of African cuisine in the Lone Star State.
+              Texas&apos;s African food map — verified hours, phones, and directions.
             </p>
           </div>
 
           <div className="grid gap-2 text-sm">
             <div className="font-semibold text-slate-900">Texas Coverage</div>
-            <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-slate-600">
-              {TEXAS_COVERAGE.map(({ label, areaSlug }, i) => (
-                <span key={areaSlug} className="inline-flex items-center gap-x-3">
+            <ul className="grid gap-1.5 text-slate-600">
+              {TEXAS_COVERAGE.map(({ label, areaSlug }) => (
+                <li key={areaSlug}>
                   <Link
                     className="hover:text-slate-900 hover:underline"
                     href={`/restaurants?area=${areaSlug}`}
@@ -47,12 +47,9 @@ export function SiteFooter() {
                   >
                     {label}
                   </Link>
-                  {i < TEXAS_COVERAGE.length - 1 ? (
-                    <span className="text-slate-300" aria-hidden>|</span>
-                  ) : null}
-                </span>
+                </li>
               ))}
-            </div>
+            </ul>
             <Link className="text-slate-600 hover:text-slate-900" href="/restaurants">
               Browse all
             </Link>

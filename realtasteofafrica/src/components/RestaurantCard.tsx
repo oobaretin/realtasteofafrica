@@ -1,9 +1,8 @@
 "use client"
 
-import type { ReactElement } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowRight, Globe, MapPin, Phone } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 
 import { Badge } from "@/components/Badge"
 import {
@@ -11,15 +10,13 @@ import {
   CATEGORY_STRIP_CLASSES,
   getEstablishmentCategory,
 } from "@/lib/establishmentType"
-import { ListingExternalLink } from "@/components/ListingExternalLink"
-import { formatPhoneDisplay, toTelHref } from "@/lib/formatPhone"
 import type { Restaurant } from "@/lib/restaurants"
 import { useBusinessStatus } from "@/components/BusinessStatusClient"
 import { VerifiedBadge } from "@/components/VerifiedBadge"
 import { formatDirectoryVerifiedLabel, showDirectoryVerifiedBadge } from "@/lib/formatAudit"
 
-const touchBase =
-  "inline-flex min-h-12 w-full select-none items-center justify-center gap-2 rounded-xl border text-sm font-semibold transition-transform active:scale-95 touch-manipulation"
+const viewButtonClasses =
+  "inline-flex min-h-12 w-full select-none items-center justify-center gap-2 rounded-xl border border-amber-700 bg-amber-600 text-sm font-semibold text-white transition-transform hover:bg-amber-700 active:scale-95 touch-manipulation"
 
 export function RestaurantCard({
   restaurant,
@@ -38,61 +35,6 @@ export function RestaurantCard({
   const isFeatured = variant === "featured"
   const businessStatus = useBusinessStatus(r.hours)
   const isClosed = businessStatus.status === "Closed"
-
-  const actionEls: ReactElement[] = [
-    <Link
-      key="details"
-      className={`${touchBase} border-amber-700 bg-amber-600 text-white hover:bg-amber-700`}
-      href={`/restaurants/${r.slug}`}
-    >
-      <ArrowRight className="h-5 w-5 shrink-0" aria-hidden />
-      <span>Details</span>
-    </Link>,
-  ]
-
-  if (r.websiteUrl) {
-    actionEls.push(
-      <ListingExternalLink
-        key="web"
-        href={r.websiteUrl}
-        className={`${touchBase} border-slate-200 bg-white text-slate-800 hover:bg-slate-50`}
-      >
-        <Globe className="h-5 w-5 shrink-0 text-slate-600" aria-hidden />
-        <span>Website</span>
-        <span className="sr-only"> (opens in new tab)</span>
-      </ListingExternalLink>
-    )
-  }
-
-  if (r.phone) {
-    actionEls.push(
-      <a
-        key="phone"
-        className={`${touchBase} border-slate-200 bg-white text-slate-800 hover:bg-slate-50`}
-        href={`tel:${toTelHref(r.phone)}`}
-      >
-        <Phone className="h-5 w-5 shrink-0 text-slate-600" aria-hidden />
-        <span>Call</span>
-        <span className="sr-only">{formatPhoneDisplay(r.phone)}</span>
-      </a>
-    )
-  }
-
-  if (r.mapsUrl) {
-    actionEls.push(
-      <a
-        key="maps"
-        className={`${touchBase} border-slate-200 bg-white text-slate-800 hover:bg-slate-50`}
-        href={r.mapsUrl}
-        target="_blank"
-        rel="noreferrer"
-      >
-        <MapPin className="h-5 w-5 shrink-0 text-slate-600" aria-hidden />
-        <span>Directions</span>
-        <span className="sr-only"> (opens in new tab)</span>
-      </a>
-    )
-  }
 
   return (
     <article
@@ -188,15 +130,11 @@ export function RestaurantCard({
           <p className="mt-1 text-sm font-medium text-amber-800">{distanceLabel}</p>
         ) : null}
 
-        <div className={`mt-auto grid grid-cols-2 gap-2 ${isFeatured ? "pt-4 sm:pt-5" : "pt-3 sm:pt-4"}`}>
-          {actionEls.map((el, i) => {
-            const oddLast = actionEls.length % 2 === 1 && i === actionEls.length - 1
-            return (
-              <div key={`action-${i}`} className={oddLast ? "col-span-2" : undefined}>
-                {el}
-              </div>
-            )
-          })}
+        <div className={`mt-auto ${isFeatured ? "pt-4 sm:pt-5" : "pt-3 sm:pt-4"}`}>
+          <Link className={viewButtonClasses} href={`/restaurants/${r.slug}`}>
+            <ArrowRight className="h-5 w-5 shrink-0" aria-hidden />
+            <span>View listing</span>
+          </Link>
         </div>
         {showDirectoryVerifiedBadge(r) ? (
           <p className="mt-2 text-xs text-slate-400">

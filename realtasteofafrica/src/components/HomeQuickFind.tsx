@@ -3,9 +3,16 @@
 import { useRouter } from "next/navigation"
 import { FormEvent, useState } from "react"
 
-export function HomeQuickFind({ listingCount }: { listingCount: number }) {
+export function HomeQuickFind({
+  listingCount,
+  variant = "default",
+}: {
+  listingCount: number
+  variant?: "default" | "hero"
+}) {
   const router = useRouter()
   const [query, setQuery] = useState("")
+  const isHero = variant === "hero"
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault()
@@ -24,11 +31,15 @@ export function HomeQuickFind({ listingCount }: { listingCount: number }) {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder="Name, city, cuisine…"
-        className="min-h-12 flex-1 rounded-xl border border-slate-200 bg-white px-4 text-sm text-slate-900 placeholder:text-slate-400"
+        className={
+          isHero
+            ? "min-h-12 flex-1 rounded-xl border border-white/20 bg-white/95 px-4 text-sm text-slate-900 placeholder:text-slate-500 shadow-sm"
+            : "min-h-12 flex-1 rounded-xl border border-slate-200 bg-white px-4 text-sm text-slate-900 placeholder:text-slate-400"
+        }
       />
       <button
         type="submit"
-        className="min-h-12 shrink-0 rounded-xl bg-amber-600 px-6 text-sm font-semibold text-white hover:bg-amber-700"
+        className="min-h-12 shrink-0 rounded-xl bg-amber-500 px-6 text-sm font-semibold text-white hover:bg-amber-600"
       >
         Search
       </button>

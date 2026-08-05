@@ -63,10 +63,10 @@ export function StatewideDiscovery({ restaurants }: StatewideDiscoveryProps) {
           id="statewide-discovery-heading"
           className="text-xl font-bold tracking-tight text-slate-900 sm:text-2xl md:text-3xl"
         >
-          Strictly Statewide. Strictly Authentic.
+          Across Texas
         </h2>
         <p className="mt-2 text-slate-600 md:text-lg">
-          Mapping {total}+ verified African culinary destinations across the Lone Star State.
+          Jump into a region or browse the full map of African restaurants statewide.
         </p>
       </header>
 
