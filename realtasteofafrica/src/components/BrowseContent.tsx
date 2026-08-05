@@ -37,7 +37,7 @@ export function BrowseContent({
   return (
     <WpPageShell
       title="Browse restaurants & markets"
-      description="Filter by region, cuisine, and type—where to eat (restaurants, trucks, ghost kitchens) or markets and groceries. Texas-wide coverage."
+      description="Search and filter by region and cuisine — restaurants, trucks, markets, and groceries across Texas."
       breadcrumbs={[
         { href: "/", label: "Home" },
         { href: "/restaurants", label: "Restaurants" },

@@ -310,7 +310,7 @@ export function RestaurantsBrowser({
               <button
                 type="button"
                 onClick={clearNearMe}
-                className="min-h-12 rounded-xl border border-slate-200 bg-white px-3 text-sm font-semibold text-slate-700 shadow-sm transition-transform active:scale-95 touch-manipulation hover:bg-slate-50"
+                className="min-h-11 rounded-xl border border-slate-200 bg-white px-3 text-sm font-semibold text-slate-700 shadow-sm transition-transform active:scale-95 touch-manipulation hover:bg-slate-50"
               >
                 Clear location
               </button>
@@ -319,7 +319,7 @@ export function RestaurantsBrowser({
                 type="button"
                 onClick={requestNearMe}
                 disabled={locating}
-                className="inline-flex min-h-12 min-w-[48px] items-center justify-center gap-2 rounded-xl bg-amber-600 px-4 text-sm font-semibold text-white shadow-sm transition-transform hover:bg-amber-700 active:scale-95 touch-manipulation disabled:cursor-not-allowed disabled:opacity-70"
+                className="inline-flex min-h-11 min-w-[48px] items-center justify-center gap-2 rounded-xl bg-amber-600 px-4 text-sm font-semibold text-white shadow-sm transition-transform hover:bg-amber-700 active:scale-95 touch-manipulation disabled:cursor-not-allowed disabled:opacity-70"
               >
                 {locating ? (
                   <Loader2 className="h-5 w-5 shrink-0 animate-spin" aria-hidden />
@@ -335,51 +335,33 @@ export function RestaurantsBrowser({
               {geoError}
             </span>
           ) : null}
-          <div className="flex items-center gap-2">
-            <label htmlFor="sort-by" className="text-sm font-medium text-slate-600">
-              Sort by
-            </label>
-            <span className="relative inline-block">
-              <select
-                id="sort-by"
-                value={sortOptions.some((o) => o.value === sortBy) ? sortBy : "status"}
-                onChange={(e) => setSortBy(e.target.value as SortBy)}
-                className="min-h-12 min-w-[8rem] appearance-none rounded-md border border-slate-200 bg-white py-2.5 pr-8 pl-3 text-sm font-medium text-slate-900 focus:ring-2 focus:ring-amber-400 focus:ring-offset-1"
-                aria-label="Sort listings"
-              >
-                {sortOptions.map((opt) => (
-                  <option key={opt.value} value={opt.value}>
-                    {opt.label}
-                  </option>
-                ))}
-              </select>
-              <span
-                className="pointer-events-none absolute right-1 top-1/2 -translate-y-1/2 text-slate-400"
-                aria-hidden
-              >
-                <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </span>
-            </span>
-          </div>
-           <span className="text-sm text-slate-500">
-            Showing {sorted.length} verified spot{sorted.length !== 1 ? "s" : ""}
+          <span className="text-sm text-slate-500">
+            {sorted.length} spot{sorted.length !== 1 ? "s" : ""}
             {nearMeActive && userPosition ? (
-              <span className="hidden text-slate-400 sm:inline">
-                {" "}
-                · nearest first; listings without coordinates appear last
-              </span>
+              <span className="hidden text-slate-400 sm:inline"> · nearest first</span>
             ) : null}
           </span>
         </div>
         <button
           type="button"
           onClick={handleRefine}
-          className="min-h-12 rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-amber-700 hover:bg-amber-50 focus:ring-2 focus:ring-amber-400 focus:ring-offset-1"
+          className="min-h-11 rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-amber-700 hover:bg-amber-50 focus:ring-2 focus:ring-amber-400 focus:ring-offset-1"
         >
-          Refine
+          Reset
         </button>
+      </div>
+
+      <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+        <label className="grid gap-2" htmlFor="browse-search">
+          <span className="sr-only">Search listings</span>
+          <input
+            id="browse-search"
+            className="min-h-11 w-full rounded-xl border border-slate-200 bg-white px-4 text-sm text-slate-900 placeholder:text-slate-400"
+            placeholder="Search name, city, cuisine…"
+            value={query}
+            onChange={(e) => handleQueryChange(e.target.value)}
+          />
+        </label>
       </div>
 
       <FilterBar
@@ -387,34 +369,24 @@ export function RestaurantsBrowser({
         cuisineTags={cuisineTags}
         values={filterBarValues}
         onFilterChange={handleFilterChange}
+        sortBy={sortOptions.some((o) => o.value === sortBy) ? sortBy : "status"}
+        sortOptions={sortOptions}
+        onSortChange={(value) => setSortBy(value as SortBy)}
       />
 
-      <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-        <div className="grid gap-3 md:grid-cols-1">
-          <label className="grid gap-2">
-            <span className="text-sm font-semibold text-slate-900">Search</span>
-            <input
-              className="w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 placeholder:text-slate-400"
-              placeholder="Name, cuisine, city, address..."
-              value={query}
-              onChange={(e) => handleQueryChange(e.target.value)}
-            />
-          </label>
+      {(category !== "All" || areaSlug || cuisine || query.trim()) && (
+        <div className="flex flex-wrap items-center gap-2">
+          <Badge>{sorted.length} results</Badge>
+          {category && category !== "All" ? (
+            <Badge>{typeFilterBadgeLabel(category)}</Badge>
+          ) : null}
+          {areaSlug ? (
+            <Badge>{areaBySlug.get(areaSlug)?.name ?? areaSlug}</Badge>
+          ) : null}
+          {cuisine ? <Badge>{cuisine}</Badge> : null}
+          {query.trim() ? <Badge>“{query.trim()}”</Badge> : null}
         </div>
-
-        <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
-          <div className="flex flex-wrap items-center gap-2">
-            <Badge>{sorted.length} results</Badge>
-            {category && category !== "All" ? (
-              <Badge>{typeFilterBadgeLabel(category)}</Badge>
-            ) : null}
-            {areaSlug ? (
-              <Badge>{areaBySlug.get(areaSlug)?.name ?? areaSlug}</Badge>
-            ) : null}
-            {cuisine ? <Badge>{cuisine}</Badge> : null}
-          </div>
-        </div>
-      </div>
+      )}
 
       {sorted.length === 0 ? (
         <div className="rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-sm">

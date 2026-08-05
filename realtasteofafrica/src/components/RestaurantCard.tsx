@@ -13,7 +13,6 @@ import {
 import type { Restaurant } from "@/lib/restaurants"
 import { useBusinessStatus } from "@/components/BusinessStatusClient"
 import { VerifiedBadge } from "@/components/VerifiedBadge"
-import { formatDirectoryVerifiedLabel, showDirectoryVerifiedBadge } from "@/lib/formatAudit"
 
 const viewButtonClasses =
   "inline-flex min-h-12 w-full select-none items-center justify-center gap-2 rounded-xl border border-amber-700 bg-amber-600 text-sm font-semibold text-white transition-transform hover:bg-amber-700 active:scale-95 touch-manipulation"
@@ -84,7 +83,7 @@ export function RestaurantCard({
           </div>
         ) : null}
 
-        <div className="mb-2 flex flex-wrap items-center justify-end gap-2">
+        <div className="mb-2 flex flex-wrap items-center gap-2">
           {businessStatus.status !== "Unverified" ? (
             <span
               className={`inline-flex items-center rounded-full px-2 py-0.5 text-xs font-semibold ${
@@ -103,13 +102,8 @@ export function RestaurantCard({
           ) : null}
         </div>
 
-        <p
-          className={`font-bold uppercase tracking-wide text-slate-700 ${isFeatured ? "text-base sm:text-lg" : "text-base"}`}
-        >
-          {r.city}, {r.state}
-        </p>
         <h2
-          className={`mt-1 min-w-0 font-semibold tracking-tight text-slate-900 break-words ${isFeatured ? "text-lg sm:text-xl" : "text-base sm:text-lg"}`}
+          className={`min-w-0 font-semibold tracking-tight text-slate-900 break-words ${isFeatured ? "text-lg sm:text-xl" : "text-base sm:text-lg"}`}
         >
           <Link
             className="hover:text-amber-700 focus:text-amber-700"
@@ -119,12 +113,10 @@ export function RestaurantCard({
           </Link>
         </h2>
         <p
-          className={`mt-1 min-w-0 break-words text-slate-600 ${isFeatured ? "text-base" : "text-sm"}`}
+          className={`mt-1 font-medium text-slate-600 ${isFeatured ? "text-base" : "text-sm"}`}
         >
-          {r.cuisines.join(" · ")}
-        </p>
-        <p className={`mt-2 min-w-0 break-words text-slate-500 ${isFeatured ? "text-sm" : "text-xs"}`}>
-          {r.addressLine}
+          {r.city}, {r.state}
+          {r.cuisines.length > 0 ? ` · ${r.cuisines.join(" · ")}` : ""}
         </p>
         {distanceLabel ? (
           <p className="mt-1 text-sm font-medium text-amber-800">{distanceLabel}</p>
@@ -136,11 +128,6 @@ export function RestaurantCard({
             <span>View listing</span>
           </Link>
         </div>
-        {showDirectoryVerifiedBadge(r) ? (
-          <p className="mt-2 text-xs text-slate-400">
-            {formatDirectoryVerifiedLabel(r.lastAuditDate)}
-          </p>
-        ) : null}
       </div>
     </article>
   )
