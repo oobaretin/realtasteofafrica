@@ -5,6 +5,12 @@ export const SITE_URL =
     "",
   )
 
+export const SITE_NAME = "Real Taste of Africa"
+
+/** One trust line — use in hero, footer, and meta descriptions. */
+export const SITE_TAGLINE =
+  "Texas's African food map — verified hours, phones, and directions."
+
 /** Public inbox — forward via Cloudflare Email Routing (e.g. to Gmail). */
 export const CONTACT_EMAIL = "contact@realtasteofafrica.com"
 

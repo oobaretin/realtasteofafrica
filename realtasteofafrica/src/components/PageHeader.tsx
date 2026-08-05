@@ -14,7 +14,7 @@ export function PageHeader({
       {breadcrumbs ? <Breadcrumbs items={breadcrumbs} /> : null}
       {title ? (
         <header className="grid gap-2">
-          <h1 className="text-2xl font-semibold tracking-tight text-slate-900 md:text-3xl">
+          <h1 className="font-display text-2xl font-semibold tracking-tight text-slate-900 md:text-3xl">
             {title}
           </h1>
           {description ? (

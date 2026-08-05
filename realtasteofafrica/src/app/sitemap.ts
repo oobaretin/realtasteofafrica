@@ -10,6 +10,7 @@ const STATIC_PATHS = [
   "/restaurants",
   "/collections",
   "/contact",
+  "/trust",
   "/submit",
   "/catering",
   "/menu",

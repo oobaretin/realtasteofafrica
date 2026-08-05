@@ -61,7 +61,7 @@ export function StatewideDiscovery({ restaurants }: StatewideDiscoveryProps) {
       <header className="text-center">
         <h2
           id="statewide-discovery-heading"
-          className="text-xl font-bold tracking-tight text-slate-900 sm:text-2xl md:text-3xl"
+          className="font-display text-xl font-bold tracking-tight text-slate-900 sm:text-2xl md:text-3xl"
         >
           Across Texas
         </h2>

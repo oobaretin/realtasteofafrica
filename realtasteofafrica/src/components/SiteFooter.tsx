@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import { CONTACT_EMAIL } from "@/lib/site"
+import { CONTACT_EMAIL, SITE_TAGLINE } from "@/lib/site"
 
 const TEXAS_COVERAGE = [
   { label: "Houston", areaSlug: "houston" },
@@ -30,13 +30,14 @@ export function SiteFooter() {
                 Real Taste of Africa
               </div>
             </Link>
-            <p className="text-sm text-slate-600">
-              Texas&apos;s African food map — verified hours, phones, and directions.
-            </p>
+            <p className="text-sm text-slate-600">{SITE_TAGLINE}</p>
+            <Link className="text-sm text-amber-700 hover:text-amber-800 hover:underline" href="/trust">
+              How we verify listings →
+            </Link>
           </div>
 
           <div className="grid gap-2 text-sm">
-            <div className="font-semibold text-slate-900">Texas Coverage</div>
+            <div className="font-semibold text-slate-900">Explore</div>
             <ul className="grid gap-1.5 text-slate-600">
               {TEXAS_COVERAGE.map(({ label, areaSlug }) => (
                 <li key={areaSlug}>

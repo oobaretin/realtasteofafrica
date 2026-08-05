@@ -177,21 +177,26 @@ export default async function RestaurantDetailPage({
         </h1>
         <div className="mt-2 flex flex-wrap items-center gap-2">
           {showDirectoryVerifiedBadge(r) ? (
-            <span
-              className="inline-flex flex-col gap-0.5 rounded-xl border border-amber-200 bg-amber-50 px-3 py-2 text-sm text-amber-900 sm:flex-row sm:items-center sm:gap-2"
-              title={formatDirectoryVerifiedDetail(r.lastAuditDate)}
-            >
+            <span className="inline-flex max-w-full flex-col gap-1 rounded-xl border border-amber-200 bg-amber-50 px-3 py-2 text-sm text-amber-900 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-2 sm:gap-y-1">
               <span className="font-semibold">
                 {formatDirectoryVerifiedLabel(r.lastAuditDate)}
               </span>
-              <span className="hidden text-amber-800/90 sm:inline">·</span>
+              <span className="hidden text-amber-800/90 sm:inline" aria-hidden>
+                ·
+              </span>
               <span className="text-xs text-amber-800/90 sm:text-sm">
                 {formatDirectoryVerifiedDetail(r.lastAuditDate)}
               </span>
+              <Link
+                href="/trust#directory"
+                className="text-xs font-medium text-amber-800 underline hover:text-amber-900 sm:text-sm"
+              >
+                What this means
+              </Link>
             </span>
           ) : null}
           <BusinessStatusClient hours={r.hours} variant="badge" />
-          {r.isVerified ? <VerifiedBadge /> : null}
+          {r.isVerified ? <VerifiedBadge linkToTrust /> : null}
         </div>
       </header>
 

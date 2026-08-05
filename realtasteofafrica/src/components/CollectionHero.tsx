@@ -59,7 +59,7 @@ function HeroChrome({
 
       <div className="absolute bottom-0 left-0 right-0 z-20 p-6 sm:p-8">
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-amber-300/95">Editor’s pick</p>
-        <h1 className="mt-2 max-w-4xl font-serif text-2xl font-semibold leading-tight tracking-tight text-white sm:text-3xl md:text-4xl">
+        <h1 className="mt-2 max-w-4xl font-display text-2xl font-semibold leading-tight tracking-tight text-white sm:text-3xl md:text-4xl">
           {title}
         </h1>
         <p className="mt-2 max-w-2xl text-sm text-slate-200 sm:text-base">{dek}</p>

@@ -1,4 +1,4 @@
-import { Inter } from "next/font/google"
+import { Fraunces, Inter } from "next/font/google"
 import type { Metadata } from "next"
 import type { ReactNode } from "react"
 
@@ -6,22 +6,26 @@ import "./globals.css"
 import { SiteFooter } from "@/components/SiteFooter"
 import { SiteHeader } from "@/components/SiteHeader"
 import { SiteJsonLd } from "@/components/SiteJsonLd"
-import { SITE_URL } from "@/lib/site"
+import { SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/site"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
+const fraunces = Fraunces({
+  subsets: ["latin"],
+  variable: "--font-display",
+  display: "swap",
+})
 
 export const metadata: Metadata = {
   title: {
-    default: "Real Taste of Africa — African Restaurant Directory",
-    template: "%s | Real Taste of Africa",
+    default: `${SITE_NAME} — African Restaurant Directory`,
+    template: `%s | ${SITE_NAME}`,
   },
-  description:
-    "Directory of African restaurants, food trucks, and markets across Texas—browse by city and cuisine, verified listings with hours and contacts.",
+  description: SITE_TAGLINE,
   metadataBase: new URL(SITE_URL),
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "Real Taste of Africa",
+    siteName: SITE_NAME,
     url: SITE_URL,
   },
   twitter: {
@@ -41,7 +45,7 @@ export default function RootLayout({
   children: ReactNode
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} overflow-x-hidden`}>
+    <html lang="en" className={`${inter.variable} ${fraunces.variable} overflow-x-hidden`}>
       <body className="font-sans overflow-x-hidden">
         <SiteJsonLd />
         <a
