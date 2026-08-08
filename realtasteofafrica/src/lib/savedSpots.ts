@@ -50,6 +50,11 @@ export function toggleSavedSlug(slug: string): boolean {
   return true
 }
 
+export function clearSavedSpots(): void {
+  if (typeof window === "undefined") return
+  writeSlugs([])
+}
+
 export function subscribeSavedSpots(onChange: () => void): () => void {
   const handler = () => onChange()
   window.addEventListener(CHANGE_EVENT, handler)

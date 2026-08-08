@@ -5,7 +5,7 @@ import { useSyncExternalStore } from "react"
 
 import { RestaurantCard } from "@/components/RestaurantCard"
 import { getRestaurantBySlug } from "@/lib/restaurants"
-import { getSavedSpotsServerSnapshot, getSavedSpotsSnapshot, subscribeSavedSpots } from "@/lib/savedSpots"
+import { getSavedSpotsServerSnapshot, getSavedSpotsSnapshot, subscribeSavedSpots, clearSavedSpots } from "@/lib/savedSpots"
 
 export function SavedSpotsList() {
   const slugs = useSyncExternalStore(
@@ -40,12 +40,26 @@ export function SavedSpotsList() {
   }
 
   return (
-    <ul className="grid grid-cols-1 gap-2 sm:gap-3">
-      {restaurants.map((r) => (
-        <li key={r.slug}>
-          <RestaurantCard restaurant={r} variant="row" />
-        </li>
-      ))}
-    </ul>
+    <div className="grid gap-4">
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <p className="text-sm text-slate-600">
+          {restaurants.length} saved on this device
+        </p>
+        <button
+          type="button"
+          onClick={() => clearSavedSpots()}
+          className="text-sm font-medium text-amber-700 hover:text-amber-800"
+        >
+          Clear all
+        </button>
+      </div>
+      <ul className="grid grid-cols-1 gap-2 sm:gap-3">
+        {restaurants.map((r) => (
+          <li key={r.slug}>
+            <RestaurantCard restaurant={r} variant="row" />
+          </li>
+        ))}
+      </ul>
+    </div>
   )
 }

@@ -5,6 +5,7 @@ import Link from "next/link"
 import { ArrowRight, ChevronRight } from "lucide-react"
 
 import { Badge } from "@/components/Badge"
+import { SaveSpotButton } from "@/components/SaveSpotButton"
 import {
   CATEGORY_BADGE_CLASSES,
   CATEGORY_STRIP_CLASSES,
@@ -57,10 +58,12 @@ export function RestaurantCard({
 
   if (isRow) {
     return (
-      <article className={isClosed ? "opacity-75" : undefined}>
+      <article
+        className={`flex items-stretch gap-1.5 sm:gap-2 ${isClosed ? "opacity-75" : ""}`}
+      >
         <Link
           href={href}
-          className="group flex min-h-[4.5rem] items-center gap-3 rounded-xl border border-slate-200 bg-white px-3 py-3 shadow-sm transition hover:border-amber-200 hover:bg-amber-50/30 hover:shadow-md sm:gap-4 sm:px-4"
+          className="group flex min-h-[4.5rem] min-w-0 flex-1 items-center gap-3 rounded-xl border border-slate-200 bg-white px-3 py-3 shadow-sm transition hover:border-amber-200 hover:bg-amber-50/30 hover:shadow-md sm:gap-4 sm:px-4"
         >
           <div
             className={`relative h-14 w-14 shrink-0 overflow-hidden rounded-lg ${stripClasses} sm:h-16 sm:w-16`}
@@ -108,6 +111,7 @@ export function RestaurantCard({
             />
           </div>
         </Link>
+        <SaveSpotButton slug={r.slug} name={r.name} variant="icon" />
       </article>
     )
   }
