@@ -522,21 +522,50 @@ export function RestaurantsBrowser({
       {sorted.length === 0 ? (
         <div className="rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-sm">
           {isOpenNowOnly ? (
-            <p className="text-slate-600">
-              No matches are open right now. Turn off <strong>Open now</strong> or reset filters.
-            </p>
+            <>
+              <p className="text-slate-600">
+                No matches are open right now. Kitchens may have closed for the day, or hours
+                haven&apos;t been verified yet.
+              </p>
+              <div className="mt-6 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
+                <button
+                  type="button"
+                  onClick={() => handleOpenNowChange(false)}
+                  className="inline-flex min-h-11 rounded-xl border border-slate-200 bg-white px-6 text-sm font-semibold text-slate-800 hover:bg-slate-50"
+                >
+                  Show closed spots too
+                </button>
+                <button
+                  type="button"
+                  onClick={handleRefine}
+                  className="inline-flex min-h-11 rounded-xl bg-amber-600 px-6 text-sm font-semibold text-white hover:bg-amber-700"
+                >
+                  Reset all filters
+                </button>
+              </div>
+            </>
           ) : (
-            <p className="text-slate-600">
-              Nothing matches your filters. Reset to browse all {restaurants.length} listings.
-            </p>
+            <>
+              <p className="text-slate-600">
+                Nothing matches your filters. Try a broader search or explore a curated guide.
+              </p>
+              <div className="mt-6 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
+                <button
+                  type="button"
+                  onClick={handleRefine}
+                  className="inline-flex min-h-11 rounded-xl bg-amber-600 px-6 text-sm font-semibold text-white hover:bg-amber-700"
+                >
+                  See all {restaurants.length} listings
+                </button>
+                <Link
+                  href="/collections"
+                  className="inline-flex min-h-11 items-center rounded-xl border border-slate-200 bg-white px-6 text-sm font-semibold text-slate-800 hover:bg-slate-50"
+                >
+                  Browse guides
+                </Link>
+              </div>
+            </>
           )}
-          <button
-            type="button"
-            onClick={handleRefine}
-            className="mt-6 inline-flex rounded-xl bg-amber-600 px-8 py-3 text-sm font-semibold text-white hover:bg-amber-700"
-          >
-            See all {restaurants.length} listings
-          </button>
         </div>
       ) : (
         <>

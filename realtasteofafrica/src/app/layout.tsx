@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from "next"
 import type { ReactNode } from "react"
 
 import "./globals.css"
+import { OfflineBanner } from "@/components/OfflineBanner"
 import { SiteFooter } from "@/components/SiteFooter"
 import { SiteHeader } from "@/components/SiteHeader"
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister"
@@ -54,6 +55,7 @@ export default function RootLayout({
       <body className="font-sans overflow-x-hidden">
         <ServiceWorkerRegister />
         <SiteJsonLd />
+        <OfflineBanner />
         <a
           className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 rounded-md bg-slate-900 px-3 py-2 text-sm"
           href="#main"

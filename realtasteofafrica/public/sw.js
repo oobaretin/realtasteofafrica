@@ -1,9 +1,10 @@
-const CACHE = "rtofa-shell-v1"
+const CACHE = "rtofa-shell-v2"
 const PRECACHE = [
   "/manifest.webmanifest",
   "/favicon-192.png",
   "/web-app-manifest-512x512.png",
   "/realtasteofafrica.png",
+  "/offline.html",
 ]
 
 self.addEventListener("install", (event) => {
@@ -29,12 +30,23 @@ self.addEventListener("fetch", (event) => {
 
   const isStaticAsset =
     url.pathname.startsWith("/_next/static/") ||
-    /\.(png|jpg|jpeg|webp|svg|ico|woff2?)$/i.test(url.pathname)
+    /\.(png|jpg|jpeg|webp|svg|ico|woff2?|html)$/i.test(url.pathname)
 
-  if (!isStaticAsset && !PRECACHE.includes(url.pathname)) return
+  const isNavigation = event.request.mode === "navigate"
+
+  if (!isStaticAsset && !PRECACHE.includes(url.pathname) && !isNavigation) return
 
   event.respondWith(
     caches.open(CACHE).then(async (cache) => {
+      if (isNavigation) {
+        try {
+          const response = await fetch(event.request)
+          return response
+        } catch {
+          return (await cache.match("/offline.html")) ?? Response.error()
+        }
+      }
+
       const cached = await cache.match(event.request)
       if (cached) return cached
 
@@ -45,7 +57,7 @@ self.addEventListener("fetch", (event) => {
         }
         return response
       } catch {
-        return cached ?? (await cache.match("/realtasteofafrica.png"))
+        return cached ?? (await cache.match("/offline.html")) ?? Response.error()
       }
     })
   )

@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation"
 
+import { CityQuickLinks } from "@/components/CityQuickLinks"
 import { RestaurantCard } from "@/components/RestaurantCard"
 import { WpPageShell } from "@/components/WpPageShell"
 import {
@@ -52,6 +53,7 @@ export default async function CityPage({
   if (restaurants.length === 0) notFound()
 
   const cityName = restaurants[0].city
+  const areaSlug = restaurants[0].areaSlug
   const title = getCityTitle(cityName)
   const description = getCityDescription(cityName, restaurants.length)
 
@@ -66,18 +68,19 @@ export default async function CityPage({
       ]}
     >
       <section className="grid gap-4">
+        <CityQuickLinks cityName={cityName} citySlug={citySlug} areaSlug={areaSlug} />
         <p className="text-sm text-slate-600">
           {restaurants.length} listing{restaurants.length !== 1 ? "s" : ""} in{" "}
           {cityName}, Texas
         </p>
 
         <ul
-          className="grid grid-cols-1 gap-4 md:grid-cols-3"
+          className="grid grid-cols-1 gap-2 sm:gap-3"
           aria-label={`Restaurant listings in ${cityName}`}
         >
           {restaurants.map((r) => (
             <li key={r.slug}>
-              <RestaurantCard restaurant={r} />
+              <RestaurantCard restaurant={r} variant="row" />
             </li>
           ))}
         </ul>
