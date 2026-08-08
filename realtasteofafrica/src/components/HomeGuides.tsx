@@ -3,12 +3,8 @@ import Link from "next/link"
 import { GuideCard } from "@/components/GuideCard"
 import { EDITORIAL_COLLECTIONS } from "@/data/collections"
 
-const FEATURED_GUIDE_SLUGS = ["best-jollof-houston", "african-markets-texas"] as const
-
 export function HomeGuides() {
-  const guides = FEATURED_GUIDE_SLUGS.map((slug) =>
-    EDITORIAL_COLLECTIONS.find((c) => c.slug === slug)
-  ).filter((c): c is (typeof EDITORIAL_COLLECTIONS)[number] => Boolean(c))
+  const guides = EDITORIAL_COLLECTIONS
 
   return (
     <section className="min-w-0 grid gap-4" aria-labelledby="home-guides-heading">
@@ -32,7 +28,7 @@ export function HomeGuides() {
         </Link>
       </div>
 
-      <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6">
+      <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-2 sm:gap-6">
         {guides.map((c) => (
           <li key={c.slug}>
             <GuideCard collection={c} />

@@ -122,6 +122,54 @@ export const EDITORIAL_COLLECTIONS: EditorialCollection[] = [
       "blessing-african-food-store-san-antonio",
     ],
   },
+  {
+    slug: "ethiopian-dfw",
+    title: "Ethiopian & Eritrean Restaurants in DFW",
+    metaDescription:
+      "Injera, wot, and coffee ceremonies across Dallas, Richardson, and Addison — our shortlist of DFW’s best Ethiopian and Eritrean kitchens.",
+    dek: "From Richardson staples to Addison institutions — DFW’s injera map.",
+    headerImage: {
+      src: "/collections/ethiopian-dfw.jpeg",
+      alt: "Ethiopian injera and shared platters — DFW restaurants we recommend",
+    },
+    introduction: [
+      "Dallas–Fort Worth has one of the strongest Ethiopian dining scenes in Texas — longtime neighborhood spots, vegan-friendly menus, and weekend coffee rituals. This guide highlights listings we return to for injera, lentil wot, and tibs.",
+      "Many kitchens share a plate culture; ask about spice level and fasting-day options when you call ahead.",
+    ],
+    restaurantSlugs: [
+      "queen-of-sheba-restaurant-addison-tx",
+      "desta-ethiopian-restaurant-dallas-tx",
+      "lalibela-ethiopian-restaurant-dallas-tx",
+      "addis-abeba-ethiopian-restaurant-richardson-tx",
+      "yenat-guada-ethiopian-cuisine-dallas-tx",
+      "shebas-ethiopian-kitchen-dallas-tx",
+    ],
+  },
+  {
+    slug: "african-food-austin",
+    title: "African Food in Austin — Trucks, Kitchens & Markets",
+    metaDescription:
+      "Nigerian suya, Ethiopian injera, and market runs across Austin — from food trucks on Lamar to sit-down kitchens and hybrid grocers.",
+    dek: "Keep Austin eating — West African, East African, and market stops we bookmark.",
+    headerImage: {
+      src: "/collections/african-food-austin.jpeg",
+      alt: "African food in Austin — restaurants, food trucks, and markets",
+    },
+    introduction: [
+      "Austin’s African food scene mixes food trucks, ghost kitchens, and full-service restaurants — often with a strong weekend crowd. This guide pulls together spots for suya runs, injera plates, and pantry stops without pretending one list can cover every pop-up schedule.",
+      "Trucks and pop-ups move. Check hours on the listing or call before you drive.",
+    ],
+    restaurantSlugs: [
+      "red-sea-kitchen-ethiopian-food-truck-austin-tx",
+      "habesha-restaurant-austin-tx",
+      "asters-ethiopian-kitchen-austin-tx",
+      "taste-of-ethiopia-ii-austin",
+      "palatable-nigerian-cuisine-austin-tx",
+      "kitchen234-nigerian-restaurant-austin",
+      "distant-relatives-austin",
+      "suya-grillhouse-austin",
+    ],
+  },
 ]
 
 export function getCollectionSlugs(): string[] {

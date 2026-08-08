@@ -7,6 +7,8 @@ import { COLLECTION_HERO_FALLBACK, resolveHeroSlides } from "@/lib/collectionAss
 const FALLBACK_GRADIENTS: Record<string, string> = {
   "best-jollof-houston": "from-amber-600 via-orange-700 to-slate-900",
   "african-markets-texas": "from-emerald-700 via-teal-800 to-slate-900",
+  "ethiopian-dfw": "from-violet-700 via-purple-900 to-slate-950",
+  "african-food-austin": "from-emerald-600 via-lime-800 to-slate-900",
 }
 
 type GuideCardProps = {

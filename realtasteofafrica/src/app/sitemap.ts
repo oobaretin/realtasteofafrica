@@ -9,9 +9,11 @@ const STATIC_PATHS = [
   "/",
   "/restaurants",
   "/collections",
+  "/saved",
   "/contact",
   "/trust",
   "/submit",
+  "/claim",
   "/catering",
   "/menu",
 ] as const
@@ -20,6 +22,7 @@ const STATIC_PRIORITIES: Partial<Record<(typeof STATIC_PATHS)[number], number>> 
   "/": 1,
   "/restaurants": 0.95,
   "/collections": 0.85,
+  "/claim": 0.75,
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -66,7 +69,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${SITE_URL}/collections/${slug}`,
     lastModified: now,
     changeFrequency: "monthly" as const,
-    priority: 0.78,
+    priority: 0.82,
   }))
 
   return [

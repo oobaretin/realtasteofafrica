@@ -3,6 +3,7 @@ import { notFound } from "next/navigation"
 
 import { CollectionBrowseMore } from "@/components/CollectionBrowseMore"
 import { CollectionHero } from "@/components/CollectionHero"
+import { CollectionJsonLd } from "@/components/CollectionJsonLd"
 import { RestaurantCard } from "@/components/RestaurantCard"
 import { WpPageShell } from "@/components/WpPageShell"
 import {
@@ -59,6 +60,7 @@ export default async function CollectionPage({
 
   return (
     <div className="grid gap-8">
+      <CollectionJsonLd collection={collection} restaurants={restaurants} />
       <CollectionHero
         slides={heroSlides}
         jollofFullHero={jollofFullHero}

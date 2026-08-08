@@ -6,6 +6,7 @@ import { ArrowRight, ChevronRight } from "lucide-react"
 
 import { Badge } from "@/components/Badge"
 import { SaveSpotButton } from "@/components/SaveSpotButton"
+import { ShareSpotButton } from "@/components/ShareSpotButton"
 import {
   CATEGORY_BADGE_CLASSES,
   CATEGORY_STRIP_CLASSES,
@@ -111,7 +112,15 @@ export function RestaurantCard({
             />
           </div>
         </Link>
-        <SaveSpotButton slug={r.slug} name={r.name} variant="icon" />
+        <div className="flex shrink-0 flex-col gap-1.5">
+          <ShareSpotButton
+            title={r.name}
+            url={href}
+            shareName={r.name}
+            variant="icon"
+          />
+          <SaveSpotButton slug={r.slug} name={r.name} variant="icon" />
+        </div>
       </article>
     )
   }

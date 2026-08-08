@@ -55,7 +55,7 @@ export function SiteFooter() {
               Browse all
             </Link>
             <Link className="text-slate-600 hover:text-slate-900" href="/saved">
-              Saved spots
+              Your picks
             </Link>
           </div>
 

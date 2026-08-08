@@ -6,11 +6,11 @@ import { SITE_URL } from "@/lib/site"
 export const metadata = {
   title: "Guides & editor’s picks",
   description:
-    "Curated lists of African restaurants and markets across Texas — jollof-worthy kitchens, pantry runs, and neighborhood gems.",
+    "Curated Texas guides — best jollof in Houston, African markets, Ethiopian in DFW, Austin food trucks, and more neighborhood shortlists.",
   openGraph: {
     title: "Guides & editor’s picks | Real Taste of Africa",
     description:
-      "Curated lists of African restaurants and markets across Texas — jollof-worthy kitchens, pantry runs, and neighborhood gems.",
+      "Curated Texas guides — jollof, markets, Ethiopian DFW, Austin African food, and neighborhood gems.",
     url: `${SITE_URL}/collections`,
   },
 }

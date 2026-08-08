@@ -38,10 +38,10 @@ export function RecentlyViewedSection() {
           </p>
         </div>
         <Link
-          href="/saved"
+          href="/restaurants"
           className="text-sm font-medium text-amber-700 hover:text-amber-800"
         >
-          Saved spots →
+          Browse all →
         </Link>
       </div>
       <ul className="grid grid-cols-1 gap-2 sm:gap-3">
