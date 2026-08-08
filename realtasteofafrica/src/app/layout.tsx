@@ -1,5 +1,5 @@
 import { Fraunces, Inter } from "next/font/google"
-import type { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
 import type { ReactNode } from "react"
 
 import "./globals.css"
@@ -37,6 +37,10 @@ export const metadata: Metadata = {
       { url: "/favicon-192.png", sizes: "192x192", type: "image/png" },
     ],
   },
+}
+
+export const viewport: Viewport = {
+  themeColor: "#b45309",
 }
 
 export default function RootLayout({

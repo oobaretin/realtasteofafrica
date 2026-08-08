@@ -54,6 +54,9 @@ export function SiteFooter() {
             <Link className="text-slate-600 hover:text-slate-900" href="/restaurants">
               Browse all
             </Link>
+            <Link className="text-slate-600 hover:text-slate-900" href="/saved">
+              Saved spots
+            </Link>
           </div>
 
           <div className="grid gap-2 text-sm">

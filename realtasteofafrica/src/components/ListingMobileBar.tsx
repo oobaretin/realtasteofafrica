@@ -1,5 +1,6 @@
 "use client"
 
+import { SaveSpotButton } from "@/components/SaveSpotButton"
 import { ShareButton } from "@/components/ShareButton"
 import { formatPhoneDisplay, toTelHref } from "@/lib/formatPhone"
 import type { Restaurant } from "@/lib/restaurants"
@@ -39,6 +40,7 @@ export function ListingMobileBar({ restaurant }: { restaurant: Restaurant }) {
           <span aria-hidden>📍</span>
           Directions
         </a>
+        <SaveSpotButton slug={r.slug} name={r.name} variant="compact" />
         <div className="flex min-h-11 flex-1 [&>button]:h-full [&>button]:w-full [&>button]:justify-center [&>button]:rounded-xl [&>button]:border-2 [&>button]:border-slate-200 [&>button]:bg-white [&>button]:text-sm [&>button]:font-semibold">
           <ShareButton title={r.name} url={`/restaurants/${r.slug}`} shareName={r.name} />
         </div>

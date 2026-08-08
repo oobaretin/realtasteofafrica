@@ -16,10 +16,10 @@ export function SimilarSpots({
       <h2 id="similar-spots-heading" className="text-lg font-semibold tracking-tight text-slate-900">
         {title}
       </h2>
-      <ul className="mt-4 grid min-w-0 grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        {restaurants.map((r) => (
+      <ul className="mt-4 grid min-w-0 grid-cols-1 gap-2 sm:gap-3">
+        {restaurants.slice(0, 3).map((r) => (
           <li key={r.slug} className="min-w-0">
-            <RestaurantCard restaurant={r} />
+            <RestaurantCard restaurant={r} variant="row" />
           </li>
         ))}
       </ul>

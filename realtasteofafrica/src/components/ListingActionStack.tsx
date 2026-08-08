@@ -1,4 +1,5 @@
 import { ListingExternalLink } from "@/components/ListingExternalLink"
+import { SaveSpotButton } from "@/components/SaveSpotButton"
 import { ShareButton } from "@/components/ShareButton"
 import { formatPhoneDisplay, toTelHref } from "@/lib/formatPhone"
 import { getWebsiteLinkPresentation } from "@/lib/websiteLinkLabel"
@@ -53,6 +54,7 @@ export function ListingActionStack({
           className={`${btnBase} border-2 border-slate-200 bg-white text-slate-800 hover:border-amber-300 hover:bg-amber-50`}
         />
       ) : null}
+      <SaveSpotButton slug={r.slug} name={r.name} />
       <div className={isStack ? "[&>button]:w-full [&>button]:justify-center" : undefined}>
         <ShareButton title={r.name} url={`/restaurants/${r.slug}`} shareName={r.name} />
       </div>

@@ -113,6 +113,15 @@ export function StatewideDiscovery({ restaurants }: StatewideDiscoveryProps) {
           )
         })}
       </div>
+
+      <div className="mt-6 flex justify-center sm:mt-8">
+        <Link
+          href="/restaurants?view=map"
+          className="inline-flex min-h-11 items-center gap-2 rounded-xl border-2 border-slate-300 bg-white px-5 text-sm font-semibold text-slate-800 shadow-sm transition hover:border-amber-400 hover:bg-amber-50"
+        >
+          View statewide map →
+        </Link>
+      </div>
     </section>
   )
 }
