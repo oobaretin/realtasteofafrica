@@ -4,8 +4,8 @@ import { Heart } from "lucide-react"
 import { useSyncExternalStore } from "react"
 
 import {
+  getSavedSpotsServerSnapshot,
   getSavedSpotsSnapshot,
-  isSavedSlug,
   subscribeSavedSpots,
   toggleSavedSlug,
 } from "@/lib/savedSpots"
@@ -19,8 +19,12 @@ export function SaveSpotButton({
   name: string
   variant?: "default" | "compact"
 }) {
-  useSyncExternalStore(subscribeSavedSpots, getSavedSpotsSnapshot, () => [])
-  const saved = isSavedSlug(slug)
+  const slugs = useSyncExternalStore(
+    subscribeSavedSpots,
+    getSavedSpotsSnapshot,
+    getSavedSpotsServerSnapshot
+  )
+  const saved = slugs.includes(slug)
   const isCompact = variant === "compact"
 
   return (

@@ -5,10 +5,14 @@ import { useSyncExternalStore } from "react"
 
 import { RestaurantCard } from "@/components/RestaurantCard"
 import { getRestaurantBySlug } from "@/lib/restaurants"
-import { getSavedSpotsSnapshot, subscribeSavedSpots } from "@/lib/savedSpots"
+import { getSavedSpotsServerSnapshot, getSavedSpotsSnapshot, subscribeSavedSpots } from "@/lib/savedSpots"
 
 export function SavedSpotsList() {
-  const slugs = useSyncExternalStore(subscribeSavedSpots, getSavedSpotsSnapshot, () => [])
+  const slugs = useSyncExternalStore(
+    subscribeSavedSpots,
+    getSavedSpotsSnapshot,
+    getSavedSpotsServerSnapshot
+  )
   const restaurants = slugs
     .map((slug) => getRestaurantBySlug(slug))
     .filter((r): r is NonNullable<typeof r> => Boolean(r))

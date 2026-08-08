@@ -4,7 +4,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useSyncExternalStore } from "react"
 
-import { getSavedSpotsSnapshot, subscribeSavedSpots } from "@/lib/savedSpots"
+import { getSavedSpotsServerSnapshot, getSavedSpotsSnapshot, subscribeSavedSpots } from "@/lib/savedSpots"
 
 function isActivePath(currentPath: string, href: string) {
   return currentPath === href || currentPath.startsWith(`${href}/`)
@@ -12,7 +12,11 @@ function isActivePath(currentPath: string, href: string) {
 
 export function SavedNavLink({ onNavigate }: { onNavigate?: () => void }) {
   const pathname = usePathname() ?? "/"
-  const slugs = useSyncExternalStore(subscribeSavedSpots, getSavedSpotsSnapshot, () => [])
+  const slugs = useSyncExternalStore(
+    subscribeSavedSpots,
+    getSavedSpotsSnapshot,
+    getSavedSpotsServerSnapshot
+  )
   const active = isActivePath(pathname, "/saved")
   const count = slugs.length
 
