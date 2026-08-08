@@ -21,6 +21,7 @@ type RestaurantsPageProps = {
     type?: string
     q?: string
     openNow?: string
+    view?: string
   }>
 }
 
@@ -31,6 +32,7 @@ export default async function RestaurantsPage({ searchParams }: RestaurantsPageP
   const initialArea = params.area?.trim() ?? ""
   const initialQuery = params.q?.trim() ?? ""
   const initialOpenNow = params.openNow === "1" || params.openNow === "true"
+  const initialView = params.view === "map" ? "map" : "list"
   const typeParam = params.type?.trim() ?? "All"
   const validTypes = new Set(ALL_FILTER_TYPE_VALUES)
   const initialCategory = validTypes.has(typeParam) ? typeParam : "All"
@@ -45,6 +47,7 @@ export default async function RestaurantsPage({ searchParams }: RestaurantsPageP
       initialCategory={initialCategory}
       initialQuery={initialQuery}
       initialOpenNow={initialOpenNow}
+      initialView={initialView}
     />
   )
 }

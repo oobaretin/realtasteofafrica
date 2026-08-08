@@ -2,13 +2,16 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react"
 import { useRouter, usePathname } from "next/navigation"
+import dynamic from "next/dynamic"
 import Link from "next/link"
-import { Locate, Loader2, SlidersHorizontal } from "lucide-react"
+import { List, Locate, Loader2, Map as MapIcon, SlidersHorizontal } from "lucide-react"
 
 import { Badge } from "@/components/Badge"
 import { FilterBar } from "@/components/FilterBar"
+import { FilterSheet } from "@/components/FilterSheet"
 import { OpenNowToggle } from "@/components/OpenNowToggle"
 import { RestaurantCard } from "@/components/RestaurantCard"
+import { SearchAutocomplete } from "@/components/SearchAutocomplete"
 import type { Area } from "@/lib/areas"
 import { getBusinessStatus } from "@/lib/businessHours"
 import {
@@ -17,6 +20,18 @@ import {
 } from "@/lib/establishmentType"
 import { formatDistanceMiles, haversineKm } from "@/lib/geo"
 import type { Restaurant } from "@/lib/restaurants"
+
+const BrowseMap = dynamic(
+  () => import("@/components/BrowseMap").then((m) => ({ default: m.BrowseMap })),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="flex h-[min(70vh,520px)] min-h-[280px] items-center justify-center rounded-2xl border border-slate-200 bg-slate-100 text-sm text-slate-500">
+        Loading map…
+      </div>
+    ),
+  }
+)
 
 const PAGE_SIZE = 24
 
@@ -91,6 +106,7 @@ export function RestaurantsBrowser({
   initialCategory = "All",
   initialQuery = "",
   initialOpenNow = false,
+  initialView = "list",
 }: {
   restaurants: Restaurant[]
   areas: Area[]
@@ -100,6 +116,7 @@ export function RestaurantsBrowser({
   initialCategory?: string
   initialQuery?: string
   initialOpenNow?: boolean
+  initialView?: "list" | "map"
 }) {
   const router = useRouter()
   const pathname = usePathname()
@@ -109,6 +126,7 @@ export function RestaurantsBrowser({
   const [category, setCategory] = useState<string>(initialCategory)
   const [sortBy, setSortBy] = useState<SortBy>("status")
   const [isOpenNowOnly, setIsOpenNowOnly] = useState(initialOpenNow)
+  const [viewMode, setViewMode] = useState<"list" | "map">(initialView)
   const [filtersOpen, setFiltersOpen] = useState(false)
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
   const [nearMeActive, setNearMeActive] = useState(false)
@@ -123,8 +141,9 @@ export function RestaurantsBrowser({
     setCategory(initialCategory)
     setQuery(initialQuery)
     setIsOpenNowOnly(initialOpenNow)
+    setViewMode(initialView)
     setVisibleCount(PAGE_SIZE)
-  }, [initialArea, initialCuisine, initialCategory, initialQuery, initialOpenNow])
+  }, [initialArea, initialCuisine, initialCategory, initialQuery, initialOpenNow, initialView])
 
   const filterBarValues = useMemo(
     () => ({ category, region: areaSlug, cuisine }),
@@ -144,6 +163,7 @@ export function RestaurantsBrowser({
       type?: string
       q?: string
       openNow?: boolean
+      view?: "list" | "map"
     }) => {
       const params = new URLSearchParams()
       const nextArea = updates.area ?? areaSlug
@@ -151,16 +171,23 @@ export function RestaurantsBrowser({
       const nextType = updates.type ?? category
       const nextQ = updates.q !== undefined ? updates.q : query
       const nextOpenNow = updates.openNow ?? isOpenNowOnly
+      const nextView = updates.view ?? viewMode
       if (nextArea) params.set("area", nextArea)
       if (nextCuisine) params.set("cuisine", nextCuisine)
       if (nextType && nextType !== "All") params.set("type", nextType)
       if (nextQ.trim()) params.set("q", nextQ.trim())
       if (nextOpenNow) params.set("openNow", "1")
+      if (nextView === "map") params.set("view", "map")
       const qs = params.toString()
       router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false })
     },
-    [areaSlug, category, cuisine, isOpenNowOnly, pathname, query, router]
+    [areaSlug, category, cuisine, isOpenNowOnly, pathname, query, router, viewMode]
   )
+
+  const setView = (mode: "list" | "map") => {
+    setViewMode(mode)
+    updateUrl({ view: mode })
+  }
 
   const handleFilterChange = (key: "category" | "region" | "cuisine", value: string) => {
     setVisibleCount(PAGE_SIZE)
@@ -319,27 +346,45 @@ export function RestaurantsBrowser({
         aria-label="Search and filter listings"
       >
         <div className="flex gap-2">
-          <label className="sr-only" htmlFor="browse-search">
-            Search listings
-          </label>
-          <input
+          <SearchAutocomplete
             id="browse-search"
-            className="min-h-11 min-w-0 flex-1 rounded-xl border border-slate-200 bg-white px-4 text-sm text-slate-900 placeholder:text-slate-400"
-            placeholder="Search name, city, cuisine…"
             value={query}
-            onChange={(e) => {
-              setQuery(e.target.value)
+            onChange={(v) => {
+              setQuery(v)
               setVisibleCount(PAGE_SIZE)
             }}
+            onSubmit={(v) => {
+              setQuery(v)
+              updateUrl({ q: v })
+            }}
+            placeholder="Search name, city, cuisine…"
+            inputClassName="min-h-11 w-full rounded-xl border border-slate-200 bg-white px-4 text-sm text-slate-900 placeholder:text-slate-400"
+            restaurants={restaurants}
+            cuisineTags={cuisineTags}
+            areas={areas}
+            navigateOnSelect
           />
           <button
             type="button"
-            onClick={() => setFiltersOpen((v) => !v)}
-            className="inline-flex min-h-11 shrink-0 items-center justify-center gap-1.5 rounded-xl border border-slate-200 bg-slate-50 px-3 text-sm font-semibold text-slate-800 hover:bg-slate-100"
+            onClick={() => setFiltersOpen(true)}
+            className="inline-flex min-h-11 shrink-0 items-center justify-center gap-1.5 rounded-xl border border-slate-200 bg-slate-50 px-3 text-sm font-semibold text-slate-800 hover:bg-slate-100 md:hidden"
             aria-expanded={filtersOpen}
           >
             <SlidersHorizontal className="h-4 w-4" aria-hidden />
-            <span className="hidden sm:inline">Filters</span>
+            {activeFilterCount > 0 ? (
+              <span className="inline-flex h-5 min-w-5 items-center justify-center rounded-full bg-amber-600 px-1 text-xs font-bold text-white">
+                {activeFilterCount}
+              </span>
+            ) : null}
+          </button>
+          <button
+            type="button"
+            onClick={() => setFiltersOpen((v) => !v)}
+            className="hidden min-h-11 shrink-0 items-center justify-center gap-1.5 rounded-xl border border-slate-200 bg-slate-50 px-3 text-sm font-semibold text-slate-800 hover:bg-slate-100 md:inline-flex"
+            aria-expanded={filtersOpen}
+          >
+            <SlidersHorizontal className="h-4 w-4" aria-hidden />
+            Filters
             {activeFilterCount > 0 ? (
               <span className="inline-flex h-5 min-w-5 items-center justify-center rounded-full bg-amber-600 px-1 text-xs font-bold text-white">
                 {activeFilterCount}
@@ -349,6 +394,34 @@ export function RestaurantsBrowser({
         </div>
 
         <div className="flex flex-wrap items-center gap-2 sm:gap-3">
+          <div className="inline-flex rounded-lg border border-slate-200 bg-slate-50 p-0.5">
+            <button
+              type="button"
+              onClick={() => setView("list")}
+              className={`inline-flex min-h-9 items-center gap-1.5 rounded-md px-3 text-xs font-semibold sm:text-sm ${
+                viewMode === "list"
+                  ? "bg-white text-slate-900 shadow-sm"
+                  : "text-slate-600 hover:text-slate-900"
+              }`}
+              aria-pressed={viewMode === "list"}
+            >
+              <List className="h-4 w-4" aria-hidden />
+              List
+            </button>
+            <button
+              type="button"
+              onClick={() => setView("map")}
+              className={`inline-flex min-h-9 items-center gap-1.5 rounded-md px-3 text-xs font-semibold sm:text-sm ${
+                viewMode === "map"
+                  ? "bg-white text-slate-900 shadow-sm"
+                  : "text-slate-600 hover:text-slate-900"
+              }`}
+              aria-pressed={viewMode === "map"}
+            >
+              <MapIcon className="h-4 w-4" aria-hidden />
+              Map
+            </button>
+          </div>
           <OpenNowToggle
             checked={isOpenNowOnly}
             onChange={handleOpenNowChange}
@@ -404,6 +477,22 @@ export function RestaurantsBrowser({
         </p>
       </div>
 
+      <FilterSheet
+        open={filtersOpen}
+        onClose={() => setFiltersOpen(false)}
+        areas={areas}
+        cuisineTags={cuisineTags}
+        values={filterBarValues}
+        onFilterChange={handleFilterChange}
+        sortBy={sortOptions.some((o) => o.value === sortBy) ? sortBy : "status"}
+        sortOptions={sortOptions}
+        onSortChange={(value) => {
+          setSortBy(value as SortBy)
+          setVisibleCount(PAGE_SIZE)
+        }}
+        onApply={() => setVisibleCount(PAGE_SIZE)}
+      />
+
       {filtersOpen ? (
         <FilterBar
           areas={areas}
@@ -451,43 +540,49 @@ export function RestaurantsBrowser({
         </div>
       ) : (
         <>
-          <ul className="grid grid-cols-1 gap-2 sm:gap-3" aria-label="Restaurant listings">
-            {visible.map((r) => (
-              <li key={r.slug}>
-                <RestaurantCard
-                  restaurant={r}
-                  variant="row"
-                  distanceLabel={
-                    nearMeActive &&
-                    userPosition &&
-                    r.latitude != null &&
-                    r.longitude != null
-                      ? `${formatDistanceMiles(
-                          haversineKm(
-                            userPosition.lat,
-                            userPosition.lng,
-                            r.latitude,
-                            r.longitude
-                          )
-                        )} away`
-                      : undefined
-                  }
-                />
-              </li>
-            ))}
-          </ul>
-          {hasMore ? (
-            <div className="flex justify-center pt-2">
-              <button
-                type="button"
-                onClick={() => setVisibleCount((n) => n + PAGE_SIZE)}
-                className="min-h-11 rounded-xl border border-slate-200 bg-white px-6 text-sm font-semibold text-slate-800 hover:bg-slate-50"
-              >
-                Show {Math.min(PAGE_SIZE, sorted.length - visibleCount)} more (
-                {sorted.length - visibleCount} left)
-              </button>
-            </div>
-          ) : null}
+          {viewMode === "map" ? (
+            <BrowseMap restaurants={sorted} userPosition={userPosition} />
+          ) : (
+            <>
+              <ul className="grid grid-cols-1 gap-2 sm:gap-3" aria-label="Restaurant listings">
+                {visible.map((r) => (
+                  <li key={r.slug}>
+                    <RestaurantCard
+                      restaurant={r}
+                      variant="row"
+                      distanceLabel={
+                        nearMeActive &&
+                        userPosition &&
+                        r.latitude != null &&
+                        r.longitude != null
+                          ? `${formatDistanceMiles(
+                              haversineKm(
+                                userPosition.lat,
+                                userPosition.lng,
+                                r.latitude,
+                                r.longitude
+                              )
+                            )} away`
+                          : undefined
+                      }
+                    />
+                  </li>
+                ))}
+              </ul>
+              {hasMore ? (
+                <div className="flex justify-center pt-2">
+                  <button
+                    type="button"
+                    onClick={() => setVisibleCount((n) => n + PAGE_SIZE)}
+                    className="min-h-11 rounded-xl border border-slate-200 bg-white px-6 text-sm font-semibold text-slate-800 hover:bg-slate-50"
+                  >
+                    Show {Math.min(PAGE_SIZE, sorted.length - visibleCount)} more (
+                    {sorted.length - visibleCount} left)
+                  </button>
+                </div>
+              ) : null}
+            </>
+          )}
         </>
       )}
     </div>

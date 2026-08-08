@@ -16,6 +16,7 @@ export function BrowseContent({
   initialCategory = "All",
   initialQuery = "",
   initialOpenNow = false,
+  initialView = "list",
 }: {
   restaurants: Restaurant[]
   areas: Area[]
@@ -25,6 +26,7 @@ export function BrowseContent({
   initialCategory?: string
   initialQuery?: string
   initialOpenNow?: boolean
+  initialView?: "list" | "map"
 }) {
   const sidebar = (
     <div className="hidden lg:block">
@@ -52,6 +54,7 @@ export function BrowseContent({
         initialCategory={initialCategory}
         initialQuery={initialQuery}
         initialOpenNow={initialOpenNow}
+        initialView={initialView}
       />
     </WpPageShell>
   )

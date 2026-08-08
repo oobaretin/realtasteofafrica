@@ -3,6 +3,10 @@
 import { useRouter } from "next/navigation"
 import { FormEvent, useState } from "react"
 
+import { SearchAutocomplete } from "@/components/SearchAutocomplete"
+import { AREAS } from "@/lib/areas"
+import { getAllCuisineTags, RESTAURANTS } from "@/lib/restaurants"
+
 export function HomeQuickFind({
   listingCount,
   variant = "default",
@@ -13,29 +17,35 @@ export function HomeQuickFind({
   const router = useRouter()
   const [query, setQuery] = useState("")
   const isHero = variant === "hero"
+  const cuisineTags = getAllCuisineTags()
+
+  const submit = (q: string) => {
+    const trimmed = q.trim()
+    router.push(trimmed ? `/restaurants?q=${encodeURIComponent(trimmed)}` : "/restaurants")
+  }
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault()
-    const q = query.trim()
-    router.push(q ? `/restaurants?q=${encodeURIComponent(q)}` : "/restaurants")
+    submit(query)
   }
+
+  const inputClass = isHero
+    ? "min-h-12 w-full rounded-xl border border-white/20 bg-white/95 px-4 text-sm text-slate-900 placeholder:text-slate-500 shadow-sm"
+    : "min-h-12 w-full rounded-xl border border-slate-200 bg-white px-4 text-sm text-slate-900 placeholder:text-slate-400"
 
   return (
     <form onSubmit={handleSubmit} className="flex flex-col gap-3 sm:flex-row">
-      <label className="sr-only" htmlFor="home-quick-find">
-        Search {listingCount}+ restaurant listings
-      </label>
-      <input
+      <SearchAutocomplete
         id="home-quick-find"
-        type="search"
         value={query}
-        onChange={(e) => setQuery(e.target.value)}
+        onChange={setQuery}
+        onSubmit={submit}
         placeholder="Name, city, cuisine…"
-        className={
-          isHero
-            ? "min-h-12 flex-1 rounded-xl border border-white/20 bg-white/95 px-4 text-sm text-slate-900 placeholder:text-slate-500 shadow-sm"
-            : "min-h-12 flex-1 rounded-xl border border-slate-200 bg-white px-4 text-sm text-slate-900 placeholder:text-slate-400"
-        }
+        inputClassName={inputClass}
+        restaurants={RESTAURANTS}
+        cuisineTags={cuisineTags}
+        areas={AREAS}
+        navigateOnSelect
       />
       <button
         type="submit"
@@ -43,6 +53,7 @@ export function HomeQuickFind({
       >
         Search
       </button>
+      <span className="sr-only">Search {listingCount}+ restaurant listings</span>
     </form>
   )
 }
