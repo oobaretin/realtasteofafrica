@@ -2,13 +2,13 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react"
 import { useRouter, usePathname } from "next/navigation"
-import { Locate, Loader2 } from "lucide-react"
+import Link from "next/link"
+import { Locate, Loader2, SlidersHorizontal } from "lucide-react"
 
 import { Badge } from "@/components/Badge"
 import { FilterBar } from "@/components/FilterBar"
 import { OpenNowToggle } from "@/components/OpenNowToggle"
 import { RestaurantCard } from "@/components/RestaurantCard"
-import { TrustLegendStrip } from "@/components/TrustLegendStrip"
 import type { Area } from "@/lib/areas"
 import { getBusinessStatus } from "@/lib/businessHours"
 import {
@@ -17,6 +17,8 @@ import {
 } from "@/lib/establishmentType"
 import { formatDistanceMiles, haversineKm } from "@/lib/geo"
 import type { Restaurant } from "@/lib/restaurants"
+
+const PAGE_SIZE = 24
 
 const BASE_SORT_OPTIONS = [
   { value: "status", label: "Status" },
@@ -51,7 +53,6 @@ function sortListByBusinessStatus(list: Restaurant[]) {
   })
 }
 
-/** Stable nearest-first sort; rows without coordinates sort last (by name). */
 function compareByDistanceThenName(
   a: Restaurant,
   b: Restaurant,
@@ -89,8 +90,7 @@ export function RestaurantsBrowser({
   initialArea = "",
   initialCategory = "All",
   initialQuery = "",
-  isOpenNowOnly = false,
-  onOpenNowOnlyChange,
+  initialOpenNow = false,
 }: {
   restaurants: Restaurant[]
   areas: Area[]
@@ -99,8 +99,7 @@ export function RestaurantsBrowser({
   initialArea?: string
   initialCategory?: string
   initialQuery?: string
-  isOpenNowOnly?: boolean
-  onOpenNowOnlyChange?: (value: boolean) => void
+  initialOpenNow?: boolean
 }) {
   const router = useRouter()
   const pathname = usePathname()
@@ -109,53 +108,78 @@ export function RestaurantsBrowser({
   const [cuisine, setCuisine] = useState<string>(initialCuisine)
   const [category, setCategory] = useState<string>(initialCategory)
   const [sortBy, setSortBy] = useState<SortBy>("status")
+  const [isOpenNowOnly, setIsOpenNowOnly] = useState(initialOpenNow)
+  const [filtersOpen, setFiltersOpen] = useState(false)
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
   const [nearMeActive, setNearMeActive] = useState(false)
   const [userPosition, setUserPosition] = useState<{ lat: number; lng: number } | null>(null)
   const [locating, setLocating] = useState(false)
   const [geoError, setGeoError] = useState<string | null>(null)
 
   useEffect(() => {
-    // Sync filters when `searchParams` change from the server (e.g. back/forward, shared URL).
-    // eslint-disable-next-line react-hooks/set-state-in-effect -- intentional prop→state sync for URL-driven browse state
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- URL-driven browse state
     setAreaSlug(initialArea)
     setCuisine(initialCuisine)
     setCategory(initialCategory)
     setQuery(initialQuery)
-  }, [initialArea, initialCuisine, initialCategory, initialQuery])
+    setIsOpenNowOnly(initialOpenNow)
+    setVisibleCount(PAGE_SIZE)
+  }, [initialArea, initialCuisine, initialCategory, initialQuery, initialOpenNow])
 
   const filterBarValues = useMemo(
     () => ({ category, region: areaSlug, cuisine }),
     [category, areaSlug, cuisine]
   )
 
+  const activeFilterCount =
+    (areaSlug ? 1 : 0) +
+    (cuisine ? 1 : 0) +
+    (category !== "All" ? 1 : 0) +
+    (sortBy !== "status" ? 1 : 0)
+
   const updateUrl = useCallback(
-    (updates: { area?: string; cuisine?: string; type?: string; q?: string }) => {
+    (updates: {
+      area?: string
+      cuisine?: string
+      type?: string
+      q?: string
+      openNow?: boolean
+    }) => {
       const params = new URLSearchParams()
       const nextArea = updates.area ?? areaSlug
       const nextCuisine = updates.cuisine ?? cuisine
       const nextType = updates.type ?? category
       const nextQ = updates.q !== undefined ? updates.q : query
+      const nextOpenNow = updates.openNow ?? isOpenNowOnly
       if (nextArea) params.set("area", nextArea)
       if (nextCuisine) params.set("cuisine", nextCuisine)
       if (nextType && nextType !== "All") params.set("type", nextType)
       if (nextQ.trim()) params.set("q", nextQ.trim())
+      if (nextOpenNow) params.set("openNow", "1")
       const qs = params.toString()
       router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false })
     },
-    [areaSlug, category, cuisine, pathname, query, router]
+    [areaSlug, category, cuisine, isOpenNowOnly, pathname, query, router]
   )
 
   const handleFilterChange = (key: "category" | "region" | "cuisine", value: string) => {
+    setVisibleCount(PAGE_SIZE)
     if (key === "category") {
       setCategory(value)
-      updateUrl({ area: areaSlug, cuisine, type: value })
+      updateUrl({ type: value })
     } else if (key === "region") {
       setAreaSlug(value)
-      updateUrl({ area: value, cuisine, type: category })
+      updateUrl({ area: value })
     } else {
       setCuisine(value)
-      updateUrl({ area: areaSlug, cuisine: value, type: category })
+      updateUrl({ cuisine: value })
     }
+  }
+
+  const handleOpenNowChange = (value: boolean) => {
+    setIsOpenNowOnly(value)
+    setVisibleCount(PAGE_SIZE)
+    updateUrl({ openNow: value })
   }
 
   const areaBySlug = useMemo(() => {
@@ -185,22 +209,11 @@ export function RestaurantsBrowser({
       const words = q.split(/\s+/).filter(Boolean)
       return searchMatches(r, words)
     })
-  }, [
-    areaSlug,
-    category,
-    cuisine,
-    isOpenNowOnly,
-    query,
-    restaurants,
-  ])
+  }, [areaSlug, category, cuisine, isOpenNowOnly, query, restaurants])
 
   const distanceKm = useCallback(
     (r: Restaurant) => {
-      if (
-        !userPosition ||
-        r.latitude == null ||
-        r.longitude == null
-      ) {
+      if (!userPosition || r.latitude == null || r.longitude == null) {
         return Number.POSITIVE_INFINITY
       }
       return haversineKm(userPosition.lat, userPosition.lng, r.latitude, r.longitude)
@@ -235,15 +248,24 @@ export function RestaurantsBrowser({
     return list
   }, [distanceKm, filtered, sortBy, userPosition])
 
+  const visible = sorted.slice(0, visibleCount)
+  const hasMore = visibleCount < sorted.length
+
   const sortOptions = useMemo(() => {
     if (userPosition) {
-      return [
-        ...BASE_SORT_OPTIONS,
-        { value: "distance" as const, label: "Nearest" },
-      ]
+      return [...BASE_SORT_OPTIONS, { value: "distance" as const, label: "Nearest" }]
     }
     return [...BASE_SORT_OPTIONS]
   }, [userPosition])
+
+  useEffect(() => {
+    const t = window.setTimeout(() => {
+      if (query !== initialQuery) {
+        updateUrl({ q: query })
+      }
+    }, 300)
+    return () => window.clearTimeout(t)
+  }, [query, initialQuery, updateUrl])
 
   const requestNearMe = () => {
     if (typeof navigator === "undefined" || !navigator.geolocation) {
@@ -261,6 +283,7 @@ export function RestaurantsBrowser({
         setNearMeActive(true)
         setSortBy("distance")
         setLocating(false)
+        setVisibleCount(PAGE_SIZE)
       },
       (err) => {
         setLocating(false)
@@ -282,110 +305,126 @@ export function RestaurantsBrowser({
     setAreaSlug("")
     setCuisine("")
     setCategory("All")
-    onOpenNowOnlyChange?.(false)
+    setIsOpenNowOnly(false)
+    setVisibleCount(PAGE_SIZE)
     clearNearMe()
     router.replace(pathname, { scroll: false })
   }
 
-  const handleQueryChange = (value: string) => {
-    setQuery(value)
-    updateUrl({ q: value })
-  }
-
   return (
-    <div className="grid gap-4">
-      {/* Quick-Action Bar: sticky, backdrop-blur */}
+    <div className="grid gap-3">
       <div
-        className="sticky top-[4.5rem] z-20 -mx-4 flex flex-wrap items-center justify-between gap-3 rounded-xl border border-slate-200/80 bg-white/80 px-4 py-3 backdrop-blur-md sm:top-20 sm:mx-0 md:top-24"
-        role="toolbar"
-        aria-label="Browse options"
+        className="sticky top-[4.5rem] z-20 -mx-4 space-y-3 rounded-none border-b border-slate-200/80 bg-white/95 px-4 py-3 backdrop-blur-md sm:top-20 sm:mx-0 sm:rounded-xl sm:border sm:shadow-sm md:top-24"
+        role="search"
+        aria-label="Search and filter listings"
       >
-        <div className="flex min-w-0 flex-1 flex-wrap items-center gap-3 sm:gap-4">
-          <OpenNowToggle
-            checked={isOpenNowOnly}
-            onChange={(v) => onOpenNowOnlyChange?.(v)}
-            variant="inline"
-          />
-          <div className="flex flex-wrap items-center gap-2">
-            {nearMeActive && userPosition ? (
-              <button
-                type="button"
-                onClick={clearNearMe}
-                className="min-h-11 rounded-xl border border-slate-200 bg-white px-3 text-sm font-semibold text-slate-700 shadow-sm transition-transform active:scale-95 touch-manipulation hover:bg-slate-50"
-              >
-                Clear location
-              </button>
-            ) : (
-              <button
-                type="button"
-                onClick={requestNearMe}
-                disabled={locating}
-                className="inline-flex min-h-11 min-w-[48px] items-center justify-center gap-2 rounded-xl bg-amber-600 px-4 text-sm font-semibold text-white shadow-sm transition-transform hover:bg-amber-700 active:scale-95 touch-manipulation disabled:cursor-not-allowed disabled:opacity-70"
-              >
-                {locating ? (
-                  <Loader2 className="h-5 w-5 shrink-0 animate-spin" aria-hidden />
-                ) : (
-                  <Locate className="h-5 w-5 shrink-0" aria-hidden />
-                )}
-                {locating ? "Locating…" : "Near me"}
-              </button>
-            )}
-          </div>
-          {geoError ? (
-            <span className="max-w-[14rem] text-xs text-red-600" role="status">
-              {geoError}
-            </span>
-          ) : null}
-          <span className="text-sm text-slate-500">
-            {sorted.length} spot{sorted.length !== 1 ? "s" : ""}
-            {nearMeActive && userPosition ? (
-              <span className="hidden text-slate-400 sm:inline"> · nearest first</span>
-            ) : null}
-          </span>
-        </div>
-        <button
-          type="button"
-          onClick={handleRefine}
-          className="min-h-11 rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-amber-700 hover:bg-amber-50 focus:ring-2 focus:ring-amber-400 focus:ring-offset-1"
-        >
-          Reset
-        </button>
-      </div>
-
-      <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-        <label className="grid gap-2" htmlFor="browse-search">
-          <span className="sr-only">Search listings</span>
+        <div className="flex gap-2">
+          <label className="sr-only" htmlFor="browse-search">
+            Search listings
+          </label>
           <input
             id="browse-search"
-            className="min-h-11 w-full rounded-xl border border-slate-200 bg-white px-4 text-sm text-slate-900 placeholder:text-slate-400"
+            className="min-h-11 min-w-0 flex-1 rounded-xl border border-slate-200 bg-white px-4 text-sm text-slate-900 placeholder:text-slate-400"
             placeholder="Search name, city, cuisine…"
             value={query}
-            onChange={(e) => handleQueryChange(e.target.value)}
+            onChange={(e) => {
+              setQuery(e.target.value)
+              setVisibleCount(PAGE_SIZE)
+            }}
           />
-        </label>
+          <button
+            type="button"
+            onClick={() => setFiltersOpen((v) => !v)}
+            className="inline-flex min-h-11 shrink-0 items-center justify-center gap-1.5 rounded-xl border border-slate-200 bg-slate-50 px-3 text-sm font-semibold text-slate-800 hover:bg-slate-100"
+            aria-expanded={filtersOpen}
+          >
+            <SlidersHorizontal className="h-4 w-4" aria-hidden />
+            <span className="hidden sm:inline">Filters</span>
+            {activeFilterCount > 0 ? (
+              <span className="inline-flex h-5 min-w-5 items-center justify-center rounded-full bg-amber-600 px-1 text-xs font-bold text-white">
+                {activeFilterCount}
+              </span>
+            ) : null}
+          </button>
+        </div>
+
+        <div className="flex flex-wrap items-center gap-2 sm:gap-3">
+          <OpenNowToggle
+            checked={isOpenNowOnly}
+            onChange={handleOpenNowChange}
+            variant="inline"
+          />
+          {nearMeActive && userPosition ? (
+            <button
+              type="button"
+              onClick={clearNearMe}
+              className="min-h-9 rounded-lg border border-slate-200 bg-white px-3 text-xs font-semibold text-slate-700 hover:bg-slate-50 sm:text-sm"
+            >
+              Clear location
+            </button>
+          ) : (
+            <button
+              type="button"
+              onClick={requestNearMe}
+              disabled={locating}
+              className="inline-flex min-h-9 items-center gap-1.5 rounded-lg bg-amber-600 px-3 text-xs font-semibold text-white hover:bg-amber-700 disabled:opacity-70 sm:text-sm"
+            >
+              {locating ? (
+                <Loader2 className="h-4 w-4 animate-spin" aria-hidden />
+              ) : (
+                <Locate className="h-4 w-4" aria-hidden />
+              )}
+              Near me
+            </button>
+          )}
+          <span className="text-xs text-slate-500 sm:text-sm">
+            {sorted.length} spot{sorted.length !== 1 ? "s" : ""}
+          </span>
+          {(category !== "All" || areaSlug || cuisine || query.trim() || isOpenNowOnly) && (
+            <button
+              type="button"
+              onClick={handleRefine}
+              className="ml-auto text-xs font-medium text-amber-700 hover:text-amber-800 sm:text-sm"
+            >
+              Reset
+            </button>
+          )}
+        </div>
+
+        {geoError ? (
+          <p className="text-xs text-red-600" role="status">
+            {geoError}
+          </p>
+        ) : null}
+
+        <p className="text-xs text-slate-500">
+          <Link href="/trust" className="text-amber-700 underline hover:text-amber-800">
+            How we verify listings
+          </Link>
+        </p>
       </div>
 
-      <FilterBar
-        areas={areas}
-        cuisineTags={cuisineTags}
-        values={filterBarValues}
-        onFilterChange={handleFilterChange}
-        sortBy={sortOptions.some((o) => o.value === sortBy) ? sortBy : "status"}
-        sortOptions={sortOptions}
-        onSortChange={(value) => setSortBy(value as SortBy)}
-      />
-
-      <TrustLegendStrip />
+      {filtersOpen ? (
+        <FilterBar
+          areas={areas}
+          cuisineTags={cuisineTags}
+          values={filterBarValues}
+          onFilterChange={handleFilterChange}
+          sortBy={sortOptions.some((o) => o.value === sortBy) ? sortBy : "status"}
+          sortOptions={sortOptions}
+          onSortChange={(value) => {
+            setSortBy(value as SortBy)
+            setVisibleCount(PAGE_SIZE)
+          }}
+        />
+      ) : null}
 
       {(category !== "All" || areaSlug || cuisine || query.trim()) && (
         <div className="flex flex-wrap items-center gap-2">
-          <Badge>{sorted.length} results</Badge>
           {category && category !== "All" ? (
             <Badge>{typeFilterBadgeLabel(category)}</Badge>
           ) : null}
-          {areaSlug ? (
-            <Badge>{areaBySlug.get(areaSlug)?.name ?? areaSlug}</Badge>
-          ) : null}
+          {areaSlug ? <Badge>{areaBySlug.get(areaSlug)?.name ?? areaSlug}</Badge> : null}
           {cuisine ? <Badge>{cuisine}</Badge> : null}
           {query.trim() ? <Badge>“{query.trim()}”</Badge> : null}
         </div>
@@ -395,55 +434,62 @@ export function RestaurantsBrowser({
         <div className="rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-sm">
           {isOpenNowOnly ? (
             <p className="text-slate-600">
-              No matches are open right now with your current filters. Turn off{" "}
-              <strong>Open now</strong>, clear search, or use{" "}
-              <strong className="text-slate-800">See all listings</strong> below to browse the full
-              directory—hours are Texas time.
+              No matches are open right now. Turn off <strong>Open now</strong> or reset filters.
             </p>
           ) : (
             <p className="text-slate-600">
-              Nothing matches region, cuisine, type, or search. Widen filters or reset to browse all{" "}
-              {restaurants.length} listings.
+              Nothing matches your filters. Reset to browse all {restaurants.length} listings.
             </p>
           )}
           <button
             type="button"
             onClick={handleRefine}
-            className="mt-6 inline-flex rounded-xl bg-amber-600 px-8 py-4 text-base font-semibold text-white shadow-sm hover:bg-amber-700 focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+            className="mt-6 inline-flex rounded-xl bg-amber-600 px-8 py-3 text-sm font-semibold text-white hover:bg-amber-700"
           >
-            See All {restaurants.length} Listings
+            See all {restaurants.length} listings
           </button>
         </div>
       ) : (
-        <ul
-          className="grid grid-cols-1 gap-4 md:grid-cols-3"
-          aria-label="Restaurant listings"
-        >
-          {sorted.map((r) => (
-            <li key={r.slug}>
-              <RestaurantCard
-                restaurant={r}
-                distanceLabel={
-                  nearMeActive &&
-                  userPosition &&
-                  r.latitude != null &&
-                  r.longitude != null
-                    ? `${formatDistanceMiles(
-                        haversineKm(
-                          userPosition.lat,
-                          userPosition.lng,
-                          r.latitude,
-                          r.longitude
-                        )
-                      )} away`
-                    : undefined
-                }
-              />
-            </li>
-          ))}
-        </ul>
+        <>
+          <ul className="grid grid-cols-1 gap-2 sm:gap-3" aria-label="Restaurant listings">
+            {visible.map((r) => (
+              <li key={r.slug}>
+                <RestaurantCard
+                  restaurant={r}
+                  variant="row"
+                  distanceLabel={
+                    nearMeActive &&
+                    userPosition &&
+                    r.latitude != null &&
+                    r.longitude != null
+                      ? `${formatDistanceMiles(
+                          haversineKm(
+                            userPosition.lat,
+                            userPosition.lng,
+                            r.latitude,
+                            r.longitude
+                          )
+                        )} away`
+                      : undefined
+                  }
+                />
+              </li>
+            ))}
+          </ul>
+          {hasMore ? (
+            <div className="flex justify-center pt-2">
+              <button
+                type="button"
+                onClick={() => setVisibleCount((n) => n + PAGE_SIZE)}
+                className="min-h-11 rounded-xl border border-slate-200 bg-white px-6 text-sm font-semibold text-slate-800 hover:bg-slate-50"
+              >
+                Show {Math.min(PAGE_SIZE, sorted.length - visibleCount)} more (
+                {sorted.length - visibleCount} left)
+              </button>
+            </div>
+          ) : null}
+        </>
       )}
     </div>
   )
 }
-

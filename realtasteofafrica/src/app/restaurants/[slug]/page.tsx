@@ -11,7 +11,6 @@ import { ListingMobileBar } from "@/components/ListingMobileBar"
 import { SimilarSpots } from "@/components/SimilarSpots"
 import { VerifiedBadge } from "@/components/VerifiedBadge"
 import {
-  formatDirectoryVerifiedDetail,
   formatDirectoryVerifiedLabel,
   showDirectoryVerifiedBadge,
 } from "@/lib/formatAudit"
@@ -108,9 +107,7 @@ export default async function RestaurantDetailPage({
         />
       </div>
       <div className="rounded-2xl border border-slate-200 bg-slate-50/50 p-5">
-        <h3 className="text-sm font-semibold uppercase tracking-wide text-slate-500">
-          Hours
-        </h3>
+        <h3 className="text-sm font-semibold text-slate-900">Hours</h3>
         <BusinessStatusClient hours={r.hours} variant="label" />
         {r.hours && Object.keys(r.hours).length > 0 ? (
           <ul className="mt-3 space-y-1.5 text-sm text-slate-600" aria-label="Hours by day">
@@ -126,9 +123,7 @@ export default async function RestaurantDetailPage({
         ) : null}
       </div>
       <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-        <h3 className="text-sm font-semibold uppercase tracking-wide text-slate-500">
-          Location
-        </h3>
+        <h3 className="text-sm font-semibold text-slate-900">Location</h3>
         <p className="mt-2 break-words text-slate-800">
           {r.addressLine}
           <br />
@@ -151,63 +146,61 @@ export default async function RestaurantDetailPage({
 
   return (
     <article className="min-w-0 grid gap-0 pb-20 lg:pb-0">
-      <header className="grid gap-2">
-        <nav aria-label="Breadcrumb" className="text-sm text-slate-500">
-          <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
-            <li>
-              <Link href="/" className="hover:text-amber-700">
-                Texas
-              </Link>
-            </li>
-            <li aria-hidden>/</li>
-            <li>
-              <Link
-                href={`/cities/${cityToSlug(r.city)}`}
-                className="hover:text-amber-700"
-              >
-                {r.city}
-              </Link>
-            </li>
-            <li aria-hidden>/</li>
-            <li className="text-slate-700">{cuisineLabel}</li>
-          </ol>
-        </nav>
-        <h1 className="text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+      <nav aria-label="Breadcrumb" className="text-sm text-slate-500">
+        <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
+          <li>
+            <Link href="/" className="hover:text-amber-700">
+              Texas
+            </Link>
+          </li>
+          <li aria-hidden>/</li>
+          <li>
+            <Link href={`/cities/${cityToSlug(r.city)}`} className="hover:text-amber-700">
+              {r.city}
+            </Link>
+          </li>
+          <li aria-hidden>/</li>
+          <li className="text-slate-700">{cuisineLabel}</li>
+        </ol>
+      </nav>
+
+      <ListingHero restaurant={r} />
+
+      <header className="mt-4 grid gap-2">
+        <h1 className="font-display text-3xl font-semibold tracking-tight text-slate-900 md:text-4xl">
           {r.name}
         </h1>
-        <div className="mt-2 flex flex-wrap items-center gap-2">
-          {showDirectoryVerifiedBadge(r) ? (
-            <span className="inline-flex max-w-full flex-col gap-1 rounded-xl border border-amber-200 bg-amber-50 px-3 py-2 text-sm text-amber-900 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-2 sm:gap-y-1">
-              <span className="font-semibold">
-                {formatDirectoryVerifiedLabel(r.lastAuditDate)}
-              </span>
-              <span className="hidden text-amber-800/90 sm:inline" aria-hidden>
-                ·
-              </span>
-              <span className="text-xs text-amber-800/90 sm:text-sm">
-                {formatDirectoryVerifiedDetail(r.lastAuditDate)}
-              </span>
-              <Link
-                href="/trust#directory"
-                className="text-xs font-medium text-amber-800 underline hover:text-amber-900 sm:text-sm"
-              >
-                What this means
-              </Link>
-            </span>
-          ) : null}
+        <p className="text-base text-slate-600">
+          {r.addressLine} · {r.city}, {r.state}
+        </p>
+        <div className="flex flex-wrap items-center gap-2">
           <BusinessStatusClient hours={r.hours} variant="badge" />
           {r.isVerified ? <VerifiedBadge linkToTrust /> : null}
+          {showDirectoryVerifiedBadge(r) ? (
+            <Link
+              href="/trust#directory"
+              className="inline-flex items-center rounded-full border border-amber-200 bg-amber-50 px-2.5 py-1 text-xs font-medium text-amber-900 hover:bg-amber-100"
+            >
+              {formatDirectoryVerifiedLabel(r.lastAuditDate)}
+            </Link>
+          ) : null}
         </div>
       </header>
 
-      <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_320px] lg:items-start">
+      <div className="mt-6 grid gap-8 lg:grid-cols-[1fr_320px] lg:items-start">
         <div className="min-w-0 grid gap-6">
-          <ListingHero restaurant={r} />
+          <div className="lg:hidden">
+            <h2 className="sr-only">Quick actions</h2>
+            <ListingActionStack
+              restaurant={r}
+              listingNumber={listingNumber}
+              totalListings={RESTAURANTS.length}
+              layout="inline"
+            />
+          </div>
 
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wide text-slate-500">
-              Cuisine & options
-            </h3>
+            <h2 className="text-sm font-semibold text-slate-900">Cuisine & options</h2>
             <div className="mt-2 flex flex-wrap gap-2">
               {r.cuisines.map((c) => (
                 <span
@@ -235,13 +228,9 @@ export default async function RestaurantDetailPage({
           </div>
 
           {isFoodTruck ? (
-            <div className="rounded-2xl border border-amber-200 bg-amber-50 p-5 shadow-sm">
-              <div className="text-sm font-semibold text-amber-900">Food truck / pop-up</div>
-              <div className="mt-2 text-sm text-amber-900/90">
-                This listing operates as a <span className="font-medium">food truck</span> and/or{" "}
-                <span className="font-medium">pop-up</span>. Hours and locations can change—check
-                their latest updates before heading out.
-              </div>
+            <div className="rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900/90">
+              Food truck / pop-up — hours and locations can change. Call or check their site
+              before heading out.
             </div>
           ) : null}
 

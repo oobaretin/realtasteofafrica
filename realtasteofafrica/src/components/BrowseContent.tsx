@@ -1,7 +1,5 @@
 "use client"
 
-import { useState } from "react"
-
 import { RegionChipBar } from "@/components/RegionChipBar"
 import { WpPageShell } from "@/components/WpPageShell"
 import { WpSidebar } from "@/components/WpSidebar"
@@ -17,6 +15,7 @@ export function BrowseContent({
   initialArea,
   initialCategory = "All",
   initialQuery = "",
+  initialOpenNow = false,
 }: {
   restaurants: Restaurant[]
   areas: Area[]
@@ -25,9 +24,8 @@ export function BrowseContent({
   initialArea: string
   initialCategory?: string
   initialQuery?: string
+  initialOpenNow?: boolean
 }) {
-  const [isOpenNowOnly, setIsOpenNowOnly] = useState(false)
-
   const sidebar = (
     <div className="hidden lg:block">
       <WpSidebar />
@@ -37,7 +35,7 @@ export function BrowseContent({
   return (
     <WpPageShell
       title="Browse restaurants & markets"
-      description="Search and filter by region and cuisine — restaurants, trucks, markets, and groceries across Texas."
+      description="Search by name, filter by region or cuisine, or turn on Open now and Near me."
       breadcrumbs={[
         { href: "/", label: "Home" },
         { href: "/restaurants", label: "Restaurants" },
@@ -53,8 +51,7 @@ export function BrowseContent({
         initialArea={initialArea}
         initialCategory={initialCategory}
         initialQuery={initialQuery}
-        isOpenNowOnly={isOpenNowOnly}
-        onOpenNowOnlyChange={setIsOpenNowOnly}
+        initialOpenNow={initialOpenNow}
       />
     </WpPageShell>
   )

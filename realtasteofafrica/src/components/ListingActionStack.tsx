@@ -63,9 +63,8 @@ export function ListingActionStack({
         </p>
       ) : null}
       {listingNumber > 0 ? (
-        <p className="text-xs text-slate-500">
-          Verified Listing #{listingNumber} of {totalListings}. Help us grow the map by sharing
-          this spot!
+        <p className="sr-only">
+          Listing {listingNumber} of {totalListings} in the directory.
         </p>
       ) : null}
     </div>

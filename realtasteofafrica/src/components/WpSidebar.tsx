@@ -45,7 +45,7 @@ export function WpSidebar() {
                     <li key={area.slug}>
                       <Link
                         className="text-xs font-medium text-amber-700 hover:text-amber-800 sm:text-sm"
-                        href={`/areas/${area.slug}`}
+                        href={`/restaurants?area=${area.slug}`}
                       >
                         {label}
                       </Link>
