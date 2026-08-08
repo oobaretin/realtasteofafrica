@@ -8,6 +8,8 @@ import { CopyAddressButtonClient } from "@/components/CopyAddressButton"
 import { ListingActionStack } from "@/components/ListingActionStack"
 import { ListingHero } from "@/components/ListingHero"
 import { ListingMobileBar } from "@/components/ListingMobileBar"
+import { ListingReviews } from "@/components/ListingReviews"
+import { RecordRecentlyViewed } from "@/components/RecordRecentlyViewed"
 import { SimilarSpots } from "@/components/SimilarSpots"
 import { VerifiedBadge } from "@/components/VerifiedBadge"
 import {
@@ -142,6 +144,7 @@ export default async function RestaurantDetailPage({
 
   return (
     <article className="min-w-0 grid gap-0 pb-20 lg:pb-0">
+      <RecordRecentlyViewed slug={slug} />
       <nav aria-label="Breadcrumb" className="text-sm text-slate-500">
         <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
           <li>
@@ -242,6 +245,8 @@ export default async function RestaurantDetailPage({
               </div>
             </section>
           ) : null}
+
+          <ListingReviews restaurant={r} />
         </div>
 
         <div className="lg:sticky lg:top-24">{sidebar}</div>

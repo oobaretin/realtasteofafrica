@@ -27,6 +27,7 @@
     "check:website-urls": "node scripts/check-website-urls.mjs",
     "fix:website-urls": "node scripts/fix-broken-website-urls.mjs",
     "audit:restaurants": "node scripts/audit-restaurants-csv.mjs",
+    "audit:data": "node scripts/run-data-audit.mjs",
     "backfill:highlights": "node scripts/backfill-highlights-csv.mjs --write"
   },
   "keywords": [],

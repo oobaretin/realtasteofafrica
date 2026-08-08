@@ -12,10 +12,12 @@ export const metadata = {
 export default async function ContactPage({
   searchParams,
 }: {
-  searchParams: Promise<{ restaurant?: string }>
+  searchParams: Promise<{ restaurant?: string; topic?: string }>
 }) {
   const params = await searchParams
   const initialRestaurantName = params?.restaurant ?? ""
+  const initialIssue =
+    params?.topic === "review" ? "Share your experience" : ""
 
   return (
     <WpPageShell
@@ -71,7 +73,10 @@ export default async function ContactPage({
           </a>
         </div>
 
-        <ContactFormUnified initialRestaurantName={initialRestaurantName} />
+        <ContactFormUnified
+          initialRestaurantName={initialRestaurantName}
+          initialIssue={initialIssue}
+        />
       </div>
     </WpPageShell>
   )

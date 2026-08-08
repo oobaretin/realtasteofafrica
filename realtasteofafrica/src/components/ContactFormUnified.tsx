@@ -8,6 +8,7 @@ const ISSUE_OPTIONS = [
   { value: "", label: "Choose an issue type" },
   { value: "Report a Closure", label: "Report a Closure" },
   { value: "Correction", label: "Correction" },
+  { value: "Share your experience", label: "Share your experience" },
   { value: "Business Claim", label: "Business Claim" },
 ] as const
 
@@ -66,10 +67,12 @@ function buildMailtoHref({
 
 export function ContactFormUnified({
   initialRestaurantName = "",
+  initialIssue = "",
 }: {
   initialRestaurantName?: string
+  initialIssue?: string
 }) {
-  const [issue, setIssue] = useState("")
+  const [issue, setIssue] = useState(initialIssue)
   const [restaurantName, setRestaurantName] = useState(initialRestaurantName)
   const [senderEmail, setSenderEmail] = useState("")
   const [message, setMessage] = useState("")
@@ -80,6 +83,10 @@ export function ContactFormUnified({
   useEffect(() => {
     setRestaurantName(initialRestaurantName)
   }, [initialRestaurantName])
+
+  useEffect(() => {
+    if (initialIssue) setIssue(initialIssue)
+  }, [initialIssue])
 
   const mailtoHref = useMemo(
     () => buildMailtoHref({ issue, restaurantName, senderEmail, message }),

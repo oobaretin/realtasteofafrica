@@ -3,6 +3,7 @@ import Link from "next/link"
 import { FeaturedGrid } from "@/components/FeaturedGrid"
 import { HomeGuides } from "@/components/HomeGuides"
 import { HomeHero } from "@/components/HomeHero"
+import { RecentlyViewedSection } from "@/components/RecentlyViewedSection"
 import { StatewideDiscovery } from "@/components/StatewideDiscovery"
 import { getFeaturedRestaurants, RESTAURANTS } from "@/lib/restaurants"
 
@@ -26,6 +27,8 @@ export default function HomePage() {
   return (
     <div className="min-w-0 grid gap-6 sm:gap-8 lg:gap-10">
       <HomeHero listingCount={RESTAURANTS.length} restaurants={RESTAURANTS} />
+
+      <RecentlyViewedSection />
 
       <section className="min-w-0 grid gap-4">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between sm:gap-4">

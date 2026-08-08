@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-08-08T20:49:42.022Z",
+  "totalListings": 298,
+  "missingHours": 0,
+  "withWebsite": 298,
+  "withCoords": 298,
+  "duplicateCheck": "ok",
+  "websiteAudit": {
+    "generatedAt": "2026-07-23T05:22:18.455728+00:00",
+    "checked": 285,
+    "brokenCount": 7,
+    "brokenSlugs": [
+      "aso-rock-restaurant-and-lounge-dallas",
+      "freshnez-kitchen-food-truck-dallas-tx",
+      "hi-lo-african-caribbean-food-market-houston-tx",
+      "jc-african-and-caribbean-food-store-mcallen-tx",
+      "murphy-s-mansion-dallas",
+      "sabo-suya-spot-houston-tx",
+      "wazobia-african-market-and-kitchen-houston-tx"
+    ]
+  }
+}

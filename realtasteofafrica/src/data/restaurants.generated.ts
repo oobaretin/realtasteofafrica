@@ -613,7 +613,7 @@ export const RESTAURANTS: Restaurant[] = [
     "latitude": 29.732191651607,
     "longitude": -95.846222650123,
     "phone": "(281) 394-5244",
-    "websiteUrl": "https://order.lagosbuka.com/",
+    "websiteUrl": "https://www.google.com/maps/search/Lagos%20Buka%20Katy%20TX",
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=4031%20FM-1463%20Rd%2C%20Katy%20TX%2077494%2C%20Katy%2C%20TX",
     "highlights": [
       "Delivery"
