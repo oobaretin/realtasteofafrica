@@ -66,10 +66,10 @@ function formatPhoneWithDashes(value) {
   return raw
 }
 
-function toOsmSearchUrl(query) {
+function toGoogleMapsSearchUrl(query) {
   const q = String(query ?? "").trim()
   if (!q) return undefined
-  return `https://www.openstreetmap.org/search?query=${encodeURIComponent(q)}`
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`
 }
 
 function isLikelyStreetAddress(addressLine) {
@@ -225,7 +225,7 @@ function toRestaurantRecord(row, idx) {
       : {}),
     phone: formatPhoneWithDashes(row.phone) ?? asOptionalString(row.phone),
     websiteUrl: asOptionalString(row.websiteUrl),
-    mapsUrl: asOptionalString(row.mapsUrl) ?? toOsmSearchUrl(mapsQuery),
+    mapsUrl: asOptionalString(row.mapsUrl) ?? toGoogleMapsSearchUrl(mapsQuery),
     priceLevel: asOptionalPriceLevel(row.priceLevel),
     highlights: finalHighlights,
     category,

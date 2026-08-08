@@ -5,6 +5,8 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useState } from "react"
 
+import { SavedNavLink } from "@/components/SavedNavLink"
+
 type NavItem = { href: string; label: string }
 
 const NAV_ITEMS: NavItem[] = [
@@ -59,6 +61,7 @@ export function SiteHeader() {
               </Link>
             )
           })}
+          <SavedNavLink />
         </nav>
 
         <button
@@ -104,8 +107,9 @@ export function SiteHeader() {
                 >
                   {item.label}
                 </Link>
-            )
-          })}
+              )
+            })}
+            <SavedNavLink onNavigate={() => setIsOpen(false)} />
           </nav>
         </div>
       ) : null}

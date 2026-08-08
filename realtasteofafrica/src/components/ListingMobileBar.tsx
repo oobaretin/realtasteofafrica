@@ -3,16 +3,12 @@
 import { SaveSpotButton } from "@/components/SaveSpotButton"
 import { ShareButton } from "@/components/ShareButton"
 import { formatPhoneDisplay, toTelHref } from "@/lib/formatPhone"
+import { getRestaurantMapsUrl } from "@/lib/mapsUrl"
 import type { Restaurant } from "@/lib/restaurants"
-
-function googleMapsUrl(addressLine: string, city: string, state: string) {
-  const query = encodeURIComponent(`${addressLine}, ${city}, ${state}`)
-  return `https://www.google.com/maps/search/?api=1&query=${query}`
-}
 
 export function ListingMobileBar({ restaurant }: { restaurant: Restaurant }) {
   const r = restaurant
-  const mapsHref = googleMapsUrl(r.addressLine, r.city, r.state)
+  const mapsHref = getRestaurantMapsUrl(r)
 
   return (
     <div

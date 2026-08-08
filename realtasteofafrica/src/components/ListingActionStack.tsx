@@ -2,13 +2,9 @@ import { ListingExternalLink } from "@/components/ListingExternalLink"
 import { SaveSpotButton } from "@/components/SaveSpotButton"
 import { ShareButton } from "@/components/ShareButton"
 import { formatPhoneDisplay, toTelHref } from "@/lib/formatPhone"
+import { getRestaurantMapsUrl } from "@/lib/mapsUrl"
 import { getWebsiteLinkPresentation } from "@/lib/websiteLinkLabel"
 import type { Restaurant } from "@/lib/restaurants"
-
-function googleMapsUrl(addressLine: string, city: string, state: string) {
-  const query = encodeURIComponent(`${addressLine}, ${city}, ${state}`)
-  return `https://www.google.com/maps/search/?api=1&query=${query}`
-}
 
 export function ListingActionStack({
   restaurant,
@@ -40,7 +36,7 @@ export function ListingActionStack({
         </a>
       ) : null}
       <a
-        href={googleMapsUrl(r.addressLine, r.city, r.state)}
+        href={getRestaurantMapsUrl(r)}
         target="_blank"
         rel="noreferrer"
         className={`${btnBase} bg-blue-600 text-white hover:bg-blue-700`}

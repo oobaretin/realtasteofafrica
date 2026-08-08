@@ -5,6 +5,7 @@ import type { ReactNode } from "react"
 import "./globals.css"
 import { SiteFooter } from "@/components/SiteFooter"
 import { SiteHeader } from "@/components/SiteHeader"
+import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister"
 import { SiteJsonLd } from "@/components/SiteJsonLd"
 import { SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/site"
 
@@ -51,6 +52,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${fraunces.variable} overflow-x-hidden`}>
       <body className="font-sans overflow-x-hidden">
+        <ServiceWorkerRegister />
         <SiteJsonLd />
         <a
           className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 rounded-md bg-slate-900 px-3 py-2 text-sm"

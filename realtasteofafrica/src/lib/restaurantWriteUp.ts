@@ -32,9 +32,7 @@ export function getRestaurantWriteUp(r: Restaurant): string[] {
 
   const p3 = r.websiteUrl
     ? "Check the website for the most up-to-date hours and specials."
-    : r.mapsUrl
-      ? "Use the map link for directions and to confirm hours."
-      : ""
+    : "Use Google Maps for directions and to confirm hours."
 
   return [p1, p2, p3].filter(Boolean)
 }

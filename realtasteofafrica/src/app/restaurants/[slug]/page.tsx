@@ -14,6 +14,7 @@ import {
   formatDirectoryVerifiedLabel,
   showDirectoryVerifiedBadge,
 } from "@/lib/formatAudit"
+import { getRestaurantMapsUrl } from "@/lib/mapsUrl"
 import {
   cityToSlug,
   getListingNumber,
@@ -23,11 +24,6 @@ import {
   type Restaurant,
 } from "@/lib/restaurants"
 import { getRestaurantWriteUp } from "@/lib/restaurantWriteUp"
-
-function googleMapsUrl(addressLine: string, city: string, state: string) {
-  const query = encodeURIComponent(`${addressLine}, ${city}, ${state}`)
-  return `https://www.google.com/maps/search/?api=1&query=${query}`
-}
 
 function isFoodTruckListing(highlights: string[]) {
   return highlights.some((h) => /\b(food\s*truck|pop-?up)\b/i.test(h))
@@ -132,7 +128,7 @@ export default async function RestaurantDetailPage({
         <div className="mt-4 flex flex-wrap gap-3">
           <CopyAddressButtonClient text={`${r.addressLine}, ${r.city}, ${r.state}`} />
           <a
-            href={googleMapsUrl(r.addressLine, r.city, r.state)}
+            href={getRestaurantMapsUrl(r)}
             target="_blank"
             rel="noreferrer"
             className="text-sm font-medium text-amber-700 hover:text-amber-800"

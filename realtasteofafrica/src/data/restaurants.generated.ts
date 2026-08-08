@@ -25,7 +25,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.3875327,
     "phone": "(832) 962-4500",
     "websiteUrl": "https://www.chopnblok.co/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=507%20Westheimer%20Rd%2C%20Houston%2C%20TX%2077006%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=507%20Westheimer%20Rd%2C%20Houston%2C%20TX%2077006%2C%20Houston%2C%20TX",
     "highlights": [
       "Upscale Fast-Casual"
     ],
@@ -59,7 +59,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.366226090581,
     "phone": "(281) 631-5009",
     "websiteUrl": "https://www.chopnblok.co/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=401%20Franklin%20St%20Suite%20A%2C%20Houston%2C%20TX%2077201%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=401%20Franklin%20St%20Suite%20A%2C%20Houston%2C%20TX%2077201%2C%20Houston%2C%20TX",
     "highlights": [
       "Upscale Fast-Casual"
     ],
@@ -94,7 +94,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.4959671,
     "phone": "(832) 831-4372",
     "websiteUrl": "https://www.ariasuyakitchen.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6357%20Westheimer%20Rd%2C%20Houston%2C%20TX%2077057%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=6357%20Westheimer%20Rd%2C%20Houston%2C%20TX%2077057%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Nigerian"
@@ -129,7 +129,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.483785950399,
     "phone": "(713) 589-9055",
     "websiteUrl": "https://tasteofnigeria.us/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5959%20Richmond%20Ave.%20%23160%2C%20Houston%2C%20TX%2077057%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5959%20Richmond%20Ave.%20%23160%2C%20Houston%2C%20TX%2077057%2C%20Houston%2C%20TX",
     "highlights": [
       "Delivery"
     ],
@@ -163,7 +163,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.550210988896,
     "phone": "(713) 814-5253",
     "websiteUrl": "https://sarabellcalabarrestaurant.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9801%20Bissonnet%20St%20Suite%20C%2C%20Houston%2C%20TX%2077036%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9801%20Bissonnet%20St%20Suite%20C%2C%20Houston%2C%20TX%2077036%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
       "Curbside pickup",
@@ -199,7 +199,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5466475,
     "phone": "(713) 773-1400",
     "websiteUrl": "https://afrikikohouston.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9625%20Bissonnet%20St%2C%20Houston%2C%20TX%2077036%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9625%20Bissonnet%20St%2C%20Houston%2C%20TX%2077036%2C%20Houston%2C%20TX",
     "highlights": [
       "Delivery"
     ],
@@ -233,7 +233,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.551744,
     "phone": "(713) 270-7070",
     "websiteUrl": "https://fingerlickinghtx.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9815%20Bissonnet%20St%2C%20Houston%2C%20TX%2077036%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9815%20Bissonnet%20St%2C%20Houston%2C%20TX%2077036%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Nigerian"
@@ -268,7 +268,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5549144,
     "phone": "(713) 541-4436",
     "websiteUrl": "https://thesafarirestaurant.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=10014%20Bissonnet%20St%2C%20Houston%2C%20TX%2077036%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=10014%20Bissonnet%20St%2C%20Houston%2C%20TX%2077036%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
       "Takeout",
@@ -304,7 +304,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.54980861256,
     "phone": "(832) 768-5973",
     "websiteUrl": "https://sabosuya.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9780%20Bissonnet%20St%20Ste%20Q%2C%20Houston%20TX%2077036%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9780%20Bissonnet%20St%20Ste%20Q%2C%20Houston%20TX%2077036%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Suya"
@@ -339,7 +339,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.582566514769,
     "phone": "(281) 265-1411",
     "websiteUrl": "https://therealsuyahut.com",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=11720%20W%20Airport%20Blvd%20%231600%2C%20Meadows%20Place%20TX%2077477%2C%20Meadows%20Place%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=11720%20W%20Airport%20Blvd%20%231600%2C%20Meadows%20Place%20TX%2077477%2C%20Meadows%20Place%2C%20TX",
     "priceLevel": 2,
     "highlights": [
       "West African",
@@ -374,7 +374,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.4893844,
     "phone": "(281) 891-3383",
     "websiteUrl": "https://hunanwestafricancuisine.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3645%20Cypress%20Creek%20Pkwy%20%23368%2C%20Houston%2C%20TX%2077068%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3645%20Cypress%20Creek%20Pkwy%20%23368%2C%20Houston%2C%20TX%2077068%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -408,7 +408,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.604786005773,
     "phone": "(832) 303-4591",
     "websiteUrl": "http://abulahotpottx.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=12703%20Alief%20Clodine%20Rd%20%23101%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=12703%20Alief%20Clodine%20Rd%20%23101%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Nigerian"
@@ -443,7 +443,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.571307,
     "phone": "(281) 575-1665",
     "websiteUrl": "https://unique-african-cuisine.hey-restaurants.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6101%20Wilcrest%20Dr%2C%20Houston%20TX%2077072%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=6101%20Wilcrest%20Dr%2C%20Houston%20TX%2077072%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Nigerian"
@@ -478,7 +478,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.4525017,
     "phone": "(281) 825-6677",
     "websiteUrl": "https://omalichakitchen.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1701%20Cypress%20Creek%20Pkwy%20Suite%20D%2C%20Houston%2C%20TX%2077090%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1701%20Cypress%20Creek%20Pkwy%20Suite%20D%2C%20Houston%2C%20TX%2077090%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Nigerian"
@@ -512,7 +512,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5032183,
     "phone": "(713) 334-0000",
     "websiteUrl": "https://www.lucyhouston.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6800%20Southwest%20Fwy%2C%20Houston%2C%20TX%2077074%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=6800%20Southwest%20Fwy%2C%20Houston%2C%20TX%2077074%2C%20Houston%2C%20TX",
     "highlights": [
       "Ethiopian"
     ],
@@ -546,7 +546,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.643221,
     "phone": "(281) 995-1958",
     "websiteUrl": "https://delightsghanaiancuisine.restaurants-info.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=14524%20Piping%20Rock%20Ln%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=14524%20Piping%20Rock%20Ln%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
     "highlights": [
       "Ghanaian",
       "West African"
@@ -580,7 +580,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.64974914492,
     "phone": "(281) 256-7455",
     "websiteUrl": "https://www.bantuhouse.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=22224%20Northwest%20Fwy%20Ste.%20B%2C%20Cypress%2C%20TX%2077429%2C%20Cypress%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=22224%20Northwest%20Fwy%20Ste.%20B%2C%20Cypress%2C%20TX%2077429%2C%20Cypress%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -614,7 +614,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.846222650123,
     "phone": "(281) 394-5244",
     "websiteUrl": "https://order.lagosbuka.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=4031%20FM-1463%20Rd%2C%20Katy%20TX%2077494%2C%20Katy%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=4031%20FM-1463%20Rd%2C%20Katy%20TX%2077494%2C%20Katy%2C%20TX",
     "highlights": [
       "Delivery"
     ],
@@ -648,7 +648,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.770532096169,
     "phone": "(281) 665-8511",
     "websiteUrl": "https://www.royalarmrestaurant.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=23010%20Highland%20Knolls%20Dr%20Ste%20C%2C%20Katy%20TX%2077494%2C%20Katy%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=23010%20Highland%20Knolls%20Dr%20Ste%20C%2C%20Katy%20TX%2077494%2C%20Katy%2C%20TX",
     "highlights": [
       "African",
       "Caribbean"
@@ -683,7 +683,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.799544095007,
     "phone": "(346) 307-7440",
     "websiteUrl": "https://lekki-island-bar-and-grill.square.site/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=25757%20Westheimer%20Pkwy%20Ste%20200%2C%20Katy%20TX%2077494%2C%20Katy%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25757%20Westheimer%20Pkwy%20Ste%20200%2C%20Katy%20TX%2077494%2C%20Katy%2C%20TX",
     "highlights": [
       "West African",
       "African"
@@ -717,7 +717,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.773536840348,
     "phone": "(346) 387-6031",
     "websiteUrl": "https://ekomieats.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2811%20W%20Grand%20Pkwy%20N%20Suite%20D%2C%20Katy%20TX%2077449%2C%20Katy%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2811%20W%20Grand%20Pkwy%20N%20Suite%20D%2C%20Katy%20TX%2077449%2C%20Katy%2C%20TX",
     "highlights": [
       "Nigerian"
     ],
@@ -751,7 +751,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.8166019,
     "phone": "(832) 437-0238",
     "websiteUrl": "https://onyisuya.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5403%20E%205th%20St%2C%20Katy%20TX%2077493%2C%20Katy%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5403%20E%205th%20St%2C%20Katy%20TX%2077493%2C%20Katy%2C%20TX",
     "highlights": [
       "African",
       "Suya"
@@ -786,7 +786,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.645336130347,
     "phone": "(281) 721-2982",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Amala%20Joint%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6271%20S%20Texas%206%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=6271%20S%20Texas%206%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Nigerian"
@@ -821,7 +821,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6213832,
     "phone": "(281) 325-0105",
     "websiteUrl": "https://myperiperi.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2625%20Town%20Center%20Blvd%20N%2C%20Sugar%20Land%20TX%2077479%2C%20Sugar%20Land%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2625%20Town%20Center%20Blvd%20N%2C%20Sugar%20Land%20TX%2077479%2C%20Sugar%20Land%2C%20TX",
     "highlights": [
       "South African",
       "Peri-Peri"
@@ -856,7 +856,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.649423765705,
     "phone": "(832) 288-2982",
     "websiteUrl": "https://www.roostcafeandbistro.com/amala-on-point-grains-and-solid-cafe-77498/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=11134%20S%20Texas%206%20Suite%20216%2C%20Sugar%20Land%2C%20TX%2077498%2C%20Sugar%20Land%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=11134%20S%20Texas%206%20Suite%20216%2C%20Sugar%20Land%2C%20TX%2077498%2C%20Sugar%20Land%2C%20TX",
     "priceLevel": 3,
     "highlights": [
       "Dine-in",
@@ -893,7 +893,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.597910933589,
     "phone": "(281) 201-2125",
     "websiteUrl": "https://allseasonscafetx.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=11420%20Dairy%20Ashford%20Rd%20Ste%20104B%2C%20Sugar%20Land%20TX%2077478%2C%20Sugar%20Land%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=11420%20Dairy%20Ashford%20Rd%20Ste%20104B%2C%20Sugar%20Land%20TX%2077478%2C%20Sugar%20Land%2C%20TX",
     "highlights": [
       "Delivery"
     ],
@@ -927,7 +927,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.618815648721,
     "phone": "(281) 201-2502",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=FEYDUPS%20KITCHEN%20Sugar%20Land%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1055%20Eldridge%20Rd%20%23400%2C%20Sugar%20Land%20TX%2077478%2C%20Sugar%20Land%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1055%20Eldridge%20Rd%20%23400%2C%20Sugar%20Land%20TX%2077478%2C%20Sugar%20Land%2C%20TX",
     "highlights": [
       "Nigerian",
       "African"
@@ -962,7 +962,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5856554,
     "phone": "(346) 874-7241",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Amala%20Manny%20Foods%20Sugar%20Land%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2919%20Lakefield%20Way%2C%20Sugar%20Land%20TX%2077479%2C%20Sugar%20Land%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2919%20Lakefield%20Way%2C%20Sugar%20Land%20TX%2077479%2C%20Sugar%20Land%2C%20TX",
     "highlights": [
       "West African",
       "Nigerian"
@@ -997,7 +997,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.752953,
     "phone": "(832) 451-6135",
     "websiteUrl": "https://zongo.us/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=7035%20W%20Grand%20Pkwy%20S%20%2390%2C%20Richmond%2C%20TX%2077407%2C%20Richmond%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=7035%20W%20Grand%20Pkwy%20S%20%2390%2C%20Richmond%2C%20TX%2077407%2C%20Richmond%2C%20TX",
     "highlights": [
       "West African",
       "Ghanaian"
@@ -1032,7 +1032,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6874978,
     "phone": "(832) 500-4581",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Empress%20Cafe%20USA%20Richmond%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6611%20FM%201464%20Ste%20G%2C%20Richmond%2C%20TX%2077407%2C%20Richmond%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=6611%20FM%201464%20Ste%20G%2C%20Richmond%2C%20TX%2077407%2C%20Richmond%2C%20TX",
     "priceLevel": 2,
     "highlights": [
       "Dine-in",
@@ -1070,7 +1070,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.7304033,
     "phone": "(281) 762-1175",
     "websiteUrl": "https://rodonigeriancuisine.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=7324%20Grand%20Mission%20Blvd%2C%20Richmond%20TX%2077407%2C%20Richmond%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=7324%20Grand%20Mission%20Blvd%2C%20Richmond%20TX%2077407%2C%20Richmond%2C%20TX",
     "highlights": [
       "Nigerian",
       "West African"
@@ -1104,7 +1104,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.715766541427,
     "phone": "(832) 841-7578",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Goma%27s%20Kitchen%20Richmond%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=8620%20Grand%20Mission%20Blvd%20K%2C%20Richmond%20TX%2077407%2C%20Richmond%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=8620%20Grand%20Mission%20Blvd%20K%2C%20Richmond%20TX%2077407%2C%20Richmond%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -1137,7 +1137,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.776739189804,
     "phone": "(281) 762-0946",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Star%20Afrik%20Cuisine%20Rosenberg%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5101%20Avenue%20H%20%2368%2C%20Rosenberg%20TX%2077471%2C%20Rosenberg%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5101%20Avenue%20H%20%2368%2C%20Rosenberg%20TX%2077471%2C%20Rosenberg%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -1170,7 +1170,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.006353612124,
     "phone": "(832) 580-4169",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Benmond%20African%20food%20and%20Catering%20Texas%20City%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=701%20Volney%20St%2C%20Texas%20City%20TX%2077568%2C%20Texas%20City%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=701%20Volney%20St%2C%20Texas%20City%20TX%2077568%2C%20Texas%20City%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -1204,7 +1204,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.0092294,
     "phone": "(737) 225-3885",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=African%20Spices%20%26%20Soul%20Food%20Texas%20City%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=Gulf%20Fwy%2C%20Texas%20City%20TX%2077568%2C%20Texas%20City%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gulf%20Fwy%2C%20Texas%20City%20TX%2077568%2C%20Texas%20City%2C%20TX",
     "highlights": [
       "African",
       "Soul Food"
@@ -1238,7 +1238,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -94.170421834195,
     "phone": "(409) 347-8288",
     "websiteUrl": "https://gracefarmersmarket.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6120%20College%20St%20Suite%20E%2C%20Beaumont%20TX%2077707%2C%20Beaumont%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=6120%20College%20St%20Suite%20E%2C%20Beaumont%20TX%2077707%2C%20Beaumont%2C%20TX",
     "highlights": [
       "Market"
     ],
@@ -1271,7 +1271,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.572421,
     "phone": "(832) 359-3779",
     "websiteUrl": "https://nativepotrestaurant.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2022%20Wilcrest%20Dr%2C%20Houston%2C%20TX%2077042%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2022%20Wilcrest%20Dr%2C%20Houston%2C%20TX%2077042%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -1304,7 +1304,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.645353254051,
     "phone": "(281) 372-8925",
     "websiteUrl": "https://chezmichellerestaurant.com",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6991%20S%20Texas%206%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=6991%20S%20Texas%206%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "Delivery",
       "Dine-in",
@@ -1342,7 +1342,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -106.3229603,
     "phone": "(915) 307-4834",
     "websiteUrl": "https://anointedcuisineinc.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3140%20N%20Lee%20Trevino%20Dr%2C%20El%20Paso%20TX%2079936%2C%20El%20Paso%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3140%20N%20Lee%20Trevino%20Dr%2C%20El%20Paso%20TX%2079936%2C%20El%20Paso%2C%20TX",
     "highlights": [
       "Takeout",
       "Market",
@@ -1410,7 +1410,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -106.2595004,
     "phone": "(915) 867-2708",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Debizz%20Kitchen%20El%20Paso%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=12321%20Desert%20Dove%20Ave%2C%20El%20Paso%20TX%2079938%2C%20El%20Paso%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=12321%20Desert%20Dove%20Ave%2C%20El%20Paso%20TX%2079938%2C%20El%20Paso%2C%20TX",
     "highlights": [
       "Delivery"
     ],
@@ -1445,7 +1445,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -101.8829564,
     "phone": "(806) 701-3680",
     "websiteUrl": "https://www.vizoslubbock.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3131%2034th%20St%2C%20Lubbock%20TX%2079410%2C%20Lubbock%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3131%2034th%20St%2C%20Lubbock%20TX%2079410%2C%20Lubbock%2C%20TX",
     "highlights": [
       "Delivery",
       "Restaurant"
@@ -1479,7 +1479,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -99.7549721,
     "phone": "(325) 701-4432",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Betty%27s%20Kitchen%20Abilene%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2510%20Button%20Willow%20Ave%2C%20Abilene%20TX%2079606%2C%20Abilene%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2510%20Button%20Willow%20Ave%2C%20Abilene%20TX%2079606%2C%20Abilene%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -1512,7 +1512,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -98.23861185915,
     "phone": "(956) 627-2244",
     "websiteUrl": "https://afrospicergv.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=4400%20N%2023rd%20St%20%23156%2C%20McAllen%20TX%2078504%2C%20Mcallen%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=4400%20N%2023rd%20St%20%23156%2C%20McAllen%20TX%2078504%2C%20Mcallen%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -1547,7 +1547,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -98.227169646617,
     "phone": "(956) 682-6700",
     "websiteUrl": "https://www.africanfoodstores.com",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1915%20N%2010th%20St%20Ste%20A%2C%20McAllen%20TX%2078501%2C%20Mcallen%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1915%20N%2010th%20St%20Ste%20A%2C%20McAllen%20TX%2078501%2C%20Mcallen%2C%20TX",
     "highlights": [
       "Market"
     ],
@@ -1581,7 +1581,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -101.7669836,
     "phone": "(806) 471-0490",
     "websiteUrl": "https://somalisafari.top/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5945%20E%20Amarillo%20Blvd%2C%20Amarillo%20TX%2079107%2C%20Amarillo%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5945%20E%20Amarillo%20Blvd%2C%20Amarillo%20TX%2079107%2C%20Amarillo%2C%20TX",
     "highlights": [
       "Also listed as African Safari Restaurant"
     ],
@@ -1616,7 +1616,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -101.8700888,
     "phone": "(806) 681-4388",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Felicia%E2%80%99s%20African%20Food%20LLC%20Amarillo%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2795%20SW%2045th%20Ave%2C%20Amarillo%2C%20TX%2079110%2C%20Amarillo%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2795%20SW%2045th%20Ave%2C%20Amarillo%2C%20TX%2079110%2C%20Amarillo%2C%20TX",
     "priceLevel": 2,
     "highlights": [
       "Takeout",
@@ -1653,7 +1653,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -101.7706365,
     "phone": "(806) 316-2490",
     "websiteUrl": "https://somalibulsho.top/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2380%20Fritch%20Hwy%2C%20Amarillo%20TX%2079108%2C%20Amarillo%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2380%20Fritch%20Hwy%2C%20Amarillo%20TX%2079108%2C%20Amarillo%2C%20TX",
     "highlights": [
       "Somali",
       "African"
@@ -1689,7 +1689,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -101.8738716,
     "phone": "(806) 367-6077",
     "websiteUrl": "https://marhabarestaurant.wordpress.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2522%20Paramount%20Blvd%2C%20Amarillo%20TX%2079109%2C%20Amarillo%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2522%20Paramount%20Blvd%2C%20Amarillo%20TX%2079109%2C%20Amarillo%2C%20TX",
     "highlights": [
       "Restaurant + Market"
     ],
@@ -1722,7 +1722,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -101.865863,
     "phone": "(806) 471-0402",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=AFROO%20DINING%20Amarillo%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3313%20S%20Georgia%20St%2C%20Amarillo%20TX%2079109%2C%20Amarillo%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3313%20S%20Georgia%20St%2C%20Amarillo%20TX%2079109%2C%20Amarillo%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -1756,7 +1756,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5676683,
     "phone": "(281) 846-6420",
     "websiteUrl": "https://dakarstreetfood.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2923%20Walnut%20Bend%20Ln%2C%20Houston%2C%20TX%2077042%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2923%20Walnut%20Bend%20Ln%2C%20Houston%2C%20TX%2077042%2C%20Houston%2C%20TX",
     "highlights": [
       "Senegalese",
       "West African"
@@ -1790,7 +1790,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5391781,
     "phone": "(346) 252-2336",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Kofoshi%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3706%20S%20Gessner%20Rd%2C%20Houston%2C%20TX%2077063%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3706%20S%20Gessner%20Rd%2C%20Houston%2C%20TX%2077063%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -1823,7 +1823,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.4217687,
     "phone": "(512) 840-0855",
     "websiteUrl": "https://www.fabaceaecuisine.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=10023%20S%20Main%20St%20Bldg%207%2C%20Houston%20TX%2077025%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=10023%20S%20Main%20St%20Bldg%207%2C%20Houston%20TX%2077025%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -1856,7 +1856,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6188287,
     "phone": "(281) 965-8121",
     "websiteUrl": "https://ddsejideafricanrestaurant.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=10571%20Synott%20Rd%2C%20Houston%2C%20TX%2077099%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=10571%20Synott%20Rd%2C%20Houston%2C%20TX%2077099%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -1889,7 +1889,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.614669892621,
     "phone": "(832) 529-9010",
     "websiteUrl": "https://authenticafricanfoods.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9705%20Synott%20Rd%20suite%20107%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9705%20Synott%20Rd%20suite%20107%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -1922,7 +1922,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.599688053856,
     "phone": "(832) 771-8778",
     "websiteUrl": "https://marieafricanflavorsrestaurant.com",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=12600%20Bissonnet%20St%20Ste%20A7%2C%20Houston%20TX%2077099%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=12600%20Bissonnet%20St%20Ste%20A7%2C%20Houston%20TX%2077099%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -1955,7 +1955,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.622790634549,
     "phone": "(346) 774-2122",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Aburi%20Cuisine%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=13655%20Bissonnet%20St%20%23204%2C%20Houston%20TX%2077083%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=13655%20Bissonnet%20St%20%23204%2C%20Houston%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -1989,7 +1989,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.644255850851,
     "phone": "(346) 252-3158",
     "websiteUrl": "https://www.suyaonthespot.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3418%20S%20Texas%206%20Suite%20C%2C%20Houston%2C%20TX%2077082%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3418%20S%20Texas%206%20Suite%20C%2C%20Houston%2C%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
       "Takeout",
@@ -2024,7 +2024,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5869394,
     "phone": "(713) 981-8818",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=FuFu%20Restaurant%20%28West%20African%20influence%29%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=11810%20Bellaire%20Blvd%20%23A%2C%20Houston%20TX%2077072%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=11810%20Bellaire%20Blvd%20%23A%2C%20Houston%20TX%2077072%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -2058,7 +2058,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.638234023833,
     "phone": "(281) 741-3571",
     "websiteUrl": "https://www.komchop.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=14144%20Westheimer%20Rd%20%23120%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=14144%20Westheimer%20Rd%20%23120%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Nigerian"
@@ -2092,7 +2092,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.448021917128,
     "phone": "(832) 850-3440",
     "websiteUrl": "https://www.olateeafricancafe.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=409%20Sawdust%20Rd%2C%20Spring%2C%20TX%2077380%2C%20Spring%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=409%20Sawdust%20Rd%2C%20Spring%2C%20TX%2077380%2C%20Spring%2C%20TX",
     "highlights": [
       "Delivery"
     ],
@@ -2126,7 +2126,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5875563,
     "phone": "(281) 968-1810",
     "websiteUrl": "https://www.restaurantji.com/tx/houston/alief-african-kitchen-/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9755%20S%20Kirkwood%20Rd%20%23D%2C%20Houston%20TX%2077099%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9755%20S%20Kirkwood%20Rd%20%23D%2C%20Houston%20TX%2077099%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "African"
@@ -2160,7 +2160,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.745293717051,
     "phone": "(214) 575-9004",
     "websiteUrl": "https://destaethiopiaresturant.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=12101%20Greenville%20Ave%20%23105%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=12101%20Greenville%20Ave%20%23105%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
     "highlights": [
       "Ethiopian"
     ],
@@ -2193,7 +2193,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.744150733952,
     "phone": "(972) 792-8442",
     "websiteUrl": "https://lalibeladallastx.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9191%20Forest%20Ln%20%232%2C%20Dallas%20TX%2075243%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9191%20Forest%20Ln%20%232%2C%20Dallas%20TX%2075243%2C%20Dallas%2C%20TX",
     "highlights": [
       "Ethiopian"
     ],
@@ -2226,7 +2226,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.735252205755,
     "phone": "(469) 319-9604",
     "websiteUrl": "https://addisabebarestauranttx.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=100%20Central%20Expy%20%2365%2C%20Richardson%20TX%2075080%2C%20Richardson%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=100%20Central%20Expy%20%2365%2C%20Richardson%20TX%2075080%2C%20Richardson%2C%20TX",
     "highlights": [
       "Ethiopian"
     ],
@@ -2259,7 +2259,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.682606275018,
     "phone": "(972) 424-2634",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=West%20African%20Way%20Plano%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1405%20Jupiter%20Rd%20%23116%2C%20Plano%2C%20TX%2075074%2C%20Plano%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1405%20Jupiter%20Rd%20%23116%2C%20Plano%2C%20TX%2075074%2C%20Plano%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -2293,7 +2293,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.6748625,
     "phone": "(972) 332-8185",
     "websiteUrl": "https://jollofhauz.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=945%20W%20Stacy%20Rd%20%23130%2C%20Allen%2C%20TX%2075013%2C%20Allen%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=945%20W%20Stacy%20Rd%20%23130%2C%20Allen%2C%20TX%2075013%2C%20Allen%2C%20TX",
     "highlights": [
       "West African",
       "Nigerian"
@@ -2327,7 +2327,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.08267873101,
     "phone": "(817) 587-1551",
     "websiteUrl": "https://exoticafricangrill.site/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=415%20N%20Main%20St%20%23102%2C%20Euless%2C%20TX%2076039%2C%20Euless%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=415%20N%20Main%20St%20%23102%2C%20Euless%2C%20TX%2076039%2C%20Euless%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -2361,7 +2361,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.6825709,
     "phone": "(214) 226-7815",
     "websiteUrl": "https://osumasuya.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5121%20Collin%20McKinney%20Pkwy%2C%20McKinney%20TX%2075070%2C%20Mckinney%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5121%20Collin%20McKinney%20Pkwy%2C%20McKinney%20TX%2075070%2C%20Mckinney%2C%20TX",
     "highlights": [
       "Nigerian",
       "Suya"
@@ -2396,7 +2396,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6435962,
     "phone": "(346) 357-3778",
     "websiteUrl": "https://osumasuya.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3306%20Highway%206%20S%20%23100%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3306%20Highway%206%20S%20%23100%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "Nigerian",
       "Suya"
@@ -2431,7 +2431,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.9995375,
     "phone": "(817) 966-9808",
     "websiteUrl": "https://www.suyastop.com",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=311%20E%20Pioneer%20Pkwy%20%23B%2C%20Grand%20Prairie%20TX%2075051%2C%20Grand%20Prairie%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=311%20E%20Pioneer%20Pkwy%20%23B%2C%20Grand%20Prairie%20TX%2075051%2C%20Grand%20Prairie%2C%20TX",
     "highlights": [
       "Nigerian",
       "Suya"
@@ -2466,7 +2466,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.4662346,
     "phone": "(682) 347-1941",
     "websiteUrl": "https://www.google.com/maps/search/THE%20SPOT%20(Rhosabjal%20African%20cuisine)%20Fort%20Worth%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3386%20Cimmaron%20Trail%2C%20Fort%20Worth%2C%20TX%2076116%2C%20Fort%20Worth%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3386%20Cimmaron%20Trail%2C%20Fort%20Worth%2C%20TX%2076116%2C%20Fort%20Worth%2C%20TX",
     "highlights": [
       "African",
       "West African"
@@ -2500,7 +2500,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.4644184,
     "phone": "(682) 702-0844",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Rhosabjal%20Cuisine%20Fort%20Worth%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=8533%20Camp%20Bowie%20W%20Blvd%2C%20Fort%20Worth%20TX%2076116%2C%20Fort%20Worth%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=8533%20Camp%20Bowie%20W%20Blvd%2C%20Fort%20Worth%20TX%2076116%2C%20Fort%20Worth%2C%20TX",
     "highlights": [
       "Food truck",
       "Pop-up"
@@ -2534,7 +2534,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.290036988069,
     "phone": "(817) 720-6677",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=LeAnna%20Chop%20Grill%20Fort%20Worth%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2200%20Brookes%20St%20Unit%20A%2C%20Fort%20Worth%2C%20TX%2076105%2C%20Fort%20Worth%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2200%20Brookes%20St%20Unit%20A%2C%20Fort%20Worth%2C%20TX%2076105%2C%20Fort%20Worth%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -2567,7 +2567,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.2425714,
     "phone": "(817) 720-3333",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Aminatas%20Kitchen%20Fort%20Worth%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=525%20King%20George%20Dr%2C%20Fort%20Worth%2C%20TX%2076112%2C%20Fort%20Worth%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=525%20King%20George%20Dr%2C%20Fort%20Worth%2C%20TX%2076112%2C%20Fort%20Worth%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -2600,7 +2600,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.3627562,
     "phone": "(469) 306-7318",
     "websiteUrl": "https://oloriafricancuisine.net/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6248%20McCart%20Ave%2C%20Fort%20Worth%20TX%2076133%2C%20Fort%20Worth%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=6248%20McCart%20Ave%2C%20Fort%20Worth%20TX%2076133%2C%20Fort%20Worth%2C%20TX",
     "highlights": [
       "Catering"
     ],
@@ -2633,7 +2633,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.2642689,
     "phone": "(817) 744-8898",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Uncle%20G%27z%20Flavors%20Haltom%20City%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5005%20Denton%20Hwy%2C%20Haltom%20City%20TX%2076117%2C%20Haltom%20City%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5005%20Denton%20Hwy%2C%20Haltom%20City%20TX%2076117%2C%20Haltom%20City%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -2667,7 +2667,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.2266084,
     "phone": "(817) 537-2059",
     "websiteUrl": "https://www.zingscafe.com",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=7224%20Glenview%20Dr%2C%20Richland%20Hills%20TX%2076180%2C%20Richland%20Hills%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=7224%20Glenview%20Dr%2C%20Richland%20Hills%20TX%2076180%2C%20Richland%20Hills%2C%20TX",
     "highlights": [
       "Fusion"
     ],
@@ -2701,7 +2701,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.067262304451,
     "phone": "(817) 358-1511",
     "websiteUrl": "https://osumasuya.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=918%20E%20Harwood%20Rd%20Ste%20B%2C%20Euless%20TX%2076039%2C%20Euless%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=918%20E%20Harwood%20Rd%20Ste%20B%2C%20Euless%20TX%2076039%2C%20Euless%2C%20TX",
     "highlights": [
       "Nigerian",
       "Suya"
@@ -2735,7 +2735,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.9923847,
     "phone": "(972) 570-1111",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=African%20Village%20Irving%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3003%20N%20Belt%20Line%20Rd%2C%20Irving%2C%20TX%2075062%2C%20Irving%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3003%20N%20Belt%20Line%20Rd%2C%20Irving%2C%20TX%2075062%2C%20Irving%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -2769,7 +2769,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.9922654,
     "phone": "(972) 514-1111",
     "websiteUrl": "https://www.lolasafricanrestaurant.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3435%20N%20Belt%20Line%20Rd%2C%20Irving%20TX%2075062%2C%20Irving%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3435%20N%20Belt%20Line%20Rd%2C%20Irving%20TX%2075062%2C%20Irving%2C%20TX",
     "highlights": [
       "West African",
       "Nigerian"
@@ -2803,7 +2803,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.1148837,
     "phone": "(817) 753-7962",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=African%20pride%20Food%20and%20kitchen%20Arlington%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5504%20Matlock%20Rd%2C%20Arlington%20TX%2076018%2C%20Arlington%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5504%20Matlock%20Rd%2C%20Arlington%20TX%2076018%2C%20Arlington%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -2837,7 +2837,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.138533705157,
     "phone": "(214) 603-1413",
     "websiteUrl": "https://cheftemii.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1900%20W%20Arbrook%20Blvd%20Ste%20116%2C%20Arlington%20TX%2076015%2C%20Arlington%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1900%20W%20Arbrook%20Blvd%20Ste%20116%2C%20Arlington%20TX%2076015%2C%20Arlington%2C%20TX",
     "highlights": [
       "Catering"
     ],
@@ -2871,7 +2871,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.075078914519,
     "phone": "(817) 896-3372",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Fufudelight%20%26%20Suya%20Kitchen%20Arlington%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6401%20New%20York%20Ave%20%23149%2C%20Arlington%20TX%2076018%2C%20Arlington%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=6401%20New%20York%20Ave%20%23149%2C%20Arlington%20TX%2076018%2C%20Arlington%2C%20TX",
     "highlights": [
       "African",
       "Suya"
@@ -2905,7 +2905,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.0579595,
     "phone": "(972) 854-6161",
     "websiteUrl": "https://angiewinnerskitchen.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2905%20E%20Arkansas%20Ln%20%23100%2C%20Arlington%20TX%2076010%2C%20Arlington%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2905%20E%20Arkansas%20Ln%20%23100%2C%20Arlington%20TX%2076010%2C%20Arlington%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -2938,7 +2938,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.0153216,
     "phone": "(469) 757-0100",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Yemsade%20Restaurant%20Grand%20Prairie%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3007%20S%20Carrier%20Pkwy%2C%20Grand%20Prairie%2C%20TX%2075052%2C%20Grand%20Prairie%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3007%20S%20Carrier%20Pkwy%2C%20Grand%20Prairie%2C%20TX%2075052%2C%20Grand%20Prairie%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -2971,7 +2971,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.0279705,
     "phone": "(469) 444-3286",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Lagos%20Kitchen%20Lewisville%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1320%20W%20Main%20St%2C%20Lewisville%2C%20TX%2075067%2C%20Lewisville%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1320%20W%20Main%20St%2C%20Lewisville%2C%20TX%2075067%2C%20Lewisville%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -3005,7 +3005,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.651437870353,
     "phone": "(512) 712-5716",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Lady%20T%20Kitchen%20African%20Restaurant%20Pflugerville%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=15608%20Spring%20Hill%20Ln%20Ste%20102%2C%20Pflugerville%20TX%2078660%2C%20Pflugerville%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=15608%20Spring%20Hill%20Ln%20Ste%20102%2C%20Pflugerville%20TX%2078660%2C%20Pflugerville%2C%20TX",
     "highlights": [
       "Nigerian",
       "African"
@@ -3040,7 +3040,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -98.4956674,
     "phone": "(726) 229-7587",
     "websiteUrl": "https://oringo-africana.square.site/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=111%20Probandt%20St%2C%20San%20Antonio%2C%20TX%2078204%2C%20San%20Antonio%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=111%20Probandt%20St%2C%20San%20Antonio%2C%20TX%2078204%2C%20San%20Antonio%2C%20TX",
     "highlights": [
       "West African",
       "Nigerian"
@@ -3075,7 +3075,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.7083756,
     "phone": "(512) 383-5738",
     "websiteUrl": "https://www.orderpalatablecuisine.com",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5610%20N%20Interstate%20Hwy%2035%2C%20Austin%2C%20TX%2078751%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5610%20N%20Interstate%20Hwy%2035%2C%20Austin%2C%20TX%2078751%2C%20Austin%2C%20TX",
     "highlights": [
       "Nigerian",
       "African"
@@ -3110,7 +3110,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.689208079644,
     "phone": "(512) 351-9311",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Nigerian%20Restaurant%20/%20African%20Market%20Austin%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=10805%20N%20Lamar%20Blvd%20%23J%2C%20Austin%20TX%2078753%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=10805%20N%20Lamar%20Blvd%20%23J%2C%20Austin%20TX%2078753%2C%20Austin%2C%20TX",
     "highlights": [
       "Market"
     ],
@@ -3145,7 +3145,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.7114429,
     "phone": "(512) 584-5139",
     "websiteUrl": "https://www.redseakitchenatx.com",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2902%20E%20Cesar%20Chavez%20St%2C%20Austin%20TX%2078702%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2902%20E%20Cesar%20Chavez%20St%2C%20Austin%20TX%2078702%2C%20Austin%2C%20TX",
     "highlights": [
       "Food truck"
     ],
@@ -3179,7 +3179,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -98.5592533,
     "phone": "(512) 940-3349",
     "websiteUrl": "https://amencafe.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5115%20Fredericksburg%20Rd%2C%20San%20Antonio%20TX%2078229%2C%20San%20Antonio%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5115%20Fredericksburg%20Rd%2C%20San%20Antonio%20TX%2078229%2C%20San%20Antonio%2C%20TX",
     "highlights": [
       "Ethiopian",
       "Eritrean"
@@ -3214,7 +3214,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -98.55242465263,
     "phone": "(210) 467-5102",
     "websiteUrl": "https://africanvillageethiopianrestaurant.gotoeat.net/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=10918%20Wurzbach%20Rd%20%23131%2C%20San%20Antonio%2C%20TX%2078230%2C%20San%20Antonio%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=10918%20Wurzbach%20Rd%20%23131%2C%20San%20Antonio%2C%20TX%2078230%2C%20San%20Antonio%2C%20TX",
     "highlights": [
       "Ethiopian",
       "East African"
@@ -3250,7 +3250,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.56948231382,
     "phone": "(832) 243-6449",
     "websiteUrl": "https://wazobiaafricanmarket.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=10828C%20Beechnut%20St%2C%20Houston%2C%20TX%2077072%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=10828C%20Beechnut%20St%2C%20Houston%2C%20TX%2077072%2C%20Houston%2C%20TX",
     "highlights": [
       "African Market",
       "Kitchen"
@@ -3284,7 +3284,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.763066466919,
     "phone": "(469) 547-1624",
     "websiteUrl": "https://yenatguada.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=7015%20Greenville%20Ave%20Ste%20300%2C%20Dallas%20TX%2075231%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=7015%20Greenville%20Ave%20Ste%20300%2C%20Dallas%20TX%2075231%2C%20Dallas%2C%20TX",
     "highlights": [
       "Ethiopian"
     ],
@@ -3317,7 +3317,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.7497746,
     "phone": "(214) 570-8828",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Sheba%E2%80%99s%20Ethiopian%20Kitchen%20Dallas%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=8989%20Forest%20Ln%2C%20Dallas%20TX%2075243%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=8989%20Forest%20Ln%2C%20Dallas%20TX%2075243%2C%20Dallas%2C%20TX",
     "highlights": [
       "Ethiopian"
     ],
@@ -3350,7 +3350,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -98.6080656,
     "phone": "(210) 806-7770",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Trices%20Cafe%20and%20Lounge%20San%20Antonio%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=7600%20Eckhert%20Rd%20%233%2C%20San%20Antonio%2C%20TX%2078240%2C%20San%20Antonio%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=7600%20Eckhert%20Rd%20%233%2C%20San%20Antonio%2C%20TX%2078240%2C%20San%20Antonio%2C%20TX",
     "highlights": [
       "Lounge/Dining"
     ],
@@ -3384,7 +3384,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.116640455761,
     "phone": "(682) 323-7609",
     "websiteUrl": "https://www.tasteafrik.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2881%20FM157%20%23103%2C%20Mansfield%20TX%2076063%2C%20Mansfield%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2881%20FM157%20%23103%2C%20Mansfield%20TX%2076063%2C%20Mansfield%2C%20TX",
     "highlights": [
       "African",
       "West African"
@@ -3420,7 +3420,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.732855530927,
     "phone": "(214) 548-4821",
     "websiteUrl": "https://cubanagrille.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=4051%20S%20Custer%20Rd%20%231160%2C%20McKinney%20TX%2075070%2C%20Mckinney%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=4051%20S%20Custer%20Rd%20%231160%2C%20McKinney%20TX%2075070%2C%20Mckinney%2C%20TX",
     "highlights": [
       "West African",
       "Jamaican",
@@ -3455,7 +3455,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.793781845642,
     "phone": "(254) 213-3152",
     "websiteUrl": "https://auntymimiskitchen.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3804%20W%20Stan%20Schlueter%20%23102%2C%20Killeen%20TX%2076549%2C%20Killeen%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3804%20W%20Stan%20Schlueter%20%23102%2C%20Killeen%20TX%2076549%2C%20Killeen%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -3488,7 +3488,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -98.5503101,
     "phone": "(210) 465-9502",
     "websiteUrl": "https://ubuntucuisine.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=11116%20Wurzbach%20Rd%2C%20San%20Antonio%20TX%2078230%2C%20San%20Antonio%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=11116%20Wurzbach%20Rd%2C%20San%20Antonio%20TX%2078230%2C%20San%20Antonio%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -3521,7 +3521,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6702626,
     "phone": "(832) 230-3894",
     "websiteUrl": "https://wazobiaafricankitchen.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=16203%20Westheimer%20Rd%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=16203%20Westheimer%20Rd%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -3555,7 +3555,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.8185343,
     "phone": "(413) 777-7990",
     "websiteUrl": "https://mgbekevillagehut.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=825%20Palamos%20Dr%2C%20Leander%20TX%2078641%2C%20Leander%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=825%20Palamos%20Dr%2C%20Leander%20TX%2078641%2C%20Leander%2C%20TX",
     "highlights": [
       "Nigerian",
       "African"
@@ -3590,7 +3590,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.6268947,
     "phone": "(469) 714-0034",
     "websiteUrl": "https://blesslizcatering.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1502%20W%20University%20Dr%2C%20McKinney%20TX%2075069%2C%20Mckinney%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1502%20W%20University%20Dr%2C%20McKinney%20TX%2075069%2C%20Mckinney%2C%20TX",
     "highlights": [
       "Market-Kitchen"
     ],
@@ -3625,7 +3625,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.500467509353,
     "phone": "(832) 757-5536",
     "websiteUrl": "https://fufuxpress.shop/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=15703%20Homebriar%20Ct%20Building%2015703%2C%20Missouri%20City%2C%20TX%2077489%2C%20Missouri%20City%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=15703%20Homebriar%20Ct%20Building%2015703%2C%20Missouri%20City%2C%20TX%2077489%2C%20Missouri%20City%2C%20TX",
     "highlights": [
       "Delivery"
     ],
@@ -3660,7 +3660,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.389896942692,
     "phone": "(832) 831-4372",
     "websiteUrl": "https://www.ariasuyakitchen.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3300%20Business%20Center%20Dr%20Suite%20150%2C%20Pearland%2C%20TX%2077584%2C%20Pearland%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3300%20Business%20Center%20Dr%20Suite%20150%2C%20Pearland%2C%20TX%2077584%2C%20Pearland%2C%20TX",
     "highlights": [
       "Delivery"
     ],
@@ -3693,7 +3693,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.2375692,
     "phone": "(832) 736-8178",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Kaylani%20African%20Cafe%20Pearland%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=7129%20Broadway%20St%2C%20Pearland%20TX%2077581%2C%20Pearland%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=7129%20Broadway%20St%2C%20Pearland%20TX%2077581%2C%20Pearland%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -3726,7 +3726,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6133689,
     "phone": "(281) 741-0042",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Glozi%20Calabar%20Restaurant%20and%20African%20Cuisine%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=12825%20Westheimer%20Rd%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=12825%20Westheimer%20Rd%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
     "highlights": [
       "Takeout",
       "Delivery"
@@ -3760,7 +3760,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.647313,
     "phone": "(281) 741-0042",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Amala%20Zone%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=14815%20Westheimer%20Rd%2C%20Houston%2C%20TX%2077082%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=14815%20Westheimer%20Rd%2C%20Houston%2C%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -3793,7 +3793,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6289537,
     "phone": "(832) 328-8049",
     "websiteUrl": "https://africantastyhub.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=13505%20Westheimer%20Rd%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=13505%20Westheimer%20Rd%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
     "priceLevel": 3,
     "highlights": [
       "Dine-in",
@@ -3829,7 +3829,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.3676974,
     "phone": "(832) 993-9428",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Rhay%27s%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=11920%20Westheimer%20Rd%20%23J%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=11920%20Westheimer%20Rd%20%23J%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -3862,7 +3862,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6843257,
     "phone": "(346) 907-5105",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=HoneyKaz%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=17113%20Westheimer%20Rd%2C%20Houston%2C%20TX%2077082%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=17113%20Westheimer%20Rd%2C%20Houston%2C%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -3896,7 +3896,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6386243,
     "phone": "(346) 241-9895",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=KFFO%20Afro%20Steakhouse%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=14097%20Westheimer%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=14097%20Westheimer%20Rd%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Steakhouse"
@@ -3931,7 +3931,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5745611,
     "phone": "(832) 328-1188",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Vioni%20Grill%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2703%20S%20Texas%206%20%23127%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2703%20S%20Texas%206%20%23127%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Grill"
@@ -3966,7 +3966,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5155421,
     "phone": "(281) 607-5564",
     "websiteUrl": "https://cravesuya.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=8633%20Richmond%20Ave.%2C%20Houston%2C%20TX%2077063%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=8633%20Richmond%20Ave.%2C%20Houston%2C%20TX%2077063%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Suya"
@@ -4000,7 +4000,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6047562,
     "phone": "(346) 335-7181",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Royal%20Point%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3533%20S%20Dairy%20Ashford%20Rd%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3533%20S%20Dairy%20Ashford%20Rd%2C%20Houston%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -4033,7 +4033,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6686346,
     "phone": "(281) 815-5443",
     "websiteUrl": "https://thefpak.start.page/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=17036%20W%20Little%20York%20Rd%2C%20Houston%2C%20TX%2077084%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=17036%20W%20Little%20York%20Rd%2C%20Houston%2C%20TX%2077084%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
       "Takeout",
@@ -4067,7 +4067,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6602858,
     "phone": "(346) 391-1656",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Bole%20King%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=7030%20Addicks%20Clodine%20Rd%2C%20Houston%20TX%2077083%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=7030%20Addicks%20Clodine%20Rd%2C%20Houston%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -4100,7 +4100,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5341127,
     "phone": "(713) 234-7186",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Dee%20Titolat%20African%20Restaurant%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=11965%20Bissonnet%20St%20%23110%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=11965%20Bissonnet%20St%20%23110%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -4133,7 +4133,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.649357174558,
     "phone": "(346) 406-3829",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Ewatomi%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=15000%20Bellaire%20Blvd%20ste%20q%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=15000%20Bellaire%20Blvd%20ste%20q%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -4167,7 +4167,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6149235,
     "phone": "(346) 335-7116",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Glam%20Divine%20Treats%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6788%20Synott%20Rd%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=6788%20Synott%20Rd%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Desserts"
@@ -4203,7 +4203,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.687906445836,
     "phone": "(832) 539-1605",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Supreme%20Seafood%20%26%20Suya%20Richmond%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=7039%20FM%201464%20%23110%2C%20Richmond%20TX%2077407%2C%20Richmond%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=7039%20FM%201464%20%23110%2C%20Richmond%20TX%2077407%2C%20Richmond%2C%20TX",
     "highlights": [
       "West African",
       "Suya",
@@ -4238,7 +4238,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5548834,
     "phone": "(832) 834-3127",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Chef%20Benny%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=10010%20Bissonnet%20St%2C%20Houston%20TX%2077036%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=10010%20Bissonnet%20St%2C%20Houston%20TX%2077036%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
       "Curbside pickup",
@@ -4274,7 +4274,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5866853,
     "phone": "(713) 282-5320",
     "websiteUrl": "https://www.042restauranthtx.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=13711%20Westheimer%20Rd%20B-1%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=13711%20Westheimer%20Rd%20B-1%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
     "highlights": [
       "Nigerian",
       "Fusion"
@@ -4308,7 +4308,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5959078,
     "phone": "(346) 352-3277",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Nini%20Kitchen%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=7627%20Cook%20Rd%2C%20Houston%20TX%2077072%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=7627%20Cook%20Rd%2C%20Houston%20TX%2077072%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -4342,7 +4342,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.587397408937,
     "phone": "(832) 672-8874",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Grill%20Master%20African%20Restaurant%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9755%20S%20Kirkwood%20Rd%20Ste%20D%2C%20Houston%20TX%2077099%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9755%20S%20Kirkwood%20Rd%20Ste%20D%2C%20Houston%20TX%2077099%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Grill"
@@ -4376,7 +4376,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.635647095144,
     "phone": "(281) 835-4574",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Cafe%20De%20Vivre%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=14165%20Bissonnet%20St%20%23P%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=14165%20Bissonnet%20St%20%23P%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -4409,7 +4409,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.542481168392,
     "phone": "(713) 270-7610",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Traditional%20Food%20Restaurant%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=11214%20Plainfield%20St%20%23%20B%2C%20Houston%2C%20TX%2077031%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=11214%20Plainfield%20St%20%23%20B%2C%20Houston%2C%20TX%2077031%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -4443,7 +4443,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5654681,
     "phone": "(832) 539-1436",
     "websiteUrl": "https://www.google.com/maps/search/Mamaput%20African%20Cuisine%20Stafford%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=435%20Murphy%20Rd%2C%20Stafford%2C%20TX%2077477%2C%20Stafford%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=435%20Murphy%20Rd%2C%20Stafford%2C%20TX%2077477%2C%20Stafford%2C%20TX",
     "highlights": [
       "Dine-in",
       "Takeout"
@@ -4477,7 +4477,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.681735437217,
     "phone": "(346) 252-2445",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=African%20Food%20Embassy%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=18311%20Clay%20Rd%20%23A4%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=18311%20Clay%20Rd%20%23A4%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -4510,7 +4510,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6058262,
     "phone": "(832) 230-0504",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=The%20Afro%20Eatery%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2352%20S%20Dairy%20Ashford%20Rd%2C%20Houston%20TX%2077077%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2352%20S%20Dairy%20Ashford%20Rd%2C%20Houston%20TX%2077077%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
       "Takeout"
@@ -4544,7 +4544,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.523867077121,
     "phone": "(346) 204-5863",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Mama%20Jollof%20Restaurant%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=8330%20W%20Bellfort%20Ave%20Ste%20C%2C%20Houston%2C%20TX%2077071%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=8330%20W%20Bellfort%20Ave%20Ste%20C%2C%20Houston%2C%20TX%2077071%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
       "Takeout"
@@ -4578,7 +4578,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5206507,
     "phone": "(713) 995-5545",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=United%20Sisters%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=8731%20W%20Bellfort%20Ave%2C%20Houston%2C%20TX%2077071%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=8731%20W%20Bellfort%20Ave%2C%20Houston%2C%20TX%2077071%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -4612,7 +4612,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.643647185111,
     "phone": "(832) 831-3185",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Dsnailspot%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9020%20S%20Texas%206%2C%20Houston%20TX%2077083%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9020%20S%20Texas%206%2C%20Houston%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Seafood"
@@ -4646,7 +4646,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.484888155076,
     "phone": "(713) 838-1111",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Horn%20of%20Africa%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5930%20Renwick%20Dr%20Suite%20B%2C%20Houston%2C%20TX%2077081%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5930%20Renwick%20Dr%20Suite%20B%2C%20Houston%2C%20TX%2077081%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
       "Takeout"
@@ -4680,7 +4680,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5767074,
     "phone": "(281) 236-6257",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Amazing%20Street%20Beans%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=18324%20Clay%20Rd%2C%20Houston%2C%20TX%2077084%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=18324%20Clay%20Rd%2C%20Houston%2C%20TX%2077084%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -4713,7 +4713,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.4763898,
     "phone": "(713) 664-0260",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Nazareth%20Cafe%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6617%20Chimney%20Rock%20Rd%2C%20Houston%20TX%2077081%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=6617%20Chimney%20Rock%20Rd%2C%20Houston%20TX%2077081%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
       "Takeout"
@@ -4747,7 +4747,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.556459923718,
     "phone": "(281) 888-9717",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=The%20Motherland%20Restaurant%20%26%20Grill%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=10101%20Bissonnet%20St%20%23F%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=10101%20Bissonnet%20St%20%23F%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -4781,7 +4781,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5878519,
     "phone": "(713) 270-4444",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Osite%20African%20Hot%20Pot%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=11919%20Bissonnet%20St%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=11919%20Bissonnet%20St%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Hot Pot"
@@ -4816,7 +4816,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.61265228870433,
     "phone": "(281) 888-6671",
     "websiteUrl": "https://ekobistro.net/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2472%20S%20Texas%206%2C%20Houston%20TX%2077077%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2472%20S%20Texas%206%2C%20Houston%20TX%2077077%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
       "Takeout",
@@ -4852,7 +4852,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.568626775103,
     "phone": "(281) 809-3171",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Mr.%20Suyaa%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=10887%20S%20Wilcrest%20Dr%2C%20Houston%20TX%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=10887%20S%20Wilcrest%20Dr%2C%20Houston%20TX%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Suya"
@@ -4887,7 +4887,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.7675748,
     "phone": "(469) 917-7001",
     "websiteUrl": "https://theiconrestaurant.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=430%20N%20Coit%20Rd%20%23120%2C%20Richardson%20TX%2075080%2C%20Richardson%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=430%20N%20Coit%20Rd%20%23120%2C%20Richardson%20TX%2075080%2C%20Richardson%2C%20TX",
     "highlights": [
       "Lounge/Dining"
     ],
@@ -4921,7 +4921,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.849857627497,
     "phone": "(972) 987-5195",
     "websiteUrl": "https://www.gidibargrill.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=4350%20Main%20St%20Ste%20165%2C%20Frisco%20TX%2075034%2C%20Frisco%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=4350%20Main%20St%20Ste%20165%2C%20Frisco%20TX%2075034%2C%20Frisco%2C%20TX",
     "highlights": [
       "Lounge/Grill"
     ],
@@ -4954,7 +4954,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.796296,
     "phone": "(512) 552-7779",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Lady%20T%20Kitchen%20Austin%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=13776%20US-183%20%23115%2C%20Austin%20TX%2078750%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=13776%20US-183%20%23115%2C%20Austin%20TX%2078750%2C%20Austin%2C%20TX",
     "highlights": [
       "Restaurant"
     ],
@@ -4987,7 +4987,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.6945033,
     "phone": "(214) 548-5631",
     "websiteUrl": "https://mabelsafricancuisine.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5200%20W%20Stacy%20Rd%20%23100%2C%20McKinney%20TX%2075070%2C%20Mckinney%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5200%20W%20Stacy%20Rd%20%23100%2C%20McKinney%20TX%2075070%2C%20Mckinney%2C%20TX",
     "highlights": [
       "Delivery"
     ],
@@ -5021,7 +5021,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.0953668,
     "phone": "(817) 462-1617",
     "websiteUrl": "https://www.southwestfarmersmarket.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1011%20E%20Arkansas%20Ln%2C%20Arlington%20TX%2076010%2C%20Arlington%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1011%20E%20Arkansas%20Ln%2C%20Arlington%20TX%2076010%2C%20Arlington%2C%20TX",
     "highlights": [
       "Market-Kitchen",
       "Multiple locations"
@@ -5056,7 +5056,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.6838519,
     "phone": "(817) 462-1617",
     "websiteUrl": "https://www.southwestfarmersmarket.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9821%20N%20Interstate%20Hwy%2035%2C%20Austin%2C%20TX%2078753%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9821%20N%20Interstate%20Hwy%2035%2C%20Austin%2C%20TX%2078753%2C%20Austin%2C%20TX",
     "highlights": [
       "Market-Kitchen",
       "Multiple locations"
@@ -5091,7 +5091,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -98.6316007,
     "phone": "(817) 462-1617",
     "websiteUrl": "https://www.southwestfarmersmarket.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6555%20Bandera%20Rd%2C%20San%20Antonio%20TX%2078238%2C%20San%20Antonio%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=6555%20Bandera%20Rd%2C%20San%20Antonio%20TX%2078238%2C%20San%20Antonio%2C%20TX",
     "highlights": [
       "Market-Kitchen",
       "Multiple locations"
@@ -5126,7 +5126,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.550284,
     "phone": "(817) 462-1617",
     "websiteUrl": "https://www.southwestfarmersmarket.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9801%20Bissonnet%20St%2C%20Houston%20TX%2077036%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9801%20Bissonnet%20St%2C%20Houston%20TX%2077036%2C%20Houston%2C%20TX",
     "highlights": [
       "Market-Kitchen",
       "Multiple locations"
@@ -5160,7 +5160,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.7058798,
     "phone": "(512) 358-6839",
     "websiteUrl": "https://habeshaaustin.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6019%20N%20Interstate%20Hwy%2035%2C%20Austin%20TX%2078723%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=6019%20N%20Interstate%20Hwy%2035%2C%20Austin%20TX%2078723%2C%20Austin%2C%20TX",
     "highlights": [
       "Ethiopian"
     ],
@@ -5193,7 +5193,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.8743017,
     "phone": "(214) 434-9333",
     "websiteUrl": "https://freshnezkitchen.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=7508%20Ambassador%20Row%2C%20Dallas%2C%20TX%2075247%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=7508%20Ambassador%20Row%2C%20Dallas%2C%20TX%2075247%2C%20Dallas%2C%20TX",
     "highlights": [
       "Food truck"
     ],
@@ -5226,7 +5226,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6037329,
     "phone": "(832) 990-7590",
     "websiteUrl": "https://asorockmarket.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=13711%20Westheimer%20Rd%20A-1%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=13711%20Westheimer%20Rd%20A-1%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
     "highlights": [
       "In-store shopping",
       "In-store pickup",
@@ -5261,7 +5261,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5283825,
     "phone": "(713) 814-5101",
     "websiteUrl": "https://www.bluenilerestaurant.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9400%20Richmond%20Ave%2C%20Houston%20TX%2077063%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9400%20Richmond%20Ave%2C%20Houston%20TX%2077063%2C%20Houston%2C%20TX",
     "highlights": [
       "Ethiopian"
     ],
@@ -5295,7 +5295,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.4613215,
     "phone": "(832) 669-9930",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Nando%27s%20PERi-PERi%20%28Post%20Oak%29%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1717%20Post%20Oak%20Blvd%2C%20Houston%20TX%2077056%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1717%20Post%20Oak%20Blvd%2C%20Houston%20TX%2077056%2C%20Houston%2C%20TX",
     "highlights": [
       "South African",
       "Peri-Peri"
@@ -5330,7 +5330,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.88988959465,
     "phone": "(214) 308-9994",
     "websiteUrl": "https://bukkagrill.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=307%20Main%20St%20%23210%2C%20Frisco%20TX%2075036%2C%20Frisco%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=307%20Main%20St%20%23210%2C%20Frisco%20TX%2075036%2C%20Frisco%2C%20TX",
     "highlights": [
       "Restaurant"
     ],
@@ -5365,7 +5365,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5276822,
     "phone": "(713) 995-4343",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Makola%20Marketplace%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9051%20W%20Bellfort%20Ave%2C%20Houston%2C%20TX%2077031%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9051%20W%20Bellfort%20Ave%2C%20Houston%2C%20TX%2077031%2C%20Houston%2C%20TX",
     "highlights": [
       "Market",
       "Kitchen",
@@ -5401,7 +5401,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6368774,
     "phone": "(281) 272-6903",
     "websiteUrl": "https://3teeshawarma.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=13974%20Westheimer%20Rd%2C%20Houston%20TX%2077077%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=13974%20Westheimer%20Rd%2C%20Houston%20TX%2077077%2C%20Houston%2C%20TX",
     "highlights": [
       "Dine-in",
       "Takeout",
@@ -5438,7 +5438,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.550210988896,
     "phone": "(713) 271-5000",
     "websiteUrl": "https://holyland-meat-grocery.edan.io/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9801%20Bissonnet%20St%20Suite%20H%2C%20Houston%20TX%2077036%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9801%20Bissonnet%20St%20Suite%20H%2C%20Houston%20TX%2077036%2C%20Houston%2C%20TX",
     "highlights": [
       "Market",
       "Kitchen",
@@ -5474,7 +5474,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.3930546,
     "phone": "(713) 529-1000",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Nando%27s%20PERi-PERi%20%28Montrose%29%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1201%20Westheimer%20Rd%2C%20Houston%20TX%2077006%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1201%20Westheimer%20Rd%2C%20Houston%20TX%2077006%2C%20Houston%2C%20TX",
     "highlights": [
       "South African",
       "Peri-Peri"
@@ -5509,7 +5509,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.3980574,
     "phone": "(832) 844-0057",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Augustine%27s%20%28Creole-African%29%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=4110%20Loretto%20Dr%2C%20Houston%20TX%2077004%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=4110%20Loretto%20Dr%2C%20Houston%20TX%2077004%2C%20Houston%2C%20TX",
     "highlights": [
       "Afro-Creole",
       "Creole"
@@ -5543,7 +5543,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.6906397,
     "phone": "(512) 832-5382",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Tailat%20Kitchen%20Austin%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5933%20Westminster%20Dr%2C%20Austin%2C%20TX%2078723%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5933%20Westminster%20Dr%2C%20Austin%2C%20TX%2078723%2C%20Austin%2C%20TX",
     "highlights": [
       "Nigerian"
     ],
@@ -5576,7 +5576,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.625008978706,
     "phone": "(512) 383-5738",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Palatable%20Nigeria%20Cuisine%20Pflugerville%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2715%20Paragon%20Fox%20Dr%2C%20Pflugerville%20TX%2078660%2C%20Pflugerville%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2715%20Paragon%20Fox%20Dr%2C%20Pflugerville%20TX%2078660%2C%20Pflugerville%2C%20TX",
     "highlights": [
       "Nigerian"
     ],
@@ -5610,7 +5610,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.404431,
     "phone": "(737) 212-0429",
     "websiteUrl": "https://meritcoffee.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=621%20Waverly%20St%2C%20Houston%20TX%2077007%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=621%20Waverly%20St%2C%20Houston%20TX%2077007%2C%20Houston%2C%20TX",
     "highlights": [
       "Coffee house"
     ],
@@ -5643,7 +5643,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.370557,
     "phone": "(281) 699-8902",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Dupsy%27s%20Kitchen%20%28Ghost%29%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2616%20Blodgett%20St%2C%20Houston%20TX%2077004%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2616%20Blodgett%20St%2C%20Houston%20TX%2077004%2C%20Houston%2C%20TX",
     "highlights": [
       "Ghost kitchen"
     ],
@@ -5676,7 +5676,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.705595131551,
     "phone": "(469) 734-0568",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Honey%20Dip%20Fingers%20Mckinney%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6710%20Virginia%20Pkwy%20%23210%2C%20McKinney%20TX%2075071%2C%20Mckinney%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=6710%20Virginia%20Pkwy%20%23210%2C%20McKinney%20TX%2075071%2C%20Mckinney%2C%20TX",
     "highlights": [
       "Delivery",
       "Outpost"
@@ -5710,7 +5710,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.805751871693,
     "phone": "(972) 987-5316",
     "websiteUrl": "https://calabarpot.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5995%20Preston%20Rd%20STE%20102%2C%20Frisco%20TX%2075034%2C%20Frisco%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5995%20Preston%20Rd%20STE%20102%2C%20Frisco%20TX%2075034%2C%20Frisco%2C%20TX",
     "highlights": [
       "Delivery",
       "Outpost"
@@ -5744,7 +5744,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.4942484,
     "phone": "(832) 732-2284",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Signature%20African%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6333%20Richmond%20Ave%2C%20Houston%20TX%2077057%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=6333%20Richmond%20Ave%2C%20Houston%20TX%2077057%2C%20Houston%2C%20TX",
     "highlights": [
       "Nigerian"
     ],
@@ -5778,7 +5778,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.8035732,
     "phone": "(972) 996-6392",
     "websiteUrl": "https://www.southwestfarmersmarket.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=7070%20Preston%20Rd%2C%20Frisco%20TX%2075035%2C%20Frisco%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=7070%20Preston%20Rd%2C%20Frisco%20TX%2075035%2C%20Frisco%2C%20TX",
     "highlights": [
       "Market-Kitchen",
       "Multiple locations"
@@ -5813,7 +5813,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.7009934,
     "phone": "(214) 703-8181",
     "websiteUrl": "https://www.southwestfarmersmarket.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=4460%20W%20Walnut%20St%2C%20Garland%20TX%2075042%2C%20Garland%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=4460%20W%20Walnut%20St%2C%20Garland%20TX%2075042%2C%20Garland%2C%20TX",
     "highlights": [
       "Market-Kitchen",
       "Multiple locations"
@@ -5848,7 +5848,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.751583712023,
     "phone": "(832) 391-6140",
     "websiteUrl": "https://kes-spicy-9ja-suya-spot.goto-where.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=811%20S%20Mason%20Rd%2C%20Katy%2C%20TX%2077450%2C%20Katy%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=811%20S%20Mason%20Rd%2C%20Katy%2C%20TX%2077450%2C%20Katy%2C%20TX",
     "highlights": [
       "Nigerian",
       "Nigerian"
@@ -5882,7 +5882,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.7361252,
     "phone": "(972) 863-8820",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Shuri%20African%20Restaurant%20Dallas%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9410%20Walnut%20St%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9410%20Walnut%20St%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -5916,7 +5916,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.714508794008,
     "phone": "(214) 831-3316",
     "websiteUrl": "https://asorocklounge.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9220%20Skillman%20St%20%23115%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9220%20Skillman%20St%20%23115%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
     "highlights": [
       "Nigerian",
       "Nigerian"
@@ -5951,7 +5951,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.829363599874,
     "phone": "(254) 592-1639",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Amie%27s%20African%20Kitchen%20%26%20Grill%20Dallas%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=4515%20Village%20Fair%20Dr%20Suite%20E4%2C%20Dallas%2C%20TX%2075224%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=4515%20Village%20Fair%20Dr%20Suite%20E4%2C%20Dallas%2C%20TX%2075224%2C%20Dallas%2C%20TX",
     "highlights": [
       "Senegalese, Nigerian",
       "Nigerian"
@@ -5986,7 +5986,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.735252205755,
     "phone": "(972) 543-3888",
     "websiteUrl": "https://fusionvibes.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=100%20S%20Central%20Expy%20%2350%2C%20Richardson%2C%20TX%2075080%2C%20Richardson%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=100%20S%20Central%20Expy%20%2350%2C%20Richardson%2C%20TX%2075080%2C%20Richardson%2C%20TX",
     "highlights": [
       "Nigerian/American Caribbean fusion",
       "Nigerian"
@@ -6021,7 +6021,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.7701202,
     "phone": "(469) 941-4545",
     "websiteUrl": "https://dallulrestaurantandbar.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=13021%20Coit%20Rd%20%23%2098%2C%20Dallas%2C%20TX%2075240%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=13021%20Coit%20Rd%20%23%2098%2C%20Dallas%2C%20TX%2075240%2C%20Dallas%2C%20TX",
     "highlights": [
       "Ethiopian",
       "African"
@@ -6057,7 +6057,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.846269328059,
     "phone": "(469) 892-6796",
     "websiteUrl": "https://www.cafenubiadfw.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3920%20Rosemeade%20Pkwy%20%23100%2C%20Dallas%2C%20TX%2075287%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3920%20Rosemeade%20Pkwy%20%23100%2C%20Dallas%2C%20TX%2075287%2C%20Dallas%2C%20TX",
     "highlights": [
       "African",
       "Mediterranean"
@@ -6091,7 +6091,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.7152666,
     "phone": "(214) 221-7276",
     "websiteUrl": "https://order.online/store/aggie's-african-restaurant-dallas-30920975",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9205%20Skillman%20St%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9205%20Skillman%20St%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -6124,7 +6124,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.845344312605,
     "phone": "(214) 731-6590",
     "websiteUrl": "https://aldeez.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3950%20Rosemeade%20Pkwy%20Suite%20100%2C%20Dallas%2C%20TX%2075287%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3950%20Rosemeade%20Pkwy%20Suite%20100%2C%20Dallas%2C%20TX%2075287%2C%20Dallas%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -6157,7 +6157,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.7157544,
     "phone": "(214) 964-0065",
     "websiteUrl": "https://oloriafricancuisine.net/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9203%20Skillman%20St%20suite%20114%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9203%20Skillman%20St%20suite%20114%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -6190,7 +6190,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.796652024017,
     "phone": "(469) 294-0003",
     "websiteUrl": "https://boxochops.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=8500%20Ohio%20Dr%20STE%20200%2C%20Plano%2C%20TX%2075024%2C%20Plano%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=8500%20Ohio%20Dr%20STE%20200%2C%20Plano%2C%20TX%2075024%2C%20Plano%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -6224,7 +6224,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.718660388311,
     "phone": "(469) 918-8188",
     "websiteUrl": "https://kannysrestaurant.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9780%20Walnut%20St%20%23138%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9780%20Walnut%20St%20%23138%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
     "highlights": [
       "Nigerian",
       "Nigerian"
@@ -6259,7 +6259,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.7200786,
     "phone": "(214) 503-0446",
     "websiteUrl": "https://www.facebook.com/MURPHYSMANSIONLIVE",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=10051%20Whitehurst%20Dr%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=10051%20Whitehurst%20Dr%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
     "highlights": [
       "Nigerian & American",
       "Nigerian"
@@ -6294,7 +6294,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.6307373,
     "phone": "(469) 298-2540",
     "websiteUrl": "https://saltandpepperkitchen.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2376%20Lavon%20Dr%20106%20A%2C%20Garland%2C%20TX%2075040%2C%20Garland%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2376%20Lavon%20Dr%20106%20A%2C%20Garland%2C%20TX%2075040%2C%20Garland%2C%20TX",
     "highlights": [
       "Nigerian",
       "Nigerian"
@@ -6328,7 +6328,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.019849017509,
     "phone": "(972) 641-7300",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Kemi%27s%20African%20Kitchen%20Grand%20Prairie%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1102%20W%20Pioneer%20Pkwy%20%23125%2C%20Grand%20Prairie%2C%20TX%2075051%2C%20Grand%20Prairie%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1102%20W%20Pioneer%20Pkwy%20%23125%2C%20Grand%20Prairie%2C%20TX%2075051%2C%20Grand%20Prairie%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -6361,7 +6361,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.0994604,
     "phone": "(682) 276-6400",
     "websiteUrl": "https://tsbuka.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=807%20E%20Arkansas%20Ln%2C%20Arlington%2C%20TX%2076010%2C%20Arlington%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=807%20E%20Arkansas%20Ln%2C%20Arlington%2C%20TX%2076010%2C%20Arlington%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -6395,7 +6395,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5156144,
     "phone": "(513) 633-5009",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Dibi%20Rapide%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=8637%20Richmond%20Ave.%2C%20Houston%2C%20TX%2077063%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=8637%20Richmond%20Ave.%2C%20Houston%2C%20TX%2077063%2C%20Houston%2C%20TX",
     "highlights": [
       "Senegalese",
       "West African"
@@ -6430,7 +6430,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6441418,
     "phone": "(832) 303-4715",
     "websiteUrl": "https://www.ubereats.com/store/kes-spicy-9ja-suya-spot-hwy-6/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=8559%20S%20Texas%206%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=8559%20S%20Texas%206%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "Nigerian",
       "Nigerian"
@@ -6464,7 +6464,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6345323,
     "phone": "(832) 363-3264",
     "websiteUrl": "https://www.doordash.com/en/store/afro-chow-suya-and-grills-houston-30968852/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=13905%20Westheimer%20Rd%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=13905%20Westheimer%20Rd%2C%20Houston%2C%20TX%2077077%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -6498,7 +6498,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.721887866969,
     "phone": "(281) 717-8179",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Agege%20Market%3A%20Royal%20Bakery%20and%20African%20Kitchen%20Katy%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=20140%20Morton%20Rd%20100%20Suite%23%20100%2C%20Katy%2C%20TX%2077449%2C%20Katy%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=20140%20Morton%20Rd%20100%20Suite%23%20100%2C%20Katy%2C%20TX%2077449%2C%20Katy%2C%20TX",
     "highlights": [
       "Pan-African",
       "Nigerian"
@@ -6532,7 +6532,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.645338431751,
     "phone": "(281) 530-2744",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Dominion%20African%20Food%20Mart%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6289%20S%20Texas%206%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=6289%20S%20Texas%206%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -6565,7 +6565,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.4289577,
     "phone": "(281) 895-6882",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=G%20%26%20J%20African%20Market%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=12810%20Veterans%20Memorial%20Dr%2C%20Houston%2C%20TX%2077014%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=12810%20Veterans%20Memorial%20Dr%2C%20Houston%2C%20TX%2077014%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -6598,7 +6598,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.614480695359,
     "phone": "(240) 476-3001",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=SweetFingers%20Cuisine%20African%20Market%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9118%20Synott%20Rd%20suite%20c%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9118%20Synott%20Rd%20suite%20c%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -6631,7 +6631,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.8283979,
     "phone": "(281) 922-8508",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Royalminds%20African%20Market%20Katy%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2711%20Katy%20Flewellen%20Rd%2C%20Katy%2C%20TX%2077494%2C%20Katy%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2711%20Katy%20Flewellen%20Rd%2C%20Katy%2C%20TX%2077494%2C%20Katy%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -6664,7 +6664,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.604784719866,
     "phone": "(832) 328-0898",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=AA%26T%20African%20Food%20Market%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3533%20S%20Dairy%20Ashford%20Rd%20suite%20e%2C%20Houston%2C%20TX%2077082%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3533%20S%20Dairy%20Ashford%20Rd%20suite%20e%2C%20Houston%2C%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -6698,7 +6698,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.745293717051,
     "phone": "(972) 238-9988",
     "websiteUrl": "https://citycafebakery.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=12101%20Greenville%20Ave%20%23%20103%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=12101%20Greenville%20Ave%20%23%20103%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
     "highlights": [
       "Ethiopian",
       "African"
@@ -6732,7 +6732,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.6053762,
     "phone": "(469) 399-3178",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=GS%20African%20Bakery%20Mesquite%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1827%20N%20Galloway%20Ave%2C%20Mesquite%2C%20TX%2075149%2C%20Mesquite%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1827%20N%20Galloway%20Ave%2C%20Mesquite%2C%20TX%2075149%2C%20Mesquite%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -6766,7 +6766,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.739449765292,
     "phone": "(469) 342-1704",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Moderena%20bakery%20and%20cafe%20Dallas%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9310%20Forest%20Ln%20Suite%20362%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9310%20Forest%20Ln%20Suite%20362%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
     "highlights": [
       "Ethiopian",
       "African"
@@ -6801,7 +6801,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.044322707396,
     "phone": "(972) 602-0601",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Our%20Lady%20Bakery%20Grand%20Prairie%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2905%20E%20Arkansas%20Ln%2C%20Grand%20Prairie%2C%20TX%2075052%2C%20Grand%20Prairie%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2905%20E%20Arkansas%20Ln%2C%20Grand%20Prairie%2C%20TX%2075052%2C%20Grand%20Prairie%2C%20TX",
     "highlights": [
       "Ghanaian",
       "West African"
@@ -6836,7 +6836,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.7139673,
     "phone": "(972) 598-0241",
     "websiteUrl": "https://www.jollyjollybakery.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9241%20Skillman%20St%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9241%20Skillman%20St%2C%20Dallas%2C%20TX%2075243%2C%20Dallas%2C%20TX",
     "highlights": [
       "Nigerian",
       "Nigerian"
@@ -6871,7 +6871,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.8372039,
     "phone": "(317) 289-1698",
     "websiteUrl": "https://lagoskitchen-dallas.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=921%20W%20Commerce%20St%2C%20Dallas%2C%20TX%2075208%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=921%20W%20Commerce%20St%2C%20Dallas%2C%20TX%2075208%2C%20Dallas%2C%20TX",
     "highlights": [
       "Nigerian",
       "Nigerian"
@@ -6906,7 +6906,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.3599537,
     "phone": "(317) 289-1698",
     "websiteUrl": "https://lagoskitchen-fortworth.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3004%20Cullen%20St%2C%20Fort%20Worth%2C%20TX%2076107%2C%20Fort%20Worth%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3004%20Cullen%20St%2C%20Fort%20Worth%2C%20TX%2076107%2C%20Fort%20Worth%2C%20TX",
     "highlights": [
       "Nigerian",
       "Nigerian"
@@ -6940,7 +6940,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.228591486673,
     "phone": "(817) 517-0954",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Olivia%E2%80%99s%20Scratch%20Kitchen%20Roanoke%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=206%20N%20Oak%20St%20Suite%20170%2C%20Roanoke%2C%20TX%2076262%2C%20Roanoke%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=206%20N%20Oak%20St%20Suite%20170%2C%20Roanoke%2C%20TX%2076262%2C%20Roanoke%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -6973,7 +6973,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.0983463,
     "phone": "(817) 286-4054",
     "websiteUrl": "https://jollofxpress.site/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=831%20NE%20Green%20Oaks%20Blvd%2C%20Arlington%2C%20TX%2076006%2C%20Arlington%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=831%20NE%20Green%20Oaks%20Blvd%2C%20Arlington%2C%20TX%2076006%2C%20Arlington%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -7006,7 +7006,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.634915935934,
     "phone": "(713) 264-9957",
     "websiteUrl": "https://soulsweetbakes.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=13977%20Westheimer%20Rd%20Suite%20A%2C%20Houston%2C%20TX%2077082%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=13977%20Westheimer%20Rd%20Suite%20A%2C%20Houston%2C%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -7040,7 +7040,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.64533664177,
     "phone": "(281) 530-9777",
     "websiteUrl": "https://jollyjollybakery.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6275%20S%20Texas%206%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=6275%20S%20Texas%206%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "Nigerian",
       "Nigerian"
@@ -7074,7 +7074,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6089323,
     "phone": "(832) 669-3300",
     "websiteUrl": "https://sweet-admirer.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=15044%20Beechnut%20St%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=15044%20Beechnut%20St%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -7108,7 +7108,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.670221018678,
     "phone": "(832) 230-3893",
     "websiteUrl": "https://wazobia.market/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=16203%20Westheimer%20Rd%20%23106%2C%20Houston%2C%20TX%2077082%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=16203%20Westheimer%20Rd%20%23106%2C%20Houston%2C%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "Nigerian, Ghanaian",
       "Nigerian"
@@ -7142,7 +7142,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5773907,
     "phone": "(713) 370-1637",
     "websiteUrl": "https://www.motherlandafricanfoodmarkets.com",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=11328%20Beechnut%20St%2C%20Houston%2C%20TX%2077072%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=11328%20Beechnut%20St%2C%20Houston%2C%20TX%2077072%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -7176,7 +7176,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.587397408937,
     "phone": "(281) 933-3663",
     "websiteUrl": "https://www.aliefafricanfoods.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9755%20S%20Kirkwood%20Rd%20Suite%20A%2C%20Houston%2C%20TX%2077099%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9755%20S%20Kirkwood%20Rd%20Suite%20A%2C%20Houston%2C%20TX%2077099%2C%20Houston%2C%20TX",
     "highlights": [
       "African, Nigerian, West African",
       "Nigerian"
@@ -7211,7 +7211,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.47625,
     "phone": "(713) 234-6527",
     "websiteUrl": "http://www.bahelmart.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6509%20Chimney%20Rock%20Rd%2C%20Houston%2C%20TX%2077081%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=6509%20Chimney%20Rock%20Rd%2C%20Houston%2C%20TX%2077081%2C%20Houston%2C%20TX",
     "highlights": [
       "Ethiopian",
       "African"
@@ -7245,7 +7245,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.720887675751,
     "phone": "(281) 758-8700",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Central%20African%20Market%20Cypress%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=7334%20Fry%20Rd%20SUITE%20D%2C%20Cypress%2C%20TX%2077433%2C%20Cypress%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=7334%20Fry%20Rd%20SUITE%20D%2C%20Cypress%2C%20TX%2077433%2C%20Cypress%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -7279,7 +7279,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.476418944371,
     "phone": "(713) 485-0378",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Harar%20Ethiopian%20Restaurant%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5506%20Bellaire%20Blvd%20ste%20c%2C%20Houston%2C%20TX%2077081%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5506%20Bellaire%20Blvd%20ste%20c%2C%20Houston%2C%20TX%2077081%2C%20Houston%2C%20TX",
     "highlights": [
       "Ethiopian",
       "African"
@@ -7314,7 +7314,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.4842231,
     "phone": "(346) 571-0966",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Adulis%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5800%20Bellaire%20Blvd%20%23102%2C%20Houston%2C%20TX%2077081%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5800%20Bellaire%20Blvd%20%23102%2C%20Houston%2C%20TX%2077081%2C%20Houston%2C%20TX",
     "highlights": [
       "Ethiopian",
       "African"
@@ -7349,7 +7349,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.496904266896,
     "phone": "(346) 319-5845",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Kenna%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6121%20Hillcroft%20Ave%20c1%2C%20Houston%2C%20TX%2077081%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=6121%20Hillcroft%20Ave%20c1%2C%20Houston%2C%20TX%2077081%2C%20Houston%2C%20TX",
     "highlights": [
       "Ethiopian",
       "African"
@@ -7383,7 +7383,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.480781,
     "phone": "(832) 790-3266",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Selam%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5701%20Bellaire%20Blvd%20d%2C%20Houston%2C%20TX%2077081%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5701%20Bellaire%20Blvd%20d%2C%20Houston%2C%20TX%2077081%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -7416,7 +7416,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.4085585,
     "phone": "(832) 516-8825",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=ZOA%20Moroccan%20Kitchen%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=4710%20Lillian%20St%2C%20Houston%2C%20TX%2077007%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=4710%20Lillian%20St%2C%20Houston%2C%20TX%2077007%2C%20Houston%2C%20TX",
     "highlights": [
       "Moroccan"
     ],
@@ -7449,7 +7449,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.573334937871,
     "phone": "(281) 372-9441",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=JML%20WORLDWIDE%20MINI%20MARKET%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=11030%20Bissonnet%20St%20Suite%20C1%2C%20Houston%2C%20TX%2077099%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=11030%20Bissonnet%20St%20Suite%20C1%2C%20Houston%2C%20TX%2077099%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -7482,7 +7482,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6008025,
     "phone": "(346) 400-7772",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Sunrise%20African%20Supermarket%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=12639%20Bissonnet%20St%2C%20Houston%2C%20TX%2077099%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=12639%20Bissonnet%20St%2C%20Houston%2C%20TX%2077099%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -7515,7 +7515,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5082094,
     "phone": "(713) 723-9006",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=African%20Farms%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=12320%20Fondren%20Rd%2C%20Houston%2C%20TX%2077035%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=12320%20Fondren%20Rd%2C%20Houston%2C%20TX%2077035%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -7548,7 +7548,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.64404054435,
     "phone": "(213) 461-3649",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Ije%20Africana%20Foods%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6748%20S%20Texas%206%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=6748%20S%20Texas%206%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -7581,7 +7581,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6142972,
     "phone": "(281) 498-2530",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Texas%20Grocers%20and%20Halal%20Meat%20Market%20%28Indo-Pak%20%26%20African%20Grocery%29%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=13221%20Old%20Richmond%20Rd%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=13221%20Old%20Richmond%20Rd%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -7614,7 +7614,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.516635487571,
     "phone": "(832) 884-5589",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Asante%20African%20Market%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=7555%20Bellaire%20Blvd%20A%2C%20Houston%2C%20TX%2077036%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=7555%20Bellaire%20Blvd%20A%2C%20Houston%2C%20TX%2077036%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -7647,7 +7647,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.4210246,
     "phone": "(240) 535-2979",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Man%20Must%20Wack%20African%20Food%20Market%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=8535%20FM%201464%20Suite%20100%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=8535%20FM%201464%20Suite%20100%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -7680,7 +7680,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.8136009,
     "phone": "(281) 762-0072",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Amazing%20Grace%20African%20Supermart%20Richmond%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=8323%20Farm%20to%20Market%20Rd%20723%20ste%20103%2C%20Richmond%2C%20TX%2077406%2C%20Richmond%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=8323%20Farm%20to%20Market%20Rd%20723%20ste%20103%2C%20Richmond%2C%20TX%2077406%2C%20Richmond%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -7713,7 +7713,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.692430779195,
     "phone": "(832) 449-3014",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=GP%20African%20Foods%20Richmond%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=20400%20Southwest%20Fwy%20Suite%20130%2C%20Richmond%2C%20TX%2077469%2C%20Richmond%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=20400%20Southwest%20Fwy%20Suite%20130%2C%20Richmond%2C%20TX%2077469%2C%20Richmond%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -7746,7 +7746,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5972586,
     "phone": "(281) 408-9618",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=En%20Sisters%20African%20Market%20Sugarland%20Sugar%20Land%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2444%20Settlers%20Way%20Blvd%2C%20Sugar%20Land%2C%20TX%2077479%2C%20Sugar%20Land%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2444%20Settlers%20Way%20Blvd%2C%20Sugar%20Land%2C%20TX%2077479%2C%20Sugar%20Land%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -7780,7 +7780,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.759579295181,
     "phone": "(281) 762-1770",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Divine%20Essentials%20African%20Market%20Katy%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6355%20S%20Peek%20Rd%20%23300%2C%20Katy%2C%20TX%2077450%2C%20Katy%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=6355%20S%20Peek%20Rd%20%23300%2C%20Katy%2C%20TX%2077450%2C%20Katy%2C%20TX",
     "highlights": [
       "Ghanaian",
       "West African"
@@ -7814,7 +7814,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.364448342546,
     "phone": "(832) 243-6123",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Pearland%20African%20Depot%20and%20Grocery%20Pearland%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9607%20Broadway%20St%20%23117%2C%20Pearland%2C%20TX%2077584%2C%20Pearland%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9607%20Broadway%20St%20%23117%2C%20Pearland%2C%20TX%2077584%2C%20Pearland%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -7847,7 +7847,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.8064604,
     "phone": "(972) 748-8014",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Amazing%20Occasion%20Custom%20Cakes%20LLC%20Dallas%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1149%20E%20Red%20Bird%20Ln%2C%20Dallas%2C%20TX%2075241%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1149%20E%20Red%20Bird%20Ln%2C%20Dallas%2C%20TX%2075241%2C%20Dallas%2C%20TX",
     "highlights": [
       "Cakes, Custom Confections"
     ],
@@ -7880,7 +7880,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.843708220869,
     "phone": "(214) 393-4390",
     "websiteUrl": "https://asorockmarket.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=18110%20Midway%20Rd%20Ste%20208%2C%20Dallas%2C%20TX%2075287%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=18110%20Midway%20Rd%20Ste%20208%2C%20Dallas%2C%20TX%2075287%2C%20Dallas%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -7914,7 +7914,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.8121537,
     "phone": "(945) 393-7660",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Suya%20Feast%20Dallas%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=842%20E%20Jefferson%20Blvd%2C%20Dallas%2C%20TX%2075203%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=842%20E%20Jefferson%20Blvd%2C%20Dallas%2C%20TX%2075203%2C%20Dallas%2C%20TX",
     "highlights": [
       "Nigerian",
       "Nigerian"
@@ -7949,7 +7949,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.8784982,
     "phone": "(469) 319-1228",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Street%20Suya%20Dallas%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1499%20Regal%20Row%2C%20Dallas%2C%20TX%2075247%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1499%20Regal%20Row%2C%20Dallas%2C%20TX%2075247%2C%20Dallas%2C%20TX",
     "highlights": [
       "Nigerian",
       "Nigerian"
@@ -7983,7 +7983,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.943076231967,
     "phone": "(972) 803-3669",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Bea%27s%20catering%20Nigeria%20%26%20Soul%20Food%20Dallas%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9605%20Clark%20Rd%20Suite%20100%2C%20Dallas%2C%20TX%2075249%2C%20Dallas%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9605%20Clark%20Rd%20Suite%20100%2C%20Dallas%2C%20TX%2075249%2C%20Dallas%2C%20TX",
     "highlights": [
       "Nigerian, Soul Food",
       "Nigerian"
@@ -8018,7 +8018,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.7016746,
     "phone": "(832) 970-0631",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Kitchen234%20-%20Nigerian%20Restaurant%20Austin%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=510%20E%20Anderson%20Ln%2C%20Austin%2C%20TX%2078752%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=510%20E%20Anderson%20Ln%2C%20Austin%2C%20TX%2078752%2C%20Austin%2C%20TX",
     "highlights": [
       "Nigerian, African",
       "Nigerian"
@@ -8052,7 +8052,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.6564437,
     "phone": "(512) 953-3512",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=gladwin%20kitchen%20Austin%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=800%20Sawbuck%20Dr%2C%20Austin%2C%20TX%2078660%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=800%20Sawbuck%20Dr%2C%20Austin%2C%20TX%2078660%2C%20Austin%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -8086,7 +8086,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.762142720643,
     "phone": "(512) 814-3141",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Taste%20of%20Ethiopia%20II%20Austin%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3801%20S%20Congress%20Ave%20%23107%2C%20Austin%2C%20TX%2078704%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3801%20S%20Congress%20Ave%20%23107%2C%20Austin%2C%20TX%2078704%2C%20Austin%2C%20TX",
     "highlights": [
       "Ethiopian",
       "African"
@@ -8121,7 +8121,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.8335819,
     "phone": "(512) 522-0920",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Injera%20%26%20Beyond%20Cedar%20Park%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=410%20W%20Whitestone%20Blvd%2C%20Cedar%20Park%2C%20TX%2078613%2C%20Cedar%20Park%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=410%20W%20Whitestone%20Blvd%2C%20Cedar%20Park%2C%20TX%2078613%2C%20Cedar%20Park%2C%20TX",
     "highlights": [
       "Ethiopian",
       "African"
@@ -8156,7 +8156,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.6833178,
     "phone": "(512) 291-7281",
     "websiteUrl": "https://megenagna-cafe.com/Home",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2013%20Wells%20Branch%20Pkwy%2C%20Austin%2C%20TX%2078728%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2013%20Wells%20Branch%20Pkwy%2C%20Austin%2C%20TX%2078728%2C%20Austin%2C%20TX",
     "highlights": [
       "Ethiopian",
       "African"
@@ -8191,7 +8191,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.6508544,
     "phone": "(512) 251-4053",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Taste%20of%20Ethiopia%20I%20Pflugerville%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1100%20Grand%20Ave%20Pkwy%20Suite%20100%2C%20Pflugerville%2C%20TX%2078660%2C%20Pflugerville%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1100%20Grand%20Ave%20Pkwy%20Suite%20100%2C%20Pflugerville%2C%20TX%2078660%2C%20Pflugerville%2C%20TX",
     "highlights": [
       "Ethiopian",
       "African"
@@ -8226,7 +8226,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.69343665015,
     "phone": "(512) 215-2863",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Selam%20International%20Mart%20%26%20Cafe%20Austin%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=10009%20N%20Lamar%20Blvd%20b%2C%20Austin%2C%20TX%2078753%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=10009%20N%20Lamar%20Blvd%20b%2C%20Austin%2C%20TX%2078753%2C%20Austin%2C%20TX",
     "highlights": [
       "Ethiopian",
       "African"
@@ -8261,7 +8261,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.7205535,
     "phone": "(512) 736-9174",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=LE%20Meals%20Austin%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=4305%20Red%20River%20St%2C%20Austin%2C%20TX%2078751%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=4305%20Red%20River%20St%2C%20Austin%2C%20TX%2078751%2C%20Austin%2C%20TX",
     "highlights": [
       "Gullah-Geechee",
       "Fusion"
@@ -8295,7 +8295,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.7382926,
     "phone": "(737) 235-2705",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=TCHIADAI%20Austin%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=94%20Rainey%20St%2C%20Austin%2C%20TX%2078701%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=94%20Rainey%20St%2C%20Austin%2C%20TX%2078701%2C%20Austin%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -8328,7 +8328,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.687530767657,
     "phone": "(702) 884-2132",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Mama%20Hono%20Round%20Rock%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1201%20S%20I-35%20Frontage%20Rd%20%23306%2C%20Round%20Rock%2C%20TX%2078664%2C%20Round%20Rock%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1201%20S%20I-35%20Frontage%20Rd%20%23306%2C%20Round%20Rock%2C%20TX%2078664%2C%20Round%20Rock%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -8361,7 +8361,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.693463157255,
     "phone": "(512) 284-7917",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Nikala%20Round%20Rock%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1205%20Round%20Rock%20Ave%20%23115%2C%20Round%20Rock%2C%20TX%2078681%2C%20Round%20Rock%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1205%20Round%20Rock%20Ave%20%23115%2C%20Round%20Rock%2C%20TX%2078681%2C%20Round%20Rock%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -8394,7 +8394,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.630111127173,
     "phone": "(512) 969-3083",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Sumah%20African%20and%20Caribbean%20store%20Pflugerville%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=100%2012th%20St%20%23108B%2C%20Pflugerville%2C%20TX%2078660%2C%20Pflugerville%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=100%2012th%20St%20%23108B%2C%20Pflugerville%2C%20TX%2078660%2C%20Pflugerville%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -8427,7 +8427,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.7091984,
     "phone": "(737) 881-0076",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=R%26B%20Eatery%20Georgetown%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=4124%20Williams%20Dr%2C%20Georgetown%2C%20TX%2078628%2C%20Georgetown%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=4124%20Williams%20Dr%2C%20Georgetown%2C%20TX%2078628%2C%20Georgetown%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -8460,7 +8460,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.660058953891,
     "phone": "(737) 877-0306",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Suya%20Grillhouse%20Austin%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=12601%20Tech%20Ridge%20Blvd%20Suite%20A300%2C%20Austin%2C%20TX%2078753%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=12601%20Tech%20Ridge%20Blvd%20Suite%20A300%2C%20Austin%2C%20TX%2078753%2C%20Austin%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -8493,7 +8493,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.7069557,
     "phone": "(512) 402-8133",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=AfroGrill%20ATX%20Austin%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=12363%20Waters%20Park%20Rd%2C%20Austin%2C%20TX%2078759%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=12363%20Waters%20Park%20Rd%2C%20Austin%2C%20TX%2078759%2C%20Austin%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -8526,7 +8526,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.740025,
     "phone": "(737) 202-4886",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Guinea%20Conakry%20Austin%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=318%20E%205th%20St.%2C%20Austin%2C%20TX%2078701%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=318%20E%205th%20St.%2C%20Austin%2C%20TX%2078701%2C%20Austin%2C%20TX",
     "highlights": [
       "West African"
     ],
@@ -8559,7 +8559,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.6818912,
     "phone": "(512) 379-8308",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Annieteej-finger-chops%20Austin%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=11216%20Georgian%20Dr%2C%20Austin%2C%20TX%2078753%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=11216%20Georgian%20Dr%2C%20Austin%2C%20TX%2078753%2C%20Austin%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -8592,7 +8592,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.7295311,
     "phone": "(512) 717-2504",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Distant%20Relatives%20Austin%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3901%20Promontory%20Point%20Dr%2C%20Austin%2C%20TX%2078744%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3901%20Promontory%20Point%20Dr%2C%20Austin%2C%20TX%2078744%2C%20Austin%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -8625,7 +8625,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.687290716492,
     "phone": "(512) 339-4535",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Africarib%20Market%20Austin%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=825%20E%20Rundberg%20Ln%20f%205%2C%20Austin%2C%20TX%2078753%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=825%20E%20Rundberg%20Ln%20f%205%2C%20Austin%2C%20TX%2078753%2C%20Austin%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -8658,7 +8658,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.6872009,
     "phone": "(512) 508-8832",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Sweet%20Charli%20Girl%20Austin%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1300%20E%20Anderson%20Ln%20Bldg%20D%2C%20Austin%2C%20TX%2078752%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1300%20E%20Anderson%20Ln%20Bldg%20D%2C%20Austin%2C%20TX%2078752%2C%20Austin%2C%20TX",
     "highlights": [
       "American (Cakes, Cookies, Desserts)"
     ],
@@ -8691,7 +8691,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.6051529,
     "phone": "(737) 336-1152",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Tili%27s%20Bakery%20Austin%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=6916%20Midlothian%20Dr%2C%20Austin%2C%20TX%2078754%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=6916%20Midlothian%20Dr%2C%20Austin%2C%20TX%2078754%2C%20Austin%2C%20TX",
     "highlights": [
       "American (Cakes, Desserts)"
     ],
@@ -8724,7 +8724,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.6508544,
     "phone": "(512) 262-9983",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Suga%27s%20Cakery%20Pflugerville%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1100%20Grand%20Ave%20Pkwy%20%23112%2C%20Pflugerville%2C%20TX%2078660%2C%20Pflugerville%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1100%20Grand%20Ave%20Pkwy%20%23112%2C%20Pflugerville%2C%20TX%2078660%2C%20Pflugerville%2C%20TX",
     "highlights": [
       "American (Cakes, Desserts)"
     ],
@@ -8757,7 +8757,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.617375557029,
     "phone": "(609) 401-0090",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Cranky%20Granny%27s%20Sweet%20Rolls%20Pflugerville%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=16051%20Dessau%20Rd%20suite%20f%2C%20Pflugerville%2C%20TX%2078660%2C%20Pflugerville%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=16051%20Dessau%20Rd%20suite%20f%2C%20Pflugerville%2C%20TX%2078660%2C%20Pflugerville%2C%20TX",
     "highlights": [
       "American (Sweet Rolls, Desserts)"
     ],
@@ -8790,7 +8790,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.6537033,
     "phone": "(210) 725-6392",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Abundantly%20Filled%20Bakery%20Pflugerville%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1401%20Idaho%20Falls%20Cove%2C%20Pflugerville%2C%20TX%2078660%2C%20Pflugerville%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1401%20Idaho%20Falls%20Cove%2C%20Pflugerville%2C%20TX%2078660%2C%20Pflugerville%2C%20TX",
     "highlights": [
       "American (Baked Goods)"
     ],
@@ -8823,7 +8823,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.6777372,
     "phone": "(512) 869-2911",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Sugar%20Mommy%E2%80%99s%20Georgetown%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1215%20S%20Austin%20Ave%2C%20Georgetown%2C%20TX%2078626%2C%20Georgetown%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1215%20S%20Austin%20Ave%2C%20Georgetown%2C%20TX%2078626%2C%20Georgetown%2C%20TX",
     "highlights": [
       "American (Cakes, Desserts)"
     ],
@@ -8856,7 +8856,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.6584215,
     "phone": "(512) 620-4179",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Africa%E2%80%99s%20Best%20Food%20Market%20Pflugerville%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1615%20Grand%20Ave%20Pkwy%2C%20Pflugerville%2C%20TX%2078660%2C%20Pflugerville%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1615%20Grand%20Ave%20Pkwy%2C%20Pflugerville%2C%20TX%2078660%2C%20Pflugerville%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -8889,7 +8889,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.782035870235,
     "phone": "(512) 318-6930",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=ALFASON%20AFRICAN%20MARKET%20Cedar%20Park%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=13010%20W%20Parmer%20Ln%20STE%20400%2C%20Cedar%20Park%2C%20TX%2078613%2C%20Cedar%20Park%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=13010%20W%20Parmer%20Ln%20STE%20400%2C%20Cedar%20Park%2C%20TX%2078613%2C%20Cedar%20Park%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -8922,7 +8922,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.6565517,
     "phone": "(512) 373-3023",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Afriqmart%20african%20and%20caribbean%20foods.%20Pflugerville%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2700%20W%20Pecan%20St%20%23203%2C%20Pflugerville%2C%20TX%2078660%2C%20Pflugerville%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2700%20W%20Pecan%20St%20%23203%2C%20Pflugerville%2C%20TX%2078660%2C%20Pflugerville%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -8955,7 +8955,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.601639113793,
     "phone": "(512) 287-9182",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Fashion%20Bethel%20African%20Market%20Round%20Rock%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=20029%20Tree%20Sap%20Way%2C%20Round%20Rock%2C%20TX%2078664%2C%20Round%20Rock%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=20029%20Tree%20Sap%20Way%2C%20Round%20Rock%2C%20TX%2078664%2C%20Round%20Rock%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -8989,7 +8989,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -98.6431066,
     "phone": "(210) 600-4166",
     "websiteUrl": "https://ultrakitchenrestaurantscatering.restaurants-info.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=7870%20Culebra%20Rd%2C%20San%20Antonio%2C%20TX%2078251%2C%20San%20Antonio%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=7870%20Culebra%20Rd%2C%20San%20Antonio%2C%20TX%2078251%2C%20San%20Antonio%2C%20TX",
     "highlights": [
       "Nigerian",
       "West African"
@@ -9023,7 +9023,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -98.598625,
     "phone": "(210) 706-9700",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Moroccan%20Bites%20Tajine%20San%20Antonio%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5718%20Evers%20Rd%2C%20San%20Antonio%2C%20TX%2078238%2C%20San%20Antonio%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5718%20Evers%20Rd%2C%20San%20Antonio%2C%20TX%2078238%2C%20San%20Antonio%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -9056,7 +9056,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -98.4182642,
     "phone": "(404) 428-8599",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Tj%20African%20market%20foodtruck%20San%20Antonio%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=7114%20Harlow%20Dr%2C%20San%20Antonio%2C%20TX%2078218%2C%20San%20Antonio%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=7114%20Harlow%20Dr%2C%20San%20Antonio%2C%20TX%2078218%2C%20San%20Antonio%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -9089,7 +9089,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -98.5984479,
     "phone": "(210) 862-7284",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Blessing%20African%20Food%20Store%20San%20Antonio%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5715%20Evers%20Rd%2C%20San%20Antonio%2C%20TX%2078238%2C%20San%20Antonio%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5715%20Evers%20Rd%2C%20San%20Antonio%2C%20TX%2078238%2C%20San%20Antonio%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -9122,7 +9122,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -98.5987577,
     "phone": "(210) 672-7565",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Eagle%20African%20Market%20San%20Antonio%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5728%20Evers%20Rd%2C%20San%20Antonio%2C%20TX%2078238%2C%20San%20Antonio%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5728%20Evers%20Rd%2C%20San%20Antonio%2C%20TX%2078238%2C%20San%20Antonio%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -9155,7 +9155,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -98.603686,
     "phone": "(210) 465-9692",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=First%20Choice%20International%20Supermarket%20Leon%20Valley%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5712%20Wurzbach%20Rd%2C%20Leon%20Valley%2C%20TX%2078238%2C%20Leon%20Valley%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5712%20Wurzbach%20Rd%2C%20Leon%20Valley%2C%20TX%2078238%2C%20Leon%20Valley%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -9189,7 +9189,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.64339059661,
     "phone": "(281) 741-0033",
     "websiteUrl": "https://giftedafricankitchen.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9435%20S%20Texas%206%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9435%20S%20Texas%206%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "Nigerian",
       "West African"
@@ -9223,7 +9223,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.643614379135,
     "phone": "(832) 788-4525",
     "websiteUrl": "https://africanarenamarket.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9220%20S%20Texas%206%20Suite%20B%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9220%20S%20Texas%206%20Suite%20B%2C%20Houston%2C%20TX%2077083%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -9257,7 +9257,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.604813,
     "phone": "(281) 372-6296",
     "websiteUrl": "https://www.ubereats.com/store/food-galaxy-african-kitchen-%26-store/5lYX-8uoVFiZbaJlWi53JA",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3884%20S%20Dairy%20Ashford%20Rd%2C%20Houston%2C%20TX%2077082%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3884%20S%20Dairy%20Ashford%20Rd%2C%20Houston%2C%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "African",
       "Nigerian"
@@ -9291,7 +9291,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6179616,
     "phone": "(832) 500-4951",
     "websiteUrl": "https://jolaskitchen.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=16521%20W%20Bellfort%20Ave%20Suite%20L%2C%20Sugar%20Land%2C%20TX%2077498%2C%20Sugar%20Land%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=16521%20W%20Bellfort%20Ave%20Suite%20L%2C%20Sugar%20Land%2C%20TX%2077498%2C%20Sugar%20Land%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -9324,7 +9324,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.719780831731,
     "phone": "(346) 946-6993",
     "websiteUrl": "https://www.instagram.com/asanismarket/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3756%20N%20Fry%20Rd%2C%20Katy%2C%20TX%2077449%2C%20Katy%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3756%20N%20Fry%20Rd%2C%20Katy%2C%20TX%2077449%2C%20Katy%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -9358,7 +9358,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.8108855,
     "phone": "(346) 758-9577",
     "websiteUrl": "https://doualaeats.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=25250%20Laird%20Knoll%20St%2C%20Katy%2C%20TX%2077493%2C%20Katy%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25250%20Laird%20Knoll%20St%2C%20Katy%2C%20TX%2077493%2C%20Katy%2C%20TX",
     "highlights": [
       "Cameroonian",
       "West African"
@@ -9393,7 +9393,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5661039,
     "phone": "(281) 640-4444",
     "websiteUrl": "https://www.facebook.com/HiLoafricancaribbeanfoodmarket",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9111%20Cypress%20Creek%20Pkwy%20Suite%20B%2C%20Houston%2C%20TX%2077070%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9111%20Cypress%20Creek%20Pkwy%20Suite%20B%2C%20Houston%2C%20TX%2077070%2C%20Houston%2C%20TX",
     "highlights": [
       "African",
       "Caribbean"
@@ -9427,7 +9427,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.737181173515,
     "phone": "(281) 656-8563",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Noah%27s%20African%20Market%20Cypress%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=21211%20FM%20529%20Suite%20107%2C%20Cypress%2C%20TX%2077433%2C%20Cypress%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=21211%20FM%20529%20Suite%20107%2C%20Cypress%2C%20TX%2077433%2C%20Cypress%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -9462,7 +9462,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.649537599611,
     "phone": "(346) 541-8843",
     "websiteUrl": "https://chigrocery.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=14800%20Westheimer%20Rd%20Suite%20L%2C%20Houston%2C%20TX%2077082%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=14800%20Westheimer%20Rd%20Suite%20L%2C%20Houston%2C%20TX%2077082%2C%20Houston%2C%20TX",
     "highlights": [
       "African",
       "Caribbean",
@@ -9498,7 +9498,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.705915027674,
     "phone": "(281) 815-5352",
     "websiteUrl": "https://www.flourybites.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5751%20Greenhouse%20Rd%20Suite%20102%2C%20Katy%2C%20TX%2077449%2C%20Katy%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5751%20Greenhouse%20Rd%20Suite%20102%2C%20Katy%2C%20TX%2077449%2C%20Katy%2C%20TX",
     "highlights": [
       "Nigerian",
       "West African"
@@ -9533,7 +9533,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6009798,
     "phone": "(832) 328-5054",
     "websiteUrl": "https://www.clover.com/online-ordering/olachis-place-houston",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=12647%20Bissonnet%20St%2C%20Houston%2C%20TX%2077099%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=12647%20Bissonnet%20St%2C%20Houston%2C%20TX%2077099%2C%20Houston%2C%20TX",
     "highlights": [
       "Nigerian",
       "West African"
@@ -9568,7 +9568,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.549613041841,
     "phone": "(832) 768-5973",
     "websiteUrl": "https://sabosuya.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=9405%20Country%20Creek%20St%2C%20Houston%2C%20TX%2077036%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9405%20Country%20Creek%20St%2C%20Houston%2C%20TX%2077036%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Suya"
@@ -9602,7 +9602,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.449597268671,
     "phone": "(832) 246-8226",
     "websiteUrl": "https://olateeafricanmart.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=501%20Sawdust%20Rd%20Suite%20K%2C%20Spring%2C%20TX%2077380%2C%20Spring%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=501%20Sawdust%20Rd%20Suite%20K%2C%20Spring%2C%20TX%2077380%2C%20Spring%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -9635,7 +9635,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.778105480493,
     "phone": "(832) 542-2551",
     "websiteUrl": "https://www.instagram.com/hiswayafricangrocerystore/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=3507%20Paintbrush%20Dawn%20Ct%2C%20Katy%2C%20TX%2077493%2C%20Katy%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3507%20Paintbrush%20Dawn%20Ct%2C%20Katy%2C%20TX%2077493%2C%20Katy%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -9668,7 +9668,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.752065028838,
     "phone": "(469) 396-2788",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Triumphant%20Food%20Store%20Katy%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=1959%20N%20Mason%20Rd%2C%20Katy%2C%20TX%2077449%2C%20Katy%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1959%20N%20Mason%20Rd%2C%20Katy%2C%20TX%2077449%2C%20Katy%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -9701,7 +9701,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.8093125,
     "phone": "(832) 674-6644",
     "websiteUrl": "https://mysasun.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=19980%20Franz%20Rd%2C%20Katy%2C%20TX%2077449%2C%20Katy%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=19980%20Franz%20Rd%2C%20Katy%2C%20TX%2077449%2C%20Katy%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -9734,7 +9734,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.8058545,
     "phone": "(832) 503-5392",
     "websiteUrl": "https://havilahafricanfoodmarket.carrd.co/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=19540%20Clay%20Rd%2C%20Katy%2C%20TX%2077449%2C%20Katy%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=19540%20Clay%20Rd%2C%20Katy%2C%20TX%2077449%2C%20Katy%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -9767,7 +9767,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.71883417887,
     "phone": "(281) 861-0414",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Dominion%20African%20Food%20Katy%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5444%20N%20Fry%20Rd%2C%20Katy%2C%20TX%2077449%2C%20Katy%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5444%20N%20Fry%20Rd%2C%20Katy%2C%20TX%2077449%2C%20Katy%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -9800,7 +9800,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.681247696515,
     "phone": "(281) 861-9414",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Unified%20African%20Food%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=18174%20River%20Sage%20Dr%2C%20Houston%2C%20TX%2077084%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=18174%20River%20Sage%20Dr%2C%20Houston%2C%20TX%2077084%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -9834,7 +9834,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.6852288,
     "phone": "(281) 861-9414",
     "websiteUrl": "https://united-african.edan.io/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5500%20Barker%20Cypress%20Rd%2C%20Houston%2C%20TX%2077084%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5500%20Barker%20Cypress%20Rd%2C%20Houston%2C%20TX%2077084%2C%20Houston%2C%20TX",
     "highlights": [
       "African",
       "Caribbean"
@@ -9868,7 +9868,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.686974495504,
     "phone": "(281) 965-4851",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=FoodMattas%20African%20Grocery%20Store%20Richmond%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=8433%20FM%201464%20Suite%20C%26D%2C%20Richmond%2C%20TX%2077407%2C%20Richmond%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=8433%20FM%201464%20Suite%20C%26D%2C%20Richmond%2C%20TX%2077407%2C%20Richmond%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -9902,7 +9902,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.645012307947,
     "phone": "(346) 381-4449",
     "websiteUrl": "https://heritagenaijakitchen.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=5700%20Hwy%206%20N%20Suite%20180%2C%20Houston%2C%20TX%2077084%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=5700%20Hwy%206%20N%20Suite%20180%2C%20Houston%2C%20TX%2077084%2C%20Houston%2C%20TX",
     "highlights": [
       "West African",
       "Nigerian"
@@ -9936,7 +9936,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.603039231315,
     "phone": "(281) 498-7747",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Glory%20of%20God%20African%20Food%20Store%20Houston%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=12719%20Bissonnet%20St%20%23A%2C%20Houston%2C%20TX%2077099%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=12719%20Bissonnet%20St%20%23A%2C%20Houston%2C%20TX%2077099%2C%20Houston%2C%20TX",
     "highlights": [
       "African"
     ],
@@ -9970,7 +9970,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5693935,
     "phone": "(832) 203-7653",
     "websiteUrl": "https://www.ubereats.com/store/kc-african-store-10924-westheimer-road",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=10928%20Westheimer%20Rd%2C%20Houston%2C%20TX%2077042%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=10928%20Westheimer%20Rd%2C%20Houston%2C%20TX%2077042%2C%20Houston%2C%20TX",
     "highlights": [
       "African",
       "Nigerian"
@@ -10005,7 +10005,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5697144,
     "phone": "(346) 434-1010",
     "websiteUrl": "https://wazobiaafricankitchen.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=10834%20Beechnut%20St%2C%20Houston%2C%20TX%2077072%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=10834%20Beechnut%20St%2C%20Houston%2C%20TX%2077072%2C%20Houston%2C%20TX",
     "highlights": [
       "African",
       "Nigerian"
@@ -10040,7 +10040,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -95.5376907,
     "phone": "(346) 848-2986",
     "websiteUrl": "https://labelleetoileafricankitchen.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2352%20Cypress%20Creek%20Pkwy%2C%20Houston%2C%20TX%2077068%2C%20Houston%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2352%20Cypress%20Creek%20Pkwy%2C%20Houston%2C%20TX%2077068%2C%20Houston%2C%20TX",
     "highlights": [
       "Cameroonian",
       "West African"
@@ -10075,7 +10075,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.8301343,
     "phone": "(972) 239-3290",
     "websiteUrl": "https://www.thequeensheba.com/",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=14875%20Inwood%20Rd%2C%20Addison%2C%20TX%2075001%2C%20Addison%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=14875%20Inwood%20Rd%2C%20Addison%2C%20TX%2075001%2C%20Addison%2C%20TX",
     "highlights": [
       "Ethiopian",
       "Vegan"
@@ -10110,7 +10110,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -96.442371293047,
     "phone": "(469) 619-7677",
     "websiteUrl": "https://www.google.com/maps/search/?api=1&query=Olobe%27s%20Kitchen%20Lavon%20TX",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=440%20S%20State%20Hwy%2078%20Suite%20220A%2C%20Lavon%2C%20TX%2075166%2C%20Lavon%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=440%20S%20State%20Hwy%2078%20Suite%20220A%2C%20Lavon%2C%20TX%2075166%2C%20Lavon%2C%20TX",
     "highlights": [
       "Nigerian",
       "West African"
@@ -10145,7 +10145,7 @@ export const RESTAURANTS: Restaurant[] = [
     "longitude": -97.725988,
     "phone": "(512) 469-5966",
     "websiteUrl": "https://thevendry.com/venue/174374/asters-ethiopian-restaurant-austin-tx",
-    "mapsUrl": "https://www.openstreetmap.org/search?query=2804%20N%20Interstate%20Hwy%2035%2C%20Austin%2C%20TX%2078705%2C%20Austin%2C%20TX",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2804%20N%20Interstate%20Hwy%2035%2C%20Austin%2C%20TX%2078705%2C%20Austin%2C%20TX",
     "highlights": [
       "Ethiopian",
       "Vegan"
