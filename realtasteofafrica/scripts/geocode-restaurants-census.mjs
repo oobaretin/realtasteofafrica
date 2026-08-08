@@ -19,7 +19,7 @@ const ROOT = process.cwd()
 const INPUT = path.resolve(ROOT, "data", "restaurants.csv")
 const NOMINATIM_DELAY_MS = 1100
 const USER_AGENT =
-  "RealTasteOfAfrica-directory/1.0 (+https://www.realtasteofafrica.com; contact: admin@realtasteofafrica.com)"
+  "RealTasteOfAfrica-directory/1.0 (+https://www.realtasteofafrica.com; contact: contact@realtasteofafrica.com)"
 
 function hasFlag(flag) {
   return process.argv.includes(flag)
