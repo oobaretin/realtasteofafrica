@@ -1,6 +1,7 @@
 import { Fraunces, Inter } from "next/font/google"
 import type { Metadata, Viewport } from "next"
 import type { ReactNode } from "react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import "./globals.css"
 import { OfflineBanner } from "@/components/OfflineBanner"
@@ -69,6 +70,7 @@ export default function RootLayout({
           </main>
           <SiteFooter />
         </div>
+        <SpeedInsights />
       </body>
     </html>
   )
